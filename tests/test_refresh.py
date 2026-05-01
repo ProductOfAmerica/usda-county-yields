@@ -732,5 +732,51 @@ class LeafShapeAssertTest(EmitTestBase):
             refresh._assert_leaf_shape(bad)
 
 
+class IsCaughtUpTest(unittest.TestCase):
+    """is_caught_up predicate distinguishes 'nothing to do' from 'NASS missing'."""
+
+    def test_today_equals_last_known(self) -> None:
+        self.assertTrue(refresh.is_caught_up(date(2026, 5, 1), date(2026, 5, 1)))
+
+    def test_last_known_in_future(self) -> None:
+        # Clock-skew defensive: still treat as caught-up.
+        self.assertTrue(refresh.is_caught_up(date(2026, 5, 2), date(2026, 5, 1)))
+
+    def test_last_known_yesterday(self) -> None:
+        self.assertFalse(refresh.is_caught_up(date(2026, 4, 30), date(2026, 5, 1)))
+
+    def test_bootstrap(self) -> None:
+        self.assertFalse(refresh.is_caught_up(None, date(2026, 5, 1)))
+
+
+class MainCaughtUpTest(unittest.TestCase):
+    """main() returns exit 0 (not 1) on a same-day rerun."""
+
+    def setUp(self) -> None:
+        self._original_load = refresh.load_state
+        self._original_ping = refresh.ping_healthchecks
+        self._ping_calls = 0
+
+        def _fake_ping() -> None:
+            self._ping_calls += 1
+
+        refresh.load_state = lambda: {
+            "last_successful_date": "2026-05-01",
+            "last_etag": "etag-from-prior-run",
+        }
+        refresh.ping_healthchecks = _fake_ping
+
+    def tearDown(self) -> None:
+        refresh.load_state = self._original_load
+        refresh.ping_healthchecks = self._original_ping
+
+    def test_main_returns_zero_when_already_caught_up_today(self) -> None:
+        # Before this fix, this same-day rerun returned 1 because discover()
+        # produced an empty window and main() hit the "no fresh file" path.
+        result = refresh.main(today=date(2026, 5, 1))
+        self.assertEqual(result, 0)
+        self.assertEqual(self._ping_calls, 1)
+
+
 if __name__ == "__main__":
     unittest.main()

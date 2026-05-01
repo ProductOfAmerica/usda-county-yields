@@ -98,6 +98,16 @@ def head_request(url: str) -> Optional[dict]:
         raise
 
 
+def is_caught_up(last_known: Optional[date], today: date) -> bool:
+    """True if we already processed today's (or later) NASS publication.
+
+    Distinguishes the benign "nothing to do" case from the alert-worthy
+    "NASS missing for 14 days" case so a same-day workflow_dispatch
+    rerun returns exit 0 instead of exit 1.
+    """
+    return last_known is not None and last_known >= today
+
+
 def discover(last_known: Optional[date], today: date) -> Optional[dict]:
     """Find the most recent NASS bulk file URL within the probe window.
 
@@ -654,6 +664,10 @@ def main(today: Optional[date] = None) -> int:
     last_etag = state.get("last_etag")
 
     print(f"Last known publication: {last_known}; today: {today}")
+    if is_caught_up(last_known, today):
+        print(f"Already caught up (last_known={last_known} >= today={today}); nothing to do.")
+        ping_healthchecks()
+        return 0
     discovery = discover(last_known, today)
     if not discovery:
         print(
