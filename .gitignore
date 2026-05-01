@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Local refresh artifacts not meant for the repo
+/tmp/
+*.tsv.gz
+.refresh-state.local.json
+
+# OS
+.DS_Store
+Thumbs.db
