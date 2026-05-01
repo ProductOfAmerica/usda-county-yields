@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/_schema/leaf.json",
+  "title": "NASS county crop yields point leaf",
+  "description": "One leaf per (state, county, crop). Read the entry where canonical:true is set; values[year] is the yield in the unit named on that series.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "state", "county", "commodity", "series"],
+  "properties": {
+    "schema_version": { "const": 2 },
+    "state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fips", "alpha", "name"],
+      "properties": {
+        "fips":  { "type": "string", "pattern": "^[0-9]{2}$" },
+        "alpha": { "type": "string", "pattern": "^[A-Z]{2}$" },
+        "name":  { "type": "string", "minLength": 1 }
+      }
+    },
+    "county": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "name"],
+      "properties": {
+        "code": { "type": "string", "pattern": "^[0-9]{3}$" },
+        "name": { "type": "string", "minLength": 1 }
+      }
+    },
+    "commodity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["slug", "desc"],
+      "properties": {
+        "slug": { "type": "string", "enum": ["corn", "soybeans", "wheat"] },
+        "desc": { "type": "string", "minLength": 1 }
+      }
+    },
+    "series": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["class", "prodn_practice", "util_practice", "unit", "short_desc", "values", "suppressed", "raw"],
+        "properties": {
+          "class":          { "type": "string", "minLength": 1 },
+          "prodn_practice": { "type": "string", "minLength": 1 },
+          "util_practice":  { "type": "string", "minLength": 1 },
+          "unit":           { "type": "string", "minLength": 1 },
+          "short_desc":     { "type": "string", "minLength": 1 },
+          "canonical":      { "const": true, "description": "Producer-marked canonical entry: class=ALL CLASSES, prodn_practice=ALL PRODUCTION PRACTICES, unit=BU / ACRE. At most one per series[]." },
+          "values":         { "type": "object", "patternProperties": { "^[0-9]{4}$": { "type": "number" } }, "additionalProperties": false },
+          "suppressed":     { "type": "object", "patternProperties": { "^[0-9]{4}$": { "type": "string", "enum": ["D", "NA", "S", "X", "Z"] } }, "additionalProperties": false },
+          "raw":            { "type": "object", "patternProperties": { "^[0-9]{4}$": { "type": "string" } }, "additionalProperties": false }
+        }
+      }
+    }
+  }
+}

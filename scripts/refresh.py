@@ -68,6 +68,7 @@ REQUIRED_COLS = [
 
 PROBE_WINDOW_DAYS = 14
 ROW_COUNT_TOLERANCE = 0.10
+CANONICAL_MISSING_TOLERANCE = 0.05  # Gate 3 ratio ceiling for missing-canonical pairs
 DOWNLOAD_ATTEMPTS = 3
 DOWNLOAD_BACKOFF_SECONDS = (30, 120)  # waits before attempts 2 and 3
 SUPPRESSION_RE = re.compile(r"^\(([A-Z]+)\)$")
@@ -205,6 +206,13 @@ def group_by_state(rows: list[dict]) -> dict[str, dict]:
     for row in rows:
         fips = row["STATE_FIPS_CODE"].zfill(2)
         county_code = row["COUNTY_CODE"].zfill(3)
+        # Tripwire: .zfill pads but does not truncate. NASS publishing a
+        # malformed code would otherwise propagate into a malformed file
+        # path and silently corrupt the tree.
+        if not (len(fips) == 2 and fips.isdigit()):
+            raise SystemExit(f"Malformed STATE_FIPS_CODE: {fips!r}")
+        if not (len(county_code) == 3 and county_code.isdigit()):
+            raise SystemExit(f"Malformed COUNTY_CODE: {county_code!r}")
         commodity = row["COMMODITY_DESC"]
         slug = slugify(commodity)
         if slug in seen_slugs and seen_slugs[slug] != commodity:
@@ -438,6 +446,7 @@ def emit_point_leaves(states: dict[str, dict]) -> tuple[set[Path], int]:
                     "commodity": {"slug": slug, "desc": com["commodity_desc"]},
                     "series": com["series"],
                 }
+                _assert_leaf_shape(payload)
                 path = _point_leaf_path(fips, code, slug)
                 paths.add(path)
                 if write_if_changed(path, _dump_json(payload)):
@@ -526,6 +535,64 @@ def validate(total_rows: int, kept_rows: int, last_filtered_count: Optional[int]
             f"{last_filtered_count} by {delta:.1%} (>{ROW_COUNT_TOLERANCE:.0%}). "
             "Aborting."
         )
+
+
+def validate_canonical_coverage(missing_count: int, total_pairs: int) -> None:
+    """Gate 3: abort if too many (county, crop) pairs lack a canonical match.
+
+    A spike here means NASS structurally dropped the ALL CLASSES variant
+    for a crop, which would silently degrade every consumer point lookup.
+    Empirical floor across published data is ~0.3%; 5% gives ~16x headroom
+    for real drift while still catching a structural regression. No
+    bootstrap skip: this gate is self-contained against the current run,
+    not a delta vs a prior baseline.
+    """
+    if total_pairs == 0:
+        return  # validate() above already aborts on zero-rows upstream
+    ratio = missing_count / total_pairs
+    if ratio > CANONICAL_MISSING_TOLERANCE:
+        raise SystemExit(
+            f"Missing-canonical ratio {ratio:.1%} exceeds tolerance "
+            f"{CANONICAL_MISSING_TOLERANCE:.0%} ({missing_count}/{total_pairs} "
+            f"pairs lack a canonical series). Aborting."
+        )
+
+
+def _assert_leaf_shape(leaf: dict) -> None:
+    """Stdlib structural check matching data/_schema/leaf.json.
+
+    Runs at emit time and in tests. Raises SystemExit on shape drift so
+    a producer regression fails fast at the workflow level instead of
+    silently corrupting the CDN. Stdlib-only (no jsonschema dep) keeps
+    the project's zero-deps stance.
+    """
+    expected_top = {"schema_version", "state", "county", "commodity", "series"}
+    if set(leaf) != expected_top:
+        raise SystemExit(
+            f"Leaf top-level keys mismatch: got {sorted(set(leaf))}, "
+            f"expected {sorted(expected_top)}"
+        )
+    if leaf["schema_version"] != 2:
+        raise SystemExit(f"Leaf schema_version not 2: {leaf['schema_version']!r}")
+    if set(leaf["state"]) != {"fips", "alpha", "name"}:
+        raise SystemExit(f"Leaf state keys mismatch: {sorted(set(leaf['state']))}")
+    if set(leaf["county"]) != {"code", "name"}:
+        raise SystemExit(f"Leaf county keys mismatch: {sorted(set(leaf['county']))}")
+    if set(leaf["commodity"]) != {"slug", "desc"}:
+        raise SystemExit(f"Leaf commodity keys mismatch: {sorted(set(leaf['commodity']))}")
+    required_series = {
+        "class", "prodn_practice", "util_practice", "unit", "short_desc",
+        "values", "suppressed", "raw",
+    }
+    optional_series = {"canonical"}
+    for s in leaf["series"]:
+        keys = set(s)
+        missing = required_series - keys
+        if missing:
+            raise SystemExit(f"Series missing keys: {sorted(missing)}")
+        extra = keys - required_series - optional_series
+        if extra:
+            raise SystemExit(f"Series has unexpected keys: {sorted(extra)}")
 
 
 # ---------- state file ----------
@@ -640,6 +707,12 @@ def main(today: Optional[date] = None) -> int:
             f"First {len(missing_samples)}: {sample_str}",
             file=sys.stderr,
         )
+    total_pairs = sum(
+        len(cty["commodities"])
+        for st in states.values()
+        for cty in st["counties"].values()
+    )
+    validate_canonical_coverage(missing_canonical, total_pairs)
 
     expected: set[Path] = set()
     idx_path, idx_w = emit_index(states, discovery, refreshed_at)

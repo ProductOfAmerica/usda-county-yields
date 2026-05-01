@@ -117,6 +117,7 @@ data/
 - **Supported commodity slugs:** `corn`, `soybeans`, `wheat`. Note `soybeans` is plural.
 - `header_observed` is published once at `data/_audit/latest.json` (not per state). NASS adding a new column logs here without aborting the refresh; renaming a depended-on column does abort.
 - `county.code` is always populated and zfilled to 3 digits. The legacy NASS `ansi` field is dropped at the leaf level because it equals `code` for every populated row and is sometimes blank.
+- **Machine-readable contract**: [`data/_schema/leaf.json`](data/_schema/leaf.json) is a JSON Schema 2020-12 document describing the point-leaf shape. Producers and consumers can both validate against it.
 
 ## Scope
 
@@ -144,14 +145,15 @@ data/
 - **Refresh**: GitHub Actions cron runs `scripts/refresh.py` on a public repo (free). Tests run before refresh on every CI invocation.
 - **Storage**: this Git repo. Sharded JSON committed weekly via touched-only writes (unchanged leaves are not rewritten).
 - **CDN**: jsDelivr-fronted GitHub raw, free, no auth.
-- **Monitoring**: healthchecks.io free tier deadman switch.
+- **Monitoring**: healthchecks.io free tier deadman switch (refresh ping). A separate [CDN canary workflow](.github/workflows/canary.yml) runs Mondays at 22:00 UTC, fetches `data/index.json` and a known point leaf from jsDelivr, asserts freshness within the 9-day grace window, and pings a second healthchecks URL on success.
 
-Two validation gates and three inline guards before any publish:
+Three validation gates and three inline guards before any publish:
 - **Gate 1**: required columns present in NASS header (tolerant reader; extra columns OK).
 - **Gate 2**: filtered row count within ±10% of last successful run (skipped on bootstrap).
+- **Gate 3**: missing-canonical ratio within 5% (`CANONICAL_MISSING_TOLERANCE`). Catches NASS structurally dropping the canonical variant for a crop.
 - **Inline guard 1**: slug collision check during commodity slugification.
 - **Inline guard 2**: stale-file prune. Any leaf present in the prior tree but absent in this refresh is unlinked so the next git commit captures the deletion.
-- **Inline guard 3**: missing-canonical counter. (county, crop) pairs that have at least one series but no canonical match are counted, logged to stderr, and persisted to `.refresh-state.json` for trend visibility. The publish does not abort.
+- **Inline guard 3**: leaf-shape assert at emit time. Every point leaf is structurally checked against `data/_schema/leaf.json` before write. A producer regression aborts before any file lands on disk.
 
 Failures abort before commit. The previous snapshot stays live; healthchecks alerts on the next ping miss.
 

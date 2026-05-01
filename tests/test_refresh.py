@@ -603,5 +603,134 @@ class WriteIfChangedTest(unittest.TestCase):
         self.assertEqual(path.read_text(encoding="utf-8"), "new\n")
 
 
+# ---------- hardening pass tests ----------
+
+
+class SlugCollisionTest(unittest.TestCase):
+    """Pin the inline guard at refresh.group_by_state's slug-collision check."""
+
+    def test_slug_collision_aborts(self) -> None:
+        # "FOO BAR" and "FOO   BAR" both slugify to "foo-bar" because
+        # SLUG_DASHES collapses repeated dashes.
+        rows = [
+            {
+                "STATE_FIPS_CODE": "19", "STATE_ALPHA": "IA", "STATE_NAME": "IOWA",
+                "COUNTY_CODE": "169", "COUNTY_ANSI": "169", "COUNTY_NAME": "STORY",
+                "COMMODITY_DESC": "FOO BAR",
+                "CLASS_DESC": "ALL CLASSES",
+                "PRODN_PRACTICE_DESC": "ALL PRODUCTION PRACTICES",
+                "UTIL_PRACTICE_DESC": "GRAIN", "UNIT_DESC": "BU / ACRE",
+                "SHORT_DESC": "FOO BAR - YIELD", "YEAR": "2024", "VALUE": "1.0",
+            },
+            {
+                "STATE_FIPS_CODE": "19", "STATE_ALPHA": "IA", "STATE_NAME": "IOWA",
+                "COUNTY_CODE": "169", "COUNTY_ANSI": "169", "COUNTY_NAME": "STORY",
+                "COMMODITY_DESC": "FOO   BAR",   # different desc, same slug
+                "CLASS_DESC": "ALL CLASSES",
+                "PRODN_PRACTICE_DESC": "ALL PRODUCTION PRACTICES",
+                "UTIL_PRACTICE_DESC": "GRAIN", "UNIT_DESC": "BU / ACRE",
+                "SHORT_DESC": "FOO BAR - YIELD", "YEAR": "2024", "VALUE": "2.0",
+            },
+        ]
+        self.assertEqual(refresh.slugify("FOO BAR"), refresh.slugify("FOO   BAR"))
+        with self.assertRaises(SystemExit) as ctx:
+            refresh.group_by_state(rows)
+        self.assertIn("collision", str(ctx.exception).lower())
+
+
+class MalformedInputTest(unittest.TestCase):
+    """Tripwire asserts in group_by_state for FIPS / county_code shape."""
+
+    def _row(self, **overrides) -> dict:
+        base = {
+            "STATE_FIPS_CODE": "19", "STATE_ALPHA": "IA", "STATE_NAME": "IOWA",
+            "COUNTY_CODE": "169", "COUNTY_ANSI": "169", "COUNTY_NAME": "STORY",
+            "COMMODITY_DESC": "CORN",
+            "CLASS_DESC": "ALL CLASSES",
+            "PRODN_PRACTICE_DESC": "ALL PRODUCTION PRACTICES",
+            "UTIL_PRACTICE_DESC": "GRAIN", "UNIT_DESC": "BU / ACRE",
+            "SHORT_DESC": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+            "YEAR": "2024", "VALUE": "215.5",
+        }
+        base.update(overrides)
+        return base
+
+    def test_group_aborts_on_malformed_fips(self) -> None:
+        with self.assertRaises(SystemExit) as ctx:
+            refresh.group_by_state([self._row(STATE_FIPS_CODE="ABCD")])
+        self.assertIn("STATE_FIPS_CODE", str(ctx.exception))
+
+    def test_group_aborts_on_long_county_code(self) -> None:
+        # zfill(3) does not truncate; "9999" stays length 4.
+        with self.assertRaises(SystemExit) as ctx:
+            refresh.group_by_state([self._row(COUNTY_CODE="9999")])
+        self.assertIn("COUNTY_CODE", str(ctx.exception))
+
+
+class CanonicalBandGateTest(unittest.TestCase):
+    """Gate 3: validate_canonical_coverage thresholds."""
+
+    def test_canonical_band_aborts_on_excess(self) -> None:
+        # 10/100 = 10% > 5% tolerance
+        with self.assertRaises(SystemExit) as ctx:
+            refresh.validate_canonical_coverage(missing_count=10, total_pairs=100)
+        self.assertIn("Missing-canonical", str(ctx.exception))
+
+    def test_canonical_band_passes_on_few_missing(self) -> None:
+        # 3/100 = 3% < 5% tolerance -> no raise
+        refresh.validate_canonical_coverage(missing_count=3, total_pairs=100)
+
+    def test_canonical_band_passes_on_zero_pairs(self) -> None:
+        # Edge case: zero pairs returns early without raising.
+        refresh.validate_canonical_coverage(missing_count=0, total_pairs=0)
+
+
+class LeafShapeAssertTest(EmitTestBase):
+    """_assert_leaf_shape catches drift in the published leaf contract."""
+
+    def test_leaf_shape_assert_passes_on_emit(self) -> None:
+        # All leaves the emit pipeline produces must pass the shape assert.
+        # If this fails, the leaf shape diverged from data/_schema/leaf.json.
+        self._emit_all()
+        leaf_dir = refresh.DATA_DIR / "states"
+        leaves = list(leaf_dir.rglob("counties/*/*.json"))
+        self.assertGreater(len(leaves), 0)
+        for leaf_path in leaves:
+            d = json.loads(leaf_path.read_text(encoding="utf-8"))
+            refresh._assert_leaf_shape(d)  # raises on drift
+
+    def test_leaf_shape_assert_rejects_extra_top_key(self) -> None:
+        bad = {
+            "schema_version": 2,
+            "state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
+            "county": {"code": "169", "name": "STORY"},
+            "commodity": {"slug": "corn", "desc": "CORN"},
+            "series": [],
+            "unexpected_field": "drift",
+        }
+        with self.assertRaises(SystemExit):
+            refresh._assert_leaf_shape(bad)
+
+    def test_leaf_shape_assert_rejects_missing_series_keys(self) -> None:
+        bad = {
+            "schema_version": 2,
+            "state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
+            "county": {"code": "169", "name": "STORY"},
+            "commodity": {"slug": "corn", "desc": "CORN"},
+            "series": [
+                {
+                    "class": "ALL CLASSES",
+                    "prodn_practice": "ALL PRODUCTION PRACTICES",
+                    "util_practice": "GRAIN",
+                    "unit": "BU / ACRE",
+                    "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+                    # values + suppressed + raw all missing -- producer regression
+                },
+            ],
+        }
+        with self.assertRaises(SystemExit):
+            refresh._assert_leaf_shape(bad)
+
+
 if __name__ == "__main__":
     unittest.main()
