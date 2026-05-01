@@ -2,11 +2,14 @@
 """NASS county crop yields refresh.
 
 Downloads the latest qs.crops_*.txt.gz, filters to county SURVEY yields for
-allowlisted commodities, emits one JSON per state, prunes absent files.
+allowlisted commodities, emits a sharded JSON tree (index, per-state meta,
+per-(county, crop) point leaves, per-(state, crop) rollups, audit) under
+data/, and prunes leaves no longer in the current refresh.
 
 Two validation gates: required columns present + filtered row count within
 +/-10% of last successful run (skipped on bootstrap).
-Two inline guards: slug collision check; git rm absent files.
+Three inline guards: slug collision check; per-leaf prune of stale files;
+missing-canonical counter (logged + persisted, never aborts).
 """
 from __future__ import annotations
 
@@ -24,15 +27,14 @@ from pathlib import Path
 from typing import Iterable, Optional
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = REPO_ROOT / "data" / "v1" / "states"
-DATA_V2_DIR = REPO_ROOT / "data" / "v2"
+DATA_DIR = REPO_ROOT / "data"
 STATE_FILE = REPO_ROOT / ".refresh-state.json"
 NASS_BASE = "https://www.nass.usda.gov/datasets"
 SECTOR = "crops"
 
 COMMODITY_ALLOWLIST = {"CORN", "SOYBEANS", "WHEAT"}
 
-# v2 canonical-series rule per crop slug. The producer marks exactly one
+# Canonical-series rule per crop slug. The producer marks exactly one
 # series per (county, crop) as canonical so consumers do not have to
 # re-derive the README's canonical filter. If a (county, crop) has at
 # least one series but none matches, mark_canonical counts it; we do
@@ -45,7 +47,7 @@ CANONICAL_RULES: dict[str, dict[str, str]] = {
 
 # Fail-fast: every commodity in the allowlist must have a canonical rule.
 # Without this guard, a future commodity addition would silently produce
-# v2 leaves with no canonical:true flag for that crop. Every current
+# leaves with no canonical:true flag for that crop. Every current
 # COMMODITY_ALLOWLIST entry is a single ASCII word, so its slug is just
 # c.lower(); when adding multi-word commodities, switch to slugify() and
 # move this assertion below slugify's definition.
@@ -271,7 +273,7 @@ def write_if_changed(path: Path, text: str) -> bool:
     """Atomic content-diff write. Returns True if a write happened.
 
     Single source of truth for the touched-only-write semantic shared by
-    every emitter (v1 + v2). Skipping no-op writes keeps weekly git diffs
+    every emitter. Skipping no-op writes keeps weekly git diffs
     proportional to actual data change, not refresh count.
     """
     if path.exists() and path.read_text(encoding="utf-8") == text:
@@ -282,48 +284,6 @@ def write_if_changed(path: Path, text: str) -> bool:
 
 
 # ---------- emit ----------
-
-def emit_state_files(
-    states: dict[str, dict],
-    discovery: dict,
-    header_observed: list[str],
-    refreshed_at: str,
-) -> tuple[int, int]:
-    """Write per-state v1 JSON; prune absent files. Returns (written, deleted)."""
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    written = 0
-    new_files: set[Path] = set()
-    for fips, payload in sorted(states.items()):
-        out_path = DATA_DIR / f"{fips}.json"
-        envelope = {
-            "schema_version": 1,
-            "product_name": "NASS county crop yields (v1)",
-            "refreshed_at": refreshed_at,
-            "source": {
-                "url": discovery["url"],
-                "last_modified": discovery["last_modified"],
-                "etag": discovery["etag"],
-                "publication_date": discovery["date"],
-                "freshness_lag_days": discovery["lag_days"],
-            },
-            "header_observed": header_observed,
-            **payload,
-        }
-        new_text = json.dumps(envelope, indent=2, sort_keys=True) + "\n"
-        new_files.add(out_path)
-        if write_if_changed(out_path, new_text):
-            written += 1
-
-    # Inline guard 2: prune absent files
-    deleted = 0
-    for existing in DATA_DIR.glob("*.json"):
-        if existing not in new_files:
-            existing.unlink()
-            deleted += 1
-    return written, deleted
-
-
-# ---------- v2 emit ----------
 
 # Sort key per series, used by sort_series and prefixed by canonical match
 # in mark_canonical. Matching the same tuple shape as group_by_state's
@@ -375,40 +335,40 @@ def mark_canonical(states: dict[str, dict]) -> tuple[int, list[tuple[str, str, s
     return missing_count, samples
 
 
-def _v2_state_path(fips: str) -> Path:
-    return DATA_V2_DIR / "states" / fips
+def _state_path(fips: str) -> Path:
+    return DATA_DIR / "states" / fips
 
 
-def _v2_point_leaf_path(fips: str, county_code: str, slug: str) -> Path:
-    return _v2_state_path(fips) / "counties" / county_code / f"{slug}.json"
+def _point_leaf_path(fips: str, county_code: str, slug: str) -> Path:
+    return _state_path(fips) / "counties" / county_code / f"{slug}.json"
 
 
-def _v2_crop_rollup_path(fips: str, slug: str) -> Path:
-    return _v2_state_path(fips) / "crops" / f"{slug}.json"
+def _crop_rollup_path(fips: str, slug: str) -> Path:
+    return _state_path(fips) / "crops" / f"{slug}.json"
 
 
-def _v2_state_meta_path(fips: str) -> Path:
-    return _v2_state_path(fips) / "meta.json"
+def _state_meta_path(fips: str) -> Path:
+    return _state_path(fips) / "meta.json"
 
 
-def _v2_index_path() -> Path:
-    return DATA_V2_DIR / "index.json"
+def _index_path() -> Path:
+    return DATA_DIR / "index.json"
 
 
-def _v2_audit_path() -> Path:
-    return DATA_V2_DIR / "_audit" / "latest.json"
+def _audit_path() -> Path:
+    return DATA_DIR / "_audit" / "latest.json"
 
 
 def _dump_json(payload: dict) -> str:
     return json.dumps(payload, indent=2, sort_keys=True) + "\n"
 
 
-def emit_v2_index(
+def emit_index(
     states: dict[str, dict],
     discovery: dict,
     refreshed_at: str,
 ) -> tuple[Path, bool]:
-    """Write data/v2/index.json. Returns (path, written_bool)."""
+    """Write data/index.json. Returns (path, written_bool)."""
     state_index = {}
     for fips in sorted(states):
         st = states[fips]
@@ -421,7 +381,7 @@ def emit_v2_index(
         }
     payload = {
         "schema_version": 2,
-        "product_name": "NASS county crop yields (v2)",
+        "product_name": "NASS county crop yields",
         "refreshed_at": refreshed_at,
         "source": {
             "url": discovery["url"],
@@ -432,12 +392,12 @@ def emit_v2_index(
         },
         "states": state_index,
     }
-    path = _v2_index_path()
+    path = _index_path()
     return path, write_if_changed(path, _dump_json(payload))
 
 
-def emit_v2_state_meta(states: dict[str, dict]) -> tuple[set[Path], int]:
-    """Write data/v2/states/{fips}/meta.json per state. Returns (paths_written_to_set, written_count)."""
+def emit_state_meta(states: dict[str, dict]) -> tuple[set[Path], int]:
+    """Write data/states/{fips}/meta.json per state. Returns (paths_written_to_set, written_count)."""
     paths: set[Path] = set()
     written = 0
     for fips in sorted(states):
@@ -454,15 +414,15 @@ def emit_v2_state_meta(states: dict[str, dict]) -> tuple[set[Path], int]:
             "state": st["state"],
             "counties": counties,
         }
-        path = _v2_state_meta_path(fips)
+        path = _state_meta_path(fips)
         paths.add(path)
         if write_if_changed(path, _dump_json(payload)):
             written += 1
     return paths, written
 
 
-def emit_v2_point_leaves(states: dict[str, dict]) -> tuple[set[Path], int]:
-    """Write data/v2/states/{fips}/counties/{code}/{slug}.json per (county, crop)."""
+def emit_point_leaves(states: dict[str, dict]) -> tuple[set[Path], int]:
+    """Write data/states/{fips}/counties/{code}/{slug}.json per (county, crop)."""
     paths: set[Path] = set()
     written = 0
     for fips in sorted(states):
@@ -478,15 +438,15 @@ def emit_v2_point_leaves(states: dict[str, dict]) -> tuple[set[Path], int]:
                     "commodity": {"slug": slug, "desc": com["commodity_desc"]},
                     "series": com["series"],
                 }
-                path = _v2_point_leaf_path(fips, code, slug)
+                path = _point_leaf_path(fips, code, slug)
                 paths.add(path)
                 if write_if_changed(path, _dump_json(payload)):
                     written += 1
     return paths, written
 
 
-def emit_v2_crop_rollups(states: dict[str, dict]) -> tuple[set[Path], int]:
-    """Write data/v2/states/{fips}/crops/{slug}.json per (state, crop)."""
+def emit_crop_rollups(states: dict[str, dict]) -> tuple[set[Path], int]:
+    """Write data/states/{fips}/crops/{slug}.json per (state, crop)."""
     paths: set[Path] = set()
     written = 0
     for fips in sorted(states):
@@ -509,40 +469,40 @@ def emit_v2_crop_rollups(states: dict[str, dict]) -> tuple[set[Path], int]:
                 "commodity": {"slug": slug, "desc": bundle["desc"]},
                 "counties": bundle["counties"],
             }
-            path = _v2_crop_rollup_path(fips, slug)
+            path = _crop_rollup_path(fips, slug)
             paths.add(path)
             if write_if_changed(path, _dump_json(payload)):
                 written += 1
     return paths, written
 
 
-def emit_v2_audit(
+def emit_audit(
     header_observed: list[str],
     refreshed_at: str,
     source_publication_date: str,
 ) -> tuple[Path, bool]:
-    """Write data/v2/_audit/latest.json (maintainer audit, deduped header)."""
+    """Write data/_audit/latest.json (maintainer audit, deduped header)."""
     payload = {
         "schema_version": 2,
         "refreshed_at": refreshed_at,
         "source_publication_date": source_publication_date,
         "header_observed": header_observed,
     }
-    path = _v2_audit_path()
+    path = _audit_path()
     return path, write_if_changed(path, _dump_json(payload))
 
 
-def prune_v2_stale(expected_files: set[Path]) -> int:
-    """Delete any .json under data/v2/ that is not in expected_files.
+def prune_stale(expected_files: set[Path]) -> int:
+    """Delete any .json under data/ that is not in expected_files.
 
-    Mirrors emit_state_files's inline guard 2: a state (or county, or crop)
-    no longer present in the current refresh tree must be removed so the
-    next git commit captures the deletion.
+    Inline guard: a state (or county, or crop) no longer present in the
+    current refresh tree must be removed so the next git commit captures
+    the deletion.
     """
     deleted = 0
-    if not DATA_V2_DIR.exists():
+    if not DATA_DIR.exists():
         return 0
-    for existing in DATA_V2_DIR.rglob("*.json"):
+    for existing in DATA_DIR.rglob("*.json"):
         if existing not in expected_files:
             existing.unlink()
             deleted += 1
@@ -639,18 +599,18 @@ def main(today: Optional[date] = None) -> int:
         f"(publication {discovery['date']}, lag {discovery['lag_days']} days)"
     )
 
-    # Bootstrap guard: if the v2 index is missing, force re-emit even when
+    # Bootstrap guard: if data/index.json is missing, force re-emit even when
     # the source ETag matches the last successful run. Without this, a same
-    # day workflow_dispatch re-run after a v2 schema bump skips emit and
-    # the v2 tree never materializes. Self-healing on first run after merge.
-    v2_bootstrap_needed = not _v2_index_path().exists()
+    # day workflow_dispatch re-run after a schema bump skips emit and the
+    # data tree never materializes. Self-healing on first run after merge.
+    bootstrap_needed = not _index_path().exists()
 
-    if last_etag and discovery["etag"] == last_etag and not v2_bootstrap_needed:
+    if last_etag and discovery["etag"] == last_etag and not bootstrap_needed:
         print("ETag matches last successful run; nothing to do.")
         ping_healthchecks()
         return 0
-    if v2_bootstrap_needed and last_etag and discovery["etag"] == last_etag:
-        print("ETag matches but data/v2/ is missing; bootstrapping v2 from cached download.")
+    if bootstrap_needed and last_etag and discovery["etag"] == last_etag:
+        print("ETag matches but data/index.json is missing; bootstrapping from cached download.")
 
     download_path = Path(os.environ.get("RUNNER_TEMP", "/tmp")) / Path(discovery["url"]).name
     print(f"Downloading {discovery['url']} -> {download_path}")
@@ -667,11 +627,7 @@ def main(today: Optional[date] = None) -> int:
 
     refreshed_at = utc_now_iso()
 
-    # v1 emit (behavior byte-identical; migrated to write_if_changed helper).
-    v1_written, v1_deleted = emit_state_files(states, discovery, header, refreshed_at)
-    print(f"v1: wrote {v1_written} state files; deleted {v1_deleted}")
-
-    # v2 emit pipeline. Sort first so leaf bytes stay stable across NASS row
+    # Emit pipeline. Sort first so leaf bytes stay stable across NASS row
     # reorders, then mark canonical, then emit each artifact family, then
     # prune stale leaves so removed (state, county, crop) tuples disappear
     # from the published tree.
@@ -685,21 +641,21 @@ def main(today: Optional[date] = None) -> int:
             file=sys.stderr,
         )
 
-    expected_v2: set[Path] = set()
-    idx_path, idx_w = emit_v2_index(states, discovery, refreshed_at)
-    expected_v2.add(idx_path)
-    meta_paths, meta_w = emit_v2_state_meta(states)
-    expected_v2 |= meta_paths
-    leaf_paths, leaf_w = emit_v2_point_leaves(states)
-    expected_v2 |= leaf_paths
-    rollup_paths, rollup_w = emit_v2_crop_rollups(states)
-    expected_v2 |= rollup_paths
-    audit_path, audit_w = emit_v2_audit(header, refreshed_at, discovery["date"])
-    expected_v2.add(audit_path)
-    v2_deleted = prune_v2_stale(expected_v2)
+    expected: set[Path] = set()
+    idx_path, idx_w = emit_index(states, discovery, refreshed_at)
+    expected.add(idx_path)
+    meta_paths, meta_w = emit_state_meta(states)
+    expected |= meta_paths
+    leaf_paths, leaf_w = emit_point_leaves(states)
+    expected |= leaf_paths
+    rollup_paths, rollup_w = emit_crop_rollups(states)
+    expected |= rollup_paths
+    audit_path, audit_w = emit_audit(header, refreshed_at, discovery["date"])
+    expected.add(audit_path)
+    deleted = prune_stale(expected)
     print(
-        f"v2: index={int(idx_w)} meta={meta_w} leaves={leaf_w} "
-        f"rollups={rollup_w} audit={int(audit_w)} pruned={v2_deleted} "
+        f"emit: index={int(idx_w)} meta={meta_w} leaves={leaf_w} "
+        f"rollups={rollup_w} audit={int(audit_w)} pruned={deleted} "
         f"missing_canonical={missing_canonical}"
     )
 
