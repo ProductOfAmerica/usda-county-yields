@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "147",
+    "name": "WALTHALL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1964": 18.5,
+        "1965": 24.0,
+        "1966": 21.9,
+        "1967": 25.6,
+        "1968": 24.3,
+        "1969": 17.8,
+        "1970": 22.2,
+        "1971": 24.0,
+        "1972": 12.6,
+        "1973": 21.0,
+        "1974": 26.9,
+        "1975": 18.7,
+        "1976": 20.2,
+        "1977": 21.0,
+        "1978": 25.2,
+        "1979": 28.4,
+        "1980": 11.7,
+        "1981": 22.6,
+        "1982": 23.5,
+        "1983": 21.0,
+        "1984": 25.4,
+        "1985": 24.0,
+        "1986": 18.5,
+        "1987": 22.0,
+        "1988": 22.0,
+        "1989": 28.6,
+        "1990": 12.5,
+        "1997": 25.4,
+        "2009": 31.0,
+        "2010": 36.0,
+        "2013": 38.3,
+        "2015": 13.8,
+        "2016": 39.7,
+        "2018": 47.5,
+        "2019": 35.2,
+        "2021": 39.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 25.7,
+        "1975": 18.2,
+        "1976": 20.1,
+        "1977": 20.4,
+        "1978": 24.2,
+        "1979": 27.8,
+        "1980": 11.2,
+        "1981": 21.4,
+        "1982": 22.4,
+        "1983": 20.0,
+        "1984": 24.4,
+        "1985": 22.1,
+        "1986": 17.0,
+        "1987": 19.3,
+        "1988": 19.3,
+        "1989": 26.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MS",
+    "fips": "28",
+    "name": "MISSISSIPPI"
+  }
+}

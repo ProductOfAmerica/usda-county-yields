@@ -1,0 +1,87 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "131",
+    "name": "STONE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1961": 18.0,
+        "1962": 17.0,
+        "1963": 16.5,
+        "1964": 17.0,
+        "1965": 21.0,
+        "1966": 21.9,
+        "1967": 24.3,
+        "1968": 25.6,
+        "1969": 24.1,
+        "1970": 23.6,
+        "1971": 24.3,
+        "1972": 20.0,
+        "1973": 24.0,
+        "1974": 29.0,
+        "1975": 21.5,
+        "1976": 24.5,
+        "1977": 23.5,
+        "1978": 25.7,
+        "1979": 29.6,
+        "1980": 18.2,
+        "1981": 20.0,
+        "1982": 23.0,
+        "1983": 19.7,
+        "1984": 26.5,
+        "1985": 25.8,
+        "1986": 18.0,
+        "1987": 25.0,
+        "1988": 23.0,
+        "1989": 23.8,
+        "1990": 17.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 27.8,
+        "1975": 21.0,
+        "1976": 24.0,
+        "1977": 22.3,
+        "1978": 24.7,
+        "1979": 28.9,
+        "1980": 17.6,
+        "1981": 17.8,
+        "1982": 22.1,
+        "1983": 18.7,
+        "1984": 25.8,
+        "1985": 22.1,
+        "1986": 14.4,
+        "1987": 23.8,
+        "1988": 19.9,
+        "1989": 19.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MS",
+    "fips": "28",
+    "name": "MISSISSIPPI"
+  }
+}

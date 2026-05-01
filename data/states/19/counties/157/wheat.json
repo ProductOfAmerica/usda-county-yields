@@ -1,0 +1,67 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "157",
+    "name": "POWESHIEK"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 31.6,
+        "1975": 39.3,
+        "1976": 40.9,
+        "1981": 39.0,
+        "1982": 39.0,
+        "1987": 48.0,
+        "1989": 55.0,
+        "1990": 49.0,
+        "1991": 30.0,
+        "1992": 44.0,
+        "1994": 42.0,
+        "1995": 42.5,
+        "1996": 39.3
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 31.6,
+        "1975": 39.3,
+        "1976": 40.9,
+        "1981": 39.0,
+        "1982": 39.0,
+        "1987": 48.0,
+        "1989": 55.0,
+        "1990": 49.0,
+        "1991": 30.0,
+        "1992": 44.0,
+        "1994": 42.0,
+        "1995": 42.5,
+        "1996": 39.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  }
+}

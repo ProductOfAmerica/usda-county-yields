@@ -1,0 +1,69 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "123",
+    "name": "GILMER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 17.6,
+        "1955": 16.5,
+        "1956": 18.0,
+        "1957": 17.0,
+        "1958": 20.5,
+        "1959": 16.0,
+        "1960": 18.0,
+        "1961": 20.0,
+        "1963": 20.0,
+        "1964": 16.0,
+        "1965": 16.0,
+        "1966": 17.0,
+        "1968": 23.3,
+        "1969": 30.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 17.6,
+        "1955": 16.5,
+        "1956": 18.0,
+        "1957": 17.0,
+        "1958": 20.5,
+        "1959": 16.0,
+        "1960": 18.0,
+        "1961": 20.0,
+        "1963": 20.0,
+        "1964": 16.0,
+        "1965": 16.0,
+        "1966": 17.0,
+        "1968": 23.3,
+        "1969": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

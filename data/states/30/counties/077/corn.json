@@ -1,0 +1,44 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "077",
+    "name": "POWELL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1964": 18.0,
+        "1967": 19.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, SILAGE, IRRIGATED - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1964": 18.0,
+        "1967": 19.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  }
+}

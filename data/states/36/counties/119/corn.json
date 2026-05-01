@@ -1,0 +1,32 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "119",
+    "name": "WESTCHESTER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 12.0,
+        "1975": 12.5,
+        "1976": 11.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

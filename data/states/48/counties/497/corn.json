@@ -1,0 +1,38 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "497",
+    "name": "WISE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1974": 28.7,
+        "1975": 35.0,
+        "1976": 36.3,
+        "1992": 84.3,
+        "1993": 52.5,
+        "1994": 54.2,
+        "2004": 60.0,
+        "2006": 60.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

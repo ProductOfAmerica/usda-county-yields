@@ -1,0 +1,38 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "265",
+    "name": "TALIAFERRO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 19.0,
+        "1979": 24.8,
+        "1980": 11.3,
+        "1981": 17.6,
+        "1982": 18.2,
+        "1983": 18.4,
+        "1984": 10.7,
+        "1985": 25.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

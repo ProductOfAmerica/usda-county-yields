@@ -1,0 +1,57 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "065",
+    "name": "ESTILL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1988": 28.0,
+        "1989": 32.0,
+        "1990": 31.0,
+        "1991": 33.0,
+        "1992": 33.0,
+        "1993": 32.0,
+        "1994": 35.0,
+        "1995": 38.0,
+        "1996": 36.0,
+        "2002": 33.0,
+        "2003": 37.0,
+        "2004": 44.0,
+        "2005": 37.0,
+        "2006": 45.0,
+        "2007": 36.0,
+        "2008": 34.0,
+        "2009": 35.0,
+        "2010": 43.5,
+        "2011": 41.4,
+        "2012": 37.5,
+        "2014": 44.0,
+        "2016": 42.9,
+        "2017": 42.5,
+        "2018": 35.2,
+        "2019": 35.0,
+        "2020": 50.3,
+        "2023": 46.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  }
+}

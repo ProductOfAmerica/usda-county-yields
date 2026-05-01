@@ -1,0 +1,62 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "097",
+    "name": "MONTGOMERY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 33.0,
+        "1962": 28.0,
+        "1963": 30.0,
+        "1964": 20.0,
+        "1965": 31.0,
+        "1966": 27.0,
+        "1967": 33.0,
+        "1968": 33.0,
+        "1969": 29.0,
+        "1970": 19.0,
+        "1971": 24.0,
+        "1972": 30.0,
+        "1973": 37.0,
+        "1974": 44.0,
+        "1975": 46.0,
+        "1976": 45.7,
+        "1977": 44.0,
+        "1980": 25.0,
+        "1981": 50.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1980": 19.0,
+        "1981": 50.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

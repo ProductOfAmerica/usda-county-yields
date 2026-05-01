@@ -1,0 +1,88 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "059",
+    "name": "DALLAS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 15.0,
+        "1945": 11.0,
+        "1946": 14.0,
+        "1951": 15.0,
+        "1952": 13.0,
+        "1953": 11.0,
+        "1954": 9.0,
+        "1955": 15.0,
+        "1956": 14.0,
+        "1957": 18.0,
+        "1958": 10.0,
+        "1959": 18.0,
+        "1960": 18.0,
+        "1961": 20.0,
+        "1962": 17.0,
+        "1963": 23.0,
+        "1965": 22.0,
+        "1966": 19.0,
+        "1967": 23.0,
+        "1968": 25.0,
+        "1969": 24.0,
+        "1970": 22.0,
+        "1971": 26.0,
+        "1972": 25.0,
+        "1973": 22.0,
+        "1974": 9.8,
+        "1975": 26.3,
+        "1976": 13.6,
+        "1977": 22.8,
+        "1978": 32.9,
+        "1979": 24.0,
+        "1980": 13.1,
+        "1981": 19.7,
+        "2010": 32.1,
+        "2011": 28.2,
+        "2012": 22.1,
+        "2014": 36.3,
+        "2015": 42.6,
+        "2016": 38.4,
+        "2017": 47.0,
+        "2018": 32.3,
+        "2019": 37.5,
+        "2020": 37.3,
+        "2021": 46.3,
+        "2022": 30.3,
+        "2023": 29.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 32.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MO",
+    "fips": "29",
+    "name": "MISSOURI"
+  }
+}

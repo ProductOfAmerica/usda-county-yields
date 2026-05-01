@@ -1,0 +1,99 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "097",
+    "name": "SONOMA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 70.0,
+        "1960": 69.0,
+        "1961": 69.0,
+        "1962": 70.0,
+        "1963": 71.0,
+        "1978": 70.0,
+        "1984": 130.0,
+        "1985": 120.0,
+        "1986": 130.0,
+        "1992": 150.0,
+        "1993": 150.0,
+        "1994": 150.0,
+        "1995": 140.0,
+        "1996": 150.0,
+        "1998": 0.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 0.0,
+        "2003": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 70.0,
+        "1984": 130.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 9.0,
+        "1976": 16.0,
+        "1977": 13.0,
+        "1978": 15.0,
+        "1979": 22.0,
+        "1980": 20.0,
+        "1981": 18.0,
+        "1983": 19.0,
+        "1984": 21.0,
+        "1985": 21.0,
+        "1986": 19.0,
+        "1987": 25.0,
+        "1988": 22.5,
+        "1989": 20.0,
+        "1990": 18.0,
+        "1991": 15.0,
+        "1992": 20.0,
+        "1994": 25.0,
+        "1995": 23.3,
+        "1996": 23.0,
+        "1998": 18.0,
+        "1999": 18.0,
+        "2000": 27.5,
+        "2001": 23.3,
+        "2003": 25.0,
+        "2010": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "015",
+    "name": "BRULE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1977": 22.5,
+        "1978": 24.0,
+        "1979": 24.0,
+        "1980": 15.6,
+        "1981": 27.5,
+        "1982": 24.7,
+        "1983": 34.3,
+        "1984": 26.1,
+        "1985": 30.0,
+        "1986": 28.0,
+        "1987": 29.0,
+        "1988": 21.0,
+        "1989": 12.0,
+        "1990": 26.0,
+        "1991": 16.0,
+        "1992": 22.0,
+        "1993": 20.0,
+        "1994": 29.0,
+        "1995": 21.0,
+        "1996": 32.0,
+        "1997": 38.0,
+        "1998": 39.0,
+        "1999": 38.8,
+        "2000": 28.5,
+        "2001": 29.2,
+        "2002": 19.8,
+        "2003": 18.6,
+        "2004": 21.0,
+        "2005": 24.3,
+        "2006": 14.2,
+        "2007": 49.9,
+        "2008": 40.0,
+        "2009": 51.5,
+        "2010": 36.3,
+        "2011": 38.9,
+        "2012": 25.5,
+        "2013": 47.8,
+        "2014": 50.7,
+        "2015": 50.5,
+        "2016": 51.2,
+        "2017": 36.9,
+        "2018": 53.4,
+        "2019": 47.4,
+        "2020": 51.4,
+        "2021": 34.5,
+        "2022": 30.3,
+        "2023": 35.4,
+        "2024": 43.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 24.0,
+        "1979": 19.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  }
+}

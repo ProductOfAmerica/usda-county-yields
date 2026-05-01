@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "171",
+    "name": "TAMA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1979": 41.3,
+        "1980": 34.5,
+        "1981": 42.0,
+        "1982": 31.0,
+        "1983": 44.9,
+        "1984": 33.0,
+        "1985": 49.3,
+        "1986": 34.0,
+        "1987": 48.0,
+        "1988": 37.0,
+        "1989": 54.7,
+        "1990": 50.7,
+        "1992": 42.8,
+        "1993": 21.0,
+        "1994": 40.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1979": 41.3,
+        "1980": 34.5,
+        "1981": 42.0,
+        "1982": 31.0,
+        "1983": 44.9,
+        "1984": 33.0,
+        "1985": 49.3,
+        "1986": 34.0,
+        "1987": 48.0,
+        "1988": 37.0,
+        "1989": 54.7,
+        "1990": 50.7,
+        "1992": 42.8,
+        "1993": 21.0,
+        "1994": 40.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  }
+}

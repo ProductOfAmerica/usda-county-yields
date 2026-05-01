@@ -1,0 +1,151 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "041",
+    "name": "FOREST"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1968": 23.0,
+        "1973": 28.5,
+        "1975": 30.0,
+        "1976": 30.0,
+        "1977": 32.0,
+        "1978": 26.0,
+        "1979": 30.0,
+        "1980": 32.0,
+        "1981": 40.0,
+        "1985": 36.0,
+        "1986": 40.0,
+        "1987": 33.0,
+        "1988": 36.0,
+        "1989": 44.0,
+        "1990": 40.0,
+        "1991": 44.0,
+        "1992": 28.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 28.5,
+        "1975": 30.0,
+        "1976": 30.0,
+        "1977": 32.0,
+        "1978": 26.0,
+        "1979": 30.0,
+        "1980": 32.0,
+        "1981": 40.0,
+        "1986": 40.0,
+        "1987": 33.0,
+        "1988": 24.0,
+        "1989": 22.0,
+        "1990": 40.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1968": 23.0,
+        "1973": 29.0,
+        "1975": 30.0,
+        "1986": 28.0,
+        "1987": 28.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 29.0,
+        "1975": 30.0,
+        "1986": 28.0,
+        "1987": 28.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 28.0,
+        "1976": 30.0,
+        "1977": 32.0,
+        "1978": 26.0,
+        "1979": 30.0,
+        "1980": 32.0,
+        "1981": 40.0,
+        "1985": 42.0,
+        "1986": 52.0,
+        "1987": 38.0,
+        "1988": 36.0,
+        "1989": 44.0,
+        "1990": 40.0,
+        "1991": 44.0,
+        "1992": 28.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 28.0,
+        "1976": 30.0,
+        "1977": 32.0,
+        "1978": 26.0,
+        "1979": 30.0,
+        "1980": 32.0,
+        "1981": 40.0,
+        "1986": 52.0,
+        "1987": 38.0,
+        "1988": 24.0,
+        "1989": 22.0,
+        "1990": 40.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WI",
+    "fips": "55",
+    "name": "WISCONSIN"
+  }
+}

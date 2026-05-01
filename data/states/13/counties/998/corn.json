@@ -1,0 +1,116 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 46.2,
+        "1973": 34.0,
+        "1974": 52.3,
+        "1977": 17.3,
+        "1978": 32.9,
+        "1979": 58.8,
+        "1980": 33.9,
+        "1981": 51.5,
+        "1982": 62.3,
+        "1983": 48.1,
+        "1984": 36.8,
+        "1985": 30.0,
+        "1986": 28.6,
+        "1987": 39.5,
+        "1988": 31.3,
+        "1989": 72.7,
+        "1990": 50.0,
+        "1991": 80.0,
+        "1992": 120.0,
+        "1993": 44.1,
+        "1994": 90.0,
+        "1995": 81.3,
+        "1996": 55.3,
+        "1997": 100.0,
+        "1998": 110.0,
+        "1999": 70.0,
+        "2000": 67.0,
+        "2001": 109.0,
+        "2002": 65.0,
+        "2003": 141.0,
+        "2004": 70.0,
+        "2005": 119.0,
+        "2006": 74.0,
+        "2007": 51.0,
+        "2008": 122.0,
+        "2009": 117.0,
+        "2010": 143.0,
+        "2011": 100.4,
+        "2012": 157.7,
+        "2013": 102.2,
+        "2014": 114.3,
+        "2015": 101.2,
+        "2016": 166.7,
+        "2017": 140.4,
+        "2018": 113.0,
+        "2019": 152.4,
+        "2020": 154.2,
+        "2021": 157.1,
+        "2022": 167.7,
+        "2023": 165.3,
+        "2024": 152.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 42.2,
+        "1973": 28.3,
+        "1974": 34.0,
+        "1977": 14.8,
+        "1978": 28.8,
+        "1979": 52.2,
+        "1980": 13.1,
+        "1981": 48.9,
+        "1982": 50.0,
+        "1983": 37.4,
+        "1984": 29.4,
+        "1985": 21.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "2022": 22.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

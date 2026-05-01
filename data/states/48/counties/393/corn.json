@@ -1,0 +1,63 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "393",
+    "name": "ROBERTS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1976": 134.5,
+        "1977": 98.2,
+        "1978": 102.5,
+        "1979": 104.7,
+        "1992": 184.7,
+        "1993": 135.5,
+        "1994": 104.6,
+        "1995": 132.1,
+        "1996": 177.8,
+        "1997": 192.8,
+        "1998": 167.1,
+        "1999": 213.8,
+        "2000": 184.0,
+        "2001": 173.9,
+        "2002": 203.2,
+        "2003": 190.5,
+        "2004": 208.6,
+        "2005": 208.4,
+        "2006": 198.0,
+        "2017": 217.4
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 96.5,
+        "1979": 95.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

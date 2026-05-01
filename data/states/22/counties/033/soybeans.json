@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "033",
+    "name": "EAST BATON ROUGE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1966": 20.0,
+        "1967": 24.0,
+        "1968": 28.0,
+        "1969": 20.3,
+        "1970": 25.0,
+        "1971": 25.0,
+        "1972": 22.7,
+        "1973": 22.7,
+        "1974": 25.6,
+        "1975": 17.4,
+        "1976": 29.9,
+        "1977": 30.2,
+        "1978": 31.5,
+        "1979": 22.7,
+        "1980": 23.5,
+        "1981": 28.2,
+        "1982": 30.8,
+        "1983": 27.4,
+        "1984": 29.9,
+        "1985": 30.2,
+        "1986": 23.0,
+        "1987": 25.2,
+        "1988": 40.2,
+        "1989": 32.1,
+        "1990": 41.7,
+        "1991": 20.7,
+        "1992": 24.1,
+        "1996": 32.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

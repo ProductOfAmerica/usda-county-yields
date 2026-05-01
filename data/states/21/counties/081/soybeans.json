@@ -1,0 +1,41 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "081",
+    "name": "GRANT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1986": 35.0,
+        "2010": 46.2,
+        "2011": 43.0,
+        "2012": 48.0,
+        "2013": 45.0,
+        "2015": 50.8,
+        "2019": 49.5,
+        "2020": 51.7,
+        "2021": 48.2,
+        "2022": 50.0,
+        "2023": 42.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  }
+}

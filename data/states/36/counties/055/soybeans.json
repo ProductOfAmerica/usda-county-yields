@@ -1,0 +1,55 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "055",
+    "name": "MONROE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 35.0,
+        "2001": 33.0,
+        "2002": 33.0,
+        "2003": 33.0,
+        "2004": 37.0,
+        "2005": 43.0,
+        "2006": 52.0,
+        "2007": 39.0,
+        "2008": 46.0,
+        "2009": 43.5,
+        "2010": 51.0,
+        "2011": 45.7,
+        "2012": 50.2,
+        "2013": 56.3,
+        "2014": 49.5,
+        "2015": 51.5,
+        "2016": 38.7,
+        "2017": 49.4,
+        "2018": 54.2,
+        "2019": 54.1,
+        "2020": 58.2,
+        "2021": 60.0,
+        "2022": 49.2,
+        "2023": 53.8,
+        "2024": 55.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

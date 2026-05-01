@@ -1,0 +1,89 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "047",
+    "name": "IBERVILLE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 30.9,
+        "1960": 40.0,
+        "1961": 41.9,
+        "1962": 36.5,
+        "1963": 37.9,
+        "1964": 37.9,
+        "1965": 37.0,
+        "1966": 40.0,
+        "1967": 50.0,
+        "1968": 50.0,
+        "1969": 50.0,
+        "1970": 35.0,
+        "1971": 45.0,
+        "1972": 60.0,
+        "1973": 35.0,
+        "1974": 60.0,
+        "1975": 45.0,
+        "1976": 65.0,
+        "1977": 60.0,
+        "1978": 60.0,
+        "1979": 45.0,
+        "1980": 45.0,
+        "1981": 80.0,
+        "1982": 123.1,
+        "1983": 100.0,
+        "1984": 141.0,
+        "1985": 145.0,
+        "1986": 139.4,
+        "1987": 105.4,
+        "1988": 130.0,
+        "1989": 106.6,
+        "1990": 124.6,
+        "1991": 101.9,
+        "1992": 138.1,
+        "1993": 134.5,
+        "1994": 149.3,
+        "1995": 137.8,
+        "1996": 174.4,
+        "1997": 122.0,
+        "1998": 94.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 55.7,
+        "1979": 41.5,
+        "1980": 38.6,
+        "1981": 80.0,
+        "1982": 123.1,
+        "1983": 100.0,
+        "1984": 141.0,
+        "1985": 142.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

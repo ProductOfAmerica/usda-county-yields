@@ -1,0 +1,52 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "075",
+    "name": "RENVILLE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1992": 9.0,
+        "2000": 25.8,
+        "2001": 18.1,
+        "2002": 23.4,
+        "2003": 19.5,
+        "2004": 11.0,
+        "2005": 28.5,
+        "2006": 21.1,
+        "2007": 28.1,
+        "2010": 31.1,
+        "2012": 28.7,
+        "2014": 35.2,
+        "2015": 33.3,
+        "2016": 36.4,
+        "2017": 29.5,
+        "2018": 22.7,
+        "2019": 30.7,
+        "2020": 28.2,
+        "2021": 22.3,
+        "2022": 27.9,
+        "2023": 31.7,
+        "2024": 30.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  }
+}

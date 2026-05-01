@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "317",
+    "name": "WILKES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1954": 8.8,
+        "1955": 23.9,
+        "1956": 18.5,
+        "1957": 16.4,
+        "1958": 23.1,
+        "1959": 19.2,
+        "1960": 19.5,
+        "1961": 29.6,
+        "1962": 22.8,
+        "1963": 32.7,
+        "1964": 29.5,
+        "1965": 42.3,
+        "1966": 29.2,
+        "1967": 42.0,
+        "1968": 30.3,
+        "1969": 25.0,
+        "1970": 19.4,
+        "1971": 38.6,
+        "1972": 51.0,
+        "1973": 43.0,
+        "1974": 47.5,
+        "1975": 42.4,
+        "1976": 47.0,
+        "1977": 27.0,
+        "1978": 25.4,
+        "1979": 64.7,
+        "1980": 27.2,
+        "1981": 31.5,
+        "1982": 62.6,
+        "1983": 46.4,
+        "1984": 71.4,
+        "1985": 62.2,
+        "1986": 26.3,
+        "1987": 27.3,
+        "1989": 67.3,
+        "1990": 60.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 42.2,
+        "1973": 27.0,
+        "1974": 24.9,
+        "1975": 12.8,
+        "1976": 19.7,
+        "1977": 3.5,
+        "1978": 19.2,
+        "1979": 63.6,
+        "1980": 20.1,
+        "1981": 8.7,
+        "1982": 52.1,
+        "1983": 23.2,
+        "1984": 46.5,
+        "1985": 32.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2003": 71.0,
+        "2004": 65.0,
+        "2005": 75.0,
+        "2006": 72.0,
+        "2007": 81.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2003": 30.4,
+        "2004": 84.0,
+        "2005": 50.0,
+        "2006": 72.0,
+        "2007": 50.8
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 0.0,
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 74.5,
+        "2003": 84.5,
+        "2004": 85.5,
+        "2005": 88.5,
+        "2006": 95.0,
+        "2007": 108.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 74.3,
+        "2003": 91.6,
+        "2004": 114.7,
+        "2005": 62.0,
+        "2006": 95.1,
+        "2007": 107.8
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - YIELD, MEASURED IN BU / PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 0.0,
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 31.0,
+        "2003": 55.5,
+        "2004": 90.0,
+        "2005": 75.0,
+        "2006": 72.0,
+        "2007": 55.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 20.7,
+        "2003": 52.2,
+        "2004": 86.2,
+        "2005": 75.0,
+        "2006": 72.0,
+        "2007": 46.2
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 0.0,
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 0.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 30.0,
+        "2003": 73.5,
+        "2004": 30.0,
+        "2005": 71.5,
+        "2006": 78.5,
+        "2007": 72.0,
+        "2008": 77.5,
+        "2009": 74.5,
+        "2010": 98.6,
+        "2011": 37.4,
+        "2012": 75.2,
+        "2013": 84.4,
+        "2014": 75.6,
+        "2015": 80.6,
+        "2016": 28.9,
+        "2017": 28.3,
+        "2018": 27.2
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 75.0,
+        "2003": 82.0,
+        "2004": 53.0,
+        "2005": 82.5,
+        "2006": 70.0,
+        "2007": 75.0,
+        "2008": 104.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 28.5,
+        "2003": 30.0,
+        "2004": 24.5,
+        "2005": 18.5,
+        "2006": 36.5,
+        "2007": 29.5,
+        "2008": 19.5
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 63.0,
+        "2003": 67.0,
+        "2004": 76.0,
+        "2005": 75.0,
+        "2006": 67.5,
+        "2007": 104.0,
+        "2008": 73.0,
+        "2009": 67.0,
+        "2010": 103.5,
+        "2011": 84.7,
+        "2012": 101.6,
+        "2013": 40.0,
+        "2014": 117.3,
+        "2015": 95.8,
+        "2016": 50.0,
+        "2017": 104.8,
+        "2018": 116.7,
+        "2019": 112.5,
+        "2020": 63.8,
+        "2021": 81.6,
+        "2022": 86.9,
+        "2023": 76.7,
+        "2025": 87.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 63.0,
+        "2003": 62.1,
+        "2004": 57.5,
+        "2005": 75.0,
+        "2006": 85.0,
+        "2007": 96.3
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 0.0,
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 0.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2003": 118.0,
+        "2004": 113.5,
+        "2005": 104.0,
+        "2006": 111.5,
+        "2007": 104.5,
+        "2008": 93.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2003": 66.7,
+        "2004": 78.0,
+        "2005": 90.0,
+        "2006": 105.0,
+        "2007": 103.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, IRRIGATED - YIELD, MEASURED IN BU / PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 0.0,
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 0.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 63.0,
+        "2003": 49.5,
+        "2004": 76.0,
+        "2005": 51.0,
+        "2006": 47.0,
+        "2007": 48.5,
+        "2008": 64.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 63.0,
+        "2003": 16.4,
+        "2004": 60.0,
+        "2005": 38.1,
+        "2006": 80.1,
+        "2007": 31.5
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED, FOLLOWING SUMMER FALLOW",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, FOLLOWING SUMMER FALLOW - YIELD, MEASURED IN BU / PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 0.0,
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 0.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "005",
+    "name": "ATOKA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1933": 5.3,
+        "1934": 6.8,
+        "1935": 13.6,
+        "1937": 18.2,
+        "1938": 18.3,
+        "1939": 16.5,
+        "1940": 17.0,
+        "1941": 12.4,
+        "1942": 12.9,
+        "1943": 10.5,
+        "1944": 12.5,
+        "1945": 14.1,
+        "1946": 16.5,
+        "1947": 15.5,
+        "1948": 16.5,
+        "1949": 16.5,
+        "1951": 18.5,
+        "1952": 10.1,
+        "1953": 15.0,
+        "1954": 10.0,
+        "1955": 16.0,
+        "1956": 18.5,
+        "1957": 18.5,
+        "1958": 24.0,
+        "1959": 25.0,
+        "1960": 26.0,
+        "1961": 26.0,
+        "1962": 23.0,
+        "1963": 26.4,
+        "1964": 21.3,
+        "1965": 31.7,
+        "1966": 24.3,
+        "1967": 30.4,
+        "1968": 28.0,
+        "1969": 24.0,
+        "1970": 42.0,
+        "1971": 63.0,
+        "1972": 34.0,
+        "1973": 50.0,
+        "1974": 30.0,
+        "1975": 44.3,
+        "1976": 38.3,
+        "1977": 30.0,
+        "1978": 26.7,
+        "2002": 62.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 59.0,
+        "2003": 39.0,
+        "2004": 40.0,
+        "2005": 50.0,
+        "2006": 60.0,
+        "2007": 53.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 52.0,
+        "2003": 37.0,
+        "2004": 43.0,
+        "2005": 50.0,
+        "2006": 65.0,
+        "2007": 55.0,
+        "2008": 61.5,
+        "2009": 41.5,
+        "2010": 40.9,
+        "2011": 44.6,
+        "2012": 60.4,
+        "2013": 45.5,
+        "2014": 48.3,
+        "2015": 58.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  }
+}

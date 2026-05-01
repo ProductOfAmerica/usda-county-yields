@@ -1,0 +1,55 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "151",
+    "name": "MADISON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 25.0,
+        "1973": 25.0,
+        "1974": 18.0,
+        "1975": 25.0,
+        "1976": 23.0,
+        "1981": 33.0,
+        "1982": 30.0,
+        "1983": 25.0,
+        "1984": 24.0,
+        "1985": 35.0,
+        "1986": 33.0,
+        "1989": 30.0,
+        "1990": 31.0,
+        "1991": 31.0,
+        "2012": 48.9,
+        "2014": 49.4,
+        "2015": 52.2,
+        "2016": 47.5,
+        "2017": 53.9,
+        "2018": 48.6,
+        "2019": 30.0,
+        "2020": 54.2,
+        "2021": 57.9,
+        "2023": 53.9,
+        "2024": 45.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  }
+}

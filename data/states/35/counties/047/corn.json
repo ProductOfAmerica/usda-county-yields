@@ -1,0 +1,163 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "047",
+    "name": "SAN MIGUEL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 12.0,
+        "1957": 15.0,
+        "1958": 14.5,
+        "1959": 15.3,
+        "1960": 19.7,
+        "1961": 19.1,
+        "1962": 22.5,
+        "1963": 18.6,
+        "1965": 17.5,
+        "1966": 22.2,
+        "1967": 27.0,
+        "1971": 45.0,
+        "1972": 31.4,
+        "1973": 25.0,
+        "1974": 61.0,
+        "1975": 26.8,
+        "1976": 29.0,
+        "1977": 50.0,
+        "1978": 34.1,
+        "1979": 22.8,
+        "1980": 22.0,
+        "1981": 20.0,
+        "1982": 23.0,
+        "1983": 22.0,
+        "1984": 28.3,
+        "1985": 27.2,
+        "1986": 63.0,
+        "1987": 40.4,
+        "1988": 44.3,
+        "1989": 45.0,
+        "1990": 45.0,
+        "1991": 100.0,
+        "1992": 110.0,
+        "1993": 100.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 34.1,
+        "1979": 18.3,
+        "1980": 7.3,
+        "1981": 20.0,
+        "1982": 23.0,
+        "1983": 16.9,
+        "1984": 22.6,
+        "1985": 27.2
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 20.0,
+        "1960": 35.0,
+        "1961": 25.2,
+        "1962": 35.0,
+        "1963": 30.0,
+        "1965": 25.0,
+        "1966": 31.0,
+        "1967": 35.0,
+        "1971": 45.0,
+        "1984": 31.0,
+        "1985": 29.0,
+        "1986": 63.0,
+        "1987": 43.0,
+        "1988": 45.0,
+        "1989": 50.0,
+        "1990": 45.0,
+        "1991": 100.0,
+        "1992": 110.0,
+        "1993": 100.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1984": 23.3,
+        "1985": 29.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 13.0,
+        "1960": 12.0,
+        "1961": 13.0,
+        "1962": 10.0,
+        "1963": 10.0,
+        "1965": 10.0,
+        "1966": 10.9,
+        "1967": 11.0,
+        "1984": 20.0,
+        "1985": 20.0,
+        "1987": 25.0,
+        "1988": 40.0,
+        "1989": 10.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1984": 20.0,
+        "1985": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NM",
+    "fips": "35",
+    "name": "NEW MEXICO"
+  }
+}

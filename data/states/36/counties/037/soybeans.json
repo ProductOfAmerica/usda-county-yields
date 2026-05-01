@@ -1,0 +1,54 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "037",
+    "name": "GENESEE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 31.0,
+        "2001": 29.0,
+        "2002": 29.0,
+        "2003": 34.0,
+        "2004": 35.0,
+        "2005": 43.0,
+        "2006": 46.0,
+        "2007": 34.0,
+        "2008": 46.5,
+        "2009": 49.0,
+        "2010": 53.6,
+        "2011": 45.0,
+        "2012": 52.1,
+        "2014": 48.4,
+        "2015": 47.7,
+        "2016": 37.8,
+        "2017": 47.2,
+        "2018": 55.1,
+        "2019": 50.8,
+        "2020": 59.0,
+        "2021": 58.8,
+        "2022": 44.4,
+        "2023": 50.2,
+        "2024": 56.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

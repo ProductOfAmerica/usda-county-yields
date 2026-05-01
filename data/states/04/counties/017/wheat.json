@@ -1,0 +1,133 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "017",
+    "name": "NAVAJO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1965": 13.3,
+        "1966": 7.7,
+        "1967": 10.6,
+        "1968": 17.4,
+        "1969": 17.4,
+        "1970": 22.2,
+        "1972": 50.0,
+        "1973": 44.0,
+        "1974": 42.0,
+        "1975": 51.0,
+        "1976": 55.0,
+        "1977": 52.0,
+        "1978": 50.0,
+        "1979": 50.0,
+        "1980": 52.0,
+        "1981": 38.0,
+        "1982": 35.5,
+        "1983": 46.0,
+        "1984": 43.0,
+        "1986": 36.7,
+        "1987": 37.6,
+        "1988": 30.0,
+        "1992": 43.3,
+        "1993": 52.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 25.1,
+        "1974": 26.3,
+        "1975": 42.5,
+        "1976": 47.1,
+        "1977": 43.3,
+        "1978": 41.7,
+        "1979": 35.7,
+        "1980": 41.6,
+        "1981": 29.6,
+        "1982": 35.5,
+        "1983": 41.8,
+        "1984": 43.0,
+        "1986": 36.7,
+        "1987": 37.6
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1965": 13.3,
+        "1966": 7.7,
+        "1967": 10.6,
+        "1968": 17.4,
+        "1969": 17.4,
+        "1970": 22.2,
+        "1972": 50.0,
+        "1973": 44.0,
+        "1974": 42.0,
+        "1975": 51.0,
+        "1976": 55.0,
+        "1977": 52.0,
+        "1978": 50.0,
+        "1979": 50.0,
+        "1980": 52.0,
+        "1981": 38.0,
+        "1982": 35.5,
+        "1983": 46.0,
+        "1984": 43.0,
+        "1992": 40.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 25.1,
+        "1974": 26.3,
+        "1975": 42.5,
+        "1976": 47.1,
+        "1977": 43.3,
+        "1978": 41.7,
+        "1979": 35.7,
+        "1980": 41.6,
+        "1981": 29.6,
+        "1982": 35.5,
+        "1983": 41.8,
+        "1984": 43.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AZ",
+    "fips": "04",
+    "name": "ARIZONA"
+  }
+}

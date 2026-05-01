@@ -1,0 +1,52 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "121",
+    "name": "NOBLE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1941": 20.0,
+        "1951": 20.0,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 20.0,
+        "1955": 20.0,
+        "1956": 20.0,
+        "1957": 20.0,
+        "1958": 20.0,
+        "1959": 20.0,
+        "1960": 23.0,
+        "1964": 19.0,
+        "1967": 22.0,
+        "1968": 26.0,
+        "1969": 35.0,
+        "1970": 30.0,
+        "1971": 30.0,
+        "1972": 21.5,
+        "1973": 26.0,
+        "1974": 19.0,
+        "1975": 28.0,
+        "2021": 45.1
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OH",
+    "fips": "39",
+    "name": "OHIO"
+  }
+}

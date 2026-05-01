@@ -1,0 +1,39 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "017",
+    "name": "GARFIELD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 15.0,
+        "1975": 12.0,
+        "1976": 12.0,
+        "1977": 12.0,
+        "1978": 15.0,
+        "1979": 17.0,
+        "1980": 16.0,
+        "1981": 16.0,
+        "1982": 15.0,
+        "1983": 17.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "UT",
+    "fips": "49",
+    "name": "UTAH"
+  }
+}

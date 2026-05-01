@@ -1,0 +1,49 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "285",
+    "name": "TROUP"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1970": 20.0,
+        "1971": 25.0,
+        "1972": 15.0,
+        "1973": 20.0,
+        "1974": 24.0,
+        "1975": 26.7,
+        "1976": 27.4,
+        "1977": 20.0,
+        "1978": 17.0,
+        "1979": 26.0,
+        "1980": 11.9,
+        "1981": 18.4,
+        "1982": 28.8,
+        "1983": 16.4,
+        "1984": 22.5,
+        "1985": 21.9,
+        "1989": 21.5,
+        "1990": 7.0,
+        "1991": 16.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

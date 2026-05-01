@@ -1,0 +1,131 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "009",
+    "name": "ESMERALDA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 51.0,
+        "1974": 55.0,
+        "1975": 60.0,
+        "1976": 51.0,
+        "1977": 50.0,
+        "1978": 60.0,
+        "1979": 60.0,
+        "1980": 55.0,
+        "1981": 60.0,
+        "1982": 60.0,
+        "1983": 70.0,
+        "1984": 60.0,
+        "1985": 60.0,
+        "1986": 70.0,
+        "1987": 75.0,
+        "1988": 70.0,
+        "1989": 75.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 51.0,
+        "1974": 55.0,
+        "1975": 60.0,
+        "1976": 51.0,
+        "1977": 50.0,
+        "1978": 60.0,
+        "1979": 60.0,
+        "1980": 55.0,
+        "1981": 60.0,
+        "1982": 60.0,
+        "1983": 70.0,
+        "1984": 60.0,
+        "1985": 60.0,
+        "1986": 70.0,
+        "1987": 75.0,
+        "1988": 70.0,
+        "1989": 75.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 51.0,
+        "1974": 55.0,
+        "1975": 60.0,
+        "1976": 51.0,
+        "1977": 50.0,
+        "1978": 60.0,
+        "1979": 60.0,
+        "1980": 55.0,
+        "1981": 60.0,
+        "1982": 60.0,
+        "1983": 70.0,
+        "1984": 60.0,
+        "1985": 60.0,
+        "1986": 70.0,
+        "1987": 75.0,
+        "1988": 70.0,
+        "1989": 75.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 51.0,
+        "1974": 55.0,
+        "1975": 60.0,
+        "1976": 51.0,
+        "1977": 50.0,
+        "1978": 60.0,
+        "1979": 60.0,
+        "1980": 55.0,
+        "1981": 60.0,
+        "1982": 60.0,
+        "1983": 70.0,
+        "1984": 60.0,
+        "1985": 60.0,
+        "1986": 70.0,
+        "1987": 75.0,
+        "1988": 70.0,
+        "1989": 75.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NV",
+    "fips": "32",
+    "name": "NEVADA"
+  }
+}

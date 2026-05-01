@@ -1,0 +1,63 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "101",
+    "name": "SAINT MARY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1967": 29.0,
+        "1968": 30.0,
+        "1969": 27.0,
+        "1970": 25.0,
+        "1971": 21.0,
+        "1972": 25.0,
+        "1973": 22.2,
+        "1974": 23.7,
+        "1975": 25.0,
+        "1976": 27.0,
+        "1977": 23.8,
+        "1978": 29.8,
+        "1979": 30.0,
+        "1980": 30.5,
+        "1981": 31.3,
+        "1982": 27.2,
+        "1983": 29.8,
+        "1984": 31.1,
+        "1985": 29.3,
+        "1986": 27.1,
+        "1996": 39.3,
+        "2005": 37.0,
+        "2008": 37.0,
+        "2011": 34.9,
+        "2013": 54.7,
+        "2014": 54.4,
+        "2015": 42.5,
+        "2016": 42.9,
+        "2017": 45.8,
+        "2020": 38.7,
+        "2021": 38.4,
+        "2022": 42.7,
+        "2023": 36.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

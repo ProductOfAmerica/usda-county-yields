@@ -1,0 +1,72 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "015",
+    "name": "CLAY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1926": 30.0,
+        "1927": 36.0,
+        "1928": 33.0,
+        "1934": 22.0,
+        "1935": 22.0,
+        "1941": 33.0,
+        "1949": 40.5,
+        "1950": 34.1,
+        "1951": 41.1,
+        "1952": 41.9,
+        "1953": 35.4,
+        "1954": 35.9,
+        "1955": 35.8,
+        "1956": 41.0,
+        "1957": 36.7,
+        "1958": 44.0,
+        "1959": 40.0,
+        "1960": 45.6,
+        "1961": 48.8,
+        "1962": 50.9,
+        "1963": 34.8,
+        "1965": 42.9,
+        "1966": 28.5,
+        "1967": 43.5,
+        "1968": 43.5,
+        "1979": 79.0,
+        "1980": 83.3,
+        "1981": 89.8,
+        "1982": 87.1,
+        "1983": 70.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1979": 61.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

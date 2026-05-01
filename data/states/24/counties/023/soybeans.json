@@ -1,0 +1,34 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "023",
+    "name": "GARRETT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2021": 40.2,
+        "2022": 41.9,
+        "2023": 35.9,
+        "2024": 22.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MD",
+    "fips": "24",
+    "name": "MARYLAND"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "061",
+    "name": "MONONGALIA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 12.0,
+        "1927": 14.0,
+        "1928": 12.0,
+        "1934": 12.0,
+        "1935": 19.0,
+        "1941": 18.0,
+        "1949": 21.6,
+        "1950": 21.2,
+        "1951": 22.2,
+        "1952": 22.3,
+        "1953": 23.7,
+        "1954": 29.8,
+        "1955": 26.5,
+        "1956": 26.0,
+        "1957": 21.6,
+        "1958": 30.0,
+        "1959": 19.8,
+        "1960": 28.0,
+        "1961": 23.8,
+        "1962": 22.0,
+        "1963": 21.5,
+        "1965": 23.0,
+        "1966": 23.8,
+        "1990": 40.0,
+        "1991": 45.0,
+        "1993": 44.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 12.0,
+        "1927": 14.0,
+        "1928": 12.0,
+        "1934": 12.0,
+        "1935": 19.0,
+        "1941": 18.0,
+        "1949": 21.6,
+        "1950": 21.2,
+        "1951": 22.2,
+        "1952": 22.3,
+        "1953": 23.7,
+        "1954": 29.8,
+        "1955": 26.5,
+        "1956": 26.0,
+        "1957": 21.6,
+        "1958": 30.0,
+        "1959": 19.8,
+        "1960": 28.0,
+        "1961": 23.8,
+        "1962": 22.0,
+        "1963": 21.5,
+        "1965": 23.0,
+        "1966": 23.8,
+        "1990": 40.0,
+        "1991": 45.0,
+        "1993": 44.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

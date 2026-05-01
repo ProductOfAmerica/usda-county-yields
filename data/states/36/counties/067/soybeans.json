@@ -1,0 +1,54 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "067",
+    "name": "ONONDAGA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 24.0,
+        "2001": 37.0,
+        "2002": 31.0,
+        "2003": 37.0,
+        "2004": 43.0,
+        "2005": 40.0,
+        "2006": 49.0,
+        "2007": 40.0,
+        "2008": 46.0,
+        "2009": 45.0,
+        "2010": 44.9,
+        "2011": 41.5,
+        "2012": 45.0,
+        "2013": 43.0,
+        "2014": 49.4,
+        "2015": 41.8,
+        "2016": 42.9,
+        "2017": 45.3,
+        "2018": 53.8,
+        "2019": 49.1,
+        "2020": 53.9,
+        "2021": 57.0,
+        "2022": 45.9,
+        "2023": 54.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

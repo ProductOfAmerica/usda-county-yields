@@ -1,0 +1,92 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "013",
+    "name": "BELL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1929": 17.5,
+        "1930": 14.6,
+        "1931": 23.3,
+        "1932": 14.1,
+        "1933": 18.7,
+        "1934": 18.4,
+        "1935": 20.3,
+        "1936": 14.0,
+        "1937": 21.9,
+        "1938": 15.7,
+        "1939": 21.1,
+        "1940": 20.0,
+        "1941": 21.6,
+        "1942": 30.2,
+        "1943": 31.4,
+        "1944": 24.2,
+        "1945": 25.0,
+        "1946": 36.0,
+        "1947": 30.0,
+        "1948": 43.1,
+        "1950": 32.0,
+        "1951": 30.6,
+        "1952": 25.0,
+        "1953": 27.9,
+        "1954": 30.0,
+        "1955": 35.0,
+        "1956": 35.6,
+        "1957": 29.1,
+        "1958": 35.0,
+        "1959": 42.2,
+        "1960": 44.0,
+        "1961": 44.0,
+        "1962": 47.5,
+        "1963": 52.5,
+        "1964": 35.0,
+        "1965": 50.0,
+        "1966": 40.0,
+        "1967": 40.0,
+        "1968": 50.0,
+        "1969": 77.0,
+        "1970": 50.0,
+        "1971": 55.0,
+        "1972": 60.0,
+        "1973": 59.0,
+        "1974": 63.0,
+        "1975": 70.0,
+        "1976": 83.0,
+        "1980": 74.0,
+        "1981": 78.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1980": 74.0,
+        "1981": 78.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  }
+}

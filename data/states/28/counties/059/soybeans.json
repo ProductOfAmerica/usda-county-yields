@@ -1,0 +1,90 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "059",
+    "name": "JACKSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1959": 24.5,
+        "1961": 19.0,
+        "1962": 17.0,
+        "1963": 18.0,
+        "1964": 19.5,
+        "1965": 20.0,
+        "1966": 22.4,
+        "1967": 25.5,
+        "1968": 24.8,
+        "1969": 20.9,
+        "1970": 22.5,
+        "1971": 22.5,
+        "1972": 18.4,
+        "1973": 20.3,
+        "1974": 27.7,
+        "1975": 19.7,
+        "1976": 22.5,
+        "1977": 21.5,
+        "1978": 21.3,
+        "1979": 24.8,
+        "1980": 18.4,
+        "1981": 24.4,
+        "1982": 22.0,
+        "1983": 26.0,
+        "1984": 21.0,
+        "1985": 26.0,
+        "1986": 20.0,
+        "1987": 24.6,
+        "1988": 23.5,
+        "1989": 17.1,
+        "1990": 22.0,
+        "1991": 23.0,
+        "1992": 22.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 26.5,
+        "1975": 18.9,
+        "1976": 22.0,
+        "1977": 20.2,
+        "1978": 20.8,
+        "1979": 23.9,
+        "1980": 17.7,
+        "1981": 21.9,
+        "1982": 20.9,
+        "1983": 24.3,
+        "1984": 20.4,
+        "1985": 24.0,
+        "1986": 16.0,
+        "1987": 20.5,
+        "1988": 21.4,
+        "1989": 16.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MS",
+    "fips": "28",
+    "name": "MISSISSIPPI"
+  }
+}

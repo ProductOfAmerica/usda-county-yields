@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "015",
+    "name": "CARROLL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 46.0,
+        "1962": 42.0,
+        "1963": 25.0,
+        "1964": 25.0,
+        "1965": 42.0,
+        "1966": 35.0,
+        "1967": 46.0,
+        "1968": 48.0,
+        "1969": 23.0,
+        "1970": 31.0,
+        "1971": 31.0,
+        "1972": 53.0,
+        "1973": 46.0,
+        "1974": 33.0,
+        "1975": 40.0,
+        "1976": 57.0,
+        "1977": 61.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

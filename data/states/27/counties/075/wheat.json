@@ -1,0 +1,103 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "075",
+    "name": "LAKE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1922": 18.0,
+        "1925": 18.0,
+        "1926": 22.9,
+        "1927": 10.2,
+        "1928": 14.9,
+        "1929": 12.0,
+        "1930": 20.0,
+        "1931": 13.0,
+        "1932": 18.5,
+        "1933": 20.0,
+        "1934": 18.3,
+        "1935": 13.0,
+        "1936": 9.0,
+        "1949": 17.0,
+        "1950": 14.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1922": 18.0,
+        "1925": 18.0,
+        "1926": 23.0,
+        "1927": 9.0,
+        "1928": 14.0,
+        "1929": 12.0,
+        "1930": 20.0,
+        "1931": 14.0,
+        "1932": 19.0,
+        "1933": 20.0,
+        "1934": 18.0,
+        "1935": 13.0,
+        "1936": 9.0,
+        "1949": 14.0,
+        "1950": 14.0
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1928": 15.0,
+        "1931": 12.0,
+        "1932": 18.0,
+        "1933": 20.0,
+        "1934": 19.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 22.0,
+        "1927": 16.0,
+        "1928": 16.0,
+        "1933": 20.0,
+        "1949": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MN",
+    "fips": "27",
+    "name": "MINNESOTA"
+  }
+}

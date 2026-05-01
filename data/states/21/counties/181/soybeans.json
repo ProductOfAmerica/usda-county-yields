@@ -1,0 +1,42 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "181",
+    "name": "NICHOLAS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 24.0,
+        "1976": 27.0,
+        "2005": 30.0,
+        "2006": 47.0,
+        "2011": 42.8,
+        "2013": 43.6,
+        "2014": 48.6,
+        "2015": 47.5,
+        "2016": 44.7,
+        "2017": 49.3,
+        "2019": 36.0,
+        "2022": 49.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  }
+}

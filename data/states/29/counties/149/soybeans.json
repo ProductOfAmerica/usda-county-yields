@@ -1,0 +1,65 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "149",
+    "name": "OREGON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 10.0,
+        "1945": 9.0,
+        "1946": 11.0,
+        "1948": 11.0,
+        "1949": 15.0,
+        "1951": 13.0,
+        "1952": 10.0,
+        "1953": 8.0,
+        "1957": 13.5,
+        "1963": 18.0,
+        "1964": 18.0,
+        "1967": 19.0,
+        "1968": 19.0,
+        "1969": 26.0,
+        "1970": 24.0,
+        "1971": 28.0,
+        "1972": 25.0,
+        "1973": 24.0,
+        "1974": 14.0,
+        "1978": 20.0,
+        "1979": 20.7,
+        "1980": 12.0,
+        "1981": 19.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MO",
+    "fips": "29",
+    "name": "MISSOURI"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "059",
+    "name": "HARPER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1933": 4.5,
+        "1934": 4.0,
+        "1935": 2.0,
+        "1937": 8.0,
+        "1938": 3.7,
+        "1939": 2.9,
+        "1940": 5.0,
+        "1941": 13.3,
+        "1942": 16.2,
+        "1943": 9.8,
+        "1944": 11.9,
+        "1945": 9.1,
+        "1946": 9.0,
+        "1947": 12.3,
+        "1948": 14.0,
+        "1949": 15.0,
+        "1951": 9.3,
+        "1952": 7.0,
+        "1953": 4.0,
+        "1954": 5.5,
+        "1955": 17.0,
+        "1956": 6.5,
+        "1957": 18.0,
+        "1958": 25.0,
+        "1960": 22.0,
+        "1961": 16.5,
+        "1971": 70.0,
+        "1973": 90.0,
+        "1974": 99.0,
+        "1975": 95.0,
+        "1976": 100.0,
+        "1977": 100.0,
+        "1978": 70.0,
+        "1979": 110.0,
+        "1980": 80.0,
+        "1984": 95.0,
+        "1985": 100.0,
+        "1997": 127.8,
+        "1998": 150.0,
+        "1999": 160.0,
+        "2000": 161.3,
+        "2001": 143.3,
+        "2002": 147.1,
+        "2003": 141.7,
+        "2004": 111.1,
+        "2007": 85.7
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 70.0,
+        "1979": 110.0,
+        "1980": 80.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "175",
+    "name": "TRANSYLVANIA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0,
+        "1973": 21.0,
+        "1974": 16.0,
+        "1975": 19.0,
+        "1976": 18.0,
+        "1977": 18.0,
+        "1978": 20.0,
+        "1979": 22.0,
+        "1980": 25.0,
+        "1981": 27.0,
+        "1982": 22.0,
+        "1983": 14.0,
+        "1984": 16.0,
+        "1985": 18.0,
+        "1986": 17.0,
+        "1990": 40.0,
+        "1991": 33.0,
+        "2018": 51.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  }
+}

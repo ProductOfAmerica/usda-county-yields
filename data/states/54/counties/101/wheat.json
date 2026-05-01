@@ -1,0 +1,77 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "101",
+    "name": "WEBSTER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1934": 9.0,
+        "1935": 13.0,
+        "1941": 12.0,
+        "1949": 14.0,
+        "1950": 14.5,
+        "1951": 13.5,
+        "1952": 16.0,
+        "1953": 18.0,
+        "1954": 14.0,
+        "1955": 14.5,
+        "1956": 18.0,
+        "1957": 22.0,
+        "1958": 20.0,
+        "1959": 21.0,
+        "1960": 24.0,
+        "1961": 20.0,
+        "1965": 22.0,
+        "1966": 20.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1934": 9.0,
+        "1935": 13.0,
+        "1941": 12.0,
+        "1949": 14.0,
+        "1950": 14.5,
+        "1951": 13.5,
+        "1952": 16.0,
+        "1953": 18.0,
+        "1954": 14.0,
+        "1955": 14.5,
+        "1956": 18.0,
+        "1957": 22.0,
+        "1958": 20.0,
+        "1959": 21.0,
+        "1960": 24.0,
+        "1961": 20.0,
+        "1965": 22.0,
+        "1966": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

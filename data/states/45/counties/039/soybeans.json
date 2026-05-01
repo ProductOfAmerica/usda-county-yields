@@ -1,0 +1,45 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "039",
+    "name": "FAIRFIELD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 17.5,
+        "1973": 20.0,
+        "1974": 23.3,
+        "1975": 22.5,
+        "1976": 17.5,
+        "1977": 17.5,
+        "1978": 17.5,
+        "1979": 24.0,
+        "1980": 13.3,
+        "1981": 24.0,
+        "1982": 20.0,
+        "1983": 16.8,
+        "1984": 17.7,
+        "1985": 24.0,
+        "1986": 16.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SC",
+    "fips": "45",
+    "name": "SOUTH CAROLINA"
+  }
+}

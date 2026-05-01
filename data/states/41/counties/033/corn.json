@@ -1,0 +1,61 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "033",
+    "name": "JOSEPHINE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 64.0,
+        "1957": 72.0,
+        "1958": 86.5,
+        "1959": 80.0,
+        "1960": 76.0,
+        "1961": 71.0,
+        "1962": 70.0,
+        "1963": 60.0,
+        "1964": 50.0,
+        "1965": 60.0,
+        "1966": 60.0,
+        "1967": 60.0,
+        "1982": 103.0,
+        "1997": 160.0,
+        "1998": 158.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 0.0,
+        "2003": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1982": 103.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  }
+}

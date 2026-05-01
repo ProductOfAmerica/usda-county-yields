@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "067",
+    "name": "FLOYD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 39.2,
+        "1974": 32.7,
+        "1975": 40.0,
+        "1976": 43.2,
+        "1977": 38.9,
+        "1978": 32.0,
+        "1979": 31.0,
+        "1980": 42.0,
+        "1981": 32.3,
+        "1982": 36.3,
+        "1984": 33.0,
+        "1985": 48.0,
+        "1986": 29.0,
+        "1990": 34.0,
+        "1992": 42.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 39.2,
+        "1974": 32.7,
+        "1975": 40.0,
+        "1976": 43.2,
+        "1977": 38.9,
+        "1978": 32.0,
+        "1979": 31.0,
+        "1980": 42.0,
+        "1981": 32.3,
+        "1982": 36.3,
+        "1984": 33.0,
+        "1985": 48.0,
+        "1986": 29.0,
+        "1990": 34.0,
+        "1992": 42.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  }
+}

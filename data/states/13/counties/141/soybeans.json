@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "141",
+    "name": "HANCOCK"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1965": 27.0,
+        "1966": 21.5,
+        "1967": 25.0,
+        "1968": 17.5,
+        "1969": 24.0,
+        "1970": 21.5,
+        "1971": 27.5,
+        "1972": 17.5,
+        "1973": 21.1,
+        "1974": 22.0,
+        "1975": 17.9,
+        "1976": 19.4,
+        "1977": 17.0,
+        "1978": 16.0,
+        "1979": 20.9,
+        "1980": 12.5,
+        "1981": 19.6,
+        "1982": 26.0,
+        "1983": 19.4,
+        "1984": 15.5,
+        "1985": 22.3,
+        "1986": 10.2,
+        "1987": 14.2,
+        "1988": 28.0,
+        "1989": 20.7,
+        "1990": 7.5,
+        "1991": 18.0,
+        "1992": 26.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

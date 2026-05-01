@@ -1,0 +1,126 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "035",
+    "name": "OTERO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 36.0,
+        "1957": 44.0,
+        "1958": 43.0,
+        "1959": 48.0,
+        "1960": 50.0,
+        "1961": 40.0,
+        "1962": 37.6,
+        "1963": 27.8,
+        "1965": 45.0,
+        "1966": 45.0,
+        "1967": 40.0,
+        "1971": 50.0,
+        "1972": 66.0,
+        "1973": 50.0,
+        "1974": 53.0,
+        "1981": 86.0,
+        "1982": 86.0,
+        "1983": 85.0,
+        "1992": 150.0,
+        "1993": 149.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1981": 86.0,
+        "1982": 86.0,
+        "1983": 85.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1993": 15.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 55.0,
+        "1960": 57.5,
+        "1961": 45.0,
+        "1962": 43.0,
+        "1963": 32.0,
+        "1965": 45.0,
+        "1966": 45.0,
+        "1967": 40.0,
+        "1971": 50.0,
+        "1992": 150.0,
+        "1993": 149.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, SILAGE, IRRIGATED - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1993": 15.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 20.0,
+        "1960": 20.0,
+        "1961": 20.0,
+        "1962": 16.0,
+        "1963": 11.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NM",
+    "fips": "35",
+    "name": "NEW MEXICO"
+  }
+}

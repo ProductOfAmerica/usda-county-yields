@@ -1,0 +1,89 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "231",
+    "name": "HUNT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 10.9,
+        "1975": 15.9,
+        "1976": 17.4,
+        "1977": 17.1,
+        "1978": 13.1,
+        "1979": 20.0,
+        "1981": 11.8,
+        "1991": 30.6,
+        "1992": 36.3,
+        "1993": 14.4,
+        "1994": 42.1,
+        "1995": 22.0,
+        "1996": 23.4,
+        "1997": 30.0,
+        "1998": 13.9,
+        "1999": 15.7,
+        "2000": 23.1,
+        "2001": 27.8,
+        "2002": 21.3,
+        "2003": 30.3,
+        "2004": 22.5,
+        "2005": 16.7,
+        "2006": 10.0,
+        "2008": 20.0,
+        "2009": 18.0,
+        "2010": 17.3,
+        "2011": 9.9,
+        "2012": 13.8,
+        "2013": 13.9,
+        "2016": 24.2,
+        "2017": 44.9,
+        "2021": 24.8
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1991": 30.6,
+        "1992": 36.3,
+        "1993": 14.4,
+        "1994": 42.1,
+        "1995": 22.0,
+        "1996": 23.4,
+        "1997": 30.0,
+        "1998": 13.9,
+        "1999": 15.7,
+        "2000": 23.1,
+        "2001": 27.8,
+        "2002": 21.3,
+        "2003": 30.3,
+        "2004": 22.5,
+        "2005": 16.7,
+        "2006": 10.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

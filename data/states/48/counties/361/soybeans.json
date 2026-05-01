@@ -1,0 +1,44 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "361",
+    "name": "ORANGE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1968": 25.2,
+        "1969": 25.6,
+        "1971": 25.9,
+        "1972": 25.8,
+        "1973": 19.1,
+        "1974": 27.4,
+        "1975": 26.2,
+        "1976": 30.0,
+        "1977": 23.7,
+        "1978": 26.4,
+        "1979": 21.7,
+        "1980": 22.2,
+        "1981": 18.0,
+        "1982": 15.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

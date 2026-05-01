@@ -1,0 +1,81 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "033",
+    "name": "CRAWFORD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 36.0,
+        "1962": 31.0,
+        "1963": 29.0,
+        "1964": 20.0,
+        "1965": 31.0,
+        "1966": 32.0,
+        "1967": 43.0,
+        "1968": 37.0,
+        "1969": 36.0,
+        "1970": 28.0,
+        "1971": 27.0,
+        "1972": 29.5,
+        "1973": 29.3,
+        "1974": 44.0,
+        "1975": 42.4,
+        "1976": 47.6,
+        "1977": 48.0,
+        "1978": 63.0,
+        "1979": 50.0,
+        "1980": 30.0,
+        "1981": 60.0,
+        "1982": 74.0,
+        "1984": 84.0,
+        "1986": 68.0,
+        "2000": 102.0,
+        "2002": 110.0,
+        "2003": 105.0,
+        "2004": 135.0,
+        "2005": 120.0,
+        "2006": 124.0,
+        "2010": 105.1,
+        "2011": 59.2,
+        "2014": 95.7,
+        "2016": 110.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 63.0,
+        "1979": 50.0,
+        "1980": 24.0,
+        "1981": 50.0,
+        "1982": 56.0,
+        "1984": 84.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

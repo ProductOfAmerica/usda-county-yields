@@ -1,0 +1,41 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "107",
+    "name": "TIOGA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 37.0,
+        "2005": 29.0,
+        "2006": 44.0,
+        "2012": 45.5,
+        "2016": 43.9,
+        "2018": 44.9,
+        "2019": 58.0,
+        "2020": 49.2,
+        "2021": 49.4,
+        "2022": 35.8,
+        "2024": 56.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

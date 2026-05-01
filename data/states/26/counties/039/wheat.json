@@ -1,0 +1,61 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "039",
+    "name": "CRAWFORD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1942": 21.0,
+        "1943": 15.0,
+        "1944": 20.0,
+        "1945": 16.0,
+        "1946": 15.4,
+        "1947": 14.3,
+        "1948": 15.0,
+        "1949": 14.0,
+        "1950": 12.2,
+        "1951": 15.0,
+        "1952": 15.0,
+        "1959": 15.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1946": 15.4,
+        "1947": 14.3,
+        "1948": 15.0,
+        "1949": 14.0,
+        "1950": 12.2,
+        "1951": 15.0,
+        "1952": 15.0,
+        "1959": 15.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

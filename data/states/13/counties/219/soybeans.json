@@ -1,0 +1,63 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "219",
+    "name": "OCONEE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1966": 20.5,
+        "1967": 26.0,
+        "1968": 22.5,
+        "1969": 24.0,
+        "1970": 22.5,
+        "1971": 32.0,
+        "1972": 18.5,
+        "1973": 18.1,
+        "1974": 22.5,
+        "1975": 26.7,
+        "1976": 21.4,
+        "1977": 22.0,
+        "1978": 17.0,
+        "1979": 27.0,
+        "1980": 8.0,
+        "1981": 16.2,
+        "1982": 27.6,
+        "1983": 16.4,
+        "1984": 18.1,
+        "1985": 13.3,
+        "1986": 13.0,
+        "1987": 14.4,
+        "1988": 16.1,
+        "1989": 23.0,
+        "1990": 21.6,
+        "1991": 25.0,
+        "1992": 28.2,
+        "1993": 20.0,
+        "1994": 33.3,
+        "1995": 26.3,
+        "1996": 22.5,
+        "1997": 40.0,
+        "1998": 11.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

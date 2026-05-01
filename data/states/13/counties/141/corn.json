@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "141",
+    "name": "HANCOCK"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1954": 9.1,
+        "1955": 21.4,
+        "1956": 17.0,
+        "1957": 16.9,
+        "1958": 17.0,
+        "1959": 14.5,
+        "1960": 20.1,
+        "1961": 25.8,
+        "1962": 19.0,
+        "1963": 26.0,
+        "1964": 21.2,
+        "1965": 25.2,
+        "1966": 25.7,
+        "1967": 36.9,
+        "1968": 28.9,
+        "1969": 24.2,
+        "1970": 26.9,
+        "1971": 38.7,
+        "1972": 30.0,
+        "1973": 36.0,
+        "1974": 37.5,
+        "1975": 57.2,
+        "1976": 49.0,
+        "1977": 12.0,
+        "1978": 26.4,
+        "1979": 26.7,
+        "1980": 14.0,
+        "1981": 26.1,
+        "1982": 39.9,
+        "1983": 23.1,
+        "1984": 47.5,
+        "1985": 44.8,
+        "1986": 16.4,
+        "1987": 27.5,
+        "1988": 31.8,
+        "1989": 46.3,
+        "1990": 33.3,
+        "1991": 72.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 26.2,
+        "1973": 30.9,
+        "1974": 32.3,
+        "1975": 43.5,
+        "1976": 40.7,
+        "1977": 6.1,
+        "1978": 25.1,
+        "1979": 26.4,
+        "1980": 10.5,
+        "1981": 24.1,
+        "1982": 39.4,
+        "1983": 21.3,
+        "1984": 46.1,
+        "1985": 42.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

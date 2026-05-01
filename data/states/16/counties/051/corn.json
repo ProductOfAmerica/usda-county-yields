@@ -1,0 +1,101 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "051",
+    "name": "JEFFERSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1981": 93.0,
+        "1982": 100.0,
+        "1983": 100.0,
+        "1984": 97.0,
+        "1985": 90.0,
+        "1989": 80.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 0.0,
+        "2002": 0.0,
+        "2003": 0.0,
+        "2004": 0.0,
+        "2006": 130.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1981": 93.0,
+        "1982": 100.0,
+        "1983": 100.0,
+        "1984": 97.0,
+        "1985": 90.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 16.5,
+        "1975": 16.0,
+        "1976": 17.0,
+        "1977": 16.5,
+        "1978": 17.0,
+        "1979": 17.0,
+        "1980": 16.0,
+        "1981": 16.3,
+        "1982": 20.0,
+        "1983": 19.1,
+        "1984": 21.0,
+        "1985": 20.0,
+        "1986": 19.7,
+        "1987": 20.5,
+        "1988": 19.2,
+        "1989": 18.5,
+        "1990": 20.0,
+        "1991": 19.3,
+        "1992": 15.2,
+        "1993": 17.8,
+        "1994": 19.4,
+        "1995": 20.1,
+        "1997": 21.3,
+        "1998": 20.7,
+        "1999": 17.9,
+        "2000": 20.6,
+        "2001": 17.6,
+        "2002": 20.0,
+        "2003": 21.0,
+        "2004": 21.4,
+        "2006": 21.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "ID",
+    "fips": "16",
+    "name": "IDAHO"
+  }
+}

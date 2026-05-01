@@ -1,0 +1,84 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "039",
+    "name": "CAMDEN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1954": 15.0,
+        "1955": 21.0,
+        "1956": 23.7,
+        "1957": 21.3,
+        "1958": 25.8,
+        "1959": 28.2,
+        "1960": 33.3,
+        "1961": 30.0,
+        "1962": 40.0,
+        "1963": 50.0,
+        "1964": 50.0,
+        "1965": 50.0,
+        "1966": 50.0,
+        "1967": 50.0,
+        "1968": 50.0,
+        "1969": 50.0,
+        "1970": 50.0,
+        "1976": 59.0,
+        "1978": 45.0,
+        "1979": 51.9,
+        "1980": 42.1,
+        "1981": 47.7,
+        "1982": 45.6,
+        "1983": 41.5,
+        "1984": 76.4,
+        "1985": 72.9,
+        "1986": 37.5,
+        "1987": 53.1,
+        "1988": 19.6,
+        "1989": 50.0,
+        "1990": 26.7,
+        "1991": 60.0,
+        "1992": 60.0,
+        "1994": 97.1
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1976": 39.3,
+        "1978": 36.0,
+        "1979": 38.9,
+        "1980": 25.7,
+        "1981": 43.8,
+        "1982": 45.6,
+        "1983": 41.5,
+        "1984": 76.4,
+        "1985": 70.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

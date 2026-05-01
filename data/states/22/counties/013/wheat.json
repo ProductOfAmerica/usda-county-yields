@@ -1,0 +1,101 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "013",
+    "name": "BIENVILLE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 23.0,
+        "1977": 30.0,
+        "1978": 30.0,
+        "1979": 22.0,
+        "1980": 26.0,
+        "1981": 30.0,
+        "1982": 30.0,
+        "1983": 28.8,
+        "1984": 30.0,
+        "1987": 30.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1977": 18.0,
+        "1978": 20.0,
+        "1979": 15.7,
+        "1980": 19.5,
+        "1981": 27.3,
+        "1982": 26.0,
+        "1983": 19.2,
+        "1984": 20.0,
+        "1987": 10.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 23.0,
+        "1977": 30.0,
+        "1978": 30.0,
+        "1979": 22.0,
+        "1980": 26.0,
+        "1981": 30.0,
+        "1982": 30.0,
+        "1983": 28.8,
+        "1984": 30.0,
+        "1987": 30.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1977": 18.0,
+        "1978": 20.0,
+        "1979": 15.7,
+        "1980": 19.5,
+        "1981": 27.3,
+        "1982": 26.0,
+        "1983": 19.2,
+        "1984": 20.0,
+        "1987": 10.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

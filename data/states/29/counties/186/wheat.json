@@ -1,0 +1,125 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "186",
+    "name": "STE GENEVIEVE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1987": 43.7,
+        "1988": 51.1,
+        "1989": 41.9,
+        "1990": 34.4,
+        "1991": 25.3,
+        "1992": 47.6,
+        "1993": 41.9,
+        "1994": 45.5,
+        "1995": 40.4,
+        "1996": 34.5,
+        "1997": 56.8,
+        "1998": 44.1,
+        "1999": 48.0,
+        "2000": 47.2,
+        "2001": 53.9,
+        "2002": 35.0,
+        "2003": 51.1,
+        "2004": 44.1,
+        "2005": 49.2,
+        "2006": 44.3,
+        "2007": 41.4
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1987": 37.4,
+        "1988": 46.7,
+        "1989": 34.9,
+        "1990": 31.4
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1987": 43.7,
+        "1988": 51.1,
+        "1989": 41.9,
+        "1990": 34.4,
+        "1991": 25.3,
+        "1992": 47.6,
+        "1993": 41.9,
+        "1994": 45.5,
+        "1995": 40.4,
+        "1996": 34.5,
+        "1997": 56.8,
+        "1998": 44.1,
+        "1999": 48.0,
+        "2000": 47.2,
+        "2001": 53.9,
+        "2002": 35.0,
+        "2003": 51.1,
+        "2004": 44.1,
+        "2005": 49.2,
+        "2006": 44.3,
+        "2007": 41.4,
+        "2008": 47.5,
+        "2009": 49.0,
+        "2010": 48.0,
+        "2011": 48.2,
+        "2012": 55.0,
+        "2013": 57.8,
+        "2014": 66.5,
+        "2017": 64.0,
+        "2019": 65.4,
+        "2020": 63.4,
+        "2023": 79.1,
+        "2025": 77.6
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1987": 37.4,
+        "1988": 46.7,
+        "1989": 34.9,
+        "1990": 31.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MO",
+    "fips": "29",
+    "name": "MISSOURI"
+  }
+}

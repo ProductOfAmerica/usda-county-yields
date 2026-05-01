@@ -1,0 +1,60 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "033",
+    "name": "CHEYENNE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1985": 39.0,
+        "1988": 36.0,
+        "1999": 33.5,
+        "2000": 28.2,
+        "2001": 42.0,
+        "2002": 27.0,
+        "2004": 15.0,
+        "2005": 40.0,
+        "2011": 40.4,
+        "2013": 38.6,
+        "2015": 34.9,
+        "2016": 46.9
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1985": 39.0,
+        "1988": 36.0,
+        "2000": 32.0,
+        "2001": 42.0,
+        "2002": 27.0,
+        "2004": 15.0,
+        "2005": 40.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  }
+}

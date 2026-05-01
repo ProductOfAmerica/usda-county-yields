@@ -1,0 +1,60 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "113",
+    "name": "FAYETTE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1959": 17.5,
+        "1961": 17.0,
+        "1962": 11.5,
+        "1966": 23.0,
+        "1967": 26.0,
+        "1968": 17.5,
+        "1969": 18.0,
+        "1970": 22.0,
+        "1971": 26.0,
+        "1972": 20.8,
+        "1973": 24.2,
+        "1974": 25.7,
+        "1975": 27.8,
+        "1976": 20.5,
+        "1977": 20.0,
+        "1978": 19.0,
+        "1979": 24.0,
+        "1980": 12.4,
+        "1981": 17.4,
+        "1982": 21.7,
+        "1983": 22.4,
+        "1984": 15.7,
+        "1985": 22.4,
+        "1986": 14.0,
+        "1987": 15.2,
+        "1988": 30.0,
+        "1989": 16.4,
+        "1990": 16.6,
+        "1991": 20.0,
+        "1992": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

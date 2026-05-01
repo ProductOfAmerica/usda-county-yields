@@ -1,0 +1,46 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "037",
+    "name": "JEFFERSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 46.0,
+        "2001": 40.5,
+        "2002": 39.0,
+        "2003": 40.9,
+        "2004": 44.9,
+        "2005": 35.9,
+        "2006": 38.4,
+        "2007": 28.7,
+        "2008": 41.0,
+        "2009": 40.0,
+        "2010": 18.4,
+        "2011": 40.5,
+        "2012": 49.3,
+        "2013": 45.8,
+        "2014": 52.3,
+        "2015": 46.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 86.0,
+        "1996": 18.0,
+        "1997": 30.0,
+        "1998": 40.0,
+        "1999": 33.0,
+        "2000": 12.0,
+        "2001": 25.0,
+        "2002": 23.0,
+        "2003": 22.0,
+        "2004": 27.0,
+        "2005": 73.0,
+        "2006": 32.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 71.0,
+        "1996": 67.0,
+        "1997": 45.0,
+        "1998": 72.0,
+        "1999": 50.0,
+        "2002": 0.0,
+        "2003": 50.0,
+        "2004": 66.0,
+        "2005": 73.0,
+        "2006": 45.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 27.0,
+        "1996": 18.0,
+        "1997": 30.0,
+        "1998": 34.0,
+        "1999": 26.0,
+        "2000": 12.0,
+        "2001": 11.0,
+        "2002": 14.0,
+        "2003": 8.0,
+        "2005": 13.0,
+        "2006": 27.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 27.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED, FOLLOWING SUMMER FALLOW",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, FOLLOWING SUMMER FALLOW - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 35.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1996": 20.0,
+        "1997": 85.0,
+        "1998": 67.0,
+        "1999": 57.0,
+        "2000": 19.0,
+        "2001": 26.0,
+        "2002": 50.0,
+        "2003": 22.0,
+        "2004": 58.0,
+        "2005": 29.0,
+        "2006": 20.0,
+        "2007": 71.0,
+        "2008": 41.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 62.0,
+        "1996": 48.0,
+        "1997": 30.0,
+        "1998": 52.0,
+        "1999": 57.0,
+        "2000": 58.0,
+        "2001": 50.0,
+        "2002": 50.0,
+        "2003": 70.0,
+        "2004": 73.0,
+        "2005": 89.0,
+        "2006": 85.0,
+        "2007": 71.0,
+        "2008": 53.5
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 25.0,
+        "1996": 15.0,
+        "1997": 26.0,
+        "1998": 32.0,
+        "1999": 26.0,
+        "2000": 19.0,
+        "2001": 21.0,
+        "2002": 15.0,
+        "2003": 22.0,
+        "2005": 29.0,
+        "2006": 20.0,
+        "2008": 22.5
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 17.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "NON-IRRIGATED, FOLLOWING SUMMER FALLOW",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED, FOLLOWING SUMMER FALLOW - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 25.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 80.0,
+        "1996": 17.0,
+        "1997": 75.0,
+        "1998": 37.0,
+        "1999": 35.0,
+        "2000": 31.0,
+        "2001": 28.0,
+        "2002": 23.0,
+        "2003": 25.0,
+        "2004": 65.0,
+        "2005": 66.0,
+        "2006": 26.0,
+        "2007": 18.0,
+        "2008": 27.0,
+        "2009": 21.0,
+        "2010": 29.4,
+        "2011": 35.0,
+        "2012": 15.6,
+        "2013": 23.7,
+        "2014": 32.1,
+        "2015": 31.0,
+        "2016": 34.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 80.0,
+        "1996": 83.0,
+        "1997": 62.0,
+        "1998": 62.0,
+        "1999": 50.0,
+        "2000": 55.0,
+        "2001": 55.0,
+        "2002": 0.0,
+        "2003": 50.0,
+        "2004": 50.0,
+        "2005": 66.0,
+        "2006": 49.0,
+        "2007": 66.0,
+        "2008": 65.0,
+        "2009": 54.5
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1996": 17.0,
+        "1997": 32.0,
+        "1998": 36.0,
+        "1999": 31.0,
+        "2000": 12.0,
+        "2001": 25.0,
+        "2002": 23.0,
+        "2003": 8.0,
+        "2004": 23.0,
+        "2005": 13.0,
+        "2006": 27.0,
+        "2007": 20.0,
+        "2008": 22.5,
+        "2009": 31.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 28.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED, FOLLOWING SUMMER FALLOW",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, FOLLOWING SUMMER FALLOW - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 32.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WY",
+    "fips": "56",
+    "name": "WYOMING"
+  }
+}

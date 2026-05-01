@@ -1,0 +1,100 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "257",
+    "name": "KAUFMAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1968": 32.6,
+        "1969": 16.7,
+        "1970": 48.8,
+        "1971": 35.0,
+        "1973": 35.4,
+        "1974": 22.0,
+        "1983": 50.0,
+        "1984": 32.2,
+        "1985": 90.0,
+        "1986": 55.9,
+        "1987": 50.0,
+        "1989": 58.3,
+        "1991": 26.1,
+        "1992": 44.4,
+        "1993": 43.3,
+        "1994": 56.8,
+        "1995": 50.0,
+        "1996": 51.7,
+        "1997": 83.1,
+        "1998": 32.1,
+        "1999": 71.1,
+        "2000": 104.8,
+        "2002": 74.3,
+        "2003": 87.0,
+        "2004": 88.0,
+        "2005": 66.5,
+        "2006": 31.0,
+        "2007": 81.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1983": 50.0,
+        "1984": 32.2,
+        "1985": 90.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1983": 50.0,
+        "1984": 32.2,
+        "1985": 90.0,
+        "1986": 55.9
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1984": 32.2,
+        "1985": 90.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

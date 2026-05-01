@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "263",
+    "name": "TALBOT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1970": 22.5,
+        "1971": 23.0,
+        "1972": 13.1,
+        "1973": 20.8,
+        "1974": 23.1,
+        "1975": 24.9,
+        "1976": 24.3,
+        "1977": 19.0,
+        "1978": 17.0,
+        "1979": 24.0,
+        "1980": 12.5,
+        "1981": 21.3,
+        "1982": 25.0,
+        "1983": 20.4,
+        "1984": 14.4,
+        "1985": 28.0,
+        "1986": 15.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

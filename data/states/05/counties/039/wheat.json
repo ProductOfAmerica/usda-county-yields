@@ -1,0 +1,123 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "039",
+    "name": "DALLAS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1961": 22.0,
+        "1962": 19.0,
+        "1963": 21.0,
+        "1964": 20.0,
+        "1965": 18.0,
+        "1971": 15.0,
+        "1972": 18.0,
+        "1973": 16.0,
+        "1974": 15.0,
+        "1975": 21.3,
+        "1976": 25.0,
+        "1977": 30.0,
+        "1981": 36.0,
+        "1982": 31.0,
+        "1983": 28.0,
+        "1984": 42.0,
+        "1989": 39.0,
+        "1990": 20.0,
+        "1991": 26.7
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 6.4,
+        "1974": 10.0,
+        "1975": 11.3,
+        "1976": 14.0,
+        "1977": 20.0,
+        "1981": 29.0,
+        "1982": 28.0,
+        "1983": 21.0,
+        "1984": 28.0,
+        "1989": 27.9,
+        "1990": 14.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1961": 22.0,
+        "1962": 19.0,
+        "1963": 21.0,
+        "1964": 20.0,
+        "1965": 18.0,
+        "1971": 15.0,
+        "1972": 18.0,
+        "1973": 16.0,
+        "1974": 15.0,
+        "1975": 21.3,
+        "1976": 25.0,
+        "1977": 30.0,
+        "1981": 36.0,
+        "1982": 31.0,
+        "1983": 28.0,
+        "1984": 42.0,
+        "1989": 39.0,
+        "1990": 20.0,
+        "1991": 26.7
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 6.4,
+        "1974": 10.0,
+        "1975": 11.3,
+        "1976": 14.0,
+        "1977": 20.0,
+        "1981": 29.0,
+        "1982": 28.0,
+        "1983": 21.0,
+        "1984": 28.0,
+        "1989": 27.9,
+        "1990": 14.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

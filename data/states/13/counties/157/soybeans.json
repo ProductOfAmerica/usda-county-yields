@@ -1,0 +1,63 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "157",
+    "name": "JACKSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1967": 26.0,
+        "1968": 22.5,
+        "1969": 28.0,
+        "1970": 27.5,
+        "1971": 33.0,
+        "1972": 19.5,
+        "1973": 21.2,
+        "1974": 25.0,
+        "1975": 28.9,
+        "1976": 21.4,
+        "1977": 21.0,
+        "1978": 16.0,
+        "1979": 28.0,
+        "1980": 12.3,
+        "1981": 19.2,
+        "1982": 28.8,
+        "1983": 19.8,
+        "1984": 15.0,
+        "1985": 22.3,
+        "1986": 16.0,
+        "1987": 12.5,
+        "1988": 16.1,
+        "1989": 28.8,
+        "1990": 20.9,
+        "1991": 33.5,
+        "1992": 25.9,
+        "1993": 20.0,
+        "1994": 28.6,
+        "1995": 22.9,
+        "1996": 20.0,
+        "1997": 30.0,
+        "1998": 21.7,
+        "2000": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "093",
+    "name": "MAJOR"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 20.0,
+        "1974": 25.0,
+        "1989": 13.0,
+        "1990": 24.4,
+        "1997": 18.6,
+        "1999": 18.3,
+        "2000": 18.0,
+        "2002": 50.0,
+        "2003": 40.0,
+        "2004": 37.3,
+        "2005": 26.4,
+        "2006": 38.0,
+        "2009": 35.5,
+        "2010": 43.9,
+        "2012": 47.2,
+        "2020": 49.6,
+        "2021": 31.7,
+        "2022": 38.8,
+        "2023": 54.0,
+        "2024": 38.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

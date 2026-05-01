@@ -1,0 +1,84 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "137",
+    "name": "PICKETT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1955": 39.0,
+        "1956": 37.4,
+        "1957": 37.8,
+        "1958": 45.0,
+        "1959": 45.1,
+        "1960": 44.5,
+        "1961": 41.0,
+        "1962": 44.0,
+        "1963": 59.0,
+        "1964": 57.0,
+        "1965": 63.0,
+        "1966": 68.0,
+        "1967": 64.0,
+        "1968": 44.0,
+        "1969": 62.0,
+        "1970": 53.0,
+        "1971": 45.0,
+        "1972": 64.0,
+        "1973": 66.0,
+        "1974": 56.0,
+        "1975": 55.0,
+        "1976": 65.0,
+        "1977": 53.0,
+        "1978": 74.0,
+        "1979": 86.0,
+        "1980": 50.0,
+        "1981": 86.0,
+        "1982": 93.0,
+        "1983": 52.0,
+        "1984": 94.0,
+        "1985": 101.0,
+        "1986": 73.0,
+        "1987": 87.0,
+        "1989": 80.0,
+        "1990": 88.0,
+        "1991": 88.0,
+        "1992": 108.0,
+        "2011": 155.0,
+        "2013": 165.0,
+        "2017": 167.1,
+        "2018": 176.0,
+        "2021": 162.4
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1983": 50.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

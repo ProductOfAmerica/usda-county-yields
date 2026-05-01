@@ -1,0 +1,101 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "027",
+    "name": "LINCOLN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 20.0,
+        "1957": 24.0,
+        "1958": 24.0,
+        "1959": 29.0,
+        "1960": 42.0,
+        "1961": 38.0,
+        "1962": 27.4,
+        "1963": 21.2,
+        "1965": 35.0,
+        "1966": 42.5,
+        "1967": 42.5,
+        "1971": 50.0,
+        "1972": 51.0,
+        "1973": 50.0,
+        "1974": 52.0,
+        "1975": 46.0,
+        "1976": 46.0,
+        "1977": 40.0,
+        "1978": 50.0,
+        "1979": 70.0,
+        "1980": 70.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 50.0,
+        "1979": 70.0,
+        "1980": 70.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 40.0,
+        "1960": 56.7,
+        "1961": 50.0,
+        "1962": 35.0,
+        "1963": 28.0,
+        "1965": 35.0,
+        "1966": 42.5,
+        "1967": 42.5,
+        "1971": 50.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 18.0,
+        "1960": 20.0,
+        "1961": 20.0,
+        "1962": 16.0,
+        "1963": 11.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NM",
+    "fips": "35",
+    "name": "NEW MEXICO"
+  }
+}

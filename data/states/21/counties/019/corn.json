@@ -1,0 +1,116 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "019",
+    "name": "BOYD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1929": 22.4,
+        "1930": 12.7,
+        "1931": 28.9,
+        "1932": 18.0,
+        "1933": 26.5,
+        "1934": 25.3,
+        "1935": 22.1,
+        "1936": 23.2,
+        "1937": 29.3,
+        "1938": 23.6,
+        "1939": 26.4,
+        "1940": 23.8,
+        "1941": 28.9,
+        "1942": 29.6,
+        "1943": 30.5,
+        "1944": 29.3,
+        "1945": 40.0,
+        "1946": 36.0,
+        "1947": 42.4,
+        "1948": 49.1,
+        "1950": 40.3,
+        "1951": 43.3,
+        "1952": 41.9,
+        "1953": 42.0,
+        "1954": 41.9,
+        "1955": 39.1,
+        "1956": 41.6,
+        "1957": 33.0,
+        "1958": 41.7,
+        "1959": 48.0,
+        "1960": 54.0,
+        "1961": 55.7,
+        "1962": 57.5,
+        "1963": 63.0,
+        "1964": 61.0,
+        "1965": 64.6,
+        "1966": 63.1,
+        "1967": 61.8,
+        "1968": 55.6,
+        "1969": 81.0,
+        "1970": 45.0,
+        "1971": 54.0,
+        "1972": 65.0,
+        "1973": 64.0,
+        "1974": 62.0,
+        "1975": 69.0,
+        "1976": 96.0,
+        "1977": 85.0,
+        "1979": 80.0,
+        "1980": 79.0,
+        "1981": 93.0,
+        "1982": 90.0,
+        "1983": 70.0,
+        "1984": 90.0,
+        "1985": 98.0,
+        "1986": 85.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1979": 80.0,
+        "1980": 79.0,
+        "1981": 93.0,
+        "1982": 90.0,
+        "1983": 58.3,
+        "1984": 77.1,
+        "1985": 98.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1959": 9.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  }
+}

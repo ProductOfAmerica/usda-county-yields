@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "059",
+    "name": "FAIRFAX"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1958": 59.0,
+        "1959": 53.3,
+        "1960": 56.8,
+        "1961": 63.0,
+        "1962": 50.0,
+        "1963": 41.0,
+        "1964": 46.2,
+        "1965": 61.0,
+        "1966": 42.0,
+        "1967": 70.0,
+        "1968": 71.0,
+        "1969": 77.9,
+        "1970": 64.0,
+        "1971": 64.0,
+        "1972": 76.0,
+        "1973": 80.0,
+        "1974": 73.0,
+        "1975": 75.0,
+        "1976": 76.0,
+        "1977": 51.0,
+        "1978": 82.0,
+        "1979": 84.0,
+        "1980": 57.0,
+        "1981": 92.0,
+        "1982": 96.5,
+        "1983": 48.5,
+        "1984": 84.0,
+        "1985": 82.0,
+        "1986": 42.0,
+        "1987": 61.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1976": 71.5,
+        "1981": 92.0,
+        "1982": 96.5,
+        "1983": 48.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1975": 15.0,
+        "1976": 13.0,
+        "1977": 9.0,
+        "1978": 11.0,
+        "1983": 8.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "025",
+    "name": "BRANTLEY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1956": 18.5,
+        "1958": 20.0,
+        "1979": 30.0,
+        "1980": 20.0,
+        "1981": 26.0,
+        "1982": 25.5,
+        "1983": 25.2,
+        "1984": 33.2,
+        "1987": 26.0,
+        "1988": 40.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1979": 30.0,
+        "1980": 18.7,
+        "1981": 23.1,
+        "1982": 22.1,
+        "1983": 21.9,
+        "1984": 31.5,
+        "1987": 26.0,
+        "1988": 26.7
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1956": 18.5,
+        "1958": 20.0,
+        "1979": 30.0,
+        "1980": 20.0,
+        "1981": 26.0,
+        "1982": 25.5,
+        "1983": 25.2,
+        "1984": 33.2,
+        "1987": 26.0,
+        "1988": 40.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1979": 30.0,
+        "1980": 18.7,
+        "1981": 23.1,
+        "1982": 22.1,
+        "1983": 21.9,
+        "1984": 31.5,
+        "1987": 26.0,
+        "1988": 26.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

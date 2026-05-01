@@ -1,0 +1,81 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "065",
+    "name": "HUGHES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1977": 15.0,
+        "1978": 22.9,
+        "1979": 25.9,
+        "1981": 38.0,
+        "1982": 37.5,
+        "1984": 37.0,
+        "1985": 25.0,
+        "1986": 25.0,
+        "1987": 42.0,
+        "1988": 50.0,
+        "1989": 30.0,
+        "1990": 27.0,
+        "1991": 22.0,
+        "1992": 25.0,
+        "1993": 32.0,
+        "1994": 34.0,
+        "1995": 40.0,
+        "1997": 43.0,
+        "1998": 46.0,
+        "1999": 34.0,
+        "2000": 23.7,
+        "2001": 21.5,
+        "2002": 37.9,
+        "2003": 28.9,
+        "2004": 29.4,
+        "2005": 18.4,
+        "2006": 47.5,
+        "2007": 35.7,
+        "2010": 36.2,
+        "2014": 44.1,
+        "2016": 36.3,
+        "2017": 37.6,
+        "2018": 32.0,
+        "2019": 46.9,
+        "2020": 42.2,
+        "2021": 35.9,
+        "2023": 40.4,
+        "2024": 48.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 21.2,
+        "1979": 21.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "049",
+    "name": "DEUEL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1983": 35.0,
+        "1984": 25.0,
+        "1985": 39.0,
+        "1986": 39.0,
+        "1988": 36.0,
+        "1989": 34.0,
+        "1990": 32.0,
+        "1992": 40.0,
+        "1993": 30.0,
+        "2001": 35.8,
+        "2004": 38.0,
+        "2020": 27.6
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1983": 35.0,
+        "1984": 25.0,
+        "1985": 39.0,
+        "1986": 39.0,
+        "1988": 36.0,
+        "1989": 34.0,
+        "1990": 32.0,
+        "1992": 40.0,
+        "1993": 30.0,
+        "2001": 39.0,
+        "2004": 38.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  }
+}

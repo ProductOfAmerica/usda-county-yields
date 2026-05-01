@@ -1,0 +1,59 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "221",
+    "name": "OGLETHORPE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1966": 17.0,
+        "1967": 26.0,
+        "1968": 24.0,
+        "1969": 24.0,
+        "1970": 26.0,
+        "1971": 26.5,
+        "1972": 20.0,
+        "1973": 25.3,
+        "1974": 23.0,
+        "1975": 21.0,
+        "1976": 21.4,
+        "1977": 20.0,
+        "1978": 20.0,
+        "1979": 28.0,
+        "1980": 8.1,
+        "1981": 10.4,
+        "1982": 26.9,
+        "1983": 23.4,
+        "1984": 13.4,
+        "1985": 14.7,
+        "1986": 18.5,
+        "1987": 10.0,
+        "1988": 14.3,
+        "1989": 26.3,
+        "1990": 26.0,
+        "1991": 26.3,
+        "1992": 27.5,
+        "2015": 35.3,
+        "2018": 35.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

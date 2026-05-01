@@ -1,0 +1,57 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "059",
+    "name": "LA SALLE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1966": 18.0,
+        "1971": 20.0,
+        "1972": 23.3,
+        "1973": 25.0,
+        "1974": 30.7,
+        "1975": 30.7,
+        "1976": 32.4,
+        "1977": 26.3,
+        "1978": 25.0,
+        "1979": 29.0,
+        "1980": 28.3,
+        "1981": 23.3,
+        "1982": 23.6,
+        "1983": 31.6,
+        "1984": 24.2,
+        "1985": 23.3,
+        "1986": 17.5,
+        "1987": 26.7,
+        "1988": 31.8,
+        "1989": 20.0,
+        "1990": 25.0,
+        "1991": 25.0,
+        "1993": 20.0,
+        "1994": 28.6,
+        "1996": 25.0,
+        "1997": 25.0,
+        "1998": 14.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

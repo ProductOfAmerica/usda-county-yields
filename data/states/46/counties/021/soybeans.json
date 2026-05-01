@@ -1,0 +1,55 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "021",
+    "name": "CAMPBELL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1996": 23.0,
+        "1998": 27.0,
+        "1999": 31.6,
+        "2000": 27.1,
+        "2001": 29.1,
+        "2002": 17.2,
+        "2003": 13.3,
+        "2004": 20.1,
+        "2005": 29.8,
+        "2006": 13.2,
+        "2007": 39.2,
+        "2010": 24.9,
+        "2011": 36.7,
+        "2012": 32.1,
+        "2013": 33.1,
+        "2015": 37.8,
+        "2016": 44.6,
+        "2017": 33.0,
+        "2018": 29.4,
+        "2019": 43.0,
+        "2020": 33.9,
+        "2021": 22.9,
+        "2022": 32.6,
+        "2023": 44.5,
+        "2024": 37.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  }
+}

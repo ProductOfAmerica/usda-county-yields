@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "175",
+    "name": "VAN BUREN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1959": 18.0,
+        "1972": 20.0,
+        "1974": 19.0,
+        "1975": 24.0,
+        "1976": 24.0,
+        "1977": 23.0,
+        "1978": 24.0,
+        "1979": 27.0,
+        "1980": 17.0,
+        "1981": 25.0,
+        "1982": 28.0,
+        "1983": 16.0,
+        "1984": 18.0,
+        "1985": 30.0,
+        "1986": 29.0,
+        "2013": 43.4,
+        "2015": 44.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

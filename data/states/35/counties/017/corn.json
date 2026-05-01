@@ -1,0 +1,136 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "017",
+    "name": "GRANT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 40.0,
+        "1957": 41.4,
+        "1958": 41.1,
+        "1959": 41.8,
+        "1960": 44.8,
+        "1961": 44.0,
+        "1962": 45.8,
+        "1963": 35.5,
+        "1965": 45.0,
+        "1966": 45.0,
+        "1967": 67.0,
+        "1971": 70.0,
+        "1972": 80.0,
+        "1973": 75.0,
+        "1974": 66.0,
+        "1975": 46.0,
+        "1976": 60.0,
+        "1977": 80.0,
+        "1978": 80.0,
+        "1979": 100.0,
+        "1980": 90.0,
+        "1981": 90.0,
+        "1982": 90.0,
+        "1983": 90.0,
+        "1984": 85.0,
+        "1985": 85.0,
+        "1986": 80.0,
+        "1987": 85.0,
+        "1988": 80.0,
+        "1992": 75.0,
+        "1993": 150.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 80.0,
+        "1979": 100.0,
+        "1980": 90.0,
+        "1981": 90.0,
+        "1982": 90.0,
+        "1983": 90.0,
+        "1984": 85.0,
+        "1985": 85.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 54.9,
+        "1960": 60.0,
+        "1961": 50.0,
+        "1962": 60.0,
+        "1963": 50.0,
+        "1965": 45.0,
+        "1966": 45.0,
+        "1967": 67.0,
+        "1971": 70.0,
+        "1984": 85.0,
+        "1985": 85.0,
+        "1986": 80.0,
+        "1987": 85.0,
+        "1988": 80.0,
+        "1992": 75.0,
+        "1993": 150.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1984": 85.0,
+        "1985": 85.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 19.0,
+        "1960": 19.3,
+        "1961": 20.0,
+        "1962": 15.5,
+        "1963": 10.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NM",
+    "fips": "35",
+    "name": "NEW MEXICO"
+  }
+}

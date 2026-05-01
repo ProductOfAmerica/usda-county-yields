@@ -1,0 +1,102 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "017",
+    "name": "DODDRIDGE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1926": 40.0,
+        "1927": 42.0,
+        "1928": 40.0,
+        "1934": 26.0,
+        "1935": 28.0,
+        "1941": 35.0,
+        "1949": 51.8,
+        "1950": 41.9,
+        "1951": 43.4,
+        "1952": 42.8,
+        "1953": 40.4,
+        "1954": 43.6,
+        "1955": 44.1,
+        "1956": 54.1,
+        "1957": 44.6,
+        "1958": 60.0,
+        "1959": 53.3,
+        "1960": 57.6,
+        "1961": 60.3,
+        "1962": 60.0,
+        "1963": 61.8,
+        "1965": 54.6,
+        "1966": 43.9,
+        "1967": 57.0,
+        "1968": 60.0,
+        "1969": 82.5,
+        "1970": 67.5,
+        "1971": 67.5,
+        "1972": 73.3,
+        "1973": 78.0,
+        "1974": 67.4,
+        "1975": 69.5,
+        "1976": 71.5,
+        "1977": 64.5,
+        "1978": 70.5,
+        "1979": 79.5,
+        "1980": 91.7,
+        "1981": 67.4,
+        "1982": 68.2,
+        "1983": 69.1
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 68.5,
+        "1979": 70.6
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1975": 15.0,
+        "1976": 15.4,
+        "1978": 13.5,
+        "1979": 11.5,
+        "1980": 11.8,
+        "1981": 14.0,
+        "1982": 14.0,
+        "1983": 15.1
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

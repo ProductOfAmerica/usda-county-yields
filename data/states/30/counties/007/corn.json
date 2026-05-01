@@ -1,0 +1,162 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "007",
+    "name": "BROADWATER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1947": 30.0,
+        "1955": 50.0,
+        "1957": 50.0,
+        "1958": 61.0,
+        "1959": 62.0,
+        "1962": 60.0,
+        "1963": 77.0,
+        "1966": 45.0,
+        "1967": 70.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1960": 14.0,
+        "1961": 20.0,
+        "1962": 19.0,
+        "1963": 21.0,
+        "1964": 15.0,
+        "1965": 20.0,
+        "1966": 20.0,
+        "1967": 23.0,
+        "1968": 18.0,
+        "1969": 13.0,
+        "1970": 17.0,
+        "1971": 16.0,
+        "1972": 15.0,
+        "1973": 15.0,
+        "1974": 18.0,
+        "1975": 17.0,
+        "1976": 18.0,
+        "1977": 16.0,
+        "1978": 20.0,
+        "1979": 15.0,
+        "1980": 18.0,
+        "1981": 18.0,
+        "1982": 19.0,
+        "1984": 15.0,
+        "1985": 15.0,
+        "1986": 18.0,
+        "1987": 18.0,
+        "2013": 27.0,
+        "2014": 17.0,
+        "2016": 18.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1947": 30.0,
+        "1955": 50.0,
+        "1957": 50.0,
+        "1958": 61.0,
+        "1959": 62.0,
+        "1962": 60.0,
+        "1963": 77.0,
+        "1966": 80.0,
+        "1967": 70.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, SILAGE, IRRIGATED - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1960": 14.0,
+        "1961": 20.0,
+        "1962": 19.0,
+        "1963": 21.0,
+        "1964": 15.0,
+        "1965": 20.0,
+        "1966": 20.0,
+        "1967": 23.0,
+        "1968": 18.0,
+        "1969": 17.0,
+        "1970": 17.0,
+        "1971": 16.0,
+        "1972": 15.0,
+        "1973": 15.0,
+        "1974": 18.0,
+        "1975": 17.0,
+        "1976": 18.0,
+        "1977": 16.0,
+        "1978": 20.0,
+        "1979": 15.0,
+        "1980": 18.0,
+        "1981": 18.0,
+        "1982": 19.0,
+        "1984": 15.0,
+        "1985": 15.0,
+        "1986": 18.0,
+        "1987": 18.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1966": 10.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, SILAGE, NON-IRRIGATED - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1969": 5.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  }
+}

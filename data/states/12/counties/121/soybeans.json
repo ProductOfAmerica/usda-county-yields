@@ -1,0 +1,53 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "121",
+    "name": "SUWANNEE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 25.0,
+        "1975": 25.0,
+        "1976": 21.0,
+        "1977": 20.0,
+        "1978": 25.0,
+        "1979": 26.0,
+        "1980": 22.0,
+        "1981": 23.0,
+        "1982": 26.0,
+        "1983": 26.0,
+        "1984": 22.0,
+        "1985": 28.0,
+        "1986": 20.0,
+        "1987": 24.0,
+        "1988": 29.0,
+        "1989": 24.0,
+        "1990": 17.9,
+        "1991": 26.7,
+        "1992": 28.1,
+        "1993": 25.4,
+        "1994": 23.0,
+        "2004": 31.0,
+        "2005": 35.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  }
+}

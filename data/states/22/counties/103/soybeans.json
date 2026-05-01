@@ -1,0 +1,49 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "103",
+    "name": "SAINT TAMMANY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1967": 31.0,
+        "1968": 28.0,
+        "1969": 16.0,
+        "1970": 20.0,
+        "1971": 23.5,
+        "1972": 19.0,
+        "1973": 17.1,
+        "1974": 18.4,
+        "1975": 17.5,
+        "1976": 21.4,
+        "1977": 19.3,
+        "1978": 37.1,
+        "1979": 25.8,
+        "1980": 16.7,
+        "1986": 23.9,
+        "1987": 20.0,
+        "1988": 33.1,
+        "1989": 33.3,
+        "1997": 26.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

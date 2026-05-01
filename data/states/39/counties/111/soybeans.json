@@ -1,0 +1,54 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "111",
+    "name": "MONROE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1941": 20.0,
+        "1947": 10.0,
+        "1948": 20.0,
+        "1949": 20.0,
+        "1950": 20.0,
+        "1951": 20.0,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 20.0,
+        "1955": 20.0,
+        "1956": 23.3,
+        "1967": 20.0,
+        "1968": 23.0,
+        "1969": 21.0,
+        "1971": 30.0,
+        "1974": 14.0,
+        "1975": 32.0,
+        "1976": 30.0,
+        "1977": 20.0,
+        "1978": 19.0,
+        "1979": 24.5,
+        "1980": 26.3,
+        "1993": 29.0,
+        "1994": 38.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OH",
+    "fips": "39",
+    "name": "OHIO"
+  }
+}

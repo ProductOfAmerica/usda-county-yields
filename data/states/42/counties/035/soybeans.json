@@ -1,0 +1,61 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "035",
+    "name": "CLINTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1983": 32.0,
+        "1984": 37.0,
+        "1985": 36.0,
+        "1986": 40.0,
+        "1987": 39.0,
+        "1988": 38.0,
+        "1989": 36.0,
+        "1990": 32.0,
+        "1991": 26.0,
+        "1992": 40.0,
+        "1993": 35.0,
+        "1994": 42.0,
+        "1995": 27.0,
+        "1996": 43.0,
+        "1997": 37.0,
+        "1998": 35.0,
+        "1999": 34.0,
+        "2000": 50.0,
+        "2001": 38.0,
+        "2002": 27.0,
+        "2003": 41.0,
+        "2004": 42.9,
+        "2005": 45.0,
+        "2006": 47.8,
+        "2012": 52.8,
+        "2013": 47.8,
+        "2014": 47.8,
+        "2017": 49.8,
+        "2021": 56.1,
+        "2022": 55.2,
+        "2023": 58.1
+      }
+    }
+  ],
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "005",
+    "name": "ALLEGHANY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1958": 68.0,
+        "1959": 55.3,
+        "1960": 61.9,
+        "1961": 60.0,
+        "1962": 69.0,
+        "1963": 50.0,
+        "1964": 43.7,
+        "1965": 65.0,
+        "1966": 48.0,
+        "1967": 71.0,
+        "1968": 72.0,
+        "1969": 82.2,
+        "1970": 62.0,
+        "1971": 78.0,
+        "1972": 81.0,
+        "1973": 83.0,
+        "1974": 67.0,
+        "1975": 79.0,
+        "1976": 62.0,
+        "1977": 56.0,
+        "1978": 84.0,
+        "1979": 87.0,
+        "1980": 95.0,
+        "1981": 100.0,
+        "1982": 95.0,
+        "1994": 110.0,
+        "1995": 100.0,
+        "1999": 0.0,
+        "2000": 103.0,
+        "2001": 0.0,
+        "2002": 65.0,
+        "2003": 0.0,
+        "2004": 139.0,
+        "2005": 112.0,
+        "2006": 90.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1976": 62.0,
+        "1981": 100.0,
+        "1982": 95.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1976": 12.0,
+        "1977": 10.0,
+        "1978": 13.0,
+        "1979": 13.0,
+        "1980": 17.0,
+        "1981": 16.0,
+        "1982": 12.0,
+        "1983": 9.0,
+        "1984": 16.0,
+        "1985": 13.0,
+        "1986": 11.0,
+        "1987": 9.0,
+        "2003": 14.0,
+        "2004": 19.0,
+        "2005": 15.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  }
+}

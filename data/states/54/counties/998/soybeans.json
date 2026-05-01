@@ -1,0 +1,46 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 45.0,
+        "2001": 45.7,
+        "2002": 36.1,
+        "2003": 40.8,
+        "2004": 46.0,
+        "2005": 35.6,
+        "2006": 0.0,
+        "2007": 50.0,
+        "2008": 41.5,
+        "2009": 39.5,
+        "2010": 27.8,
+        "2011": 45.6,
+        "2012": 56.1,
+        "2013": 49.4,
+        "2014": 49.0,
+        "2015": 53.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

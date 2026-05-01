@@ -1,0 +1,78 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "029",
+    "name": "EMMONS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1988": 14.0,
+        "1989": 18.0,
+        "1990": 20.0,
+        "1991": 19.5,
+        "1992": 18.0,
+        "1993": 14.8,
+        "1994": 25.3,
+        "1995": 16.0,
+        "1997": 26.2,
+        "1998": 26.5,
+        "1999": 25.3,
+        "2000": 25.7,
+        "2001": 32.5,
+        "2002": 18.0,
+        "2003": 15.1,
+        "2004": 16.1,
+        "2005": 28.2,
+        "2006": 18.7,
+        "2007": 34.4,
+        "2008": 21.5,
+        "2010": 31.2,
+        "2011": 33.9,
+        "2012": 35.9,
+        "2013": 28.9,
+        "2014": 33.5,
+        "2015": 34.6,
+        "2016": 44.7,
+        "2017": 37.2,
+        "2018": 29.9,
+        "2019": 34.6,
+        "2020": 31.7,
+        "2021": 20.6,
+        "2022": 28.9,
+        "2023": 40.6,
+        "2024": 34.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1988": 14.0,
+        "1989": 9.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  }
+}

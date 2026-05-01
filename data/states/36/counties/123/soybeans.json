@@ -1,0 +1,54 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "123",
+    "name": "YATES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 33.0,
+        "2001": 24.0,
+        "2002": 25.0,
+        "2003": 37.0,
+        "2004": 42.0,
+        "2005": 37.0,
+        "2006": 50.0,
+        "2007": 38.0,
+        "2009": 44.5,
+        "2010": 53.3,
+        "2011": 42.2,
+        "2012": 44.2,
+        "2013": 54.5,
+        "2014": 50.3,
+        "2015": 48.7,
+        "2016": 39.2,
+        "2017": 51.1,
+        "2018": 58.5,
+        "2019": 54.7,
+        "2020": 44.5,
+        "2021": 60.5,
+        "2022": 42.0,
+        "2023": 61.5,
+        "2024": 57.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

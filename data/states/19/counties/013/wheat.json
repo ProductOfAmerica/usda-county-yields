@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "013",
+    "name": "BLACK HAWK"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 37.7,
+        "1975": 39.6,
+        "1976": 30.9,
+        "1977": 33.0,
+        "1978": 27.0,
+        "1979": 39.0,
+        "1980": 37.0,
+        "1981": 36.0,
+        "1982": 39.8,
+        "1983": 42.0,
+        "1984": 40.6,
+        "1985": 50.8,
+        "1986": 41.0,
+        "1987": 40.0,
+        "1988": 39.0,
+        "1989": 44.7
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 37.7,
+        "1975": 39.6,
+        "1976": 30.9,
+        "1977": 33.0,
+        "1978": 27.0,
+        "1979": 39.0,
+        "1980": 37.0,
+        "1981": 36.0,
+        "1982": 39.8,
+        "1983": 42.0,
+        "1984": 40.6,
+        "1985": 50.8,
+        "1986": 41.0,
+        "1987": 40.0,
+        "1988": 39.0,
+        "1989": 44.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  }
+}

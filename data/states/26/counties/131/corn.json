@@ -1,0 +1,108 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "131",
+    "name": "ONTONAGON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1942": 21.8,
+        "1943": 20.0,
+        "1944": 32.0,
+        "1945": 26.0,
+        "1946": 20.0,
+        "1947": 20.0,
+        "1948": 30.0,
+        "1949": 30.0,
+        "1950": 20.0,
+        "1951": 26.0,
+        "1952": 31.1,
+        "1953": 34.0,
+        "1954": 33.0,
+        "1955": 20.0,
+        "1956": 20.0,
+        "1957": 23.3,
+        "1958": 20.0,
+        "1973": 66.0,
+        "1974": 83.0,
+        "1975": 48.3,
+        "1976": 38.3,
+        "1977": 80.0,
+        "1981": 70.0,
+        "1982": 80.0,
+        "1983": 75.0,
+        "1984": 70.0,
+        "1985": 86.0,
+        "1986": 80.0,
+        "1987": 75.0,
+        "1988": 75.0,
+        "1989": 70.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1973": 66.0,
+        "1974": 83.0,
+        "1975": 48.3,
+        "1976": 38.3,
+        "1977": 80.0,
+        "1981": 61.3,
+        "1982": 80.0,
+        "1983": 75.0,
+        "1984": 70.0,
+        "1985": 86.0,
+        "1986": 13.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1972": 10.0,
+        "1974": 10.8,
+        "1975": 6.7,
+        "1976": 5.3,
+        "1977": 7.7,
+        "1981": 11.4,
+        "1982": 10.0,
+        "1983": 10.0,
+        "1984": 10.0,
+        "1985": 12.0,
+        "1986": 11.3,
+        "1987": 13.3,
+        "1988": 6.7,
+        "1989": 6.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

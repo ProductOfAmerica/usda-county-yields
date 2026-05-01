@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "083",
+    "name": "LOGAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1967": 25.0,
+        "1973": 23.6,
+        "1974": 22.0,
+        "1981": 20.0,
+        "1982": 20.0,
+        "1987": 23.6,
+        "1997": 22.5,
+        "1998": 10.0,
+        "1999": 13.3,
+        "2000": 21.7,
+        "2001": 11.7,
+        "2006": 10.0,
+        "2008": 19.5,
+        "2012": 9.0,
+        "2016": 24.0,
+        "2017": 50.4,
+        "2021": 20.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

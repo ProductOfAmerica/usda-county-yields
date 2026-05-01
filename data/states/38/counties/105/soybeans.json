@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "105",
+    "name": "WILLIAMS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 13.3,
+        "2012": 37.9,
+        "2014": 27.5,
+        "2016": 37.3,
+        "2017": 30.8,
+        "2020": 17.3,
+        "2021": 16.6,
+        "2022": 19.0,
+        "2023": 26.1,
+        "2024": 21.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  }
+}

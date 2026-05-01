@@ -1,0 +1,52 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "055",
+    "name": "MCLEAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1991": 18.0,
+        "1992": 7.0,
+        "1994": 10.0,
+        "1995": 20.0,
+        "1997": 13.5,
+        "1998": 27.0,
+        "1999": 21.7,
+        "2000": 23.6,
+        "2001": 18.0,
+        "2002": 27.7,
+        "2003": 21.9,
+        "2004": 15.1,
+        "2013": 38.8,
+        "2014": 35.9,
+        "2016": 37.2,
+        "2018": 25.5,
+        "2019": 33.9,
+        "2020": 29.9,
+        "2021": 14.1,
+        "2022": 27.3,
+        "2023": 36.8,
+        "2024": 33.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  }
+}

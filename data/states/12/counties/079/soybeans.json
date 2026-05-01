@@ -1,0 +1,57 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "079",
+    "name": "MADISON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 21.0,
+        "1975": 27.0,
+        "1976": 24.0,
+        "1977": 20.0,
+        "1978": 24.0,
+        "1979": 28.0,
+        "1980": 23.0,
+        "1981": 25.0,
+        "1982": 27.0,
+        "1983": 27.0,
+        "1984": 21.0,
+        "1985": 27.0,
+        "1986": 21.0,
+        "1987": 23.0,
+        "1988": 26.0,
+        "1989": 20.0,
+        "1990": 14.0,
+        "1991": 25.4,
+        "1992": 24.5,
+        "1993": 23.2,
+        "1994": 23.9,
+        "2003": 31.0,
+        "2004": 30.0,
+        "2005": 33.9,
+        "2006": 24.9,
+        "2007": 23.9,
+        "2008": 27.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  }
+}

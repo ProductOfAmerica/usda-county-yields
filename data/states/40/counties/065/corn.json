@@ -1,0 +1,78 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "065",
+    "name": "JACKSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1933": 6.7,
+        "1934": 4.3,
+        "1935": 10.0,
+        "1937": 15.4,
+        "1938": 14.4,
+        "1939": 2.2,
+        "1940": 8.0,
+        "1941": 21.1,
+        "1942": 13.8,
+        "1943": 11.5,
+        "1944": 12.8,
+        "1945": 14.8,
+        "1946": 10.5,
+        "1947": 11.5,
+        "1948": 20.0,
+        "1949": 15.4,
+        "1951": 16.0,
+        "1952": 11.5,
+        "1953": 4.0,
+        "1954": 35.0,
+        "1955": 26.0,
+        "1956": 23.5,
+        "1957": 22.0,
+        "1958": 35.3,
+        "1959": 38.0,
+        "1960": 27.0,
+        "1961": 24.2,
+        "1962": 21.0,
+        "1963": 31.0,
+        "1978": 36.7,
+        "1979": 95.0,
+        "1980": 70.0,
+        "1998": 40.0,
+        "1999": 75.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 27.5,
+        "1979": 63.3,
+        "1980": 52.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "023",
+    "name": "CHESTER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.3,
+        "1973": 20.3,
+        "1974": 19.7,
+        "1975": 24.8,
+        "1976": 14.3,
+        "1977": 18.2,
+        "1978": 21.7,
+        "1979": 26.2,
+        "1980": 12.7,
+        "1981": 24.0,
+        "1982": 23.8,
+        "1983": 9.7,
+        "1984": 17.7,
+        "1985": 24.0,
+        "1986": 19.9,
+        "2003": 33.0,
+        "2012": 18.2,
+        "2013": 31.4,
+        "2014": 36.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SC",
+    "fips": "45",
+    "name": "SOUTH CAROLINA"
+  }
+}

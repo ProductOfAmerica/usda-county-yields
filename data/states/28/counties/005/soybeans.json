@@ -1,0 +1,82 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "005",
+    "name": "AMITE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1966": 22.9,
+        "1967": 25.0,
+        "1968": 25.3,
+        "1969": 21.1,
+        "1970": 24.0,
+        "1971": 26.1,
+        "1972": 16.4,
+        "1973": 25.0,
+        "1974": 26.1,
+        "1975": 22.3,
+        "1976": 24.5,
+        "1977": 21.0,
+        "1978": 27.1,
+        "1979": 31.3,
+        "1980": 15.9,
+        "1981": 20.5,
+        "1982": 25.0,
+        "1983": 20.0,
+        "1984": 18.5,
+        "1985": 25.0,
+        "1986": 19.0,
+        "1987": 25.0,
+        "1988": 21.8,
+        "1989": 15.0,
+        "1990": 16.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 24.5,
+        "1975": 21.1,
+        "1976": 23.7,
+        "1977": 19.8,
+        "1978": 25.9,
+        "1979": 30.3,
+        "1980": 15.0,
+        "1981": 19.8,
+        "1982": 23.6,
+        "1983": 19.0,
+        "1984": 17.9,
+        "1985": 21.9,
+        "1986": 13.7,
+        "1987": 20.8,
+        "1988": 17.5,
+        "1989": 12.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MS",
+    "fips": "28",
+    "name": "MISSISSIPPI"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "011",
+    "name": "BRADLEY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0,
+        "1974": 24.0,
+        "1975": 22.0,
+        "1976": 24.0,
+        "1977": 23.0,
+        "1978": 25.0,
+        "1979": 24.0,
+        "1980": 18.0,
+        "1981": 18.0,
+        "1982": 34.0,
+        "1983": 17.0,
+        "1984": 23.0,
+        "1985": 33.0,
+        "1989": 25.0,
+        "1990": 35.0,
+        "1991": 32.0,
+        "1992": 42.0,
+        "2006": 47.0,
+        "2007": 9.0,
+        "2009": 51.5,
+        "2010": 27.5,
+        "2012": 51.7,
+        "2013": 47.3,
+        "2014": 56.8,
+        "2015": 53.3,
+        "2016": 20.0,
+        "2017": 48.9,
+        "2018": 53.3,
+        "2020": 51.7,
+        "2021": 54.8,
+        "2023": 61.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

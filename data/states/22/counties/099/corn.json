@@ -1,0 +1,84 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "099",
+    "name": "SAINT MARTIN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 28.8,
+        "1960": 18.0,
+        "1961": 33.0,
+        "1962": 24.5,
+        "1963": 26.0,
+        "1964": 26.0,
+        "1965": 30.0,
+        "1966": 40.0,
+        "1967": 40.0,
+        "1968": 45.0,
+        "1969": 28.1,
+        "1970": 27.0,
+        "1971": 45.1,
+        "1972": 55.0,
+        "1973": 35.0,
+        "1974": 34.0,
+        "1975": 40.0,
+        "1976": 50.0,
+        "1977": 45.0,
+        "1978": 55.0,
+        "1979": 45.0,
+        "1980": 70.0,
+        "1981": 94.3,
+        "1982": 55.6,
+        "1983": 90.0,
+        "1984": 101.8,
+        "1985": 110.3,
+        "1986": 123.0,
+        "1987": 93.9,
+        "1988": 100.0,
+        "1991": 85.0,
+        "1992": 117.7,
+        "1993": 96.2,
+        "1994": 113.5,
+        "1998": 57.1
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 50.8,
+        "1979": 42.6,
+        "1980": 57.8,
+        "1981": 82.5,
+        "1982": 55.6,
+        "1983": 90.0,
+        "1984": 97.4,
+        "1985": 106.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

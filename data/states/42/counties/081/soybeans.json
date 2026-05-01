@@ -1,0 +1,63 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "081",
+    "name": "LYCOMING"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1983": 29.0,
+        "1984": 35.0,
+        "1985": 36.0,
+        "1986": 39.0,
+        "1987": 35.0,
+        "1988": 35.0,
+        "1989": 37.0,
+        "1990": 36.0,
+        "1991": 28.0,
+        "1992": 37.0,
+        "1993": 34.0,
+        "1994": 43.0,
+        "1995": 28.0,
+        "1996": 42.0,
+        "1997": 39.0,
+        "1998": 38.0,
+        "1999": 32.0,
+        "2000": 38.0,
+        "2001": 36.0,
+        "2002": 29.8,
+        "2003": 42.5,
+        "2004": 49.3,
+        "2005": 44.0,
+        "2006": 43.4,
+        "2012": 47.3,
+        "2013": 45.5,
+        "2014": 46.1,
+        "2017": 44.6,
+        "2020": 38.5,
+        "2021": 52.0,
+        "2022": 41.6,
+        "2023": 46.4,
+        "2024": 49.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  }
+}

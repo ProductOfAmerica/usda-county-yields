@@ -1,0 +1,48 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "077",
+    "name": "LAKE OF THE WOODS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1956": 8.0,
+        "1959": 16.0,
+        "1960": 10.0,
+        "1969": 10.0,
+        "1970": 13.0,
+        "1974": 20.0,
+        "1979": 26.0,
+        "1980": 23.0,
+        "1981": 25.0,
+        "1986": 20.0,
+        "1991": 25.0,
+        "1992": 7.0,
+        "2004": 14.0,
+        "2005": 29.0,
+        "2019": 34.8,
+        "2020": 34.1,
+        "2021": 28.8,
+        "2022": 39.1
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MN",
+    "fips": "27",
+    "name": "MINNESOTA"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "013",
+    "name": "BEAUFORT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 16.2,
+        "1973": 25.8,
+        "1974": 16.0,
+        "1975": 23.1,
+        "1976": 22.7,
+        "1977": 31.3,
+        "1978": 24.0,
+        "1979": 29.3,
+        "1980": 29.9,
+        "1981": 37.9,
+        "1982": 38.7,
+        "1983": 25.9,
+        "1984": 29.5,
+        "1985": 20.1,
+        "1986": 20.3,
+        "1987": 25.5,
+        "1988": 48.8,
+        "1989": 31.5,
+        "1990": 37.9,
+        "1991": 26.5,
+        "1992": 40.7,
+        "1993": 42.6,
+        "1997": 40.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 18.2,
+        "1974": 16.0,
+        "1975": 21.8,
+        "1976": 20.4,
+        "1977": 31.3,
+        "1978": 24.0,
+        "1979": 29.3,
+        "1980": 28.2,
+        "1981": 37.9,
+        "1982": 37.3,
+        "1983": 24.7,
+        "1984": 28.4,
+        "1985": 19.6,
+        "1986": 19.4,
+        "1988": 48.8,
+        "1989": 30.7,
+        "1990": 37.9
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 16.2,
+        "1973": 25.8,
+        "1974": 16.0,
+        "1975": 23.1,
+        "1976": 22.7,
+        "1977": 31.3,
+        "1978": 24.0,
+        "1979": 29.3,
+        "1980": 29.9,
+        "1981": 37.9,
+        "1982": 38.7,
+        "1983": 25.9,
+        "1984": 29.5,
+        "1985": 20.1,
+        "1986": 20.3,
+        "1987": 25.5,
+        "1988": 48.8,
+        "1989": 31.5,
+        "1990": 37.9,
+        "1991": 26.5,
+        "1992": 40.7,
+        "1993": 42.6,
+        "1997": 40.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 18.2,
+        "1974": 16.0,
+        "1975": 21.8,
+        "1976": 20.4,
+        "1977": 31.3,
+        "1978": 24.0,
+        "1979": 29.3,
+        "1980": 28.2,
+        "1981": 37.9,
+        "1982": 37.3,
+        "1983": 24.7,
+        "1984": 28.4,
+        "1985": 19.6,
+        "1986": 19.4,
+        "1988": 48.8,
+        "1989": 30.7,
+        "1990": 37.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SC",
+    "fips": "45",
+    "name": "SOUTH CAROLINA"
+  }
+}

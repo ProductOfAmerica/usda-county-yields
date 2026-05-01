@@ -1,0 +1,59 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "007",
+    "name": "BAYFIELD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1943": 10.0,
+        "1945": 13.0,
+        "1946": 13.0,
+        "1947": 13.0,
+        "1980": 22.0,
+        "1981": 20.0,
+        "1982": 23.0,
+        "1989": 22.0,
+        "1990": 24.0,
+        "1991": 28.0,
+        "1992": 16.0,
+        "2010": 20.4,
+        "2011": 25.8,
+        "2020": 29.1,
+        "2021": 41.6,
+        "2022": 30.0,
+        "2024": 29.1
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1990": 24.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WI",
+    "fips": "55",
+    "name": "WISCONSIN"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "031",
+    "name": "CHEBOYGAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 21.4,
+        "1979": 21.8,
+        "1980": 28.3,
+        "1981": 25.0,
+        "1982": 25.0,
+        "1983": 27.5,
+        "1984": 27.0,
+        "1985": 27.0,
+        "1986": 26.0,
+        "1987": 25.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

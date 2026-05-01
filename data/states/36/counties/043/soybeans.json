@@ -1,0 +1,51 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "043",
+    "name": "HERKIMER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2001": 44.0,
+        "2003": 47.0,
+        "2004": 37.0,
+        "2005": 31.0,
+        "2006": 34.0,
+        "2007": 42.0,
+        "2008": 38.0,
+        "2010": 46.2,
+        "2011": 37.1,
+        "2012": 46.0,
+        "2014": 41.2,
+        "2015": 45.4,
+        "2016": 48.3,
+        "2017": 39.0,
+        "2018": 48.0,
+        "2019": 46.5,
+        "2020": 56.1,
+        "2021": 43.2,
+        "2022": 50.0,
+        "2023": 44.1,
+        "2024": 51.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

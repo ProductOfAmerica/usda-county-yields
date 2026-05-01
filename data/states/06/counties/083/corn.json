@@ -1,0 +1,86 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "083",
+    "name": "SANTA BARBARA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 81.0,
+        "1960": 79.0,
+        "1961": 79.0,
+        "1962": 80.0,
+        "1963": 79.0,
+        "1964": 80.0,
+        "1965": 81.0,
+        "1986": 80.0,
+        "1987": 133.3,
+        "1998": 0.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 0.0,
+        "2002": 0.0,
+        "2003": 163.3,
+        "2005": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 28.0,
+        "1976": 30.0,
+        "1977": 20.0,
+        "1978": 22.0,
+        "1979": 30.0,
+        "1980": 28.0,
+        "1981": 28.0,
+        "1982": 27.0,
+        "1983": 25.0,
+        "1984": 26.0,
+        "1985": 23.0,
+        "1986": 14.0,
+        "1987": 24.3,
+        "1988": 22.2,
+        "1989": 26.0,
+        "1990": 28.5,
+        "1991": 23.3,
+        "1992": 30.0,
+        "1993": 25.0,
+        "1994": 32.5,
+        "1995": 27.5,
+        "1996": 25.0,
+        "1997": 18.3,
+        "1998": 20.0,
+        "1999": 23.3,
+        "2000": 22.0,
+        "2001": 23.3,
+        "2002": 24.0,
+        "2005": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "213",
+    "name": "TANEY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1946": 9.0,
+        "1954": 16.0,
+        "1955": 14.0,
+        "1958": 18.0,
+        "1963": 18.0,
+        "1972": 26.0,
+        "1976": 16.0,
+        "1977": 18.0,
+        "1978": 20.0,
+        "1979": 20.0,
+        "1980": 10.0,
+        "1981": 20.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MO",
+    "fips": "29",
+    "name": "MISSOURI"
+  }
+}

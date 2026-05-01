@@ -1,0 +1,69 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "015",
+    "name": "BURLEIGH"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1988": 15.0,
+        "1989": 14.0,
+        "1990": 10.0,
+        "1992": 15.0,
+        "1995": 17.0,
+        "1997": 25.0,
+        "1998": 30.8,
+        "1999": 27.5,
+        "2000": 23.4,
+        "2001": 34.4,
+        "2002": 18.0,
+        "2003": 12.7,
+        "2004": 19.1,
+        "2005": 30.0,
+        "2006": 16.7,
+        "2007": 29.7,
+        "2010": 27.0,
+        "2011": 29.0,
+        "2012": 29.1,
+        "2017": 33.3,
+        "2018": 29.7,
+        "2020": 26.5,
+        "2021": 13.9,
+        "2022": 27.7,
+        "2023": 38.4,
+        "2024": 40.2
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1988": 10.7,
+        "1989": 10.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  }
+}

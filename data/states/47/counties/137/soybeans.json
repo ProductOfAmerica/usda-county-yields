@@ -1,0 +1,41 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "137",
+    "name": "PICKETT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1951": 15.0,
+        "1976": 25.0,
+        "1977": 25.0,
+        "1978": 24.0,
+        "1979": 25.0,
+        "1980": 17.0,
+        "1981": 23.0,
+        "2011": 33.2,
+        "2014": 57.0,
+        "2022": 53.5,
+        "2023": 57.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

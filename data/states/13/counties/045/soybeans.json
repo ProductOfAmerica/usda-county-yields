@@ -1,0 +1,48 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "045",
+    "name": "CARROLL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 21.2,
+        "1975": 25.8,
+        "1977": 17.0,
+        "1978": 19.0,
+        "1979": 25.1,
+        "1980": 14.0,
+        "1981": 23.8,
+        "1982": 27.3,
+        "1983": 21.9,
+        "1984": 26.5,
+        "1985": 33.0,
+        "1986": 22.1,
+        "1987": 18.8,
+        "1988": 24.4,
+        "1989": 25.6,
+        "1990": 25.3,
+        "1991": 23.0,
+        "1992": 35.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

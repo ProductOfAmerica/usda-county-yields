@@ -1,0 +1,62 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "039",
+    "name": "CUSTER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1969": 27.0,
+        "1973": 20.2,
+        "1974": 27.5,
+        "1977": 15.7,
+        "1978": 18.3,
+        "1979": 23.3,
+        "1980": 10.0,
+        "1981": 21.6,
+        "1982": 25.7,
+        "1983": 25.0,
+        "1986": 23.2,
+        "1987": 34.0,
+        "1988": 15.8,
+        "1989": 19.3,
+        "1990": 16.0,
+        "1997": 30.0,
+        "1998": 22.5,
+        "1999": 19.0,
+        "2000": 21.4,
+        "2001": 35.0,
+        "2002": 34.5,
+        "2003": 40.0,
+        "2004": 38.2,
+        "2006": 40.0,
+        "2007": 34.0,
+        "2009": 39.0,
+        "2016": 35.1,
+        "2017": 34.8,
+        "2018": 24.4,
+        "2021": 34.0,
+        "2022": 42.7,
+        "2023": 26.1
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

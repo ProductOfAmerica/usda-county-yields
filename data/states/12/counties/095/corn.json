@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "095",
+    "name": "ORANGE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 34.0,
+        "1962": 42.0,
+        "1963": 42.0,
+        "1964": 34.0,
+        "1965": 44.0,
+        "1966": 44.0,
+        "1967": 47.0,
+        "1968": 45.0,
+        "1969": 46.0,
+        "1970": 25.0,
+        "1971": 48.0,
+        "1972": 42.0,
+        "1973": 40.0,
+        "1974": 70.0,
+        "1975": 50.0,
+        "1976": 50.0,
+        "1977": 50.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  }
+}

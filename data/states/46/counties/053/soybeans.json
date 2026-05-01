@@ -1,0 +1,61 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "053",
+    "name": "GREGORY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1977": 19.0,
+        "1985": 28.7,
+        "1986": 27.0,
+        "1987": 28.0,
+        "1988": 25.0,
+        "1989": 24.0,
+        "1990": 28.0,
+        "1991": 18.0,
+        "1992": 31.0,
+        "1993": 31.0,
+        "1994": 39.0,
+        "1995": 28.0,
+        "1996": 38.0,
+        "1997": 36.0,
+        "1998": 37.0,
+        "1999": 26.2,
+        "2000": 23.1,
+        "2001": 30.0,
+        "2002": 14.7,
+        "2003": 20.1,
+        "2004": 16.3,
+        "2005": 26.9,
+        "2006": 32.8,
+        "2007": 43.0,
+        "2008": 31.0,
+        "2009": 45.5,
+        "2010": 34.3,
+        "2011": 39.0,
+        "2012": 15.1,
+        "2016": 45.4,
+        "2020": 41.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  }
+}

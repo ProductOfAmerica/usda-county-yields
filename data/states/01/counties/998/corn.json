@@ -1,0 +1,104 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1977": 15.0,
+        "1979": 45.0,
+        "1980": 25.0,
+        "1981": 19.2,
+        "1982": 46.7,
+        "1983": 24.4,
+        "1984": 38.9,
+        "1985": 45.7,
+        "1986": 42.0,
+        "1988": 35.7,
+        "1989": 83.3,
+        "1990": 60.0,
+        "1991": 76.9,
+        "1992": 71.3,
+        "1993": 37.5,
+        "1994": 89.0,
+        "1995": 63.0,
+        "1996": 53.0,
+        "1997": 61.0,
+        "1998": 55.0,
+        "1999": 90.0,
+        "2000": 60.0,
+        "2001": 99.0,
+        "2002": 115.0,
+        "2003": 77.0,
+        "2004": 108.0,
+        "2005": 105.0,
+        "2006": 64.0,
+        "2007": 61.0,
+        "2008": 83.0,
+        "2009": 87.0,
+        "2010": 97.3,
+        "2011": 105.9,
+        "2012": 67.5,
+        "2013": 115.2,
+        "2014": 104.3,
+        "2015": 109.3,
+        "2016": 132.2,
+        "2017": 163.6,
+        "2018": 155.7,
+        "2019": 139.3,
+        "2020": 139.4,
+        "2021": 137.3,
+        "2022": 122.1,
+        "2023": 143.7,
+        "2024": 119.4
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1977": 2.2,
+        "1979": 45.0,
+        "1983": 24.4,
+        "1984": 46.9,
+        "1985": 45.7
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "2022": 15.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AL",
+    "fips": "01",
+    "name": "ALABAMA"
+  }
+}

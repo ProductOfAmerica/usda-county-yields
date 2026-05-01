@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "089",
+    "name": "DE KALB"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 14.4,
+        "1955": 13.4,
+        "1956": 19.7,
+        "1957": 19.5,
+        "1958": 22.0,
+        "1959": 23.0,
+        "1960": 25.0,
+        "1961": 25.0,
+        "1963": 23.0,
+        "1964": 22.5,
+        "1965": 23.0,
+        "1966": 24.0,
+        "1969": 20.0,
+        "1991": 41.0,
+        "1992": 52.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 14.4,
+        "1955": 13.4,
+        "1956": 19.7,
+        "1957": 19.5,
+        "1958": 22.0,
+        "1959": 23.0,
+        "1960": 25.0,
+        "1961": 25.0,
+        "1963": 23.0,
+        "1964": 22.5,
+        "1965": 23.0,
+        "1966": 24.0,
+        "1969": 20.0,
+        "1991": 41.0,
+        "1992": 52.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

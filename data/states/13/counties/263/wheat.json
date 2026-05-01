@@ -1,0 +1,143 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "263",
+    "name": "TALBOT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 21.2,
+        "1955": 12.4,
+        "1956": 23.1,
+        "1957": 17.5,
+        "1958": 19.6,
+        "1959": 19.5,
+        "1960": 21.5,
+        "1961": 25.5,
+        "1962": 25.0,
+        "1963": 27.0,
+        "1965": 30.0,
+        "1966": 29.0,
+        "1973": 26.5,
+        "1974": 26.0,
+        "1975": 25.1,
+        "1976": 31.7,
+        "1980": 30.0,
+        "1981": 36.0,
+        "1982": 28.9,
+        "1983": 30.2,
+        "1984": 37.4,
+        "1985": 30.0,
+        "1986": 34.8,
+        "1987": 29.5,
+        "1988": 42.5,
+        "1989": 31.7
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 21.2,
+        "1974": 18.2,
+        "1975": 22.6,
+        "1976": 24.7,
+        "1980": 27.0,
+        "1981": 31.3,
+        "1982": 24.9,
+        "1983": 24.2,
+        "1984": 33.7,
+        "1985": 24.0,
+        "1986": 29.0,
+        "1987": 22.4,
+        "1988": 21.3,
+        "1989": 21.7
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 21.2,
+        "1955": 12.4,
+        "1956": 23.1,
+        "1957": 17.5,
+        "1958": 19.6,
+        "1959": 19.5,
+        "1960": 21.5,
+        "1961": 25.5,
+        "1962": 25.0,
+        "1963": 27.0,
+        "1965": 30.0,
+        "1966": 29.0,
+        "1973": 26.5,
+        "1974": 26.0,
+        "1975": 25.1,
+        "1976": 31.7,
+        "1980": 30.0,
+        "1981": 36.0,
+        "1982": 28.9,
+        "1983": 30.2,
+        "1984": 37.4,
+        "1985": 30.0,
+        "1986": 34.8,
+        "1987": 29.5,
+        "1988": 42.5,
+        "1989": 31.7
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 21.2,
+        "1974": 18.2,
+        "1975": 22.6,
+        "1976": 24.7,
+        "1980": 27.0,
+        "1981": 31.3,
+        "1982": 24.9,
+        "1983": 24.2,
+        "1984": 33.7,
+        "1985": 24.0,
+        "1986": 29.0,
+        "1987": 22.4,
+        "1988": 21.3,
+        "1989": 21.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

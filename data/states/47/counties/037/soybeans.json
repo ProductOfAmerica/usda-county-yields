@@ -1,0 +1,53 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "037",
+    "name": "DAVIDSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 25.0,
+        "1974": 22.0,
+        "1975": 25.0,
+        "1976": 23.0,
+        "1977": 23.0,
+        "1978": 26.0,
+        "1979": 29.0,
+        "1980": 14.0,
+        "1981": 29.0,
+        "1982": 29.0,
+        "1983": 15.0,
+        "1984": 31.0,
+        "1985": 37.0,
+        "1986": 27.0,
+        "1987": 28.0,
+        "1988": 27.0,
+        "1989": 21.0,
+        "1990": 28.0,
+        "1991": 28.0,
+        "1992": 33.0,
+        "1993": 26.0,
+        "1999": 18.0,
+        "2001": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

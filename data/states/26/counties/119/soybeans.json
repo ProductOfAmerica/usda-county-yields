@@ -1,0 +1,61 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "119",
+    "name": "MONTMORENCY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1977": 25.0,
+        "1978": 21.0,
+        "1979": 21.5,
+        "1983": 27.5,
+        "1984": 26.0,
+        "1985": 27.0,
+        "1986": 27.8,
+        "1987": 27.4,
+        "1988": 22.9,
+        "1989": 27.3,
+        "1990": 30.0,
+        "1991": 26.7,
+        "1992": 12.1,
+        "2001": 23.0,
+        "2002": 41.0,
+        "2003": 36.0,
+        "2004": 37.0,
+        "2005": 39.0,
+        "2006": 44.0,
+        "2007": 29.0,
+        "2008": 35.5,
+        "2010": 42.3,
+        "2011": 31.4,
+        "2014": 24.8,
+        "2017": 41.8,
+        "2019": 30.3,
+        "2020": 44.5,
+        "2021": 48.3,
+        "2022": 39.8,
+        "2023": 32.1,
+        "2024": 39.1
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

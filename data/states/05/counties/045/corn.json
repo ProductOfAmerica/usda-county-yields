@@ -1,0 +1,76 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "045",
+    "name": "FAULKNER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 29.0,
+        "1962": 26.0,
+        "1963": 26.0,
+        "1964": 16.0,
+        "1965": 28.0,
+        "1966": 23.0,
+        "1967": 36.0,
+        "1968": 32.0,
+        "1969": 27.0,
+        "1970": 28.0,
+        "1971": 29.0,
+        "1972": 35.0,
+        "1973": 31.0,
+        "1974": 38.0,
+        "1975": 44.6,
+        "1976": 41.6,
+        "1977": 40.0,
+        "1979": 50.0,
+        "1984": 90.0,
+        "1985": 80.0,
+        "1986": 70.0,
+        "1990": 74.0,
+        "1991": 80.0,
+        "1992": 87.5,
+        "1993": 75.0,
+        "2000": 121.0,
+        "2006": 128.0,
+        "2007": 133.0,
+        "2008": 135.0,
+        "2009": 125.0,
+        "2012": 72.3,
+        "2024": 164.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1979": 50.0,
+        "1984": 90.0,
+        "1985": 80.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

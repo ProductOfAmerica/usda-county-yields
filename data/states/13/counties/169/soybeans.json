@@ -1,0 +1,52 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "169",
+    "name": "JONES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1967": 23.0,
+        "1968": 16.5,
+        "1972": 15.0,
+        "1973": 16.4,
+        "1974": 19.0,
+        "1975": 16.6,
+        "1976": 19.4,
+        "1977": 16.0,
+        "1978": 18.0,
+        "1979": 23.9,
+        "1980": 12.5,
+        "1981": 15.6,
+        "1982": 23.5,
+        "1983": 19.5,
+        "1984": 14.2,
+        "1985": 21.1,
+        "1986": 14.4,
+        "1987": 13.0,
+        "1988": 10.3,
+        "1989": 20.9,
+        "1991": 23.0,
+        "2000": 14.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

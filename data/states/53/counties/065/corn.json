@@ -1,0 +1,88 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "065",
+    "name": "STEVENS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1939": 14.0,
+        "1940": 12.0,
+        "1941": 22.0,
+        "1942": 17.0,
+        "1943": 10.9,
+        "1944": 22.0,
+        "1945": 36.7,
+        "1946": 40.0,
+        "1947": 41.0,
+        "1948": 38.5,
+        "1949": 29.0,
+        "1950": 32.1,
+        "1951": 33.5,
+        "1952": 39.3,
+        "1953": 40.0,
+        "1954": 32.0,
+        "1955": 41.5,
+        "1956": 38.0,
+        "1959": 33.3,
+        "1963": 55.0,
+        "1964": 60.0,
+        "1965": 60.0,
+        "1966": 70.0,
+        "1967": 85.0,
+        "1968": 90.0,
+        "1970": 100.0,
+        "1971": 93.0,
+        "1983": 100.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1983": 100.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 15.5,
+        "1975": 16.5,
+        "1976": 17.0,
+        "1977": 16.0,
+        "1978": 14.0,
+        "1979": 24.0,
+        "1985": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

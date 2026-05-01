@@ -1,0 +1,96 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "093",
+    "name": "STUTSMAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 7.5,
+        "1956": 9.0,
+        "1981": 18.8,
+        "1982": 15.2,
+        "1983": 14.0,
+        "1984": 13.5,
+        "1985": 20.0,
+        "1986": 27.7,
+        "1987": 29.5,
+        "1988": 9.0,
+        "1989": 16.0,
+        "1990": 16.0,
+        "1991": 18.1,
+        "1992": 22.5,
+        "1993": 14.6,
+        "1994": 36.2,
+        "1995": 29.8,
+        "1996": 24.4,
+        "1997": 21.0,
+        "1998": 31.5,
+        "1999": 30.9,
+        "2000": 30.9,
+        "2001": 31.0,
+        "2002": 30.4,
+        "2003": 24.4,
+        "2004": 24.2,
+        "2005": 37.7,
+        "2006": 31.8,
+        "2007": 37.2,
+        "2008": 27.5,
+        "2009": 26.5,
+        "2010": 33.5,
+        "2011": 28.7,
+        "2012": 34.5,
+        "2013": 27.1,
+        "2014": 32.6,
+        "2015": 31.3,
+        "2016": 42.7,
+        "2017": 34.6,
+        "2018": 38.7,
+        "2019": 25.5,
+        "2020": 33.9,
+        "2021": 28.6,
+        "2022": 33.1,
+        "2023": 38.0,
+        "2024": 34.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1981": 18.8,
+        "1982": 15.2,
+        "1983": 14.0,
+        "1984": 13.5,
+        "1985": 20.0,
+        "1986": 27.7,
+        "1987": 26.8,
+        "1988": 8.6,
+        "1989": 15.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  }
+}

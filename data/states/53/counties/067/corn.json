@@ -1,0 +1,79 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "067",
+    "name": "THURSTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1939": 42.0,
+        "1940": 40.0,
+        "1941": 39.0,
+        "1942": 20.5,
+        "1943": 21.0,
+        "1944": 16.0,
+        "1945": 34.0,
+        "1946": 35.0,
+        "1947": 35.0,
+        "1948": 32.0,
+        "1949": 18.0,
+        "1950": 33.5,
+        "1951": 18.0,
+        "1952": 25.0,
+        "1964": 60.0,
+        "1965": 70.0,
+        "1966": 80.0,
+        "1967": 80.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 21.0,
+        "1975": 20.5,
+        "1976": 20.0,
+        "1977": 19.0,
+        "1978": 20.0,
+        "1979": 20.0,
+        "1980": 16.2,
+        "1981": 20.0,
+        "1982": 19.0,
+        "1983": 20.0,
+        "1984": 19.0,
+        "1985": 22.0,
+        "1986": 22.0,
+        "1987": 22.0,
+        "1988": 20.0,
+        "1989": 19.0,
+        "1990": 22.0,
+        "1991": 24.0,
+        "1992": 23.0,
+        "1993": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

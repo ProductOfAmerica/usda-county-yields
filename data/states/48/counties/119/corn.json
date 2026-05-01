@@ -1,0 +1,68 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "119",
+    "name": "DELTA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1969": 28.0,
+        "1976": 36.1,
+        "1986": 118.2,
+        "1987": 75.0,
+        "1988": 37.2,
+        "1989": 71.4,
+        "1990": 52.1,
+        "1991": 78.5,
+        "1992": 92.4,
+        "1993": 78.9,
+        "1994": 81.8,
+        "1995": 77.1,
+        "1996": 39.2,
+        "1997": 91.3,
+        "1998": 70.5,
+        "1999": 105.0,
+        "2000": 101.4,
+        "2001": 90.0,
+        "2002": 74.5,
+        "2003": 101.3,
+        "2004": 96.8,
+        "2005": 76.2,
+        "2006": 65.0,
+        "2018": 70.8,
+        "2023": 115.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1986": 118.2,
+        "1988": 37.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

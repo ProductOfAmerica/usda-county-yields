@@ -1,0 +1,78 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "473",
+    "name": "WALLER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1968": 26.6,
+        "1970": 16.7,
+        "1972": 23.9,
+        "1973": 16.1,
+        "1974": 22.7,
+        "1975": 25.6,
+        "1976": 24.2,
+        "1977": 21.1,
+        "1978": 16.0,
+        "1979": 28.7,
+        "1980": 23.6,
+        "1981": 21.7,
+        "1982": 10.5,
+        "1983": 23.5,
+        "1984": 24.3,
+        "1986": 15.7,
+        "1987": 22.5,
+        "1988": 13.8,
+        "1989": 32.0,
+        "1990": 19.4,
+        "1992": 23.9,
+        "1993": 12.2,
+        "1996": 21.3,
+        "1997": 26.2,
+        "1998": 20.2,
+        "1999": 26.4
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1984": 24.3,
+        "1986": 15.7,
+        "1987": 22.5,
+        "1988": 13.8,
+        "1989": 32.0,
+        "1990": 19.4,
+        "1992": 23.9,
+        "1993": 12.2,
+        "1996": 20.0,
+        "1997": 25.7,
+        "1998": 16.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

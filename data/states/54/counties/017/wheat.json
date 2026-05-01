@@ -1,0 +1,77 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "017",
+    "name": "DODDRIDGE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 12.0,
+        "1927": 16.0,
+        "1928": 15.0,
+        "1934": 8.0,
+        "1935": 11.0,
+        "1941": 14.0,
+        "1949": 17.5,
+        "1950": 14.0,
+        "1951": 20.5,
+        "1952": 20.5,
+        "1953": 21.3,
+        "1954": 25.5,
+        "1955": 23.0,
+        "1956": 23.0,
+        "1957": 21.0,
+        "1958": 22.0,
+        "1959": 20.0,
+        "1960": 25.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 12.0,
+        "1927": 16.0,
+        "1928": 15.0,
+        "1934": 8.0,
+        "1935": 11.0,
+        "1941": 14.0,
+        "1949": 17.5,
+        "1950": 14.0,
+        "1951": 20.5,
+        "1952": 20.5,
+        "1953": 21.3,
+        "1954": 25.5,
+        "1955": 23.0,
+        "1956": 23.0,
+        "1957": 21.0,
+        "1958": 22.0,
+        "1959": 20.0,
+        "1960": 25.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

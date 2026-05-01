@@ -1,0 +1,49 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "025",
+    "name": "BRANTLEY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1970": 21.0,
+        "1971": 25.0,
+        "1975": 19.0,
+        "1977": 20.0,
+        "1978": 17.0,
+        "1979": 26.1,
+        "1980": 24.5,
+        "1981": 25.5,
+        "1982": 29.5,
+        "1983": 23.5,
+        "1984": 25.1,
+        "1985": 23.8,
+        "1986": 19.6,
+        "1987": 20.3,
+        "1988": 24.8,
+        "1989": 28.3,
+        "1990": 20.0,
+        "1991": 29.0,
+        "1992": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

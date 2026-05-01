@@ -1,0 +1,52 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "089",
+    "name": "HENRY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1943": 10.0,
+        "1944": 15.0,
+        "1969": 20.7,
+        "1970": 20.0,
+        "1971": 23.0,
+        "1972": 18.0,
+        "1974": 17.5,
+        "1975": 22.0,
+        "1976": 17.0,
+        "1977": 16.5,
+        "1978": 26.0,
+        "1979": 25.0,
+        "1980": 16.0,
+        "1981": 23.5,
+        "1982": 27.0,
+        "1983": 12.5,
+        "1984": 27.5,
+        "1985": 23.0,
+        "1986": 21.0,
+        "1987": 22.0,
+        "1988": 23.0,
+        "1989": 25.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  }
+}

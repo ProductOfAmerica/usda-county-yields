@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "009",
+    "name": "CATTARAUGUS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2001": 38.0,
+        "2003": 38.0,
+        "2004": 28.0,
+        "2005": 40.0,
+        "2006": 49.0,
+        "2010": 36.3,
+        "2011": 42.6,
+        "2013": 36.1,
+        "2015": 37.5,
+        "2016": 47.3,
+        "2017": 46.3,
+        "2019": 43.2,
+        "2020": 47.5,
+        "2021": 42.9,
+        "2022": 38.2,
+        "2023": 43.2,
+        "2024": 42.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

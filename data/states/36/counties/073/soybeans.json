@@ -1,0 +1,54 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "073",
+    "name": "ORLEANS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 34.0,
+        "2001": 28.0,
+        "2002": 35.0,
+        "2003": 30.0,
+        "2004": 35.0,
+        "2005": 43.0,
+        "2006": 42.0,
+        "2007": 33.0,
+        "2008": 44.0,
+        "2009": 42.0,
+        "2010": 50.5,
+        "2011": 44.1,
+        "2012": 49.3,
+        "2013": 51.3,
+        "2015": 40.6,
+        "2016": 44.6,
+        "2017": 47.6,
+        "2018": 51.1,
+        "2019": 48.3,
+        "2020": 57.4,
+        "2021": 55.0,
+        "2022": 48.3,
+        "2023": 50.0,
+        "2024": 53.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

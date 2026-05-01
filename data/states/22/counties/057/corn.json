@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "057",
+    "name": "LAFOURCHE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 22.0,
+        "1960": 19.0,
+        "1961": 34.9,
+        "1962": 25.0,
+        "1963": 28.0,
+        "1964": 21.8,
+        "1965": 31.9,
+        "1966": 30.0,
+        "1967": 50.0,
+        "1968": 35.0,
+        "1969": 33.1,
+        "1970": 34.1,
+        "1971": 45.0,
+        "1972": 30.0,
+        "1973": 20.0,
+        "1974": 25.0,
+        "1975": 35.0,
+        "1976": 51.0,
+        "1977": 50.0,
+        "1978": 45.0,
+        "1979": 40.0,
+        "1980": 40.0,
+        "1981": 60.0,
+        "1985": 42.9,
+        "1986": 59.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 40.0,
+        "1979": 40.0,
+        "1980": 40.0,
+        "1981": 60.0,
+        "1985": 42.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "047",
+    "name": "HAMILTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 20.0,
+        "1975": 24.0,
+        "1976": 22.0,
+        "1977": 22.0,
+        "1978": 22.0,
+        "1979": 27.0,
+        "1980": 15.0,
+        "1981": 21.0,
+        "1982": 26.0,
+        "1983": 25.0,
+        "1984": 24.0,
+        "1985": 25.0,
+        "1986": 22.0,
+        "1987": 24.0,
+        "1988": 30.0,
+        "1989": 26.0,
+        "1992": 25.0,
+        "1993": 26.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  }
+}

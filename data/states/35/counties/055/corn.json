@@ -1,0 +1,103 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "055",
+    "name": "TAOS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 15.0,
+        "1957": 20.0,
+        "1958": 20.0,
+        "1959": 22.0,
+        "1960": 25.4,
+        "1961": 22.0,
+        "1962": 21.0,
+        "1963": 20.0,
+        "1965": 20.0,
+        "1966": 25.0,
+        "1967": 23.0,
+        "1971": 30.0,
+        "1972": 35.0,
+        "1973": 30.0,
+        "1974": 22.0,
+        "1975": 26.0,
+        "1976": 29.0,
+        "1977": 36.0,
+        "1978": 45.0,
+        "1979": 45.0,
+        "1980": 45.0,
+        "1982": 21.0,
+        "1983": 45.0,
+        "1997": 99.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 45.0,
+        "1979": 42.9,
+        "1980": 45.0,
+        "1982": 21.0,
+        "1983": 22.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 22.0,
+        "1960": 25.4,
+        "1961": 22.0,
+        "1962": 21.0,
+        "1963": 20.0,
+        "1965": 20.0,
+        "1966": 25.0,
+        "1967": 25.0,
+        "1971": 30.0,
+        "1997": 99.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1967": 10.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NM",
+    "fips": "35",
+    "name": "NEW MEXICO"
+  }
+}

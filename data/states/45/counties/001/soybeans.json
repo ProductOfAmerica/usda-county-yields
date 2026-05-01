@@ -1,0 +1,52 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "001",
+    "name": "ABBEVILLE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 15.0,
+        "1973": 19.6,
+        "1974": 20.5,
+        "1975": 22.9,
+        "1976": 14.9,
+        "1977": 17.3,
+        "1978": 16.7,
+        "1979": 20.2,
+        "1980": 11.0,
+        "1981": 11.4,
+        "1982": 16.1,
+        "1983": 14.4,
+        "1984": 15.1,
+        "1985": 16.2,
+        "1986": 11.5,
+        "1987": 10.6,
+        "1988": 13.4,
+        "1989": 23.5,
+        "1990": 18.2,
+        "1991": 23.0,
+        "1992": 19.4,
+        "1996": 25.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SC",
+    "fips": "45",
+    "name": "SOUTH CAROLINA"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "139",
+    "name": "ELLIS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1968": 14.6,
+        "1995": 30.5,
+        "1996": 18.3,
+        "1997": 23.3,
+        "1998": 17.7,
+        "1999": 25.5,
+        "2000": 21.8,
+        "2001": 19.4,
+        "2002": 21.3,
+        "2003": 35.3,
+        "2004": 37.8,
+        "2005": 30.5,
+        "2006": 17.0,
+        "2007": 44.0,
+        "2008": 14.5,
+        "2009": 17.5,
+        "2010": 18.3,
+        "2011": 13.2,
+        "2017": 45.8
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1995": 30.5,
+        "1996": 18.3,
+        "1997": 23.3,
+        "1998": 17.7,
+        "1999": 25.5,
+        "2000": 21.8,
+        "2001": 19.4,
+        "2002": 21.3,
+        "2003": 35.3,
+        "2006": 17.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

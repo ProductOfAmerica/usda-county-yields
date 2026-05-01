@@ -1,0 +1,48 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "065",
+    "name": "CLINCH"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1970": 21.0,
+        "1971": 26.0,
+        "1972": 17.5,
+        "1973": 20.2,
+        "1974": 18.5,
+        "1975": 30.4,
+        "1976": 25.5,
+        "1977": 22.0,
+        "1978": 18.0,
+        "1979": 26.0,
+        "1980": 18.8,
+        "1981": 29.8,
+        "1982": 25.1,
+        "1983": 25.8,
+        "1984": 28.7,
+        "1985": 17.5,
+        "1987": 21.0,
+        "1988": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

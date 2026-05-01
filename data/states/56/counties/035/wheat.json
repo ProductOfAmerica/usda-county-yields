@@ -1,0 +1,233 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "035",
+    "name": "SUBLETTE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1927": 18.0,
+        "1934": 10.0,
+        "1935": 10.0,
+        "1936": 17.0,
+        "1937": 20.0,
+        "1938": 20.0,
+        "1939": 17.0,
+        "1940": 21.0,
+        "1941": 13.0,
+        "1942": 20.0,
+        "1943": 12.0,
+        "1944": 16.0,
+        "1945": 17.0,
+        "1946": 21.0,
+        "1947": 19.0,
+        "1948": 17.0,
+        "1949": 13.0,
+        "1950": 15.0,
+        "1951": 16.0,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 7.0,
+        "1955": 17.0,
+        "1956": 20.0,
+        "1957": 30.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1946": 21.0,
+        "1947": 19.0,
+        "1948": 17.0,
+        "1949": 13.0,
+        "1950": 15.0,
+        "1951": 16.0,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 7.0,
+        "1955": 17.0,
+        "1956": 20.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1957": 30.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED, FOLLOWING SUMMER FALLOW",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, FOLLOWING SUMMER FALLOW - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1957": 30.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1934": 10.0,
+        "1935": 10.0,
+        "1937": 15.0,
+        "1938": 18.0,
+        "1939": 16.0,
+        "1940": 22.0,
+        "1941": 13.0,
+        "1942": 20.0,
+        "1944": 21.0,
+        "1945": 17.0,
+        "1946": 18.0,
+        "1947": 18.0,
+        "1948": 15.0,
+        "1949": 13.0,
+        "1950": 15.0,
+        "1951": 15.0,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 10.0,
+        "1955": 30.0,
+        "1956": 20.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1946": 18.0,
+        "1947": 18.0,
+        "1948": 15.0,
+        "1949": 13.0,
+        "1950": 15.0,
+        "1951": 15.0,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 10.0,
+        "1955": 30.0,
+        "1956": 20.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1927": 18.0,
+        "1936": 17.0,
+        "1937": 22.0,
+        "1938": 28.0,
+        "1939": 20.0,
+        "1940": 17.0,
+        "1943": 12.0,
+        "1944": 10.0,
+        "1945": 17.0,
+        "1946": 24.0,
+        "1947": 20.0,
+        "1948": 20.0,
+        "1949": 13.0,
+        "1950": 13.0,
+        "1951": 18.0,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 7.0,
+        "1955": 10.0,
+        "1956": 20.0,
+        "1957": 30.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1946": 24.0,
+        "1947": 20.0,
+        "1948": 20.0,
+        "1949": 13.0,
+        "1950": 13.0,
+        "1951": 18.0,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 7.0,
+        "1955": 10.0,
+        "1956": 20.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1957": 30.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED, FOLLOWING SUMMER FALLOW",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, FOLLOWING SUMMER FALLOW - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1957": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WY",
+    "fips": "56",
+    "name": "WYOMING"
+  }
+}

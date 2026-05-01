@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "011",
+    "name": "COOS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1909": 26.5,
+        "1919": 24.0,
+        "1929": 30.0,
+        "1934": 18.0,
+        "1939": 21.5,
+        "1940": 19.0,
+        "1941": 20.0,
+        "1942": 20.0,
+        "1943": 20.0,
+        "1944": 20.0,
+        "1945": 19.0,
+        "1946": 25.0,
+        "1947": 20.0,
+        "1948": 20.0,
+        "1949": 20.0,
+        "1950": 20.0,
+        "1951": 20.0,
+        "1952": 20.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1929": 36.5,
+        "1934": 21.5,
+        "1939": 20.0,
+        "1940": 19.0,
+        "1944": 13.5,
+        "1945": 15.0,
+        "1946": 20.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1929": 10.0,
+        "1934": 10.0,
+        "1939": 23.0,
+        "1940": 19.0,
+        "1941": 20.0,
+        "1942": 20.0,
+        "1943": 20.0,
+        "1944": 40.0,
+        "1945": 30.0,
+        "1946": 26.5,
+        "1947": 20.0,
+        "1948": 20.0,
+        "1949": 20.0,
+        "1950": 20.0,
+        "1951": 20.0,
+        "1952": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "023",
+    "name": "CHOCTAW"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1950": 18.0,
+        "1951": 18.0,
+        "1952": 19.0,
+        "1953": 21.0,
+        "1954": 10.0,
+        "1955": 20.0,
+        "1956": 17.0,
+        "1957": 18.0,
+        "1958": 19.0,
+        "1959": 17.0,
+        "1967": 24.0,
+        "1968": 22.0,
+        "1969": 18.0,
+        "1970": 24.0,
+        "1971": 26.0,
+        "1972": 19.4,
+        "1973": 23.3,
+        "1974": 23.0,
+        "1975": 25.0,
+        "1976": 25.5,
+        "1977": 33.0,
+        "1978": 23.0,
+        "1979": 24.0,
+        "1980": 19.7,
+        "1981": 21.6,
+        "1982": 21.5,
+        "1983": 20.3,
+        "1984": 22.4,
+        "1985": 23.3,
+        "1986": 28.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AL",
+    "fips": "01",
+    "name": "ALABAMA"
+  }
+}

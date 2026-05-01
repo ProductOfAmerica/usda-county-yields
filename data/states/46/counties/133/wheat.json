@@ -1,0 +1,117 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "133",
+    "name": "WASHINGTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 8.6,
+        "1927": 17.7,
+        "1928": 14.5,
+        "1929": 13.7,
+        "1930": 12.6,
+        "1931": 4.6,
+        "1932": 11.8,
+        "1933": 4.0,
+        "1934": 4.0,
+        "1935": 9.9,
+        "1936": 4.2,
+        "1937": 4.2,
+        "1938": 5.0,
+        "1939": 6.5,
+        "1940": 5.0,
+        "1941": 10.1
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 8.4,
+        "1927": 17.5,
+        "1928": 16.6,
+        "1929": 11.4,
+        "1930": 10.1,
+        "1931": 3.8,
+        "1932": 10.3,
+        "1933": 2.6,
+        "1935": 8.7,
+        "1937": 4.1,
+        "1938": 4.5,
+        "1939": 4.0,
+        "1940": 3.0,
+        "1941": 8.0
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1928": 18.0,
+        "1929": 7.0,
+        "1930": 9.0,
+        "1935": 8.0,
+        "1937": 3.3,
+        "1938": 5.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1924": 10.0,
+        "1925": 10.5,
+        "1926": 8.8,
+        "1927": 18.0,
+        "1928": 11.4,
+        "1929": 17.8,
+        "1930": 16.2,
+        "1931": 5.2,
+        "1932": 14.4,
+        "1933": 7.6,
+        "1934": 4.0,
+        "1935": 13.7,
+        "1936": 4.2,
+        "1937": 4.7,
+        "1938": 6.9,
+        "1939": 6.8,
+        "1940": 5.2,
+        "1941": 10.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  }
+}

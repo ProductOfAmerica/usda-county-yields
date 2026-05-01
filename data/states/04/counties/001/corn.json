@@ -1,0 +1,64 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "001",
+    "name": "APACHE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1965": 13.8,
+        "1966": 21.8,
+        "1967": 18.1,
+        "1968": 15.0,
+        "1969": 13.0,
+        "1970": 14.0,
+        "1971": 17.0,
+        "1972": 15.0,
+        "1973": 19.0,
+        "1974": 20.0,
+        "1975": 18.0,
+        "1976": 15.0,
+        "1977": 14.0,
+        "1978": 27.0,
+        "1979": 30.0,
+        "1981": 65.0,
+        "1982": 85.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1977": 13.1,
+        "1978": 27.0,
+        "1979": 25.0,
+        "1980": 35.3,
+        "1981": 65.0,
+        "1982": 85.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AZ",
+    "fips": "04",
+    "name": "ARIZONA"
+  }
+}

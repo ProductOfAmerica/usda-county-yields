@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "127",
+    "name": "MOORE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 23.0,
+        "1974": 21.0,
+        "1975": 26.0,
+        "1976": 23.0,
+        "1977": 19.0,
+        "1978": 21.0,
+        "1979": 26.0,
+        "1980": 18.0,
+        "1981": 25.0,
+        "1982": 27.0,
+        "1983": 20.0,
+        "1984": 23.0,
+        "1985": 30.0,
+        "1986": 23.0,
+        "1987": 18.0,
+        "1988": 20.0,
+        "1989": 15.0,
+        "1990": 23.0,
+        "1991": 30.0,
+        "1992": 36.0,
+        "1995": 40.0,
+        "2001": 35.0,
+        "2002": 20.0,
+        "2003": 43.0,
+        "2004": 46.0,
+        "2005": 35.0,
+        "2006": 36.0,
+        "2007": 16.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

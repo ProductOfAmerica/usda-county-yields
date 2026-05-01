@@ -1,0 +1,46 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "029",
+    "name": "JACKSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 60.0,
+        "1957": 67.0,
+        "1958": 46.5,
+        "1959": 40.5,
+        "1960": 46.5,
+        "1961": 51.0,
+        "1962": 60.0,
+        "1963": 55.0,
+        "1964": 50.0,
+        "1965": 60.0,
+        "1966": 70.0,
+        "1967": 80.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 0.0,
+        "2002": 0.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "039",
+    "name": "DECATUR"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1942": 10.0,
+        "1944": 10.0,
+        "1967": 15.0,
+        "1968": 26.0,
+        "1969": 20.0,
+        "1974": 14.0,
+        "1978": 20.0,
+        "1982": 30.3,
+        "1983": 17.3,
+        "1984": 17.3,
+        "1985": 33.0,
+        "1986": 15.0,
+        "1987": 25.0,
+        "1988": 41.0,
+        "1989": 41.0,
+        "1990": 40.0,
+        "1991": 51.0,
+        "1992": 31.0,
+        "1993": 30.0,
+        "1994": 39.0,
+        "1995": 24.0,
+        "1996": 42.0,
+        "1997": 46.0,
+        "1998": 41.0,
+        "1999": 40.0,
+        "2000": 23.0,
+        "2001": 37.0,
+        "2002": 37.0,
+        "2003": 42.0,
+        "2004": 32.0,
+        "2005": 40.0,
+        "2011": 20.8,
+        "2012": 23.6,
+        "2015": 41.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1984": 39.5,
+        "1987": 49.0,
+        "1988": 51.0,
+        "1989": 46.0,
+        "1990": 43.0,
+        "1991": 54.0,
+        "1992": 34.0,
+        "1993": 33.0,
+        "1994": 40.0,
+        "1995": 29.0,
+        "1996": 42.0,
+        "1997": 46.0,
+        "1998": 41.0,
+        "2001": 45.0,
+        "2005": 58.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1984": 15.2,
+        "1985": 33.0,
+        "1986": 15.0,
+        "1987": 19.0,
+        "1988": 18.0,
+        "1989": 17.0,
+        "1990": 13.0,
+        "1991": 20.0,
+        "1992": 19.0,
+        "1993": 24.0,
+        "1994": 34.0,
+        "1995": 17.0,
+        "2001": 26.0,
+        "2005": 18.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "KS",
+    "fips": "20",
+    "name": "KANSAS"
+  }
+}

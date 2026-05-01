@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "057",
+    "name": "CHEROKEE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1954": 15.7,
+        "1955": 29.7,
+        "1956": 28.0,
+        "1957": 22.8,
+        "1958": 34.8,
+        "1959": 30.6,
+        "1960": 28.0,
+        "1961": 36.5,
+        "1962": 34.2,
+        "1963": 31.6,
+        "1964": 31.5,
+        "1965": 43.9,
+        "1966": 32.1,
+        "1967": 45.7,
+        "1968": 30.0,
+        "1969": 50.0,
+        "1970": 26.3,
+        "1971": 39.4,
+        "1972": 45.0,
+        "1973": 43.0,
+        "1974": 50.0,
+        "1975": 55.3,
+        "1976": 47.1,
+        "1977": 43.9,
+        "1978": 48.8,
+        "1979": 52.6,
+        "1980": 40.3,
+        "1981": 41.4,
+        "1982": 69.0,
+        "1983": 60.4,
+        "1984": 65.8,
+        "1985": 72.7,
+        "1987": 47.2,
+        "1988": 31.8,
+        "1991": 50.0,
+        "1992": 50.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 40.0,
+        "1973": 37.4,
+        "1974": 44.7,
+        "1975": 49.8,
+        "1976": 44.0,
+        "1977": 18.8,
+        "1978": 47.5,
+        "1979": 51.3,
+        "1980": 35.6,
+        "1981": 38.5,
+        "1982": 69.0,
+        "1983": 58.3,
+        "1984": 62.0,
+        "1985": 63.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

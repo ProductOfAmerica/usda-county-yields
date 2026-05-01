@@ -1,0 +1,77 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "009",
+    "name": "CALAVERAS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1945": 20.0,
+        "1946": 18.5,
+        "1947": 20.0,
+        "1948": 20.0,
+        "1949": 20.0,
+        "1950": 20.0,
+        "1951": 20.0,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 20.0,
+        "1955": 16.0,
+        "1956": 16.0,
+        "1957": 16.0,
+        "1958": 16.0,
+        "1959": 20.0,
+        "1960": 20.0,
+        "1961": 20.0,
+        "1970": 28.5
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1945": 20.0,
+        "1946": 18.5,
+        "1947": 20.0,
+        "1948": 20.0,
+        "1949": 20.0,
+        "1950": 20.0,
+        "1951": 20.0,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 20.0,
+        "1955": 16.0,
+        "1956": 16.0,
+        "1957": 16.0,
+        "1958": 16.0,
+        "1959": 20.0,
+        "1960": 20.0,
+        "1961": 20.0,
+        "1970": 28.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  }
+}

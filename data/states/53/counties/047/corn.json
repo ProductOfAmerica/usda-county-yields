@@ -1,0 +1,103 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "047",
+    "name": "OKANOGAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1939": 28.5,
+        "1940": 32.1,
+        "1941": 35.0,
+        "1942": 41.1,
+        "1943": 35.9,
+        "1944": 33.0,
+        "1945": 42.7,
+        "1946": 45.3,
+        "1947": 44.1,
+        "1948": 46.0,
+        "1949": 33.9,
+        "1950": 35.2,
+        "1951": 36.0,
+        "1952": 42.0,
+        "1953": 39.0,
+        "1954": 38.0,
+        "1955": 55.0,
+        "1956": 48.5,
+        "1957": 70.0,
+        "1959": 50.0,
+        "1961": 62.0,
+        "1962": 66.0,
+        "1968": 75.0,
+        "1969": 87.5,
+        "1973": 85.0,
+        "1974": 85.0,
+        "1975": 80.0,
+        "1983": 120.0,
+        "1984": 110.0,
+        "1993": 120.0,
+        "2001": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1983": 120.0,
+        "1984": 110.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 14.0,
+        "1975": 17.0,
+        "1976": 19.5,
+        "1977": 19.0,
+        "1978": 20.0,
+        "1979": 20.0,
+        "1983": 19.0,
+        "1984": 24.0,
+        "1985": 13.0,
+        "1986": 14.0,
+        "1987": 20.0,
+        "1988": 20.0,
+        "1989": 20.0,
+        "1990": 18.0,
+        "1991": 22.0,
+        "1992": 19.0,
+        "1993": 20.0,
+        "2001": 23.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

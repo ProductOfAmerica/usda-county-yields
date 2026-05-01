@@ -1,0 +1,84 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "027",
+    "name": "HOWARD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 20.0,
+        "1974": 22.5,
+        "1975": 23.0,
+        "1976": 20.0,
+        "1977": 25.0,
+        "1978": 32.0,
+        "1979": 27.0,
+        "1980": 22.0,
+        "1981": 32.0,
+        "1982": 32.0,
+        "1983": 23.0,
+        "1984": 39.0,
+        "1985": 35.0,
+        "1986": 27.0,
+        "1987": 35.0,
+        "1988": 36.0,
+        "1989": 32.1,
+        "1990": 41.1,
+        "1991": 36.0,
+        "1992": 33.0,
+        "1993": 31.5,
+        "1994": 46.1,
+        "1995": 37.3,
+        "1996": 35.8,
+        "1997": 27.0,
+        "1998": 30.5,
+        "1999": 25.8,
+        "2000": 42.1,
+        "2001": 40.0,
+        "2002": 30.1,
+        "2003": 38.0,
+        "2004": 36.5,
+        "2005": 30.7,
+        "2006": 29.1,
+        "2007": 29.0,
+        "2010": 37.6,
+        "2012": 51.5,
+        "2013": 42.7,
+        "2016": 51.3,
+        "2023": 54.9,
+        "2024": 51.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 23.0,
+        "1976": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MD",
+    "fips": "24",
+    "name": "MARYLAND"
+  }
+}

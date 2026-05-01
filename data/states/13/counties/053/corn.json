@@ -1,0 +1,67 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "053",
+    "name": "CHATTAHOOCHEE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1954": 8.5,
+        "1955": 19.5,
+        "1956": 14.9,
+        "1957": 14.7,
+        "1958": 16.6,
+        "1959": 15.0,
+        "1960": 15.4,
+        "1961": 18.8,
+        "1962": 21.4,
+        "1963": 25.0,
+        "1964": 18.8,
+        "1965": 25.0,
+        "1966": 20.0,
+        "1967": 29.4,
+        "1968": 20.0,
+        "1969": 33.3,
+        "1970": 33.3,
+        "1971": 40.0,
+        "1972": 30.0,
+        "1974": 38.8,
+        "1975": 43.1,
+        "1976": 45.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 30.0,
+        "1974": 31.0,
+        "1975": 37.3,
+        "1976": 37.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

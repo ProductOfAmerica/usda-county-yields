@@ -1,0 +1,59 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "053",
+    "name": "GOGEBIC"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1942": 20.0,
+        "1943": 10.0,
+        "1944": 16.0,
+        "1945": 28.0,
+        "1951": 15.0,
+        "1952": 15.0,
+        "1953": 20.0,
+        "1955": 10.0,
+        "1956": 10.0,
+        "1957": 10.0,
+        "1958": 20.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1951": 15.0,
+        "1952": 15.0,
+        "1953": 20.0,
+        "1955": 10.0,
+        "1956": 10.0,
+        "1957": 10.0,
+        "1958": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "045",
+    "name": "BRISCOE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1968": 29.8,
+        "1969": 34.2,
+        "1970": 28.1,
+        "1971": 25.5,
+        "1972": 27.4,
+        "1973": 37.5,
+        "1974": 24.3,
+        "1975": 22.4,
+        "1976": 29.0,
+        "1977": 32.6,
+        "1978": 28.9,
+        "1979": 33.0,
+        "1980": 31.1,
+        "1981": 29.5,
+        "1982": 23.8,
+        "1992": 35.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "087",
+    "name": "ROANE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1926": 31.0,
+        "1927": 36.0,
+        "1928": 31.0,
+        "1934": 20.0,
+        "1935": 22.0,
+        "1941": 28.0,
+        "1949": 42.0,
+        "1950": 34.2,
+        "1951": 40.0,
+        "1952": 41.7,
+        "1953": 36.6,
+        "1954": 47.1,
+        "1955": 36.3,
+        "1956": 45.0,
+        "1957": 45.9,
+        "1958": 55.5,
+        "1959": 47.6,
+        "1960": 50.0,
+        "1961": 53.4,
+        "1962": 57.5,
+        "1963": 57.2,
+        "1965": 58.9,
+        "1966": 56.6,
+        "1967": 65.0,
+        "1968": 60.0,
+        "1969": 63.0,
+        "1970": 71.5,
+        "1971": 60.5,
+        "1972": 68.5,
+        "1973": 75.0,
+        "1974": 61.4,
+        "1975": 70.5,
+        "1976": 74.0,
+        "1977": 63.5,
+        "1978": 68.0,
+        "1979": 77.0,
+        "1980": 80.3,
+        "1981": 70.6,
+        "1982": 83.1,
+        "1983": 75.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 59.5,
+        "1979": 70.2
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1977": 13.4,
+        "1978": 13.5,
+        "1979": 13.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

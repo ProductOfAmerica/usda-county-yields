@@ -1,0 +1,55 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "085",
+    "name": "LYMAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1983": 20.0,
+        "1984": 19.8,
+        "1986": 15.0,
+        "1997": 37.0,
+        "1998": 37.0,
+        "1999": 30.5,
+        "2000": 20.5,
+        "2001": 36.6,
+        "2002": 15.1,
+        "2003": 18.3,
+        "2004": 25.2,
+        "2005": 52.7,
+        "2008": 43.0,
+        "2009": 60.0,
+        "2010": 51.0,
+        "2011": 39.4,
+        "2012": 25.1,
+        "2015": 52.4,
+        "2016": 39.0,
+        "2018": 37.2,
+        "2020": 39.5,
+        "2021": 29.5,
+        "2022": 25.8,
+        "2023": 37.6,
+        "2024": 33.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  }
+}

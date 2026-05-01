@@ -1,0 +1,80 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "015",
+    "name": "COWLITZ"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1939": 25.0,
+        "1940": 26.0,
+        "1941": 39.0,
+        "1942": 25.0,
+        "1985": 100.0,
+        "2001": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1985": 100.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 18.0,
+        "1975": 18.0,
+        "1976": 17.5,
+        "1977": 15.0,
+        "1978": 18.0,
+        "1979": 18.0,
+        "1980": 20.0,
+        "1981": 17.0,
+        "1982": 22.0,
+        "1983": 21.0,
+        "1984": 20.0,
+        "1985": 19.0,
+        "1986": 21.5,
+        "1987": 18.0,
+        "1988": 20.0,
+        "1989": 21.0,
+        "1990": 22.0,
+        "1991": 24.0,
+        "1992": 21.0,
+        "1993": 20.0,
+        "2001": 25.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

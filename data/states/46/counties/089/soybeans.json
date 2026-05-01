@@ -1,0 +1,57 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "089",
+    "name": "MCPHERSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1992": 17.0,
+        "1993": 13.0,
+        "1994": 30.0,
+        "1998": 27.0,
+        "1999": 33.1,
+        "2000": 31.0,
+        "2001": 26.1,
+        "2002": 20.3,
+        "2003": 18.0,
+        "2004": 26.8,
+        "2005": 31.6,
+        "2006": 16.6,
+        "2007": 36.2,
+        "2008": 26.5,
+        "2009": 33.0,
+        "2010": 29.4,
+        "2011": 33.1,
+        "2012": 31.3,
+        "2013": 27.8,
+        "2017": 31.6,
+        "2018": 30.0,
+        "2019": 36.8,
+        "2020": 37.2,
+        "2021": 19.5,
+        "2022": 33.6,
+        "2023": 45.5,
+        "2024": 36.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "295",
+    "name": "LIPSCOMB"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1968": 87.0,
+        "1969": 82.5,
+        "1970": 90.4,
+        "1971": 95.6,
+        "1972": 101.2,
+        "1973": 96.9,
+        "1974": 100.3,
+        "1975": 127.4,
+        "1976": 136.7,
+        "1977": 97.5,
+        "1978": 102.0,
+        "1979": 107.8,
+        "1994": 120.0,
+        "1995": 102.2,
+        "1996": 187.4,
+        "1997": 209.5,
+        "1998": 182.2,
+        "1999": 177.1,
+        "2000": 169.0,
+        "2001": 182.2,
+        "2002": 203.2,
+        "2003": 198.0,
+        "2004": 195.5,
+        "2005": 182.5,
+        "2006": 179.0,
+        "2007": 198.0,
+        "2021": 174.8
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 85.0,
+        "1979": 107.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

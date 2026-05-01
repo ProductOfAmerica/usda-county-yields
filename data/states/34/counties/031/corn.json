@@ -1,0 +1,46 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "031",
+    "name": "PASSAIC"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1953": 50.0,
+        "1954": 44.0,
+        "1955": 30.0,
+        "1956": 71.0,
+        "1957": 24.0,
+        "1959": 71.0,
+        "1960": 70.0,
+        "1961": 72.0,
+        "1962": 72.0,
+        "1963": 60.0,
+        "1964": 55.0,
+        "1965": 65.0,
+        "1966": 45.0,
+        "1967": 85.0,
+        "1968": 59.0,
+        "1969": 78.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "045",
+    "name": "LOGAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1926": 24.0,
+        "1927": 29.0,
+        "1928": 28.0,
+        "1934": 19.0,
+        "1935": 19.0,
+        "1941": 20.0,
+        "1949": 30.5,
+        "1950": 23.7,
+        "1951": 26.5,
+        "1952": 29.9,
+        "1953": 25.3,
+        "1954": 27.2,
+        "1955": 24.3,
+        "1956": 26.0,
+        "1957": 24.5,
+        "1958": 24.0,
+        "1959": 37.9,
+        "1960": 29.4,
+        "1961": 29.3,
+        "1962": 26.4,
+        "1963": 28.3,
+        "1965": 27.9,
+        "1966": 26.0,
+        "1967": 33.5,
+        "1968": 33.0,
+        "1981": 84.9,
+        "1982": 81.7,
+        "1983": 65.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

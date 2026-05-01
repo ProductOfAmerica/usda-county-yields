@@ -1,0 +1,178 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 45.0,
+        "2003": 60.0,
+        "2004": 30.0,
+        "2005": 0.0,
+        "2006": 40.0,
+        "2007": 91.7
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 60.0,
+        "2003": 60.0,
+        "2004": 38.0,
+        "2005": 0.0,
+        "2006": 40.0,
+        "2007": 95.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 37.5,
+        "2004": 84.0,
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 57.5
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 0.0,
+        "2007": 84.0,
+        "2008": 107.0,
+        "2009": 106.0,
+        "2011": 109.2,
+        "2013": 102.7,
+        "2016": 85.6,
+        "2017": 70.0,
+        "2018": 84.3,
+        "2019": 105.9,
+        "2020": 72.6,
+        "2021": 107.2,
+        "2022": 91.8,
+        "2023": 114.0,
+        "2025": 125.0
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 0.0,
+        "2007": 84.0,
+        "2008": 91.5
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 45.0,
+        "2003": 60.0,
+        "2004": 84.0,
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 94.2,
+        "2008": 90.0,
+        "2009": 53.5,
+        "2010": 75.2,
+        "2011": 109.4,
+        "2012": 79.0,
+        "2013": 71.1,
+        "2014": 50.0,
+        "2015": 69.6,
+        "2016": 86.7,
+        "2017": 68.2,
+        "2018": 74.0,
+        "2019": 61.6,
+        "2020": 55.8,
+        "2021": 79.7,
+        "2022": 68.7,
+        "2023": 77.7,
+        "2025": 81.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 60.0,
+        "2003": 60.0,
+        "2004": 38.0,
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 89.5,
+        "2008": 105.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 37.5,
+        "2004": 30.0,
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 68.0,
+        "2008": 42.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  }
+}

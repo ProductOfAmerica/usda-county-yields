@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "139",
+    "name": "UNION"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 25.0,
+        "1962": 21.0,
+        "1963": 27.0,
+        "1964": 17.0,
+        "1965": 27.0,
+        "1966": 22.0,
+        "1967": 32.0,
+        "1968": 37.0,
+        "1969": 26.0,
+        "1970": 20.0,
+        "1971": 28.0,
+        "1972": 36.0,
+        "1973": 39.0,
+        "1974": 50.0,
+        "1975": 37.6,
+        "1976": 50.8,
+        "1977": 42.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

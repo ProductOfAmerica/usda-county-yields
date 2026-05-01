@@ -1,0 +1,67 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "109",
+    "name": "WYOMING"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1926": 25.0,
+        "1927": 27.0,
+        "1928": 28.0,
+        "1934": 18.0,
+        "1935": 20.0,
+        "1941": 23.0,
+        "1949": 30.4,
+        "1950": 23.1,
+        "1951": 32.0,
+        "1952": 29.5,
+        "1953": 27.2,
+        "1954": 28.7,
+        "1955": 28.6,
+        "1956": 30.0,
+        "1957": 30.6,
+        "1958": 27.2,
+        "1959": 37.3,
+        "1960": 28.3,
+        "1961": 34.4,
+        "1962": 38.0,
+        "1963": 39.8,
+        "1965": 41.9,
+        "1966": 36.0,
+        "1967": 48.5,
+        "1983": 60.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1981": 14.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

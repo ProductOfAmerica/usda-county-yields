@@ -1,0 +1,84 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "061",
+    "name": "JASPER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1953": 17.8,
+        "1954": 20.3,
+        "1955": 30.3,
+        "1956": 29.4,
+        "1957": 25.9,
+        "1958": 31.0,
+        "1959": 31.3,
+        "1960": 20.6,
+        "1961": 40.0,
+        "1962": 18.0,
+        "1963": 28.6,
+        "1964": 36.4,
+        "1965": 32.0,
+        "1966": 34.2,
+        "1967": 35.5,
+        "1968": 31.0,
+        "1969": 29.0,
+        "1970": 27.3,
+        "1971": 37.1,
+        "1972": 38.0,
+        "1973": 41.5,
+        "1974": 41.0,
+        "1975": 43.4,
+        "1976": 45.0,
+        "1977": 29.0,
+        "1978": 53.0,
+        "1979": 47.0,
+        "1980": 25.0,
+        "1981": 42.0,
+        "1982": 42.5,
+        "1984": 64.0,
+        "1985": 52.0,
+        "1986": 60.0,
+        "1987": 66.0,
+        "1988": 52.5,
+        "1989": 70.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 51.6,
+        "1979": 45.3,
+        "1980": 22.2,
+        "1981": 40.3,
+        "1982": 40.2,
+        "1984": 61.5,
+        "1985": 50.1
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MS",
+    "fips": "28",
+    "name": "MISSISSIPPI"
+  }
+}

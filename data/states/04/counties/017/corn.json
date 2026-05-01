@@ -1,0 +1,64 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "017",
+    "name": "NAVAJO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1965": 15.2,
+        "1966": 19.1,
+        "1967": 15.7,
+        "1968": 21.2,
+        "1969": 14.0,
+        "1970": 12.1,
+        "1971": 22.0,
+        "1972": 20.0,
+        "1973": 25.0,
+        "1974": 24.0,
+        "1975": 21.0,
+        "1976": 14.0,
+        "1977": 15.0,
+        "1978": 52.0,
+        "1979": 52.0,
+        "1981": 75.0,
+        "1982": 80.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1977": 14.8,
+        "1978": 50.7,
+        "1979": 51.1,
+        "1980": 65.0,
+        "1981": 75.0,
+        "1982": 80.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AZ",
+    "fips": "04",
+    "name": "ARIZONA"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "169",
+    "name": "STORY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 43.9,
+        "1975": 38.1,
+        "1976": 42.9,
+        "1978": 21.0,
+        "1979": 41.0,
+        "1980": 35.0,
+        "1981": 43.0,
+        "1982": 39.5,
+        "1987": 48.0,
+        "1988": 38.0,
+        "1989": 55.0,
+        "1992": 46.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 43.9,
+        "1975": 38.1,
+        "1976": 42.9,
+        "1978": 21.0,
+        "1979": 41.0,
+        "1980": 35.0,
+        "1981": 43.0,
+        "1982": 39.5,
+        "1987": 48.0,
+        "1988": 38.0,
+        "1989": 55.0,
+        "1992": 46.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  }
+}

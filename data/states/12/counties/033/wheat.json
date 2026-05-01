@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "033",
+    "name": "ESCAMBIA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1961": 24.0,
+        "1962": 27.0,
+        "1963": 25.0,
+        "1964": 25.0,
+        "1965": 26.0,
+        "1966": 29.0,
+        "1967": 23.0,
+        "1968": 28.0,
+        "1969": 28.0,
+        "1970": 33.0,
+        "1971": 33.0,
+        "1972": 14.0,
+        "1973": 24.0,
+        "1974": 19.0,
+        "1975": 27.0,
+        "1976": 32.0,
+        "1977": 31.0,
+        "1978": 38.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 11.4,
+        "1974": 12.6,
+        "1975": 17.1,
+        "1976": 23.0,
+        "1977": 21.5,
+        "1978": 26.5
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1961": 24.0,
+        "1962": 27.0,
+        "1963": 25.0,
+        "1964": 25.0,
+        "1965": 26.0,
+        "1966": 29.0,
+        "1967": 23.0,
+        "1968": 28.0,
+        "1969": 28.0,
+        "1970": 33.0,
+        "1971": 33.0,
+        "1972": 14.0,
+        "1973": 24.0,
+        "1974": 19.0,
+        "1975": 27.0,
+        "1976": 32.0,
+        "1977": 31.0,
+        "1978": 38.0,
+        "2008": 61.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 11.4,
+        "1974": 12.6,
+        "1975": 17.1,
+        "1976": 23.0,
+        "1977": 21.5,
+        "1978": 26.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  }
+}

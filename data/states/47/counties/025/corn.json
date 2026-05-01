@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "025",
+    "name": "CLAIBORNE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1955": 39.0,
+        "1956": 40.0,
+        "1957": 36.0,
+        "1958": 45.6,
+        "1959": 47.0,
+        "1960": 48.5,
+        "1961": 46.0,
+        "1962": 47.0,
+        "1963": 64.0,
+        "1964": 57.0,
+        "1965": 68.0,
+        "1966": 69.0,
+        "1967": 65.0,
+        "1968": 65.0,
+        "1969": 74.0,
+        "1970": 61.0,
+        "1971": 82.0,
+        "1972": 81.0,
+        "1973": 79.0,
+        "1974": 64.0,
+        "1975": 60.0,
+        "1976": 81.0,
+        "1977": 71.0,
+        "1978": 78.0,
+        "1979": 92.0,
+        "1980": 53.0,
+        "1981": 78.0,
+        "1982": 78.0,
+        "1983": 56.0,
+        "1984": 95.0,
+        "1985": 92.0,
+        "1986": 59.0,
+        "1987": 82.0,
+        "1988": 66.0,
+        "1989": 82.0,
+        "1990": 100.0,
+        "1991": 98.0,
+        "1992": 94.0,
+        "2001": 114.0,
+        "2002": 72.0,
+        "2003": 113.0,
+        "2004": 120.0,
+        "2005": 136.0,
+        "2008": 110.0,
+        "2010": 106.0,
+        "2012": 88.6,
+        "2016": 111.4,
+        "2017": 106.7,
+        "2019": 123.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1983": 53.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

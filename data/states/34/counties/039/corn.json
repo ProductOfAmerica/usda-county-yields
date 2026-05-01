@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "039",
+    "name": "UNION"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1953": 48.0,
+        "1954": 42.0,
+        "1955": 27.0,
+        "1956": 69.0,
+        "1957": 23.0,
+        "1959": 70.0,
+        "1960": 71.0,
+        "1961": 72.0,
+        "1962": 73.0,
+        "1969": 77.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "053",
+    "name": "GRANT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 34.0,
+        "1962": 30.0,
+        "1963": 28.0,
+        "1964": 18.0,
+        "1965": 31.0,
+        "1966": 21.0,
+        "1967": 32.0,
+        "1968": 27.0,
+        "1969": 29.0,
+        "1970": 24.0,
+        "1971": 25.0,
+        "1972": 22.0,
+        "1973": 20.3,
+        "1974": 32.0,
+        "1975": 33.1,
+        "1976": 40.9,
+        "1977": 47.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

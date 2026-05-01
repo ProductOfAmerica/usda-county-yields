@@ -1,0 +1,108 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "279",
+    "name": "LAMB"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1968": 26.3,
+        "1969": 29.1,
+        "1970": 24.8,
+        "1971": 21.4,
+        "1972": 28.0,
+        "1973": 30.3,
+        "1974": 20.7,
+        "1975": 25.5,
+        "1976": 35.4,
+        "1977": 35.0,
+        "1978": 37.1,
+        "1979": 26.0,
+        "1980": 31.5,
+        "1981": 35.3,
+        "1982": 34.4,
+        "1983": 28.8,
+        "1984": 45.0,
+        "1985": 39.6,
+        "1986": 45.6,
+        "1987": 44.0,
+        "1988": 37.6,
+        "1989": 36.8,
+        "1990": 47.1,
+        "1991": 46.9,
+        "1992": 33.0,
+        "1993": 35.5,
+        "1994": 45.5,
+        "1995": 31.3,
+        "1996": 43.5,
+        "1997": 45.8,
+        "1998": 44.5,
+        "1999": 35.4,
+        "2000": 36.3,
+        "2003": 28.9,
+        "2004": 42.6,
+        "2005": 60.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1984": 45.0,
+        "1985": 39.6,
+        "1986": 46.1,
+        "1987": 45.2,
+        "1988": 37.6,
+        "1989": 37.7,
+        "1990": 47.1,
+        "1991": 46.9,
+        "1992": 33.1,
+        "1993": 35.5,
+        "1994": 45.5,
+        "1995": 32.9,
+        "1996": 43.9,
+        "1997": 45.8,
+        "1998": 44.5,
+        "1999": 35.4,
+        "2000": 36.3,
+        "2005": 60.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1986": 41.7,
+        "1995": 27.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

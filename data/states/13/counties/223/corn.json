@@ -1,0 +1,87 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "223",
+    "name": "PAULDING"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1954": 9.4,
+        "1955": 26.3,
+        "1956": 18.9,
+        "1957": 19.8,
+        "1958": 23.7,
+        "1959": 22.1,
+        "1960": 20.3,
+        "1961": 22.8,
+        "1962": 24.0,
+        "1963": 31.4,
+        "1964": 29.2,
+        "1965": 33.5,
+        "1966": 34.0,
+        "1967": 40.3,
+        "1968": 37.8,
+        "1969": 34.0,
+        "1970": 35.2,
+        "1971": 41.3,
+        "1972": 33.1,
+        "1973": 34.0,
+        "1974": 44.5,
+        "1975": 40.5,
+        "1976": 44.1,
+        "1977": 20.0,
+        "1978": 29.4,
+        "1979": 44.5,
+        "1980": 40.5,
+        "1982": 48.7,
+        "1983": 44.1,
+        "1984": 84.0,
+        "1985": 79.6,
+        "1986": 46.2,
+        "1991": 90.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 29.6,
+        "1973": 29.1,
+        "1974": 41.0,
+        "1975": 37.6,
+        "1976": 42.9,
+        "1977": 8.2,
+        "1978": 29.4,
+        "1979": 43.2,
+        "1980": 35.6,
+        "1982": 48.7,
+        "1983": 42.0,
+        "1984": 84.0,
+        "1985": 65.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

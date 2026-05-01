@@ -1,0 +1,83 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "053",
+    "name": "POLK"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 50.0,
+        "1957": 59.5,
+        "1958": 51.0,
+        "1959": 45.0,
+        "1960": 51.5,
+        "1961": 50.0,
+        "1962": 60.0,
+        "1963": 60.0,
+        "1964": 55.0,
+        "1965": 60.0,
+        "1966": 65.0,
+        "1967": 70.0,
+        "1968": 60.0,
+        "1969": 68.0,
+        "1975": 75.2,
+        "1976": 85.0,
+        "1977": 75.0,
+        "1978": 70.0,
+        "1979": 75.0,
+        "1982": 90.0,
+        "1985": 120.0,
+        "1986": 130.0,
+        "1987": 130.0,
+        "1988": 130.0,
+        "1989": 140.0,
+        "1990": 133.3,
+        "1991": 121.7,
+        "1992": 135.0,
+        "1999": 0.0,
+        "2002": 0.0,
+        "2003": 0.0,
+        "2004": 0.0,
+        "2006": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 70.0,
+        "1979": 45.0,
+        "1982": 90.0,
+        "1985": 80.0,
+        "1986": 130.0,
+        "1987": 130.0,
+        "1988": 39.0,
+        "1989": 16.8,
+        "1990": 23.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  }
+}

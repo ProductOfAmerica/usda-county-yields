@@ -1,0 +1,45 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "083",
+    "name": "DADE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 27.0,
+        "1979": 29.7,
+        "1980": 16.2,
+        "1981": 36.3,
+        "1982": 24.0,
+        "1983": 19.0,
+        "1984": 22.8,
+        "1985": 31.7,
+        "1986": 27.0,
+        "1987": 22.3,
+        "1988": 26.7,
+        "1989": 31.3,
+        "1990": 20.0,
+        "1991": 22.5,
+        "1992": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

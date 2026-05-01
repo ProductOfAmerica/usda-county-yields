@@ -1,0 +1,95 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "019",
+    "name": "JOHNSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 20.0,
+        "1989": 85.0,
+        "2006": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1984": 14.0,
+        "1986": 7.0,
+        "1987": 13.0,
+        "1988": 11.0,
+        "1989": 12.0,
+        "1990": 12.0,
+        "1991": 16.0,
+        "1992": 15.0,
+        "1993": 14.0,
+        "1994": 18.0,
+        "1995": 14.0,
+        "1997": 15.0,
+        "2006": 15.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 20.0,
+        "1989": 85.0,
+        "2006": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, SILAGE, IRRIGATED - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1984": 14.0,
+        "1986": 7.0,
+        "1987": 13.0,
+        "1988": 11.0,
+        "1989": 12.0,
+        "1990": 1.2,
+        "1991": 16.0,
+        "1992": 15.0,
+        "1993": 14.0,
+        "1994": 18.0,
+        "1995": 14.0,
+        "1997": 15.0,
+        "2006": 15.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WY",
+    "fips": "56",
+    "name": "WYOMING"
+  }
+}

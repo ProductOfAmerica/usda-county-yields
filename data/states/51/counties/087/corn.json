@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "087",
+    "name": "HENRICO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1958": 46.2,
+        "1959": 47.3,
+        "1960": 45.5,
+        "1961": 48.0,
+        "1962": 58.0,
+        "1963": 20.0,
+        "1964": 53.1,
+        "1965": 55.0,
+        "1966": 37.0,
+        "1967": 55.0,
+        "1968": 60.0,
+        "1969": 71.0,
+        "1970": 50.0,
+        "1971": 65.0,
+        "1972": 78.0,
+        "1973": 78.0,
+        "1974": 69.0,
+        "1975": 78.0,
+        "1976": 49.0,
+        "1977": 43.0,
+        "1978": 76.0,
+        "1979": 72.0,
+        "1980": 32.0,
+        "1981": 90.0,
+        "1982": 113.0,
+        "1983": 36.5,
+        "1984": 112.0,
+        "1985": 95.0,
+        "1986": 46.0,
+        "1987": 65.0,
+        "1988": 78.0,
+        "1989": 123.0,
+        "1990": 81.0,
+        "1991": 79.0,
+        "1992": 133.0,
+        "1994": 83.0,
+        "1995": 104.0,
+        "1996": 119.0,
+        "1997": 68.0,
+        "1998": 60.0,
+        "1999": 85.0,
+        "2000": 149.0,
+        "2001": 90.0,
+        "2002": 56.0,
+        "2003": 128.0,
+        "2004": 135.0,
+        "2005": 84.0,
+        "2006": 115.0,
+        "2007": 125.0,
+        "2011": 148.8
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1976": 49.0,
+        "1981": 90.0,
+        "1982": 113.0,
+        "1983": 35.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1975": 13.5,
+        "1977": 9.0,
+        "1981": 13.0,
+        "1982": 15.0,
+        "1983": 9.0,
+        "1999": 8.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  }
+}

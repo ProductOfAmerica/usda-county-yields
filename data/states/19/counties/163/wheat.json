@@ -1,0 +1,87 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "163",
+    "name": "SCOTT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 33.5,
+        "1975": 40.9,
+        "1976": 43.0,
+        "1977": 27.9,
+        "1978": 30.0,
+        "1979": 44.0,
+        "1980": 36.5,
+        "1981": 49.0,
+        "1982": 39.5,
+        "1983": 46.0,
+        "1984": 48.0,
+        "1985": 61.0,
+        "1987": 48.0,
+        "1988": 45.0,
+        "1989": 62.0,
+        "1990": 52.7,
+        "1991": 35.3,
+        "1992": 36.8,
+        "1993": 24.0,
+        "1994": 55.0,
+        "1995": 49.2,
+        "1996": 36.7,
+        "1997": 47.6
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 33.5,
+        "1975": 40.9,
+        "1976": 43.0,
+        "1977": 27.9,
+        "1978": 30.0,
+        "1979": 44.0,
+        "1980": 36.5,
+        "1981": 49.0,
+        "1982": 39.5,
+        "1983": 46.0,
+        "1984": 48.0,
+        "1985": 61.0,
+        "1987": 48.0,
+        "1988": 45.0,
+        "1989": 62.0,
+        "1990": 52.7,
+        "1991": 35.3,
+        "1992": 36.8,
+        "1993": 24.0,
+        "1994": 55.0,
+        "1995": 49.2,
+        "1996": 36.7,
+        "1997": 47.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  }
+}

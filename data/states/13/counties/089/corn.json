@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "089",
+    "name": "DE KALB"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1954": 14.6,
+        "1955": 26.3,
+        "1956": 24.0,
+        "1957": 20.4,
+        "1958": 27.1,
+        "1959": 26.7,
+        "1960": 21.8,
+        "1961": 27.6,
+        "1962": 32.0,
+        "1963": 45.2,
+        "1964": 54.0,
+        "1965": 51.9,
+        "1966": 44.4,
+        "1967": 53.2,
+        "1968": 52.3,
+        "1969": 25.0,
+        "1970": 25.0,
+        "1971": 52.6,
+        "1972": 40.0,
+        "1973": 45.5,
+        "1974": 46.5,
+        "1975": 52.4,
+        "1976": 48.8,
+        "1978": 40.0,
+        "1979": 51.3,
+        "1981": 25.8
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 26.7,
+        "1973": 33.3,
+        "1974": 37.2,
+        "1975": 44.5,
+        "1976": 39.0,
+        "1978": 40.0,
+        "1979": 48.1,
+        "1981": 24.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

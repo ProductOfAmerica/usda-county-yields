@@ -1,0 +1,63 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "005",
+    "name": "BOONE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1934": 7.0,
+        "1935": 14.0,
+        "1949": 18.0,
+        "1950": 17.0,
+        "1951": 17.5,
+        "1952": 17.5,
+        "1953": 18.3,
+        "1954": 19.5,
+        "1955": 19.0,
+        "1956": 19.0,
+        "1957": 18.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1934": 7.0,
+        "1935": 14.0,
+        "1949": 18.0,
+        "1950": 17.0,
+        "1951": 17.5,
+        "1952": 17.5,
+        "1953": 18.3,
+        "1954": 19.5,
+        "1955": 19.0,
+        "1956": 19.0,
+        "1957": 18.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

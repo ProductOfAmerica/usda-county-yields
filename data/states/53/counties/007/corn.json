@@ -1,0 +1,53 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "007",
+    "name": "CHELAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1939": 16.0,
+        "1940": 31.3,
+        "1941": 25.4,
+        "1942": 24.0,
+        "1943": 19.0,
+        "1944": 29.0,
+        "1945": 33.9,
+        "1946": 36.4,
+        "1947": 36.0,
+        "1948": 34.0,
+        "1949": 24.0,
+        "1950": 32.9,
+        "1951": 24.4,
+        "1952": 38.0,
+        "1953": 34.0,
+        "1954": 33.0,
+        "1955": 45.0,
+        "1956": 55.0,
+        "1964": 70.0,
+        "1965": 65.0,
+        "1966": 78.0,
+        "1967": 68.0,
+        "1968": 75.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

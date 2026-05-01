@@ -1,0 +1,49 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "317",
+    "name": "WILKES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1966": 28.0,
+        "1967": 29.0,
+        "1968": 25.0,
+        "1973": 21.5,
+        "1974": 25.4,
+        "1975": 20.0,
+        "1976": 20.5,
+        "1977": 17.0,
+        "1978": 20.0,
+        "1979": 27.1,
+        "1980": 14.5,
+        "1981": 18.7,
+        "1982": 25.9,
+        "1983": 17.9,
+        "1984": 15.8,
+        "1985": 21.8,
+        "1986": 15.0,
+        "1991": 27.0,
+        "1992": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

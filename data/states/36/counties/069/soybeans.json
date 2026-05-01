@@ -1,0 +1,55 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "069",
+    "name": "ONTARIO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 33.0,
+        "2001": 31.0,
+        "2002": 31.0,
+        "2003": 37.0,
+        "2004": 39.0,
+        "2005": 44.0,
+        "2006": 49.0,
+        "2007": 40.0,
+        "2008": 48.5,
+        "2009": 46.5,
+        "2010": 49.4,
+        "2011": 44.2,
+        "2012": 45.1,
+        "2013": 50.7,
+        "2014": 45.3,
+        "2015": 45.8,
+        "2016": 31.0,
+        "2017": 46.0,
+        "2018": 53.6,
+        "2019": 50.0,
+        "2020": 51.3,
+        "2021": 57.4,
+        "2022": 46.7,
+        "2023": 50.1,
+        "2024": 55.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

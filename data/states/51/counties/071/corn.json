@@ -1,0 +1,86 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "071",
+    "name": "GILES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1958": 55.0,
+        "1959": 38.2,
+        "1960": 48.5,
+        "1961": 54.0,
+        "1962": 60.0,
+        "1963": 42.0,
+        "1964": 57.8,
+        "1965": 75.0,
+        "1966": 41.0,
+        "1967": 62.0,
+        "1968": 64.0,
+        "1969": 64.4,
+        "1970": 71.0,
+        "1971": 68.0,
+        "1972": 72.0,
+        "1973": 77.0,
+        "1974": 87.0,
+        "1975": 87.0,
+        "1976": 77.0,
+        "1977": 71.0,
+        "1978": 86.0,
+        "1979": 90.0,
+        "1980": 98.5,
+        "1981": 91.0,
+        "1982": 90.0,
+        "1999": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1976": 77.0,
+        "1981": 91.0,
+        "1982": 90.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1978": 15.0,
+        "1984": 16.0,
+        "1985": 15.0,
+        "1986": 11.0,
+        "1987": 9.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  }
+}

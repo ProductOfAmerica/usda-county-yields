@@ -1,0 +1,99 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "303",
+    "name": "LUBBOCK"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1968": 25.0,
+        "1969": 31.7,
+        "1970": 27.3,
+        "1971": 25.2,
+        "1972": 24.3,
+        "1973": 31.0,
+        "1974": 30.2,
+        "1975": 23.6,
+        "1976": 28.3,
+        "1977": 38.0,
+        "1978": 25.0,
+        "1979": 34.1,
+        "1980": 30.8,
+        "1981": 42.1,
+        "1982": 28.8,
+        "1983": 18.7,
+        "1985": 30.7,
+        "1986": 31.1,
+        "1988": 26.4,
+        "1989": 29.0,
+        "1991": 32.1,
+        "1992": 31.7,
+        "1993": 31.5,
+        "1995": 29.5,
+        "1996": 27.6,
+        "1997": 23.8,
+        "1998": 14.9,
+        "1999": 21.9,
+        "2000": 34.6,
+        "2001": 26.0,
+        "2002": 23.8,
+        "2003": 29.1
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1985": 30.7,
+        "1986": 32.1,
+        "1989": 30.2,
+        "1991": 33.2,
+        "1992": 32.4,
+        "1993": 31.5,
+        "1996": 27.6,
+        "1997": 24.3,
+        "1998": 15.0,
+        "1999": 30.2,
+        "2000": 34.6
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1989": 20.0,
+        "1992": 22.2,
+        "1995": 28.7,
+        "1999": 18.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

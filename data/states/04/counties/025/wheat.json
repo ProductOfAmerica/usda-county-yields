@@ -1,0 +1,167 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "025",
+    "name": "YAVAPAI"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1965": 20.0,
+        "1967": 8.3,
+        "1968": 14.6,
+        "1969": 15.8,
+        "1970": 22.5,
+        "1973": 42.0,
+        "1974": 41.0,
+        "1975": 51.0,
+        "1976": 54.3,
+        "1977": 50.0,
+        "1978": 38.0,
+        "1979": 50.0,
+        "1980": 40.0,
+        "1981": 40.0,
+        "1982": 39.2,
+        "1983": 45.0,
+        "1984": 45.0,
+        "1985": 50.0,
+        "1986": 50.0,
+        "1987": 33.2,
+        "1988": 36.3,
+        "1989": 33.0,
+        "1990": 56.7,
+        "1992": 48.1,
+        "1993": 52.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 10.5,
+        "1974": 24.6,
+        "1975": 34.0,
+        "1976": 47.5,
+        "1977": 42.9,
+        "1978": 38.0,
+        "1979": 35.0,
+        "1980": 36.0,
+        "1981": 30.0,
+        "1982": 35.6,
+        "1983": 41.3,
+        "1984": 40.5,
+        "1985": 41.7,
+        "1986": 33.3,
+        "1987": 20.8
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1976": 50.0,
+        "1993": 70.0
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1976": 50.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1965": 20.0,
+        "1967": 8.3,
+        "1968": 14.6,
+        "1969": 15.8,
+        "1970": 22.5,
+        "1973": 42.0,
+        "1974": 41.0,
+        "1975": 51.0,
+        "1976": 55.0,
+        "1977": 50.0,
+        "1978": 38.0,
+        "1979": 50.0,
+        "1980": 40.0,
+        "1981": 40.0,
+        "1982": 39.2,
+        "1983": 45.0,
+        "1984": 45.0,
+        "1985": 50.0,
+        "1986": 50.0,
+        "1987": 33.2,
+        "1988": 36.3,
+        "1990": 50.0,
+        "1992": 45.0,
+        "1993": 50.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 10.5,
+        "1974": 24.6,
+        "1975": 34.0,
+        "1976": 47.1,
+        "1977": 42.9,
+        "1978": 38.0,
+        "1979": 35.0,
+        "1980": 36.0,
+        "1981": 30.0,
+        "1982": 35.6,
+        "1983": 41.3,
+        "1984": 40.5,
+        "1985": 41.7,
+        "1986": 33.3,
+        "1987": 20.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AZ",
+    "fips": "04",
+    "name": "ARIZONA"
+  }
+}

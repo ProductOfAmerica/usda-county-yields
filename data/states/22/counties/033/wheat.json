@@ -1,0 +1,119 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "033",
+    "name": "EAST BATON ROUGE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0,
+        "1974": 20.0,
+        "1977": 34.0,
+        "1980": 26.0,
+        "1981": 36.0,
+        "1982": 33.3,
+        "1983": 34.4,
+        "1984": 38.3,
+        "1985": 34.1,
+        "1986": 31.0,
+        "1987": 46.2,
+        "1988": 32.2,
+        "1989": 39.4,
+        "1990": 32.7,
+        "1991": 15.0,
+        "1992": 32.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 3.3,
+        "1977": 26.4,
+        "1980": 17.3,
+        "1981": 30.0,
+        "1982": 30.0,
+        "1983": 22.9,
+        "1984": 32.6,
+        "1985": 29.0,
+        "1986": 22.8,
+        "1987": 30.0,
+        "1988": 18.1,
+        "1989": 24.2
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0,
+        "1974": 20.0,
+        "1977": 34.0,
+        "1980": 26.0,
+        "1981": 36.0,
+        "1982": 33.3,
+        "1983": 34.4,
+        "1984": 38.3,
+        "1985": 34.1,
+        "1986": 31.0,
+        "1987": 46.2,
+        "1988": 32.2,
+        "1989": 39.4,
+        "1990": 32.7,
+        "1991": 15.0,
+        "1992": 32.3
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 3.3,
+        "1977": 26.4,
+        "1980": 17.3,
+        "1981": 30.0,
+        "1982": 30.0,
+        "1983": 22.9,
+        "1984": 32.6,
+        "1985": 29.0,
+        "1986": 22.8,
+        "1987": 30.0,
+        "1988": 18.1,
+        "1989": 24.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

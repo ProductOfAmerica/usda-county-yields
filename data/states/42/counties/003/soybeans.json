@@ -1,0 +1,42 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "003",
+    "name": "ALLEGHENY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1983": 26.0,
+        "1984": 30.0,
+        "1985": 29.0,
+        "1986": 30.0,
+        "1987": 33.0,
+        "1988": 30.0,
+        "1989": 30.0,
+        "1990": 32.0,
+        "2002": 20.0,
+        "2003": 42.0,
+        "2004": 37.0,
+        "2021": 47.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  }
+}

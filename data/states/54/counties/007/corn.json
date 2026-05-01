@@ -1,0 +1,105 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "007",
+    "name": "BRAXTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1926": 37.0,
+        "1927": 32.0,
+        "1928": 38.0,
+        "1934": 24.0,
+        "1935": 24.0,
+        "1941": 34.0,
+        "1949": 52.3,
+        "1950": 43.3,
+        "1951": 46.4,
+        "1952": 44.8,
+        "1953": 45.9,
+        "1954": 59.1,
+        "1955": 48.6,
+        "1956": 47.9,
+        "1957": 51.0,
+        "1958": 57.5,
+        "1959": 50.8,
+        "1960": 55.4,
+        "1961": 64.6,
+        "1962": 56.0,
+        "1963": 62.6,
+        "1965": 53.9,
+        "1966": 49.2,
+        "1967": 54.5,
+        "1968": 55.5,
+        "1969": 66.5,
+        "1970": 78.0,
+        "1971": 81.0,
+        "1972": 78.2,
+        "1973": 90.0,
+        "1974": 82.9,
+        "1975": 87.0,
+        "1976": 88.5,
+        "1977": 77.0,
+        "1978": 81.5,
+        "1979": 94.0,
+        "1980": 81.7,
+        "1981": 85.5,
+        "1983": 70.0,
+        "1984": 75.5,
+        "1985": 113.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 75.9,
+        "1979": 81.9,
+        "1984": 67.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1975": 18.0,
+        "1976": 17.3,
+        "1977": 14.8,
+        "1978": 14.2,
+        "1980": 9.2,
+        "1981": 9.1,
+        "1983": 9.4,
+        "1984": 11.5,
+        "1985": 12.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

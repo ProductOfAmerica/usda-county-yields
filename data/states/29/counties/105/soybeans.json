@@ -1,0 +1,89 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "105",
+    "name": "LACLEDE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 15.0,
+        "1945": 11.0,
+        "1946": 13.5,
+        "1951": 12.0,
+        "1952": 13.0,
+        "1953": 11.0,
+        "1956": 16.0,
+        "1957": 18.0,
+        "1958": 22.0,
+        "1959": 14.0,
+        "1960": 12.0,
+        "1962": 16.0,
+        "1964": 19.0,
+        "1965": 22.0,
+        "1966": 19.0,
+        "1967": 22.0,
+        "1968": 25.0,
+        "1969": 30.0,
+        "1970": 22.0,
+        "1971": 25.0,
+        "1972": 25.0,
+        "1973": 22.0,
+        "1974": 20.0,
+        "1975": 24.8,
+        "1976": 14.0,
+        "1977": 26.3,
+        "1978": 30.2,
+        "1979": 25.1,
+        "1980": 14.9,
+        "1981": 19.7,
+        "1982": 24.6,
+        "1983": 15.3,
+        "1984": 15.4,
+        "1985": 23.5,
+        "1986": 22.5,
+        "2004": 44.0,
+        "2005": 28.0,
+        "2009": 40.5,
+        "2010": 41.9,
+        "2011": 31.6,
+        "2012": 22.5,
+        "2013": 34.5,
+        "2014": 29.4,
+        "2015": 32.5,
+        "2017": 40.7,
+        "2018": 28.9,
+        "2024": 50.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 30.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MO",
+    "fips": "29",
+    "name": "MISSOURI"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "127",
+    "name": "WAYNE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1953": 21.0,
+        "1954": 22.5,
+        "1956": 21.4,
+        "1957": 24.3,
+        "1958": 25.0,
+        "1959": 18.0,
+        "1960": 28.0,
+        "1961": 35.0,
+        "1963": 25.0,
+        "1964": 26.0,
+        "1965": 25.0,
+        "1966": 25.0,
+        "1967": 30.0,
+        "1968": 30.0,
+        "1969": 27.0,
+        "1970": 25.0,
+        "1971": 28.0,
+        "1972": 24.0,
+        "1973": 24.0,
+        "1974": 34.0,
+        "1987": 45.0,
+        "1988": 48.0,
+        "1989": 30.0,
+        "1990": 45.0,
+        "1991": 34.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 20.0,
+        "1974": 34.0,
+        "1987": 45.0,
+        "1988": 48.0,
+        "1989": 30.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1953": 21.0,
+        "1954": 22.5,
+        "1956": 21.4,
+        "1957": 24.3,
+        "1958": 25.0,
+        "1959": 18.0,
+        "1960": 28.0,
+        "1961": 35.0,
+        "1963": 25.0,
+        "1964": 26.0,
+        "1965": 25.0,
+        "1966": 25.0,
+        "1967": 30.0,
+        "1968": 30.0,
+        "1969": 27.0,
+        "1970": 25.0,
+        "1971": 28.0,
+        "1972": 24.0,
+        "1973": 24.0,
+        "1974": 34.0,
+        "1987": 45.0,
+        "1988": 48.0,
+        "1989": 30.0,
+        "1990": 45.0,
+        "1991": 34.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 20.0,
+        "1974": 34.0,
+        "1987": 45.0,
+        "1988": 48.0,
+        "1989": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  }
+}

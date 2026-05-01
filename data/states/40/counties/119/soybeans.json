@@ -1,0 +1,60 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "119",
+    "name": "PAYNE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1967": 10.0,
+        "1968": 19.0,
+        "1973": 24.0,
+        "1974": 25.0,
+        "1976": 16.7,
+        "1977": 17.5,
+        "1978": 15.6,
+        "1979": 20.0,
+        "1980": 11.4,
+        "1981": 21.7,
+        "1982": 18.8,
+        "1996": 30.0,
+        "1997": 29.5,
+        "1998": 13.6,
+        "1999": 20.7,
+        "2000": 22.1,
+        "2001": 15.0,
+        "2002": 17.8,
+        "2003": 25.0,
+        "2005": 28.3,
+        "2010": 19.0,
+        "2011": 6.2,
+        "2013": 28.2,
+        "2014": 17.6,
+        "2015": 18.9,
+        "2016": 25.9,
+        "2017": 37.9,
+        "2018": 26.3,
+        "2020": 33.5,
+        "2021": 22.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

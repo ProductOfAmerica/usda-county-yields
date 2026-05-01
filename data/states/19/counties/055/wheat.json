@@ -1,0 +1,81 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "055",
+    "name": "DELAWARE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 38.0,
+        "1975": 38.2,
+        "1976": 39.3,
+        "1980": 45.0,
+        "1981": 49.0,
+        "1982": 39.5,
+        "1983": 44.7,
+        "1984": 43.0,
+        "1985": 55.0,
+        "1987": 35.6,
+        "1988": 38.7,
+        "1989": 44.4,
+        "1990": 52.0,
+        "1991": 39.0,
+        "1992": 42.0,
+        "1994": 54.0,
+        "1995": 31.3,
+        "1996": 34.5,
+        "1997": 59.2,
+        "2004": 57.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 38.0,
+        "1975": 38.2,
+        "1976": 39.3,
+        "1980": 45.0,
+        "1981": 49.0,
+        "1982": 39.5,
+        "1983": 44.7,
+        "1984": 43.0,
+        "1985": 55.0,
+        "1987": 35.6,
+        "1988": 38.7,
+        "1989": 44.4,
+        "1990": 52.0,
+        "1991": 39.0,
+        "1992": 42.0,
+        "1994": 54.0,
+        "1995": 31.3,
+        "1996": 34.5,
+        "1997": 59.2,
+        "2004": 57.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "013",
+    "name": "BELMONT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1940": 20.0,
+        "1941": 15.0,
+        "1948": 20.0,
+        "1949": 20.0,
+        "1950": 20.0,
+        "1951": 20.0,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 20.0,
+        "1955": 20.0,
+        "1956": 20.0,
+        "1957": 20.0,
+        "1958": 20.0,
+        "1959": 20.0,
+        "1961": 21.0,
+        "1962": 23.0,
+        "1963": 22.0,
+        "1964": 28.0,
+        "1965": 23.0,
+        "1966": 26.0,
+        "1973": 22.0,
+        "2022": 45.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OH",
+    "fips": "39",
+    "name": "OHIO"
+  }
+}

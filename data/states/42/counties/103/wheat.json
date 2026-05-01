@@ -1,0 +1,99 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "103",
+    "name": "PIKE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1953": 24.3,
+        "1954": 25.0,
+        "1956": 21.0,
+        "1957": 22.0,
+        "1958": 25.0,
+        "1959": 20.0,
+        "1960": 25.0,
+        "1961": 30.0,
+        "1963": 30.0,
+        "1964": 30.0,
+        "1965": 30.0,
+        "1966": 30.0,
+        "1967": 30.0,
+        "1968": 30.0,
+        "1969": 30.0,
+        "1970": 30.0,
+        "1974": 30.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 30.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1953": 24.3,
+        "1954": 25.0,
+        "1956": 21.0,
+        "1957": 22.0,
+        "1958": 25.0,
+        "1959": 20.0,
+        "1960": 25.0,
+        "1961": 30.0,
+        "1963": 30.0,
+        "1964": 30.0,
+        "1965": 30.0,
+        "1966": 30.0,
+        "1967": 30.0,
+        "1968": 30.0,
+        "1969": 30.0,
+        "1970": 30.0,
+        "1974": 30.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  }
+}

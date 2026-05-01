@@ -1,0 +1,41 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "017",
+    "name": "CHENANGO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2003": 27.0,
+        "2004": 43.0,
+        "2005": 35.0,
+        "2006": 47.0,
+        "2008": 52.5,
+        "2010": 41.2,
+        "2012": 47.4,
+        "2013": 47.2,
+        "2014": 45.5,
+        "2016": 49.2,
+        "2024": 39.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "057",
+    "name": "HEMPSTEAD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 32.0,
+        "1962": 26.0,
+        "1963": 30.0,
+        "1964": 20.0,
+        "1965": 32.0,
+        "1966": 27.0,
+        "1967": 33.0,
+        "1968": 32.0,
+        "1969": 27.0,
+        "1970": 25.0,
+        "1971": 32.0,
+        "1972": 42.9,
+        "1973": 45.5,
+        "1974": 42.5,
+        "1975": 52.7,
+        "1976": 51.6,
+        "1977": 46.0,
+        "1980": 25.0,
+        "1983": 68.0,
+        "1984": 90.0,
+        "1985": 100.0,
+        "1986": 90.0,
+        "1987": 85.0,
+        "1988": 65.0,
+        "1991": 92.5,
+        "1992": 122.2,
+        "1993": 50.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1980": 20.0,
+        "1983": 67.7,
+        "1984": 87.0,
+        "1985": 100.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "119",
+    "name": "WEBSTER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 25.0,
+        "1976": 23.3,
+        "1977": 20.0,
+        "1978": 25.6,
+        "1979": 30.0,
+        "1980": 12.5,
+        "1981": 22.2,
+        "1982": 20.0,
+        "1983": 23.7,
+        "1984": 25.0,
+        "1985": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "039",
+    "name": "CRAWFORD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1942": 29.3,
+        "1943": 26.7,
+        "1944": 24.4,
+        "1945": 20.2,
+        "1946": 21.3,
+        "1947": 26.0,
+        "1948": 30.3,
+        "1949": 33.0,
+        "1950": 28.3,
+        "1951": 26.3,
+        "1952": 36.0,
+        "1953": 31.0,
+        "1954": 26.7,
+        "1955": 25.0,
+        "1956": 26.5,
+        "1957": 60.0,
+        "1958": 35.0,
+        "1964": 60.0,
+        "1972": 61.0,
+        "1974": 57.0,
+        "1981": 80.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 61.0,
+        "1974": 57.0,
+        "1981": 80.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1975": 13.3,
+        "1976": 11.7,
+        "1977": 13.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

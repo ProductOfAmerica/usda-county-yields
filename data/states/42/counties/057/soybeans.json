@@ -1,0 +1,61 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "057",
+    "name": "FULTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1983": 18.0,
+        "1984": 30.0,
+        "1985": 30.0,
+        "1986": 28.0,
+        "1987": 31.0,
+        "1988": 29.0,
+        "1989": 32.0,
+        "1990": 34.0,
+        "1991": 28.0,
+        "1992": 36.0,
+        "1993": 32.0,
+        "1994": 37.0,
+        "2002": 14.0,
+        "2003": 40.0,
+        "2004": 45.0,
+        "2005": 40.0,
+        "2006": 37.8,
+        "2009": 28.0,
+        "2010": 25.6,
+        "2011": 39.0,
+        "2012": 34.1,
+        "2013": 42.1,
+        "2014": 36.8,
+        "2015": 29.2,
+        "2016": 26.5,
+        "2017": 44.8,
+        "2019": 45.6,
+        "2020": 49.1,
+        "2021": 54.9,
+        "2023": 40.5,
+        "2024": 41.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  }
+}

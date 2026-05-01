@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "009",
+    "name": "AUDUBON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 31.5,
+        "1975": 34.3,
+        "1976": 34.0,
+        "1977": 30.9,
+        "1978": 32.0,
+        "1979": 34.5,
+        "1980": 36.0,
+        "1981": 49.0,
+        "1982": 31.0,
+        "1983": 45.0,
+        "1984": 32.0,
+        "1985": 45.1,
+        "1986": 32.0,
+        "1987": 45.3,
+        "1990": 35.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 31.5,
+        "1975": 34.3,
+        "1976": 34.0,
+        "1977": 30.9,
+        "1978": 32.0,
+        "1979": 34.5,
+        "1980": 36.0,
+        "1981": 49.0,
+        "1982": 31.0,
+        "1983": 45.0,
+        "1984": 32.0,
+        "1985": 45.1,
+        "1986": 32.0,
+        "1987": 45.3,
+        "1990": 35.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  }
+}

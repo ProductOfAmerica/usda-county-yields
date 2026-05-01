@@ -1,0 +1,107 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1977": 35.6,
+        "2001": 33.0,
+        "2002": 24.0,
+        "2003": 40.0,
+        "2004": 29.0,
+        "2005": 31.0,
+        "2006": 25.0,
+        "2007": 25.0,
+        "2008": 44.0,
+        "2009": 54.5,
+        "2010": 46.9,
+        "2011": 41.3,
+        "2012": 28.1,
+        "2013": 41.6,
+        "2014": 48.5,
+        "2015": 63.9,
+        "2016": 41.3,
+        "2017": 42.5,
+        "2018": 49.4,
+        "2019": 49.8,
+        "2020": 42.6,
+        "2021": 39.4,
+        "2022": 34.5,
+        "2023": 33.2,
+        "2024": 39.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1996": 34.0,
+        "1999": 39.0,
+        "2000": 37.0,
+        "2001": 34.0,
+        "2002": 32.0,
+        "2003": 49.0,
+        "2004": 42.0,
+        "2005": 52.0,
+        "2006": 47.0,
+        "2007": 52.0,
+        "2008": 50.0,
+        "2009": 58.0,
+        "2014": 55.2,
+        "2015": 57.8,
+        "2016": 68.9
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1996": 29.0,
+        "1999": 32.0,
+        "2000": 11.0,
+        "2001": 20.0,
+        "2002": 22.0,
+        "2003": 16.0,
+        "2004": 38.0,
+        "2005": 25.0,
+        "2006": 20.0,
+        "2007": 19.0,
+        "2008": 29.5,
+        "2009": 40.0,
+        "2014": 31.8,
+        "2015": 30.9,
+        "2016": 46.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "KS",
+    "fips": "20",
+    "name": "KANSAS"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "023",
+    "name": "COLUMBIA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1976": 20.0,
+        "1977": 19.0,
+        "1978": 19.0,
+        "1979": 25.0,
+        "1980": 23.0,
+        "1981": 25.0,
+        "1982": 31.0,
+        "1983": 24.0,
+        "1984": 24.0,
+        "1985": 26.0,
+        "1986": 24.0,
+        "1987": 25.0,
+        "1988": 29.0,
+        "1989": 26.0,
+        "1990": 13.8,
+        "1991": 30.0,
+        "1992": 25.0,
+        "1993": 23.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  }
+}

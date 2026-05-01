@@ -1,0 +1,68 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "085",
+    "name": "SABINE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 27.5,
+        "1960": 23.1,
+        "1961": 28.0,
+        "1962": 21.5,
+        "1963": 26.4,
+        "1964": 25.3,
+        "1965": 25.8,
+        "1966": 23.0,
+        "1967": 30.0,
+        "1972": 45.0,
+        "1973": 35.0,
+        "1974": 50.0,
+        "1975": 40.0,
+        "1976": 40.0,
+        "1977": 50.0,
+        "1978": 35.0,
+        "1979": 40.0,
+        "1980": 25.0,
+        "1981": 50.0,
+        "1983": 40.0,
+        "1984": 60.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 35.0,
+        "1979": 40.0,
+        "1980": 16.7,
+        "1981": 50.0,
+        "1983": 40.0,
+        "1984": 60.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

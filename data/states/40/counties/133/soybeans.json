@@ -1,0 +1,54 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "133",
+    "name": "SEMINOLE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1967": 24.0,
+        "1968": 26.0,
+        "1969": 16.0,
+        "1970": 18.0,
+        "1971": 25.0,
+        "1973": 18.8,
+        "1974": 24.0,
+        "1975": 20.8,
+        "1976": 17.5,
+        "1977": 18.0,
+        "1978": 11.3,
+        "1979": 21.2,
+        "1980": 11.5,
+        "1981": 22.0,
+        "1982": 22.1,
+        "1988": 10.0,
+        "1989": 20.0,
+        "1990": 20.0,
+        "1991": 26.7,
+        "1996": 32.0,
+        "1997": 26.7,
+        "1998": 14.0,
+        "1999": 10.0,
+        "2001": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

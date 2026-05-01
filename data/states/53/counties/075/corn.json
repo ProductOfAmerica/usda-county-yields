@@ -1,0 +1,46 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "075",
+    "name": "WHITMAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1939": 20.0,
+        "1940": 25.0,
+        "1941": 29.0,
+        "1942": 20.0,
+        "1944": 39.0,
+        "1945": 39.0,
+        "1946": 43.0,
+        "1947": 43.0,
+        "1948": 42.0,
+        "1949": 41.0,
+        "1950": 47.5,
+        "1951": 47.0,
+        "1952": 53.3,
+        "1953": 50.5,
+        "1954": 49.0,
+        "1969": 89.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

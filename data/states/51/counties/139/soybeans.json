@@ -1,0 +1,57 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "139",
+    "name": "PAGE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1943": 8.0,
+        "1944": 13.0,
+        "1947": 12.0,
+        "1960": 16.0,
+        "1961": 16.7,
+        "1985": 22.0,
+        "1997": 37.0,
+        "1998": 16.0,
+        "2004": 50.0,
+        "2005": 38.0,
+        "2006": 33.0,
+        "2007": 37.0,
+        "2009": 35.0,
+        "2010": 41.7,
+        "2011": 35.0,
+        "2012": 47.9,
+        "2013": 49.6,
+        "2014": 42.0,
+        "2015": 32.6,
+        "2016": 35.0,
+        "2017": 37.4,
+        "2018": 42.1,
+        "2019": 40.0,
+        "2020": 47.5,
+        "2021": 43.5,
+        "2022": 51.1,
+        "2023": 19.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  }
+}

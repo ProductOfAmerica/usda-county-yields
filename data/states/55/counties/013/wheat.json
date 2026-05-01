@@ -1,0 +1,171 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "013",
+    "name": "BURNETT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1966": 26.0,
+        "1967": 20.0,
+        "1968": 22.0,
+        "1969": 29.0,
+        "1975": 28.0,
+        "1976": 24.0,
+        "1977": 32.0,
+        "1978": 28.0,
+        "1979": 32.0,
+        "1980": 26.3,
+        "1981": 26.7,
+        "1982": 38.0,
+        "1983": 30.0,
+        "1985": 35.7,
+        "1986": 29.0,
+        "1987": 23.0,
+        "1988": 30.0,
+        "1989": 45.0,
+        "1990": 34.0,
+        "1991": 26.0,
+        "1992": 34.0,
+        "1993": 28.7,
+        "1994": 26.0,
+        "2002": 51.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 28.0,
+        "1976": 24.0,
+        "1977": 32.0,
+        "1978": 28.0,
+        "1979": 32.0,
+        "1980": 26.3,
+        "1981": 22.9,
+        "1982": 38.0,
+        "1983": 30.0,
+        "1986": 14.5,
+        "1987": 15.3,
+        "1988": 30.0,
+        "1989": 45.0,
+        "1990": 34.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1966": 26.0,
+        "1967": 20.0,
+        "1968": 22.0,
+        "1975": 26.0,
+        "1976": 22.7,
+        "1977": 28.0,
+        "1980": 24.5,
+        "1981": 26.4,
+        "1987": 20.0,
+        "1992": 42.0,
+        "1993": 30.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 26.0,
+        "1976": 22.7,
+        "1977": 28.0,
+        "1980": 24.5,
+        "1981": 22.0,
+        "1987": 20.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1969": 29.0,
+        "1975": 30.0,
+        "1976": 28.0,
+        "1977": 34.7,
+        "1978": 28.0,
+        "1979": 32.0,
+        "1980": 30.0,
+        "1981": 28.0,
+        "1985": 34.0,
+        "1986": 29.0,
+        "1987": 26.0,
+        "1988": 30.0,
+        "1989": 45.0,
+        "1990": 34.0,
+        "1991": 26.0,
+        "1992": 26.0,
+        "1993": 28.0,
+        "1994": 26.0,
+        "2002": 51.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 30.0,
+        "1976": 28.0,
+        "1977": 34.7,
+        "1978": 28.0,
+        "1979": 32.0,
+        "1980": 30.0,
+        "1981": 28.0,
+        "1986": 14.5,
+        "1987": 13.0,
+        "1988": 30.0,
+        "1989": 45.0,
+        "1990": 34.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WI",
+    "fips": "55",
+    "name": "WISCONSIN"
+  }
+}

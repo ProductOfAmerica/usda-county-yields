@@ -1,0 +1,50 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "207",
+    "name": "MONROE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1967": 25.5,
+        "1968": 17.5,
+        "1969": 26.0,
+        "1970": 22.5,
+        "1973": 23.0,
+        "1974": 22.9,
+        "1975": 24.7,
+        "1976": 21.3,
+        "1977": 20.0,
+        "1978": 15.0,
+        "1979": 26.8,
+        "1980": 13.1,
+        "1981": 12.1,
+        "1982": 23.5,
+        "1983": 20.4,
+        "1984": 14.2,
+        "1985": 26.1,
+        "1986": 18.9,
+        "1987": 15.0,
+        "1991": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

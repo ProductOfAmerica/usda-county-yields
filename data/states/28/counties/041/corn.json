@@ -1,0 +1,92 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "041",
+    "name": "GREENE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1953": 24.6,
+        "1954": 20.4,
+        "1955": 31.1,
+        "1956": 27.5,
+        "1957": 23.0,
+        "1958": 31.3,
+        "1959": 27.2,
+        "1960": 22.9,
+        "1961": 35.2,
+        "1962": 21.5,
+        "1963": 28.6,
+        "1964": 36.3,
+        "1965": 35.0,
+        "1966": 26.2,
+        "1967": 38.0,
+        "1968": 34.1,
+        "1969": 25.0,
+        "1970": 22.5,
+        "1971": 35.1,
+        "1972": 49.0,
+        "1973": 36.5,
+        "1974": 30.0,
+        "1975": 33.4,
+        "1976": 43.7,
+        "1977": 20.0,
+        "1978": 53.7,
+        "1979": 41.3,
+        "1980": 24.0,
+        "1981": 62.9,
+        "1982": 55.5,
+        "1983": 78.0,
+        "1984": 65.0,
+        "1985": 54.0,
+        "1986": 68.0,
+        "1987": 65.0,
+        "1988": 55.0,
+        "1989": 60.0,
+        "1992": 68.5,
+        "1994": 72.2,
+        "1996": 86.0,
+        "1997": 83.0,
+        "2010": 110.0,
+        "2022": 77.4
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 51.7,
+        "1979": 39.9,
+        "1980": 20.8,
+        "1981": 61.0,
+        "1982": 53.1,
+        "1983": 75.1,
+        "1984": 61.9,
+        "1985": 52.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MS",
+    "fips": "28",
+    "name": "MISSISSIPPI"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "039",
+    "name": "CHEROKEE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 18.0,
+        "1974": 17.0,
+        "1975": 19.0,
+        "1976": 20.0,
+        "1977": 20.0,
+        "1978": 22.0,
+        "1979": 25.0,
+        "1980": 19.0,
+        "1981": 26.0,
+        "1982": 26.0,
+        "1983": 18.0,
+        "1984": 20.0,
+        "1985": 22.0,
+        "1986": 20.0,
+        "1987": 18.0,
+        "1988": 32.0,
+        "1989": 31.0,
+        "1990": 50.0,
+        "1991": 31.0,
+        "1992": 29.0,
+        "1994": 34.0,
+        "1998": 37.0,
+        "1999": 40.0,
+        "2000": 36.0,
+        "2001": 30.0,
+        "2005": 44.0,
+        "2018": 53.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  }
+}

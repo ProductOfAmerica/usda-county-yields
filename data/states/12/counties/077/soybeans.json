@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "077",
+    "name": "LIBERTY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1969": 23.0,
+        "1970": 30.0,
+        "1971": 24.0,
+        "1972": 22.0,
+        "1973": 22.0,
+        "1974": 23.0,
+        "1975": 25.0,
+        "1976": 24.0,
+        "1977": 24.0,
+        "1978": 25.0,
+        "1979": 28.0,
+        "1980": 20.0,
+        "1981": 21.0,
+        "1982": 20.0,
+        "1983": 22.0,
+        "1984": 20.0,
+        "1985": 25.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  }
+}

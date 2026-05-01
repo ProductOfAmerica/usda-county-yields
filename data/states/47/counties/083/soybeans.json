@@ -1,0 +1,45 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "083",
+    "name": "HOUSTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 25.0,
+        "1974": 28.0,
+        "1975": 26.0,
+        "1976": 25.0,
+        "1977": 28.0,
+        "1978": 20.0,
+        "1979": 30.0,
+        "1980": 22.0,
+        "1981": 29.0,
+        "1982": 29.0,
+        "1983": 16.0,
+        "1984": 28.0,
+        "1985": 32.0,
+        "1986": 25.0,
+        "1990": 26.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

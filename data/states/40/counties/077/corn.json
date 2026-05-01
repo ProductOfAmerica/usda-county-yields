@@ -1,0 +1,77 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "077",
+    "name": "LATIMER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1933": 7.6,
+        "1934": 5.6,
+        "1935": 14.5,
+        "1937": 15.8,
+        "1938": 13.9,
+        "1939": 14.9,
+        "1940": 20.0,
+        "1941": 14.5,
+        "1942": 18.7,
+        "1943": 11.5,
+        "1944": 14.9,
+        "1945": 14.1,
+        "1946": 14.0,
+        "1947": 15.5,
+        "1948": 17.0,
+        "1949": 16.0,
+        "1951": 18.0,
+        "1952": 11.5,
+        "1953": 15.5,
+        "1954": 9.0,
+        "1955": 25.0,
+        "1956": 14.5,
+        "1957": 19.0,
+        "1958": 25.0,
+        "1959": 20.0,
+        "1960": 25.0,
+        "1961": 27.5,
+        "1962": 23.7,
+        "1963": 25.0,
+        "1964": 13.0,
+        "1978": 32.5,
+        "1979": 96.7,
+        "1980": 40.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 21.7,
+        "1979": 96.7,
+        "1980": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

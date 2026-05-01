@@ -1,0 +1,54 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "111",
+    "name": "MCDOWELL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0,
+        "1973": 20.0,
+        "1974": 18.0,
+        "1975": 16.0,
+        "1976": 23.0,
+        "1977": 21.0,
+        "1978": 15.0,
+        "1979": 23.0,
+        "1980": 25.0,
+        "1981": 26.0,
+        "1982": 25.0,
+        "1983": 17.0,
+        "1984": 20.0,
+        "1985": 19.0,
+        "1986": 19.0,
+        "1987": 33.0,
+        "1988": 32.0,
+        "1989": 34.0,
+        "1990": 42.0,
+        "1991": 31.0,
+        "1992": 30.0,
+        "1998": 32.0,
+        "1999": 35.0,
+        "2000": 29.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  }
+}

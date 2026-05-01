@@ -1,0 +1,55 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "117",
+    "name": "WAYNE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 37.0,
+        "2001": 36.0,
+        "2002": 35.0,
+        "2003": 37.0,
+        "2004": 39.0,
+        "2005": 47.0,
+        "2006": 41.0,
+        "2007": 41.0,
+        "2008": 46.0,
+        "2009": 45.5,
+        "2010": 47.5,
+        "2011": 44.5,
+        "2012": 47.9,
+        "2013": 48.3,
+        "2014": 44.1,
+        "2015": 46.9,
+        "2016": 41.3,
+        "2017": 44.9,
+        "2018": 53.4,
+        "2019": 48.2,
+        "2020": 51.0,
+        "2021": 56.4,
+        "2022": 46.1,
+        "2023": 51.5,
+        "2024": 49.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

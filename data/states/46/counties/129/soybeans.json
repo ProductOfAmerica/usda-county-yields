@@ -1,0 +1,62 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "129",
+    "name": "WALWORTH"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1987": 23.0,
+        "1988": 14.0,
+        "1989": 13.0,
+        "1990": 23.0,
+        "1991": 17.0,
+        "1993": 20.0,
+        "1994": 29.0,
+        "1995": 19.0,
+        "1997": 27.0,
+        "1998": 29.0,
+        "1999": 33.5,
+        "2000": 30.8,
+        "2001": 26.5,
+        "2002": 16.6,
+        "2003": 8.8,
+        "2004": 20.6,
+        "2005": 31.3,
+        "2006": 13.4,
+        "2007": 41.4,
+        "2008": 32.0,
+        "2009": 38.5,
+        "2010": 25.9,
+        "2011": 41.1,
+        "2012": 30.7,
+        "2013": 36.2,
+        "2014": 36.9,
+        "2016": 40.9,
+        "2017": 36.6,
+        "2018": 38.4,
+        "2020": 37.3,
+        "2021": 28.0,
+        "2022": 38.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  }
+}

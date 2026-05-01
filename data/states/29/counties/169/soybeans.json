@@ -1,0 +1,69 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "169",
+    "name": "PULASKI"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 6.0,
+        "1945": 10.0,
+        "1946": 13.0,
+        "1948": 9.0,
+        "1952": 11.0,
+        "1956": 10.0,
+        "1969": 32.0,
+        "1970": 25.0,
+        "1971": 25.0,
+        "1972": 25.0,
+        "1973": 26.0,
+        "1974": 12.4,
+        "1975": 25.0,
+        "1976": 13.2,
+        "1977": 25.3,
+        "1978": 30.0,
+        "1979": 22.0,
+        "1980": 14.8,
+        "1981": 25.5,
+        "1982": 29.3,
+        "1983": 15.5,
+        "1984": 15.5,
+        "1985": 26.6,
+        "1986": 24.6,
+        "2005": 30.0,
+        "2011": 47.1,
+        "2012": 27.8
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MO",
+    "fips": "29",
+    "name": "MISSOURI"
+  }
+}

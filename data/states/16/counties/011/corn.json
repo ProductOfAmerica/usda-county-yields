@@ -1,0 +1,110 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "011",
+    "name": "BINGHAM"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1975": 50.6,
+        "1976": 60.0,
+        "1977": 57.0,
+        "1978": 63.0,
+        "1979": 69.0,
+        "1980": 84.0,
+        "1981": 95.0,
+        "1982": 101.0,
+        "1983": 100.0,
+        "1984": 98.0,
+        "1985": 95.0,
+        "1995": 100.0,
+        "1999": 0.0,
+        "2000": 150.0,
+        "2001": 0.0,
+        "2002": 0.0,
+        "2003": 0.0,
+        "2004": 0.0,
+        "2022": 173.8,
+        "2023": 184.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1975": 42.2,
+        "1976": 60.0,
+        "1977": 57.0,
+        "1978": 63.0,
+        "1979": 69.0,
+        "1980": 84.0,
+        "1981": 95.0,
+        "1982": 101.0,
+        "1983": 100.0,
+        "1984": 98.0,
+        "1985": 95.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 17.0,
+        "1975": 18.0,
+        "1976": 18.5,
+        "1977": 18.0,
+        "1978": 17.5,
+        "1979": 18.0,
+        "1980": 17.0,
+        "1981": 15.3,
+        "1982": 16.5,
+        "1983": 15.9,
+        "1984": 16.2,
+        "1985": 17.2,
+        "1986": 16.7,
+        "1987": 21.4,
+        "1988": 20.0,
+        "1989": 16.4,
+        "1990": 17.5,
+        "1991": 18.8,
+        "1992": 16.0,
+        "1993": 16.0,
+        "1995": 22.8,
+        "1999": 21.7,
+        "2000": 21.7,
+        "2001": 22.0,
+        "2002": 22.3,
+        "2003": 23.5,
+        "2004": 24.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "ID",
+    "fips": "16",
+    "name": "IDAHO"
+  }
+}

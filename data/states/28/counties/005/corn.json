@@ -1,0 +1,88 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "005",
+    "name": "AMITE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1953": 18.7,
+        "1954": 22.1,
+        "1955": 29.3,
+        "1956": 23.7,
+        "1957": 27.9,
+        "1958": 28.9,
+        "1959": 30.0,
+        "1960": 26.1,
+        "1961": 37.1,
+        "1962": 25.0,
+        "1963": 32.2,
+        "1964": 39.5,
+        "1965": 42.3,
+        "1966": 34.3,
+        "1967": 41.0,
+        "1968": 31.8,
+        "1969": 36.0,
+        "1970": 30.4,
+        "1971": 45.0,
+        "1972": 45.6,
+        "1973": 35.5,
+        "1974": 41.6,
+        "1975": 43.5,
+        "1976": 50.8,
+        "1977": 20.0,
+        "1978": 61.4,
+        "1979": 65.6,
+        "1980": 32.5,
+        "1981": 80.0,
+        "1982": 46.0,
+        "1985": 60.0,
+        "1986": 68.0,
+        "1987": 75.0,
+        "1988": 53.0,
+        "1989": 60.0,
+        "1990": 78.0,
+        "1992": 70.0,
+        "1994": 97.3,
+        "1995": 86.7,
+        "1996": 92.5,
+        "1997": 73.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 59.7,
+        "1979": 63.1,
+        "1980": 28.7,
+        "1981": 78.0,
+        "1982": 43.2,
+        "1985": 57.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MS",
+    "fips": "28",
+    "name": "MISSISSIPPI"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "199",
+    "name": "MERIWETHER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1967": 25.0,
+        "1968": 18.0,
+        "1969": 30.0,
+        "1970": 23.0,
+        "1971": 22.5,
+        "1972": 18.9,
+        "1973": 19.6,
+        "1974": 23.5,
+        "1975": 25.7,
+        "1976": 24.3,
+        "1977": 16.0,
+        "1978": 16.0,
+        "1979": 25.0,
+        "1980": 9.2,
+        "1981": 19.4,
+        "1982": 23.0,
+        "1983": 21.3,
+        "1984": 18.6,
+        "1985": 23.5,
+        "1986": 14.3,
+        "1987": 16.7,
+        "1988": 17.5,
+        "1989": 24.2,
+        "1990": 8.1,
+        "1991": 21.1,
+        "1992": 23.8,
+        "1993": 17.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

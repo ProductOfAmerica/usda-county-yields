@@ -1,0 +1,46 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "003",
+    "name": "BERGEN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1953": 45.0,
+        "1954": 42.0,
+        "1955": 25.0,
+        "1956": 62.0,
+        "1957": 23.0,
+        "1959": 63.0,
+        "1960": 65.0,
+        "1961": 70.0,
+        "1962": 72.0,
+        "1963": 65.0,
+        "1964": 67.0,
+        "1965": 70.0,
+        "1966": 50.0,
+        "1967": 77.0,
+        "1968": 60.0,
+        "1969": 41.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  }
+}

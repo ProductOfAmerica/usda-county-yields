@@ -1,0 +1,46 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "165",
+    "name": "WEXFORD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1977": 20.0,
+        "1978": 14.0,
+        "1979": 22.7,
+        "1980": 30.0,
+        "1981": 28.0,
+        "1983": 28.0,
+        "1984": 26.4,
+        "1985": 27.5,
+        "1986": 26.0,
+        "1987": 25.0,
+        "1988": 21.0,
+        "1989": 26.5,
+        "1990": 28.2,
+        "1992": 16.2,
+        "1993": 30.0,
+        "1994": 31.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

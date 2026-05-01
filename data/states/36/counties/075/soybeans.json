@@ -1,0 +1,52 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "075",
+    "name": "OSWEGO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 40.0,
+        "2001": 38.0,
+        "2002": 33.0,
+        "2003": 34.0,
+        "2004": 35.0,
+        "2005": 38.0,
+        "2006": 40.0,
+        "2007": 37.0,
+        "2008": 44.0,
+        "2009": 36.5,
+        "2010": 35.5,
+        "2011": 37.5,
+        "2012": 38.5,
+        "2014": 38.0,
+        "2016": 51.7,
+        "2018": 46.2,
+        "2019": 42.3,
+        "2020": 44.4,
+        "2021": 47.9,
+        "2022": 44.5,
+        "2023": 42.6,
+        "2024": 51.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

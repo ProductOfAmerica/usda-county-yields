@@ -1,0 +1,48 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "001",
+    "name": "ALCONA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 30.0,
+        "1975": 25.0,
+        "1976": 20.0,
+        "1977": 25.0,
+        "1978": 21.5,
+        "1979": 21.7,
+        "1983": 27.5,
+        "1984": 27.4,
+        "1985": 27.0,
+        "1986": 26.0,
+        "1987": 27.0,
+        "1988": 22.0,
+        "1989": 26.3,
+        "1992": 12.1,
+        "2019": 35.0,
+        "2020": 44.0,
+        "2021": 47.5,
+        "2022": 43.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "087",
+    "name": "MADISON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 45.0,
+        "1962": 41.0,
+        "1963": 24.0,
+        "1964": 21.0,
+        "1965": 36.0,
+        "1966": 28.0,
+        "1967": 43.0,
+        "1968": 46.0,
+        "1969": 27.0,
+        "1970": 26.0,
+        "1971": 38.0,
+        "1972": 50.0,
+        "1973": 55.0,
+        "1974": 27.0,
+        "1975": 61.5,
+        "1976": 56.0,
+        "1977": 60.0,
+        "1979": 60.0,
+        "1980": 28.0,
+        "1981": 58.0,
+        "1982": 70.0,
+        "1983": 35.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1979": 60.0,
+        "1980": 21.0,
+        "1981": 58.0,
+        "1982": 70.0,
+        "1983": 35.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

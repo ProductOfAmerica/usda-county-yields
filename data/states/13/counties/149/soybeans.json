@@ -1,0 +1,46 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "149",
+    "name": "HEARD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 19.3,
+        "1975": 24.0,
+        "1976": 20.9,
+        "1977": 17.0,
+        "1978": 18.0,
+        "1979": 26.0,
+        "1980": 18.9,
+        "1981": 30.8,
+        "1982": 29.8,
+        "1983": 20.4,
+        "1984": 23.0,
+        "1985": 26.5,
+        "1986": 16.8,
+        "1988": 15.0,
+        "1991": 29.0,
+        "1992": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

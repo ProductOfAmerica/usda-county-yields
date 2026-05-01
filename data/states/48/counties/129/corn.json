@@ -1,0 +1,61 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "129",
+    "name": "DONLEY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1977": 90.0,
+        "1978": 81.5,
+        "1979": 87.2,
+        "1980": 50.0,
+        "1993": 106.7,
+        "1994": 90.0,
+        "1997": 90.0,
+        "1998": 79.3,
+        "1999": 117.1,
+        "2000": 130.8,
+        "2002": 85.6,
+        "2004": 204.2,
+        "2005": 141.8,
+        "2006": 155.0,
+        "2007": 194.0,
+        "2010": 210.6,
+        "2013": 221.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 81.5,
+        "1979": 79.3,
+        "1980": 50.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

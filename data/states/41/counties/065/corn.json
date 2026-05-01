@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "065",
+    "name": "WASCO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 80.0,
+        "1957": 96.0,
+        "1958": 90.0,
+        "1959": 86.0,
+        "1960": 86.0,
+        "1961": 80.0,
+        "1962": 80.0,
+        "1963": 60.0,
+        "1964": 60.0,
+        "1965": 60.0,
+        "1966": 80.0,
+        "1995": 75.0,
+        "1996": 100.0,
+        "1998": 104.0,
+        "1999": 117.0,
+        "2000": 0.0,
+        "2001": 0.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  }
+}

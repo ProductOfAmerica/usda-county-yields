@@ -1,0 +1,96 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "021",
+    "name": "FREDERICK"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 25.0,
+        "1973": 23.0,
+        "1974": 24.0,
+        "1975": 25.0,
+        "1976": 23.0,
+        "1977": 26.0,
+        "1978": 33.0,
+        "1979": 32.0,
+        "1980": 25.0,
+        "1981": 32.0,
+        "1982": 32.0,
+        "1983": 21.0,
+        "1984": 34.0,
+        "1985": 35.0,
+        "1986": 24.0,
+        "1987": 32.0,
+        "1988": 35.0,
+        "1989": 32.0,
+        "1990": 39.0,
+        "1991": 24.0,
+        "1992": 35.0,
+        "1993": 28.5,
+        "1994": 30.6,
+        "1995": 29.4,
+        "1996": 43.7,
+        "1997": 24.2,
+        "1998": 32.4,
+        "1999": 27.0,
+        "2000": 41.2,
+        "2001": 35.4,
+        "2002": 28.6,
+        "2003": 43.4,
+        "2004": 42.8,
+        "2005": 36.0,
+        "2006": 29.9,
+        "2007": 31.9,
+        "2008": 32.5,
+        "2009": 41.0,
+        "2010": 25.0,
+        "2011": 34.1,
+        "2012": 57.8,
+        "2013": 41.2,
+        "2014": 52.6,
+        "2015": 41.6,
+        "2016": 40.5,
+        "2017": 58.8,
+        "2018": 53.4,
+        "2019": 54.3,
+        "2020": 46.0,
+        "2021": 58.0,
+        "2022": 45.3,
+        "2023": 34.1,
+        "2024": 45.2
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 25.0,
+        "1976": 23.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MD",
+    "fips": "24",
+    "name": "MARYLAND"
+  }
+}

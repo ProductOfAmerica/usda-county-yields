@@ -1,0 +1,61 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "061",
+    "name": "CLAY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1966": 20.0,
+        "1967": 21.0,
+        "1968": 15.0,
+        "1969": 22.0,
+        "1970": 20.0,
+        "1971": 25.0,
+        "1972": 18.0,
+        "1973": 23.6,
+        "1974": 26.0,
+        "1975": 28.9,
+        "1976": 24.3,
+        "1977": 25.0,
+        "1978": 13.0,
+        "1979": 26.0,
+        "1980": 20.1,
+        "1981": 26.4,
+        "1982": 28.0,
+        "1983": 27.8,
+        "1984": 18.6,
+        "1985": 23.6,
+        "1986": 16.9,
+        "1987": 15.3,
+        "1988": 30.0,
+        "1989": 26.9,
+        "1990": 10.0,
+        "1991": 20.5,
+        "1992": 30.0,
+        "1997": 14.1,
+        "1998": 22.5,
+        "2007": 35.0,
+        "2014": 42.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

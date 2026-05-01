@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "003",
+    "name": "BENTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 76.0,
+        "1957": 83.0,
+        "1958": 76.5,
+        "1959": 76.5,
+        "1960": 80.0,
+        "1961": 67.0,
+        "1962": 80.0,
+        "1963": 80.0,
+        "1964": 80.0,
+        "1965": 80.0,
+        "1966": 85.0,
+        "1967": 85.0,
+        "1968": 80.0,
+        "1969": 90.0,
+        "1970": 78.5,
+        "1971": 90.0,
+        "1972": 80.0,
+        "1973": 85.0,
+        "1974": 70.0,
+        "1975": 70.0,
+        "1976": 95.0,
+        "1977": 85.0,
+        "1978": 80.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 0.0,
+        "2002": 0.0,
+        "2003": 0.0,
+        "2004": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 53.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  }
+}

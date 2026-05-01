@@ -1,0 +1,90 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "237",
+    "name": "PUTNAM"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1954": 12.4,
+        "1955": 21.4,
+        "1956": 20.5,
+        "1957": 19.9,
+        "1958": 19.4,
+        "1959": 16.9,
+        "1960": 19.4,
+        "1961": 23.7,
+        "1962": 20.0,
+        "1963": 23.3,
+        "1964": 18.4,
+        "1965": 18.9,
+        "1966": 21.1,
+        "1967": 33.3,
+        "1968": 20.9,
+        "1969": 42.3,
+        "1970": 15.4,
+        "1971": 45.0,
+        "1972": 28.0,
+        "1973": 58.9,
+        "1974": 49.5,
+        "1975": 58.2,
+        "1976": 58.8,
+        "1977": 17.0,
+        "1978": 29.5,
+        "1979": 42.3,
+        "1980": 30.6,
+        "1981": 41.9,
+        "1982": 73.0,
+        "1983": 45.5,
+        "1984": 51.2,
+        "1985": 81.6,
+        "1987": 58.0,
+        "1992": 100.0,
+        "1996": 50.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 16.5,
+        "1973": 23.6,
+        "1974": 12.4,
+        "1975": 15.8,
+        "1976": 20.6,
+        "1977": 3.7,
+        "1978": 12.7,
+        "1979": 30.6,
+        "1980": 19.6,
+        "1981": 22.1,
+        "1982": 73.0,
+        "1983": 41.5,
+        "1984": 45.7,
+        "1985": 44.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

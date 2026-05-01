@@ -1,0 +1,55 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "117",
+    "name": "TIOGA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1985": 30.0,
+        "1986": 31.0,
+        "1987": 29.0,
+        "1988": 32.0,
+        "1989": 31.0,
+        "1990": 34.0,
+        "1991": 23.0,
+        "1992": 35.0,
+        "1993": 31.0,
+        "1994": 39.0,
+        "1998": 28.0,
+        "1999": 35.0,
+        "2000": 32.0,
+        "2001": 33.0,
+        "2002": 25.0,
+        "2003": 38.3,
+        "2005": 45.0,
+        "2012": 40.4,
+        "2013": 46.4,
+        "2014": 36.8,
+        "2017": 38.2,
+        "2020": 40.0,
+        "2021": 40.3,
+        "2022": 34.1,
+        "2023": 41.1
+      }
+    }
+  ],
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  }
+}

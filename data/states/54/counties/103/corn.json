@@ -1,0 +1,100 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "103",
+    "name": "WETZEL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1926": 31.0,
+        "1927": 32.0,
+        "1928": 36.0,
+        "1934": 27.0,
+        "1935": 27.0,
+        "1941": 33.0,
+        "1949": 43.6,
+        "1950": 36.8,
+        "1951": 40.8,
+        "1952": 43.9,
+        "1953": 38.3,
+        "1954": 42.3,
+        "1955": 38.5,
+        "1956": 48.7,
+        "1957": 39.7,
+        "1958": 42.0,
+        "1959": 44.8,
+        "1960": 52.2,
+        "1961": 42.8,
+        "1962": 37.2,
+        "1963": 39.7,
+        "1965": 45.6,
+        "1966": 33.3,
+        "1967": 44.5,
+        "1968": 46.5,
+        "1969": 47.5,
+        "1970": 40.0,
+        "1971": 48.5,
+        "1972": 43.8,
+        "1973": 70.0,
+        "1974": 64.1,
+        "1975": 72.0,
+        "1976": 74.5,
+        "1977": 66.5,
+        "1978": 72.0,
+        "1979": 81.0,
+        "1980": 82.7,
+        "1981": 81.4,
+        "1982": 73.5,
+        "1983": 80.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 70.0,
+        "1979": 67.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1976": 13.1,
+        "1977": 12.7,
+        "1978": 13.7,
+        "1981": 14.8,
+        "1982": 14.0,
+        "1983": 14.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

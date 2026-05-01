@@ -1,0 +1,45 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "2002": 33.0,
+        "2003": 101.0,
+        "2004": 98.0,
+        "2005": 65.0,
+        "2006": 128.0,
+        "2007": 79.7,
+        "2008": 103.0,
+        "2009": 126.0,
+        "2010": 78.4,
+        "2011": 67.1,
+        "2012": 123.3,
+        "2013": 131.2,
+        "2014": 45.0,
+        "2015": 136.1,
+        "2016": 127.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "073",
+    "name": "LEON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 21.0,
+        "1973": 18.0,
+        "1974": 30.0,
+        "1975": 21.0,
+        "1976": 24.0,
+        "1977": 23.0,
+        "1978": 25.0,
+        "1979": 28.0,
+        "1980": 23.0,
+        "1981": 28.0,
+        "1982": 31.0,
+        "1983": 24.0,
+        "1984": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  }
+}

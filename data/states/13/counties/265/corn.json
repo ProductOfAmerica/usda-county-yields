@@ -1,0 +1,86 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "265",
+    "name": "TALIAFERRO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1954": 7.6,
+        "1955": 19.5,
+        "1956": 15.0,
+        "1957": 14.8,
+        "1958": 16.9,
+        "1959": 14.7,
+        "1960": 16.7,
+        "1961": 15.7,
+        "1962": 16.9,
+        "1963": 24.6,
+        "1964": 24.1,
+        "1965": 23.1,
+        "1966": 26.9,
+        "1967": 34.5,
+        "1968": 30.8,
+        "1969": 18.8,
+        "1970": 19.4,
+        "1971": 40.0,
+        "1972": 20.0,
+        "1973": 38.5,
+        "1974": 50.0,
+        "1975": 54.3,
+        "1976": 53.9,
+        "1978": 23.3,
+        "1979": 56.8,
+        "1980": 23.3,
+        "1981": 25.4,
+        "1982": 78.7,
+        "1983": 36.3,
+        "1984": 46.5,
+        "1985": 51.1,
+        "1992": 80.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 16.7,
+        "1973": 33.3,
+        "1974": 44.7,
+        "1975": 45.6,
+        "1976": 45.6,
+        "1978": 17.5,
+        "1979": 54.0,
+        "1980": 19.3,
+        "1981": 23.6,
+        "1982": 78.7,
+        "1983": 33.9,
+        "1984": 44.8,
+        "1985": 46.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

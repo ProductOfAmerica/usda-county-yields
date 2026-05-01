@@ -1,0 +1,106 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "123",
+    "name": "PONTOTOC"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1933": 6.3,
+        "1934": 7.8,
+        "1935": 19.9,
+        "1937": 20.1,
+        "1938": 20.2,
+        "1939": 13.4,
+        "1940": 22.0,
+        "1941": 17.2,
+        "1942": 17.9,
+        "1943": 12.5,
+        "1944": 15.3,
+        "1945": 13.9,
+        "1946": 18.5,
+        "1947": 15.5,
+        "1948": 22.0,
+        "1949": 19.5,
+        "1951": 26.5,
+        "1952": 15.5,
+        "1953": 14.5,
+        "1954": 12.0,
+        "1955": 25.0,
+        "1956": 13.5,
+        "1957": 17.0,
+        "1958": 34.0,
+        "1959": 34.5,
+        "1960": 40.0,
+        "1961": 34.0,
+        "1962": 30.0,
+        "1963": 36.1,
+        "1964": 25.9,
+        "1965": 40.5,
+        "1966": 27.0,
+        "1967": 30.0,
+        "1968": 25.0,
+        "1969": 36.0,
+        "1970": 43.0,
+        "1971": 39.0,
+        "1973": 41.5,
+        "1976": 60.0,
+        "1977": 55.0,
+        "1978": 35.0,
+        "1979": 95.0,
+        "1980": 45.0,
+        "1981": 53.8,
+        "1982": 75.0,
+        "1986": 74.0,
+        "1987": 82.9,
+        "2002": 87.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 20.0,
+        "1979": 76.0,
+        "1980": 36.0,
+        "1981": 53.8,
+        "1982": 75.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1987": 82.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "027",
+    "name": "CLAIBORNE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 20.8,
+        "1960": 20.2,
+        "1961": 25.0,
+        "1962": 21.5,
+        "1963": 24.6,
+        "1964": 16.3,
+        "1965": 30.0,
+        "1966": 35.0,
+        "1967": 30.0,
+        "1968": 30.0,
+        "1969": 18.0,
+        "1970": 30.0,
+        "1971": 40.0,
+        "1972": 40.0,
+        "1973": 40.0,
+        "1974": 34.0,
+        "1975": 30.0,
+        "1976": 44.0,
+        "1977": 35.0,
+        "1978": 50.0,
+        "1979": 40.0,
+        "1980": 40.0,
+        "1981": 47.1,
+        "1982": 54.3,
+        "1983": 54.0,
+        "1984": 60.0,
+        "1985": 64.4,
+        "1986": 55.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 43.8,
+        "1979": 35.0,
+        "1980": 30.0,
+        "1981": 41.3,
+        "1982": 47.5,
+        "1983": 49.1,
+        "1984": 53.3,
+        "1985": 58.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

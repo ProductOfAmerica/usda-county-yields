@@ -1,0 +1,42 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "095",
+    "name": "ST. JOHN THE BAPTIST"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 25.3,
+        "1960": 40.0,
+        "1961": 36.0,
+        "1962": 30.0,
+        "1963": 31.1,
+        "1965": 31.3,
+        "1972": 30.0,
+        "1973": 25.0,
+        "1974": 70.0,
+        "1975": 64.0,
+        "1976": 74.0,
+        "1977": 60.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

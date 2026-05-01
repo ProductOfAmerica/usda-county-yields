@@ -1,0 +1,60 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "043",
+    "name": "LINCOLN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1941": 29.0,
+        "1943": 18.0,
+        "1944": 20.0,
+        "1945": 39.0,
+        "1946": 51.0,
+        "1947": 51.0,
+        "1956": 60.0,
+        "1961": 86.0,
+        "1962": 90.0,
+        "1974": 81.1,
+        "1975": 90.0,
+        "1993": 120.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1983": 19.5,
+        "1984": 22.0,
+        "1985": 10.0,
+        "1987": 23.0,
+        "1988": 24.0,
+        "1990": 21.0,
+        "1993": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

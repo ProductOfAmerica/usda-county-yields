@@ -1,0 +1,98 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "079",
+    "name": "LEAKE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 10.0,
+        "1955": 19.0,
+        "1956": 14.5,
+        "1957": 17.0,
+        "1958": 22.0,
+        "1959": 14.0,
+        "1960": 20.0,
+        "1961": 20.0,
+        "1962": 18.0,
+        "1965": 20.0,
+        "1966": 24.0,
+        "1967": 22.6,
+        "1968": 24.7,
+        "1969": 21.6,
+        "1970": 23.2,
+        "1971": 23.8,
+        "1972": 20.5,
+        "1973": 19.0,
+        "1974": 23.3,
+        "1975": 19.5,
+        "1976": 21.9,
+        "1977": 21.0,
+        "1978": 20.4,
+        "1979": 32.2,
+        "1980": 15.0,
+        "1981": 18.0,
+        "1982": 25.8,
+        "1983": 18.6,
+        "1984": 18.0,
+        "1985": 22.0,
+        "1986": 16.0,
+        "1987": 15.0,
+        "1988": 20.0,
+        "1989": 18.0,
+        "1990": 16.0,
+        "1991": 22.7,
+        "1992": 28.6,
+        "1994": 26.7,
+        "1995": 19.4,
+        "1996": 27.3,
+        "2020": 47.1
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 21.5,
+        "1975": 18.7,
+        "1976": 21.1,
+        "1977": 19.5,
+        "1978": 19.8,
+        "1979": 31.2,
+        "1980": 14.6,
+        "1981": 17.1,
+        "1982": 23.5,
+        "1983": 18.0,
+        "1984": 17.5,
+        "1985": 20.5,
+        "1986": 13.9,
+        "1987": 12.7,
+        "1988": 17.5,
+        "1989": 15.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MS",
+    "fips": "28",
+    "name": "MISSISSIPPI"
+  }
+}

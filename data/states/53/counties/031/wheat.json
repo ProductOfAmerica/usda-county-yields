@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "031",
+    "name": "JEFFERSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1939": 54.2,
+        "1940": 25.0,
+        "1941": 50.0,
+        "1942": 36.0,
+        "1943": 35.0,
+        "1944": 26.7,
+        "1945": 34.0,
+        "1946": 46.7,
+        "1947": 45.0,
+        "1948": 38.2,
+        "1949": 19.9,
+        "1950": 35.0,
+        "1951": 23.5,
+        "1952": 35.0,
+        "1953": 30.0,
+        "1954": 42.2,
+        "1955": 48.3,
+        "1956": 46.0,
+        "1957": 37.5,
+        "1958": 40.0,
+        "1959": 27.0,
+        "1960": 45.0,
+        "1961": 28.7,
+        "1962": 45.0,
+        "1963": 23.0,
+        "1967": 53.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

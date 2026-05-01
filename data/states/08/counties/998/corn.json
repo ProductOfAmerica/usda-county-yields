@@ -1,0 +1,159 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "2001": 0.0,
+        "2004": 138.5,
+        "2005": 161.0,
+        "2006": 77.5,
+        "2007": 180.0,
+        "2008": 146.0,
+        "2009": 170.0,
+        "2010": 120.6,
+        "2011": 50.4,
+        "2012": 34.1,
+        "2013": 112.0,
+        "2014": 114.0,
+        "2015": 95.7,
+        "2016": 90.0,
+        "2017": 70.9,
+        "2018": 43.5,
+        "2019": 106.6,
+        "2020": 158.2,
+        "2021": 138.9,
+        "2022": 85.6,
+        "2023": 93.9,
+        "2024": 88.4
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1984": 23.0,
+        "1985": 24.0,
+        "1986": 22.0,
+        "2001": 5.0,
+        "2004": 18.0,
+        "2005": 18.5,
+        "2006": 13.5,
+        "2007": 24.5,
+        "2008": 21.5,
+        "2022": 19.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "2004": 162.0,
+        "2005": 165.5,
+        "2006": 169.0,
+        "2007": 180.0,
+        "2008": 175.0,
+        "2010": 139.5,
+        "2011": 175.8,
+        "2012": 184.1,
+        "2013": 194.9,
+        "2014": 208.5,
+        "2015": 209.0,
+        "2016": 202.2,
+        "2017": 201.1,
+        "2018": 216.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, SILAGE, IRRIGATED - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1984": 23.0,
+        "1985": 18.5,
+        "2004": 18.5,
+        "2005": 18.0,
+        "2006": 22.5,
+        "2007": 23.0,
+        "2008": 24.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "2001": 0.0,
+        "2004": 52.5,
+        "2005": 40.0,
+        "2006": 30.0,
+        "2007": 89.5,
+        "2008": 40.0,
+        "2010": 58.7,
+        "2011": 37.7,
+        "2012": 16.5,
+        "2013": 31.2,
+        "2014": 59.3,
+        "2015": 48.9,
+        "2016": 38.3,
+        "2017": 73.3,
+        "2018": 66.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, SILAGE, NON-IRRIGATED - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "2001": 5.0,
+        "2004": 7.0,
+        "2005": 5.0,
+        "2006": 8.0,
+        "2007": 7.0,
+        "2008": 7.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  }
+}

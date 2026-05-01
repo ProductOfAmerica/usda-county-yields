@@ -1,0 +1,53 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "073",
+    "name": "HAWKINS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0,
+        "1974": 13.0,
+        "1975": 21.0,
+        "1976": 24.0,
+        "1977": 27.0,
+        "1978": 28.0,
+        "1979": 28.0,
+        "1980": 25.0,
+        "1981": 20.0,
+        "1982": 24.0,
+        "1983": 22.0,
+        "1984": 26.0,
+        "1991": 41.0,
+        "1992": 35.0,
+        "2012": 46.0,
+        "2013": 44.8,
+        "2014": 40.0,
+        "2016": 42.5,
+        "2017": 46.7,
+        "2018": 58.4,
+        "2019": 44.2,
+        "2021": 45.1,
+        "2022": 58.1
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "023",
+    "name": "CORTLAND"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 30.0,
+        "2003": 43.0,
+        "2004": 38.0,
+        "2005": 43.0,
+        "2006": 47.0,
+        "2007": 44.0,
+        "2008": 34.0,
+        "2010": 40.7,
+        "2012": 43.6,
+        "2013": 46.9,
+        "2014": 44.4,
+        "2016": 43.3,
+        "2017": 42.4,
+        "2020": 48.3,
+        "2021": 42.9,
+        "2022": 48.2,
+        "2023": 54.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "159",
+    "name": "WINSTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1953": 17.0,
+        "1954": 13.8,
+        "1955": 23.8,
+        "1956": 19.9,
+        "1957": 24.1,
+        "1958": 27.1,
+        "1959": 26.6,
+        "1960": 25.7,
+        "1961": 34.3,
+        "1962": 20.2,
+        "1963": 36.0,
+        "1964": 38.1,
+        "1965": 34.9,
+        "1966": 34.9,
+        "1967": 39.0,
+        "1968": 43.1,
+        "1969": 28.0,
+        "1970": 29.2,
+        "1971": 36.0,
+        "1972": 48.0,
+        "1973": 44.5,
+        "1974": 40.0,
+        "1975": 36.7,
+        "1976": 37.9,
+        "1977": 39.0,
+        "1978": 49.3,
+        "1979": 47.9,
+        "1980": 25.1,
+        "1981": 42.0,
+        "1982": 56.0,
+        "1983": 66.0,
+        "1984": 66.0,
+        "1985": 54.0,
+        "1986": 68.0,
+        "1987": 65.0,
+        "1988": 55.5,
+        "1989": 61.0,
+        "1994": 86.9,
+        "1996": 87.6,
+        "1997": 80.6
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 47.9,
+        "1979": 46.3,
+        "1980": 21.8,
+        "1981": 40.2,
+        "1982": 53.1,
+        "1983": 63.1,
+        "1984": 63.4,
+        "1985": 52.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MS",
+    "fips": "28",
+    "name": "MISSISSIPPI"
+  }
+}

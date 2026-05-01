@@ -1,0 +1,70 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "063",
+    "name": "SPOKANE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1939": 27.0,
+        "1940": 13.5,
+        "1941": 38.5,
+        "1942": 34.1,
+        "1943": 27.0,
+        "1944": 22.0,
+        "1945": 33.9,
+        "1946": 36.7,
+        "1947": 35.0,
+        "1948": 36.0,
+        "1949": 29.0,
+        "1950": 40.0,
+        "1951": 37.0,
+        "1952": 44.3,
+        "1953": 42.0,
+        "1954": 21.5,
+        "1955": 34.0,
+        "1956": 40.0,
+        "1957": 50.0,
+        "1963": 65.0,
+        "1964": 60.0,
+        "1965": 60.0,
+        "1966": 80.0,
+        "1967": 90.0,
+        "1968": 90.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 10.5,
+        "1975": 11.0,
+        "1976": 11.0,
+        "1977": 12.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

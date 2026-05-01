@@ -1,0 +1,111 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "133",
+    "name": "WINSTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1955": 17.0,
+        "1956": 23.0,
+        "1958": 23.0,
+        "1961": 25.0,
+        "1963": 22.0,
+        "1964": 30.0,
+        "1965": 27.0,
+        "1966": 28.0,
+        "1967": 24.0,
+        "1968": 26.0,
+        "1969": 36.0,
+        "1970": 30.0,
+        "1971": 30.0,
+        "1972": 27.4,
+        "1973": 26.0,
+        "1974": 27.0,
+        "1980": 27.6,
+        "1981": 33.2,
+        "1982": 25.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 13.0,
+        "1974": 13.5,
+        "1980": 13.8,
+        "1981": 20.8,
+        "1982": 21.4
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1955": 17.0,
+        "1956": 23.0,
+        "1958": 23.0,
+        "1961": 25.0,
+        "1963": 22.0,
+        "1964": 30.0,
+        "1965": 27.0,
+        "1966": 28.0,
+        "1967": 24.0,
+        "1968": 26.0,
+        "1969": 36.0,
+        "1970": 30.0,
+        "1971": 30.0,
+        "1972": 27.4,
+        "1973": 26.0,
+        "1974": 27.0,
+        "1980": 27.6,
+        "1981": 33.2,
+        "1982": 25.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 13.0,
+        "1974": 13.5,
+        "1980": 13.8,
+        "1981": 20.8,
+        "1982": 21.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AL",
+    "fips": "01",
+    "name": "ALABAMA"
+  }
+}

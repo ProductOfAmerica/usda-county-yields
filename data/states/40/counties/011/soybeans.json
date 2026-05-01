@@ -1,0 +1,48 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "011",
+    "name": "BLAINE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1997": 34.3,
+        "1998": 21.4,
+        "1999": 14.2,
+        "2000": 16.0,
+        "2001": 28.1,
+        "2002": 19.2,
+        "2003": 44.2,
+        "2004": 32.5,
+        "2005": 32.2,
+        "2006": 37.5,
+        "2007": 40.9,
+        "2009": 40.5,
+        "2010": 41.7,
+        "2020": 55.2,
+        "2021": 31.0,
+        "2022": 45.4,
+        "2023": 45.5,
+        "2024": 38.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "029",
+    "name": "CAMDEN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 16.0,
+        "1945": 10.0,
+        "1946": 14.0,
+        "1952": 17.0,
+        "1954": 11.0,
+        "1955": 15.0,
+        "1956": 14.5,
+        "1969": 27.0,
+        "1971": 25.0,
+        "1973": 26.0,
+        "1974": 14.2,
+        "1975": 24.0,
+        "1976": 12.0,
+        "1977": 24.0,
+        "1978": 24.0,
+        "1979": 22.0,
+        "1980": 15.3,
+        "1981": 21.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 24.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MO",
+    "fips": "29",
+    "name": "MISSOURI"
+  }
+}

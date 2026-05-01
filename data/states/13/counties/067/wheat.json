@@ -1,0 +1,65 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "067",
+    "name": "COBB"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 17.8,
+        "1955": 15.3,
+        "1956": 17.6,
+        "1957": 18.5,
+        "1958": 20.5,
+        "1959": 20.5,
+        "1960": 21.0,
+        "1961": 21.0,
+        "1962": 20.0,
+        "1963": 18.0,
+        "1965": 20.0,
+        "1966": 21.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 17.8,
+        "1955": 15.3,
+        "1956": 17.6,
+        "1957": 18.5,
+        "1958": 20.5,
+        "1959": 20.5,
+        "1960": 21.0,
+        "1961": 21.0,
+        "1962": 20.0,
+        "1963": 18.0,
+        "1965": 20.0,
+        "1966": 21.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

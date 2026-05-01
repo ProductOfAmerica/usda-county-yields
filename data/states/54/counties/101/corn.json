@@ -1,0 +1,67 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "101",
+    "name": "WEBSTER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1926": 34.0,
+        "1927": 29.0,
+        "1928": 32.0,
+        "1934": 22.0,
+        "1935": 24.0,
+        "1941": 37.0,
+        "1949": 44.4,
+        "1950": 37.6,
+        "1951": 39.8,
+        "1952": 37.6,
+        "1953": 32.7,
+        "1954": 48.2,
+        "1955": 40.9,
+        "1956": 54.9,
+        "1957": 30.6,
+        "1958": 54.4,
+        "1959": 63.0,
+        "1960": 54.3,
+        "1961": 49.3,
+        "1962": 41.0,
+        "1963": 41.3,
+        "1965": 52.9,
+        "1966": 33.1,
+        "1967": 44.5,
+        "1979": 71.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1979": 71.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

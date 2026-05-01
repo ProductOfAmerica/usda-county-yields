@@ -1,0 +1,44 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "155",
+    "name": "SEVIER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 21.0,
+        "1976": 24.0,
+        "1977": 26.0,
+        "1978": 27.0,
+        "1979": 29.0,
+        "1980": 26.0,
+        "1981": 27.0,
+        "1982": 26.0,
+        "1983": 21.0,
+        "1984": 30.0,
+        "1985": 30.0,
+        "2014": 55.3,
+        "2020": 47.3,
+        "2022": 55.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

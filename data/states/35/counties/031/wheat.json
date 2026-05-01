@@ -1,0 +1,427 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "031",
+    "name": "MCKINLEY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1962": 9.3,
+        "1963": 7.9,
+        "1964": 12.0,
+        "1965": 16.7,
+        "1966": 19.5,
+        "1967": 11.4,
+        "1969": 16.5,
+        "1973": 11.0,
+        "1974": 17.0,
+        "1975": 9.0,
+        "1976": 9.0,
+        "1977": 4.0,
+        "1978": 13.9,
+        "1979": 12.5,
+        "1980": 10.2,
+        "1981": 15.0,
+        "1982": 10.0,
+        "1984": 40.0,
+        "1985": 20.0,
+        "1987": 16.5,
+        "1988": 16.5,
+        "1989": 15.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 8.1,
+        "1974": 2.1,
+        "1975": 5.2,
+        "1976": 6.0,
+        "1977": 0.2,
+        "1978": 13.2,
+        "1979": 11.3,
+        "1980": 7.8,
+        "1981": 5.6,
+        "1982": 10.0,
+        "1984": 20.0,
+        "1985": 10.0,
+        "1987": 4.1,
+        "1988": 16.5,
+        "1989": 7.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1962": 14.0,
+        "1964": 20.0,
+        "1965": 25.0,
+        "1966": 25.2,
+        "1967": 15.0,
+        "1976": 19.0,
+        "1978": 17.0,
+        "1979": 15.0,
+        "1980": 15.0,
+        "1981": 15.0,
+        "1982": 10.0,
+        "1984": 40.0,
+        "1985": 20.0,
+        "1987": 19.0,
+        "1988": 19.0,
+        "1989": 15.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1976": 9.5,
+        "1978": 17.0,
+        "1979": 9.0,
+        "1980": 15.0,
+        "1981": 15.0,
+        "1982": 10.0,
+        "1984": 40.0,
+        "1985": 20.0,
+        "1987": 19.0,
+        "1988": 19.0,
+        "1989": 15.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1962": 7.0,
+        "1963": 7.9,
+        "1964": 8.0,
+        "1965": 11.2,
+        "1966": 10.0,
+        "1967": 10.0,
+        "1973": 11.0,
+        "1974": 17.0,
+        "1975": 9.0,
+        "1976": 8.0,
+        "1977": 4.0,
+        "1978": 13.0,
+        "1979": 12.0,
+        "1980": 10.0,
+        "1987": 14.0,
+        "1988": 14.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 8.1,
+        "1974": 2.1,
+        "1975": 5.4,
+        "1976": 5.6,
+        "1977": 0.2,
+        "1978": 12.1,
+        "1979": 12.0,
+        "1980": 7.6,
+        "1987": 2.0,
+        "1988": 14.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 8.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 4.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED, FOLLOWING SUMMER FALLOW",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, FOLLOWING SUMMER FALLOW - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 9.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED, FOLLOWING SUMMER FALLOW",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, FOLLOWING SUMMER FALLOW - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 6.3
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1962": 9.3,
+        "1963": 7.9,
+        "1964": 12.0,
+        "1965": 16.7,
+        "1966": 19.5,
+        "1967": 11.4,
+        "1969": 16.5,
+        "1973": 11.0,
+        "1974": 17.0,
+        "1975": 9.0,
+        "1976": 9.0,
+        "1977": 4.0,
+        "1978": 13.9,
+        "1979": 12.5,
+        "1980": 10.2,
+        "1981": 15.0,
+        "1982": 10.0,
+        "1984": 40.0,
+        "1985": 20.0,
+        "1987": 16.5,
+        "1988": 16.5,
+        "1989": 15.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 8.1,
+        "1974": 2.1,
+        "1975": 5.2,
+        "1976": 6.0,
+        "1977": 0.2,
+        "1978": 13.2,
+        "1979": 11.3,
+        "1980": 7.8,
+        "1981": 5.6,
+        "1982": 10.0,
+        "1984": 20.0,
+        "1985": 10.0,
+        "1987": 4.1,
+        "1988": 16.5,
+        "1989": 7.5
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1962": 14.0,
+        "1964": 20.0,
+        "1965": 25.0,
+        "1966": 25.2,
+        "1967": 15.0,
+        "1976": 19.0,
+        "1978": 17.0,
+        "1979": 15.0,
+        "1980": 15.0,
+        "1981": 15.0,
+        "1982": 10.0,
+        "1984": 40.0,
+        "1985": 20.0,
+        "1987": 19.0,
+        "1988": 19.0,
+        "1989": 15.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1976": 9.5,
+        "1978": 17.0,
+        "1979": 9.0,
+        "1980": 15.0,
+        "1981": 15.0,
+        "1982": 10.0,
+        "1984": 40.0,
+        "1985": 20.0,
+        "1987": 19.0,
+        "1988": 19.0,
+        "1989": 15.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1962": 7.0,
+        "1963": 7.9,
+        "1964": 8.0,
+        "1965": 11.2,
+        "1966": 10.0,
+        "1967": 10.0,
+        "1973": 11.0,
+        "1974": 17.0,
+        "1975": 9.0,
+        "1976": 8.0,
+        "1977": 4.0,
+        "1978": 13.0,
+        "1979": 12.0,
+        "1980": 10.0,
+        "1987": 14.0,
+        "1988": 14.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 8.1,
+        "1974": 2.1,
+        "1975": 5.4,
+        "1976": 5.6,
+        "1977": 0.2,
+        "1978": 12.1,
+        "1979": 12.0,
+        "1980": 7.6,
+        "1987": 2.0,
+        "1988": 14.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 8.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 4.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED, FOLLOWING SUMMER FALLOW",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, FOLLOWING SUMMER FALLOW - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 9.5
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "NON-IRRIGATED, FOLLOWING SUMMER FALLOW",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, FOLLOWING SUMMER FALLOW - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 6.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NM",
+    "fips": "35",
+    "name": "NEW MEXICO"
+  }
+}

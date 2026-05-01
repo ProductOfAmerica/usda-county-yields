@@ -1,0 +1,171 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "215",
+    "name": "HIDALGO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1968": 47.9,
+        "1969": 54.5,
+        "1970": 63.2,
+        "1971": 87.6,
+        "1972": 50.8,
+        "1973": 46.3,
+        "1974": 67.0,
+        "1975": 70.0,
+        "1976": 78.5,
+        "1977": 69.5,
+        "1978": 78.6,
+        "1979": 82.0,
+        "1980": 78.5,
+        "1981": 95.9,
+        "1982": 69.0,
+        "1983": 57.9,
+        "1984": 88.7,
+        "1985": 92.2,
+        "1986": 82.6,
+        "1987": 80.7,
+        "1988": 74.9,
+        "1989": 54.5,
+        "1990": 57.0,
+        "1991": 103.1,
+        "1992": 80.5,
+        "1993": 78.2,
+        "1994": 68.3,
+        "1995": 49.8,
+        "1996": 78.0,
+        "1997": 77.5,
+        "1998": 31.4,
+        "1999": 44.7,
+        "2000": 44.4,
+        "2001": 56.6,
+        "2002": 67.6,
+        "2003": 92.4,
+        "2004": 102.3,
+        "2005": 88.2,
+        "2006": 90.0,
+        "2007": 106.0,
+        "2008": 75.0,
+        "2009": 94.7,
+        "2010": 94.9,
+        "2011": 81.6,
+        "2012": 91.1,
+        "2014": 84.9,
+        "2016": 110.6,
+        "2017": 96.9,
+        "2018": 89.1,
+        "2019": 111.1,
+        "2020": 115.7,
+        "2021": 103.2,
+        "2022": 90.7,
+        "2023": 96.6
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 78.6,
+        "1979": 82.0,
+        "1980": 77.1,
+        "1981": 93.3,
+        "1982": 68.4,
+        "1983": 57.2,
+        "1984": 87.0,
+        "1985": 90.7
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1981": 96.7,
+        "1982": 69.9,
+        "1983": 59.4,
+        "1984": 93.0,
+        "1985": 95.3,
+        "1986": 85.5,
+        "1988": 83.1,
+        "2010": 102.9,
+        "2017": 112.8,
+        "2018": 104.7
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1984": 93.0,
+        "1985": 94.6
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1981": 89.6,
+        "1982": 40.0,
+        "1983": 43.8,
+        "1984": 61.5,
+        "1985": 74.0,
+        "1986": 59.1,
+        "1988": 44.2,
+        "2010": 48.1,
+        "2017": 73.0,
+        "2018": 66.4
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1984": 54.2,
+        "1985": 69.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

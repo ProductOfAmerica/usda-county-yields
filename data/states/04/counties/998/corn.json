@@ -1,0 +1,68 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1982": 117.6,
+        "1983": 125.8,
+        "1984": 130.7,
+        "1985": 123.8,
+        "1987": 94.0,
+        "1988": 140.0,
+        "1989": 92.0,
+        "1990": 100.0,
+        "1991": 150.0,
+        "1992": 165.0,
+        "1993": 144.0,
+        "1994": 155.0,
+        "1995": 154.3,
+        "1996": 147.5,
+        "1997": 137.6,
+        "1998": 178.0,
+        "1999": 190.0,
+        "2000": 180.0,
+        "2001": 170.0,
+        "2002": 166.7,
+        "2003": 158.6,
+        "2004": 175.0,
+        "2005": 188.9,
+        "2006": 176.7,
+        "2007": 190.1,
+        "2008": 210.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1982": 117.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AZ",
+    "fips": "04",
+    "name": "ARIZONA"
+  }
+}

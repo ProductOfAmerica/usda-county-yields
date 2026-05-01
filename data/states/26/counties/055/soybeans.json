@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "055",
+    "name": "GRAND TRAVERSE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 22.0,
+        "1974": 15.3,
+        "1975": 15.8,
+        "1976": 14.8,
+        "1977": 20.0,
+        "1978": 14.1,
+        "1979": 22.8,
+        "1980": 30.0,
+        "1981": 28.6,
+        "1983": 28.6,
+        "1984": 27.1,
+        "1985": 26.7,
+        "1986": 26.2,
+        "1987": 26.7,
+        "1988": 21.0,
+        "1989": 26.7,
+        "1991": 34.2,
+        "1992": 16.3,
+        "1993": 31.4,
+        "1994": 34.4,
+        "2006": 27.0,
+        "2007": 10.0,
+        "2009": 31.0,
+        "2018": 41.4,
+        "2021": 40.9,
+        "2022": 34.8,
+        "2023": 41.1,
+        "2024": 36.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

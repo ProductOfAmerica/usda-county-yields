@@ -1,0 +1,106 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "071",
+    "name": "IRON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1942": 29.7,
+        "1943": 20.0,
+        "1944": 31.3,
+        "1945": 28.8,
+        "1946": 22.0,
+        "1947": 27.5,
+        "1948": 30.0,
+        "1949": 30.0,
+        "1950": 18.3,
+        "1951": 32.5,
+        "1952": 38.6,
+        "1953": 44.3,
+        "1954": 35.7,
+        "1955": 30.0,
+        "1956": 41.7,
+        "1957": 58.6,
+        "1958": 52.5,
+        "1973": 66.0,
+        "1974": 83.0,
+        "1975": 48.0,
+        "1976": 38.0,
+        "1977": 80.0,
+        "1981": 70.0,
+        "1983": 70.0,
+        "1984": 70.0,
+        "1985": 80.0,
+        "1986": 80.0,
+        "1987": 75.0,
+        "1988": 76.7,
+        "1989": 76.7
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1973": 66.0,
+        "1974": 83.0,
+        "1975": 48.0,
+        "1976": 38.0,
+        "1977": 80.0,
+        "1981": 56.0,
+        "1983": 70.0,
+        "1984": 70.0,
+        "1985": 80.0,
+        "1986": 18.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1972": 10.8,
+        "1974": 13.8,
+        "1975": 6.7,
+        "1976": 5.5,
+        "1977": 7.7,
+        "1981": 12.8,
+        "1982": 11.0,
+        "1983": 10.0,
+        "1984": 10.0,
+        "1985": 12.5,
+        "1986": 11.4,
+        "1987": 12.5,
+        "1988": 6.7,
+        "1989": 8.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

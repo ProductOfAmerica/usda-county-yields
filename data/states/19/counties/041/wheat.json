@@ -1,0 +1,61 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "041",
+    "name": "CLAY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 34.2,
+        "1974": 27.9,
+        "1975": 37.6,
+        "1976": 37.2,
+        "1977": 34.4,
+        "1980": 28.0,
+        "1981": 38.5,
+        "1982": 33.5,
+        "1984": 30.5,
+        "1985": 43.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 34.2,
+        "1974": 27.9,
+        "1975": 37.6,
+        "1976": 37.2,
+        "1977": 34.4,
+        "1980": 28.0,
+        "1981": 38.5,
+        "1982": 33.5,
+        "1984": 30.5,
+        "1985": 43.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  }
+}

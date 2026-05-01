@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "145",
+    "name": "HARRIS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1954": 10.1,
+        "1955": 23.4,
+        "1956": 20.5,
+        "1957": 18.9,
+        "1958": 20.7,
+        "1959": 19.0,
+        "1960": 20.2,
+        "1961": 21.4,
+        "1962": 23.9,
+        "1963": 22.3,
+        "1964": 23.9,
+        "1965": 28.1,
+        "1966": 25.3,
+        "1967": 34.4,
+        "1968": 31.7,
+        "1969": 30.9,
+        "1970": 31.2,
+        "1971": 36.7,
+        "1972": 42.0,
+        "1973": 36.0,
+        "1974": 44.5,
+        "1975": 44.4,
+        "1976": 42.1,
+        "1977": 34.8,
+        "1978": 31.2,
+        "1979": 41.2,
+        "1980": 26.2,
+        "1981": 34.7,
+        "1982": 54.2,
+        "1983": 35.6,
+        "1984": 43.6,
+        "1985": 67.4,
+        "1988": 28.6,
+        "1989": 80.0,
+        "1990": 70.0,
+        "1991": 60.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 35.5,
+        "1973": 30.6,
+        "1974": 37.0,
+        "1975": 34.2,
+        "1976": 30.1,
+        "1977": 4.6,
+        "1978": 24.8,
+        "1979": 37.5,
+        "1980": 16.3,
+        "1981": 30.4,
+        "1982": 51.5,
+        "1983": 31.6,
+        "1984": 39.0,
+        "1985": 64.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

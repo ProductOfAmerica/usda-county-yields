@@ -1,0 +1,51 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "149",
+    "name": "WASHITA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1969": 24.0,
+        "1973": 20.4,
+        "1974": 26.5,
+        "1981": 20.0,
+        "1982": 25.0,
+        "1987": 32.0,
+        "1997": 37.8,
+        "1998": 24.3,
+        "1999": 15.0,
+        "2000": 21.4,
+        "2001": 36.7,
+        "2002": 39.3,
+        "2003": 50.0,
+        "2004": 32.2,
+        "2006": 47.1,
+        "2009": 29.5,
+        "2016": 39.7,
+        "2017": 33.1,
+        "2018": 24.4,
+        "2021": 30.5,
+        "2024": 47.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

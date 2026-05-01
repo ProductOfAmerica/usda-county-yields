@@ -1,0 +1,85 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "009",
+    "name": "GRAHAM"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1965": 80.0,
+        "1966": 80.0,
+        "1967": 75.0,
+        "1970": 57.5,
+        "1971": 80.0,
+        "1972": 60.0,
+        "1973": 65.0,
+        "1974": 60.0,
+        "1975": 65.0,
+        "1976": 80.0,
+        "1977": 120.0,
+        "1978": 150.0,
+        "1979": 147.0,
+        "1981": 150.0,
+        "1982": 150.0,
+        "1983": 150.0,
+        "1984": 165.0,
+        "1985": 163.0,
+        "1986": 185.0,
+        "1987": 175.0,
+        "1988": 196.0,
+        "1989": 174.2,
+        "1990": 175.3,
+        "1991": 196.4,
+        "1992": 193.2,
+        "1993": 170.0,
+        "1994": 170.4,
+        "1995": 159.4,
+        "1996": 156.1,
+        "1997": 146.0,
+        "1998": 164.0,
+        "1999": 188.8,
+        "2000": 201.7,
+        "2001": 212.0,
+        "2002": 165.6,
+        "2003": 195.0,
+        "2004": 195.0,
+        "2005": 187.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1977": 90.0,
+        "1978": 140.6,
+        "1979": 147.0,
+        "1980": 98.0,
+        "1981": 150.0,
+        "1982": 150.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AZ",
+    "fips": "04",
+    "name": "ARIZONA"
+  }
+}

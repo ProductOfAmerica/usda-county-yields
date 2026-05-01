@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "077",
+    "name": "COWETA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1967": 25.0,
+        "1968": 20.0,
+        "1969": 30.0,
+        "1970": 21.0,
+        "1971": 20.0,
+        "1972": 18.4,
+        "1973": 26.7,
+        "1974": 25.3,
+        "1975": 23.8,
+        "1976": 21.5,
+        "1977": 18.0,
+        "1978": 15.0,
+        "1979": 27.0,
+        "1980": 12.4,
+        "1981": 27.3,
+        "1982": 26.5,
+        "1983": 20.9,
+        "1984": 21.0,
+        "1985": 28.8,
+        "1986": 18.0,
+        "1987": 16.2,
+        "1988": 17.5,
+        "1989": 19.4,
+        "1990": 15.0,
+        "1991": 18.2,
+        "1992": 26.0,
+        "1993": 17.1,
+        "1995": 22.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

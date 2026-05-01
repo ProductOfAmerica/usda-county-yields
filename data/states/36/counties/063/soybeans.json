@@ -1,0 +1,54 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "063",
+    "name": "NIAGARA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 37.0,
+        "2001": 23.0,
+        "2002": 33.0,
+        "2003": 23.0,
+        "2004": 38.0,
+        "2005": 45.0,
+        "2006": 45.0,
+        "2007": 34.0,
+        "2008": 47.5,
+        "2009": 43.0,
+        "2010": 48.6,
+        "2011": 42.4,
+        "2012": 37.2,
+        "2013": 47.0,
+        "2014": 42.5,
+        "2015": 39.0,
+        "2016": 40.7,
+        "2017": 48.4,
+        "2018": 50.5,
+        "2019": 51.4,
+        "2020": 45.5,
+        "2021": 52.4,
+        "2022": 48.1,
+        "2023": 45.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

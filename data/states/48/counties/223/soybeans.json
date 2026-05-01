@@ -1,0 +1,66 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "223",
+    "name": "HOPKINS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1969": 24.4,
+        "1970": 10.0,
+        "1977": 16.0,
+        "1978": 12.7,
+        "1979": 25.0,
+        "1980": 13.2,
+        "1981": 10.0,
+        "1982": 14.1,
+        "1988": 19.1,
+        "1989": 19.0,
+        "1991": 26.3,
+        "1997": 37.8,
+        "1998": 16.6,
+        "1999": 16.9,
+        "2001": 22.2,
+        "2004": 38.9,
+        "2005": 21.4,
+        "2006": 18.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1988": 19.1,
+        "1989": 19.0,
+        "1991": 26.3,
+        "1998": 10.8,
+        "1999": 14.2,
+        "2004": 38.9,
+        "2006": 18.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}

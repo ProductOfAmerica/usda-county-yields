@@ -1,0 +1,96 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "081",
+    "name": "RALEIGH"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1926": 28.0,
+        "1927": 27.0,
+        "1928": 27.0,
+        "1934": 20.0,
+        "1935": 22.0,
+        "1941": 20.0,
+        "1949": 34.4,
+        "1950": 28.2,
+        "1951": 35.4,
+        "1952": 32.7,
+        "1953": 35.5,
+        "1954": 38.6,
+        "1955": 35.5,
+        "1956": 43.0,
+        "1957": 27.6,
+        "1958": 43.9,
+        "1959": 44.3,
+        "1960": 47.8,
+        "1961": 41.1,
+        "1962": 43.5,
+        "1963": 51.7,
+        "1965": 49.9,
+        "1966": 47.0,
+        "1967": 54.0,
+        "1968": 51.5,
+        "1969": 71.5,
+        "1970": 41.0,
+        "1971": 78.0,
+        "1972": 65.6,
+        "1973": 78.5,
+        "1974": 78.9,
+        "1975": 90.5,
+        "1976": 86.5,
+        "1977": 75.5,
+        "1978": 80.0,
+        "1979": 92.5,
+        "1981": 82.3,
+        "1983": 60.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 48.7,
+        "1979": 69.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1975": 14.7,
+        "1979": 13.5,
+        "1981": 10.2,
+        "1983": 18.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

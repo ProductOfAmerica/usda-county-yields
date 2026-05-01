@@ -1,0 +1,121 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "083",
+    "name": "DADE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 17.7,
+        "1955": 16.2,
+        "1956": 17.6,
+        "1957": 16.0,
+        "1958": 21.5,
+        "1959": 18.0,
+        "1960": 18.0,
+        "1961": 20.0,
+        "1962": 18.5,
+        "1963": 17.0,
+        "1965": 15.0,
+        "1966": 15.0,
+        "1981": 45.0,
+        "1982": 32.2,
+        "1983": 32.5,
+        "1984": 46.4,
+        "1985": 35.8,
+        "1988": 40.0,
+        "1989": 26.7,
+        "1990": 30.0,
+        "1991": 30.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1981": 36.0,
+        "1982": 29.5,
+        "1983": 26.4,
+        "1984": 46.4,
+        "1985": 25.3,
+        "1988": 30.0,
+        "1989": 26.7,
+        "1990": 20.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 17.7,
+        "1955": 16.2,
+        "1956": 17.6,
+        "1957": 16.0,
+        "1958": 21.5,
+        "1959": 18.0,
+        "1960": 18.0,
+        "1961": 20.0,
+        "1962": 18.5,
+        "1963": 17.0,
+        "1965": 15.0,
+        "1966": 15.0,
+        "1981": 45.0,
+        "1982": 32.2,
+        "1983": 32.5,
+        "1984": 46.4,
+        "1985": 35.8,
+        "1988": 40.0,
+        "1989": 26.7,
+        "1990": 30.0,
+        "1991": 30.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1981": 36.0,
+        "1982": 29.5,
+        "1983": 26.4,
+        "1984": 46.4,
+        "1985": 25.3,
+        "1988": 30.0,
+        "1989": 26.7,
+        "1990": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

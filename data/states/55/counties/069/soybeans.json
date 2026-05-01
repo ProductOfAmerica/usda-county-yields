@@ -1,0 +1,94 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "069",
+    "name": "LINCOLN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1943": 11.0,
+        "1944": 10.0,
+        "1945": 12.0,
+        "1946": 12.0,
+        "1947": 12.0,
+        "1948": 15.0,
+        "1950": 12.0,
+        "1951": 13.0,
+        "1953": 16.0,
+        "1954": 14.0,
+        "1955": 11.0,
+        "1956": 12.0,
+        "1972": 22.0,
+        "1978": 25.1,
+        "1979": 24.0,
+        "1980": 22.9,
+        "1981": 25.4,
+        "1982": 23.3,
+        "1983": 25.7,
+        "1984": 25.9,
+        "1985": 30.0,
+        "1986": 34.0,
+        "1987": 33.3,
+        "1988": 14.0,
+        "1989": 20.0,
+        "1990": 24.0,
+        "1991": 24.0,
+        "1992": 24.0,
+        "1993": 24.0,
+        "2000": 32.0,
+        "2001": 45.0,
+        "2002": 47.0,
+        "2003": 23.0,
+        "2004": 26.0,
+        "2005": 32.0,
+        "2006": 38.0,
+        "2007": 31.0,
+        "2009": 31.5,
+        "2011": 36.3,
+        "2012": 36.6,
+        "2013": 32.8,
+        "2014": 31.0,
+        "2019": 34.1,
+        "2020": 44.8,
+        "2021": 41.8,
+        "2022": 40.1,
+        "2023": 39.4,
+        "2024": 33.6
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 22.0,
+        "1978": 25.1,
+        "1986": 34.0,
+        "1987": 33.3,
+        "1990": 24.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WI",
+    "fips": "55",
+    "name": "WISCONSIN"
+  }
+}

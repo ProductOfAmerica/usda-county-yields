@@ -1,0 +1,78 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "113",
+    "name": "VERMILION"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 33.5,
+        "1960": 24.3,
+        "1961": 35.0,
+        "1962": 29.1,
+        "1963": 30.6,
+        "1964": 26.1,
+        "1965": 35.2,
+        "1966": 30.0,
+        "1967": 30.0,
+        "1968": 40.0,
+        "1969": 24.0,
+        "1970": 33.1,
+        "1971": 35.2,
+        "1972": 45.0,
+        "1973": 35.0,
+        "1974": 30.0,
+        "1975": 35.0,
+        "1976": 45.0,
+        "1977": 35.0,
+        "1978": 45.0,
+        "1979": 45.0,
+        "1980": 40.0,
+        "1981": 50.0,
+        "1982": 55.0,
+        "1983": 60.0,
+        "1984": 81.8,
+        "1985": 85.0,
+        "1986": 80.0,
+        "1988": 73.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 45.0,
+        "1979": 45.0,
+        "1980": 26.7,
+        "1981": 50.0,
+        "1982": 55.0,
+        "1983": 60.0,
+        "1984": 81.8,
+        "1985": 85.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

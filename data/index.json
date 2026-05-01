@@ -1,0 +1,422 @@
+{
+  "product_name": "NASS county crop yields",
+  "refreshed_at": "2026-05-01T16:32:47Z",
+  "schema_version": 2,
+  "source": {
+    "etag": "\"42e179aa-650bc5212498e\"",
+    "freshness_lag_days": 0,
+    "last_modified": "Fri, 01 May 2026 07:13:41 GMT",
+    "publication_date": "2026-05-01",
+    "url": "https://www.nass.usda.gov/datasets/qs.crops_20260501.txt.gz"
+  },
+  "states": {
+    "01": {
+      "alpha": "AL",
+      "county_count": 68,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "ALABAMA"
+    },
+    "04": {
+      "alpha": "AZ",
+      "county_count": 16,
+      "crops": [
+        "corn",
+        "wheat"
+      ],
+      "name": "ARIZONA"
+    },
+    "05": {
+      "alpha": "AR",
+      "county_count": 76,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "ARKANSAS"
+    },
+    "06": {
+      "alpha": "CA",
+      "county_count": 57,
+      "crops": [
+        "corn",
+        "wheat"
+      ],
+      "name": "CALIFORNIA"
+    },
+    "08": {
+      "alpha": "CO",
+      "county_count": 62,
+      "crops": [
+        "corn",
+        "wheat"
+      ],
+      "name": "COLORADO"
+    },
+    "10": {
+      "alpha": "DE",
+      "county_count": 4,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "DELAWARE"
+    },
+    "12": {
+      "alpha": "FL",
+      "county_count": 52,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "FLORIDA"
+    },
+    "13": {
+      "alpha": "GA",
+      "county_count": 160,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "GEORGIA"
+    },
+    "16": {
+      "alpha": "ID",
+      "county_count": 44,
+      "crops": [
+        "corn",
+        "wheat"
+      ],
+      "name": "IDAHO"
+    },
+    "17": {
+      "alpha": "IL",
+      "county_count": 103,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "ILLINOIS"
+    },
+    "18": {
+      "alpha": "IN",
+      "county_count": 93,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "INDIANA"
+    },
+    "19": {
+      "alpha": "IA",
+      "county_count": 100,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "IOWA"
+    },
+    "20": {
+      "alpha": "KS",
+      "county_count": 106,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "KANSAS"
+    },
+    "21": {
+      "alpha": "KY",
+      "county_count": 121,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "KENTUCKY"
+    },
+    "22": {
+      "alpha": "LA",
+      "county_count": 63,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "LOUISIANA"
+    },
+    "24": {
+      "alpha": "MD",
+      "county_count": 24,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "MARYLAND"
+    },
+    "26": {
+      "alpha": "MI",
+      "county_count": 84,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "MICHIGAN"
+    },
+    "27": {
+      "alpha": "MN",
+      "county_count": 88,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "MINNESOTA"
+    },
+    "28": {
+      "alpha": "MS",
+      "county_count": 83,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "MISSISSIPPI"
+    },
+    "29": {
+      "alpha": "MO",
+      "county_count": 116,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "MISSOURI"
+    },
+    "30": {
+      "alpha": "MT",
+      "county_count": 57,
+      "crops": [
+        "corn",
+        "wheat"
+      ],
+      "name": "MONTANA"
+    },
+    "31": {
+      "alpha": "NE",
+      "county_count": 94,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "NEBRASKA"
+    },
+    "32": {
+      "alpha": "NV",
+      "county_count": 17,
+      "crops": [
+        "wheat"
+      ],
+      "name": "NEVADA"
+    },
+    "34": {
+      "alpha": "NJ",
+      "county_count": 22,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "NEW JERSEY"
+    },
+    "35": {
+      "alpha": "NM",
+      "county_count": 33,
+      "crops": [
+        "corn",
+        "wheat"
+      ],
+      "name": "NEW MEXICO"
+    },
+    "36": {
+      "alpha": "NY",
+      "county_count": 56,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "NEW YORK"
+    },
+    "37": {
+      "alpha": "NC",
+      "county_count": 101,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "NORTH CAROLINA"
+    },
+    "38": {
+      "alpha": "ND",
+      "county_count": 54,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "NORTH DAKOTA"
+    },
+    "39": {
+      "alpha": "OH",
+      "county_count": 89,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "OHIO"
+    },
+    "40": {
+      "alpha": "OK",
+      "county_count": 78,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "OKLAHOMA"
+    },
+    "41": {
+      "alpha": "OR",
+      "county_count": 37,
+      "crops": [
+        "corn",
+        "wheat"
+      ],
+      "name": "OREGON"
+    },
+    "42": {
+      "alpha": "PA",
+      "county_count": 68,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "PENNSYLVANIA"
+    },
+    "45": {
+      "alpha": "SC",
+      "county_count": 47,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "SOUTH CAROLINA"
+    },
+    "46": {
+      "alpha": "SD",
+      "county_count": 69,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "SOUTH DAKOTA"
+    },
+    "47": {
+      "alpha": "TN",
+      "county_count": 96,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "TENNESSEE"
+    },
+    "48": {
+      "alpha": "TX",
+      "county_count": 250,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "TEXAS"
+    },
+    "49": {
+      "alpha": "UT",
+      "county_count": 29,
+      "crops": [
+        "corn",
+        "wheat"
+      ],
+      "name": "UTAH"
+    },
+    "51": {
+      "alpha": "VA",
+      "county_count": 98,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "VIRGINIA"
+    },
+    "53": {
+      "alpha": "WA",
+      "county_count": 40,
+      "crops": [
+        "corn",
+        "wheat"
+      ],
+      "name": "WASHINGTON"
+    },
+    "54": {
+      "alpha": "WV",
+      "county_count": 56,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "WEST VIRGINIA"
+    },
+    "55": {
+      "alpha": "WI",
+      "county_count": 72,
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "WISCONSIN"
+    },
+    "56": {
+      "alpha": "WY",
+      "county_count": 24,
+      "crops": [
+        "corn",
+        "wheat"
+      ],
+      "name": "WYOMING"
+    }
+  }
+}

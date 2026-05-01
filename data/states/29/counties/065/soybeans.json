@@ -1,0 +1,70 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "065",
+    "name": "DENT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1952": 10.0,
+        "1954": 11.0,
+        "1955": 14.0,
+        "1957": 13.0,
+        "1964": 8.0,
+        "1967": 19.0,
+        "1968": 17.0,
+        "1969": 26.0,
+        "1970": 20.5,
+        "1971": 23.0,
+        "1972": 26.0,
+        "1973": 26.0,
+        "1974": 30.0,
+        "1975": 24.0,
+        "1976": 16.0,
+        "1977": 22.0,
+        "1978": 24.0,
+        "1979": 24.0,
+        "1980": 12.8,
+        "1981": 24.0,
+        "1982": 20.5,
+        "1983": 15.1,
+        "1984": 20.1,
+        "1985": 28.5,
+        "1986": 26.5,
+        "1987": 32.2,
+        "1988": 24.4,
+        "1989": 30.8
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 24.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MO",
+    "fips": "29",
+    "name": "MISSOURI"
+  }
+}

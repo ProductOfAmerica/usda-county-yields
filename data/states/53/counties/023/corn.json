@@ -1,0 +1,41 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "023",
+    "name": "GARFIELD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1939": 9.0,
+        "1940": 16.0,
+        "1947": 41.0,
+        "1953": 37.0,
+        "1954": 37.0,
+        "1959": 65.0,
+        "1961": 88.0,
+        "1962": 82.0,
+        "1964": 70.0,
+        "1965": 60.0,
+        "1966": 75.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

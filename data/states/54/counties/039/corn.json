@@ -1,0 +1,82 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "039",
+    "name": "KANAWHA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1926": 31.0,
+        "1927": 31.0,
+        "1928": 34.0,
+        "1934": 19.0,
+        "1935": 20.0,
+        "1941": 27.0,
+        "1949": 30.4,
+        "1950": 25.7,
+        "1951": 40.9,
+        "1952": 38.2,
+        "1953": 34.4,
+        "1954": 35.8,
+        "1955": 40.8,
+        "1956": 40.0,
+        "1957": 34.7,
+        "1958": 40.3,
+        "1959": 36.7,
+        "1960": 48.9,
+        "1961": 43.1,
+        "1962": 37.5,
+        "1963": 40.3,
+        "1965": 46.4,
+        "1966": 28.5,
+        "1967": 54.0,
+        "1968": 48.0,
+        "1969": 69.0,
+        "1970": 49.0,
+        "1971": 83.0,
+        "1972": 48.0,
+        "1973": 67.5,
+        "1974": 63.7,
+        "1975": 75.0,
+        "1976": 81.0,
+        "1977": 69.5,
+        "1978": 73.0,
+        "1979": 81.0,
+        "1980": 72.0,
+        "1981": 65.1,
+        "1983": 83.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 70.4,
+        "1979": 81.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

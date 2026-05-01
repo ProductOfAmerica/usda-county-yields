@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "003",
+    "name": "ALPINE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1945": 35.0,
+        "1946": 28.0,
+        "1947": 30.0,
+        "1948": 30.0,
+        "1949": 30.0,
+        "1950": 30.0,
+        "1951": 30.0,
+        "1952": 30.0,
+        "1953": 30.0,
+        "1954": 30.0,
+        "1955": 30.0,
+        "1956": 30.0,
+        "1957": 30.0,
+        "1958": 30.0,
+        "1959": 30.0,
+        "1960": 28.0,
+        "1961": 30.0,
+        "1962": 32.0,
+        "1963": 26.0,
+        "1964": 24.0,
+        "1965": 16.0,
+        "1966": 23.0,
+        "1967": 26.0,
+        "1968": 27.0,
+        "1969": 28.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1945": 35.0,
+        "1946": 28.0,
+        "1947": 30.0,
+        "1948": 30.0,
+        "1949": 30.0,
+        "1950": 30.0,
+        "1951": 30.0,
+        "1952": 30.0,
+        "1953": 30.0,
+        "1954": 30.0,
+        "1955": 30.0,
+        "1956": 30.0,
+        "1957": 30.0,
+        "1958": 30.0,
+        "1959": 30.0,
+        "1960": 28.0,
+        "1961": 30.0,
+        "1962": 32.0,
+        "1963": 26.0,
+        "1964": 24.0,
+        "1965": 16.0,
+        "1966": 23.0,
+        "1967": 26.0,
+        "1968": 27.0,
+        "1969": 28.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  }
+}

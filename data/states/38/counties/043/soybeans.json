@@ -1,0 +1,80 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "043",
+    "name": "KIDDER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 6.0,
+        "1956": 6.0,
+        "1983": 16.0,
+        "1984": 13.5,
+        "1985": 15.0,
+        "1988": 30.0,
+        "1989": 27.5,
+        "1990": 12.0,
+        "1991": 17.3,
+        "1995": 26.4,
+        "1996": 26.0,
+        "1997": 20.6,
+        "1998": 26.8,
+        "1999": 27.9,
+        "2000": 26.3,
+        "2001": 24.0,
+        "2002": 19.2,
+        "2003": 28.1,
+        "2004": 18.4,
+        "2005": 31.9,
+        "2006": 20.4,
+        "2007": 34.8,
+        "2010": 29.9,
+        "2011": 29.3,
+        "2013": 23.9,
+        "2014": 34.9,
+        "2015": 27.2,
+        "2017": 30.9,
+        "2018": 34.8,
+        "2020": 30.7,
+        "2021": 22.2,
+        "2022": 25.8,
+        "2023": 36.8,
+        "2024": 35.2
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1983": 16.0,
+        "1984": 13.5,
+        "1985": 15.0,
+        "1988": 30.0,
+        "1989": 22.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  }
+}

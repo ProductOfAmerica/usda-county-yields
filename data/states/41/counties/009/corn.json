@@ -1,0 +1,42 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "009",
+    "name": "COLUMBIA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 60.0,
+        "1957": 72.0,
+        "1958": 74.0,
+        "1959": 66.0,
+        "1960": 69.0,
+        "1961": 65.0,
+        "1962": 70.0,
+        "1963": 70.0,
+        "1997": 210.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 0.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  }
+}

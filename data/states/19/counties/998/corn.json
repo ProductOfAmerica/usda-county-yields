@@ -1,0 +1,74 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "2015": 172.4,
+        "2017": 129.7,
+        "2018": 196.7,
+        "2019": 189.6,
+        "2020": 175.4,
+        "2021": 203.8,
+        "2022": 150.2,
+        "2023": 198.9,
+        "2024": 205.7
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "2000": 13.7,
+        "2001": 12.0,
+        "2003": 20.0,
+        "2004": 16.5,
+        "2005": 21.8,
+        "2006": 17.5,
+        "2007": 22.1,
+        "2008": 21.0,
+        "2009": 20.0,
+        "2010": 13.5,
+        "2011": 21.0,
+        "2012": 16.0,
+        "2013": 19.0,
+        "2014": 22.0,
+        "2015": 22.0,
+        "2016": 24.0,
+        "2017": 20.5,
+        "2018": 22.5,
+        "2019": 20.0,
+        "2020": 20.0,
+        "2021": 20.5,
+        "2022": 21.0,
+        "2023": 19.0,
+        "2024": 23.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  }
+}

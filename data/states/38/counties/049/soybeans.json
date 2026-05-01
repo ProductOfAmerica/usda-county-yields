@@ -1,0 +1,54 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "049",
+    "name": "MCHENRY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1956": 4.0,
+        "2001": 27.5,
+        "2002": 30.0,
+        "2003": 25.5,
+        "2004": 16.1,
+        "2005": 33.2,
+        "2006": 22.9,
+        "2007": 25.5,
+        "2008": 24.0,
+        "2009": 25.0,
+        "2010": 32.2,
+        "2011": 27.6,
+        "2012": 26.9,
+        "2014": 37.1,
+        "2015": 28.6,
+        "2016": 37.8,
+        "2017": 26.6,
+        "2018": 24.2,
+        "2019": 30.4,
+        "2020": 30.6,
+        "2021": 15.9,
+        "2022": 32.4,
+        "2023": 29.1,
+        "2024": 38.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  }
+}

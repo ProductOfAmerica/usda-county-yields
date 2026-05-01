@@ -1,0 +1,52 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "129",
+    "name": "MORGAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1957": 19.0,
+        "1958": 22.0,
+        "1959": 27.5,
+        "1972": 20.0,
+        "1974": 18.0,
+        "1975": 23.0,
+        "1976": 26.0,
+        "1977": 26.0,
+        "1978": 41.0,
+        "1979": 28.0,
+        "1980": 21.0,
+        "1981": 25.0,
+        "1982": 27.0,
+        "1983": 20.0,
+        "1984": 20.0,
+        "1985": 33.0,
+        "1986": 33.0,
+        "1987": 26.0,
+        "1988": 25.0,
+        "1989": 27.0,
+        "1990": 28.0,
+        "1995": 33.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

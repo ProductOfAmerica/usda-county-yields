@@ -1,0 +1,129 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "013",
+    "name": "BARAGA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1942": 20.6,
+        "1943": 9.5,
+        "1944": 13.0,
+        "1945": 15.6,
+        "1946": 12.0,
+        "1947": 10.0,
+        "1948": 10.0,
+        "1949": 10.0,
+        "1950": 10.0,
+        "1951": 20.0,
+        "1952": 23.0,
+        "1953": 25.0,
+        "1954": 25.0,
+        "1955": 20.0,
+        "1956": 20.0,
+        "1957": 20.0,
+        "1958": 20.0,
+        "1959": 30.0,
+        "1960": 25.0,
+        "1961": 20.0,
+        "1978": 28.5,
+        "1980": 30.0,
+        "1981": 30.7,
+        "1982": 33.3,
+        "1983": 32.0,
+        "1984": 33.3,
+        "1985": 36.7,
+        "1986": 30.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 28.5,
+        "1980": 28.6,
+        "1981": 28.7,
+        "1982": 25.0,
+        "1983": 32.0,
+        "1984": 25.0,
+        "1985": 36.7
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1946": 12.0,
+        "1947": 10.0,
+        "1948": 10.0,
+        "1949": 10.0,
+        "1950": 10.0,
+        "1951": 20.0,
+        "1952": 23.0,
+        "1953": 25.0,
+        "1954": 25.0,
+        "1955": 20.0,
+        "1956": 20.0,
+        "1957": 20.0,
+        "1958": 20.0,
+        "1959": 30.0,
+        "1960": 25.0,
+        "1961": 20.0,
+        "1978": 28.5,
+        "1980": 30.0,
+        "1981": 30.7,
+        "1982": 33.3,
+        "1983": 32.0,
+        "1984": 33.3,
+        "1985": 36.7,
+        "1986": 30.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 28.5,
+        "1980": 28.6,
+        "1981": 28.7,
+        "1982": 25.0,
+        "1983": 32.0,
+        "1984": 25.0,
+        "1985": 36.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

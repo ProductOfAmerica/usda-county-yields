@@ -1,0 +1,62 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "109",
+    "name": "OKLAHOMA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1967": 22.7,
+        "1968": 19.0,
+        "1973": 21.0,
+        "1974": 25.7,
+        "1987": 23.4,
+        "1988": 15.6,
+        "1989": 21.7,
+        "1990": 19.6,
+        "1991": 33.3,
+        "1993": 26.0,
+        "1994": 27.8,
+        "1995": 23.8,
+        "1996": 35.0,
+        "1997": 30.0,
+        "1998": 11.7,
+        "1999": 16.7,
+        "2000": 20.7,
+        "2001": 22.9,
+        "2002": 32.1,
+        "2003": 30.0,
+        "2004": 37.5,
+        "2005": 36.4,
+        "2006": 12.9,
+        "2008": 31.5,
+        "2009": 41.5,
+        "2010": 26.0,
+        "2011": 6.9,
+        "2013": 42.5,
+        "2014": 43.2,
+        "2015": 26.2,
+        "2016": 35.0,
+        "2018": 30.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

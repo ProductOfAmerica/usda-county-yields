@@ -1,0 +1,84 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "061",
+    "name": "PLACER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1974": 77.0,
+        "1976": 95.0,
+        "1977": 90.0,
+        "1980": 138.0,
+        "1981": 133.0,
+        "1984": 120.0,
+        "1988": 140.0,
+        "1989": 145.0,
+        "1990": 166.7,
+        "1991": 150.0,
+        "1992": 176.3,
+        "1993": 200.0,
+        "1994": 200.0,
+        "1995": 150.0,
+        "1996": 164.3,
+        "1997": 175.0,
+        "1998": 136.7,
+        "1999": 110.0,
+        "2000": 150.0,
+        "2003": 0.0,
+        "2005": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1980": 138.0,
+        "1981": 133.0,
+        "1984": 120.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1988": 23.3,
+        "1989": 30.0,
+        "1991": 23.8,
+        "1993": 20.0,
+        "1996": 33.3,
+        "1997": 35.0,
+        "2003": 25.0,
+        "2005": 25.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  }
+}

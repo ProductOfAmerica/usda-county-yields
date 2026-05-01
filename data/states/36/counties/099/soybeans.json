@@ -1,0 +1,55 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "099",
+    "name": "SENECA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 30.0,
+        "2001": 35.0,
+        "2002": 29.0,
+        "2003": 35.0,
+        "2004": 39.0,
+        "2005": 37.0,
+        "2006": 44.0,
+        "2007": 38.0,
+        "2008": 49.0,
+        "2009": 46.5,
+        "2010": 52.6,
+        "2011": 45.9,
+        "2012": 49.3,
+        "2013": 54.4,
+        "2014": 50.4,
+        "2015": 40.7,
+        "2016": 38.2,
+        "2017": 44.8,
+        "2018": 58.1,
+        "2019": 51.5,
+        "2020": 46.6,
+        "2021": 56.8,
+        "2022": 44.5,
+        "2023": 58.0,
+        "2024": 55.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

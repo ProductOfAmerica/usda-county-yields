@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "057",
+    "name": "MONTGOMERY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 32.0,
+        "2001": 38.0,
+        "2002": 42.0,
+        "2003": 34.0,
+        "2004": 36.0,
+        "2005": 36.0,
+        "2006": 33.0,
+        "2007": 38.0,
+        "2008": 40.0,
+        "2010": 48.2,
+        "2012": 39.3,
+        "2017": 32.9,
+        "2020": 59.5,
+        "2021": 54.5,
+        "2022": 48.7,
+        "2023": 54.3,
+        "2024": 51.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

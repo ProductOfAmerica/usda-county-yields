@@ -1,0 +1,47 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "061",
+    "name": "ITASCA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1958": 11.0,
+        "1961": 8.0,
+        "1967": 9.0,
+        "1968": 12.0,
+        "1969": 11.0,
+        "1970": 12.0,
+        "1971": 12.0,
+        "1974": 14.0,
+        "1975": 11.0,
+        "1979": 24.0,
+        "1980": 22.0,
+        "1981": 25.0,
+        "2020": 36.9,
+        "2021": 37.3,
+        "2022": 28.0,
+        "2023": 34.7,
+        "2024": 28.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MN",
+    "fips": "27",
+    "name": "MINNESOTA"
+  }
+}

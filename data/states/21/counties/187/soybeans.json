@@ -1,0 +1,44 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "187",
+    "name": "OWEN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1982": 30.0,
+        "1983": 20.0,
+        "1984": 30.0,
+        "1985": 38.0,
+        "1986": 35.0,
+        "2010": 35.0,
+        "2012": 45.2,
+        "2013": 53.8,
+        "2014": 51.2,
+        "2015": 48.8,
+        "2018": 34.7,
+        "2020": 53.1,
+        "2021": 53.4,
+        "2023": 51.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "005",
+    "name": "ASCENSION"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 32.9,
+        "1960": 31.8,
+        "1961": 41.4,
+        "1962": 32.6,
+        "1963": 34.0,
+        "1964": 35.7,
+        "1965": 37.1,
+        "1966": 35.0,
+        "1967": 50.0,
+        "1968": 45.0,
+        "1969": 48.0,
+        "1970": 58.0,
+        "1971": 40.0,
+        "1972": 40.0,
+        "1973": 30.0,
+        "1974": 30.0,
+        "1975": 40.0,
+        "1976": 60.0,
+        "1977": 50.0,
+        "1978": 60.0,
+        "1979": 40.0,
+        "1980": 60.0,
+        "1981": 75.0,
+        "1982": 60.0,
+        "1984": 65.5,
+        "1986": 114.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 54.0,
+        "1979": 35.0,
+        "1980": 50.0,
+        "1981": 75.0,
+        "1982": 60.0,
+        "1984": 65.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

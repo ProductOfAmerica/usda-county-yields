@@ -1,0 +1,48 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "001",
+    "name": "ALACHUA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 30.0,
+        "1975": 27.0,
+        "1976": 30.0,
+        "1977": 22.0,
+        "1978": 24.0,
+        "1979": 31.0,
+        "1980": 28.0,
+        "1981": 24.0,
+        "1982": 24.0,
+        "1983": 25.0,
+        "1984": 28.0,
+        "1985": 28.0,
+        "1986": 22.0,
+        "1987": 23.0,
+        "1988": 30.0,
+        "1989": 23.0,
+        "1990": 19.1,
+        "1991": 18.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  }
+}

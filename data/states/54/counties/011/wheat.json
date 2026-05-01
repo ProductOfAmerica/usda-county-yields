@@ -1,0 +1,135 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "011",
+    "name": "CABELL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 11.0,
+        "1927": 13.0,
+        "1928": 13.0,
+        "1934": 9.0,
+        "1935": 12.0,
+        "1941": 14.0,
+        "1949": 17.1,
+        "1950": 12.8,
+        "1951": 13.0,
+        "1952": 19.8,
+        "1953": 18.4,
+        "1954": 18.3,
+        "1955": 16.3,
+        "1956": 17.0,
+        "1957": 19.8,
+        "1958": 20.0,
+        "1959": 16.1,
+        "1960": 30.4,
+        "1961": 24.9,
+        "1962": 25.2,
+        "1963": 23.0,
+        "1965": 23.0,
+        "1966": 22.0,
+        "1984": 33.0,
+        "1985": 39.0,
+        "1986": 36.0,
+        "1987": 45.0,
+        "1988": 39.0,
+        "1989": 38.5,
+        "1990": 37.1,
+        "1991": 30.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1984": 29.0,
+        "1985": 31.0,
+        "1986": 31.0,
+        "1987": 28.0,
+        "1988": 28.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 11.0,
+        "1927": 13.0,
+        "1928": 13.0,
+        "1934": 9.0,
+        "1935": 12.0,
+        "1941": 14.0,
+        "1949": 17.1,
+        "1950": 12.8,
+        "1951": 13.0,
+        "1952": 19.8,
+        "1953": 18.4,
+        "1954": 18.3,
+        "1955": 16.3,
+        "1956": 17.0,
+        "1957": 19.8,
+        "1958": 20.0,
+        "1959": 16.1,
+        "1960": 30.4,
+        "1961": 24.9,
+        "1962": 25.2,
+        "1963": 23.0,
+        "1965": 23.0,
+        "1966": 22.0,
+        "1984": 33.0,
+        "1985": 39.0,
+        "1986": 36.0,
+        "1987": 45.0,
+        "1988": 39.0,
+        "1989": 38.5,
+        "1990": 37.1,
+        "1991": 30.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1984": 29.0,
+        "1985": 31.0,
+        "1986": 31.0,
+        "1987": 28.0,
+        "1988": 28.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

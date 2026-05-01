@@ -1,0 +1,59 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "131",
+    "name": "WALTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1961": 21.0,
+        "1962": 21.0,
+        "1963": 22.0,
+        "1964": 24.0,
+        "1965": 26.0,
+        "1966": 27.0,
+        "1967": 27.0,
+        "1979": 30.0,
+        "1980": 21.0,
+        "1981": 23.0,
+        "1982": 24.0,
+        "1983": 22.0,
+        "1984": 21.0,
+        "1985": 24.0,
+        "1986": 21.0,
+        "1987": 29.0,
+        "1988": 32.0,
+        "1989": 23.0,
+        "1990": 16.1,
+        "1991": 30.9,
+        "1992": 30.0,
+        "1993": 19.4,
+        "1994": 29.0,
+        "1995": 16.0,
+        "1996": 28.8,
+        "1997": 25.9,
+        "1998": 21.7,
+        "1999": 30.7,
+        "2000": 18.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "049",
+    "name": "FULTON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 16.0,
+        "1950": 17.0,
+        "1951": 18.0,
+        "1952": 16.0,
+        "1953": 8.0,
+        "1961": 19.0,
+        "1962": 20.0,
+        "1963": 18.0,
+        "1964": 18.0,
+        "1965": 22.0,
+        "1967": 18.0,
+        "1968": 16.0,
+        "1969": 16.0,
+        "1970": 20.0,
+        "1971": 19.0,
+        "1972": 20.0,
+        "1973": 18.0,
+        "1974": 16.6,
+        "1975": 20.0,
+        "1976": 14.7,
+        "1977": 19.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0,
+        "1973": 18.0,
+        "1974": 16.6,
+        "1975": 20.0,
+        "1976": 14.7,
+        "1977": 19.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

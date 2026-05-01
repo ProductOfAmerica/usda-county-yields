@@ -1,0 +1,64 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "049",
+    "name": "FENTRESS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1976": 23.0,
+        "1977": 24.0,
+        "1978": 29.0,
+        "1979": 24.0,
+        "1980": 16.0,
+        "1981": 25.0,
+        "1982": 20.0,
+        "1983": 19.0,
+        "1984": 27.0,
+        "1985": 28.0,
+        "1986": 33.0,
+        "1987": 26.0,
+        "1988": 27.0,
+        "1989": 30.0,
+        "1990": 29.0,
+        "1991": 27.0,
+        "1992": 27.0,
+        "1993": 26.0,
+        "1994": 38.0,
+        "1995": 33.0,
+        "1996": 36.0,
+        "1997": 30.0,
+        "1998": 30.0,
+        "1999": 26.0,
+        "2012": 30.7,
+        "2013": 43.6,
+        "2014": 41.0,
+        "2015": 38.2,
+        "2016": 42.1,
+        "2017": 52.7,
+        "2018": 48.6,
+        "2019": 41.8,
+        "2023": 55.2,
+        "2024": 45.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

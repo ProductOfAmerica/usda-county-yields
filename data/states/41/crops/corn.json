@@ -1,0 +1,1515 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "counties": {
+    "001": {
+      "name": "BAKER",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 80.0,
+            "1957": 86.0,
+            "1958": 90.0,
+            "1959": 88.0,
+            "1960": 76.0,
+            "1961": 75.0,
+            "1962": 80.0,
+            "1963": 80.0,
+            "1964": 80.0,
+            "1965": 80.0,
+            "1966": 90.0,
+            "1967": 100.0,
+            "1968": 80.0,
+            "1969": 92.0,
+            "1970": 80.0,
+            "1971": 80.0,
+            "1972": 80.0,
+            "1973": 90.0,
+            "1974": 100.0,
+            "1975": 70.0,
+            "1976": 80.0,
+            "1977": 75.0,
+            "1978": 100.0,
+            "1984": 100.0,
+            "1985": 100.0,
+            "1986": 120.0,
+            "1997": 181.5,
+            "1998": 179.5,
+            "1999": 161.5,
+            "2000": 0.0,
+            "2001": 0.0,
+            "2002": 0.0,
+            "2003": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 100.0,
+            "1984": 100.0,
+            "1985": 100.0,
+            "1986": 120.0
+          }
+        }
+      ]
+    },
+    "003": {
+      "name": "BENTON",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 76.0,
+            "1957": 83.0,
+            "1958": 76.5,
+            "1959": 76.5,
+            "1960": 80.0,
+            "1961": 67.0,
+            "1962": 80.0,
+            "1963": 80.0,
+            "1964": 80.0,
+            "1965": 80.0,
+            "1966": 85.0,
+            "1967": 85.0,
+            "1968": 80.0,
+            "1969": 90.0,
+            "1970": 78.5,
+            "1971": 90.0,
+            "1972": 80.0,
+            "1973": 85.0,
+            "1974": 70.0,
+            "1975": 70.0,
+            "1976": 95.0,
+            "1977": 85.0,
+            "1978": 80.0,
+            "1999": 0.0,
+            "2000": 0.0,
+            "2001": 0.0,
+            "2002": 0.0,
+            "2003": 0.0,
+            "2004": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 53.3
+          }
+        }
+      ]
+    },
+    "005": {
+      "name": "CLACKAMAS",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 63.0,
+            "1957": 68.0,
+            "1958": 60.0,
+            "1959": 45.0,
+            "1960": 49.0,
+            "1961": 64.5,
+            "1962": 70.0,
+            "1963": 70.0,
+            "1964": 60.0,
+            "1965": 60.0,
+            "1966": 62.5,
+            "1967": 60.0,
+            "1968": 50.0,
+            "1969": 62.0,
+            "1970": 62.0,
+            "1971": 70.0,
+            "1972": 60.0,
+            "1973": 85.0,
+            "1974": 65.2,
+            "1975": 68.0,
+            "1976": 80.0,
+            "1977": 70.0,
+            "1978": 75.0,
+            "1979": 80.0,
+            "1980": 80.0,
+            "1981": 80.0,
+            "1982": 90.0,
+            "1983": 85.0,
+            "1984": 95.0,
+            "1985": 100.0,
+            "1986": 130.0,
+            "1987": 130.0,
+            "1988": 131.0,
+            "1989": 130.0,
+            "1990": 120.0,
+            "1991": 112.5,
+            "1992": 110.0,
+            "1993": 108.5,
+            "1994": 135.0,
+            "1995": 120.0,
+            "1996": 140.0,
+            "1998": 100.0,
+            "1999": 150.0,
+            "2000": 0.0,
+            "2001": 0.0,
+            "2002": 0.0,
+            "2003": 0.0,
+            "2004": 0.0,
+            "2006": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 69.2,
+            "1979": 53.3,
+            "1980": 40.0,
+            "1981": 40.0,
+            "1982": 90.0,
+            "1983": 85.0,
+            "1984": 71.3,
+            "1985": 75.0,
+            "1986": 130.0,
+            "1987": 130.0,
+            "1988": 22.6,
+            "1989": 21.7,
+            "1990": 20.0
+          }
+        }
+      ]
+    },
+    "009": {
+      "name": "COLUMBIA",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 60.0,
+            "1957": 72.0,
+            "1958": 74.0,
+            "1959": 66.0,
+            "1960": 69.0,
+            "1961": 65.0,
+            "1962": 70.0,
+            "1963": 70.0,
+            "1997": 210.0,
+            "1999": 0.0,
+            "2000": 0.0,
+            "2001": 0.0
+          }
+        }
+      ]
+    },
+    "011": {
+      "name": "COOS",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1996": 160.0,
+            "1999": 0.0,
+            "2000": 0.0,
+            "2001": 0.0,
+            "2003": 0.0
+          }
+        }
+      ]
+    },
+    "013": {
+      "name": "CROOK",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1973": 100.0,
+            "1974": 85.0,
+            "1975": 90.0,
+            "1976": 100.0,
+            "1996": 160.0,
+            "2000": 0.0,
+            "2001": 0.0
+          }
+        }
+      ]
+    },
+    "017": {
+      "name": "DESCHUTES",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1958": 40.0,
+            "1959": 16.0,
+            "1960": 20.0,
+            "1973": 90.0,
+            "1974": 73.0,
+            "1975": 80.0,
+            "1976": 95.0,
+            "1977": 84.0,
+            "2000": 0.0
+          }
+        }
+      ]
+    },
+    "019": {
+      "name": "DOUGLAS",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 70.0,
+            "1957": 77.0,
+            "1958": 74.5,
+            "1959": 67.0,
+            "1960": 68.0,
+            "1961": 66.0,
+            "1962": 76.0,
+            "1963": 65.0,
+            "1964": 80.0,
+            "1965": 70.0,
+            "1966": 75.0,
+            "1967": 70.0,
+            "1968": 70.0,
+            "1969": 78.0,
+            "1970": 75.0,
+            "1971": 75.0,
+            "1972": 66.0,
+            "1973": 95.0,
+            "1974": 72.0,
+            "1975": 75.0,
+            "1976": 95.0,
+            "1977": 85.0,
+            "1978": 85.0,
+            "1979": 85.0,
+            "1980": 90.0,
+            "1981": 90.0,
+            "1982": 95.0,
+            "1983": 100.0,
+            "2000": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 68.0,
+            "1979": 51.0,
+            "1980": 45.0,
+            "1981": 60.0,
+            "1982": 95.0,
+            "1983": 100.0
+          }
+        }
+      ]
+    },
+    "021": {
+      "name": "GILLIAM",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1957": 68.0,
+            "1958": 60.0,
+            "1959": 60.0,
+            "1960": 60.0,
+            "1961": 56.0,
+            "1985": 120.0,
+            "1993": 120.0,
+            "1994": 139.0,
+            "1995": 140.0,
+            "1996": 120.0,
+            "1997": 137.0,
+            "1998": 150.0,
+            "1999": 167.0,
+            "2000": 75.5,
+            "2002": 159.0,
+            "2003": 137.0,
+            "2004": 129.0,
+            "2005": 90.0,
+            "2006": 98.5
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1985": 120.0
+          }
+        }
+      ]
+    },
+    "023": {
+      "name": "GRANT",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1987": 70.0,
+            "1996": 130.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1987": 70.0
+          }
+        }
+      ]
+    },
+    "025": {
+      "name": "HARNEY",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1996": 163.0,
+            "1999": 0.0,
+            "2000": 0.0,
+            "2001": 0.0
+          }
+        }
+      ]
+    },
+    "027": {
+      "name": "HOOD RIVER",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 60.0,
+            "1957": 68.0,
+            "1958": 60.0,
+            "1959": 60.0,
+            "1960": 64.0,
+            "1961": 60.0,
+            "1999": 0.0,
+            "2000": 0.0,
+            "2001": 0.0
+          }
+        }
+      ]
+    },
+    "029": {
+      "name": "JACKSON",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 60.0,
+            "1957": 67.0,
+            "1958": 46.5,
+            "1959": 40.5,
+            "1960": 46.5,
+            "1961": 51.0,
+            "1962": 60.0,
+            "1963": 55.0,
+            "1964": 50.0,
+            "1965": 60.0,
+            "1966": 70.0,
+            "1967": 80.0,
+            "1999": 0.0,
+            "2000": 0.0,
+            "2001": 0.0,
+            "2002": 0.0
+          }
+        }
+      ]
+    },
+    "031": {
+      "name": "JEFFERSON",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1996": 140.0,
+            "1997": 176.0,
+            "1998": 165.0,
+            "2000": 0.0,
+            "2001": 0.0
+          }
+        }
+      ]
+    },
+    "033": {
+      "name": "JOSEPHINE",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 64.0,
+            "1957": 72.0,
+            "1958": 86.5,
+            "1959": 80.0,
+            "1960": 76.0,
+            "1961": 71.0,
+            "1962": 70.0,
+            "1963": 60.0,
+            "1964": 50.0,
+            "1965": 60.0,
+            "1966": 60.0,
+            "1967": 60.0,
+            "1982": 103.0,
+            "1997": 160.0,
+            "1998": 158.0,
+            "1999": 0.0,
+            "2000": 0.0,
+            "2001": 0.0,
+            "2003": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1982": 103.0
+          }
+        }
+      ]
+    },
+    "035": {
+      "name": "KLAMATH",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1996": 151.0,
+            "1998": 135.0
+          }
+        }
+      ]
+    },
+    "039": {
+      "name": "LANE",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 81.0,
+            "1957": 92.5,
+            "1958": 71.5,
+            "1959": 67.5,
+            "1960": 71.0,
+            "1961": 63.0,
+            "1962": 75.0,
+            "1963": 70.0,
+            "1964": 80.0,
+            "1965": 80.0,
+            "1966": 80.0,
+            "1967": 84.0,
+            "1968": 80.0,
+            "1969": 85.0,
+            "1970": 75.5,
+            "1971": 88.0,
+            "1972": 80.0,
+            "1973": 80.0,
+            "1974": 45.3,
+            "1976": 95.0,
+            "1977": 80.0,
+            "1978": 75.0,
+            "1996": 146.5,
+            "1999": 160.0,
+            "2001": 0.0,
+            "2002": 0.0,
+            "2003": 0.0,
+            "2006": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 75.0
+          }
+        }
+      ]
+    },
+    "043": {
+      "name": "LINN",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 60.0,
+            "1957": 72.0,
+            "1958": 70.0,
+            "1959": 61.5,
+            "1960": 65.0,
+            "1961": 62.5,
+            "1962": 72.0,
+            "1963": 75.0,
+            "1964": 60.0,
+            "1965": 60.0,
+            "1966": 70.0,
+            "1967": 75.0,
+            "1968": 75.0,
+            "1969": 80.0,
+            "1970": 75.0,
+            "1971": 85.0,
+            "1972": 75.0,
+            "1974": 60.0,
+            "1978": 85.0,
+            "1982": 90.0,
+            "1986": 120.0,
+            "1987": 120.0,
+            "1988": 120.0,
+            "1989": 120.0,
+            "1990": 115.0,
+            "1991": 105.0,
+            "1992": 110.0,
+            "1993": 105.0,
+            "1994": 142.5,
+            "1995": 128.0,
+            "1996": 140.0,
+            "1999": 163.0,
+            "2002": 140.0,
+            "2003": 135.0,
+            "2006": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 85.0,
+            "1982": 90.0,
+            "1986": 120.0,
+            "1987": 120.0,
+            "1988": 8.0,
+            "1989": 6.0,
+            "1990": 6.8
+          }
+        }
+      ]
+    },
+    "045": {
+      "name": "MALHEUR",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 69.0,
+            "1957": 74.0,
+            "1958": 76.0,
+            "1959": 73.5,
+            "1960": 79.5,
+            "1961": 77.0,
+            "1962": 74.5,
+            "1963": 75.0,
+            "1964": 79.5,
+            "1965": 79.0,
+            "1966": 80.0,
+            "1967": 86.0,
+            "1968": 87.0,
+            "1969": 92.5,
+            "1970": 82.5,
+            "1971": 89.5,
+            "1972": 85.9,
+            "1973": 89.4,
+            "1974": 85.7,
+            "1975": 83.6,
+            "1976": 88.5,
+            "1977": 95.5,
+            "1978": 103.0,
+            "1979": 99.3,
+            "1980": 95.6,
+            "1981": 100.0,
+            "1982": 115.0,
+            "1983": 110.0,
+            "1984": 125.0,
+            "1985": 130.0,
+            "1986": 146.0,
+            "1987": 143.0,
+            "1988": 129.0,
+            "1989": 140.0,
+            "1990": 108.6,
+            "1991": 105.0,
+            "1992": 93.0,
+            "1993": 130.0,
+            "1994": 138.0,
+            "1995": 123.0,
+            "1996": 139.5,
+            "1997": 160.0,
+            "1998": 150.0,
+            "1999": 148.0,
+            "2000": 154.0,
+            "2001": 135.0,
+            "2002": 145.0,
+            "2003": 128.5,
+            "2004": 140.0,
+            "2005": 140.5,
+            "2006": 166.0,
+            "2007": 178.0,
+            "2008": 187.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 97.4,
+            "1979": 88.2,
+            "1980": 91.6,
+            "1981": 94.8,
+            "1982": 112.5,
+            "1983": 104.8,
+            "1984": 116.7,
+            "1985": 125.3,
+            "1986": 146.0,
+            "1987": 143.0,
+            "1988": 73.1,
+            "1989": 85.5,
+            "1990": 44.0
+          }
+        }
+      ]
+    },
+    "047": {
+      "name": "MARION",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 58.5,
+            "1957": 70.0,
+            "1958": 64.5,
+            "1959": 58.0,
+            "1960": 62.0,
+            "1961": 60.5,
+            "1962": 70.0,
+            "1963": 64.0,
+            "1964": 58.0,
+            "1965": 58.0,
+            "1966": 66.5,
+            "1967": 65.0,
+            "1968": 65.0,
+            "1969": 81.5,
+            "1970": 75.0,
+            "1971": 80.0,
+            "1972": 75.0,
+            "1973": 81.0,
+            "1974": 72.0,
+            "1975": 70.0,
+            "1976": 95.0,
+            "1977": 85.0,
+            "1978": 80.0,
+            "1979": 90.0,
+            "1980": 90.0,
+            "1981": 90.0,
+            "1982": 120.0,
+            "1985": 125.0,
+            "1986": 120.0,
+            "1987": 125.0,
+            "1988": 130.0,
+            "1989": 135.0,
+            "1996": 135.0,
+            "1999": 0.0,
+            "2000": 0.0,
+            "2001": 0.0,
+            "2002": 0.0,
+            "2003": 0.0,
+            "2004": 0.0,
+            "2006": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 73.3,
+            "1979": 60.0,
+            "1980": 60.0,
+            "1981": 45.0,
+            "1982": 120.0,
+            "1985": 104.2,
+            "1986": 120.0,
+            "1987": 125.0,
+            "1988": 3.1,
+            "1989": 3.4
+          }
+        }
+      ]
+    },
+    "049": {
+      "name": "MORROW",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 80.0,
+            "1957": 97.5,
+            "1958": 80.0,
+            "1959": 82.5,
+            "1960": 84.0,
+            "1961": 80.0,
+            "1962": 76.0,
+            "1963": 75.0,
+            "1970": 90.0,
+            "1971": 90.0,
+            "1972": 90.0,
+            "1973": 100.0,
+            "1974": 100.0,
+            "1975": 95.0,
+            "1976": 105.0,
+            "1977": 110.0,
+            "1978": 100.0,
+            "1979": 110.0,
+            "1980": 120.0,
+            "1981": 150.3,
+            "1982": 178.9,
+            "1983": 177.1,
+            "1984": 165.1,
+            "1985": 178.0,
+            "1986": 173.0,
+            "1987": 179.0,
+            "1988": 185.0,
+            "1989": 175.0,
+            "1990": 175.0,
+            "1991": 154.2,
+            "1992": 165.0,
+            "1993": 165.0,
+            "1994": 184.5,
+            "1995": 199.0,
+            "1996": 198.5,
+            "1997": 221.0,
+            "1998": 233.0,
+            "1999": 214.0,
+            "2000": 215.0,
+            "2001": 225.0,
+            "2002": 225.0,
+            "2003": 215.5,
+            "2004": 219.5,
+            "2005": 215.5,
+            "2006": 220.0,
+            "2007": 230.5,
+            "2008": 230.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 83.9,
+            "1979": 85.6,
+            "1980": 104.3,
+            "1981": 145.7,
+            "1982": 174.9,
+            "1983": 173.1,
+            "1984": 163.8,
+            "1985": 178.0,
+            "1986": 173.0,
+            "1987": 179.0,
+            "1988": 124.5,
+            "1989": 175.0,
+            "1990": 163.1
+          }
+        }
+      ]
+    },
+    "051": {
+      "name": "MULTNOMAH",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 72.0,
+            "1957": 72.0,
+            "1958": 70.0,
+            "1959": 64.0,
+            "1960": 68.0,
+            "1961": 64.0,
+            "1962": 60.0,
+            "1976": 80.0,
+            "1977": 73.0,
+            "1978": 70.0,
+            "1986": 120.0,
+            "1996": 175.0,
+            "2000": 0.0,
+            "2001": 0.0,
+            "2004": 0.0,
+            "2006": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 70.0,
+            "1986": 120.0
+          }
+        }
+      ]
+    },
+    "053": {
+      "name": "POLK",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 50.0,
+            "1957": 59.5,
+            "1958": 51.0,
+            "1959": 45.0,
+            "1960": 51.5,
+            "1961": 50.0,
+            "1962": 60.0,
+            "1963": 60.0,
+            "1964": 55.0,
+            "1965": 60.0,
+            "1966": 65.0,
+            "1967": 70.0,
+            "1968": 60.0,
+            "1969": 68.0,
+            "1975": 75.2,
+            "1976": 85.0,
+            "1977": 75.0,
+            "1978": 70.0,
+            "1979": 75.0,
+            "1982": 90.0,
+            "1985": 120.0,
+            "1986": 130.0,
+            "1987": 130.0,
+            "1988": 130.0,
+            "1989": 140.0,
+            "1990": 133.3,
+            "1991": 121.7,
+            "1992": 135.0,
+            "1999": 0.0,
+            "2002": 0.0,
+            "2003": 0.0,
+            "2004": 0.0,
+            "2006": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 70.0,
+            "1979": 45.0,
+            "1982": 90.0,
+            "1985": 80.0,
+            "1986": 130.0,
+            "1987": 130.0,
+            "1988": 39.0,
+            "1989": 16.8,
+            "1990": 23.5
+          }
+        }
+      ]
+    },
+    "055": {
+      "name": "SHERMAN",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1958": 60.0,
+            "1959": 60.0,
+            "1960": 60.0,
+            "1961": 60.0,
+            "2000": 0.0,
+            "2001": 0.0
+          }
+        }
+      ]
+    },
+    "059": {
+      "name": "UMATILLA",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 77.5,
+            "1957": 97.5,
+            "1958": 92.0,
+            "1959": 85.5,
+            "1960": 87.5,
+            "1961": 85.0,
+            "1962": 86.5,
+            "1963": 80.0,
+            "1964": 74.5,
+            "1965": 80.0,
+            "1966": 82.0,
+            "1967": 100.0,
+            "1968": 88.0,
+            "1969": 84.0,
+            "1970": 80.0,
+            "1971": 95.0,
+            "1972": 90.0,
+            "1973": 100.0,
+            "1974": 140.0,
+            "1975": 95.0,
+            "1976": 109.0,
+            "1977": 103.0,
+            "1978": 120.0,
+            "1979": 135.0,
+            "1980": 135.0,
+            "1981": 145.0,
+            "1982": 171.0,
+            "1983": 167.0,
+            "1984": 166.0,
+            "1985": 177.0,
+            "1986": 170.2,
+            "1987": 178.9,
+            "1988": 195.0,
+            "1989": 190.0,
+            "1990": 190.0,
+            "1991": 179.2,
+            "1992": 185.0,
+            "1993": 187.5,
+            "1994": 202.5,
+            "1995": 177.5,
+            "1996": 188.5,
+            "1997": 216.0,
+            "1998": 199.0,
+            "1999": 197.0,
+            "2000": 195.0,
+            "2001": 141.0,
+            "2002": 145.0,
+            "2003": 226.0,
+            "2004": 230.0,
+            "2005": 191.0,
+            "2006": 225.0,
+            "2007": 219.5,
+            "2008": 190.0,
+            "2009": 234.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 112.5,
+            "1979": 123.8,
+            "1980": 131.4,
+            "1981": 142.8,
+            "1982": 163.3,
+            "1983": 159.7,
+            "1984": 163.0,
+            "1985": 173.7,
+            "1986": 170.2,
+            "1987": 178.9,
+            "1988": 119.3,
+            "1989": 160.8,
+            "1990": 133.9
+          }
+        }
+      ]
+    },
+    "061": {
+      "name": "UNION",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1996": 122.0
+          }
+        }
+      ]
+    },
+    "063": {
+      "name": "WALLOWA",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1971": 70.0,
+            "1974": 80.0,
+            "1976": 79.0,
+            "1977": 72.0
+          }
+        }
+      ]
+    },
+    "065": {
+      "name": "WASCO",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 80.0,
+            "1957": 96.0,
+            "1958": 90.0,
+            "1959": 86.0,
+            "1960": 86.0,
+            "1961": 80.0,
+            "1962": 80.0,
+            "1963": 60.0,
+            "1964": 60.0,
+            "1965": 60.0,
+            "1966": 80.0,
+            "1995": 75.0,
+            "1996": 100.0,
+            "1998": 104.0,
+            "1999": 117.0,
+            "2000": 0.0,
+            "2001": 0.0
+          }
+        }
+      ]
+    },
+    "067": {
+      "name": "WASHINGTON",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 58.0,
+            "1957": 80.0,
+            "1958": 70.0,
+            "1959": 55.0,
+            "1960": 60.0,
+            "1961": 55.5,
+            "1962": 70.0,
+            "1963": 74.0,
+            "1964": 50.0,
+            "1965": 55.0,
+            "1966": 65.0,
+            "1967": 60.0,
+            "1968": 60.0,
+            "1969": 88.0,
+            "1971": 80.0,
+            "1972": 80.0,
+            "1973": 85.0,
+            "1974": 75.0,
+            "1975": 80.0,
+            "1976": 96.0,
+            "1977": 72.0,
+            "1978": 65.0,
+            "1982": 94.0,
+            "1983": 105.0,
+            "1984": 90.0,
+            "1985": 115.0,
+            "1986": 100.0,
+            "1989": 165.0,
+            "1990": 150.0,
+            "1991": 135.0,
+            "1992": 135.0,
+            "1993": 115.0,
+            "1994": 140.0,
+            "1995": 100.0,
+            "1996": 130.0,
+            "1997": 105.0,
+            "1999": 175.0,
+            "2000": 0.0,
+            "2002": 0.0,
+            "2003": 0.0,
+            "2006": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 55.7,
+            "1982": 94.0,
+            "1983": 105.0,
+            "1984": 60.0,
+            "1985": 76.7,
+            "1986": 100.0,
+            "1989": 6.6,
+            "1990": 5.4
+          }
+        }
+      ]
+    },
+    "071": {
+      "name": "YAMHILL",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1956": 56.0,
+            "1957": 66.5,
+            "1958": 71.5,
+            "1959": 62.0,
+            "1960": 64.0,
+            "1961": 61.5,
+            "1962": 73.0,
+            "1963": 68.5,
+            "1964": 90.0,
+            "1965": 80.0,
+            "1966": 75.0,
+            "1967": 76.5,
+            "1968": 70.0,
+            "1969": 70.0,
+            "1970": 70.0,
+            "1971": 81.0,
+            "1972": 70.0,
+            "1973": 90.0,
+            "1974": 80.0,
+            "1975": 80.0,
+            "1976": 98.0,
+            "1977": 82.0,
+            "1978": 70.0,
+            "1979": 80.0,
+            "1985": 125.0,
+            "1986": 150.0,
+            "1987": 140.0,
+            "1988": 151.0,
+            "1989": 151.0,
+            "1990": 138.8,
+            "1991": 128.3,
+            "1992": 140.0,
+            "1993": 115.0,
+            "1994": 140.0,
+            "1997": 165.0,
+            "1998": 140.0,
+            "1999": 162.0,
+            "2000": 0.0,
+            "2001": 0.0,
+            "2002": 0.0,
+            "2003": 0.0,
+            "2006": 0.0
+          }
+        },
+        {
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "suppressed": {},
+          "unit": "BU / NET PLANTED ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "1978": 60.0,
+            "1979": 53.3,
+            "1985": 109.4,
+            "1986": 150.0,
+            "1987": 140.0,
+            "1988": 25.2,
+            "1989": 21.6,
+            "1990": 20.6
+          }
+        }
+      ]
+    },
+    "998": {
+      "name": "OTHER (COMBINED) COUNTIES",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "GRAIN",
+          "values": {
+            "2000": 135.0,
+            "2001": 52.5,
+            "2002": 0.0,
+            "2003": 157.5,
+            "2004": 135.0,
+            "2005": 0.0,
+            "2006": 0.0,
+            "2007": 147.5,
+            "2008": 0.0,
+            "2009": 206.0
+          }
+        }
+      ]
+    }
+  },
+  "schema_version": 2,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  }
+}

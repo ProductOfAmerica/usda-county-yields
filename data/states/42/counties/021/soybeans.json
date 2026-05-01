@@ -1,0 +1,53 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "021",
+    "name": "CAMBRIA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1987": 31.0,
+        "1988": 29.0,
+        "1989": 30.0,
+        "1990": 40.0,
+        "1991": 26.0,
+        "1992": 44.0,
+        "1993": 31.0,
+        "1994": 39.0,
+        "2005": 38.0,
+        "2010": 42.4,
+        "2011": 39.5,
+        "2012": 44.9,
+        "2013": 36.9,
+        "2014": 44.8,
+        "2015": 42.0,
+        "2016": 46.6,
+        "2018": 40.4,
+        "2019": 45.1,
+        "2020": 34.9,
+        "2021": 51.0,
+        "2022": 52.3,
+        "2023": 48.2,
+        "2024": 43.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "043",
+    "name": "CLAY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1974": 15.0,
+        "1975": 19.0,
+        "1976": 18.0,
+        "1977": 18.0,
+        "1978": 25.0,
+        "1979": 24.0,
+        "1980": 16.0,
+        "1992": 26.0,
+        "1998": 32.0,
+        "2000": 28.0,
+        "2001": 40.0,
+        "2004": 42.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  }
+}

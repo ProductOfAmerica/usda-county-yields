@@ -1,0 +1,46 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "087",
+    "name": "UNION"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 11.7,
+        "1973": 17.8,
+        "1974": 16.7,
+        "1975": 23.1,
+        "1976": 13.1,
+        "1977": 17.5,
+        "1978": 23.9,
+        "1979": 22.1,
+        "1980": 14.5,
+        "1981": 15.7,
+        "1982": 17.4,
+        "1983": 15.5,
+        "1984": 19.6,
+        "1985": 18.3,
+        "1986": 15.7,
+        "1987": 15.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SC",
+    "fips": "45",
+    "name": "SOUTH CAROLINA"
+  }
+}

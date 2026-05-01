@@ -1,0 +1,49 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "001",
+    "name": "ATLANTIC"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1975": 20.0,
+        "1976": 24.0,
+        "1977": 23.0,
+        "1978": 28.0,
+        "1979": 27.0,
+        "1980": 19.0,
+        "1981": 22.0,
+        "1982": 20.0,
+        "1983": 13.0,
+        "1984": 26.0,
+        "1985": 31.0,
+        "1986": 25.0,
+        "1987": 25.0,
+        "1988": 25.0,
+        "1992": 33.0,
+        "1993": 24.0,
+        "1994": 33.0,
+        "1995": 20.0,
+        "2020": 26.9
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  }
+}

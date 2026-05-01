@@ -1,0 +1,48 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "247",
+    "name": "ROCKDALE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0,
+        "1973": 20.7,
+        "1974": 23.0,
+        "1975": 24.7,
+        "1976": 22.1,
+        "1977": 19.0,
+        "1978": 20.0,
+        "1979": 26.8,
+        "1980": 10.3,
+        "1981": 16.7,
+        "1982": 25.6,
+        "1983": 16.9,
+        "1984": 16.8,
+        "1985": 23.0,
+        "1986": 17.0,
+        "1987": 7.0,
+        "1988": 23.0,
+        "1989": 17.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

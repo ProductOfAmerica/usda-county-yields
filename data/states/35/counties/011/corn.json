@@ -1,0 +1,87 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "011",
+    "name": "DE BACA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1956": 30.0,
+        "1957": 32.0,
+        "1958": 32.0,
+        "1959": 36.0,
+        "1960": 58.0,
+        "1961": 50.0,
+        "1962": 46.0,
+        "1963": 45.0,
+        "1965": 45.0,
+        "1966": 50.0,
+        "1967": 46.0,
+        "1971": 74.0,
+        "1972": 70.0,
+        "1973": 70.0,
+        "1974": 50.0,
+        "1975": 80.0,
+        "1976": 100.0,
+        "1977": 110.0,
+        "1978": 100.0,
+        "1979": 134.0,
+        "1980": 98.0,
+        "1982": 72.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 100.0,
+        "1979": 95.7,
+        "1980": 49.0,
+        "1982": 72.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 36.0,
+        "1960": 58.0,
+        "1961": 50.0,
+        "1962": 46.0,
+        "1963": 45.0,
+        "1965": 45.0,
+        "1966": 50.0,
+        "1967": 46.0,
+        "1971": 74.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NM",
+    "fips": "35",
+    "name": "NEW MEXICO"
+  }
+}

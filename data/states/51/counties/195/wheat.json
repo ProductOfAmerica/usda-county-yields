@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "195",
+    "name": "WISE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1931": 17.5,
+        "1932": 7.9,
+        "1933": 12.0,
+        "1934": 9.0,
+        "1935": 10.3,
+        "1936": 9.0,
+        "1937": 11.0,
+        "1938": 12.0,
+        "1939": 10.8,
+        "1940": 13.0,
+        "1941": 11.0,
+        "1942": 12.0,
+        "1943": 10.0,
+        "1944": 17.0,
+        "1945": 13.5,
+        "1947": 15.3,
+        "1948": 16.4,
+        "1949": 18.0,
+        "1950": 16.7,
+        "1951": 17.5,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 17.5,
+        "1955": 20.0,
+        "1956": 20.0,
+        "1971": 34.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1931": 17.5,
+        "1932": 7.9,
+        "1933": 12.0,
+        "1934": 9.0,
+        "1935": 10.3,
+        "1936": 9.0,
+        "1937": 11.0,
+        "1938": 12.0,
+        "1939": 10.8,
+        "1940": 13.0,
+        "1941": 11.0,
+        "1942": 12.0,
+        "1943": 10.0,
+        "1944": 17.0,
+        "1945": 13.5,
+        "1947": 15.3,
+        "1948": 16.4,
+        "1949": 18.0,
+        "1950": 16.7,
+        "1951": 17.5,
+        "1952": 20.0,
+        "1953": 20.0,
+        "1954": 17.5,
+        "1955": 20.0,
+        "1956": 20.0,
+        "1971": 34.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "089",
+    "name": "HENDERSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 18.0,
+        "1973": 20.0,
+        "1974": 12.0,
+        "1975": 20.0,
+        "1976": 19.0,
+        "1977": 18.0,
+        "1978": 26.0,
+        "1979": 26.0,
+        "1980": 23.0,
+        "1981": 27.0,
+        "1982": 22.0,
+        "1983": 18.0,
+        "1984": 20.0,
+        "1985": 19.0,
+        "1986": 17.0,
+        "1987": 20.0,
+        "1988": 34.0,
+        "1989": 33.0,
+        "1990": 41.0,
+        "1991": 36.0,
+        "1992": 30.0,
+        "2012": 53.1,
+        "2018": 47.5,
+        "2019": 57.0,
+        "2022": 44.7,
+        "2023": 48.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  }
+}

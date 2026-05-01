@@ -1,0 +1,51 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "087",
+    "name": "JACKSON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1971": 26.0,
+        "1972": 23.0,
+        "1974": 21.0,
+        "1975": 26.0,
+        "1976": 30.0,
+        "1977": 27.0,
+        "1978": 26.0,
+        "1979": 28.0,
+        "1980": 18.0,
+        "1981": 24.0,
+        "1982": 25.0,
+        "1983": 18.0,
+        "1984": 23.0,
+        "1985": 25.0,
+        "1986": 25.0,
+        "1987": 27.0,
+        "1988": 19.0,
+        "1989": 28.0,
+        "2006": 33.0,
+        "2007": 29.0,
+        "2015": 44.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

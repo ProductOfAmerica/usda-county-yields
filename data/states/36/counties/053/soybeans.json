@@ -1,0 +1,55 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "053",
+    "name": "MADISON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 40.0,
+        "2001": 29.0,
+        "2002": 29.0,
+        "2003": 34.0,
+        "2004": 38.0,
+        "2005": 31.0,
+        "2006": 41.0,
+        "2007": 39.0,
+        "2008": 43.5,
+        "2009": 39.5,
+        "2010": 41.4,
+        "2011": 41.6,
+        "2012": 41.3,
+        "2013": 38.8,
+        "2014": 42.1,
+        "2015": 31.2,
+        "2016": 44.4,
+        "2017": 33.3,
+        "2018": 51.7,
+        "2019": 42.0,
+        "2020": 37.9,
+        "2021": 47.5,
+        "2022": 37.2,
+        "2023": 51.2,
+        "2024": 51.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

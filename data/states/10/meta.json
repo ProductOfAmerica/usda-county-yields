@@ -1,0 +1,41 @@
+{
+  "counties": {
+    "001": {
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "KENT"
+    },
+    "003": {
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "NEW CASTLE"
+    },
+    "005": {
+      "crops": [
+        "corn",
+        "soybeans",
+        "wheat"
+      ],
+      "name": "SUSSEX"
+    },
+    "998": {
+      "crops": [
+        "corn",
+        "soybeans"
+      ],
+      "name": "OTHER COUNTIES"
+    }
+  },
+  "schema_version": 2,
+  "state": {
+    "alpha": "DE",
+    "fips": "10",
+    "name": "DELAWARE"
+  }
+}

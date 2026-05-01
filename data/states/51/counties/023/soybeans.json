@@ -1,0 +1,49 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "023",
+    "name": "BOTETOURT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1943": 9.2,
+        "1944": 14.0,
+        "1947": 15.0,
+        "1948": 14.0,
+        "1949": 19.0,
+        "1950": 18.8,
+        "1951": 17.5,
+        "1952": 15.0,
+        "1953": 10.0,
+        "1954": 12.0,
+        "1955": 16.7,
+        "1990": 32.0,
+        "2001": 43.0,
+        "2003": 32.0,
+        "2006": 29.0,
+        "2020": 43.0,
+        "2021": 51.9,
+        "2023": 38.9,
+        "2024": 46.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  }
+}

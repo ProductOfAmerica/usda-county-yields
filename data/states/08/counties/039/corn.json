@@ -1,0 +1,231 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "039",
+    "name": "ELBERT"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1963": 17.5,
+        "1964": 39.5,
+        "1965": 50.0,
+        "1966": 36.0,
+        "1967": 45.0,
+        "1968": 36.0,
+        "1969": 75.0,
+        "1970": 66.0,
+        "1971": 31.5,
+        "1972": 48.1,
+        "1973": 57.5,
+        "1974": 56.7,
+        "1975": 15.0,
+        "1976": 16.0,
+        "1977": 57.0,
+        "1980": 51.0,
+        "1992": 150.0,
+        "1993": 140.0,
+        "1998": 60.0,
+        "1999": 55.0,
+        "2000": 38.5,
+        "2001": 66.5,
+        "2002": 20.0,
+        "2003": 36.5,
+        "2004": 72.5,
+        "2005": 49.5,
+        "2006": 42.5,
+        "2007": 60.0,
+        "2008": 44.0,
+        "2010": 66.3,
+        "2011": 55.9,
+        "2015": 75.0,
+        "2016": 40.4,
+        "2017": 71.4,
+        "2020": 34.0,
+        "2021": 26.4,
+        "2023": 46.9
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1975": 15.0,
+        "1976": 8.0,
+        "1977": 57.0,
+        "1980": 42.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1963": 6.5,
+        "1964": 4.5,
+        "1965": 5.0,
+        "1966": 6.0,
+        "1967": 6.0,
+        "1968": 6.0,
+        "1969": 7.0,
+        "1970": 16.0,
+        "1971": 9.5,
+        "1986": 12.5,
+        "1987": 13.0,
+        "1988": 10.0,
+        "1989": 10.0,
+        "1990": 11.5,
+        "1995": 10.0,
+        "1997": 15.0,
+        "2007": 10.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1963": 40.0,
+        "1964": 56.0,
+        "1965": 72.0,
+        "1966": 65.0,
+        "1967": 76.0,
+        "1968": 76.0,
+        "1969": 98.0,
+        "1970": 100.0,
+        "1971": 80.0,
+        "1972": 86.7,
+        "1973": 80.0,
+        "1974": 75.0,
+        "1977": 95.0,
+        "1980": 100.0,
+        "1992": 150.0,
+        "1993": 140.0,
+        "2002": 0.0,
+        "2003": 175.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1977": 95.0,
+        "1980": 66.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, SILAGE, IRRIGATED - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1986": 12.5,
+        "1987": 13.0,
+        "1988": 10.0,
+        "1989": 10.0,
+        "1990": 11.5,
+        "1995": 10.0,
+        "1997": 15.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1963": 12.0,
+        "1964": 15.0,
+        "1965": 17.0,
+        "1966": 7.0,
+        "1967": 14.0,
+        "1968": 20.0,
+        "1969": 18.0,
+        "1970": 22.0,
+        "1971": 22.0,
+        "1972": 25.0,
+        "1973": 20.0,
+        "1974": 20.0,
+        "1975": 15.0,
+        "1976": 16.0,
+        "1977": 19.0,
+        "1980": 18.5,
+        "1998": 60.0,
+        "1999": 55.0,
+        "2000": 38.5,
+        "2001": 66.5,
+        "2002": 20.0,
+        "2003": 21.0,
+        "2006": 42.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1975": 15.0,
+        "1976": 16.0,
+        "1977": 19.0,
+        "1980": 18.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, SILAGE, NON-IRRIGATED - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "2007": 10.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  }
+}

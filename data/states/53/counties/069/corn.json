@@ -1,0 +1,67 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "069",
+    "name": "WAHKIAKUM"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1942": 13.0,
+        "1943": 46.0,
+        "1944": 36.0,
+        "1945": 42.0,
+        "1946": 45.0,
+        "1947": 42.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 18.5,
+        "1975": 19.0,
+        "1976": 19.5,
+        "1977": 17.0,
+        "1978": 18.0,
+        "1979": 19.0,
+        "1980": 19.0,
+        "1981": 18.0,
+        "1982": 18.0,
+        "1983": 20.0,
+        "1984": 23.0,
+        "1985": 22.0,
+        "1986": 22.0,
+        "1987": 25.0,
+        "1988": 20.0,
+        "1989": 15.0,
+        "1990": 17.0,
+        "1991": 21.0,
+        "1992": 22.0,
+        "1993": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

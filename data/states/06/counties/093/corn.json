@@ -1,0 +1,70 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "093",
+    "name": "SISKIYOU"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1998": 0.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 0.0,
+        "2003": 0.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 25.0,
+        "1976": 27.0,
+        "1977": 27.0,
+        "1978": 21.0,
+        "1979": 25.0,
+        "1980": 22.0,
+        "1983": 20.0,
+        "1984": 21.0,
+        "1987": 25.7,
+        "1988": 36.0,
+        "1989": 28.0,
+        "1990": 20.5,
+        "1991": 23.3,
+        "1992": 25.0,
+        "1993": 28.3,
+        "1994": 27.1,
+        "1995": 26.7,
+        "1996": 30.0,
+        "1997": 26.7,
+        "1998": 26.7,
+        "1999": 27.5,
+        "2000": 23.3,
+        "2001": 20.0,
+        "2003": 25.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "047",
+    "name": "CATOOSA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 22.6,
+        "1974": 19.7,
+        "1975": 28.7,
+        "1976": 26.6,
+        "1977": 19.0,
+        "1978": 23.0,
+        "1979": 31.7,
+        "1980": 21.0,
+        "1981": 24.6,
+        "1982": 22.6,
+        "1983": 23.1,
+        "1984": 20.0,
+        "1985": 27.9,
+        "1986": 21.0,
+        "1987": 18.0,
+        "1988": 22.7,
+        "1989": 28.0,
+        "1990": 24.0,
+        "1991": 24.0,
+        "1992": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  }
+}

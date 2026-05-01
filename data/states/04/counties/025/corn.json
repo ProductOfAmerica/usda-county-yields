@@ -1,0 +1,70 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "025",
+    "name": "YAVAPAI"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1965": 60.0,
+        "1966": 70.0,
+        "1967": 65.0,
+        "1968": 70.0,
+        "1969": 61.3,
+        "1970": 65.0,
+        "1971": 80.0,
+        "1972": 50.0,
+        "1973": 50.0,
+        "1974": 50.0,
+        "1975": 45.0,
+        "1976": 24.0,
+        "1977": 20.0,
+        "1978": 90.0,
+        "1979": 100.0,
+        "1981": 100.0,
+        "1982": 120.0,
+        "1983": 100.0,
+        "1984": 88.6,
+        "1985": 85.0,
+        "1986": 105.0,
+        "1987": 115.0,
+        "1988": 102.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1977": 18.2,
+        "1978": 90.0,
+        "1979": 100.0,
+        "1980": 100.0,
+        "1981": 100.0,
+        "1982": 120.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AZ",
+    "fips": "04",
+    "name": "ARIZONA"
+  }
+}

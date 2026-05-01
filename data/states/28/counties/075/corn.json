@@ -1,0 +1,76 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "075",
+    "name": "LAUDERDALE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1953": 23.8,
+        "1954": 14.1,
+        "1955": 24.7,
+        "1956": 27.5,
+        "1957": 26.9,
+        "1958": 28.3,
+        "1959": 31.4,
+        "1960": 20.9,
+        "1961": 40.0,
+        "1962": 21.8,
+        "1963": 37.7,
+        "1964": 35.4,
+        "1965": 34.5,
+        "1966": 26.3,
+        "1967": 34.5,
+        "1968": 33.3,
+        "1969": 27.5,
+        "1970": 23.4,
+        "1971": 34.0,
+        "1972": 38.0,
+        "1973": 35.0,
+        "1974": 33.4,
+        "1975": 34.8,
+        "1976": 43.3,
+        "1977": 30.0,
+        "1978": 44.8,
+        "1979": 40.3,
+        "1980": 20.0,
+        "1981": 39.9,
+        "1982": 48.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 43.0,
+        "1979": 38.8,
+        "1980": 17.1,
+        "1981": 37.5,
+        "1982": 45.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MS",
+    "fips": "28",
+    "name": "MISSISSIPPI"
+  }
+}

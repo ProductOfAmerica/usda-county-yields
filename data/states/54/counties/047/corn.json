@@ -1,0 +1,53 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "047",
+    "name": "MCDOWELL"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1926": 28.0,
+        "1927": 29.0,
+        "1928": 28.0,
+        "1934": 18.0,
+        "1935": 20.0,
+        "1941": 18.0,
+        "1949": 25.7,
+        "1950": 21.6,
+        "1951": 22.1,
+        "1952": 33.7,
+        "1953": 28.1,
+        "1954": 21.5,
+        "1955": 20.8,
+        "1956": 27.0,
+        "1957": 30.6,
+        "1958": 27.2,
+        "1959": 32.4,
+        "1960": 31.5,
+        "1961": 30.8,
+        "1962": 25.0,
+        "1963": 27.8,
+        "1965": 31.0,
+        "1966": 30.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "083",
+    "name": "LOGAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1933": 4.1,
+        "1934": 3.4,
+        "1935": 16.3,
+        "1937": 13.4,
+        "1938": 22.1,
+        "1939": 11.6,
+        "1940": 18.0,
+        "1941": 18.3,
+        "1942": 20.5,
+        "1943": 18.0,
+        "1944": 18.7,
+        "1945": 21.3,
+        "1946": 18.5,
+        "1947": 19.5,
+        "1948": 22.0,
+        "1949": 18.0,
+        "1951": 20.5,
+        "1952": 12.5,
+        "1953": 13.5,
+        "1954": 6.5,
+        "1955": 28.0,
+        "1956": 13.0,
+        "1957": 25.0,
+        "1958": 26.0,
+        "1959": 29.5,
+        "1960": 32.0,
+        "1961": 29.4,
+        "1962": 35.6,
+        "1963": 32.5,
+        "1964": 18.8,
+        "1965": 27.0,
+        "1966": 19.0,
+        "1969": 32.0,
+        "1978": 50.0,
+        "1979": 92.5,
+        "1980": 50.0,
+        "2001": 80.0,
+        "2002": 83.3,
+        "2005": 60.0,
+        "2007": 75.0,
+        "2010": 84.8,
+        "2013": 66.8
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 43.8,
+        "1979": 74.0,
+        "1980": 40.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

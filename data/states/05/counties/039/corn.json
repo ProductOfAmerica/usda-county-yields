@@ -1,0 +1,60 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "039",
+    "name": "DALLAS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 34.0,
+        "1962": 28.0,
+        "1963": 34.0,
+        "1964": 21.0,
+        "1965": 33.0,
+        "1966": 25.0,
+        "1967": 34.0,
+        "1968": 38.0,
+        "1969": 28.0,
+        "1970": 19.0,
+        "1971": 18.0,
+        "1972": 15.0,
+        "1973": 15.0,
+        "1974": 30.0,
+        "1975": 26.0,
+        "1976": 42.3,
+        "1977": 42.0,
+        "1982": 60.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1982": 60.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "015",
+    "name": "CLAY"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 10.0,
+        "1927": 10.0,
+        "1928": 12.0,
+        "1934": 7.0,
+        "1935": 11.0,
+        "1941": 9.0,
+        "1949": 13.6,
+        "1950": 11.6,
+        "1951": 17.3,
+        "1952": 19.0,
+        "1953": 18.0,
+        "1954": 11.0,
+        "1955": 12.0,
+        "1956": 18.0,
+        "1957": 22.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 10.0,
+        "1927": 10.0,
+        "1928": 12.0,
+        "1934": 7.0,
+        "1935": 11.0,
+        "1941": 9.0,
+        "1949": 13.6,
+        "1950": 11.6,
+        "1951": 17.3,
+        "1952": 19.0,
+        "1953": 18.0,
+        "1954": 11.0,
+        "1955": 12.0,
+        "1956": 18.0,
+        "1957": 22.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

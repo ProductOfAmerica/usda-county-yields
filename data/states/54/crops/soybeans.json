@@ -1,0 +1,174 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "counties": {
+    "003": {
+      "name": "BERKELEY",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "ALL UTILIZATION PRACTICES",
+          "values": {
+            "2000": 51.1,
+            "2001": 32.5,
+            "2009": 39.5,
+            "2010": 11.1,
+            "2011": 38.6,
+            "2012": 50.5,
+            "2013": 39.3,
+            "2014": 48.2,
+            "2015": 42.7
+          }
+        }
+      ]
+    },
+    "031": {
+      "name": "HARDY",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "ALL UTILIZATION PRACTICES",
+          "values": {
+            "2001": 50.0,
+            "2010": 32.0,
+            "2011": 55.0,
+            "2013": 56.6,
+            "2014": 52.7
+          }
+        }
+      ]
+    },
+    "037": {
+      "name": "JEFFERSON",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "ALL UTILIZATION PRACTICES",
+          "values": {
+            "2000": 46.0,
+            "2001": 40.5,
+            "2002": 39.0,
+            "2003": 40.9,
+            "2004": 44.9,
+            "2005": 35.9,
+            "2006": 38.4,
+            "2007": 28.7,
+            "2008": 41.0,
+            "2009": 40.0,
+            "2010": 18.4,
+            "2011": 40.5,
+            "2012": 49.3,
+            "2013": 45.8,
+            "2014": 52.3,
+            "2015": 46.6
+          }
+        }
+      ]
+    },
+    "053": {
+      "name": "MASON",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "ALL UTILIZATION PRACTICES",
+          "values": {
+            "2000": 49.7,
+            "2001": 45.8,
+            "2002": 35.3,
+            "2003": 40.8,
+            "2004": 48.2,
+            "2005": 33.1,
+            "2006": 49.5,
+            "2007": 37.6,
+            "2008": 41.0,
+            "2009": 44.0,
+            "2010": 50.0
+          }
+        }
+      ]
+    },
+    "077": {
+      "name": "PRESTON",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "ALL UTILIZATION PRACTICES",
+          "values": {
+            "2015": 36.6
+          }
+        }
+      ]
+    },
+    "998": {
+      "name": "OTHER (COMBINED) COUNTIES",
+      "series": [
+        {
+          "canonical": true,
+          "class": "ALL CLASSES",
+          "prodn_practice": "ALL PRODUCTION PRACTICES",
+          "raw": {},
+          "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+          "suppressed": {},
+          "unit": "BU / ACRE",
+          "util_practice": "ALL UTILIZATION PRACTICES",
+          "values": {
+            "2000": 45.0,
+            "2001": 45.7,
+            "2002": 36.1,
+            "2003": 40.8,
+            "2004": 46.0,
+            "2005": 35.6,
+            "2006": 0.0,
+            "2007": 50.0,
+            "2008": 41.5,
+            "2009": 39.5,
+            "2010": 27.8,
+            "2011": 45.6,
+            "2012": 56.1,
+            "2013": 49.4,
+            "2014": 49.0,
+            "2015": 53.3
+          }
+        }
+      ]
+    }
+  },
+  "schema_version": 2,
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

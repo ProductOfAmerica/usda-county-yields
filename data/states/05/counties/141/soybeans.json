@@ -1,0 +1,74 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "141",
+    "name": "VAN BUREN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1948": 15.0,
+        "1949": 16.0,
+        "1950": 17.0,
+        "1951": 18.0,
+        "1952": 14.0,
+        "1953": 7.0,
+        "1961": 18.0,
+        "1962": 19.0,
+        "1963": 17.0,
+        "1964": 17.0,
+        "1965": 21.0,
+        "1967": 22.0,
+        "1968": 20.0,
+        "1969": 18.0,
+        "1970": 22.0,
+        "1971": 19.0,
+        "1972": 18.0,
+        "1973": 22.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 18.0,
+        "1973": 22.0,
+        "1978": 20.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NOT FOLLOWING ANOTHER CROP",
+      "raw": {},
+      "short_desc": "SOYBEANS, NOT FOLLOWING ANOTHER CROP - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 15.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  }
+}

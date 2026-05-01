@@ -1,0 +1,89 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "109",
+    "name": "PEARL RIVER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1953": 25.5,
+        "1954": 30.6,
+        "1955": 30.3,
+        "1956": 28.5,
+        "1957": 25.0,
+        "1958": 31.3,
+        "1959": 37.2,
+        "1960": 21.9,
+        "1961": 49.3,
+        "1962": 35.2,
+        "1963": 34.2,
+        "1964": 38.8,
+        "1965": 39.5,
+        "1966": 31.9,
+        "1967": 35.5,
+        "1968": 35.8,
+        "1969": 33.5,
+        "1970": 27.2,
+        "1971": 44.0,
+        "1972": 30.0,
+        "1973": 38.0,
+        "1974": 41.7,
+        "1975": 42.4,
+        "1976": 52.0,
+        "1977": 40.0,
+        "1978": 56.5,
+        "1979": 43.1,
+        "1980": 35.6,
+        "1981": 50.4,
+        "1982": 56.0,
+        "1983": 62.0,
+        "1984": 68.3,
+        "1985": 60.0,
+        "1986": 76.0,
+        "1987": 70.0,
+        "1988": 53.1,
+        "1989": 59.0,
+        "1992": 90.0,
+        "1994": 71.1,
+        "2021": 151.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 55.3,
+        "1979": 41.5,
+        "1980": 31.8,
+        "1981": 47.6,
+        "1982": 52.8,
+        "1983": 58.4,
+        "1984": 65.0,
+        "1985": 57.8
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MS",
+    "fips": "28",
+    "name": "MISSISSIPPI"
+  }
+}

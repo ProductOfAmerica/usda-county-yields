@@ -1,0 +1,77 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "129",
+    "name": "ROGER MILLS"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1933": 3.6,
+        "1934": 2.8,
+        "1935": 11.8,
+        "1937": 8.6,
+        "1938": 9.6,
+        "1939": 8.1,
+        "1940": 9.0,
+        "1941": 10.6,
+        "1942": 11.7,
+        "1943": 10.5,
+        "1944": 14.4,
+        "1945": 14.1,
+        "1946": 10.5,
+        "1947": 15.5,
+        "1948": 15.5,
+        "1949": 13.5,
+        "1951": 9.5,
+        "1952": 6.0,
+        "1953": 7.0,
+        "1954": 6.5,
+        "1955": 14.0,
+        "1956": 7.0,
+        "1957": 17.0,
+        "1958": 27.0,
+        "1959": 28.0,
+        "1960": 24.0,
+        "1961": 18.3,
+        "1962": 31.1,
+        "1963": 21.0,
+        "1967": 24.0,
+        "1978": 54.0,
+        "1979": 100.0,
+        "1980": 70.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 45.0,
+        "1979": 75.0,
+        "1980": 56.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  }
+}

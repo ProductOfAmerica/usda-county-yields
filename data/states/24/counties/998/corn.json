@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1996": 121.4,
+        "1997": 99.6,
+        "1998": 120.3,
+        "1999": 81.0,
+        "2000": 103.1,
+        "2007": 135.7,
+        "2009": 135.0,
+        "2011": 119.6,
+        "2013": 128.6,
+        "2015": 134.5,
+        "2016": 169.0,
+        "2017": 136.5,
+        "2018": 159.5,
+        "2019": 187.3,
+        "2020": 136.6,
+        "2021": 175.1,
+        "2022": 161.9,
+        "2023": 158.9,
+        "2024": 138.6
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1996": 16.2,
+        "1997": 13.8,
+        "1998": 15.2,
+        "1999": 10.0,
+        "2000": 14.9,
+        "2002": 9.4,
+        "2003": 15.6,
+        "2004": 19.9,
+        "2005": 15.6,
+        "2006": 16.5,
+        "2007": 10.0,
+        "2008": 14.0,
+        "2022": 19.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MD",
+    "fips": "24",
+    "name": "MARYLAND"
+  }
+}

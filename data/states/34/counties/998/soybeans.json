@@ -1,0 +1,53 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 18.0,
+        "2003": 33.0,
+        "2004": 41.0,
+        "2005": 20.0,
+        "2006": 39.0,
+        "2007": 41.0,
+        "2008": 35.0,
+        "2009": 42.5,
+        "2010": 18.0,
+        "2011": 33.3,
+        "2012": 39.5,
+        "2013": 38.9,
+        "2014": 43.9,
+        "2015": 33.0,
+        "2016": 34.9,
+        "2017": 40.9,
+        "2018": 37.0,
+        "2019": 35.4,
+        "2020": 47.1,
+        "2021": 43.6,
+        "2022": 23.7,
+        "2023": 50.2,
+        "2024": 42.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  }
+}

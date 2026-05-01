@@ -1,0 +1,52 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "109",
+    "name": "TERREBONNE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1968": 26.0,
+        "1969": 18.5,
+        "1970": 20.0,
+        "1971": 20.0,
+        "1973": 20.0,
+        "1974": 27.4,
+        "1975": 27.1,
+        "1976": 29.0,
+        "1977": 26.9,
+        "1978": 28.3,
+        "1979": 30.2,
+        "1980": 25.0,
+        "1981": 24.1,
+        "1982": 29.2,
+        "1983": 25.7,
+        "1984": 29.9,
+        "1985": 24.1,
+        "1986": 24.2,
+        "1987": 21.0,
+        "1988": 28.0,
+        "1989": 34.0,
+        "1990": 32.7
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

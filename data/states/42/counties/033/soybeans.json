@@ -1,0 +1,45 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "033",
+    "name": "CLEARFIELD"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1983": 27.0,
+        "1984": 30.0,
+        "1985": 35.0,
+        "1986": 35.0,
+        "1987": 30.0,
+        "1988": 31.0,
+        "1989": 30.0,
+        "1990": 33.0,
+        "1991": 29.0,
+        "1992": 35.0,
+        "1993": 32.0,
+        "1994": 38.0,
+        "2011": 36.2,
+        "2012": 37.1,
+        "2013": 30.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  }
+}

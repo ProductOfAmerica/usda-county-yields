@@ -1,0 +1,136 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "067",
+    "name": "MINIDOKA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 77.0,
+        "1973": 82.0,
+        "1974": 84.0,
+        "1975": 82.0,
+        "1976": 77.0,
+        "1977": 76.0,
+        "1978": 79.0,
+        "1979": 81.0,
+        "1980": 98.0,
+        "1981": 103.3,
+        "1982": 106.0,
+        "1983": 110.0,
+        "1984": 112.5,
+        "1985": 115.0,
+        "1986": 100.0,
+        "1987": 120.0,
+        "1988": 120.0,
+        "1993": 110.0,
+        "1994": 95.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 0.0,
+        "2002": 130.0,
+        "2004": 166.7,
+        "2005": 142.1,
+        "2006": 150.0,
+        "2007": 160.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1975": 82.0,
+        "1976": 77.0,
+        "1977": 76.0,
+        "1978": 79.0,
+        "1979": 81.0,
+        "1980": 98.0,
+        "1981": 103.3,
+        "1982": 106.0,
+        "1983": 110.0,
+        "1984": 112.5,
+        "1985": 115.0,
+        "1986": 100.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1974": 18.5,
+        "1975": 18.0,
+        "1976": 18.5,
+        "1977": 18.0,
+        "1978": 18.5,
+        "1979": 19.0,
+        "1980": 17.7,
+        "1981": 19.0,
+        "1982": 20.0,
+        "1983": 19.1,
+        "1984": 18.0,
+        "1985": 20.0,
+        "1986": 20.8,
+        "1987": 19.4,
+        "1988": 21.9,
+        "1989": 22.3,
+        "1990": 22.4,
+        "1991": 20.0,
+        "1992": 20.0,
+        "1993": 15.0,
+        "1994": 24.0,
+        "1995": 19.5,
+        "1996": 23.6,
+        "1997": 23.6,
+        "1998": 23.5,
+        "1999": 22.1,
+        "2000": 23.8,
+        "2001": 19.7,
+        "2002": 23.8,
+        "2004": 22.2,
+        "2005": 24.3,
+        "2006": 30.0,
+        "2007": 27.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 77.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "ID",
+    "fips": "16",
+    "name": "IDAHO"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "121",
+    "name": "WEST BATON ROUGE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1959": 42.4,
+        "1960": 37.7,
+        "1961": 46.8,
+        "1962": 31.9,
+        "1963": 38.0,
+        "1964": 24.5,
+        "1965": 38.0,
+        "1966": 65.0,
+        "1967": 60.0,
+        "1969": 32.0,
+        "1970": 38.0,
+        "1971": 40.0,
+        "1972": 50.0,
+        "1973": 50.0,
+        "1974": 35.0,
+        "1975": 45.0,
+        "1976": 55.0,
+        "1977": 60.0,
+        "1978": 50.0,
+        "1982": 70.0,
+        "1984": 90.0,
+        "1985": 110.1,
+        "1986": 137.0,
+        "1987": 100.0,
+        "1988": 120.0,
+        "1989": 107.1,
+        "1990": 144.0,
+        "1992": 130.0,
+        "1994": 125.0,
+        "1995": 113.2,
+        "1996": 145.7,
+        "1997": 139.6,
+        "1998": 83.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 50.0,
+        "1982": 70.0,
+        "1984": 90.0,
+        "1985": 110.1
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

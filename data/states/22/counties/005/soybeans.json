@@ -1,0 +1,57 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "005",
+    "name": "ASCENSION"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1966": 23.0,
+        "1967": 26.5,
+        "1968": 28.0,
+        "1969": 25.5,
+        "1970": 25.0,
+        "1971": 15.0,
+        "1972": 23.7,
+        "1973": 21.2,
+        "1974": 24.6,
+        "1975": 22.4,
+        "1976": 26.9,
+        "1977": 30.4,
+        "1978": 31.7,
+        "1979": 31.8,
+        "1980": 33.2,
+        "1981": 33.2,
+        "1982": 36.0,
+        "1983": 31.6,
+        "1984": 34.7,
+        "1985": 30.4,
+        "1986": 30.5,
+        "1987": 33.5,
+        "1988": 37.8,
+        "1989": 26.3,
+        "1990": 33.7,
+        "1992": 24.5,
+        "1997": 34.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  }
+}

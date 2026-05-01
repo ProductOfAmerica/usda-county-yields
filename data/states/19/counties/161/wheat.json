@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "161",
+    "name": "SAC"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1976": 31.3,
+        "1977": 38.2,
+        "1978": 29.0,
+        "1979": 40.0,
+        "1980": 34.5,
+        "1981": 49.0,
+        "1982": 39.9,
+        "1983": 36.5,
+        "1984": 27.3,
+        "1985": 41.8,
+        "1986": 32.0,
+        "1989": 34.0,
+        "1992": 40.7,
+        "1994": 36.0,
+        "1997": 41.3
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1976": 31.3,
+        "1977": 38.2,
+        "1978": 29.0,
+        "1979": 40.0,
+        "1980": 34.5,
+        "1981": 49.0,
+        "1982": 39.9,
+        "1983": 36.5,
+        "1984": 27.3,
+        "1985": 41.8,
+        "1986": 32.0,
+        "1989": 34.0,
+        "1992": 40.7,
+        "1994": 36.0,
+        "1997": 41.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  }
+}

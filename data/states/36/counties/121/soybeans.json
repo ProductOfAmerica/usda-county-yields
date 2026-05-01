@@ -1,0 +1,52 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "121",
+    "name": "WYOMING"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 35.0,
+        "2001": 31.0,
+        "2002": 32.0,
+        "2003": 33.0,
+        "2004": 41.0,
+        "2005": 36.0,
+        "2006": 46.0,
+        "2007": 37.0,
+        "2009": 31.0,
+        "2010": 43.9,
+        "2011": 43.9,
+        "2012": 46.7,
+        "2015": 46.6,
+        "2016": 47.9,
+        "2017": 41.2,
+        "2018": 50.0,
+        "2019": 51.8,
+        "2020": 61.6,
+        "2021": 58.4,
+        "2022": 44.4,
+        "2023": 48.6,
+        "2024": 49.6
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

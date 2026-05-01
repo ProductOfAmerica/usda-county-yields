@@ -1,0 +1,62 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "007",
+    "name": "BEAVER"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1983": 30.0,
+        "1984": 35.0,
+        "1985": 34.0,
+        "1986": 35.0,
+        "1987": 39.0,
+        "1988": 31.0,
+        "1989": 25.0,
+        "1990": 32.0,
+        "1991": 26.0,
+        "1992": 32.0,
+        "1993": 32.0,
+        "1994": 38.0,
+        "2002": 18.0,
+        "2003": 45.0,
+        "2004": 32.4,
+        "2005": 34.4,
+        "2006": 38.2,
+        "2007": 38.0,
+        "2010": 42.4,
+        "2011": 41.6,
+        "2012": 43.5,
+        "2013": 47.1,
+        "2014": 45.4,
+        "2015": 38.7,
+        "2016": 46.9,
+        "2017": 45.3,
+        "2019": 44.4,
+        "2020": 40.0,
+        "2021": 46.2,
+        "2022": 44.8,
+        "2023": 44.1,
+        "2024": 41.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  }
+}

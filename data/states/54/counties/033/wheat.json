@@ -1,0 +1,95 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "033",
+    "name": "HARRISON"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 14.0,
+        "1927": 14.0,
+        "1928": 14.0,
+        "1934": 12.0,
+        "1935": 16.0,
+        "1941": 15.0,
+        "1949": 18.7,
+        "1950": 15.0,
+        "1951": 20.2,
+        "1952": 20.3,
+        "1953": 26.1,
+        "1954": 25.0,
+        "1955": 24.9,
+        "1956": 23.5,
+        "1957": 21.5,
+        "1958": 23.0,
+        "1959": 23.0,
+        "1960": 27.5,
+        "1961": 24.0,
+        "1962": 22.0,
+        "1963": 24.0,
+        "1965": 23.0,
+        "1966": 26.0,
+        "1989": 33.5,
+        "1991": 35.0,
+        "1992": 38.6,
+        "1993": 33.3
+      }
+    },
+    {
+      "class": "WINTER",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1926": 14.0,
+        "1927": 14.0,
+        "1928": 14.0,
+        "1934": 12.0,
+        "1935": 16.0,
+        "1941": 15.0,
+        "1949": 18.7,
+        "1950": 15.0,
+        "1951": 20.2,
+        "1952": 20.3,
+        "1953": 26.1,
+        "1954": 25.0,
+        "1955": 24.9,
+        "1956": 23.5,
+        "1957": 21.5,
+        "1958": 23.0,
+        "1959": 23.0,
+        "1960": 27.5,
+        "1961": 24.0,
+        "1962": 22.0,
+        "1963": 24.0,
+        "1965": 23.0,
+        "1966": 26.0,
+        "1989": 33.5,
+        "1991": 35.0,
+        "1992": 38.6,
+        "1993": 33.3
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "097",
+    "name": "MACKINAC"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1942": 27.7,
+        "1943": 20.0,
+        "1944": 21.0,
+        "1945": 20.0,
+        "1946": 24.2,
+        "1947": 26.7,
+        "1948": 30.7,
+        "1949": 30.0,
+        "1950": 18.1,
+        "1951": 22.0,
+        "1952": 31.0,
+        "1953": 31.0,
+        "1954": 29.0,
+        "1955": 13.3,
+        "1956": 20.0,
+        "1957": 20.0,
+        "1959": 40.0,
+        "1972": 62.3,
+        "1973": 65.3,
+        "1974": 59.1,
+        "1975": 48.2,
+        "1976": 39.5,
+        "1977": 80.0,
+        "1978": 69.6,
+        "1979": 69.4,
+        "1980": 83.9,
+        "1981": 85.0,
+        "1982": 86.0,
+        "1983": 70.0,
+        "1984": 71.8,
+        "1985": 90.0,
+        "1986": 86.3,
+        "1987": 76.0,
+        "1988": 76.3,
+        "1989": 75.0,
+        "1993": 50.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1972": 41.5,
+        "1973": 61.4,
+        "1974": 51.2,
+        "1975": 45.9,
+        "1976": 36.1,
+        "1977": 71.6,
+        "1981": 78.5,
+        "1982": 71.7,
+        "1983": 46.7,
+        "1984": 65.8,
+        "1985": 56.3,
+        "1986": 11.9
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "suppressed": {},
+      "unit": "TONS / ACRE",
+      "util_practice": "SILAGE",
+      "values": {
+        "1972": 9.9,
+        "1973": 9.9,
+        "1974": 10.4,
+        "1975": 7.0,
+        "1976": 6.0,
+        "1977": 8.1,
+        "1978": 8.4,
+        "1979": 8.4,
+        "1980": 11.8,
+        "1981": 12.9,
+        "1982": 12.1,
+        "1983": 10.0,
+        "1984": 12.2,
+        "1985": 12.0,
+        "1986": 11.0,
+        "1987": 11.1,
+        "1988": 8.3,
+        "1989": 8.5,
+        "1992": 6.0,
+        "1993": 7.5
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "145",
+    "name": "ROANE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1955": 34.0,
+        "1956": 34.9,
+        "1957": 31.1,
+        "1958": 38.0,
+        "1959": 38.6,
+        "1960": 40.0,
+        "1961": 44.0,
+        "1962": 43.0,
+        "1963": 47.0,
+        "1964": 49.0,
+        "1965": 61.0,
+        "1966": 50.0,
+        "1967": 49.0,
+        "1968": 43.0,
+        "1969": 52.0,
+        "1970": 40.0,
+        "1971": 50.0,
+        "1972": 67.0,
+        "1973": 73.0,
+        "1974": 51.0,
+        "1975": 58.0,
+        "1976": 74.0,
+        "1977": 60.0,
+        "1978": 78.0,
+        "1979": 78.0,
+        "1980": 38.0,
+        "1981": 59.0,
+        "1982": 75.0,
+        "1983": 52.0,
+        "1984": 98.0,
+        "1985": 89.0,
+        "1986": 50.0,
+        "1987": 64.0,
+        "1988": 47.0,
+        "1989": 93.0,
+        "1990": 90.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1983": 48.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  }
+}

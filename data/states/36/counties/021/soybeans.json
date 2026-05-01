@@ -1,0 +1,50 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "021",
+    "name": "COLUMBIA"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2000": 31.0,
+        "2001": 41.0,
+        "2002": 37.0,
+        "2003": 46.0,
+        "2004": 48.0,
+        "2005": 43.0,
+        "2006": 48.0,
+        "2007": 49.0,
+        "2010": 45.3,
+        "2011": 39.1,
+        "2012": 51.5,
+        "2013": 53.4,
+        "2015": 51.6,
+        "2017": 43.9,
+        "2018": 57.4,
+        "2019": 51.5,
+        "2020": 49.4,
+        "2021": 48.2,
+        "2022": 33.6,
+        "2023": 62.2
+      }
+    }
+  ],
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  }
+}

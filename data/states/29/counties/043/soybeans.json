@@ -1,0 +1,74 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "043",
+    "name": "CHRISTIAN"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 10.0,
+        "1945": 5.8,
+        "1946": 7.5,
+        "1947": 6.3,
+        "1948": 12.3,
+        "1952": 12.0,
+        "1955": 13.0,
+        "1956": 6.0,
+        "1958": 20.0,
+        "1960": 17.0,
+        "1961": 19.3,
+        "1962": 15.0,
+        "1963": 16.0,
+        "1965": 18.0,
+        "1966": 24.0,
+        "1967": 20.0,
+        "1968": 24.0,
+        "1969": 22.0,
+        "1970": 18.0,
+        "1971": 19.0,
+        "1973": 22.0,
+        "1974": 19.1,
+        "1975": 22.7,
+        "1976": 16.0,
+        "1977": 22.0,
+        "1978": 22.4,
+        "1979": 24.0,
+        "1980": 10.0,
+        "1981": 23.0,
+        "2014": 30.3,
+        "2018": 39.0,
+        "2020": 34.4
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1978": 22.4
+      }
+    }
+  ],
+  "state": {
+    "alpha": "MO",
+    "fips": "29",
+    "name": "MISSOURI"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "017",
+    "name": "BUFFALO"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1977": 18.4,
+        "1979": 24.0,
+        "1983": 20.0,
+        "1984": 20.0,
+        "1985": 25.0,
+        "1986": 16.0,
+        "1989": 19.0,
+        "1997": 35.0,
+        "1998": 32.0,
+        "2000": 24.5,
+        "2001": 15.7,
+        "2002": 18.3,
+        "2003": 23.2,
+        "2004": 34.9,
+        "2005": 23.8,
+        "2006": 23.4,
+        "2007": 29.6,
+        "2008": 33.0,
+        "2010": 40.3,
+        "2012": 20.3,
+        "2018": 43.0,
+        "2020": 48.6,
+        "2024": 46.2
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1979": 24.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  }
+}

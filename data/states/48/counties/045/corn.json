@@ -1,0 +1,132 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "045",
+    "name": "BRISCOE"
+  },
+  "schema_version": 2,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1969": 56.2,
+        "1970": 126.2,
+        "1971": 101.9,
+        "1972": 161.8,
+        "1973": 162.1,
+        "1974": 105.0,
+        "1975": 117.9,
+        "1976": 128.2,
+        "1977": 101.1,
+        "1978": 111.1,
+        "1979": 112.8,
+        "1980": 110.4,
+        "1981": 145.0,
+        "1982": 122.7,
+        "1983": 113.6,
+        "1984": 143.7,
+        "1985": 143.2,
+        "1986": 158.9,
+        "1987": 155.0,
+        "1988": 124.8,
+        "1989": 135.6,
+        "1990": 126.0,
+        "1991": 105.1,
+        "1992": 137.0,
+        "1993": 122.7,
+        "1994": 132.6,
+        "1995": 123.2,
+        "1996": 152.7,
+        "1997": 139.6,
+        "1998": 130.5,
+        "2004": 183.9,
+        "2005": 105.9,
+        "2006": 189.0,
+        "2007": 135.0,
+        "2009": 111.7,
+        "2010": 119.4,
+        "2015": 108.1,
+        "2016": 93.9,
+        "2017": 176.5
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1978": 108.1,
+        "1979": 112.8,
+        "1980": 106.4,
+        "1981": 145.0,
+        "1982": 122.7,
+        "1983": 113.6,
+        "1984": 143.7,
+        "1985": 143.2
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1981": 145.0,
+        "1982": 122.7,
+        "1983": 113.6,
+        "1984": 143.7,
+        "1985": 143.2,
+        "1986": 158.9,
+        "1988": 124.8,
+        "2016": 133.3
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "suppressed": {},
+      "unit": "BU / NET PLANTED ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "1984": 143.7,
+        "1985": 143.2
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "suppressed": {},
+      "unit": "BU / ACRE",
+      "util_practice": "GRAIN",
+      "values": {
+        "2016": 28.1
+      }
+    }
+  ],
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  }
+}
