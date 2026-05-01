@@ -6,7 +6,9 @@ from __future__ import annotations
 
 import csv
 import io
+import json
 import sys
+import tempfile
 import unittest
 from datetime import date
 from pathlib import Path
@@ -275,6 +277,329 @@ class TolerantHeaderTest(unittest.TestCase):
         self.assertEqual(total, 12)
         self.assertEqual(len(kept), 7)
         self.assertIn("FUTURE_NASS_COLUMN", header)
+
+
+# ---------- v2 emit tests ----------
+
+
+def _fixture_discovery() -> dict:
+    return {
+        "url": "https://www.nass.usda.gov/datasets/qs.crops_20260430.txt.gz",
+        "etag": '"abc123"',
+        "last_modified": "Thu, 30 Apr 2026 07:13:37 GMT",
+        "content_length": 0,
+        "date": "2026-04-30",
+        "lag_days": 0,
+    }
+
+
+class V2EmitTestBase(unittest.TestCase):
+    """Build the in-memory states tree once, redirect DATA_V2_DIR to a tempdir.
+
+    Every v2 emit test inherits this so the real data/v2/ tree is never
+    touched. The tempdir is cleaned up in tearDown.
+    """
+
+    def setUp(self) -> None:
+        reader = csv.reader(io.StringIO(fixture_csv_text()), delimiter="\t")
+        _, _, kept = refresh._parse_filter(reader)
+        self.states = refresh.group_by_state(kept)
+        self.discovery = _fixture_discovery()
+        self.refreshed_at = "2026-04-30T07:13:37Z"
+        self.header = ["SOURCE_DESC", "SECTOR_DESC", "FUTURE_NASS_COLUMN"]
+
+        self._tmp = tempfile.TemporaryDirectory()
+        self._original_data_v2_dir = refresh.DATA_V2_DIR
+        refresh.DATA_V2_DIR = Path(self._tmp.name) / "data" / "v2"
+
+    def tearDown(self) -> None:
+        refresh.DATA_V2_DIR = self._original_data_v2_dir
+        self._tmp.cleanup()
+
+    def _emit_all(self) -> None:
+        """Run the full v2 emit pipeline against self.states."""
+        refresh.sort_series(self.states)
+        self.missing_count, self.missing_samples = refresh.mark_canonical(self.states)
+        self.expected: set[Path] = set()
+        idx_path, _ = refresh.emit_v2_index(self.states, self.discovery, self.refreshed_at)
+        self.expected.add(idx_path)
+        meta_paths, _ = refresh.emit_v2_state_meta(self.states)
+        self.expected |= meta_paths
+        leaf_paths, _ = refresh.emit_v2_point_leaves(self.states)
+        self.expected |= leaf_paths
+        rollup_paths, _ = refresh.emit_v2_crop_rollups(self.states)
+        self.expected |= rollup_paths
+        audit_path, _ = refresh.emit_v2_audit(self.header, self.refreshed_at, self.discovery["date"])
+        self.expected.add(audit_path)
+
+
+class V2IndexTest(V2EmitTestBase):
+    def test_v2_index_lists_all_states_with_crops_and_county_count(self) -> None:
+        self._emit_all()
+        idx = json.loads(refresh._v2_index_path().read_text(encoding="utf-8"))
+        self.assertEqual(set(idx["states"]), {"19", "20"})
+        ia = idx["states"]["19"]
+        self.assertEqual(ia["alpha"], "IA")
+        self.assertEqual(ia["county_count"], 1)
+        self.assertEqual(ia["crops"], ["corn", "soybeans"])
+        ks = idx["states"]["20"]
+        self.assertEqual(ks["alpha"], "KS")
+        self.assertEqual(ks["crops"], ["wheat"])
+
+    def test_v2_index_carries_refreshed_at_and_source(self) -> None:
+        self._emit_all()
+        idx = json.loads(refresh._v2_index_path().read_text(encoding="utf-8"))
+        self.assertEqual(idx["refreshed_at"], self.refreshed_at)
+        self.assertEqual(idx["source"]["publication_date"], "2026-04-30")
+        self.assertEqual(idx["source"]["etag"], '"abc123"')
+        self.assertEqual(idx["schema_version"], 2)
+
+
+class V2StateMetaTest(V2EmitTestBase):
+    def test_v2_state_meta_lists_counties_and_crops(self) -> None:
+        self._emit_all()
+        meta = json.loads(refresh._v2_state_meta_path("19").read_text(encoding="utf-8"))
+        self.assertEqual(meta["state"]["fips"], "19")
+        story = meta["counties"]["169"]
+        self.assertEqual(story["name"], "STORY")
+        self.assertEqual(story["crops"], ["corn", "soybeans"])
+
+    def test_v2_state_meta_has_no_timestamps(self) -> None:
+        self._emit_all()
+        meta = json.loads(refresh._v2_state_meta_path("19").read_text(encoding="utf-8"))
+        self.assertNotIn("refreshed_at", meta)
+        self.assertNotIn("source_publication_date", meta)
+
+
+class V2PointLeafTest(V2EmitTestBase):
+    def test_v2_point_leaf_shape_minimal_and_complete(self) -> None:
+        self._emit_all()
+        leaf_path = refresh._v2_point_leaf_path("19", "169", "corn")
+        leaf = json.loads(leaf_path.read_text(encoding="utf-8"))
+        self.assertEqual(leaf["schema_version"], 2)
+        self.assertEqual(leaf["state"]["fips"], "19")
+        self.assertEqual(leaf["county"], {"code": "169", "name": "STORY"})
+        self.assertEqual(leaf["commodity"], {"slug": "corn", "desc": "CORN"})
+        self.assertEqual(len(leaf["series"]), 2)  # grain + silage
+        grain = next(s for s in leaf["series"] if s["util_practice"] == "GRAIN")
+        self.assertEqual(grain["values"]["2024"], 218.9)
+        self.assertEqual(grain["suppressed"]["1980"], "D")
+
+    def test_v2_point_leaf_has_no_timestamps(self) -> None:
+        self._emit_all()
+        leaf = json.loads(refresh._v2_point_leaf_path("19", "169", "corn").read_text(encoding="utf-8"))
+        self.assertNotIn("refreshed_at", leaf)
+        self.assertNotIn("source_publication_date", leaf)
+        # Also leaves must not carry the v1 `ansi` field at the leaf level.
+        self.assertNotIn("ansi", leaf["county"])
+
+    def test_v2_point_leaf_path_uses_county_code(self) -> None:
+        self._emit_all()
+        # Story IA: code == ansi == "169". The path segment must equal the
+        # outer dict key from group_by_state, never the (sometimes blank) ansi.
+        leaf_path = refresh._v2_point_leaf_path("19", "169", "corn")
+        self.assertTrue(leaf_path.exists())
+        # Defensive: a hypothetical blank-ansi case would write to "/corn.json"
+        # with an empty segment; verify our path builder never emits one.
+        bad_path = refresh._v2_point_leaf_path("19", "", "corn")
+        self.assertNotIn("//", str(bad_path).replace("\\", "/").replace(":/", ""))
+
+
+class V2CanonicalTest(V2EmitTestBase):
+    def test_v2_canonical_flag_corn_grain_not_silage(self) -> None:
+        self._emit_all()
+        leaf = json.loads(refresh._v2_point_leaf_path("19", "169", "corn").read_text(encoding="utf-8"))
+        grain = next(s for s in leaf["series"] if s["util_practice"] == "GRAIN")
+        silage = next(s for s in leaf["series"] if s["util_practice"] == "SILAGE")
+        self.assertTrue(grain.get("canonical"))
+        self.assertNotIn("canonical", silage)
+
+    def test_v2_canonical_flag_absent_when_no_match(self) -> None:
+        # Kansas wheat fixture row uses class="WINTER", so the canonical rule
+        # (class="ALL CLASSES") finds no match. mark_canonical should count
+        # the gap and the leaf must not carry canonical:true on any series.
+        self._emit_all()
+        leaf = json.loads(refresh._v2_point_leaf_path("20", "181", "wheat").read_text(encoding="utf-8"))
+        for s in leaf["series"]:
+            self.assertNotIn("canonical", s)
+        self.assertGreaterEqual(self.missing_count, 1)
+
+    def test_v2_canonical_rules_cover_all_commodities(self) -> None:
+        # Module-load assertion; here we make the contract explicit so a future
+        # commodity addition without a CANONICAL_RULES entry fails this test
+        # too (in case the assertion is moved or weakened).
+        missing = {c.lower() for c in refresh.COMMODITY_ALLOWLIST} - set(refresh.CANONICAL_RULES)
+        self.assertEqual(missing, set())
+
+    def test_v2_missing_canonical_warns_and_continues(self) -> None:
+        # mark_canonical must return a non-zero count for the Kansas wheat
+        # fixture (class=WINTER) without raising, and the v2 emit pipeline
+        # must complete normally afterwards.
+        self._emit_all()
+        self.assertGreaterEqual(self.missing_count, 1)
+        # Pipeline still produced index, meta, leaf, audit.
+        self.assertTrue(refresh._v2_index_path().exists())
+        self.assertTrue(refresh._v2_audit_path().exists())
+        self.assertTrue(refresh._v2_point_leaf_path("20", "181", "wheat").exists())
+
+
+class V2SeriesOrderTest(V2EmitTestBase):
+    def test_v2_series_order_is_canonical(self) -> None:
+        # Reverse the in-memory series order to simulate NASS row reorder,
+        # then run sort_series and verify the resulting series order is
+        # deterministic by canonical key tuple, not by source-row order.
+        story_corn = self.states["19"]["counties"]["169"]["commodities"]["corn"]
+        story_corn["series"].reverse()
+        refresh.sort_series(self.states)
+        keys = [refresh._series_sort_key(s) for s in story_corn["series"]]
+        self.assertEqual(keys, sorted(keys))
+
+
+class V2BootstrapTest(V2EmitTestBase):
+    def test_v2_bootstrap_when_index_missing(self) -> None:
+        # Empty tempdir -> v2_bootstrap_needed is True.
+        self.assertFalse(refresh._v2_index_path().exists())
+        # After emit, the index exists -> bootstrap_needed is False.
+        self._emit_all()
+        self.assertTrue(refresh._v2_index_path().exists())
+
+
+class V2CropRollupTest(V2EmitTestBase):
+    def test_v2_crop_rollup_includes_all_counties_for_that_crop(self) -> None:
+        self._emit_all()
+        rollup = json.loads(refresh._v2_crop_rollup_path("19", "corn").read_text(encoding="utf-8"))
+        self.assertEqual(rollup["schema_version"], 2)
+        self.assertEqual(rollup["state"]["fips"], "19")
+        self.assertEqual(rollup["commodity"], {"slug": "corn", "desc": "CORN"})
+        self.assertIn("169", rollup["counties"])
+        self.assertEqual(rollup["counties"]["169"]["name"], "STORY")
+        self.assertEqual(len(rollup["counties"]["169"]["series"]), 2)
+
+    def test_v2_crop_rollup_has_no_timestamps(self) -> None:
+        self._emit_all()
+        rollup = json.loads(refresh._v2_crop_rollup_path("19", "corn").read_text(encoding="utf-8"))
+        self.assertNotIn("refreshed_at", rollup)
+        self.assertNotIn("source_publication_date", rollup)
+
+
+class V2PruneTest(V2EmitTestBase):
+    def test_v2_prune_removes_stale_leaf(self) -> None:
+        self._emit_all()
+        # Plant a stale leaf that the current run did not produce.
+        stale = refresh._v2_point_leaf_path("99", "001", "corn")
+        stale.parent.mkdir(parents=True, exist_ok=True)
+        stale.write_text("{}", encoding="utf-8")
+        self.assertTrue(stale.exists())
+        deleted = refresh.prune_v2_stale(self.expected)
+        self.assertGreaterEqual(deleted, 1)
+        self.assertFalse(stale.exists())
+        # Active leaves must remain.
+        self.assertTrue(refresh._v2_point_leaf_path("19", "169", "corn").exists())
+
+
+class V2AuditTest(V2EmitTestBase):
+    def test_v2_audit_carries_header_observed(self) -> None:
+        self._emit_all()
+        audit = json.loads(refresh._v2_audit_path().read_text(encoding="utf-8"))
+        self.assertEqual(audit["schema_version"], 2)
+        self.assertEqual(audit["refreshed_at"], self.refreshed_at)
+        self.assertEqual(audit["source_publication_date"], "2026-04-30")
+        self.assertIn("FUTURE_NASS_COLUMN", audit["header_observed"])
+
+
+class V2ParityTest(V2EmitTestBase):
+    def _v1_tuples(self) -> set[tuple]:
+        """Extract every (fips, county_code, slug, series_key, year, value) tuple from the in-memory v1 tree."""
+        out: set[tuple] = set()
+        for fips, st in self.states.items():
+            for code, cty in st["counties"].items():
+                for slug, com in cty["commodities"].items():
+                    for s in com["series"]:
+                        skey = refresh._series_sort_key(s)
+                        for y, v in s["values"].items():
+                            out.add((fips, code, slug, skey, y, "v", v))
+                        for y, c in s["suppressed"].items():
+                            out.add((fips, code, slug, skey, y, "s", c))
+                        for y, r in s["raw"].items():
+                            out.add((fips, code, slug, skey, y, "r", r))
+        return out
+
+    def _v2_leaf_tuples(self) -> set[tuple]:
+        out: set[tuple] = set()
+        for leaf_path in (refresh.DATA_V2_DIR / "states").rglob("*/counties/*/*.json"):
+            d = json.loads(leaf_path.read_text(encoding="utf-8"))
+            fips = d["state"]["fips"]
+            code = d["county"]["code"]
+            slug = d["commodity"]["slug"]
+            for s in d["series"]:
+                skey = refresh._series_sort_key(s)
+                for y, v in s["values"].items():
+                    out.add((fips, code, slug, skey, y, "v", v))
+                for y, c in s["suppressed"].items():
+                    out.add((fips, code, slug, skey, y, "s", c))
+                for y, r in s["raw"].items():
+                    out.add((fips, code, slug, skey, y, "r", r))
+        return out
+
+    def _v2_rollup_tuples(self) -> set[tuple]:
+        out: set[tuple] = set()
+        for rollup_path in (refresh.DATA_V2_DIR / "states").rglob("*/crops/*.json"):
+            d = json.loads(rollup_path.read_text(encoding="utf-8"))
+            fips = d["state"]["fips"]
+            slug = d["commodity"]["slug"]
+            for code, county_payload in d["counties"].items():
+                for s in county_payload["series"]:
+                    skey = refresh._series_sort_key(s)
+                    for y, v in s["values"].items():
+                        out.add((fips, code, slug, skey, y, "v", v))
+                    for y, c in s["suppressed"].items():
+                        out.add((fips, code, slug, skey, y, "s", c))
+                    for y, r in s["raw"].items():
+                        out.add((fips, code, slug, skey, y, "r", r))
+        return out
+
+    def test_v2_v1_value_parity(self) -> None:
+        self._emit_all()
+        v1 = self._v1_tuples()
+        v2 = self._v2_leaf_tuples()
+        self.assertEqual(v1, v2)
+
+    def test_v2_point_rollup_parity(self) -> None:
+        self._emit_all()
+        leaves = self._v2_leaf_tuples()
+        rollups = self._v2_rollup_tuples()
+        self.assertEqual(leaves, rollups)
+
+
+class WriteIfChangedTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self._tmp = tempfile.TemporaryDirectory()
+        self.tmpdir = Path(self._tmp.name)
+
+    def tearDown(self) -> None:
+        self._tmp.cleanup()
+
+    def test_write_if_changed_writes_when_absent(self) -> None:
+        path = self.tmpdir / "sub" / "file.json"
+        wrote = refresh.write_if_changed(path, "hello\n")
+        self.assertTrue(wrote)
+        self.assertTrue(path.exists())
+        self.assertEqual(path.read_text(encoding="utf-8"), "hello\n")
+
+    def test_write_if_changed_skips_when_identical(self) -> None:
+        path = self.tmpdir / "file.json"
+        path.write_text("hello\n", encoding="utf-8")
+        mtime_before = path.stat().st_mtime_ns
+        wrote = refresh.write_if_changed(path, "hello\n")
+        self.assertFalse(wrote)
+        self.assertEqual(path.stat().st_mtime_ns, mtime_before)
+
+    def test_write_if_changed_writes_when_different(self) -> None:
+        path = self.tmpdir / "file.json"
+        path.write_text("old\n", encoding="utf-8")
+        wrote = refresh.write_if_changed(path, "new\n")
+        self.assertTrue(wrote)
+        self.assertEqual(path.read_text(encoding="utf-8"), "new\n")
 
 
 if __name__ == "__main__":

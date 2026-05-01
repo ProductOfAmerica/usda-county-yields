@@ -29,6 +29,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Run tests
+        # Catch a broken refresher before we run it against live NASS data.
+        # The cron is the only place this script executes in production, so
+        # CI for this repo lives inside the same job as the refresh.
+        run: python -m unittest tests.test_refresh -v
+
       - name: Run refresh
         env:
           HEALTHCHECKS_PING_URL: ${{ secrets.HEALTHCHECKS_PING_URL }}
@@ -38,7 +44,7 @@ jobs:
         run: |
           git config user.name "nass-cache-bot"
           git config user.email "nass-cache-bot@users.noreply.github.com"
-          git add data/v1 .refresh-state.json
+          git add data/v1 data/v2 .refresh-state.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0

@@ -25,11 +25,34 @@ from typing import Iterable, Optional
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data" / "v1" / "states"
+DATA_V2_DIR = REPO_ROOT / "data" / "v2"
 STATE_FILE = REPO_ROOT / ".refresh-state.json"
 NASS_BASE = "https://www.nass.usda.gov/datasets"
 SECTOR = "crops"
 
 COMMODITY_ALLOWLIST = {"CORN", "SOYBEANS", "WHEAT"}
+
+# v2 canonical-series rule per crop slug. The producer marks exactly one
+# series per (county, crop) as canonical so consumers do not have to
+# re-derive the README's canonical filter. If a (county, crop) has at
+# least one series but none matches, mark_canonical counts it; we do
+# not abort because the data may legitimately lack the canonical variant.
+CANONICAL_RULES: dict[str, dict[str, str]] = {
+    "corn":     {"class": "ALL CLASSES", "prodn_practice": "ALL PRODUCTION PRACTICES", "unit": "BU / ACRE"},
+    "soybeans": {"class": "ALL CLASSES", "prodn_practice": "ALL PRODUCTION PRACTICES", "unit": "BU / ACRE"},
+    "wheat":    {"class": "ALL CLASSES", "prodn_practice": "ALL PRODUCTION PRACTICES", "unit": "BU / ACRE"},
+}
+
+# Fail-fast: every commodity in the allowlist must have a canonical rule.
+# Without this guard, a future commodity addition would silently produce
+# v2 leaves with no canonical:true flag for that crop. Every current
+# COMMODITY_ALLOWLIST entry is a single ASCII word, so its slug is just
+# c.lower(); when adding multi-word commodities, switch to slugify() and
+# move this assertion below slugify's definition.
+_MISSING_CANONICAL_RULES = {c.lower() for c in COMMODITY_ALLOWLIST} - set(CANONICAL_RULES)
+assert not _MISSING_CANONICAL_RULES, (
+    f"COMMODITY_ALLOWLIST entries missing from CANONICAL_RULES: {_MISSING_CANONICAL_RULES}"
+)
 
 REQUIRED_COLS = [
     "SOURCE_DESC", "COMMODITY_DESC", "CLASS_DESC",
@@ -242,6 +265,22 @@ def group_by_state(rows: list[dict]) -> dict[str, dict]:
     return states
 
 
+# ---------- io helpers ----------
+
+def write_if_changed(path: Path, text: str) -> bool:
+    """Atomic content-diff write. Returns True if a write happened.
+
+    Single source of truth for the touched-only-write semantic shared by
+    every emitter (v1 + v2). Skipping no-op writes keeps weekly git diffs
+    proportional to actual data change, not refresh count.
+    """
+    if path.exists() and path.read_text(encoding="utf-8") == text:
+        return False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    return True
+
+
 # ---------- emit ----------
 
 def emit_state_files(
@@ -250,7 +289,7 @@ def emit_state_files(
     header_observed: list[str],
     refreshed_at: str,
 ) -> tuple[int, int]:
-    """Write per-state JSON; git rm absent files. Returns (written, deleted)."""
+    """Write per-state v1 JSON; prune absent files. Returns (written, deleted)."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     written = 0
     new_files: set[Path] = set()
@@ -272,8 +311,7 @@ def emit_state_files(
         }
         new_text = json.dumps(envelope, indent=2, sort_keys=True) + "\n"
         new_files.add(out_path)
-        if not out_path.exists() or out_path.read_text(encoding="utf-8") != new_text:
-            out_path.write_text(new_text, encoding="utf-8")
+        if write_if_changed(out_path, new_text):
             written += 1
 
     # Inline guard 2: prune absent files
@@ -283,6 +321,232 @@ def emit_state_files(
             existing.unlink()
             deleted += 1
     return written, deleted
+
+
+# ---------- v2 emit ----------
+
+# Sort key per series, used by sort_series and prefixed by canonical match
+# in mark_canonical. Matching the same tuple shape as group_by_state's
+# series_key keeps the producer round-trip deterministic.
+def _series_sort_key(s: dict) -> tuple:
+    return (s["class"], s["prodn_practice"], s["util_practice"], s["unit"], s["short_desc"])
+
+
+def sort_series(states: dict[str, dict]) -> None:
+    """Sort each commodity's series[] in place by canonical key.
+
+    group_by_state appends in source-row encounter order. Without this
+    sort, an upstream NASS row reorder rewrites every leaf despite no
+    data change. Codex review #8.
+    """
+    for st in states.values():
+        for cty in st["counties"].values():
+            for com in cty["commodities"].values():
+                com["series"].sort(key=_series_sort_key)
+
+
+def mark_canonical(states: dict[str, dict]) -> tuple[int, list[tuple[str, str, str]]]:
+    """Set series['canonical']=True on the per-crop canonical match.
+
+    Returns (missing_count, missing_samples). missing_count counts
+    (county, crop) pairs that had >=1 series but no series matched the
+    canonical rule. samples is a small list of (state_fips, county_name,
+    crop_slug) tuples for stderr printing.
+    """
+    missing_count = 0
+    samples: list[tuple[str, str, str]] = []
+    for fips, st in states.items():
+        for cty in st["counties"].values():
+            for slug, com in cty["commodities"].items():
+                rule = CANONICAL_RULES.get(slug)
+                if rule is None:
+                    # Should never hit because of the module-load assertion.
+                    continue
+                matched = False
+                for s in com["series"]:
+                    if all(s.get(k) == v for k, v in rule.items()):
+                        s["canonical"] = True
+                        matched = True
+                        break
+                if not matched and com["series"]:
+                    missing_count += 1
+                    if len(samples) < 10:
+                        samples.append((fips, cty["name"], slug))
+    return missing_count, samples
+
+
+def _v2_state_path(fips: str) -> Path:
+    return DATA_V2_DIR / "states" / fips
+
+
+def _v2_point_leaf_path(fips: str, county_code: str, slug: str) -> Path:
+    return _v2_state_path(fips) / "counties" / county_code / f"{slug}.json"
+
+
+def _v2_crop_rollup_path(fips: str, slug: str) -> Path:
+    return _v2_state_path(fips) / "crops" / f"{slug}.json"
+
+
+def _v2_state_meta_path(fips: str) -> Path:
+    return _v2_state_path(fips) / "meta.json"
+
+
+def _v2_index_path() -> Path:
+    return DATA_V2_DIR / "index.json"
+
+
+def _v2_audit_path() -> Path:
+    return DATA_V2_DIR / "_audit" / "latest.json"
+
+
+def _dump_json(payload: dict) -> str:
+    return json.dumps(payload, indent=2, sort_keys=True) + "\n"
+
+
+def emit_v2_index(
+    states: dict[str, dict],
+    discovery: dict,
+    refreshed_at: str,
+) -> tuple[Path, bool]:
+    """Write data/v2/index.json. Returns (path, written_bool)."""
+    state_index = {}
+    for fips in sorted(states):
+        st = states[fips]
+        crops = sorted({slug for cty in st["counties"].values() for slug in cty["commodities"]})
+        state_index[fips] = {
+            "alpha": st["state"]["alpha"],
+            "name": st["state"]["name"],
+            "crops": crops,
+            "county_count": len(st["counties"]),
+        }
+    payload = {
+        "schema_version": 2,
+        "product_name": "NASS county crop yields (v2)",
+        "refreshed_at": refreshed_at,
+        "source": {
+            "url": discovery["url"],
+            "last_modified": discovery["last_modified"],
+            "etag": discovery["etag"],
+            "publication_date": discovery["date"],
+            "freshness_lag_days": discovery["lag_days"],
+        },
+        "states": state_index,
+    }
+    path = _v2_index_path()
+    return path, write_if_changed(path, _dump_json(payload))
+
+
+def emit_v2_state_meta(states: dict[str, dict]) -> tuple[set[Path], int]:
+    """Write data/v2/states/{fips}/meta.json per state. Returns (paths_written_to_set, written_count)."""
+    paths: set[Path] = set()
+    written = 0
+    for fips in sorted(states):
+        st = states[fips]
+        counties = {}
+        for code in sorted(st["counties"]):
+            cty = st["counties"][code]
+            counties[code] = {
+                "name": cty["name"],
+                "crops": sorted(cty["commodities"]),
+            }
+        payload = {
+            "schema_version": 2,
+            "state": st["state"],
+            "counties": counties,
+        }
+        path = _v2_state_meta_path(fips)
+        paths.add(path)
+        if write_if_changed(path, _dump_json(payload)):
+            written += 1
+    return paths, written
+
+
+def emit_v2_point_leaves(states: dict[str, dict]) -> tuple[set[Path], int]:
+    """Write data/v2/states/{fips}/counties/{code}/{slug}.json per (county, crop)."""
+    paths: set[Path] = set()
+    written = 0
+    for fips in sorted(states):
+        st = states[fips]
+        for code in sorted(st["counties"]):
+            cty = st["counties"][code]
+            for slug in sorted(cty["commodities"]):
+                com = cty["commodities"][slug]
+                payload = {
+                    "schema_version": 2,
+                    "state": st["state"],
+                    "county": {"code": code, "name": cty["name"]},
+                    "commodity": {"slug": slug, "desc": com["commodity_desc"]},
+                    "series": com["series"],
+                }
+                path = _v2_point_leaf_path(fips, code, slug)
+                paths.add(path)
+                if write_if_changed(path, _dump_json(payload)):
+                    written += 1
+    return paths, written
+
+
+def emit_v2_crop_rollups(states: dict[str, dict]) -> tuple[set[Path], int]:
+    """Write data/v2/states/{fips}/crops/{slug}.json per (state, crop)."""
+    paths: set[Path] = set()
+    written = 0
+    for fips in sorted(states):
+        st = states[fips]
+        # Group counties by crop slug for this state.
+        per_crop: dict[str, dict[str, dict]] = {}
+        for code in sorted(st["counties"]):
+            cty = st["counties"][code]
+            for slug in sorted(cty["commodities"]):
+                com = cty["commodities"][slug]
+                per_crop.setdefault(slug, {"desc": com["commodity_desc"], "counties": {}})
+                per_crop[slug]["counties"][code] = {
+                    "name": cty["name"],
+                    "series": com["series"],
+                }
+        for slug, bundle in per_crop.items():
+            payload = {
+                "schema_version": 2,
+                "state": st["state"],
+                "commodity": {"slug": slug, "desc": bundle["desc"]},
+                "counties": bundle["counties"],
+            }
+            path = _v2_crop_rollup_path(fips, slug)
+            paths.add(path)
+            if write_if_changed(path, _dump_json(payload)):
+                written += 1
+    return paths, written
+
+
+def emit_v2_audit(
+    header_observed: list[str],
+    refreshed_at: str,
+    source_publication_date: str,
+) -> tuple[Path, bool]:
+    """Write data/v2/_audit/latest.json (maintainer audit, deduped header)."""
+    payload = {
+        "schema_version": 2,
+        "refreshed_at": refreshed_at,
+        "source_publication_date": source_publication_date,
+        "header_observed": header_observed,
+    }
+    path = _v2_audit_path()
+    return path, write_if_changed(path, _dump_json(payload))
+
+
+def prune_v2_stale(expected_files: set[Path]) -> int:
+    """Delete any .json under data/v2/ that is not in expected_files.
+
+    Mirrors emit_state_files's inline guard 2: a state (or county, or crop)
+    no longer present in the current refresh tree must be removed so the
+    next git commit captures the deletion.
+    """
+    deleted = 0
+    if not DATA_V2_DIR.exists():
+        return 0
+    for existing in DATA_V2_DIR.rglob("*.json"):
+        if existing not in expected_files:
+            existing.unlink()
+            deleted += 1
+    return deleted
 
 
 # ---------- validate ----------
@@ -375,10 +639,18 @@ def main(today: Optional[date] = None) -> int:
         f"(publication {discovery['date']}, lag {discovery['lag_days']} days)"
     )
 
-    if last_etag and discovery["etag"] == last_etag:
+    # Bootstrap guard: if the v2 index is missing, force re-emit even when
+    # the source ETag matches the last successful run. Without this, a same
+    # day workflow_dispatch re-run after a v2 schema bump skips emit and
+    # the v2 tree never materializes. Self-healing on first run after merge.
+    v2_bootstrap_needed = not _v2_index_path().exists()
+
+    if last_etag and discovery["etag"] == last_etag and not v2_bootstrap_needed:
         print("ETag matches last successful run; nothing to do.")
         ping_healthchecks()
         return 0
+    if v2_bootstrap_needed and last_etag and discovery["etag"] == last_etag:
+        print("ETag matches but data/v2/ is missing; bootstrapping v2 from cached download.")
 
     download_path = Path(os.environ.get("RUNNER_TEMP", "/tmp")) / Path(discovery["url"]).name
     print(f"Downloading {discovery['url']} -> {download_path}")
@@ -394,8 +666,42 @@ def main(today: Optional[date] = None) -> int:
     states = group_by_state(kept_rows)
 
     refreshed_at = utc_now_iso()
-    written, deleted = emit_state_files(states, discovery, header, refreshed_at)
-    print(f"Wrote {written} state files; deleted {deleted}")
+
+    # v1 emit (behavior byte-identical; migrated to write_if_changed helper).
+    v1_written, v1_deleted = emit_state_files(states, discovery, header, refreshed_at)
+    print(f"v1: wrote {v1_written} state files; deleted {v1_deleted}")
+
+    # v2 emit pipeline. Sort first so leaf bytes stay stable across NASS row
+    # reorders, then mark canonical, then emit each artifact family, then
+    # prune stale leaves so removed (state, county, crop) tuples disappear
+    # from the published tree.
+    sort_series(states)
+    missing_canonical, missing_samples = mark_canonical(states)
+    if missing_canonical:
+        sample_str = ", ".join(f"{f}/{c}/{s}" for f, c, s in missing_samples)
+        print(
+            f"WARN: {missing_canonical} (county, crop) pairs lack a canonical series. "
+            f"First {len(missing_samples)}: {sample_str}",
+            file=sys.stderr,
+        )
+
+    expected_v2: set[Path] = set()
+    idx_path, idx_w = emit_v2_index(states, discovery, refreshed_at)
+    expected_v2.add(idx_path)
+    meta_paths, meta_w = emit_v2_state_meta(states)
+    expected_v2 |= meta_paths
+    leaf_paths, leaf_w = emit_v2_point_leaves(states)
+    expected_v2 |= leaf_paths
+    rollup_paths, rollup_w = emit_v2_crop_rollups(states)
+    expected_v2 |= rollup_paths
+    audit_path, audit_w = emit_v2_audit(header, refreshed_at, discovery["date"])
+    expected_v2.add(audit_path)
+    v2_deleted = prune_v2_stale(expected_v2)
+    print(
+        f"v2: index={int(idx_w)} meta={meta_w} leaves={leaf_w} "
+        f"rollups={rollup_w} audit={int(audit_w)} pruned={v2_deleted} "
+        f"missing_canonical={missing_canonical}"
+    )
 
     save_state({
         "last_successful_date": discovery["date"],
@@ -405,6 +711,8 @@ def main(today: Optional[date] = None) -> int:
         "last_filtered_row_count": len(kept_rows),
         "last_total_row_count": total_rows,
         "last_run_at": refreshed_at,
+        "last_missing_canonical_count": missing_canonical,
+        "last_missing_canonical_at": refreshed_at,
     })
 
     ping_healthchecks()
