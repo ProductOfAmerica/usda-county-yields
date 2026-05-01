@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>USDA NASS County Crop Yields — Free JSON API</title>
+<meta name="description" content="Free static JSON API serving USDA NASS county-level corn, soybean, and wheat yield data. Refreshed weekly from the NASS bulk file. No API key, no rate limits. Public domain." />
+<meta name="keywords" content="USDA, NASS, county crop yields, corn yield, soybean yield, wheat yield, agricultural data, free JSON API, jsDelivr, public domain, ag-tech, data science" />
+<link rel="canonical" href="https://productofamerica.github.io/usda-county-yields/" />
+<meta property="og:title" content="USDA NASS County Crop Yields — Free JSON API" />
+<meta property="og:description" content="Free static JSON API serving USDA NASS county-level corn, soybean, and wheat yield data. Refreshed weekly. No API key." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://productofamerica.github.io/usda-county-yields/" />
+<meta name="twitter:card" content="summary" />
+<style>
+  :root { color-scheme: light dark; --fg:#111; --bg:#fff; --muted:#555; --code-bg:#f6f8fa; --link:#0969da; --border:#d0d7de; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg:#e6edf3; --bg:#0d1117; --muted:#8b949e; --code-bg:#161b22; --link:#58a6ff; --border:#30363d; }
+  }
+  * { box-sizing: border-box; }
+  body { font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; color: var(--fg); background: var(--bg); margin: 0; }
+  main { max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  h1 { font-size: 2rem; margin: 0 0 .5rem; line-height: 1.2; }
+  h2 { font-size: 1.25rem; margin: 2.5rem 0 .75rem; border-bottom: 1px solid var(--border); padding-bottom: .25rem; }
+  p { margin: .75rem 0; }
+  .lede { font-size: 1.125rem; color: var(--muted); margin-bottom: 1.5rem; }
+  a { color: var(--link); }
+  code, pre { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace; }
+  code { background: var(--code-bg); padding: .1em .35em; border-radius: 4px; font-size: .92em; }
+  pre { background: var(--code-bg); padding: .9rem 1rem; border-radius: 6px; overflow-x: auto; font-size: .88rem; line-height: 1.5; }
+  pre code { background: transparent; padding: 0; }
+  .badges { margin: .5rem 0 1.5rem; display: flex; gap: .5rem; flex-wrap: wrap; }
+  .badge { display: inline-block; padding: .15rem .55rem; border: 1px solid var(--border); border-radius: 999px; font-size: .8rem; color: var(--muted); text-decoration: none; }
+  .badge:hover { color: var(--link); border-color: var(--link); }
+  ul { padding-left: 1.25rem; }
+  li { margin: .3rem 0; }
+  footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .85rem; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "USDA NASS County Crop Yields",
+  "alternateName": ["NASS county yields", "USDA county yield data API", "County crop yields JSON"],
+  "description": "Free static JSON API serving USDA NASS county-level annual yields for corn, soybeans, and wheat. Refreshed weekly from the NASS bulk file. Per-county point lookups in 2-22 KB. No API key, no rate limits, no auth. Sharded by (state, county, crop) and served from the jsDelivr CDN.",
+  "url": "https://productofamerica.github.io/usda-county-yields/",
+  "sameAs": "https://github.com/ProductOfAmerica/usda-county-yields",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isAccessibleForFree": true,
+  "keywords": "USDA, NASS, agriculture, crop yields, corn, soybeans, wheat, county-level, public domain, JSON, API, jsDelivr, agricultural data, machine learning, data science, ag-tech",
+  "spatialCoverage": { "@type": "Place", "name": "United States" },
+  "temporalCoverage": "1910/..",
+  "variableMeasured": [
+    { "@type": "PropertyValue", "name": "Corn yield", "unitText": "BU / ACRE" },
+    { "@type": "PropertyValue", "name": "Soybean yield", "unitText": "BU / ACRE" },
+    { "@type": "PropertyValue", "name": "Wheat yield", "unitText": "BU / ACRE" }
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "USDA National Agricultural Statistics Service",
+    "url": "https://www.nass.usda.gov/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "ProductOfAmerica",
+    "url": "https://github.com/ProductOfAmerica"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Discovery index",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/index.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Point leaf example (Iowa Story corn)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/counties/169/corn.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "JSON Schema for point leaves",
+      "encodingFormat": "application/schema+json",
+      "contentUrl": "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/_schema/leaf.json"
+    }
+  ],
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "GitHub",
+    "url": "https://github.com/ProductOfAmerica/usda-county-yields"
+  }
+}
+</script>
+</head>
+<body>
+<main>
+
+<h1>USDA NASS County Crop Yields</h1>
+<p class="lede">Free static JSON API serving USDA NASS county-level <strong>corn, soybean, and wheat</strong> yield data. Refreshed weekly from the NASS bulk file, hosted on <a href="https://www.jsdelivr.com/">jsDelivr</a>. No API key. No rate limits. Public domain.</p>
+
+<div class="badges">
+  <a class="badge" href="https://github.com/ProductOfAmerica/usda-county-yields">GitHub</a>
+  <a class="badge" href="https://github.com/ProductOfAmerica/usda-county-yields/blob/main/LICENSE">License: MIT (code) / CC0 (data)</a>
+  <a class="badge" href="https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/_schema/leaf.json">JSON Schema</a>
+</div>
+
+<h2>Quick lookup</h2>
+<p>One <code>(state, county, crop, year)</code> query is two cached fetches: a small <code>index.json</code> for discovery and freshness, then one tiny leaf for the actual data. The producer pre-marks the canonical series with <code>"canonical": true</code>, so consumer code is a one-liner.</p>
+
+<pre><code>GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/index.json
+GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/{fips}/counties/{county_code}/{crop_slug}.json</code></pre>
+
+<h2>Example: Story County, Iowa corn yield 2024</h2>
+
+<pre><code># curl
+curl -s "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/counties/169/corn.json" \
+  | jq '.series[] | select(.canonical) | .values["2024"]'
+# 215.5</code></pre>
+
+<pre><code># Python
+import json, urllib.request
+url = "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/counties/169/corn.json"
+leaf = json.load(urllib.request.urlopen(url))
+canonical = next(s for s in leaf["series"] if s.get("canonical"))
+print(canonical["values"]["2024"])   # 215.5</code></pre>
+
+<pre><code>// JavaScript (Node 18+ or any modern browser)
+const url = "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/counties/169/corn.json";
+const leaf = await fetch(url).then(r => r.json());
+const canonical = leaf.series.find(s => s.canonical);
+console.log(canonical.values["2024"]);  // 215.5</code></pre>
+
+<h2>What you get</h2>
+<ul>
+  <li>~3,000 counties, 42 states with NASS coverage</li>
+  <li>Three commodities: <strong>corn, soybeans, wheat</strong> (county-level annual SURVEY yields)</li>
+  <li>Weekly refresh from the latest <code>qs.crops_*.txt.gz</code> bulk file</li>
+  <li>Suppression codes (<code>D</code>, <code>NA</code>, <code>S</code>, <code>X</code>, <code>Z</code>) preserved per the NASS Quick Stats glossary</li>
+  <li>JSON Schema 2020-12 contract at <a href="https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/_schema/leaf.json"><code>data/_schema/leaf.json</code></a></li>
+  <li>Commit-SHA-pinned URLs (<code>@&lt;sha&gt;</code> instead of <code>@main</code>) for point-in-time consistency</li>
+</ul>
+
+<h2>How it works</h2>
+<p>A weekly GitHub Actions cron downloads the NASS bulk file, filters to county-level SURVEY yields, marks the canonical series per crop, and emits a sharded JSON tree under <code>data/</code>. Three validation gates and three inline guards run before any commit. A separate canary workflow verifies the CDN is serving fresh data 12 hours after each refresh.</p>
+
+<p>Architecture details, schema, and the rebuild path are documented in the <a href="https://github.com/ProductOfAmerica/usda-county-yields#nass-county-crop-yields">repository README</a>.</p>
+
+<h2>State-wide rollups</h2>
+<p>For batch queries (e.g., all counties for one crop in one state), use the rollup so the whole answer comes in one fetch instead of looping over leaves:</p>
+
+<pre><code>GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/crops/corn.json</code></pre>
+
+<footer>
+  <p>USDA NASS data is in the U.S. public domain. The cache code is MIT-licensed. Source: <a href="https://www.nass.usda.gov/">www.nass.usda.gov</a>. Cache repo: <a href="https://github.com/ProductOfAmerica/usda-county-yields">github.com/ProductOfAmerica/usda-county-yields</a>.</p>
+</footer>
+
+</main>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # NASS County Crop Yields
 
-A zero-cost queryable cache of USDA NASS county-level **crop** yields, served as static JSON over the jsDelivr CDN, refreshed weekly from the NASS bulk file. Sharded by `(state, county, crop)` so a point lookup downloads a small leaf instead of a multi-megabyte state shard.
+USDA NASS county-level **corn, soybean, and wheat** yield data — a free static JSON API served from the jsDelivr CDN, refreshed weekly from the NASS bulk file. Per-county point lookups in 2-22 KB. No API key, no rate limits, no auth. Public-domain agricultural data for data scientists, ML pipelines, agronomy notebooks, and ag-tech tooling. Sharded by `(state, county, crop)` so a single lookup downloads a small leaf instead of a multi-megabyte state shard.
 
 ## Quick lookup
 
@@ -21,15 +21,31 @@ GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/st
 → values["2024"]   →   215.5
 ```
 
-Working Python lookup:
+Working lookup, three flavors:
 
 ```python
+# Python
 import json, urllib.request
 
 url = "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/counties/169/corn.json"
 leaf = json.load(urllib.request.urlopen(url))
 canonical = next(s for s in leaf["series"] if s.get("canonical"))
 print(canonical["values"]["2024"])   # 215.5
+```
+
+```javascript
+// JavaScript (Node 18+ or any modern browser)
+const url = "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/counties/169/corn.json";
+const leaf = await fetch(url).then(r => r.json());
+const canonical = leaf.series.find(s => s.canonical);
+console.log(canonical.values["2024"]);  // 215.5
+```
+
+```bash
+# curl + jq
+curl -s "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/counties/169/corn.json" \
+  | jq '.series[] | select(.canonical) | .values["2024"]'
+# 215.5
 ```
 
 State and county codes are USDA / Census ANSI codes. Reference: https://www.census.gov/library/reference/code-lists/ansi.html.
