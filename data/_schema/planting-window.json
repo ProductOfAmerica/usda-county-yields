@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/_schema/planting-window.json",
+  "title": "NASS state usual planting/harvesting window",
+  "description": "One leaf per (state, crop). Reconstructed from NASS Crop Progress via the documented percentile method (begin 5%, most-active 15-85%, end 95%, 20-year basis). Dates are MM-DD. No schema_version: this is the frozen FIE-37 contract shape.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["stateFips", "stateAlpha", "crop", "plant", "harvest", "method", "definition", "sourceYears"],
+  "properties": {
+    "stateFips": { "type": "string", "pattern": "^[0-9]{2}$" },
+    "stateAlpha": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "crop": { "type": "string", "enum": ["corn", "soybeans", "winter-wheat", "spring-wheat"] },
+    "plant": { "$ref": "#/$defs/window" },
+    "harvest": { "$ref": "#/$defs/window" },
+    "method": { "const": "nass-crop-progress-percentile" },
+    "definition": { "const": "usual-window" },
+    "sourceYears": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "to"],
+      "properties": {
+        "from": { "type": "integer" },
+        "to": { "type": "integer" }
+      }
+    }
+  },
+  "$defs": {
+    "window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["begin", "mostActiveStart", "mostActiveEnd", "end"],
+      "properties": {
+        "begin": { "type": "string", "pattern": "^[0-9]{2}-[0-9]{2}$" },
+        "mostActiveStart": { "type": "string", "pattern": "^[0-9]{2}-[0-9]{2}$" },
+        "mostActiveEnd": { "type": "string", "pattern": "^[0-9]{2}-[0-9]{2}$" },
+        "end": { "type": "string", "pattern": "^[0-9]{2}-[0-9]{2}$" }
+      }
+    }
+  }
+}
