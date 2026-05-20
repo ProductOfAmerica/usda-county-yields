@@ -1,0 +1,36 @@
+name: CI
+
+# Test gate for pull requests. refresh.yml runs the same tests but only
+# fires on the weekly cron + workflow_dispatch, so without this workflow
+# a PR could land with zero automated test verification. Mirrors the
+# refresh.yml test step but skips the refresh+commit steps that only
+# make sense for the scheduled run.
+#
+# Uses `unittest discover` so a new tests/test_*.py module added in a
+# future PR (e.g. SP-A2) is picked up automatically with no workflow
+# edit.
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6.2.0
+        with:
+          python-version: "3.12"
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -t . -v
