@@ -282,5 +282,40 @@ class CrossingsTest(unittest.TestCase):
         self.assertIsNone(pw.year_crossings("corn", "plant", 2025, readings))
 
 
+class DeriveWindowTest(unittest.TestCase):
+    def _years(self):
+        out = {}
+        for yr in range(2003, 2025):
+            out[yr] = {"readings": [
+                (f"{yr}-03-30", 0.0),
+                (f"{yr}-04-20", 50.0),
+                (f"{yr}-05-15", 96.0),
+            ]}
+        return out
+
+    def test_fewer_than_20_usable_returns_none(self):
+        plant = {2024: {"readings": [
+            ("2024-03-30", 0.0),
+            ("2024-04-20", 50.0),
+            ("2024-05-15", 96.0),
+        ]}}
+        self.assertIsNone(pw.derive_block("corn", "plant", plant))
+
+    def test_block_has_mmdd_and_uses_recent_20(self):
+        blk, used = pw.derive_block("corn", "plant", self._years())
+        self.assertEqual(set(blk), set(pw.THRESHOLD_KEYS))
+        for v in blk.values():
+            self.assertRegex(v, r"^[0-9]{2}-[0-9]{2}$")
+        self.assertEqual(len(used), 20)
+        self.assertEqual(used, list(range(2005, 2025)))
+
+    def test_ordinal_to_mmdd_plain_and_winter_wheat(self):
+        self.assertEqual(pw.ordinal_to_mmdd("corn", "plant", 124.0), "05-04")
+        self.assertEqual(pw.ordinal_to_mmdd("winter-wheat", "plant", 153.0), "01-01")
+
+    def test_round_half_up(self):
+        self.assertEqual(pw.ordinal_to_mmdd("corn", "plant", 123.5), "05-04")
+
+
 if __name__ == "__main__":
     unittest.main()

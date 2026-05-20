@@ -268,3 +268,39 @@ def year_crossings(
             return None
         out[key] = crossing
     return out
+
+
+def ordinal_to_mmdd(slug: str, op: str, ordn: float) -> str:
+    """Convert a fractional ordinal back to MM-DD via a fixed calendar."""
+    n = int(ordn + 0.5)  # round half up (ordinals are positive)
+    anchor = _anchor(slug, op, REF_YEAR)
+    if anchor is None:
+        d = date(REF_YEAR, 1, 1) + timedelta(days=n - 1)
+    else:
+        d = anchor + timedelta(days=n)
+    return f"{d.month:02d}-{d.day:02d}"
+
+
+def derive_block(
+    slug: str, op: str, year_map: dict
+) -> Optional[tuple[dict, list[int]]]:
+    """Reduce one operation's per-year series to a window block.
+
+    Returns ({begin,...: 'MM-DD'}, used_years_sorted) or None if fewer
+    than 20 usable years. Uses the most recent 20 usable years; per
+    threshold takes statistics.median of the per-year fractional ordinals.
+    """
+    per_year: dict[int, dict] = {}
+    for yr in sorted(year_map):
+        cr = year_crossings(slug, op, yr, year_map[yr]["readings"])
+        if cr is not None:
+            per_year[yr] = cr
+    usable = sorted(per_year)
+    if len(usable) < MIN_USABLE_YEARS:
+        return None
+    used = usable[-MIN_USABLE_YEARS:]
+    block = {}
+    for key in THRESHOLD_KEYS:
+        med = statistics.median(per_year[y][key] for y in used)
+        block[key] = ordinal_to_mmdd(slug, op, med)
+    return block, used
