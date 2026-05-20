@@ -425,3 +425,23 @@ def emit_all(
     refresh.write_if_changed(cp, refresh._dump_json(cov_payload))
     paths.add(cp)
     return paths
+
+
+def run_planting_windows(
+    download_path: Path, discovery: dict, refreshed_at: str
+) -> PlantingWindowRunResult:
+    """SP-A entrypoint, called from refresh.main() after the shared download."""
+    with gzip.open(download_path, "rt", encoding="utf-8", newline="") as f:
+        total, kept = filter_progress(csv.reader(f, delimiter="\t"))
+    if total == 0:
+        raise SystemExit("SP-A: bulk file produced 0 rows. Aborting.")
+    g = group_progress(kept)
+    shards, coverage = build_shards(g)
+    paths = emit_all(shards, coverage, discovery, refreshed_at)
+    present = sum(1 for c in coverage.values() if c["status"] == "PRESENT")
+    print(
+        f"SP-A planting-windows: candidates={len(coverage)} "
+        f"present={present} omitted={len(coverage) - present}",
+        file=sys.stderr,
+    )
+    return PlantingWindowRunResult(paths=paths, shard_count=len(shards))

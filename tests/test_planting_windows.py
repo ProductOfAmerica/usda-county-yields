@@ -438,5 +438,58 @@ class EmitTest(unittest.TestCase):
         self.assertEqual(cov["candidates"]["19/corn"]["status"], "PRESENT")
 
 
+class RunPlantingWindowsTest(unittest.TestCase):
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self._orig = pw.refresh.DATA_DIR
+        pw.refresh.DATA_DIR = Path(self._tmp.name) / "data"
+
+    def tearDown(self):
+        pw.refresh.DATA_DIR = self._orig
+        self._tmp.cleanup()
+
+    def _gz(self) -> Path:
+        import gzip as _gz
+
+        rows = [_pw_header()]
+        for yr in range(2003, 2025):
+            for we, v in (
+                (f"{yr}-03-31", "0"),
+                (f"{yr}-04-21", "50"),
+                (f"{yr}-05-19", "96"),
+            ):
+                rows.append(_pw_row(YEAR=str(yr), WEEK_ENDING=we, VALUE=v))
+            for we, v in (
+                (f"{yr}-09-20", "0"),
+                (f"{yr}-10-20", "50"),
+                (f"{yr}-11-15", "96"),
+            ):
+                rows.append(_pw_row(
+                    YEAR=str(yr),
+                    WEEK_ENDING=we,
+                    VALUE=v,
+                    UNIT_DESC="PCT HARVESTED",
+                ))
+        p = Path(self._tmp.name) / "qs.crops_20260518.txt.gz"
+        with _gz.open(p, "wt", encoding="utf-8", newline="") as f:
+            w = csv.writer(f, delimiter="\t")
+            for r in rows:
+                w.writerow(r)
+        return p
+
+    def test_run_emits_present_shard_and_returns_paths_and_count(self):
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-18"}
+        result = pw.run_planting_windows(
+            self._gz(), disc, "2026-05-18T00:00:00Z"
+        )
+        shard = pw.refresh.DATA_DIR / "planting-windows" / "19" / "corn.json"
+        self.assertTrue(shard.exists())
+        self.assertIn(shard, result.paths)
+        self.assertIn(pw._pw_audit_path(), result.paths)
+        self.assertIn(pw._coverage_path(), result.paths)
+        self.assertIn(pw._schema_path(), result.paths)
+        self.assertEqual(result.shard_count, 1)
+
+
 if __name__ == "__main__":
     unittest.main()
