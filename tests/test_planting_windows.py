@@ -11,11 +11,13 @@ import json
 import sys
 import tempfile
 import unittest
+from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 import planting_windows as pw  # noqa: E402
+import refresh  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = REPO_ROOT / "data" / "_schema" / "planting-window.json"
@@ -489,6 +491,120 @@ class RunPlantingWindowsTest(unittest.TestCase):
         self.assertIn(pw._coverage_path(), result.paths)
         self.assertIn(pw._schema_path(), result.paths)
         self.assertEqual(result.shard_count, 1)
+
+
+class MainIntegrationTest(unittest.TestCase):
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self._orig_data_dir = refresh.DATA_DIR
+        refresh.DATA_DIR = Path(self._tmp.name) / "data"
+
+    def tearDown(self):
+        refresh.DATA_DIR = self._orig_data_dir
+        self._tmp.cleanup()
+
+    def test_pw_paths_and_schema_survive_global_prune_when_registered(self):
+        shard = refresh.DATA_DIR / "planting-windows" / "19" / "corn.json"
+        schema = refresh.DATA_DIR / "_schema" / "planting-window.json"
+        for p in (shard, schema):
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text("{}", encoding="utf-8")
+        stale = refresh.DATA_DIR / "planting-windows" / "99" / "corn.json"
+        stale.parent.mkdir(parents=True, exist_ok=True)
+        stale.write_text("{}", encoding="utf-8")
+        deleted = refresh.prune_stale({shard, schema})
+        self.assertTrue(shard.exists())
+        self.assertTrue(schema.exists())
+        self.assertFalse(stale.exists())
+        self.assertGreaterEqual(deleted, 1)
+
+    def test_bootstrap_needed_true_when_pw_audit_missing(self):
+        refresh.DATA_DIR.mkdir(parents=True, exist_ok=True)
+        (refresh.DATA_DIR / "index.json").write_text("{}", encoding="utf-8")
+        self.assertTrue(refresh.sp_a_bootstrap_needed())
+
+    def test_main_saves_explicit_sp_a_shard_count(self):
+        refresh.DATA_DIR.mkdir(parents=True, exist_ok=True)
+        (refresh.DATA_DIR / "index.json").write_text("{}", encoding="utf-8")
+        saved = {}
+        original = {
+            "load_state": refresh.load_state,
+            "discover": refresh.discover,
+            "download_with_retry": refresh.download_with_retry,
+            "stream_filter": refresh.stream_filter,
+            "validate": refresh.validate,
+            "group_by_state": refresh.group_by_state,
+            "sort_series": refresh.sort_series,
+            "mark_canonical": refresh.mark_canonical,
+            "validate_canonical_coverage": refresh.validate_canonical_coverage,
+            "emit_index": refresh.emit_index,
+            "emit_state_meta": refresh.emit_state_meta,
+            "emit_point_leaves": refresh.emit_point_leaves,
+            "emit_crop_rollups": refresh.emit_crop_rollups,
+            "emit_audit": refresh.emit_audit,
+            "prune_stale": refresh.prune_stale,
+            "save_state": refresh.save_state,
+            "ping_healthchecks": refresh.ping_healthchecks,
+            "utc_now_iso": refresh.utc_now_iso,
+            "run_planting_windows": pw.run_planting_windows,
+        }
+        try:
+            disc = {
+                "date": "2026-05-18",
+                "url": "https://example.test/qs.crops_20260518.txt.gz",
+                "etag": '"same"',
+                "last_modified": "Mon, 18 May 2026 00:00:00 GMT",
+                "lag_days": 0,
+            }
+            refresh.load_state = lambda: {
+                "last_successful_date": "2026-05-17",
+                "last_etag": '"same"',
+            }
+            refresh.discover = lambda last_known, today: disc
+            refresh.download_with_retry = lambda url, dest: None
+            refresh.stream_filter = lambda path: (["SOURCE_DESC"], 10, [{"x": 1}])
+            refresh.validate = lambda total, kept, last: None
+            refresh.group_by_state = lambda rows: {"19": {"counties": {"001": {"commodities": {"corn": {}}}}}}
+            refresh.sort_series = lambda states: None
+            refresh.mark_canonical = lambda states: (0, [])
+            refresh.validate_canonical_coverage = lambda missing, total: None
+            refresh.emit_index = lambda states, d, ts: (refresh.DATA_DIR / "index.json", False)
+            refresh.emit_state_meta = lambda states: (set(), 0)
+            refresh.emit_point_leaves = lambda states: (set(), 0)
+            refresh.emit_crop_rollups = lambda states: (set(), 0)
+            refresh.emit_audit = lambda header, ts, pub: (refresh.DATA_DIR / "_audit" / "latest.json", False)
+            refresh.prune_stale = lambda expected: 0
+            refresh.save_state = lambda state: saved.update(state)
+            refresh.ping_healthchecks = lambda: None
+            refresh.utc_now_iso = lambda: "2026-05-18T00:00:00Z"
+            pw.run_planting_windows = lambda path, d, ts: pw.PlantingWindowRunResult(
+                paths={refresh.DATA_DIR / "_schema" / "planting-window.json"},
+                shard_count=7,
+            )
+
+            self.assertEqual(refresh.main(today=date(2026, 5, 18)), 0)
+        finally:
+            refresh.load_state = original["load_state"]
+            refresh.discover = original["discover"]
+            refresh.download_with_retry = original["download_with_retry"]
+            refresh.stream_filter = original["stream_filter"]
+            refresh.validate = original["validate"]
+            refresh.group_by_state = original["group_by_state"]
+            refresh.sort_series = original["sort_series"]
+            refresh.mark_canonical = original["mark_canonical"]
+            refresh.validate_canonical_coverage = original["validate_canonical_coverage"]
+            refresh.emit_index = original["emit_index"]
+            refresh.emit_state_meta = original["emit_state_meta"]
+            refresh.emit_point_leaves = original["emit_point_leaves"]
+            refresh.emit_crop_rollups = original["emit_crop_rollups"]
+            refresh.emit_audit = original["emit_audit"]
+            refresh.prune_stale = original["prune_stale"]
+            refresh.save_state = original["save_state"]
+            refresh.ping_healthchecks = original["ping_healthchecks"]
+            refresh.utc_now_iso = original["utc_now_iso"]
+            pw.run_planting_windows = original["run_planting_windows"]
+
+        self.assertEqual(saved["last_sp_a_shard_count"], 7)
 
 
 if __name__ == "__main__":

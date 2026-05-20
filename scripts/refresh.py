@@ -377,6 +377,15 @@ def _audit_path() -> Path:
     return DATA_DIR / "_audit" / "latest.json"
 
 
+def _sp_a_audit_path() -> Path:
+    return DATA_DIR / "_audit" / "planting-windows.json"
+
+
+def sp_a_bootstrap_needed() -> bool:
+    """True when SP-A artifacts are absent and need a same-ETag bootstrap."""
+    return not _sp_a_audit_path().exists()
+
+
 def _dump_json(payload: dict) -> str:
     return json.dumps(payload, indent=2, sort_keys=True) + "\n"
 
@@ -684,14 +693,14 @@ def main(today: Optional[date] = None) -> int:
     # the source ETag matches the last successful run. Without this, a same
     # day workflow_dispatch re-run after a schema bump skips emit and the
     # data tree never materializes. Self-healing on first run after merge.
-    bootstrap_needed = not _index_path().exists()
+    bootstrap_needed = not _index_path().exists() or sp_a_bootstrap_needed()
 
     if last_etag and discovery["etag"] == last_etag and not bootstrap_needed:
         print("ETag matches last successful run; nothing to do.")
         ping_healthchecks()
         return 0
     if bootstrap_needed and last_etag and discovery["etag"] == last_etag:
-        print("ETag matches but data/index.json is missing; bootstrapping from cached download.")
+        print("ETag matches but bootstrap artifacts are missing; bootstrapping from cached download.")
 
     download_path = Path(os.environ.get("RUNNER_TEMP", "/tmp")) / Path(discovery["url"]).name
     print(f"Downloading {discovery['url']} -> {download_path}")
@@ -739,6 +748,14 @@ def main(today: Optional[date] = None) -> int:
     expected |= rollup_paths
     audit_path, audit_w = emit_audit(header, refreshed_at, discovery["date"])
     expected.add(audit_path)
+    # SP-A: second pass over the same downloaded gz. Must run before the
+    # global prune and contribute its paths to `expected` so prune_stale
+    # does not delete the planting-window tree.
+    import planting_windows  # lazy: avoids a circular import at module load
+    sp_a = planting_windows.run_planting_windows(
+        download_path, discovery, refreshed_at
+    )
+    expected |= sp_a.paths
     deleted = prune_stale(expected)
     print(
         f"emit: index={int(idx_w)} meta={meta_w} leaves={leaf_w} "
@@ -756,6 +773,7 @@ def main(today: Optional[date] = None) -> int:
         "last_run_at": refreshed_at,
         "last_missing_canonical_count": missing_canonical,
         "last_missing_canonical_at": refreshed_at,
+        "last_sp_a_shard_count": sp_a.shard_count,
     })
 
     ping_healthchecks()
