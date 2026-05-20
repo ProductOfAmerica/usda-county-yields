@@ -304,3 +304,55 @@ def derive_block(
         med = statistics.median(per_year[y][key] for y in used)
         block[key] = ordinal_to_mmdd(slug, op, med)
     return block, used
+
+
+def _usable_year_count(slug: str, op: str, year_map: dict) -> int:
+    return sum(
+        1
+        for y, payload in year_map.items()
+        if year_crossings(slug, op, y, payload["readings"])
+    )
+
+
+def build_shards(g: dict) -> tuple[dict, dict]:
+    """Build PRESENT shards and coverage for every candidate seen."""
+    shards: dict = {}
+    coverage: dict = {}
+    for (fips, slug), node in g.items():
+        p = derive_block(slug, "plant", node["plant"])
+        h = derive_block(slug, "harvest", node["harvest"])
+        p_n = _usable_year_count(slug, "plant", node["plant"])
+        h_n = _usable_year_count(slug, "harvest", node["harvest"])
+        if p is not None and h is not None:
+            p_block, p_used = p
+            h_block, h_used = h
+            used = sorted(set(p_used) | set(h_used))
+            shards[(fips, slug)] = {
+                "stateFips": fips,
+                "stateAlpha": node["state_alpha"],
+                "crop": slug,
+                "plant": p_block,
+                "harvest": h_block,
+                "method": "nass-crop-progress-percentile",
+                "definition": "usual-window",
+                "sourceYears": {"from": min(used), "to": max(used)},
+            }
+            coverage[(fips, slug)] = {
+                "status": "PRESENT",
+                "plant_usable": p_n,
+                "harvest_usable": h_n,
+                "years": used,
+            }
+        else:
+            short = []
+            if p is None:
+                short.append(f"plant({p_n}<{MIN_USABLE_YEARS})")
+            if h is None:
+                short.append(f"harvest({h_n}<{MIN_USABLE_YEARS})")
+            coverage[(fips, slug)] = {
+                "status": "OMITTED",
+                "reason": "insufficient usable years: " + ", ".join(short),
+                "plant_usable": p_n,
+                "harvest_usable": h_n,
+            }
+    return shards, coverage

@@ -317,5 +317,67 @@ class DeriveWindowTest(unittest.TestCase):
         self.assertEqual(pw.ordinal_to_mmdd("corn", "plant", 123.5), "05-04")
 
 
+class BuildShardsTest(unittest.TestCase):
+    def _node_with(self, plant_ok=True, harvest_ok=True):
+        def years(ok, op):
+            if not ok:
+                if op == "plant":
+                    readings = [
+                        ("2024-03-30", 0.0),
+                        ("2024-04-20", 50.0),
+                        ("2024-05-15", 96.0),
+                    ]
+                else:
+                    readings = [
+                        ("2024-09-20", 0.0),
+                        ("2024-10-20", 50.0),
+                        ("2024-11-15", 96.0),
+                    ]
+                return {2024: {"readings": readings}}
+            out = {}
+            for yr in range(2003, 2025):
+                if op == "plant":
+                    readings = [
+                        (f"{yr}-03-30", 0.0),
+                        (f"{yr}-04-20", 50.0),
+                        (f"{yr}-05-15", 96.0),
+                    ]
+                else:
+                    readings = [
+                        (f"{yr}-09-20", 0.0),
+                        (f"{yr}-10-20", 50.0),
+                        (f"{yr}-11-15", 96.0),
+                    ]
+                out[yr] = {"readings": readings}
+            return out
+        return {
+            "state_fips": "19",
+            "state_alpha": "IA",
+            "state_name": "IOWA",
+            "plant": years(plant_ok, "plant"),
+            "harvest": years(harvest_ok, "harvest"),
+        }
+
+    def test_present_shard_is_frozen_contract_shape(self):
+        g = {("19", "corn"): self._node_with()}
+        shards, coverage = pw.build_shards(g)
+        s = shards[("19", "corn")]
+        pw._assert_planting_window_shape(s)
+        self.assertEqual(s["stateFips"], "19")
+        self.assertEqual(s["crop"], "corn")
+        self.assertEqual(s["sourceYears"], {"from": 2005, "to": 2024})
+        self.assertNotIn("schema_version", s)
+        self.assertEqual(coverage[("19", "corn")]["status"], "PRESENT")
+        self.assertEqual(coverage[("19", "corn")]["plant_usable"], 22)
+
+    def test_omitted_when_one_block_short(self):
+        g = {("19", "corn"): self._node_with(harvest_ok=False)}
+        shards, coverage = pw.build_shards(g)
+        self.assertNotIn(("19", "corn"), shards)
+        c = coverage[("19", "corn")]
+        self.assertEqual(c["status"], "OMITTED")
+        self.assertIn("harvest", c["reason"])
+
+
 if __name__ == "__main__":
     unittest.main()
