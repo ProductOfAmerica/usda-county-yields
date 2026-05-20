@@ -72,6 +72,28 @@ jobs:
           print(f"canonical series count={len(canonical)} | unit={canonical[0]['unit']}")
           EOF
 
+      - name: Spot-check planting-window shards (FIE-41 acceptance c)
+        run: |
+          set -euo pipefail
+          BASE="https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/data/planting-windows"
+          for fips in 19 27 39; do
+            URL="$BASE/$fips/corn.json"
+            echo "Fetching $URL"
+            curl --fail --silent --show-error --max-time 30 -o /tmp/pw.json "$URL"
+            python <<EOF
+          import json, re
+          d = json.load(open("/tmp/pw.json"))
+          assert d["stateFips"] == "$fips", d["stateFips"]
+          assert d["crop"] == "corn"
+          assert d["method"] == "nass-crop-progress-percentile"
+          assert "schema_version" not in d, "shard must not carry schema_version"
+          for blk in ("plant", "harvest"):
+              for k in ("begin", "mostActiveStart", "mostActiveEnd", "end"):
+                  assert re.match(r"^[0-9]{2}-[0-9]{2}\$", d[blk][k]), (blk, k, d[blk][k])
+          print(f"$fips/corn OK plant.begin={d['plant']['begin']} end={d['plant']['end']}")
+          EOF
+          done
+
       - name: Ping healthchecks (best-effort)
         if: success()
         env:

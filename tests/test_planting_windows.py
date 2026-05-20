@@ -1,0 +1,611 @@
+"""Unit + integration tests for scripts/planting_windows.py.
+
+No network, no fixture files: synthetic fixtures built inline. Mirrors
+tests/test_refresh.py conventions.
+"""
+from __future__ import annotations
+
+import csv
+import io
+import json
+import sys
+import tempfile
+import unittest
+from datetime import date
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
+
+import planting_windows as pw  # noqa: E402
+import refresh  # noqa: E402
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+SCHEMA_PATH = REPO_ROOT / "data" / "_schema" / "planting-window.json"
+
+
+class SchemaFileTest(unittest.TestCase):
+    def test_schema_is_valid_json_with_expected_shape(self):
+        d = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
+        self.assertEqual(d["type"], "object")
+        self.assertEqual(d["additionalProperties"], False)
+        self.assertEqual(
+            set(d["required"]),
+            {
+                "stateFips", "stateAlpha", "crop", "plant", "harvest",
+                "method", "definition", "sourceYears",
+            },
+        )
+        # The shard must NOT carry schema_version (frozen contract).
+        self.assertNotIn("schema_version", d["properties"])
+        block = d["$defs"]["window"]
+        self.assertEqual(
+            set(block["required"]),
+            {"begin", "mostActiveStart", "mostActiveEnd", "end"},
+        )
+
+
+class ShapeAssertTest(unittest.TestCase):
+    def _good(self) -> dict:
+        w = {
+            "begin": "04-20",
+            "mostActiveStart": "04-28",
+            "mostActiveEnd": "05-12",
+            "end": "05-20",
+        }
+        return {
+            "stateFips": "19",
+            "stateAlpha": "IA",
+            "crop": "corn",
+            "plant": dict(w),
+            "harvest": dict(w),
+            "method": "nass-crop-progress-percentile",
+            "definition": "usual-window",
+            "sourceYears": {"from": 2006, "to": 2025},
+        }
+
+    def test_good_shard_passes(self):
+        pw._assert_planting_window_shape(self._good())  # no raise
+
+    def test_extra_top_key_rejected(self):
+        bad = self._good()
+        bad["schema_version"] = 2
+        with self.assertRaises(SystemExit):
+            pw._assert_planting_window_shape(bad)
+
+    def test_missing_block_key_rejected(self):
+        bad = self._good()
+        del bad["plant"]["end"]
+        with self.assertRaises(SystemExit):
+            pw._assert_planting_window_shape(bad)
+
+    def test_bad_mmdd_rejected(self):
+        bad = self._good()
+        bad["plant"]["begin"] = "2024-04-20"
+        with self.assertRaises(SystemExit):
+            pw._assert_planting_window_shape(bad)
+
+
+def _pw_header() -> list[str]:
+    # Same 39-col NASS shape as tests/test_refresh.py.
+    return [
+        "SOURCE_DESC", "SECTOR_DESC", "GROUP_DESC", "COMMODITY_DESC", "CLASS_DESC",
+        "PRODN_PRACTICE_DESC", "UTIL_PRACTICE_DESC", "STATISTICCAT_DESC", "UNIT_DESC",
+        "SHORT_DESC", "DOMAIN_DESC", "DOMAINCAT_DESC", "AGG_LEVEL_DESC", "STATE_ANSI",
+        "STATE_FIPS_CODE", "STATE_ALPHA", "STATE_NAME", "ASD_CODE", "ASD_DESC",
+        "COUNTY_ANSI", "COUNTY_CODE", "COUNTY_NAME", "REGION_DESC", "ZIP_5",
+        "WATERSHED_CODE", "WATERSHED_DESC", "CONGR_DISTRICT_CODE", "COUNTRY_CODE",
+        "COUNTRY_NAME", "LOCATION_DESC", "YEAR", "FREQ_DESC", "BEGIN_CODE", "END_CODE",
+        "REFERENCE_PERIOD_DESC", "WEEK_ENDING", "LOAD_TIME", "VALUE", "CV_%",
+    ]
+
+
+_PWIDX = {n: i for i, n in enumerate(_pw_header())}
+
+
+def _pw_row(**ov) -> list[str]:
+    row = [""] * len(_pw_header())
+    d = {
+        "SOURCE_DESC": "SURVEY",
+        "SECTOR_DESC": "CROPS",
+        "GROUP_DESC": "FIELD CROPS",
+        "COMMODITY_DESC": "CORN",
+        "CLASS_DESC": "ALL CLASSES",
+        "STATISTICCAT_DESC": "PROGRESS",
+        "UNIT_DESC": "PCT PLANTED",
+        "AGG_LEVEL_DESC": "STATE",
+        "STATE_ANSI": "19",
+        "STATE_FIPS_CODE": "19",
+        "STATE_ALPHA": "IA",
+        "STATE_NAME": "IOWA",
+        "YEAR": "2025",
+        "FREQ_DESC": "WEEKLY",
+        "REFERENCE_PERIOD_DESC": "WEEK #18",
+        "WEEK_ENDING": "2025-05-04",
+        "VALUE": "50",
+    }
+    d.update(ov)
+    for k, v in d.items():
+        row[_PWIDX[k]] = v
+    return row
+
+
+class FilterProgressTest(unittest.TestCase):
+    def _read(self, rows):
+        buf = io.StringIO()
+        w = csv.writer(buf, delimiter="\t")
+        w.writerow(_pw_header())
+        for r in rows:
+            w.writerow(r)
+        buf.seek(0)
+        return pw.filter_progress(csv.reader(buf, delimiter="\t"))
+
+    def test_missing_required_column_aborts(self):
+        bad = [c for c in _pw_header() if c != "WEEK_ENDING"]
+        buf = io.StringIO()
+        buf.write("\t".join(bad) + "\n")
+        buf.seek(0)
+        with self.assertRaises(SystemExit) as ctx:
+            pw.filter_progress(csv.reader(buf, delimiter="\t"))
+        self.assertIn("WEEK_ENDING", str(ctx.exception))
+
+    def test_keeps_only_state_survey_progress_allowlisted(self):
+        rows = [
+            _pw_row(),  # keep: IA corn pct planted
+            _pw_row(UNIT_DESC="PCT HARVESTED"),  # keep: harvest
+            _pw_row(COMMODITY_DESC="WHEAT", CLASS_DESC="WINTER"),  # keep
+            _pw_row(COMMODITY_DESC="WHEAT", CLASS_DESC="SPRING"),  # keep
+            _pw_row(SOURCE_DESC="CENSUS"),  # drop
+            _pw_row(AGG_LEVEL_DESC="COUNTY"),  # drop
+            _pw_row(STATISTICCAT_DESC="YIELD"),  # drop
+            _pw_row(UNIT_DESC="PCT EMERGED"),  # drop
+            _pw_row(COMMODITY_DESC="COTTON"),  # drop
+            _pw_row(COMMODITY_DESC="WHEAT", CLASS_DESC="DURUM"),  # drop
+        ]
+        total, kept = self._read(rows)
+        self.assertEqual(total, 10)
+        slugs = sorted({k["crop_slug"] for k in kept})
+        self.assertEqual(slugs, ["corn", "spring-wheat", "winter-wheat"])
+        ops = sorted({k["op"] for k in kept})
+        self.assertEqual(ops, ["harvest", "plant"])
+
+    def test_parse_pct(self):
+        self.assertEqual(pw.parse_pct("0"), 0.0)
+        self.assertEqual(pw.parse_pct(" 88 "), 88.0)
+        self.assertEqual(pw.parse_pct("1,000"), 1000.0)
+        self.assertIsNone(pw.parse_pct("(D)"))
+        self.assertIsNone(pw.parse_pct(""))
+        self.assertIsNone(pw.parse_pct("NA"))
+
+
+class GroupProgressTest(unittest.TestCase):
+    def test_groups_by_state_slug_op_year_last_write_wins(self):
+        kept = [
+            {
+                "crop_slug": "corn", "op": "plant", "state_fips": "19",
+                "state_alpha": "IA", "state_name": "IOWA", "year": 2025,
+                "week_ending": "2025-04-06", "value": "0",
+            },
+            {
+                "crop_slug": "corn", "op": "plant", "state_fips": "19",
+                "state_alpha": "IA", "state_name": "IOWA", "year": 2025,
+                "week_ending": "2025-04-13", "value": "5",
+            },
+            # duplicate WEEK_ENDING -> last row wins (revised value 7)
+            {
+                "crop_slug": "corn", "op": "plant", "state_fips": "19",
+                "state_alpha": "IA", "state_name": "IOWA", "year": 2025,
+                "week_ending": "2025-04-13", "value": "7",
+            },
+            # suppressed value is dropped
+            {
+                "crop_slug": "corn", "op": "plant", "state_fips": "19",
+                "state_alpha": "IA", "state_name": "IOWA", "year": 2025,
+                "week_ending": "2025-04-20", "value": "(D)",
+            },
+        ]
+        g = pw.group_progress(kept)
+        series = g[("19", "corn")]["plant"][2025]["readings"]
+        self.assertEqual(series, [("2025-04-06", 0.0), ("2025-04-13", 7.0)])
+        self.assertEqual(g[("19", "corn")]["state_alpha"], "IA")
+
+
+class DayOrdinalTest(unittest.TestCase):
+    def test_plain_crops_use_day_of_year_for_plant_and_harvest(self):
+        self.assertEqual(pw.day_ordinal("corn", "plant", 2025, "2025-05-04"), 124)
+        self.assertEqual(pw.day_ordinal("soybeans", "harvest", 2024, "2024-10-06"), 280)
+        self.assertEqual(pw.day_ordinal("corn", "harvest", 2025, "2025-11-15"), 319)
+        self.assertEqual(pw.day_ordinal("spring-wheat", "harvest", 2024, "2024-09-30"), 274)
+
+    def test_winter_wheat_plant_anchored_aug1_prev_year_no_wrap(self):
+        self.assertEqual(pw.day_ordinal("winter-wheat", "plant", 2024, "2023-09-03"), 33)
+        self.assertEqual(pw.day_ordinal("winter-wheat", "plant", 2024, "2024-01-01"), 153)
+
+    def test_winter_wheat_harvest_plain_in_year(self):
+        self.assertEqual(pw.day_ordinal("winter-wheat", "harvest", 2024, "2024-06-16"), 168)
+
+    def test_plain_crop_wrong_calendar_year_returns_none(self):
+        self.assertIsNone(pw.day_ordinal("corn", "plant", 2025, "2024-12-31"))
+
+
+class CrossingsTest(unittest.TestCase):
+    def test_real_zero_leading_reading_interpolates_all_four(self):
+        readings = [
+            ("2025-04-06", 0.0),
+            ("2025-04-13", 10.0),
+            ("2025-04-20", 50.0),
+            ("2025-04-27", 80.0),
+            ("2025-05-04", 90.0),
+            ("2025-05-11", 99.0),
+        ]
+        cr = pw.year_crossings("corn", "plant", 2025, readings)
+        self.assertIsNotNone(cr)
+        self.assertEqual(
+            sorted(cr),
+            ["begin", "end", "mostActiveEnd", "mostActiveStart"],
+        )
+        # begin (5%) between 0% (doy 96) and 10% (doy 103) -> 99.5
+        self.assertAlmostEqual(cr["begin"], 99.5, places=3)
+
+    def test_exact_threshold_uses_that_date(self):
+        readings = [
+            ("2025-04-06", 5.0),
+            ("2025-04-13", 15.0),
+            ("2025-04-20", 85.0),
+            ("2025-04-27", 95.0),
+        ]
+        cr = pw.year_crossings("corn", "plant", 2025, readings)
+        self.assertEqual(
+            cr["begin"],
+            float(pw.day_ordinal("corn", "plant", 2025, "2025-04-06")),
+        )
+
+    def test_non_monotone_dropped(self):
+        readings = [
+            ("2025-04-06", 0.0),
+            ("2025-04-13", 40.0),
+            ("2025-04-20", 30.0),
+            ("2025-04-27", 96.0),
+        ]
+        self.assertIsNone(pw.year_crossings("corn", "plant", 2025, readings))
+
+    def test_left_censored_first_reading_above_5_dropped(self):
+        readings = [
+            ("2025-04-06", 12.0),
+            ("2025-04-13", 60.0),
+            ("2025-04-20", 96.0),
+        ]
+        self.assertIsNone(pw.year_crossings("corn", "plant", 2025, readings))
+
+    def test_never_reaches_95_dropped(self):
+        readings = [
+            ("2025-04-06", 0.0),
+            ("2025-04-13", 50.0),
+            ("2025-04-20", 88.0),
+        ]
+        self.assertIsNone(pw.year_crossings("corn", "plant", 2025, readings))
+
+
+class DeriveWindowTest(unittest.TestCase):
+    def _years(self):
+        out = {}
+        for yr in range(2003, 2025):
+            out[yr] = {"readings": [
+                (f"{yr}-03-30", 0.0),
+                (f"{yr}-04-20", 50.0),
+                (f"{yr}-05-15", 96.0),
+            ]}
+        return out
+
+    def test_fewer_than_20_usable_returns_none(self):
+        plant = {2024: {"readings": [
+            ("2024-03-30", 0.0),
+            ("2024-04-20", 50.0),
+            ("2024-05-15", 96.0),
+        ]}}
+        self.assertIsNone(pw.derive_block("corn", "plant", plant))
+
+    def test_block_has_mmdd_and_uses_recent_20(self):
+        blk, used = pw.derive_block("corn", "plant", self._years())
+        self.assertEqual(set(blk), set(pw.THRESHOLD_KEYS))
+        for v in blk.values():
+            self.assertRegex(v, r"^[0-9]{2}-[0-9]{2}$")
+        self.assertEqual(len(used), 20)
+        self.assertEqual(used, list(range(2005, 2025)))
+
+    def test_ordinal_to_mmdd_plain_and_winter_wheat(self):
+        self.assertEqual(pw.ordinal_to_mmdd("corn", "plant", 124.0), "05-04")
+        self.assertEqual(pw.ordinal_to_mmdd("winter-wheat", "plant", 153.0), "01-01")
+
+    def test_round_half_up(self):
+        self.assertEqual(pw.ordinal_to_mmdd("corn", "plant", 123.5), "05-04")
+
+
+class BuildShardsTest(unittest.TestCase):
+    def _node_with(self, plant_ok=True, harvest_ok=True):
+        def years(ok, op):
+            if not ok:
+                if op == "plant":
+                    readings = [
+                        ("2024-03-30", 0.0),
+                        ("2024-04-20", 50.0),
+                        ("2024-05-15", 96.0),
+                    ]
+                else:
+                    readings = [
+                        ("2024-09-20", 0.0),
+                        ("2024-10-20", 50.0),
+                        ("2024-11-15", 96.0),
+                    ]
+                return {2024: {"readings": readings}}
+            out = {}
+            for yr in range(2003, 2025):
+                if op == "plant":
+                    readings = [
+                        (f"{yr}-03-30", 0.0),
+                        (f"{yr}-04-20", 50.0),
+                        (f"{yr}-05-15", 96.0),
+                    ]
+                else:
+                    readings = [
+                        (f"{yr}-09-20", 0.0),
+                        (f"{yr}-10-20", 50.0),
+                        (f"{yr}-11-15", 96.0),
+                    ]
+                out[yr] = {"readings": readings}
+            return out
+        return {
+            "state_fips": "19",
+            "state_alpha": "IA",
+            "state_name": "IOWA",
+            "plant": years(plant_ok, "plant"),
+            "harvest": years(harvest_ok, "harvest"),
+        }
+
+    def test_present_shard_is_frozen_contract_shape(self):
+        g = {("19", "corn"): self._node_with()}
+        shards, coverage = pw.build_shards(g)
+        s = shards[("19", "corn")]
+        pw._assert_planting_window_shape(s)
+        self.assertEqual(s["stateFips"], "19")
+        self.assertEqual(s["crop"], "corn")
+        self.assertEqual(s["sourceYears"], {"from": 2005, "to": 2024})
+        self.assertNotIn("schema_version", s)
+        self.assertEqual(coverage[("19", "corn")]["status"], "PRESENT")
+        self.assertEqual(coverage[("19", "corn")]["plant_usable"], 22)
+
+    def test_omitted_when_one_block_short(self):
+        g = {("19", "corn"): self._node_with(harvest_ok=False)}
+        shards, coverage = pw.build_shards(g)
+        self.assertNotIn(("19", "corn"), shards)
+        c = coverage[("19", "corn")]
+        self.assertEqual(c["status"], "OMITTED")
+        self.assertIn("harvest", c["reason"])
+
+
+class EmitTest(unittest.TestCase):
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self._orig = pw.refresh.DATA_DIR
+        pw.refresh.DATA_DIR = Path(self._tmp.name) / "data"
+
+    def tearDown(self):
+        pw.refresh.DATA_DIR = self._orig
+        self._tmp.cleanup()
+
+    def _disc(self):
+        return {
+            "url": "https://www.nass.usda.gov/datasets/qs.crops_20260518.txt.gz",
+            "etag": '"x"',
+            "date": "2026-05-18",
+        }
+
+    def test_emit_writes_shard_audit_coverage_and_returns_paths(self):
+        shards = {("19", "corn"): {
+            "stateFips": "19",
+            "stateAlpha": "IA",
+            "crop": "corn",
+            "plant": {
+                "begin": "04-20",
+                "mostActiveStart": "04-28",
+                "mostActiveEnd": "05-12",
+                "end": "05-20",
+            },
+            "harvest": {
+                "begin": "09-25",
+                "mostActiveStart": "10-05",
+                "mostActiveEnd": "10-25",
+                "end": "11-05",
+            },
+            "method": "nass-crop-progress-percentile",
+            "definition": "usual-window",
+            "sourceYears": {"from": 2005, "to": 2024},
+        }}
+        coverage = {("19", "corn"): {
+            "status": "PRESENT",
+            "plant_usable": 20,
+            "harvest_usable": 21,
+            "years": list(range(2005, 2025)),
+        }}
+        paths = pw.emit_all(shards, coverage, self._disc(), "2026-05-18T09:20:00Z")
+        shard_p = pw.refresh.DATA_DIR / "planting-windows" / "19" / "corn.json"
+        self.assertIn(shard_p, paths)
+        self.assertIn(pw._schema_path(), paths)
+        self.assertTrue(shard_p.exists())
+        s = json.loads(shard_p.read_text(encoding="utf-8"))
+        self.assertNotIn("schema_version", s)
+        audit = json.loads(pw._pw_audit_path().read_text(encoding="utf-8"))
+        self.assertEqual(audit["thresholds"], [5, 15, 85, 95])
+        self.assertEqual(audit["years_used"]["19/corn"], list(range(2005, 2025)))
+        cov = json.loads(pw._coverage_path().read_text(encoding="utf-8"))
+        self.assertEqual(cov["candidates"]["19/corn"]["status"], "PRESENT")
+
+
+class RunPlantingWindowsTest(unittest.TestCase):
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self._orig = pw.refresh.DATA_DIR
+        pw.refresh.DATA_DIR = Path(self._tmp.name) / "data"
+
+    def tearDown(self):
+        pw.refresh.DATA_DIR = self._orig
+        self._tmp.cleanup()
+
+    def _gz(self) -> Path:
+        import gzip as _gz
+
+        rows = [_pw_header()]
+        for yr in range(2003, 2025):
+            for we, v in (
+                (f"{yr}-03-31", "0"),
+                (f"{yr}-04-21", "50"),
+                (f"{yr}-05-19", "96"),
+            ):
+                rows.append(_pw_row(YEAR=str(yr), WEEK_ENDING=we, VALUE=v))
+            for we, v in (
+                (f"{yr}-09-20", "0"),
+                (f"{yr}-10-20", "50"),
+                (f"{yr}-11-15", "96"),
+            ):
+                rows.append(_pw_row(
+                    YEAR=str(yr),
+                    WEEK_ENDING=we,
+                    VALUE=v,
+                    UNIT_DESC="PCT HARVESTED",
+                ))
+        p = Path(self._tmp.name) / "qs.crops_20260518.txt.gz"
+        with _gz.open(p, "wt", encoding="utf-8", newline="") as f:
+            w = csv.writer(f, delimiter="\t")
+            for r in rows:
+                w.writerow(r)
+        return p
+
+    def test_run_emits_present_shard_and_returns_paths_and_count(self):
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-18"}
+        result = pw.run_planting_windows(
+            self._gz(), disc, "2026-05-18T00:00:00Z"
+        )
+        shard = pw.refresh.DATA_DIR / "planting-windows" / "19" / "corn.json"
+        self.assertTrue(shard.exists())
+        self.assertIn(shard, result.paths)
+        self.assertIn(pw._pw_audit_path(), result.paths)
+        self.assertIn(pw._coverage_path(), result.paths)
+        self.assertIn(pw._schema_path(), result.paths)
+        self.assertEqual(result.shard_count, 1)
+
+
+class MainIntegrationTest(unittest.TestCase):
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self._orig_data_dir = refresh.DATA_DIR
+        refresh.DATA_DIR = Path(self._tmp.name) / "data"
+
+    def tearDown(self):
+        refresh.DATA_DIR = self._orig_data_dir
+        self._tmp.cleanup()
+
+    def test_pw_paths_and_schema_survive_global_prune_when_registered(self):
+        shard = refresh.DATA_DIR / "planting-windows" / "19" / "corn.json"
+        schema = refresh.DATA_DIR / "_schema" / "planting-window.json"
+        for p in (shard, schema):
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text("{}", encoding="utf-8")
+        stale = refresh.DATA_DIR / "planting-windows" / "99" / "corn.json"
+        stale.parent.mkdir(parents=True, exist_ok=True)
+        stale.write_text("{}", encoding="utf-8")
+        deleted = refresh.prune_stale({shard, schema})
+        self.assertTrue(shard.exists())
+        self.assertTrue(schema.exists())
+        self.assertFalse(stale.exists())
+        self.assertGreaterEqual(deleted, 1)
+
+    def test_bootstrap_needed_true_when_pw_audit_missing(self):
+        refresh.DATA_DIR.mkdir(parents=True, exist_ok=True)
+        (refresh.DATA_DIR / "index.json").write_text("{}", encoding="utf-8")
+        self.assertTrue(refresh.sp_a_bootstrap_needed())
+
+    def test_main_saves_explicit_sp_a_shard_count(self):
+        refresh.DATA_DIR.mkdir(parents=True, exist_ok=True)
+        (refresh.DATA_DIR / "index.json").write_text("{}", encoding="utf-8")
+        saved = {}
+        original = {
+            "load_state": refresh.load_state,
+            "discover": refresh.discover,
+            "download_with_retry": refresh.download_with_retry,
+            "stream_filter": refresh.stream_filter,
+            "validate": refresh.validate,
+            "group_by_state": refresh.group_by_state,
+            "sort_series": refresh.sort_series,
+            "mark_canonical": refresh.mark_canonical,
+            "validate_canonical_coverage": refresh.validate_canonical_coverage,
+            "emit_index": refresh.emit_index,
+            "emit_state_meta": refresh.emit_state_meta,
+            "emit_point_leaves": refresh.emit_point_leaves,
+            "emit_crop_rollups": refresh.emit_crop_rollups,
+            "emit_audit": refresh.emit_audit,
+            "prune_stale": refresh.prune_stale,
+            "save_state": refresh.save_state,
+            "ping_healthchecks": refresh.ping_healthchecks,
+            "utc_now_iso": refresh.utc_now_iso,
+            "run_planting_windows": pw.run_planting_windows,
+        }
+        try:
+            disc = {
+                "date": "2026-05-18",
+                "url": "https://example.test/qs.crops_20260518.txt.gz",
+                "etag": '"same"',
+                "last_modified": "Mon, 18 May 2026 00:00:00 GMT",
+                "lag_days": 0,
+            }
+            refresh.load_state = lambda: {
+                "last_successful_date": "2026-05-17",
+                "last_etag": '"same"',
+            }
+            refresh.discover = lambda last_known, today: disc
+            refresh.download_with_retry = lambda url, dest: None
+            refresh.stream_filter = lambda path: (["SOURCE_DESC"], 10, [{"x": 1}])
+            refresh.validate = lambda total, kept, last: None
+            refresh.group_by_state = lambda rows: {"19": {"counties": {"001": {"commodities": {"corn": {}}}}}}
+            refresh.sort_series = lambda states: None
+            refresh.mark_canonical = lambda states: (0, [])
+            refresh.validate_canonical_coverage = lambda missing, total: None
+            refresh.emit_index = lambda states, d, ts: (refresh.DATA_DIR / "index.json", False)
+            refresh.emit_state_meta = lambda states: (set(), 0)
+            refresh.emit_point_leaves = lambda states: (set(), 0)
+            refresh.emit_crop_rollups = lambda states: (set(), 0)
+            refresh.emit_audit = lambda header, ts, pub: (refresh.DATA_DIR / "_audit" / "latest.json", False)
+            refresh.prune_stale = lambda expected: 0
+            refresh.save_state = lambda state: saved.update(state)
+            refresh.ping_healthchecks = lambda: None
+            refresh.utc_now_iso = lambda: "2026-05-18T00:00:00Z"
+            pw.run_planting_windows = lambda path, d, ts: pw.PlantingWindowRunResult(
+                paths={refresh.DATA_DIR / "_schema" / "planting-window.json"},
+                shard_count=7,
+            )
+
+            self.assertEqual(refresh.main(today=date(2026, 5, 18)), 0)
+        finally:
+            refresh.load_state = original["load_state"]
+            refresh.discover = original["discover"]
+            refresh.download_with_retry = original["download_with_retry"]
+            refresh.stream_filter = original["stream_filter"]
+            refresh.validate = original["validate"]
+            refresh.group_by_state = original["group_by_state"]
+            refresh.sort_series = original["sort_series"]
+            refresh.mark_canonical = original["mark_canonical"]
+            refresh.validate_canonical_coverage = original["validate_canonical_coverage"]
+            refresh.emit_index = original["emit_index"]
+            refresh.emit_state_meta = original["emit_state_meta"]
+            refresh.emit_point_leaves = original["emit_point_leaves"]
+            refresh.emit_crop_rollups = original["emit_crop_rollups"]
+            refresh.emit_audit = original["emit_audit"]
+            refresh.prune_stale = original["prune_stale"]
+            refresh.save_state = original["save_state"]
+            refresh.ping_healthchecks = original["ping_healthchecks"]
+            refresh.utc_now_iso = original["utc_now_iso"]
+            pw.run_planting_windows = original["run_planting_windows"]
+
+        self.assertEqual(saved["last_sp_a_shard_count"], 7)
+
+
+if __name__ == "__main__":
+    unittest.main()
