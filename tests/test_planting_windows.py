@@ -9,6 +9,7 @@ import csv
 import io
 import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -377,6 +378,64 @@ class BuildShardsTest(unittest.TestCase):
         c = coverage[("19", "corn")]
         self.assertEqual(c["status"], "OMITTED")
         self.assertIn("harvest", c["reason"])
+
+
+class EmitTest(unittest.TestCase):
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self._orig = pw.refresh.DATA_DIR
+        pw.refresh.DATA_DIR = Path(self._tmp.name) / "data"
+
+    def tearDown(self):
+        pw.refresh.DATA_DIR = self._orig
+        self._tmp.cleanup()
+
+    def _disc(self):
+        return {
+            "url": "https://www.nass.usda.gov/datasets/qs.crops_20260518.txt.gz",
+            "etag": '"x"',
+            "date": "2026-05-18",
+        }
+
+    def test_emit_writes_shard_audit_coverage_and_returns_paths(self):
+        shards = {("19", "corn"): {
+            "stateFips": "19",
+            "stateAlpha": "IA",
+            "crop": "corn",
+            "plant": {
+                "begin": "04-20",
+                "mostActiveStart": "04-28",
+                "mostActiveEnd": "05-12",
+                "end": "05-20",
+            },
+            "harvest": {
+                "begin": "09-25",
+                "mostActiveStart": "10-05",
+                "mostActiveEnd": "10-25",
+                "end": "11-05",
+            },
+            "method": "nass-crop-progress-percentile",
+            "definition": "usual-window",
+            "sourceYears": {"from": 2005, "to": 2024},
+        }}
+        coverage = {("19", "corn"): {
+            "status": "PRESENT",
+            "plant_usable": 20,
+            "harvest_usable": 21,
+            "years": list(range(2005, 2025)),
+        }}
+        paths = pw.emit_all(shards, coverage, self._disc(), "2026-05-18T09:20:00Z")
+        shard_p = pw.refresh.DATA_DIR / "planting-windows" / "19" / "corn.json"
+        self.assertIn(shard_p, paths)
+        self.assertIn(pw._schema_path(), paths)
+        self.assertTrue(shard_p.exists())
+        s = json.loads(shard_p.read_text(encoding="utf-8"))
+        self.assertNotIn("schema_version", s)
+        audit = json.loads(pw._pw_audit_path().read_text(encoding="utf-8"))
+        self.assertEqual(audit["thresholds"], [5, 15, 85, 95])
+        self.assertEqual(audit["years_used"]["19/corn"], list(range(2005, 2025)))
+        cov = json.loads(pw._coverage_path().read_text(encoding="utf-8"))
+        self.assertEqual(cov["candidates"]["19/corn"]["status"], "PRESENT")
 
 
 if __name__ == "__main__":

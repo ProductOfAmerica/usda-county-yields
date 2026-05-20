@@ -356,3 +356,72 @@ def build_shards(g: dict) -> tuple[dict, dict]:
                 "harvest_usable": h_n,
             }
     return shards, coverage
+
+
+def _shard_path(fips: str, slug: str) -> Path:
+    return _data_dir() / "planting-windows" / fips / f"{slug}.json"
+
+
+def _pw_audit_path() -> Path:
+    return _data_dir() / "_audit" / "planting-windows.json"
+
+
+def _coverage_path() -> Path:
+    return _data_dir() / "_audit" / "window-coverage.json"
+
+
+def _schema_path() -> Path:
+    return _data_dir() / "_schema" / "planting-window.json"
+
+
+def emit_all(
+    shards: dict, coverage: dict, discovery: dict, refreshed_at: str
+) -> set[Path]:
+    """Write PRESENT shards + audit + coverage and return protected paths."""
+    paths: set[Path] = {_schema_path()}
+    for (fips, slug), shard in sorted(shards.items()):
+        _assert_planting_window_shape(shard)
+        p = _shard_path(fips, slug)
+        refresh.write_if_changed(p, refresh._dump_json(shard))
+        paths.add(p)
+    audit = {
+        "product_name": "NASS state usual planting/harvesting windows",
+        "refreshed_at": refreshed_at,
+        "source": {
+            "url": discovery["url"],
+            "etag": discovery["etag"],
+            "publication_date": discovery["date"],
+        },
+        "method": "nass-crop-progress-percentile",
+        "thresholds": [5, 15, 85, 95],
+        "min_usable_years": MIN_USABLE_YEARS,
+        "anchors": {
+            "corn/plant": "day-of-year",
+            "corn/harvest": "day-of-year",
+            "soybeans/plant": "day-of-year",
+            "soybeans/harvest": "day-of-year",
+            "spring-wheat/plant": "day-of-year",
+            "spring-wheat/harvest": "day-of-year",
+            "winter-wheat/plant": "days-since-Aug-1-of-(YEAR-1)",
+            "winter-wheat/harvest": "day-of-year",
+        },
+        "years_used": {
+            f"{f}/{s}": cov["years"]
+            for (f, s), cov in sorted(coverage.items())
+            if cov["status"] == "PRESENT"
+        },
+    }
+    ap = _pw_audit_path()
+    refresh.write_if_changed(ap, refresh._dump_json(audit))
+    paths.add(ap)
+    cov_payload = {
+        "product_name": "NASS planting-window coverage",
+        "refreshed_at": refreshed_at,
+        "candidates": {
+            f"{f}/{s}": cov for (f, s), cov in sorted(coverage.items())
+        },
+    }
+    cp = _coverage_path()
+    refresh.write_if_changed(cp, refresh._dump_json(cov_payload))
+    paths.add(cp)
+    return paths
