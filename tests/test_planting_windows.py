@@ -206,5 +206,23 @@ class GroupProgressTest(unittest.TestCase):
         self.assertEqual(g[("19", "corn")]["state_alpha"], "IA")
 
 
+class DayOrdinalTest(unittest.TestCase):
+    def test_plain_crops_use_day_of_year_for_plant_and_harvest(self):
+        self.assertEqual(pw.day_ordinal("corn", "plant", 2025, "2025-05-04"), 124)
+        self.assertEqual(pw.day_ordinal("soybeans", "harvest", 2024, "2024-10-06"), 280)
+        self.assertEqual(pw.day_ordinal("corn", "harvest", 2025, "2025-11-15"), 319)
+        self.assertEqual(pw.day_ordinal("spring-wheat", "harvest", 2024, "2024-09-30"), 274)
+
+    def test_winter_wheat_plant_anchored_aug1_prev_year_no_wrap(self):
+        self.assertEqual(pw.day_ordinal("winter-wheat", "plant", 2024, "2023-09-03"), 33)
+        self.assertEqual(pw.day_ordinal("winter-wheat", "plant", 2024, "2024-01-01"), 153)
+
+    def test_winter_wheat_harvest_plain_in_year(self):
+        self.assertEqual(pw.day_ordinal("winter-wheat", "harvest", 2024, "2024-06-16"), 168)
+
+    def test_plain_crop_wrong_calendar_year_returns_none(self):
+        self.assertIsNone(pw.day_ordinal("corn", "plant", 2025, "2024-12-31"))
+
+
 if __name__ == "__main__":
     unittest.main()

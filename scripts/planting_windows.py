@@ -189,3 +189,36 @@ def group_progress(kept: list[dict]) -> dict:
             for ym in node[op].values():
                 ym["readings"] = sorted(ym.pop("_by_we").items())
     return g
+
+
+def _anchor(slug: str, op: str, year: int) -> Optional[date]:
+    """Seasonal anchor; None means plain day-of-year within `year`."""
+    if slug == "winter-wheat" and op == "plant":
+        return date(year - 1, 8, 1)
+    return None
+
+
+def day_ordinal(slug: str, op: str, year: int, week_ending: str) -> Optional[int]:
+    """Integer day-ordinal for a WEEK_ENDING date, or None if out of span.
+
+    Plain crops/operations: 1-based day-of-year in calendar `year`.
+    winter-wheat plant: days since Aug 1 of `year`-1 (forward; a January
+    crossing maps to ~150, never wraps a calendar boundary).
+    """
+    y, m, d = (int(x) for x in week_ending.split("-"))
+    we = date(y, m, d)
+    anchor = _anchor(slug, op, year)
+    if anchor is None:
+        if we.year != year:
+            return None
+        ordn = (we - date(year, 1, 1)).days + 1
+        if ordn < PLAIN_DOY_MIN or ordn > PLAIN_DOY_MAX:
+            return None
+    else:
+        ordn = (we - anchor).days
+        if (
+            ordn < WINTER_WHEAT_PLANT_ORDINAL_MIN
+            or ordn > WINTER_WHEAT_PLANT_ORDINAL_MAX
+        ):
+            return None
+    return ordn
