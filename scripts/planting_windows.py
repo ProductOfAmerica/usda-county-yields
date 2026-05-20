@@ -222,3 +222,49 @@ def day_ordinal(slug: str, op: str, year: int, week_ending: str) -> Optional[int
         ):
             return None
     return ordn
+
+
+def year_crossings(
+    slug: str, op: str, year: int, readings: list[tuple[str, float]]
+) -> Optional[dict]:
+    """Per-year fractional ordinal of each threshold crossing.
+
+    Returns {begin,mostActiveStart,mostActiveEnd,end: float} or None if
+    the year is not usable (non-monotone, first reading >5% i.e.
+    left-censored, never reaches 95%, or an out-of-span ordinal).
+    No synthetic point: NASS publishes a real leading 0%/1% reading, so
+    every threshold straddles two real observations for a usable year.
+    """
+    if len(readings) < 2:
+        return None
+    pts: list[tuple[int, float]] = []
+    last_pct = None
+    for we, pct in readings:
+        if last_pct is not None and pct < last_pct - 1e-9:
+            return None
+        last_pct = pct
+        ordn = day_ordinal(slug, op, year, we)
+        if ordn is None:
+            return None
+        pts.append((ordn, pct))
+    pts.sort()
+    if pts[0][1] > 5.0:
+        return None
+    if pts[-1][1] < 95.0:
+        return None
+    out: dict = {}
+    for t, key in zip(THRESHOLDS, THRESHOLD_KEYS):
+        crossing = None
+        for i, (o, p) in enumerate(pts):
+            if p == t:
+                crossing = float(o)
+                break
+            if p > t:
+                o0, p0 = pts[i - 1]
+                frac = (t - p0) / (p - p0)
+                crossing = o0 + frac * (o - o0)
+                break
+        if crossing is None:
+            return None
+        out[key] = crossing
+    return out

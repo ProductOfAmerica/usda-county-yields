@@ -224,5 +224,63 @@ class DayOrdinalTest(unittest.TestCase):
         self.assertIsNone(pw.day_ordinal("corn", "plant", 2025, "2024-12-31"))
 
 
+class CrossingsTest(unittest.TestCase):
+    def test_real_zero_leading_reading_interpolates_all_four(self):
+        readings = [
+            ("2025-04-06", 0.0),
+            ("2025-04-13", 10.0),
+            ("2025-04-20", 50.0),
+            ("2025-04-27", 80.0),
+            ("2025-05-04", 90.0),
+            ("2025-05-11", 99.0),
+        ]
+        cr = pw.year_crossings("corn", "plant", 2025, readings)
+        self.assertIsNotNone(cr)
+        self.assertEqual(
+            sorted(cr),
+            ["begin", "end", "mostActiveEnd", "mostActiveStart"],
+        )
+        # begin (5%) between 0% (doy 96) and 10% (doy 103) -> 99.5
+        self.assertAlmostEqual(cr["begin"], 99.5, places=3)
+
+    def test_exact_threshold_uses_that_date(self):
+        readings = [
+            ("2025-04-06", 5.0),
+            ("2025-04-13", 15.0),
+            ("2025-04-20", 85.0),
+            ("2025-04-27", 95.0),
+        ]
+        cr = pw.year_crossings("corn", "plant", 2025, readings)
+        self.assertEqual(
+            cr["begin"],
+            float(pw.day_ordinal("corn", "plant", 2025, "2025-04-06")),
+        )
+
+    def test_non_monotone_dropped(self):
+        readings = [
+            ("2025-04-06", 0.0),
+            ("2025-04-13", 40.0),
+            ("2025-04-20", 30.0),
+            ("2025-04-27", 96.0),
+        ]
+        self.assertIsNone(pw.year_crossings("corn", "plant", 2025, readings))
+
+    def test_left_censored_first_reading_above_5_dropped(self):
+        readings = [
+            ("2025-04-06", 12.0),
+            ("2025-04-13", 60.0),
+            ("2025-04-20", 96.0),
+        ]
+        self.assertIsNone(pw.year_crossings("corn", "plant", 2025, readings))
+
+    def test_never_reaches_95_dropped(self):
+        readings = [
+            ("2025-04-06", 0.0),
+            ("2025-04-13", 50.0),
+            ("2025-04-20", 88.0),
+        ]
+        self.assertIsNone(pw.year_crossings("corn", "plant", 2025, readings))
+
+
 if __name__ == "__main__":
     unittest.main()
