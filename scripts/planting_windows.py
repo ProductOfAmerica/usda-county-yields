@@ -158,3 +158,34 @@ def filter_progress(reader: Iterable[list[str]]) -> tuple[int, list[dict]]:
         except (IndexError, ValueError):
             continue
     return total, kept
+
+
+def group_progress(kept: list[dict]) -> dict:
+    """Nest filtered rows: (state_fips, slug) -> {op: {year: {readings}}}.
+
+    Within (state, slug, op, year) readings are keyed by WEEK_ENDING in a
+    dict so a duplicate week (NASS revision in the snapshot) is
+    last-write-wins (mirrors refresh.group_by_state's values dict).
+    Suppressed/blank values are dropped. `readings` is the sorted
+    (week_ending, pct) list.
+    """
+    g: dict = {}
+    for r in kept:
+        key = (r["state_fips"], r["crop_slug"])
+        node = g.setdefault(key, {
+            "state_fips": r["state_fips"],
+            "state_alpha": r["state_alpha"],
+            "state_name": r["state_name"],
+            "plant": {},
+            "harvest": {},
+        })
+        pct = parse_pct(r["value"])
+        if pct is None:
+            continue
+        year_map = node[r["op"]].setdefault(r["year"], {"_by_we": {}})
+        year_map["_by_we"][r["week_ending"]] = pct
+    for node in g.values():
+        for op in ("plant", "harvest"):
+            for ym in node[op].values():
+                ym["readings"] = sorted(ym.pop("_by_we").items())
+    return g

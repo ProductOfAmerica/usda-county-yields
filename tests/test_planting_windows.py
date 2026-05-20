@@ -174,5 +174,37 @@ class FilterProgressTest(unittest.TestCase):
         self.assertIsNone(pw.parse_pct("NA"))
 
 
+class GroupProgressTest(unittest.TestCase):
+    def test_groups_by_state_slug_op_year_last_write_wins(self):
+        kept = [
+            {
+                "crop_slug": "corn", "op": "plant", "state_fips": "19",
+                "state_alpha": "IA", "state_name": "IOWA", "year": 2025,
+                "week_ending": "2025-04-06", "value": "0",
+            },
+            {
+                "crop_slug": "corn", "op": "plant", "state_fips": "19",
+                "state_alpha": "IA", "state_name": "IOWA", "year": 2025,
+                "week_ending": "2025-04-13", "value": "5",
+            },
+            # duplicate WEEK_ENDING -> last row wins (revised value 7)
+            {
+                "crop_slug": "corn", "op": "plant", "state_fips": "19",
+                "state_alpha": "IA", "state_name": "IOWA", "year": 2025,
+                "week_ending": "2025-04-13", "value": "7",
+            },
+            # suppressed value is dropped
+            {
+                "crop_slug": "corn", "op": "plant", "state_fips": "19",
+                "state_alpha": "IA", "state_name": "IOWA", "year": 2025,
+                "week_ending": "2025-04-20", "value": "(D)",
+            },
+        ]
+        g = pw.group_progress(kept)
+        series = g[("19", "corn")]["plant"][2025]["readings"]
+        self.assertEqual(series, [("2025-04-06", 0.0), ("2025-04-13", 7.0)])
+        self.assertEqual(g[("19", "corn")]["state_alpha"], "IA")
+
+
 if __name__ == "__main__":
     unittest.main()
