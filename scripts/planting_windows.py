@@ -93,3 +93,68 @@ def _assert_planting_window_shape(shard: dict) -> None:
     sy = shard["sourceYears"]
     if set(sy) != {"from", "to"} or not all(isinstance(sy[k], int) for k in sy):
         raise SystemExit(f"Window shard sourceYears bad: {sy!r}")
+
+
+def parse_pct(raw: str) -> Optional[float]:
+    """Numeric percent, or None for blank/suppressed/non-numeric."""
+    s = (raw or "").strip()
+    if not s:
+        return None
+    try:
+        return float(s.replace(",", ""))
+    except ValueError:
+        return None  # "(D)", "(NA)", etc.; not a usable observation
+
+
+def _slug_for(commodity: str, class_desc: str) -> Optional[str]:
+    for slug, (com, cls) in CROP_FILTERS.items():
+        if commodity == com and (cls is None or class_desc == cls):
+            return slug
+    return None
+
+
+def filter_progress(reader: Iterable[list[str]]) -> tuple[int, list[dict]]:
+    """Second-pass filter over the bulk gz csv reader.
+
+    Returns (total_rows_scanned, kept) where kept rows are dicts with
+    crop_slug + op resolved. Raises SystemExit on missing required
+    columns (Gate 1, mirrors refresh._parse_filter).
+    """
+    header = next(iter(reader))
+    col = {name: i for i, name in enumerate(header)}
+    missing = [c for c in REQUIRED_PW_COLS if c not in col]
+    if missing:
+        raise SystemExit(
+            f"Required columns missing from NASS bulk file (PROGRESS): {missing}"
+        )
+    total = 0
+    kept: list[dict] = []
+    for row in reader:
+        total += 1
+        try:
+            if (
+                row[col["SOURCE_DESC"]] != "SURVEY"
+                or row[col["STATISTICCAT_DESC"]] != "PROGRESS"
+                or row[col["AGG_LEVEL_DESC"]] != "STATE"
+            ):
+                continue
+            unit = row[col["UNIT_DESC"]]
+            op = UNIT_OP.get(unit)
+            if op is None:
+                continue
+            slug = _slug_for(row[col["COMMODITY_DESC"]], row[col["CLASS_DESC"]])
+            if slug is None:
+                continue
+            kept.append({
+                "crop_slug": slug,
+                "op": op,
+                "state_fips": row[col["STATE_FIPS_CODE"]].zfill(2),
+                "state_alpha": row[col["STATE_ALPHA"]],
+                "state_name": row[col["STATE_NAME"]],
+                "year": int(row[col["YEAR"]]),
+                "week_ending": row[col["WEEK_ENDING"]].strip(),
+                "value": row[col["VALUE"]],
+            })
+        except (IndexError, ValueError):
+            continue
+    return total, kept

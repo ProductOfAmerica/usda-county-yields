@@ -5,6 +5,8 @@ tests/test_refresh.py conventions.
 """
 from __future__ import annotations
 
+import csv
+import io
 import json
 import sys
 import unittest
@@ -78,6 +80,98 @@ class ShapeAssertTest(unittest.TestCase):
         bad["plant"]["begin"] = "2024-04-20"
         with self.assertRaises(SystemExit):
             pw._assert_planting_window_shape(bad)
+
+
+def _pw_header() -> list[str]:
+    # Same 39-col NASS shape as tests/test_refresh.py.
+    return [
+        "SOURCE_DESC", "SECTOR_DESC", "GROUP_DESC", "COMMODITY_DESC", "CLASS_DESC",
+        "PRODN_PRACTICE_DESC", "UTIL_PRACTICE_DESC", "STATISTICCAT_DESC", "UNIT_DESC",
+        "SHORT_DESC", "DOMAIN_DESC", "DOMAINCAT_DESC", "AGG_LEVEL_DESC", "STATE_ANSI",
+        "STATE_FIPS_CODE", "STATE_ALPHA", "STATE_NAME", "ASD_CODE", "ASD_DESC",
+        "COUNTY_ANSI", "COUNTY_CODE", "COUNTY_NAME", "REGION_DESC", "ZIP_5",
+        "WATERSHED_CODE", "WATERSHED_DESC", "CONGR_DISTRICT_CODE", "COUNTRY_CODE",
+        "COUNTRY_NAME", "LOCATION_DESC", "YEAR", "FREQ_DESC", "BEGIN_CODE", "END_CODE",
+        "REFERENCE_PERIOD_DESC", "WEEK_ENDING", "LOAD_TIME", "VALUE", "CV_%",
+    ]
+
+
+_PWIDX = {n: i for i, n in enumerate(_pw_header())}
+
+
+def _pw_row(**ov) -> list[str]:
+    row = [""] * len(_pw_header())
+    d = {
+        "SOURCE_DESC": "SURVEY",
+        "SECTOR_DESC": "CROPS",
+        "GROUP_DESC": "FIELD CROPS",
+        "COMMODITY_DESC": "CORN",
+        "CLASS_DESC": "ALL CLASSES",
+        "STATISTICCAT_DESC": "PROGRESS",
+        "UNIT_DESC": "PCT PLANTED",
+        "AGG_LEVEL_DESC": "STATE",
+        "STATE_ANSI": "19",
+        "STATE_FIPS_CODE": "19",
+        "STATE_ALPHA": "IA",
+        "STATE_NAME": "IOWA",
+        "YEAR": "2025",
+        "FREQ_DESC": "WEEKLY",
+        "REFERENCE_PERIOD_DESC": "WEEK #18",
+        "WEEK_ENDING": "2025-05-04",
+        "VALUE": "50",
+    }
+    d.update(ov)
+    for k, v in d.items():
+        row[_PWIDX[k]] = v
+    return row
+
+
+class FilterProgressTest(unittest.TestCase):
+    def _read(self, rows):
+        buf = io.StringIO()
+        w = csv.writer(buf, delimiter="\t")
+        w.writerow(_pw_header())
+        for r in rows:
+            w.writerow(r)
+        buf.seek(0)
+        return pw.filter_progress(csv.reader(buf, delimiter="\t"))
+
+    def test_missing_required_column_aborts(self):
+        bad = [c for c in _pw_header() if c != "WEEK_ENDING"]
+        buf = io.StringIO()
+        buf.write("\t".join(bad) + "\n")
+        buf.seek(0)
+        with self.assertRaises(SystemExit) as ctx:
+            pw.filter_progress(csv.reader(buf, delimiter="\t"))
+        self.assertIn("WEEK_ENDING", str(ctx.exception))
+
+    def test_keeps_only_state_survey_progress_allowlisted(self):
+        rows = [
+            _pw_row(),  # keep: IA corn pct planted
+            _pw_row(UNIT_DESC="PCT HARVESTED"),  # keep: harvest
+            _pw_row(COMMODITY_DESC="WHEAT", CLASS_DESC="WINTER"),  # keep
+            _pw_row(COMMODITY_DESC="WHEAT", CLASS_DESC="SPRING"),  # keep
+            _pw_row(SOURCE_DESC="CENSUS"),  # drop
+            _pw_row(AGG_LEVEL_DESC="COUNTY"),  # drop
+            _pw_row(STATISTICCAT_DESC="YIELD"),  # drop
+            _pw_row(UNIT_DESC="PCT EMERGED"),  # drop
+            _pw_row(COMMODITY_DESC="COTTON"),  # drop
+            _pw_row(COMMODITY_DESC="WHEAT", CLASS_DESC="DURUM"),  # drop
+        ]
+        total, kept = self._read(rows)
+        self.assertEqual(total, 10)
+        slugs = sorted({k["crop_slug"] for k in kept})
+        self.assertEqual(slugs, ["corn", "spring-wheat", "winter-wheat"])
+        ops = sorted({k["op"] for k in kept})
+        self.assertEqual(ops, ["harvest", "plant"])
+
+    def test_parse_pct(self):
+        self.assertEqual(pw.parse_pct("0"), 0.0)
+        self.assertEqual(pw.parse_pct(" 88 "), 88.0)
+        self.assertEqual(pw.parse_pct("1,000"), 1000.0)
+        self.assertIsNone(pw.parse_pct("(D)"))
+        self.assertIsNone(pw.parse_pct(""))
+        self.assertIsNone(pw.parse_pct("NA"))
 
 
 if __name__ == "__main__":
