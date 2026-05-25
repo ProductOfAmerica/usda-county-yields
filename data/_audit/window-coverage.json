@@ -1,0 +1,1286 @@
+{
+  "candidates": {
+    "01/corn": {
+      "harvest_usable": 10,
+      "plant_usable": 0,
+      "reason": "insufficient usable years: plant(0<20), harvest(10<20)",
+      "status": "OMITTED"
+    },
+    "01/soybeans": {
+      "harvest_usable": 9,
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20), harvest(9<20)",
+      "status": "OMITTED"
+    },
+    "01/winter-wheat": {
+      "harvest_usable": 12,
+      "plant_usable": 0,
+      "reason": "insufficient usable years: plant(0<20), harvest(12<20)",
+      "status": "OMITTED"
+    },
+    "04/winter-wheat": {
+      "harvest_usable": 2,
+      "plant_usable": 1,
+      "reason": "insufficient usable years: plant(1<20), harvest(2<20)",
+      "status": "OMITTED"
+    },
+    "05/corn": {
+      "harvest_usable": 12,
+      "plant_usable": 11,
+      "reason": "insufficient usable years: plant(11<20), harvest(12<20)",
+      "status": "OMITTED"
+    },
+    "05/soybeans": {
+      "harvest_usable": 16,
+      "plant_usable": 17,
+      "reason": "insufficient usable years: plant(17<20), harvest(16<20)",
+      "status": "OMITTED"
+    },
+    "05/winter-wheat": {
+      "harvest_usable": 22,
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20)",
+      "status": "OMITTED"
+    },
+    "06/winter-wheat": {
+      "harvest_usable": 17,
+      "plant_usable": 3,
+      "reason": "insufficient usable years: plant(3<20), harvest(17<20)",
+      "status": "OMITTED"
+    },
+    "08/corn": {
+      "harvest_usable": 11,
+      "plant_usable": 36,
+      "reason": "insufficient usable years: harvest(11<20)",
+      "status": "OMITTED"
+    },
+    "08/winter-wheat": {
+      "harvest_usable": 33,
+      "plant_usable": 17,
+      "reason": "insufficient usable years: plant(17<20)",
+      "status": "OMITTED"
+    },
+    "09/corn": {
+      "harvest_usable": 6,
+      "plant_usable": 9,
+      "reason": "insufficient usable years: plant(9<20), harvest(6<20)",
+      "status": "OMITTED"
+    },
+    "10/corn": {
+      "harvest_usable": 1,
+      "plant_usable": 9,
+      "reason": "insufficient usable years: plant(9<20), harvest(1<20)",
+      "status": "OMITTED"
+    },
+    "10/soybeans": {
+      "harvest_usable": 4,
+      "plant_usable": 8,
+      "reason": "insufficient usable years: plant(8<20), harvest(4<20)",
+      "status": "OMITTED"
+    },
+    "10/winter-wheat": {
+      "harvest_usable": 5,
+      "plant_usable": 7,
+      "reason": "insufficient usable years: plant(7<20), harvest(5<20)",
+      "status": "OMITTED"
+    },
+    "13/corn": {
+      "harvest_usable": 7,
+      "plant_usable": 0,
+      "reason": "insufficient usable years: plant(0<20), harvest(7<20)",
+      "status": "OMITTED"
+    },
+    "13/soybeans": {
+      "harvest_usable": 2,
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20), harvest(2<20)",
+      "status": "OMITTED"
+    },
+    "13/winter-wheat": {
+      "harvest_usable": 9,
+      "plant_usable": 1,
+      "reason": "insufficient usable years: plant(1<20), harvest(9<20)",
+      "status": "OMITTED"
+    },
+    "16/corn": {
+      "harvest_usable": 0,
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "16/soybeans": {
+      "harvest_usable": 0,
+      "plant_usable": 0,
+      "reason": "insufficient usable years: plant(0<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "16/winter-wheat": {
+      "harvest_usable": 12,
+      "plant_usable": 25,
+      "reason": "insufficient usable years: harvest(12<20)",
+      "status": "OMITTED"
+    },
+    "17/corn": {
+      "harvest_usable": 36,
+      "plant_usable": 38,
+      "status": "PRESENT",
+      "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "17/soybeans": {
+      "harvest_usable": 33,
+      "plant_usable": 30,
+      "status": "PRESENT",
+      "years": [
+        2003,
+        2004,
+        2006,
+        2007,
+        2008,
+        2009,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "17/winter-wheat": {
+      "harvest_usable": 34,
+      "plant_usable": 38,
+      "status": "PRESENT",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    "18/corn": {
+      "harvest_usable": 21,
+      "plant_usable": 31,
+      "status": "PRESENT",
+      "years": [
+        1983,
+        1986,
+        1987,
+        1988,
+        1990,
+        1991,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004,
+        2005,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "18/soybeans": {
+      "harvest_usable": 33,
+      "plant_usable": 28,
+      "status": "PRESENT",
+      "years": [
+        1993,
+        1999,
+        2001,
+        2002,
+        2003,
+        2006,
+        2007,
+        2008,
+        2009,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "18/winter-wheat": {
+      "harvest_usable": 38,
+      "plant_usable": 38,
+      "status": "PRESENT",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "19/corn": {
+      "harvest_usable": 37,
+      "plant_usable": 36,
+      "status": "PRESENT",
+      "years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "19/soybeans": {
+      "harvest_usable": 37,
+      "plant_usable": 33,
+      "status": "PRESENT",
+      "years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "20/corn": {
+      "harvest_usable": 13,
+      "plant_usable": 36,
+      "reason": "insufficient usable years: harvest(13<20)",
+      "status": "OMITTED"
+    },
+    "20/soybeans": {
+      "harvest_usable": 26,
+      "plant_usable": 27,
+      "status": "PRESENT",
+      "years": [
+        1989,
+        1990,
+        1991,
+        1993,
+        1994,
+        1995,
+        1997,
+        1999,
+        2003,
+        2006,
+        2007,
+        2009,
+        2010,
+        2011,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "20/winter-wheat": {
+      "harvest_usable": 38,
+      "plant_usable": 42,
+      "status": "PRESENT",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    "21/corn": {
+      "harvest_usable": 13,
+      "plant_usable": 22,
+      "reason": "insufficient usable years: harvest(13<20)",
+      "status": "OMITTED"
+    },
+    "21/soybeans": {
+      "harvest_usable": 16,
+      "plant_usable": 15,
+      "reason": "insufficient usable years: plant(15<20), harvest(16<20)",
+      "status": "OMITTED"
+    },
+    "21/winter-wheat": {
+      "harvest_usable": 4,
+      "plant_usable": 2,
+      "reason": "insufficient usable years: plant(2<20), harvest(4<20)",
+      "status": "OMITTED"
+    },
+    "22/corn": {
+      "harvest_usable": 12,
+      "plant_usable": 5,
+      "reason": "insufficient usable years: plant(5<20), harvest(12<20)",
+      "status": "OMITTED"
+    },
+    "22/soybeans": {
+      "harvest_usable": 16,
+      "plant_usable": 19,
+      "reason": "insufficient usable years: plant(19<20), harvest(16<20)",
+      "status": "OMITTED"
+    },
+    "22/winter-wheat": {
+      "harvest_usable": 9,
+      "plant_usable": 0,
+      "reason": "insufficient usable years: plant(0<20), harvest(9<20)",
+      "status": "OMITTED"
+    },
+    "23/corn": {
+      "harvest_usable": 6,
+      "plant_usable": 5,
+      "reason": "insufficient usable years: plant(5<20), harvest(6<20)",
+      "status": "OMITTED"
+    },
+    "24/corn": {
+      "harvest_usable": 2,
+      "plant_usable": 9,
+      "reason": "insufficient usable years: plant(9<20), harvest(2<20)",
+      "status": "OMITTED"
+    },
+    "24/soybeans": {
+      "harvest_usable": 4,
+      "plant_usable": 9,
+      "reason": "insufficient usable years: plant(9<20), harvest(4<20)",
+      "status": "OMITTED"
+    },
+    "24/winter-wheat": {
+      "harvest_usable": 3,
+      "plant_usable": 6,
+      "reason": "insufficient usable years: plant(6<20), harvest(3<20)",
+      "status": "OMITTED"
+    },
+    "25/corn": {
+      "harvest_usable": 4,
+      "plant_usable": 7,
+      "reason": "insufficient usable years: plant(7<20), harvest(4<20)",
+      "status": "OMITTED"
+    },
+    "26/corn": {
+      "harvest_usable": 8,
+      "plant_usable": 29,
+      "reason": "insufficient usable years: harvest(8<20)",
+      "status": "OMITTED"
+    },
+    "26/soybeans": {
+      "harvest_usable": 32,
+      "plant_usable": 34,
+      "status": "PRESENT",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2002,
+        2003,
+        2004,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "26/winter-wheat": {
+      "harvest_usable": 35,
+      "plant_usable": 35,
+      "status": "PRESENT",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    "27/corn": {
+      "harvest_usable": 22,
+      "plant_usable": 35,
+      "status": "PRESENT",
+      "years": [
+        1987,
+        1989,
+        1990,
+        1991,
+        1992,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2010,
+        2011,
+        2012,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "27/soybeans": {
+      "harvest_usable": 39,
+      "plant_usable": 35,
+      "status": "PRESENT",
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "28/corn": {
+      "harvest_usable": 11,
+      "plant_usable": 11,
+      "reason": "insufficient usable years: plant(11<20), harvest(11<20)",
+      "status": "OMITTED"
+    },
+    "28/soybeans": {
+      "harvest_usable": 14,
+      "plant_usable": 16,
+      "reason": "insufficient usable years: plant(16<20), harvest(14<20)",
+      "status": "OMITTED"
+    },
+    "28/winter-wheat": {
+      "harvest_usable": 11,
+      "plant_usable": 0,
+      "reason": "insufficient usable years: plant(0<20), harvest(11<20)",
+      "status": "OMITTED"
+    },
+    "29/corn": {
+      "harvest_usable": 11,
+      "plant_usable": 25,
+      "reason": "insufficient usable years: harvest(11<20)",
+      "status": "OMITTED"
+    },
+    "29/soybeans": {
+      "harvest_usable": 20,
+      "plant_usable": 13,
+      "reason": "insufficient usable years: plant(13<20)",
+      "status": "OMITTED"
+    },
+    "29/winter-wheat": {
+      "harvest_usable": 35,
+      "plant_usable": 15,
+      "reason": "insufficient usable years: plant(15<20)",
+      "status": "OMITTED"
+    },
+    "30/corn": {
+      "harvest_usable": 0,
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "30/soybeans": {
+      "harvest_usable": 0,
+      "plant_usable": 0,
+      "reason": "insufficient usable years: plant(0<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "30/winter-wheat": {
+      "harvest_usable": 13,
+      "plant_usable": 28,
+      "reason": "insufficient usable years: harvest(13<20)",
+      "status": "OMITTED"
+    },
+    "31/corn": {
+      "harvest_usable": 33,
+      "plant_usable": 42,
+      "status": "PRESENT",
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2003,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "31/soybeans": {
+      "harvest_usable": 36,
+      "plant_usable": 35,
+      "status": "PRESENT",
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "31/winter-wheat": {
+      "harvest_usable": 34,
+      "plant_usable": 19,
+      "reason": "insufficient usable years: plant(19<20)",
+      "status": "OMITTED"
+    },
+    "32/corn": {
+      "harvest_usable": 0,
+      "plant_usable": 1,
+      "reason": "insufficient usable years: plant(1<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "32/winter-wheat": {
+      "harvest_usable": 0,
+      "plant_usable": 0,
+      "reason": "insufficient usable years: plant(0<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "33/corn": {
+      "harvest_usable": 7,
+      "plant_usable": 9,
+      "reason": "insufficient usable years: plant(9<20), harvest(7<20)",
+      "status": "OMITTED"
+    },
+    "34/corn": {
+      "harvest_usable": 1,
+      "plant_usable": 5,
+      "reason": "insufficient usable years: plant(5<20), harvest(1<20)",
+      "status": "OMITTED"
+    },
+    "34/soybeans": {
+      "harvest_usable": 1,
+      "plant_usable": 9,
+      "reason": "insufficient usable years: plant(9<20), harvest(1<20)",
+      "status": "OMITTED"
+    },
+    "34/winter-wheat": {
+      "harvest_usable": 4,
+      "plant_usable": 4,
+      "reason": "insufficient usable years: plant(4<20), harvest(4<20)",
+      "status": "OMITTED"
+    },
+    "35/corn": {
+      "harvest_usable": 1,
+      "plant_usable": 11,
+      "reason": "insufficient usable years: plant(11<20), harvest(1<20)",
+      "status": "OMITTED"
+    },
+    "35/winter-wheat": {
+      "harvest_usable": 12,
+      "plant_usable": 7,
+      "reason": "insufficient usable years: plant(7<20), harvest(12<20)",
+      "status": "OMITTED"
+    },
+    "36/corn": {
+      "harvest_usable": 0,
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "36/soybeans": {
+      "harvest_usable": 2,
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20), harvest(2<20)",
+      "status": "OMITTED"
+    },
+    "36/winter-wheat": {
+      "harvest_usable": 8,
+      "plant_usable": 6,
+      "reason": "insufficient usable years: plant(6<20), harvest(8<20)",
+      "status": "OMITTED"
+    },
+    "37/corn": {
+      "harvest_usable": 0,
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "37/soybeans": {
+      "harvest_usable": 0,
+      "plant_usable": 13,
+      "reason": "insufficient usable years: plant(13<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "37/winter-wheat": {
+      "harvest_usable": 20,
+      "plant_usable": 0,
+      "reason": "insufficient usable years: plant(0<20)",
+      "status": "OMITTED"
+    },
+    "38/corn": {
+      "harvest_usable": 15,
+      "plant_usable": 17,
+      "reason": "insufficient usable years: plant(17<20), harvest(15<20)",
+      "status": "OMITTED"
+    },
+    "38/soybeans": {
+      "harvest_usable": 21,
+      "plant_usable": 25,
+      "status": "PRESENT",
+      "years": [
+        2001,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "38/winter-wheat": {
+      "harvest_usable": 12,
+      "plant_usable": 6,
+      "reason": "insufficient usable years: plant(6<20), harvest(12<20)",
+      "status": "OMITTED"
+    },
+    "39/corn": {
+      "harvest_usable": 10,
+      "plant_usable": 35,
+      "reason": "insufficient usable years: harvest(10<20)",
+      "status": "OMITTED"
+    },
+    "39/soybeans": {
+      "harvest_usable": 28,
+      "plant_usable": 28,
+      "status": "PRESENT",
+      "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2001,
+        2002,
+        2003,
+        2006,
+        2007,
+        2008,
+        2009,
+        2011,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "39/winter-wheat": {
+      "harvest_usable": 37,
+      "plant_usable": 40,
+      "status": "PRESENT",
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    "40/corn": {
+      "harvest_usable": 3,
+      "plant_usable": 8,
+      "reason": "insufficient usable years: plant(8<20), harvest(3<20)",
+      "status": "OMITTED"
+    },
+    "40/soybeans": {
+      "harvest_usable": 0,
+      "plant_usable": 10,
+      "reason": "insufficient usable years: plant(10<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "40/winter-wheat": {
+      "harvest_usable": 25,
+      "plant_usable": 24,
+      "status": "PRESENT",
+      "years": [
+        1987,
+        1989,
+        1992,
+        1993,
+        1995,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2007,
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    "41/corn": {
+      "harvest_usable": 1,
+      "plant_usable": 9,
+      "reason": "insufficient usable years: plant(9<20), harvest(1<20)",
+      "status": "OMITTED"
+    },
+    "41/winter-wheat": {
+      "harvest_usable": 17,
+      "plant_usable": 31,
+      "reason": "insufficient usable years: harvest(17<20)",
+      "status": "OMITTED"
+    },
+    "42/corn": {
+      "harvest_usable": 2,
+      "plant_usable": 18,
+      "reason": "insufficient usable years: plant(18<20), harvest(2<20)",
+      "status": "OMITTED"
+    },
+    "42/soybeans": {
+      "harvest_usable": 7,
+      "plant_usable": 11,
+      "reason": "insufficient usable years: plant(11<20), harvest(7<20)",
+      "status": "OMITTED"
+    },
+    "42/winter-wheat": {
+      "harvest_usable": 7,
+      "plant_usable": 8,
+      "reason": "insufficient usable years: plant(8<20), harvest(7<20)",
+      "status": "OMITTED"
+    },
+    "44/corn": {
+      "harvest_usable": 5,
+      "plant_usable": 3,
+      "reason": "insufficient usable years: plant(3<20), harvest(5<20)",
+      "status": "OMITTED"
+    },
+    "45/corn": {
+      "harvest_usable": 6,
+      "plant_usable": 1,
+      "reason": "insufficient usable years: plant(1<20), harvest(6<20)",
+      "status": "OMITTED"
+    },
+    "45/soybeans": {
+      "harvest_usable": 0,
+      "plant_usable": 16,
+      "reason": "insufficient usable years: plant(16<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "45/winter-wheat": {
+      "harvest_usable": 12,
+      "plant_usable": 0,
+      "reason": "insufficient usable years: plant(0<20), harvest(12<20)",
+      "status": "OMITTED"
+    },
+    "46/corn": {
+      "harvest_usable": 27,
+      "plant_usable": 26,
+      "status": "PRESENT",
+      "years": [
+        1994,
+        1996,
+        1997,
+        1999,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2009,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "46/soybeans": {
+      "harvest_usable": 34,
+      "plant_usable": 34,
+      "status": "PRESENT",
+      "years": [
+        2004,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "46/winter-wheat": {
+      "harvest_usable": 33,
+      "plant_usable": 17,
+      "reason": "insufficient usable years: plant(17<20)",
+      "status": "OMITTED"
+    },
+    "47/corn": {
+      "harvest_usable": 9,
+      "plant_usable": 15,
+      "reason": "insufficient usable years: plant(15<20), harvest(9<20)",
+      "status": "OMITTED"
+    },
+    "47/soybeans": {
+      "harvest_usable": 17,
+      "plant_usable": 16,
+      "reason": "insufficient usable years: plant(16<20), harvest(17<20)",
+      "status": "OMITTED"
+    },
+    "47/winter-wheat": {
+      "harvest_usable": 9,
+      "plant_usable": 6,
+      "reason": "insufficient usable years: plant(6<20), harvest(9<20)",
+      "status": "OMITTED"
+    },
+    "48/corn": {
+      "harvest_usable": 1,
+      "plant_usable": 7,
+      "reason": "insufficient usable years: plant(7<20), harvest(1<20)",
+      "status": "OMITTED"
+    },
+    "48/soybeans": {
+      "harvest_usable": 2,
+      "plant_usable": 6,
+      "reason": "insufficient usable years: plant(6<20), harvest(2<20)",
+      "status": "OMITTED"
+    },
+    "48/winter-wheat": {
+      "harvest_usable": 10,
+      "plant_usable": 5,
+      "reason": "insufficient usable years: plant(5<20), harvest(10<20)",
+      "status": "OMITTED"
+    },
+    "49/corn": {
+      "harvest_usable": 0,
+      "plant_usable": 11,
+      "reason": "insufficient usable years: plant(11<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "49/winter-wheat": {
+      "harvest_usable": 12,
+      "plant_usable": 4,
+      "reason": "insufficient usable years: plant(4<20), harvest(12<20)",
+      "status": "OMITTED"
+    },
+    "50/corn": {
+      "harvest_usable": 9,
+      "plant_usable": 11,
+      "reason": "insufficient usable years: plant(11<20), harvest(9<20)",
+      "status": "OMITTED"
+    },
+    "51/corn": {
+      "harvest_usable": 0,
+      "plant_usable": 13,
+      "reason": "insufficient usable years: plant(13<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "51/soybeans": {
+      "harvest_usable": 0,
+      "plant_usable": 11,
+      "reason": "insufficient usable years: plant(11<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "51/winter-wheat": {
+      "harvest_usable": 12,
+      "plant_usable": 3,
+      "reason": "insufficient usable years: plant(3<20), harvest(12<20)",
+      "status": "OMITTED"
+    },
+    "53/corn": {
+      "harvest_usable": 0,
+      "plant_usable": 11,
+      "reason": "insufficient usable years: plant(11<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "53/winter-wheat": {
+      "harvest_usable": 12,
+      "plant_usable": 5,
+      "reason": "insufficient usable years: plant(5<20), harvest(12<20)",
+      "status": "OMITTED"
+    },
+    "54/corn": {
+      "harvest_usable": 2,
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20), harvest(2<20)",
+      "status": "OMITTED"
+    },
+    "54/soybeans": {
+      "harvest_usable": 0,
+      "plant_usable": 11,
+      "reason": "insufficient usable years: plant(11<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "54/winter-wheat": {
+      "harvest_usable": 9,
+      "plant_usable": 8,
+      "reason": "insufficient usable years: plant(8<20), harvest(9<20)",
+      "status": "OMITTED"
+    },
+    "55/corn": {
+      "harvest_usable": 4,
+      "plant_usable": 27,
+      "reason": "insufficient usable years: harvest(4<20)",
+      "status": "OMITTED"
+    },
+    "55/soybeans": {
+      "harvest_usable": 21,
+      "plant_usable": 22,
+      "status": "PRESENT",
+      "years": [
+        2002,
+        2003,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "55/winter-wheat": {
+      "harvest_usable": 12,
+      "plant_usable": 8,
+      "reason": "insufficient usable years: plant(8<20), harvest(12<20)",
+      "status": "OMITTED"
+    },
+    "56/corn": {
+      "harvest_usable": 0,
+      "plant_usable": 11,
+      "reason": "insufficient usable years: plant(11<20), harvest(0<20)",
+      "status": "OMITTED"
+    },
+    "56/winter-wheat": {
+      "harvest_usable": 8,
+      "plant_usable": 9,
+      "reason": "insufficient usable years: plant(9<20), harvest(8<20)",
+      "status": "OMITTED"
+    }
+  },
+  "product_name": "NASS planting-window coverage",
+  "refreshed_at": "2026-05-25T10:53:06Z"
+}

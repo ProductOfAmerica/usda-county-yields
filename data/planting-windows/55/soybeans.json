@@ -1,0 +1,23 @@
+{
+  "crop": "soybeans",
+  "definition": "usual-window",
+  "harvest": {
+    "begin": "09-26",
+    "end": "11-09",
+    "mostActiveEnd": "10-30",
+    "mostActiveStart": "10-03"
+  },
+  "method": "nass-crop-progress-percentile",
+  "plant": {
+    "begin": "05-04",
+    "end": "06-13",
+    "mostActiveEnd": "06-04",
+    "mostActiveStart": "05-10"
+  },
+  "sourceYears": {
+    "from": 2002,
+    "to": 2025
+  },
+  "stateAlpha": "WI",
+  "stateFips": "55"
+}

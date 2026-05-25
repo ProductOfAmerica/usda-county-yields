@@ -1,0 +1,23 @@
+{
+  "crop": "soybeans",
+  "definition": "usual-window",
+  "harvest": {
+    "begin": "09-21",
+    "end": "10-27",
+    "mostActiveEnd": "10-19",
+    "mostActiveStart": "09-27"
+  },
+  "method": "nass-crop-progress-percentile",
+  "plant": {
+    "begin": "05-09",
+    "end": "06-13",
+    "mostActiveEnd": "06-05",
+    "mostActiveStart": "05-15"
+  },
+  "sourceYears": {
+    "from": 2001,
+    "to": 2025
+  },
+  "stateAlpha": "ND",
+  "stateFips": "38"
+}

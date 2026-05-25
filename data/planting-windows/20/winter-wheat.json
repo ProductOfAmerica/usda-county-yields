@@ -1,0 +1,23 @@
+{
+  "crop": "winter-wheat",
+  "definition": "usual-window",
+  "harvest": {
+    "begin": "06-15",
+    "end": "07-14",
+    "mostActiveEnd": "07-07",
+    "mostActiveStart": "06-20"
+  },
+  "method": "nass-crop-progress-percentile",
+  "plant": {
+    "begin": "09-13",
+    "end": "11-05",
+    "mostActiveEnd": "10-24",
+    "mostActiveStart": "09-22"
+  },
+  "sourceYears": {
+    "from": 2005,
+    "to": 2026
+  },
+  "stateAlpha": "KS",
+  "stateFips": "20"
+}

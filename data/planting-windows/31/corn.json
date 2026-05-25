@@ -1,0 +1,23 @@
+{
+  "crop": "corn",
+  "definition": "usual-window",
+  "harvest": {
+    "begin": "09-19",
+    "end": "11-15",
+    "mostActiveEnd": "11-05",
+    "mostActiveStart": "10-01"
+  },
+  "method": "nass-crop-progress-percentile",
+  "plant": {
+    "begin": "04-20",
+    "end": "05-25",
+    "mostActiveEnd": "05-17",
+    "mostActiveStart": "04-25"
+  },
+  "sourceYears": {
+    "from": 1998,
+    "to": 2025
+  },
+  "stateAlpha": "NE",
+  "stateFips": "31"
+}
