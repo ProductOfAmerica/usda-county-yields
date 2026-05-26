@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+type: dataset
+message: "If you use this dataset, please cite this repository."
+title: "USDA NASS County Crop Yields JSON API"
+version: "1.0.0"
+date-released: 2026-05-01
+abstract: "A free static JSON API for USDA NASS county-level annual corn, soybean, and wheat yield data, refreshed weekly from the NASS bulk file and served through jsDelivr."
+authors:
+  - name: "ProductOfAmerica"
+    website: "https://github.com/ProductOfAmerica"
+url: "https://productofamerica.github.io/usda-county-yields/"
+repository-code: "https://github.com/ProductOfAmerica/usda-county-yields"
+license: "CC0-1.0"
+keywords:
+  - USDA
+  - NASS
+  - county crop yields
+  - agricultural data
+  - JSON API
+  - open data
+  - public domain

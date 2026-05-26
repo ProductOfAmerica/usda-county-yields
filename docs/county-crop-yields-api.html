@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>County Crop Yields API - USDA NASS JSON Data</title>
+<meta name="description" content="A free static JSON API for USDA NASS county crop yields covering corn, soybeans, and wheat. No API key, refreshed weekly, CDN-hosted." />
+<link rel="canonical" href="https://productofamerica.github.io/usda-county-yields/county-crop-yields-api.html" />
+<meta property="og:title" content="County Crop Yields API - USDA NASS JSON Data" />
+<meta property="og:description" content="Free static JSON API for USDA NASS county crop yields. Corn, soybeans, wheat, no API key." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://productofamerica.github.io/usda-county-yields/county-crop-yields-api.html" />
+<meta property="og:image" content="https://productofamerica.github.io/usda-county-yields/assets/social-preview.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://productofamerica.github.io/usda-county-yields/assets/social-preview.png" />
+<style>
+  :root { color-scheme: light dark; --fg:#111; --bg:#fff; --muted:#555; --code-bg:#f6f8fa; --link:#0969da; --border:#d0d7de; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#e6edf3; --bg:#0d1117; --muted:#8b949e; --code-bg:#161b22; --link:#58a6ff; --border:#30363d; } }
+  * { box-sizing: border-box; }
+  body { font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; color: var(--fg); background: var(--bg); margin: 0; }
+  main { max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  h1 { font-size: 2rem; margin: 0 0 .5rem; line-height: 1.2; }
+  h2 { font-size: 1.25rem; margin: 2.5rem 0 .75rem; border-bottom: 1px solid var(--border); padding-bottom: .25rem; }
+  p { margin: .75rem 0; }
+  .lede { font-size: 1.125rem; color: var(--muted); margin-bottom: 1.5rem; }
+  a { color: var(--link); }
+  code, pre { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace; }
+  code { background: var(--code-bg); padding: .1em .35em; border-radius: 4px; font-size: .92em; }
+  pre { background: var(--code-bg); padding: .9rem 1rem; border-radius: 6px; overflow-x: auto; font-size: .88rem; line-height: 1.5; }
+  footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .85rem; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebPage",
+  "name": "County Crop Yields API",
+  "description": "A free static JSON API for USDA NASS county crop yields covering corn, soybeans, and wheat.",
+  "url": "https://productofamerica.github.io/usda-county-yields/county-crop-yields-api.html",
+  "image": "https://productofamerica.github.io/usda-county-yields/assets/social-preview.png",
+  "about": {
+    "@type": "Dataset",
+    "name": "USDA NASS County Crop Yields",
+    "url": "https://productofamerica.github.io/usda-county-yields/",
+    "sameAs": "https://github.com/ProductOfAmerica/usda-county-yields"
+  }
+}
+</script>
+</head>
+<body>
+<main>
+<h1>County Crop Yields API</h1>
+<p class="lede">This repository publishes USDA NASS county-level annual yields for corn, soybeans, and wheat as small static JSON files.</p>
+
+<h2>URL pattern</h2>
+<p>Use the discovery index for state/county/crop coverage and freshness, then fetch a point leaf or a state/crop rollup.</p>
+<pre><code>GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/index.json
+GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/{fips}/counties/{county_code}/{crop_slug}.json
+GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/{fips}/crops/{crop_slug}.json</code></pre>
+
+<h2>Supported crops</h2>
+<ul>
+  <li><a href="corn-yield-data-json.html">corn</a></li>
+  <li><a href="soybean-yield-data-json.html">soybeans</a></li>
+  <li><a href="wheat-yield-data-json.html">wheat</a></li>
+</ul>
+
+<h2>Consistency</h2>
+<p>Use <code>@main</code> for the latest published data. Use <code>@&lt;commit-sha&gt;</code> when a workflow needs point-in-time consistency across index, leaf, and rollup files.</p>
+
+<footer>
+  <p><a href="./">USDA NASS County Crop Yields JSON API</a> | <a href="https://github.com/ProductOfAmerica/usda-county-yields">GitHub repository</a></p>
+</footer>
+</main>
+</body>
+</html>

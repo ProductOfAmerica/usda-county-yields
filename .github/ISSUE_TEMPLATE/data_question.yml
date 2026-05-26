@@ -1,0 +1,45 @@
+name: Data question
+description: Ask about county/crop coverage, suppressed values, or a specific yield lookup.
+title: "[Data]: "
+labels:
+  - data
+body:
+  - type: input
+    id: state
+    attributes:
+      label: State
+      description: State name, abbreviation, or FIPS code.
+    validations:
+      required: true
+  - type: input
+    id: county
+    attributes:
+      label: County
+      description: County name or three-digit county code.
+    validations:
+      required: false
+  - type: dropdown
+    id: crop
+    attributes:
+      label: Crop
+      options:
+        - corn
+        - soybeans
+        - wheat
+        - other
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      description: The year you are checking, if applicable.
+    validations:
+      required: false
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Include the URL you queried and what looked surprising.
+    validations:
+      required: true

@@ -5,4 +5,24 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://productofamerica.github.io/usda-county-yields/corn-yield-data-json.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://productofamerica.github.io/usda-county-yields/soybean-yield-data-json.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://productofamerica.github.io/usda-county-yields/wheat-yield-data-json.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://productofamerica.github.io/usda-county-yields/county-crop-yields-api.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

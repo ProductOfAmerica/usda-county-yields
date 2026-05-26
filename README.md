@@ -1,4 +1,4 @@
-# NASS County Crop Yields
+# USDA NASS County Crop Yields JSON API
 
 USDA NASS county-level **corn, soybean, and wheat** yield data — a free static JSON API served from the jsDelivr CDN, refreshed weekly from the NASS bulk file. Per-county point lookups in 2-22 KB. No API key, no rate limits, no auth. Public-domain agricultural data for data scientists, ML pipelines, agronomy notebooks, and ag-tech tooling. Sharded by `(state, county, crop)` so a single lookup downloads a small leaf instead of a multi-megabyte state shard.
 

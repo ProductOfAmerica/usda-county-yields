@@ -11,7 +11,11 @@
 <meta property="og:description" content="Free static JSON API serving USDA NASS county-level corn, soybean, and wheat yield data. Refreshed weekly. No API key." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://productofamerica.github.io/usda-county-yields/" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="https://productofamerica.github.io/usda-county-yields/assets/social-preview.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="USDA NASS County Crop Yields - Free JSON API" />
+<meta name="twitter:description" content="Free static JSON API serving USDA NASS county-level corn, soybean, and wheat yield data. Refreshed weekly. No API key." />
+<meta name="twitter:image" content="https://productofamerica.github.io/usda-county-yields/assets/social-preview.png" />
 <style>
   :root { color-scheme: light dark; --fg:#111; --bg:#fff; --muted:#555; --code-bg:#f6f8fa; --link:#0969da; --border:#d0d7de; }
   @media (prefers-color-scheme: dark) {
@@ -45,6 +49,7 @@
   "description": "Free static JSON API serving USDA NASS county-level annual yields for corn, soybeans, and wheat. Refreshed weekly from the NASS bulk file. Per-county point lookups in 2-22 KB. No API key, no rate limits, no auth. Sharded by (state, county, crop) and served from the jsDelivr CDN.",
   "url": "https://productofamerica.github.io/usda-county-yields/",
   "sameAs": "https://github.com/ProductOfAmerica/usda-county-yields",
+  "image": "https://productofamerica.github.io/usda-county-yields/assets/social-preview.png",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "isAccessibleForFree": true,
   "keywords": "USDA, NASS, agriculture, crop yields, corn, soybeans, wheat, county-level, public domain, JSON, API, jsDelivr, agricultural data, machine learning, data science, ag-tech",
@@ -96,7 +101,7 @@
 <body>
 <main>
 
-<h1>USDA NASS County Crop Yields</h1>
+<h1>USDA NASS County Crop Yields JSON API</h1>
 <p class="lede">Free static JSON API serving USDA NASS county-level <strong>corn, soybean, and wheat</strong> yield data. Refreshed weekly from the NASS bulk file, hosted on <a href="https://www.jsdelivr.com/">jsDelivr</a>. No API key. No rate limits. Public domain.</p>
 
 <div class="badges">
@@ -145,6 +150,14 @@ console.log(canonical.values["2024"]);  // 215.5</code></pre>
 <p>A weekly GitHub Actions cron downloads the NASS bulk file, filters to county-level SURVEY yields, marks the canonical series per crop, and emits a sharded JSON tree under <code>data/</code>. Three validation gates and three inline guards run before any commit. A separate canary workflow verifies the CDN is serving fresh data 12 hours after each refresh.</p>
 
 <p>Architecture details, schema, and the rebuild path are documented in the <a href="https://github.com/ProductOfAmerica/usda-county-yields#nass-county-crop-yields">repository README</a>.</p>
+
+<h2>Focused guides</h2>
+<ul>
+  <li><a href="corn-yield-data-json.html">Corn yield data JSON</a></li>
+  <li><a href="soybean-yield-data-json.html">Soybean yield data JSON</a></li>
+  <li><a href="wheat-yield-data-json.html">Wheat yield data JSON</a></li>
+  <li><a href="county-crop-yields-api.html">County crop yields API</a></li>
+</ul>
 
 <h2>State-wide rollups</h2>
 <p>For batch queries (e.g., all counties for one crop in one state), use the rollup so the whole answer comes in one fetch instead of looping over leaves:</p>

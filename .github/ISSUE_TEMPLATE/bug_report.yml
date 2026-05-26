@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a problem with the cache, schema, docs, or refresh behavior.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL or file path
+      description: Include the jsDelivr URL, GitHub path, or workflow/log reference if relevant.
+    validations:
+      required: false
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Commands, requests, or code needed to reproduce the issue.
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any related state, county, crop, year, branch, tag, or commit SHA.
+    validations:
+      required: false
