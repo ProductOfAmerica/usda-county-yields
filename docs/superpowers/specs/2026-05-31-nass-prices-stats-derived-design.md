@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-31
 **Branch:** `worktree-feat+nass-prices-stats-derived`
-**Status:** Design, P1-clean after four codex-spec rounds (findings 9 -> 5 -> 3 -> 0; P1 count 4 -> 2 -> 1 -> 0). Round 4 returned **no P1 and no P2 findings**, verifying each prior fix against the real code (bootstrap phasing, consumer-first ordering, per-family baseline return path, zero-shard sentinel invariant, version atomicity), with one P3 doc cross-reference nit since addressed. Pending user approval, then writing-plans.
+**Status:** Design, revised across four codex-spec rounds (findings 9 -> 5 -> 3 -> 1; P1 count 4 -> 2 -> 1 -> 1, all addressed). Round 4's single [P1]: section 5's target tree marked `_audit/latest.json` and `states/{fips}/meta.json` as "(unchanged)" while section 4.7 requires every `schema_version: 2` artifact to bump to 3, an internal contradiction admitting a mixed-version tree. Fixed here (both now bump to v3 in section 5). The remaining round-4 fix was a doc-consistency edit, not a design change; no further codex round was run on it per owner decision. Pending user review of this written spec, then writing-plans.
 **Base:** `02e2f17` (origin/main)
 
 ## 1. Problem
@@ -153,12 +153,12 @@ data/
     derived-state.json         CREATE
     planting-window.json                        (unchanged)
   _audit/
-    latest.json                                 (unchanged)
+    latest.json                                 schema_version 2 -> 3 (bumped with all artifacts, section 4.7); content otherwise unchanged
     prices.json                CREATE
     derived.json               CREATE
-    planting-windows.json, window-coverage.json (unchanged)
+    planting-windows.json, window-coverage.json (unchanged; SP-A version line, no schema_version field)
   states/{fips}/
-    meta.json                                   (unchanged)
+    meta.json                                   schema_version 2 -> 3 (bumped with all artifacts, section 4.7); county/crop list otherwise unchanged
     counties/{code}/{crop}.json                 LEAF v3: yield+production+area series, each value carries cv
     crops/{crop}.json                           ROLLUP v3, yield-only (kept; not dropped)
     derived/state-{crop}.json  CREATE  prod-weighted state+national yield; per-county rank/percentile
