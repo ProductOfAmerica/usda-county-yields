@@ -10,6 +10,7 @@ import json
 import sys
 import tempfile
 import unittest
+from unittest import mock
 from datetime import date
 from pathlib import Path
 
@@ -112,6 +113,39 @@ def fixture_csv_text() -> str:
     for row in fixture_rows():
         writer.writerow(row)
     return buf.getvalue()
+
+
+def _row(**overrides) -> dict:
+    """A single post-filter 'kept' row dict, shaped for group_by_state.
+
+    Defaults describe Iowa/Story corn YIELD 2024. Override any field. This is
+    the dict form (group_by_state consumes dicts); make_row() is the list form
+    (the filter consumes TSV rows).
+    """
+    base = {
+        "SOURCE_DESC": "SURVEY", "COMMODITY_DESC": "CORN", "CLASS_DESC": "ALL CLASSES",
+        "PRODN_PRACTICE_DESC": "ALL PRODUCTION PRACTICES", "UTIL_PRACTICE_DESC": "GRAIN",
+        "STATISTICCAT_DESC": "YIELD", "UNIT_DESC": "BU / ACRE",
+        "SHORT_DESC": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+        "DOMAIN_DESC": "TOTAL", "DOMAINCAT_DESC": "NOT SPECIFIED", "AGG_LEVEL_DESC": "COUNTY",
+        "STATE_FIPS_CODE": "19", "STATE_ALPHA": "IA", "STATE_NAME": "IOWA",
+        "COUNTY_CODE": "169", "COUNTY_ANSI": "169", "COUNTY_NAME": "STORY",
+        "YEAR": "2024", "FREQ_DESC": "ANNUAL", "REFERENCE_PERIOD_DESC": "YEAR",
+        "VALUE": "215.5", "CV_%": "1.8",
+    }
+    base.update(overrides)
+    return base
+
+
+def _filter(list_rows: list[list[str]]):
+    """Run a list of make_row() lists through _parse_filter; returns (header, total, kept)."""
+    text = io.StringIO()
+    writer = csv.writer(text, delimiter="\t")
+    writer.writerow(HEADER)
+    for r in list_rows:
+        writer.writerow(r)
+    text.seek(0)
+    return refresh._parse_filter(csv.reader(text, delimiter="\t"))
 
 
 # ---------- unit tests ----------
@@ -258,6 +292,20 @@ class MissingRequiredColumnTest(unittest.TestCase):
         with self.assertRaises(SystemExit) as ctx:
             refresh._parse_filter(reader)
         self.assertIn("SOURCE_DESC", str(ctx.exception))
+
+
+class RequiredCvColTest(unittest.TestCase):
+    def test_cv_pct_is_required(self):
+        self.assertIn("CV_%", refresh.REQUIRED_COLS)
+
+    def test_missing_cv_pct_aborts(self):
+        bad_header = [c for c in HEADER if c != "CV_%"]
+        text = io.StringIO()
+        text.write("\t".join(bad_header) + "\n")
+        text.seek(0)
+        with self.assertRaises(SystemExit) as ctx:
+            refresh._parse_filter(csv.reader(text, delimiter="\t"))
+        self.assertIn("CV_%", str(ctx.exception))
 
 
 class TolerantHeaderTest(unittest.TestCase):
