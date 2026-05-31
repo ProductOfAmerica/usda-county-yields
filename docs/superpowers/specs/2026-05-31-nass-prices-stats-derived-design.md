@@ -116,9 +116,9 @@ Yield `values` are keyed by `YEAR` (the harvest/crop year). NASS marketing years
 
 | Crop | Marketing year span | Yield year `Y` joins to price marketing-year label |
 |---|---|---|
-| Corn | Sep `Y` - Aug `Y+1` | `Y` |
-| Soybeans | Sep `Y` - Aug `Y+1` | `Y` |
-| Wheat | Jun `Y` - May `Y+1` | `Y` |
+| Corn | Sep `Y` to Aug `Y+1` | `Y` |
+| Soybeans | Sep `Y` to Aug `Y+1` | `Y` |
+| Wheat | Jun `Y` to May `Y+1` | `Y` |
 
 So `corn yield[2024]` (harvested fall 2024) joins to the `MARKETING YEAR` price row labeled `2024` (the Sep-2024-through-Aug-2025 average). The derived output records `{yield_year, marketing_year, price, revenue_per_acre}` so the join is auditable, and emits nothing for a year where either side is absent or suppressed (no silent zero). The mapping is identity on the label because NASS labels the marketing year by its start year, which equals the harvest year for all three crops here; it is stated explicitly so a future spring-planted or southern-hemisphere commodity does not blindly reuse it.
 
