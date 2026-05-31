@@ -1019,5 +1019,45 @@ class RollupYieldOnlyTest(unittest.TestCase):
         self.assertEqual(len({s["statistic"] for s in leaf_series}), 2)
 
 
+class DiscoverInclusiveTest(unittest.TestCase):
+    def test_inclusive_includes_last_known(self):
+        with mock.patch.object(refresh, "head_request",
+                               return_value={"status": 200, "etag": '"e"',
+                                             "last_modified": "x", "content_length": 1}):
+            d = refresh.discover(date(2026, 5, 23), date(2026, 5, 23), inclusive=True)
+        self.assertIsNotNone(d)
+        self.assertEqual(d["date"], "2026-05-23")
+
+    def test_default_exclusive_skips_last_known(self):
+        with mock.patch.object(refresh, "head_request",
+                               return_value={"status": 200, "etag": '"e"',
+                                             "last_modified": "x", "content_length": 1}):
+            d = refresh.discover(date(2026, 5, 23), date(2026, 5, 23))
+        self.assertIsNone(d)
+
+
+class MainBootstrapReemitTest(unittest.TestCase):
+    def test_caught_up_but_missing_index_reaches_discover(self):
+        # Caught up (last_known == today) but index.json missing => must NOT
+        # early-return at is_caught_up; should proceed to discover with
+        # inclusive=True so it re-finds the already-published file.
+        calls = {}
+
+        def fake_discover(last_known, today, inclusive=False):
+            calls["inclusive"] = inclusive
+            return None  # abort after; we only assert we reached discover
+
+        with mock.patch.object(refresh, "load_state", return_value={
+                    "last_successful_date": "2026-05-23", "last_etag": '"x"'}), \
+             mock.patch.object(refresh, "_index_path",
+                               return_value=Path("/nonexistent/index.json")), \
+             mock.patch.object(refresh, "sp_a_bootstrap_needed", return_value=False), \
+             mock.patch.object(refresh, "discover", side_effect=fake_discover), \
+             mock.patch.object(refresh, "ping_healthchecks"):
+            rc = refresh.main(today=date(2026, 5, 23))
+        self.assertEqual(calls.get("inclusive"), True)
+        self.assertEqual(rc, 1)
+
+
 if __name__ == "__main__":
     unittest.main()

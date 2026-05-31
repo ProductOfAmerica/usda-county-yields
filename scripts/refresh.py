@@ -128,16 +128,22 @@ def is_caught_up(last_known: Optional[date], today: date) -> bool:
     return last_known is not None and last_known >= today
 
 
-def discover(last_known: Optional[date], today: date) -> Optional[dict]:
+def discover(last_known: Optional[date], today: date, inclusive: bool = False) -> Optional[dict]:
     """Find the most recent NASS bulk file URL within the probe window.
 
-    Walks newest-first within [max(last_known + 1, today - 14), today].
-    Returns dict with date/url/etag/last_modified/content_length/lag_days,
-    or None if no fresh file exists in the window.
+    Walks newest-first within [max(last_known + offset, today - 14), today],
+    where offset is 1 day normally (skip the already-processed publication) or
+    0 days when inclusive=True. Inclusive mode is used during bootstrap re-emit:
+    when local artifacts are missing but NASS has not published anything newer,
+    we must re-find the already-processed file (same date, same ETag) and
+    re-emit from it. Returns dict with
+    date/url/etag/last_modified/content_length/lag_days, or None if no file
+    exists in the window.
     """
     earliest = today - timedelta(days=PROBE_WINDOW_DAYS)
     if last_known:
-        earliest = max(earliest, last_known + timedelta(days=1))
+        offset = timedelta(days=0) if inclusive else timedelta(days=1)
+        earliest = max(earliest, last_known + offset)
     if earliest > today:
         return None
     d = today
@@ -730,11 +736,24 @@ def main(today: Optional[date] = None) -> int:
     last_etag = state.get("last_etag")
 
     print(f"Last known publication: {last_known}; today: {today}")
-    if is_caught_up(last_known, today):
+
+    # Bootstrap guard, computed BEFORE the early returns: if data/index.json or
+    # any family audit sentinel is missing, force a re-emit even when we are
+    # caught up or the source ETag matches the last run. Without computing this
+    # first, the is_caught_up / ETag-match shortcuts would return before the
+    # re-emit path, and a same-publication redeploy (after a schema bump or a
+    # new family landing) would never materialize the absent artifacts.
+    # Foundation's sentinel set is index + SP-A planting-windows; later phases
+    # add their own family audits here when those emitters exist.
+    bootstrap_needed = not _index_path().exists() or sp_a_bootstrap_needed()
+
+    if is_caught_up(last_known, today) and not bootstrap_needed:
         print(f"Already caught up (last_known={last_known} >= today={today}); nothing to do.")
         ping_healthchecks()
         return 0
-    discovery = discover(last_known, today)
+    # In bootstrap mode, probe inclusively so discover re-finds the
+    # already-processed publication (earliest = last_known, not last_known + 1).
+    discovery = discover(last_known, today, inclusive=bootstrap_needed)
     if not discovery:
         print(
             f"No fresh NASS file in last {PROBE_WINDOW_DAYS} days. Aborting.",
@@ -745,12 +764,6 @@ def main(today: Optional[date] = None) -> int:
         f"Discovered: {discovery['url']} "
         f"(publication {discovery['date']}, lag {discovery['lag_days']} days)"
     )
-
-    # Bootstrap guard: if data/index.json is missing, force re-emit even when
-    # the source ETag matches the last successful run. Without this, a same
-    # day workflow_dispatch re-run after a schema bump skips emit and the
-    # data tree never materializes. Self-healing on first run after merge.
-    bootstrap_needed = not _index_path().exists() or sp_a_bootstrap_needed()
 
     if last_etag and discovery["etag"] == last_etag and not bootstrap_needed:
         print("ETag matches last successful run; nothing to do.")
