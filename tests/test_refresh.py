@@ -1073,5 +1073,44 @@ class LeafSchemaFileTest(unittest.TestCase):
         self.assertTrue({"statistic", "cv"} <= required)
 
 
+class FoundationIntegrationTest(unittest.TestCase):
+    def test_multi_statistic_leaf_and_yield_only_rollup(self):
+        rows = [
+            _row(),  # corn YIELD GRAIN BU/ACRE
+            _row(STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="1000000",
+                 SHORT_DESC="CORN, GRAIN - PRODUCTION, MEASURED IN BU"),
+            _row(STATISTICCAT_DESC="AREA HARVESTED", UNIT_DESC="ACRES", VALUE="5000",
+                 SHORT_DESC="CORN, GRAIN - ACRES HARVESTED"),
+            _row(STATISTICCAT_DESC="AREA PLANTED", UNIT_DESC="ACRES", VALUE="5100",
+                 UTIL_PRACTICE_DESC="ALL UTILIZATION PRACTICES",
+                 SHORT_DESC="CORN - ACRES PLANTED"),
+            # Silage AREA HARVESTED at the same class/prodn/unit but util=SILAGE
+            # must NOT be marked canonical for AREA HARVESTED.
+            _row(STATISTICCAT_DESC="AREA HARVESTED", UNIT_DESC="ACRES", VALUE="200",
+                 UTIL_PRACTICE_DESC="SILAGE", SHORT_DESC="CORN, SILAGE - ACRES HARVESTED"),
+        ]
+        states = refresh.group_by_state(rows)
+        refresh.sort_series(states)
+        missing, _ = refresh.mark_canonical(states)
+        self.assertEqual(missing, 0)
+
+        com = states["19"]["counties"]["169"]["commodities"]["corn"]
+        canon = {s["statistic"] for s in com["series"] if s.get("canonical")}
+        self.assertEqual(canon, {"YIELD", "PRODUCTION", "AREA HARVESTED", "AREA PLANTED"})
+        silage = [s for s in com["series"]
+                  if s["statistic"] == "AREA HARVESTED" and s["util_practice"] == "SILAGE"]
+        self.assertEqual(len(silage), 1)
+        self.assertFalse(silage[0].get("canonical"))
+
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                refresh.emit_point_leaves(states)
+                refresh.emit_crop_rollups(states)
+                leaf = json.loads((Path(td) / "states" / "19" / "counties" / "169" / "corn.json").read_text())
+                rollup = json.loads((Path(td) / "states" / "19" / "crops" / "corn.json").read_text())
+        self.assertEqual(leaf["schema_version"], 3)
+        self.assertEqual({s["statistic"] for s in rollup["counties"]["169"]["series"]}, {"YIELD"})
+
+
 if __name__ == "__main__":
     unittest.main()
