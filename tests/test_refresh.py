@@ -1059,5 +1059,19 @@ class MainBootstrapReemitTest(unittest.TestCase):
         self.assertEqual(rc, 1)
 
 
+class LeafSchemaFileTest(unittest.TestCase):
+    def test_leaf_schema_exists_and_is_v3(self):
+        p = Path(refresh.DATA_DIR) / "_schema" / "leaf.json"
+        self.assertTrue(p.exists(), "data/_schema/leaf.json must exist")
+        schema = json.loads(p.read_text(encoding="utf-8"))
+        self.assertEqual(schema["properties"]["schema_version"].get("const"), 3)
+
+    def test_leaf_schema_series_requires_statistic_and_cv(self):
+        p = Path(refresh.DATA_DIR) / "_schema" / "leaf.json"
+        schema = json.loads(p.read_text(encoding="utf-8"))
+        required = set(schema["properties"]["series"]["items"]["required"])
+        self.assertTrue({"statistic", "cv"} <= required)
+
+
 if __name__ == "__main__":
     unittest.main()
