@@ -400,7 +400,7 @@ class IndexTest(EmitTestBase):
         self.assertEqual(idx["refreshed_at"], self.refreshed_at)
         self.assertEqual(idx["source"]["publication_date"], "2026-04-30")
         self.assertEqual(idx["source"]["etag"], '"abc123"')
-        self.assertEqual(idx["schema_version"], 2)
+        self.assertEqual(idx["schema_version"], 3)
 
 
 class StateMetaTest(EmitTestBase):
@@ -424,7 +424,7 @@ class PointLeafTest(EmitTestBase):
         self._emit_all()
         leaf_path = refresh._point_leaf_path("19", "169", "corn")
         leaf = json.loads(leaf_path.read_text(encoding="utf-8"))
-        self.assertEqual(leaf["schema_version"], 2)
+        self.assertEqual(leaf["schema_version"], 3)
         self.assertEqual(leaf["state"]["fips"], "19")
         self.assertEqual(leaf["county"], {"code": "169", "name": "STORY"})
         self.assertEqual(leaf["commodity"], {"slug": "corn", "desc": "CORN"})
@@ -474,11 +474,9 @@ class CanonicalTest(EmitTestBase):
         self.assertGreaterEqual(self.missing_count, 1)
 
     def test_canonical_rules_cover_all_commodities(self) -> None:
-        # Module-load assertion; here we make the contract explicit so a future
-        # commodity addition without a CANONICAL_RULES entry fails this test
-        # too (in case the assertion is moved or weakened).
-        missing = {c.lower() for c in refresh.COMMODITY_ALLOWLIST} - set(refresh.CANONICAL_RULES)
-        self.assertEqual(missing, set())
+        crops = {c.lower() for c in refresh.COMMODITY_ALLOWLIST}
+        rule_crops = {crop for (crop, _stat) in refresh.CANONICAL_RULES}
+        self.assertEqual(crops - rule_crops, set())
 
     def test_missing_canonical_warns_and_continues(self) -> None:
         # mark_canonical must return a non-zero count for the Kansas wheat
@@ -517,7 +515,7 @@ class CropRollupTest(EmitTestBase):
     def test_crop_rollup_includes_all_counties_for_that_crop(self) -> None:
         self._emit_all()
         rollup = json.loads(refresh._crop_rollup_path("19", "corn").read_text(encoding="utf-8"))
-        self.assertEqual(rollup["schema_version"], 2)
+        self.assertEqual(rollup["schema_version"], 3)
         self.assertEqual(rollup["state"]["fips"], "19")
         self.assertEqual(rollup["commodity"], {"slug": "corn", "desc": "CORN"})
         self.assertIn("169", rollup["counties"])
@@ -550,7 +548,7 @@ class AuditTest(EmitTestBase):
     def test_audit_carries_header_observed(self) -> None:
         self._emit_all()
         audit = json.loads(refresh._audit_path().read_text(encoding="utf-8"))
-        self.assertEqual(audit["schema_version"], 2)
+        self.assertEqual(audit["schema_version"], 3)
         self.assertEqual(audit["refreshed_at"], self.refreshed_at)
         self.assertEqual(audit["source_publication_date"], "2026-04-30")
         self.assertIn("FUTURE_NASS_COLUMN", audit["header_observed"])
@@ -667,8 +665,9 @@ class SlugCollisionTest(unittest.TestCase):
                 "COMMODITY_DESC": "FOO BAR",
                 "CLASS_DESC": "ALL CLASSES",
                 "PRODN_PRACTICE_DESC": "ALL PRODUCTION PRACTICES",
-                "UTIL_PRACTICE_DESC": "GRAIN", "UNIT_DESC": "BU / ACRE",
-                "SHORT_DESC": "FOO BAR - YIELD", "YEAR": "2024", "VALUE": "1.0",
+                "UTIL_PRACTICE_DESC": "GRAIN", "STATISTICCAT_DESC": "YIELD",
+                "UNIT_DESC": "BU / ACRE",
+                "SHORT_DESC": "FOO BAR - YIELD", "YEAR": "2024", "VALUE": "1.0", "CV_%": "",
             },
             {
                 "STATE_FIPS_CODE": "19", "STATE_ALPHA": "IA", "STATE_NAME": "IOWA",
@@ -676,8 +675,9 @@ class SlugCollisionTest(unittest.TestCase):
                 "COMMODITY_DESC": "FOO   BAR",   # different desc, same slug
                 "CLASS_DESC": "ALL CLASSES",
                 "PRODN_PRACTICE_DESC": "ALL PRODUCTION PRACTICES",
-                "UTIL_PRACTICE_DESC": "GRAIN", "UNIT_DESC": "BU / ACRE",
-                "SHORT_DESC": "FOO BAR - YIELD", "YEAR": "2024", "VALUE": "2.0",
+                "UTIL_PRACTICE_DESC": "GRAIN", "STATISTICCAT_DESC": "YIELD",
+                "UNIT_DESC": "BU / ACRE",
+                "SHORT_DESC": "FOO BAR - YIELD", "YEAR": "2024", "VALUE": "2.0", "CV_%": "",
             },
         ]
         self.assertEqual(refresh.slugify("FOO BAR"), refresh.slugify("FOO   BAR"))
@@ -749,7 +749,7 @@ class LeafShapeAssertTest(EmitTestBase):
 
     def test_leaf_shape_assert_rejects_extra_top_key(self) -> None:
         bad = {
-            "schema_version": 2,
+            "schema_version": 3,
             "state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
             "county": {"code": "169", "name": "STORY"},
             "commodity": {"slug": "corn", "desc": "CORN"},
@@ -761,7 +761,7 @@ class LeafShapeAssertTest(EmitTestBase):
 
     def test_leaf_shape_assert_rejects_missing_series_keys(self) -> None:
         bad = {
-            "schema_version": 2,
+            "schema_version": 3,
             "state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
             "county": {"code": "169", "name": "STORY"},
             "commodity": {"slug": "corn", "desc": "CORN"},
@@ -772,7 +772,7 @@ class LeafShapeAssertTest(EmitTestBase):
                     "util_practice": "GRAIN",
                     "unit": "BU / ACRE",
                     "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
-                    # values + suppressed + raw all missing -- producer regression
+                    # statistic, values, cv, suppressed, raw all missing -- producer regression
                 },
             ],
         }
@@ -840,6 +840,183 @@ class FilterStatisticsTest(unittest.TestCase):
                 make_row(STATISTICCAT_DESC="PRICE RECEIVED")]
         _, _, kept = _filter(rows)
         self.assertEqual(len(kept), 0)
+
+
+class GroupStatisticCvTest(unittest.TestCase):
+    def test_statistic_on_series(self):
+        states = refresh.group_by_state([_row(
+            STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="1000",
+            SHORT_DESC="CORN, GRAIN - PRODUCTION, MEASURED IN BU")])
+        series = states["19"]["counties"]["169"]["commodities"]["corn"]["series"][0]
+        self.assertEqual(series["statistic"], "PRODUCTION")
+
+    def test_cv_parallel_to_values(self):
+        states = refresh.group_by_state([_row(VALUE="215.5", **{"CV_%": "1.8"})])
+        series = states["19"]["counties"]["169"]["commodities"]["corn"]["series"][0]
+        self.assertEqual(series["values"], {"2024": 215.5})
+        self.assertEqual(series["cv"], {"2024": 1.8})
+
+    def test_blank_cv_absent(self):
+        states = refresh.group_by_state([_row(VALUE="215.5", **{"CV_%": ""})])
+        series = states["19"]["counties"]["169"]["commodities"]["corn"]["series"][0]
+        self.assertEqual(series["cv"], {})
+
+    def test_same_statistic_different_unit_separate_series(self):
+        states = refresh.group_by_state([
+            _row(),
+            _row(UNIT_DESC="BU / NET PLANTED ACRE",
+                 SHORT_DESC="CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+                 VALUE="97.8"),
+        ])
+        com = states["19"]["counties"]["169"]["commodities"]["corn"]
+        self.assertEqual(len(com["series"]), 2)
+
+
+class LeafV3ShapeTest(unittest.TestCase):
+    def _leaf(self):
+        states = refresh.group_by_state([_row()])
+        refresh.sort_series(states)
+        refresh.mark_canonical(states)
+        com = states["19"]["counties"]["169"]["commodities"]["corn"]
+        return {
+            "schema_version": 3,
+            "state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
+            "county": {"code": "169", "name": "STORY"},
+            "commodity": {"slug": "corn", "desc": "CORN"},
+            "series": com["series"],
+        }
+
+    def test_v3_leaf_passes(self):
+        refresh._assert_leaf_shape(self._leaf())
+
+    def test_v2_leaf_rejected(self):
+        leaf = self._leaf()
+        leaf["schema_version"] = 2
+        with self.assertRaises(SystemExit):
+            refresh._assert_leaf_shape(leaf)
+
+    def test_series_missing_statistic_rejected(self):
+        leaf = self._leaf()
+        del leaf["series"][0]["statistic"]
+        with self.assertRaises(SystemExit):
+            refresh._assert_leaf_shape(leaf)
+
+
+class AllArtifactsV3Test(unittest.TestCase):
+    def _states(self):
+        states = refresh.group_by_state([_row()])
+        refresh.sort_series(states)
+        refresh.mark_canonical(states)
+        return states
+
+    def test_index_meta_audit_are_v3(self):
+        states = self._states()
+        discovery = {"url": "u", "last_modified": "m", "etag": '"e"',
+                     "date": "2026-05-30", "lag_days": 0}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                refresh.emit_index(states, discovery, "2026-05-30T00:00:00Z")
+                refresh.emit_state_meta(states)
+                refresh.emit_audit(["H"], "2026-05-30T00:00:00Z", "2026-05-30")
+                idx = json.loads((Path(td) / "index.json").read_text())
+                meta = json.loads((Path(td) / "states" / "19" / "meta.json").read_text())
+                audit = json.loads((Path(td) / "_audit" / "latest.json").read_text())
+        self.assertEqual(idx["schema_version"], 3)
+        self.assertEqual(meta["schema_version"], 3)
+        self.assertEqual(audit["schema_version"], 3)
+
+
+class CanonicalRulesTableTest(unittest.TestCase):
+    def test_every_crop_statistic_has_a_rule(self):
+        crops = {c.lower() for c in refresh.COMMODITY_ALLOWLIST}
+        for crop in crops:
+            for stat in refresh.STATISTIC_ALLOWLIST:
+                self.assertIn((crop, stat), refresh.CANONICAL_RULES,
+                              f"missing rule for {(crop, stat)}")
+
+    def test_corn_area_planted_is_all_utilization(self):
+        self.assertEqual(
+            refresh.CANONICAL_RULES[("corn", "AREA PLANTED")]["util_practice"],
+            "ALL UTILIZATION PRACTICES")
+
+    def test_corn_area_harvested_is_grain(self):
+        self.assertEqual(
+            refresh.CANONICAL_RULES[("corn", "AREA HARVESTED")]["util_practice"],
+            "GRAIN")
+
+
+class MarkCanonicalV3Test(unittest.TestCase):
+    def test_marks_one_per_statistic(self):
+        states = refresh.group_by_state([
+            _row(),
+            _row(STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="1000",
+                 SHORT_DESC="CORN, GRAIN - PRODUCTION, MEASURED IN BU"),
+        ])
+        refresh.sort_series(states)
+        refresh.mark_canonical(states)
+        series = states["19"]["counties"]["169"]["commodities"]["corn"]["series"]
+        canon = {s["statistic"] for s in series if s.get("canonical")}
+        self.assertEqual(canon, {"YIELD", "PRODUCTION"})
+
+    def test_duplicate_candidate_aborts(self):
+        states = refresh.group_by_state([
+            _row(),
+            _row(SHORT_DESC="CORN, GRAIN - YIELD, MEASURED IN BU / ACRE (DUP)"),
+        ])
+        refresh.sort_series(states)
+        with self.assertRaises(SystemExit):
+            refresh.mark_canonical(states)
+
+    def test_missing_yield_counted(self):
+        states = refresh.group_by_state([
+            _row(STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="1000",
+                 SHORT_DESC="CORN, GRAIN - PRODUCTION, MEASURED IN BU"),
+        ])
+        refresh.sort_series(states)
+        missing, _ = refresh.mark_canonical(states)
+        self.assertEqual(missing, 1)
+
+
+class BaselineMapTest(unittest.TestCase):
+    def test_legacy_int_baseline_treated_as_absent(self):
+        self.assertIsNone(refresh.leaf_baseline({"last_filtered_row_count": 1318932}))
+
+    def test_map_baseline_read(self):
+        self.assertEqual(
+            refresh.leaf_baseline({"last_filtered_row_count": {"leaf": 4300000}}),
+            4300000)
+
+    def test_absent_baseline_is_none(self):
+        self.assertIsNone(refresh.leaf_baseline({}))
+
+
+class RollupYieldOnlyTest(unittest.TestCase):
+    def _states(self):
+        states = refresh.group_by_state([
+            _row(),
+            _row(STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="1000",
+                 SHORT_DESC="CORN, GRAIN - PRODUCTION, MEASURED IN BU"),
+        ])
+        refresh.sort_series(states)
+        refresh.mark_canonical(states)
+        return states
+
+    def test_rollup_excludes_non_yield_series(self):
+        states = self._states()
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                refresh.emit_crop_rollups(states)
+                rollup = json.loads((Path(td) / "states" / "19" / "crops" / "corn.json").read_text())
+        stats = {s["statistic"] for s in rollup["counties"]["169"]["series"]}
+        self.assertEqual(stats, {"YIELD"})
+
+    def test_rollup_does_not_mutate_leaf_series(self):
+        states = self._states()
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                refresh.emit_crop_rollups(states)
+        leaf_series = states["19"]["counties"]["169"]["commodities"]["corn"]["series"]
+        self.assertEqual(len({s["statistic"] for s in leaf_series}), 2)
 
 
 if __name__ == "__main__":

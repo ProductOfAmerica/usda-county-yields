@@ -37,26 +37,43 @@ STATISTIC_ALLOWLIST = {
     "YIELD", "PRODUCTION", "AREA HARVESTED", "AREA PLANTED", "AREA PLANTED, NET",
 }
 
-# Canonical-series rule per crop slug. The producer marks exactly one
-# series per (county, crop) as canonical so consumers do not have to
-# re-derive the README's canonical filter. If a (county, crop) has at
-# least one series but none matches, mark_canonical counts it; we do
-# not abort because the data may legitimately lack the canonical variant.
-CANONICAL_RULES: dict[str, dict[str, str]] = {
-    "corn":     {"class": "ALL CLASSES", "prodn_practice": "ALL PRODUCTION PRACTICES", "unit": "BU / ACRE"},
-    "soybeans": {"class": "ALL CLASSES", "prodn_practice": "ALL PRODUCTION PRACTICES", "unit": "BU / ACRE"},
-    "wheat":    {"class": "ALL CLASSES", "prodn_practice": "ALL PRODUCTION PRACTICES", "unit": "BU / ACRE"},
+# Canonical-series rule per (crop_slug, statistic). The producer marks exactly
+# one series per (county, crop, statistic) as canonical so consumers read one
+# value per statistic without re-deriving NASS's filter. Verified against the
+# live 2026-05-30 file: every rule is class=ALL CLASSES + prodn_practice=ALL
+# PRODUCTION PRACTICES, but util_practice and unit vary by statistic, and corn
+# AREA PLANTED uses ALL UTILIZATION PRACTICES while corn's other statistics use
+# GRAIN. See spec section 4.1.1.
+def _rule(util: str, unit: str) -> dict[str, str]:
+    return {"class": "ALL CLASSES", "prodn_practice": "ALL PRODUCTION PRACTICES",
+            "util_practice": util, "unit": unit}
+
+
+CANONICAL_RULES: dict[tuple[str, str], dict[str, str]] = {
+    ("corn", "YIELD"):             _rule("GRAIN", "BU / ACRE"),
+    ("corn", "PRODUCTION"):        _rule("GRAIN", "BU"),
+    ("corn", "AREA HARVESTED"):    _rule("GRAIN", "ACRES"),
+    ("corn", "AREA PLANTED"):      _rule("ALL UTILIZATION PRACTICES", "ACRES"),
+    ("corn", "AREA PLANTED, NET"): _rule("GRAIN", "ACRES"),
+    ("soybeans", "YIELD"):             _rule("ALL UTILIZATION PRACTICES", "BU / ACRE"),
+    ("soybeans", "PRODUCTION"):        _rule("ALL UTILIZATION PRACTICES", "BU"),
+    ("soybeans", "AREA HARVESTED"):    _rule("ALL UTILIZATION PRACTICES", "ACRES"),
+    ("soybeans", "AREA PLANTED"):      _rule("ALL UTILIZATION PRACTICES", "ACRES"),
+    ("soybeans", "AREA PLANTED, NET"): _rule("ALL UTILIZATION PRACTICES", "ACRES"),
+    ("wheat", "YIELD"):             _rule("ALL UTILIZATION PRACTICES", "BU / ACRE"),
+    ("wheat", "PRODUCTION"):        _rule("ALL UTILIZATION PRACTICES", "BU"),
+    ("wheat", "AREA HARVESTED"):    _rule("ALL UTILIZATION PRACTICES", "ACRES"),
+    ("wheat", "AREA PLANTED"):      _rule("ALL UTILIZATION PRACTICES", "ACRES"),
+    ("wheat", "AREA PLANTED, NET"): _rule("ALL UTILIZATION PRACTICES", "ACRES"),
 }
 
-# Fail-fast: every commodity in the allowlist must have a canonical rule.
-# Without this guard, a future commodity addition would silently produce
-# leaves with no canonical:true flag for that crop. Every current
-# COMMODITY_ALLOWLIST entry is a single ASCII word, so its slug is just
-# c.lower(); when adding multi-word commodities, switch to slugify() and
-# move this assertion below slugify's definition.
-_MISSING_CANONICAL_RULES = {c.lower() for c in COMMODITY_ALLOWLIST} - set(CANONICAL_RULES)
+# Fail-fast: every (crop, statistic) in the allowlists must have a canonical
+# rule, so a future commodity or statistic cannot silently ship without one.
+_MISSING_CANONICAL_RULES = {
+    (c.lower(), s) for c in COMMODITY_ALLOWLIST for s in STATISTIC_ALLOWLIST
+} - set(CANONICAL_RULES)
 assert not _MISSING_CANONICAL_RULES, (
-    f"COMMODITY_ALLOWLIST entries missing from CANONICAL_RULES: {_MISSING_CANONICAL_RULES}"
+    f"(crop, statistic) pairs missing from CANONICAL_RULES: {_MISSING_CANONICAL_RULES}"
 )
 
 REQUIRED_COLS = [
@@ -253,6 +270,7 @@ def group_by_state(rows: list[dict]) -> dict[str, dict]:
             "series": [],
         })
         series_key = (
+            row["STATISTICCAT_DESC"],
             row["CLASS_DESC"],
             row["PRODN_PRACTICE_DESC"],
             row["UTIL_PRACTICE_DESC"],
@@ -261,17 +279,19 @@ def group_by_state(rows: list[dict]) -> dict[str, dict]:
         )
         series = next(
             (s for s in com["series"]
-             if (s["class"], s["prodn_practice"], s["util_practice"], s["unit"], s["short_desc"]) == series_key),
+             if (s["statistic"], s["class"], s["prodn_practice"], s["util_practice"], s["unit"], s["short_desc"]) == series_key),
             None,
         )
         if series is None:
             series = {
+                "statistic": row["STATISTICCAT_DESC"],
                 "class": row["CLASS_DESC"],
                 "prodn_practice": row["PRODN_PRACTICE_DESC"],
                 "util_practice": row["UTIL_PRACTICE_DESC"],
                 "unit": row["UNIT_DESC"],
                 "short_desc": row["SHORT_DESC"],
                 "values": {},
+                "cv": {},
                 "suppressed": {},
                 "raw": {},
             }
@@ -285,6 +305,12 @@ def group_by_state(rows: list[dict]) -> dict[str, dict]:
             series["suppressed"][year] = code
         elif raw_str is not None:
             series["raw"][year] = raw_str
+
+        # CV is metadata on a value; NASS publishes it alongside an estimate,
+        # so cv[year] is assumed (not enforced) to imply a values[year].
+        cv_value, _cv_code, _cv_raw = parse_value(row["CV_%"])
+        if cv_value is not None:
+            series["cv"][year] = cv_value
     return states
 
 
@@ -310,7 +336,7 @@ def write_if_changed(path: Path, text: str) -> bool:
 # in mark_canonical. Matching the same tuple shape as group_by_state's
 # series_key keeps the producer round-trip deterministic.
 def _series_sort_key(s: dict) -> tuple:
-    return (s["class"], s["prodn_practice"], s["util_practice"], s["unit"], s["short_desc"])
+    return (s["statistic"], s["class"], s["prodn_practice"], s["util_practice"], s["unit"], s["short_desc"])
 
 
 def sort_series(states: dict[str, dict]) -> None:
@@ -327,33 +353,47 @@ def sort_series(states: dict[str, dict]) -> None:
 
 
 def mark_canonical(states: dict[str, dict]) -> tuple[int, list[tuple[str, str, str]]]:
-    """Set series['canonical']=True on the per-crop canonical match.
+    """Set series['canonical']=True on the per-(crop, statistic) match.
 
-    Returns (missing_count, missing_samples). missing_count counts
-    (county, crop) pairs that had >=1 series but no series matched the
-    canonical rule. samples is a small list of (state_fips, county_name,
-    crop_slug) tuples for stderr printing.
+    For each (county, crop), for each statistic with a rule, collect every
+    series matching that rule's 4-tuple (class, prodn_practice, util_practice,
+    unit). Abort if a rule matches more than one series (ambiguous; NASS drift).
+    Returns (missing_yield_count, samples): the number of (county, crop) pairs
+    that have at least one series but no canonical YIELD series, with up to 10
+    (state_fips, county_name, crop_slug) samples for stderr.
     """
-    missing_count = 0
+    missing_yield = 0
     samples: list[tuple[str, str, str]] = []
     for fips, st in states.items():
         for cty in st["counties"].values():
             for slug, com in cty["commodities"].items():
-                rule = CANONICAL_RULES.get(slug)
-                if rule is None:
-                    # Should never hit because of the module-load assertion.
+                series = com["series"]
+                if not series:
                     continue
-                matched = False
-                for s in com["series"]:
-                    if all(s.get(k) == v for k, v in rule.items()):
-                        s["canonical"] = True
-                        matched = True
-                        break
-                if not matched and com["series"]:
-                    missing_count += 1
+                has_yield_canonical = False
+                for stat in STATISTIC_ALLOWLIST:
+                    rule = CANONICAL_RULES.get((slug, stat))
+                    if rule is None:
+                        continue
+                    candidates = [
+                        s for s in series
+                        if s["statistic"] == stat
+                        and all(s.get(k) == v for k, v in rule.items())
+                    ]
+                    if len(candidates) > 1:
+                        raise SystemExit(
+                            f"Ambiguous canonical rule for {(slug, stat)} in "
+                            f"{fips}/{cty['name']}: {len(candidates)} series match"
+                        )
+                    if candidates:
+                        candidates[0]["canonical"] = True
+                        if stat == "YIELD":
+                            has_yield_canonical = True
+                if not has_yield_canonical:
+                    missing_yield += 1
                     if len(samples) < 10:
                         samples.append((fips, cty["name"], slug))
-    return missing_count, samples
+    return missing_yield, samples
 
 
 def _state_path(fips: str) -> Path:
@@ -410,7 +450,7 @@ def emit_index(
             "county_count": len(st["counties"]),
         }
     payload = {
-        "schema_version": 2,
+        "schema_version": 3,
         "product_name": "NASS county crop yields",
         "refreshed_at": refreshed_at,
         "source": {
@@ -440,7 +480,7 @@ def emit_state_meta(states: dict[str, dict]) -> tuple[set[Path], int]:
                 "crops": sorted(cty["commodities"]),
             }
         payload = {
-            "schema_version": 2,
+            "schema_version": 3,
             "state": st["state"],
             "counties": counties,
         }
@@ -462,7 +502,7 @@ def emit_point_leaves(states: dict[str, dict]) -> tuple[set[Path], int]:
             for slug in sorted(cty["commodities"]):
                 com = cty["commodities"][slug]
                 payload = {
-                    "schema_version": 2,
+                    "schema_version": 3,
                     "state": st["state"],
                     "county": {"code": code, "name": cty["name"]},
                     "commodity": {"slug": slug, "desc": com["commodity_desc"]},
@@ -488,14 +528,17 @@ def emit_crop_rollups(states: dict[str, dict]) -> tuple[set[Path], int]:
             cty = st["counties"][code]
             for slug in sorted(cty["commodities"]):
                 com = cty["commodities"][slug]
+                yield_series = [s for s in com["series"] if s["statistic"] == "YIELD"]
+                if not yield_series:
+                    continue
                 per_crop.setdefault(slug, {"desc": com["commodity_desc"], "counties": {}})
                 per_crop[slug]["counties"][code] = {
                     "name": cty["name"],
-                    "series": com["series"],
+                    "series": yield_series,
                 }
         for slug, bundle in per_crop.items():
             payload = {
-                "schema_version": 2,
+                "schema_version": 3,
                 "state": st["state"],
                 "commodity": {"slug": slug, "desc": bundle["desc"]},
                 "counties": bundle["counties"],
@@ -514,7 +557,7 @@ def emit_audit(
 ) -> tuple[Path, bool]:
     """Write data/_audit/latest.json (maintainer audit, deduped header)."""
     payload = {
-        "schema_version": 2,
+        "schema_version": 3,
         "refreshed_at": refreshed_at,
         "source_publication_date": source_publication_date,
         "header_observed": header_observed,
@@ -560,14 +603,12 @@ def validate(total_rows: int, kept_rows: int, last_filtered_count: Optional[int]
 
 
 def validate_canonical_coverage(missing_count: int, total_pairs: int) -> None:
-    """Gate 3: abort if too many (county, crop) pairs lack a canonical match.
+    """Gate 3: abort if too many (county, crop) pairs lack a canonical YIELD.
 
-    A spike here means NASS structurally dropped the ALL CLASSES variant
-    for a crop, which would silently degrade every consumer point lookup.
-    Empirical floor across published data is ~0.3%; 5% gives ~16x headroom
-    for real drift while still catching a structural regression. No
-    bootstrap skip: this gate is self-contained against the current run,
-    not a delta vs a prior baseline.
+    A spike means NASS structurally dropped the canonical YIELD variant for a
+    crop, which would silently degrade every consumer point lookup. Empirical
+    floor across published data is ~0.3%; 5% gives ~16x headroom for real drift
+    while still catching a structural regression.
     """
     if total_pairs == 0:
         return  # validate() above already aborts on zero-rows upstream
@@ -594,8 +635,8 @@ def _assert_leaf_shape(leaf: dict) -> None:
             f"Leaf top-level keys mismatch: got {sorted(set(leaf))}, "
             f"expected {sorted(expected_top)}"
         )
-    if leaf["schema_version"] != 2:
-        raise SystemExit(f"Leaf schema_version not 2: {leaf['schema_version']!r}")
+    if leaf["schema_version"] != 3:
+        raise SystemExit(f"Leaf schema_version not 3: {leaf['schema_version']!r}")
     if set(leaf["state"]) != {"fips", "alpha", "name"}:
         raise SystemExit(f"Leaf state keys mismatch: {sorted(set(leaf['state']))}")
     if set(leaf["county"]) != {"code", "name"}:
@@ -603,8 +644,8 @@ def _assert_leaf_shape(leaf: dict) -> None:
     if set(leaf["commodity"]) != {"slug", "desc"}:
         raise SystemExit(f"Leaf commodity keys mismatch: {sorted(set(leaf['commodity']))}")
     required_series = {
-        "class", "prodn_practice", "util_practice", "unit", "short_desc",
-        "values", "suppressed", "raw",
+        "statistic", "class", "prodn_practice", "util_practice", "unit", "short_desc",
+        "values", "cv", "suppressed", "raw",
     }
     optional_series = {"canonical"}
     for s in leaf["series"]:
@@ -629,6 +670,19 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(
         json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
+
+
+def leaf_baseline(state: dict) -> Optional[int]:
+    """Per-family Gate 2 baseline for the leaf family.
+
+    Returns None (bootstrap, no abort) when the baseline is absent or stored in
+    the legacy scalar shape, since the v2->v3 row count changes ~3.3x and a
+    legacy scalar is not a valid v3 leaf baseline.
+    """
+    counts = state.get("last_filtered_row_count")
+    if isinstance(counts, dict):
+        return counts.get("leaf")
+    return None
 
 
 # ---------- download ----------
@@ -713,7 +767,7 @@ def main(today: Optional[date] = None) -> int:
     header, total_rows, kept_rows = stream_filter(download_path)
     print(f"Total rows: {total_rows}; kept: {len(kept_rows)}")
 
-    validate(total_rows, len(kept_rows), state.get("last_filtered_row_count"))
+    validate(total_rows, len(kept_rows), leaf_baseline(state))
 
     print("Grouping by state...")
     states = group_by_state(kept_rows)
@@ -771,7 +825,7 @@ def main(today: Optional[date] = None) -> int:
         "last_url": discovery["url"],
         "last_etag": discovery["etag"],
         "last_modified": discovery["last_modified"],
-        "last_filtered_row_count": len(kept_rows),
+        "last_filtered_row_count": {"leaf": len(kept_rows)},
         "last_total_row_count": total_rows,
         "last_run_at": refreshed_at,
         "last_missing_canonical_count": missing_canonical,
