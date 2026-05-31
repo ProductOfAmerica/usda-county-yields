@@ -98,8 +98,8 @@ def fixture_rows() -> list[list[str]]:
         make_row(AGG_LEVEL_DESC="STATE", VALUE="198.0"),
         # 10. DROP: commodity not in allowlist
         make_row(COMMODITY_DESC="COTTON", VALUE="800"),
-        # 11. DROP: not YIELD statistic
-        make_row(STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="16500000"),
+        # 11. DROP: STOCKS is not an allowed statistic
+        make_row(STATISTICCAT_DESC="STOCKS", UNIT_DESC="BU", VALUE="16500000"),
         # 12. DROP: DOMAIN_DESC != TOTAL
         make_row(DOMAIN_DESC="ECONOMIC CLASS", DOMAINCAT_DESC="ECONOMIC CLASS: (X)"),
     ]
@@ -137,7 +137,7 @@ def _row(**overrides) -> dict:
     return base
 
 
-def _filter(list_rows: list[list[str]]):
+def _filter(list_rows: list[list[str]]) -> tuple[list[str], int, list[dict]]:
     """Run a list of make_row() lists through _parse_filter; returns (header, total, kept)."""
     text = io.StringIO()
     writer = csv.writer(text, delimiter="\t")
@@ -824,6 +824,22 @@ class MainCaughtUpTest(unittest.TestCase):
         result = refresh.main(today=date(2026, 5, 1))
         self.assertEqual(result, 0)
         self.assertEqual(self._ping_calls, 1)
+
+
+class FilterStatisticsTest(unittest.TestCase):
+    STATS = ["YIELD", "PRODUCTION", "AREA HARVESTED", "AREA PLANTED", "AREA PLANTED, NET"]
+
+    def test_keeps_five_statistics(self):
+        rows = [make_row(STATISTICCAT_DESC=s, UNIT_DESC="ACRES") for s in self.STATS]
+        _, total, kept = _filter(rows)
+        self.assertEqual(total, 5)
+        self.assertEqual(len(kept), 5)
+
+    def test_excludes_other_statistics(self):
+        rows = [make_row(STATISTICCAT_DESC="STOCKS"),
+                make_row(STATISTICCAT_DESC="PRICE RECEIVED")]
+        _, _, kept = _filter(rows)
+        self.assertEqual(len(kept), 0)
 
 
 if __name__ == "__main__":

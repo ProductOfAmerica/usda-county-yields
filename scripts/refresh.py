@@ -33,6 +33,9 @@ NASS_BASE = "https://www.nass.usda.gov/datasets"
 SECTOR = "crops"
 
 COMMODITY_ALLOWLIST = {"CORN", "SOYBEANS", "WHEAT"}
+STATISTIC_ALLOWLIST = {
+    "YIELD", "PRODUCTION", "AREA HARVESTED", "AREA PLANTED", "AREA PLANTED, NET",
+}
 
 # Canonical-series rule per crop slug. The producer marks exactly one
 # series per (county, crop) as canonical so consumers do not have to
@@ -183,7 +186,7 @@ def _parse_filter(reader: Iterable[list[str]]) -> tuple[list[str], int, list[dic
         total += 1
         try:
             if (row[col_idx["AGG_LEVEL_DESC"]] != "COUNTY"
-                or row[col_idx["STATISTICCAT_DESC"]] != "YIELD"
+                or row[col_idx["STATISTICCAT_DESC"]] not in STATISTIC_ALLOWLIST
                 or row[col_idx["FREQ_DESC"]] != "ANNUAL"
                 or row[col_idx["REFERENCE_PERIOD_DESC"]] != "YEAR"
                 or row[col_idx["DOMAIN_DESC"]] != "TOTAL"
