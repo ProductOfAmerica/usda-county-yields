@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-31
 **Branch:** `worktree-feat+nass-prices-stats-derived`
-**Status:** Design, revised three times against codex-spec (9, then 5, then 3 findings; P1 count 4 -> 2 -> 1, converging). Round 3's actual findings, now closed: [P1] `bootstrap_needed` must reference only families whose emitters exist in the merged code (else Foundation loops re-downloading until phases 2/3 land), fixed by adding each sentinel term in its own phase; [P2] Risk 10 "land together" contradicted the consumer-first rule, corrected; [P2] the per-family baseline count had no path back to `save_state`, fixed by having each `run_*` return its count like SP-A's `PlantingWindowRunResult.shard_count`. Two additional hardening items were folded in alongside (not codex-raised this round but adjacent and correct): the zero-shard sentinel invariant and all-artifacts-bump-version-together. Round 3 confirmed the round-2 fixes (bootstrap inclusive-bound, candidate-counting guard, consumer-first ordering) hold against the real code. Pending codex-spec round 4, then user approval, then writing-plans.
+**Status:** Design, P1-clean after four codex-spec rounds (findings 9 -> 5 -> 3 -> 0; P1 count 4 -> 2 -> 1 -> 0). Round 4 returned **no P1 and no P2 findings**, verifying each prior fix against the real code (bootstrap phasing, consumer-first ordering, per-family baseline return path, zero-shard sentinel invariant, version atomicity), with one P3 doc cross-reference nit since addressed. Pending user approval, then writing-plans.
 **Base:** `02e2f17` (origin/main)
 
 ## 1. Problem
@@ -145,7 +145,7 @@ So `corn yield[2024]` (harvested fall 2024) joins to the `MARKETING YEAR` price 
 
 ```
 data/
-  index.json                                    schema_version 2 -> 3; advertises new families
+  index.json                                    schema_version 2 -> 3 (bumped with all artifacts, section 4.7); advertises new families
   _schema/
     leaf.json                  CREATE (v3; existed historically, was removed, absent now; README still links it)
     price.json                 CREATE
