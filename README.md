@@ -139,6 +139,33 @@ Each `series` entry carries a `statistic` (`YIELD`, `PRODUCTION`, `AREA HARVESTE
 - `county.code` is always populated and zfilled to 3 digits. The legacy NASS `ansi` field is dropped at the leaf level because it equals `code` for every populated row and is sometimes blank.
 - **Machine-readable contract**: [`data/_schema/leaf.json`](data/_schema/leaf.json) is a JSON Schema 2020-12 document describing the point-leaf shape. Producers and consumers can both validate against it.
 
+### State prices
+
+NASS publishes grain PRICE RECEIVED only at state and national level, never county. The state series live in a separate family:
+
+```
+GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/prices/states/{fips}/{crop_slug}.json
+```
+
+```json
+{
+  "schema_version": 3,
+  "state": { "fips": "19", "alpha": "IA", "name": "IOWA" },
+  "commodity": { "slug": "corn", "desc": "CORN" },
+  "series": [
+    { "class": "ALL CLASSES", "period": "MARKETING YEAR", "unit": "$ / BU",
+      "canonical": true, "values": { "2024": 4.80 }, "suppressed": {} },
+    { "class": "ALL CLASSES", "period": "MONTHLY", "unit": "$ / BU",
+      "values": { "2024-08": 5.20 }, "suppressed": {} }
+  ]
+}
+```
+
+- Two `period` shapes: `MARKETING YEAR` (keyed by year, the recap-grade price) and `MONTHLY` (keyed by `YYYY-MM`). Calendar-year annual prices are not published.
+- Pick the headline price by filtering `canonical && period == "MARKETING YEAR"` (the `ALL CLASSES` aggregate). Wheat also carries non-canonical class series; corn and soybeans are `ALL CLASSES` only.
+- Prices are **state-level**: a county report joining a state price to a county yield should label it state-imputed, not county revenue.
+- Schema: [`data/_schema/price.json`](data/_schema/price.json).
+
 ## Scope
 
 - **SURVEY** rows only (annual; CENSUS deferred until a consumer asks for it).

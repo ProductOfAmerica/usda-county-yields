@@ -829,7 +829,9 @@ class MainCaughtUpTest(unittest.TestCase):
                                return_value=Path(__file__)), \
              mock.patch.object(refresh, "sp_a_bootstrap_needed",
                                return_value=False):
-            result = refresh.main(today=date(2026, 5, 1))
+            with mock.patch.object(refresh, "_prices_bootstrap_needed",
+                                   return_value=False):
+                result = refresh.main(today=date(2026, 5, 1))
         self.assertEqual(result, 0)
         self.assertEqual(self._ping_calls, 1)
 
@@ -996,6 +998,15 @@ class BaselineMapTest(unittest.TestCase):
 
     def test_absent_baseline_is_none(self):
         self.assertIsNone(refresh.leaf_baseline({}))
+
+    def test_family_baseline_reads_named_family(self):
+        st = {"last_filtered_row_count": {"leaf": 100, "prices": 50}}
+        self.assertEqual(refresh.family_baseline(st, "prices"), 50)
+        self.assertEqual(refresh.family_baseline(st, "leaf"), 100)
+
+    def test_family_baseline_legacy_and_absent_are_none(self):
+        self.assertIsNone(refresh.family_baseline({"last_filtered_row_count": 9}, "prices"))
+        self.assertIsNone(refresh.family_baseline({}, "prices"))
 
 
 class RollupYieldOnlyTest(unittest.TestCase):
