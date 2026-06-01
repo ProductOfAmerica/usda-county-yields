@@ -225,5 +225,42 @@ class EmitPricesTest(unittest.TestCase):
                                       "2026-05-30T00:00:00Z", baseline=100)
 
 
+class PricesIntegrationTest(unittest.TestCase):
+    def test_end_to_end_corn_and_wheat(self):
+        rows = [
+            _row(VALUE="4.80"),  # corn ALL CLASSES MY
+            _row(FREQ_DESC="MONTHLY", REFERENCE_PERIOD_DESC="AUG", VALUE="5.20"),
+            _row(COMMODITY_DESC="WHEAT", CLASS_DESC="ALL CLASSES", VALUE="6.10"),
+            _row(COMMODITY_DESC="WHEAT", CLASS_DESC="WINTER", VALUE="6.25"),
+            _row(COMMODITY_DESC="WHEAT", CLASS_DESC="ALL CLASSES",
+                 FREQ_DESC="MONTHLY", REFERENCE_PERIOD_DESC="SEP", VALUE="(D)"),
+        ]
+        _, kept = _filter(rows)
+        states = prices.group_prices(kept)
+        prices.sort_price_series(states)
+        missing, _ = prices.mark_price_canonical(states)
+        self.assertEqual(missing, 0)
+
+        wheat = states["19"]["crops"]["wheat"]
+        canon = [s for s in wheat["series"] if s.get("canonical")]
+        self.assertEqual(len(canon), 1)
+        self.assertEqual(canon[0]["class"], "ALL CLASSES")
+        winter = [s for s in wheat["series"] if s["class"] == "WINTER"]
+        self.assertFalse(winter[0].get("canonical"))
+        sep = next(s for s in wheat["series"]
+                   if s["class"] == "ALL CLASSES" and s["period"] == "MONTHLY")
+        self.assertEqual(sep["suppressed"], {"2024-09": "D"})
+
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                prices.emit_all(states, {"url": "u", "etag": '"e"', "date": "2026-05-30"},
+                                "2026-05-30T00:00:00Z")
+                corn = json.loads((Path(td) / "prices" / "states" / "19" / "corn.json").read_text())
+        mo = next(s for s in corn["series"] if s["period"] == "MONTHLY")
+        self.assertEqual(mo["values"], {"2024-08": 5.20})
+        my = next(s for s in corn["series"] if s["period"] == "MARKETING YEAR")
+        self.assertTrue(my.get("canonical"))
+
+
 if __name__ == "__main__":
     unittest.main()
