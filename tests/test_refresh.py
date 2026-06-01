@@ -821,7 +821,15 @@ class MainCaughtUpTest(unittest.TestCase):
     def test_main_returns_zero_when_already_caught_up_today(self) -> None:
         # Before this fix, this same-day rerun returned 1 because discover()
         # produced an empty window and main() hit the "no fresh file" path.
-        result = refresh.main(today=date(2026, 5, 1))
+        # Mock the bootstrap sentinels so the test is hermetic: it exercises
+        # the caught-up-and-not-bootstrapping path regardless of whether the
+        # real data/ tree is present in the checkout. __file__ is a stand-in
+        # for an existing index path (bootstrap_needed must be False).
+        with mock.patch.object(refresh, "_index_path",
+                               return_value=Path(__file__)), \
+             mock.patch.object(refresh, "sp_a_bootstrap_needed",
+                               return_value=False):
+            result = refresh.main(today=date(2026, 5, 1))
         self.assertEqual(result, 0)
         self.assertEqual(self._ping_calls, 1)
 

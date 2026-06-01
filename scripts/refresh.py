@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 """NASS county crop yields refresh.
 
-Downloads the latest qs.crops_*.txt.gz, filters to county SURVEY yields for
-allowlisted commodities, emits a sharded JSON tree (index, per-state meta,
-per-(county, crop) point leaves, per-(state, crop) rollups, audit) under
-data/, and prunes leaves no longer in the current refresh.
+Downloads the latest qs.crops_*.txt.gz, filters to county SURVEY rows for
+allowlisted commodities across five statistics (yield, production, area
+harvested, area planted, area planted net), emits a v3 sharded JSON tree
+(index, per-state meta, per-(county, crop) multi-statistic point leaves,
+per-(state, crop) yield-only rollups, audit) under data/, and prunes leaves
+no longer in the current refresh.
 
-Two validation gates: required columns present + filtered row count within
-+/-10% of last successful run (skipped on bootstrap).
-Three inline guards: slug collision check; per-leaf prune of stale files;
-missing-canonical counter (logged + persisted, never aborts).
+Validation gates: required columns present (Gate 1); filtered leaf-row count
+within +/-10% of last successful run, per-family baseline, skipped on
+bootstrap (Gate 2); missing-canonical-YIELD ratio under tolerance (Gate 3).
+Inline hard guards: slug collision; per-leaf prune of stale files; ambiguous
+canonical rule (more than one series matching a (crop, statistic) rule
+aborts).
 """
 from __future__ import annotations
 
