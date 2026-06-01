@@ -444,6 +444,11 @@ def _prices_bootstrap_needed() -> bool:
     return not (DATA_DIR / "_audit" / "prices.json").exists()
 
 
+def _derived_bootstrap_needed() -> bool:
+    """True when the SP-C derived audit sentinel is absent."""
+    return not (DATA_DIR / "_audit" / "derived.json").exists()
+
+
 def family_baseline(state: dict, family: str) -> Optional[int]:
     """Per-family Gate 2 baseline; None for absent or legacy-scalar shape."""
     counts = state.get("last_filtered_row_count")
@@ -763,6 +768,7 @@ def main(today: Optional[date] = None) -> int:
         not _index_path().exists()
         or sp_a_bootstrap_needed()
         or _prices_bootstrap_needed()
+        or _derived_bootstrap_needed()
     )
 
     if is_caught_up(last_known, today) and not bootstrap_needed:
@@ -851,6 +857,15 @@ def main(today: Optional[date] = None) -> int:
         download_path, discovery, refreshed_at, family_baseline(state, "prices")
     )
     expected |= price_result.paths
+    # SP-C: derived families. Pure in-memory compute over the grouped county
+    # leaves (canonical already marked) + the SP-B price tree; no re-parse.
+    # Runs before the global prune so its paths survive.
+    import derived  # lazy: avoids a circular import at module load
+    derived_result = derived.run_derived(
+        states, price_result.price_states, discovery, refreshed_at,
+        family_baseline(state, "derived"),
+    )
+    expected |= derived_result.paths
     deleted = prune_stale(expected)
     print(
         f"emit: index={int(idx_w)} meta={meta_w} leaves={leaf_w} "
@@ -863,13 +878,17 @@ def main(today: Optional[date] = None) -> int:
         "last_url": discovery["url"],
         "last_etag": discovery["etag"],
         "last_modified": discovery["last_modified"],
-        "last_filtered_row_count": {"leaf": len(kept_rows), "prices": price_result.kept_count},
+        "last_filtered_row_count": {
+            "leaf": len(kept_rows), "prices": price_result.kept_count,
+            "derived": derived_result.kept_count,
+        },
         "last_total_row_count": total_rows,
         "last_run_at": refreshed_at,
         "last_missing_canonical_count": missing_canonical,
         "last_missing_canonical_at": refreshed_at,
         "last_sp_a_shard_count": sp_a.shard_count,
         "last_price_shard_count": price_result.shard_count,
+        "last_derived_shard_count": derived_result.shard_count,
     })
 
     ping_healthchecks()

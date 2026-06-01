@@ -16,6 +16,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
+import derived  # noqa: E402
 import planting_windows as pw  # noqa: E402
 import prices  # noqa: E402
 import refresh  # noqa: E402
@@ -549,6 +550,7 @@ class MainIntegrationTest(unittest.TestCase):
             "utc_now_iso": refresh.utc_now_iso,
             "run_planting_windows": pw.run_planting_windows,
             "run_prices": prices.run_prices,
+            "run_derived": derived.run_derived,
         }
         try:
             disc = {
@@ -586,6 +588,9 @@ class MainIntegrationTest(unittest.TestCase):
             prices.run_prices = lambda path, d, ts, baseline: prices.PriceRunResult(
                 paths=set(), shard_count=0, kept_count=0,
             )
+            derived.run_derived = lambda states, ps, d, ts, baseline: derived.DerivedRunResult(
+                paths=set(), shard_count=0, kept_count=0,
+            )
 
             self.assertEqual(refresh.main(today=date(2026, 5, 18)), 0)
         finally:
@@ -609,6 +614,7 @@ class MainIntegrationTest(unittest.TestCase):
             refresh.utc_now_iso = original["utc_now_iso"]
             pw.run_planting_windows = original["run_planting_windows"]
             prices.run_prices = original["run_prices"]
+            derived.run_derived = original["run_derived"]
 
         self.assertEqual(saved["last_sp_a_shard_count"], 7)
 
