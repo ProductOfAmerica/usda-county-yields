@@ -1,0 +1,42 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "069",
+    "name": "WHEELER"
+  },
+  "schema_version": 3,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1956": 25.0,
+        "1957": 50.0,
+        "1958": 100.0,
+        "1959": 100.0,
+        "1960": 100.0,
+        "1961": 100.0,
+        "1974": 100.0,
+        "1975": 150.0,
+        "1976": 100.0,
+        "1977": 100.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  }
+}

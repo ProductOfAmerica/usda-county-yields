@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "225",
+    "name": "HOUSTON"
+  },
+  "rank": {
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.1099,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1661,
+      "rank_in_state": 56
+    },
+    "1981": {
+      "count_in_nation": 1835,
+      "count_in_state": 42,
+      "percentile_in_nation": 0.06,
+      "percentile_in_state": 0.2683,
+      "rank_in_nation": 1725,
+      "rank_in_state": 31
+    }
+  },
+  "revenue": {
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.72,
+      "revenue_per_harvested_acre": 88.008,
+      "revenue_per_planted_acre": 62.8629,
+      "yield": 11.4
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 5.7,
+      "revenue_per_harvested_acre": 97.47,
+      "revenue_per_planted_acre": 75.525,
+      "yield": 17.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 5.7,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1981": 50.0
+    }
+  }
+}

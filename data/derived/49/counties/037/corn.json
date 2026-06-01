@@ -1,0 +1,92 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "037",
+    "name": "SAN JUAN"
+  },
+  "rank": {
+    "1995": {
+      "count_in_nation": 2096,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.2554,
+      "percentile_in_state": 0.2667,
+      "rank_in_nation": 1561,
+      "rank_in_state": 12
+    },
+    "1997": {
+      "count_in_nation": 2109,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.5493,
+      "percentile_in_state": 0.0714,
+      "rank_in_nation": 951,
+      "rank_in_state": 14
+    },
+    "1998": {
+      "count_in_nation": 2123,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.5401,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 977,
+      "rank_in_state": 16
+    },
+    "1999": {
+      "count_in_nation": 2098,
+      "count_in_state": 18,
+      "percentile_in_nation": 0.5417,
+      "percentile_in_state": 0.2353,
+      "rank_in_nation": 962,
+      "rank_in_state": 14
+    }
+  },
+  "revenue": {
+    "1995": {
+      "marketing_year": "1995",
+      "price": 3.88,
+      "revenue_per_harvested_acre": 329.8,
+      "revenue_per_planted_acre": 47.1143,
+      "yield": 85.0
+    },
+    "1997": {
+      "marketing_year": "1997",
+      "price": 3.05,
+      "revenue_per_harvested_acre": 335.5,
+      "revenue_per_planted_acre": 41.9375,
+      "yield": 110.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 2.45,
+      "revenue_per_harvested_acre": 269.5,
+      "revenue_per_planted_acre": 134.75,
+      "yield": 110.0
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 2.36,
+      "revenue_per_harvested_acre": 259.6,
+      "revenue_per_planted_acre": 43.2667,
+      "yield": 110.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "UT",
+    "fips": "49",
+    "name": "UTAH"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 6.4286,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1998": 101.67,
+      "1999": 103.75
+    },
+    "yoy_pct": {
+      "1998": 0.0,
+      "1999": 0.0
+    }
+  }
+}

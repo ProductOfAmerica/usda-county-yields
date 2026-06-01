@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "005",
+    "name": "ANGELINA"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 133,
+      "percentile_in_nation": 0.2889,
+      "percentile_in_state": 0.6136,
+      "rank_in_nation": 1798,
+      "rank_in_state": 52
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.09,
+      "revenue_per_harvested_acre": 148.938,
+      "revenue_per_planted_acre": 127.5729,
+      "yield": 48.2
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "141",
+    "name": "EL PASO"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 133,
+      "percentile_in_nation": 0.985,
+      "percentile_in_state": 0.9015,
+      "rank_in_nation": 39,
+      "rank_in_state": 14
+    },
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 119,
+      "percentile_in_nation": 0.9557,
+      "percentile_in_state": 0.8305,
+      "rank_in_nation": 112,
+      "rank_in_state": 21
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.896,
+      "percentile_in_state": 0.7939,
+      "rank_in_nation": 263,
+      "rank_in_state": 28
+    },
+    "1999": {
+      "count_in_nation": 2098,
+      "count_in_state": 107,
+      "percentile_in_nation": 0.9723,
+      "percentile_in_state": 0.8774,
+      "rank_in_nation": 59,
+      "rank_in_state": 14
+    },
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 106,
+      "percentile_in_nation": 0.9658,
+      "percentile_in_state": 0.9048,
+      "rank_in_nation": 72,
+      "rank_in_state": 11
+    },
+    "2001": {
+      "count_in_nation": 2023,
+      "count_in_state": 98,
+      "percentile_in_nation": 0.0376,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1947,
+      "rank_in_state": 98
+    },
+    "2002": {
+      "count_in_nation": 2086,
+      "count_in_state": 109,
+      "percentile_in_nation": 0.9933,
+      "percentile_in_state": 0.9167,
+      "rank_in_nation": 15,
+      "rank_in_state": 10
+    },
+    "2010": {
+      "count_in_nation": 1750,
+      "count_in_state": 75,
+      "percentile_in_nation": 0.0463,
+      "percentile_in_state": 0.0946,
+      "rank_in_nation": 1669,
+      "rank_in_state": 68
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.09,
+      "revenue_per_harvested_acre": 331.557,
+      "revenue_per_planted_acre": 220.935,
+      "yield": 107.3
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.66,
+      "revenue_per_harvested_acre": 292.6,
+      "revenue_per_planted_acre": 36.575,
+      "yield": 110.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 244.65,
+      "revenue_per_planted_acre": 48.93,
+      "yield": 105.0
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 2.07,
+      "revenue_per_harvested_acre": 351.9,
+      "revenue_per_planted_acre": 117.3,
+      "yield": 170.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.18,
+      "revenue_per_harvested_acre": 365.804,
+      "revenue_per_planted_acre": 58.7821,
+      "yield": 167.8
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.29,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 2.57,
+      "revenue_per_harvested_acre": 519.14,
+      "revenue_per_planted_acre": 264.8673,
+      "yield": 202.0
+    },
+    "2010": {
+      "marketing_year": "2010",
+      "price": 4.67,
+      "revenue_per_harvested_acre": 297.479,
+      "revenue_per_planted_acre": 274.4523,
+      "yield": 63.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0685,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1976": 107.43,
+      "2001": 112.6,
+      "2002": 134.95
+    },
+    "yoy_pct": {
+      "1975": 2.52,
+      "1976": -4.55,
+      "2000": -1.29,
+      "2001": -100.0
+    }
+  }
+}

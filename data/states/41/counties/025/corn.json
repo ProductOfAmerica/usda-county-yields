@@ -7,14 +7,77 @@
     "code": "025",
     "name": "HARNEY"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "GRAIN",
+      "values": {
+        "1996": 100.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1956": 50.0,
+        "1957": 50.0,
+        "1958": 150.0,
+        "1959": 400.0,
+        "1960": 100.0,
+        "1961": 400.0,
+        "1962": 250.0,
+        "1963": 500.0,
+        "1964": 600.0,
+        "1982": 100.0,
+        "1983": 100.0,
+        "1984": 100.0,
+        "1996": 100.0,
+        "1997": 100.0,
+        "1999": 200.0,
+        "2000": 200.0,
+        "2001": 200.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "GRAIN",
+      "values": {
+        "1996": 16300.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "GRAIN",

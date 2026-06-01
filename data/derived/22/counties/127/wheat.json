@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "127",
+    "name": "WINN"
+  },
+  "rank": {
+    "1983": {
+      "count_in_nation": 2480,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.171,
+      "percentile_in_state": 0.4318,
+      "rank_in_nation": 2056,
+      "rank_in_state": 26
+    },
+    "1984": {
+      "count_in_nation": 2472,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.159,
+      "percentile_in_state": 0.1163,
+      "rank_in_nation": 2079,
+      "rank_in_state": 39
+    },
+    "1987": {
+      "count_in_nation": 2373,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.2323,
+      "percentile_in_state": 0.4565,
+      "rank_in_nation": 1822,
+      "rank_in_state": 26
+    }
+  },
+  "revenue": {
+    "1983": {
+      "marketing_year": "1983",
+      "price": 3.6,
+      "revenue_per_harvested_acre": 105.48,
+      "revenue_per_planted_acre": 88.0,
+      "yield": 29.3
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 3.5,
+      "revenue_per_harvested_acre": 105.0,
+      "revenue_per_planted_acre": 26.25,
+      "yield": 30.0
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 2.8,
+      "revenue_per_harvested_acre": 84.0,
+      "revenue_per_planted_acre": 50.4,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.1346,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1987": 29.77
+    },
+    "yoy_pct": {
+      "1984": 2.39
+    }
+  }
+}

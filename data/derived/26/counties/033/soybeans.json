@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "033",
+    "name": "CHIPPEWA"
+  },
+  "rank": {
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.4375,
+      "percentile_in_state": 0.746,
+      "rank_in_nation": 1045,
+      "rank_in_state": 17
+    },
+    "1988": {
+      "count_in_nation": 1814,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.2885,
+      "percentile_in_state": 0.2857,
+      "rank_in_nation": 1291,
+      "rank_in_state": 46
+    },
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 65,
+      "percentile_in_nation": 0.3224,
+      "percentile_in_state": 0.0781,
+      "rank_in_nation": 1237,
+      "rank_in_state": 60
+    }
+  },
+  "revenue": {
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.81,
+      "revenue_per_harvested_acre": 165.483,
+      "revenue_per_planted_acre": 165.3857,
+      "yield": 24.3
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 7.28,
+      "revenue_per_harvested_acre": 163.8,
+      "revenue_per_planted_acre": 163.8,
+      "yield": 22.5
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.6,
+      "revenue_per_harvested_acre": 140.0,
+      "revenue_per_planted_acre": 140.0,
+      "yield": 25.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.0351,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1989": 11.11
+    }
+  }
+}

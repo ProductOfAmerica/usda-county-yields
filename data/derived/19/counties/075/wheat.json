@@ -1,0 +1,108 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "075",
+    "name": "GRUNDY"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.8394,
+      "percentile_in_state": 0.8444,
+      "rank_in_nation": 405,
+      "rank_in_state": 8
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.8798,
+      "percentile_in_state": 0.9268,
+      "rank_in_nation": 310,
+      "rank_in_state": 7
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 87,
+      "percentile_in_nation": 0.6214,
+      "percentile_in_state": 0.1047,
+      "rank_in_nation": 957,
+      "rank_in_state": 78
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 92,
+      "percentile_in_nation": 0.8718,
+      "percentile_in_state": 0.8352,
+      "rank_in_nation": 327,
+      "rank_in_state": 16
+    },
+    "1997": {
+      "count_in_nation": 1970,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.6455,
+      "percentile_in_state": 0.8148,
+      "rank_in_nation": 699,
+      "rank_in_state": 11
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.01,
+      "revenue_per_harvested_acre": 112.875,
+      "revenue_per_planted_acre": 90.3,
+      "yield": 37.5
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 4.13,
+      "revenue_per_harvested_acre": 165.2,
+      "revenue_per_planted_acre": 156.94,
+      "yield": 40.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.46,
+      "revenue_per_harvested_acre": 110.72,
+      "revenue_per_planted_acre": 110.72,
+      "yield": 32.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.94,
+      "revenue_per_harvested_acre": 119.952,
+      "revenue_per_planted_acre": 102.9,
+      "yield": 40.8
+    },
+    "1997": {
+      "marketing_year": "1997",
+      "price": 3.16,
+      "revenue_per_harvested_acre": 159.896,
+      "revenue_per_planted_acre": 150.5647,
+      "yield": 50.6
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.5741,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1975": 36.5,
+      "1976": 37.58
+    },
+    "yoy_pct": {
+      "1974": 6.67,
+      "1975": -20.0,
+      "1976": 27.5
+    }
+  }
+}

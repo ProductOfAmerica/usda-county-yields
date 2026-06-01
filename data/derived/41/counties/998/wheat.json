@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "rank": {
+    "2003": {
+      "count_in_nation": 1777,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.8986,
+      "percentile_in_state": 0.3846,
+      "rank_in_nation": 181,
+      "rank_in_state": 17
+    },
+    "2004": {
+      "count_in_nation": 1774,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.89,
+      "percentile_in_state": 0.3684,
+      "rank_in_nation": 196,
+      "rank_in_state": 13
+    },
+    "2005": {
+      "count_in_nation": 1693,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.9255,
+      "percentile_in_state": 0.5,
+      "rank_in_nation": 127,
+      "rank_in_state": 14
+    },
+    "2006": {
+      "count_in_nation": 1639,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.8553,
+      "percentile_in_state": 0.3043,
+      "rank_in_nation": 238,
+      "rank_in_state": 17
+    },
+    "2007": {
+      "count_in_nation": 1639,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.9621,
+      "percentile_in_state": 0.4348,
+      "rank_in_nation": 63,
+      "rank_in_state": 14
+    }
+  },
+  "revenue": {
+    "2003": {
+      "marketing_year": "2003",
+      "price": 3.7,
+      "revenue_per_harvested_acre": 262.7,
+      "revenue_per_planted_acre": 196.5625,
+      "yield": 71.0
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 3.69,
+      "revenue_per_harvested_acre": 239.85,
+      "revenue_per_planted_acre": 1001.835,
+      "yield": 65.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 3.35,
+      "revenue_per_harvested_acre": 251.25,
+      "revenue_per_planted_acre": 167.5,
+      "yield": 75.0
+    },
+    "2006": {
+      "marketing_year": "2006",
+      "price": 4.48,
+      "revenue_per_harvested_acre": 322.56,
+      "revenue_per_planted_acre": 129.024,
+      "yield": 72.0
+    },
+    "2007": {
+      "marketing_year": "2007",
+      "price": 8.23,
+      "revenue_per_harvested_acre": 666.63,
+      "revenue_per_planted_acre": 371.2644,
+      "yield": 81.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.7,
+    "trailing_10yr_avg": {
+      "2007": 72.8
+    },
+    "trailing_5yr_avg": {
+      "2005": 70.33,
+      "2006": 70.75,
+      "2007": 72.8
+    },
+    "yoy_pct": {
+      "2004": -8.45,
+      "2005": 15.38,
+      "2006": -4.0,
+      "2007": 12.5
+    }
+  }
+}

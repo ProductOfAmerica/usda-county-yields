@@ -1,0 +1,106 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "049",
+    "name": "LEWIS"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.5216,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1198,
+      "rank_in_state": 48
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.7027,
+      "percentile_in_state": 0.0208,
+      "rank_in_nation": 749,
+      "rank_in_state": 48
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.7779,
+      "percentile_in_state": 0.2174,
+      "rank_in_nation": 572,
+      "rank_in_state": 37
+    },
+    "1978": {
+      "count_in_nation": 2420,
+      "count_in_state": 31,
+      "percentile_in_nation": 0.7197,
+      "percentile_in_state": 0.5667,
+      "rank_in_nation": 679,
+      "rank_in_state": 14
+    },
+    "1984": {
+      "count_in_nation": 2472,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.5933,
+      "percentile_in_state": 0.2963,
+      "rank_in_nation": 1006,
+      "rank_in_state": 20
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.55,
+      "revenue_per_harvested_acre": 49.6,
+      "revenue_per_planted_acre": 49.6,
+      "yield": 32.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.77,
+      "revenue_per_harvested_acre": 128.18,
+      "revenue_per_planted_acre": 128.18,
+      "yield": 34.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.71,
+      "revenue_per_harvested_acre": 133.56,
+      "revenue_per_planted_acre": 133.56,
+      "yield": 36.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 3.35,
+      "revenue_per_harvested_acre": 117.25,
+      "revenue_per_planted_acre": 117.25,
+      "yield": 35.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 3.25,
+      "revenue_per_harvested_acre": 130.0,
+      "revenue_per_planted_acre": 130.0,
+      "yield": 40.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.5434,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1974": 34.0
+    },
+    "yoy_pct": {
+      "1973": 6.25,
+      "1974": 5.88
+    }
+  }
+}

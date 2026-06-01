@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "137",
+    "name": "HABERSHAM"
+  },
+  "rank": {
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 139,
+      "percentile_in_nation": 0.3774,
+      "percentile_in_state": 0.2319,
+      "rank_in_nation": 1116,
+      "rank_in_state": 107
+    }
+  },
+  "revenue": {
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.65,
+      "revenue_per_harvested_acre": 106.95,
+      "revenue_per_planted_acre": 106.95,
+      "yield": 23.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

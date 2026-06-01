@@ -1,0 +1,39 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "035",
+    "name": "CARROLL"
+  },
+  "rank": {
+    "1944": {
+      "count_in_nation": 836,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.2359,
+      "percentile_in_state": 0.1176,
+      "rank_in_nation": 639,
+      "rank_in_state": 76
+    }
+  },
+  "revenue": {
+    "1944": {
+      "marketing_year": "1944",
+      "price": 2.06,
+      "revenue_per_harvested_acre": 24.72,
+      "yield": 12.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

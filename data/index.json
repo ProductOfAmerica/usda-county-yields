@@ -1,13 +1,13 @@
 {
   "product_name": "NASS county crop yields",
-  "refreshed_at": "2026-05-25T10:53:06Z",
-  "schema_version": 2,
+  "refreshed_at": "2026-06-01T11:05:27Z",
+  "schema_version": 3,
   "source": {
-    "etag": "\"42fecb91-65276e1b3fefc\"",
+    "etag": "\"4302c7fa-65303b35201c6\"",
     "freshness_lag_days": 2,
-    "last_modified": "Sat, 23 May 2026 07:13:26 GMT",
-    "publication_date": "2026-05-23",
-    "url": "https://www.nass.usda.gov/datasets/qs.crops_20260523.txt.gz"
+    "last_modified": "Sat, 30 May 2026 07:13:38 GMT",
+    "publication_date": "2026-05-30",
+    "url": "https://www.nass.usda.gov/datasets/qs.crops_20260530.txt.gz"
   },
   "states": {
     "01": {
@@ -69,7 +69,7 @@
     },
     "12": {
       "alpha": "FL",
-      "county_count": 52,
+      "county_count": 55,
       "crops": [
         "corn",
         "soybeans",
@@ -353,7 +353,7 @@
     },
     "48": {
       "alpha": "TX",
-      "county_count": 250,
+      "county_count": 252,
       "crops": [
         "corn",
         "soybeans",

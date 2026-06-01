@@ -1,0 +1,137 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "077",
+    "name": "POWER"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 19,
+      "percentile_in_nation": 0.7193,
+      "percentile_in_state": 0.2778,
+      "rank_in_nation": 584,
+      "rank_in_state": 14
+    },
+    "2001": {
+      "count_in_nation": 2023,
+      "count_in_state": 19,
+      "percentile_in_nation": 0.6602,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 688,
+      "rank_in_state": 13
+    },
+    "2004": {
+      "count_in_nation": 2014,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.853,
+      "percentile_in_state": 0.7,
+      "rank_in_nation": 297,
+      "rank_in_state": 7
+    },
+    "2006": {
+      "count_in_nation": 1955,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.8506,
+      "percentile_in_state": 0.6,
+      "rank_in_nation": 293,
+      "rank_in_state": 7
+    },
+    "2022": {
+      "count_in_nation": 1543,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.9202,
+      "percentile_in_state": 0.4286,
+      "rank_in_nation": 124,
+      "rank_in_state": 9
+    },
+    "2023": {
+      "count_in_nation": 1461,
+      "count_in_state": 12,
+      "percentile_in_nation": 0.6986,
+      "percentile_in_state": 0.1818,
+      "rank_in_nation": 441,
+      "rank_in_state": 10
+    },
+    "2025": {
+      "count_in_nation": 1241,
+      "count_in_state": 10,
+      "percentile_in_nation": 0.9379,
+      "percentile_in_state": 0.6667,
+      "rank_in_nation": 78,
+      "rank_in_state": 4
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.63,
+      "revenue_per_harvested_acre": 369.778,
+      "revenue_per_planted_acre": 184.9219,
+      "yield": 140.6
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.64,
+      "revenue_per_harvested_acre": 353.232,
+      "revenue_per_planted_acre": 341.44,
+      "yield": 133.8
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 2.82,
+      "revenue_per_harvested_acre": 489.834,
+      "revenue_per_planted_acre": 465.3,
+      "yield": 173.7
+    },
+    "2006": {
+      "marketing_year": "2006",
+      "price": 3.89,
+      "revenue_per_harvested_acre": 639.905,
+      "revenue_per_planted_acre": 511.924,
+      "yield": 164.5
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 7.37,
+      "revenue_per_harvested_acre": 1545.489,
+      "revenue_per_planted_acre": 1143.824,
+      "yield": 209.7
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 5.53,
+      "revenue_per_harvested_acre": 1035.769,
+      "revenue_per_planted_acre": 660.1437,
+      "yield": 187.3
+    },
+    "2025": {
+      "marketing_year": "2025",
+      "price": 5.55,
+      "revenue_per_harvested_acre": 1219.335,
+      "revenue_per_planted_acre": 942.1786,
+      "yield": 219.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "ID",
+    "fips": "16",
+    "name": "IDAHO"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.6597,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2004": 149.37,
+      "2025": 205.57
+    },
+    "yoy_pct": {
+      "2001": -4.84,
+      "2023": -10.68
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "107",
+    "name": "TIOGA"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.7358,
+      "percentile_in_state": 0.3404,
+      "rank_in_nation": 662,
+      "rank_in_state": 32
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.9201,
+      "percentile_in_state": 0.9792,
+      "rank_in_nation": 202,
+      "rank_in_state": 2
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.6254,
+      "percentile_in_state": 0.0435,
+      "rank_in_nation": 964,
+      "rank_in_state": 45
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.6214,
+      "percentile_in_state": 0.0233,
+      "rank_in_nation": 957,
+      "rank_in_state": 43
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.4811,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1320,
+      "rank_in_state": 44
+    },
+    "1977": {
+      "count_in_nation": 2482,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.4946,
+      "percentile_in_state": 0.1,
+      "rank_in_nation": 1255,
+      "rank_in_state": 37
+    },
+    "1978": {
+      "count_in_nation": 2420,
+      "count_in_state": 31,
+      "percentile_in_nation": 0.7627,
+      "percentile_in_state": 0.7,
+      "rank_in_nation": 575,
+      "rank_in_state": 10
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.55,
+      "revenue_per_harvested_acre": 57.35,
+      "revenue_per_planted_acre": 57.35,
+      "yield": 37.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.77,
+      "revenue_per_harvested_acre": 154.57,
+      "revenue_per_planted_acre": 154.57,
+      "yield": 41.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.71,
+      "revenue_per_harvested_acre": 118.72,
+      "revenue_per_planted_acre": 118.72,
+      "yield": 32.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.96,
+      "revenue_per_harvested_acre": 94.72,
+      "revenue_per_planted_acre": 94.72,
+      "yield": 32.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.67,
+      "revenue_per_harvested_acre": 80.1,
+      "revenue_per_planted_acre": 80.1,
+      "yield": 30.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 1.96,
+      "revenue_per_harvested_acre": 62.72,
+      "revenue_per_planted_acre": 62.72,
+      "yield": 32.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 3.35,
+      "revenue_per_harvested_acre": 120.6,
+      "revenue_per_planted_acre": 120.6,
+      "yield": 36.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.8214,
+    "trailing_10yr_avg": {
+      "1976": 34.4,
+      "1977": 34.0,
+      "1978": 34.29
+    },
+    "trailing_5yr_avg": {
+      "1974": 36.67,
+      "1975": 35.5,
+      "1976": 34.4,
+      "1977": 33.4,
+      "1978": 32.4
+    },
+    "yoy_pct": {
+      "1973": 10.81,
+      "1974": -21.95,
+      "1975": 0.0,
+      "1976": -6.25,
+      "1977": 6.67,
+      "1978": 12.5
+    }
+  }
+}

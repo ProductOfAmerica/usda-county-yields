@@ -7,14 +7,73 @@
     "code": "099",
     "name": "PALM BEACH"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 1000.0,
+        "1962": 800.0,
+        "1963": 1200.0,
+        "1964": 1600.0,
+        "1965": 1600.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1961": 1500.0,
+        "1962": 1200.0,
+        "1963": 1500.0,
+        "1964": 1800.0,
+        "1965": 1800.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "GRAIN",
+      "values": {
+        "1961": 61000.0,
+        "1962": 44000.0,
+        "1963": 72000.0,
+        "1964": 91200.0,
+        "1965": 88000.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "GRAIN",

@@ -1,0 +1,90 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "017",
+    "name": "BATH"
+  },
+  "rank": {
+    "1944": {
+      "count_in_nation": 836,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.2359,
+      "percentile_in_state": 0.1176,
+      "rank_in_nation": 639,
+      "rank_in_state": 76
+    },
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 76,
+      "percentile_in_nation": 0.4024,
+      "percentile_in_state": 0.8533,
+      "rank_in_nation": 1118,
+      "rank_in_state": 12
+    },
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 76,
+      "percentile_in_nation": 0.6942,
+      "percentile_in_state": 0.6267,
+      "rank_in_nation": 574,
+      "rank_in_state": 29
+    },
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 70,
+      "percentile_in_nation": 0.2662,
+      "percentile_in_state": 0.5072,
+      "rank_in_nation": 1360,
+      "rank_in_state": 35
+    }
+  },
+  "revenue": {
+    "1944": {
+      "marketing_year": "1944",
+      "price": 2.06,
+      "revenue_per_harvested_acre": 24.72,
+      "yield": 12.0
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.85,
+      "revenue_per_harvested_acre": 157.0,
+      "revenue_per_planted_acre": 117.75,
+      "yield": 20.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.95,
+      "revenue_per_harvested_acre": 178.5,
+      "revenue_per_planted_acre": 178.5,
+      "yield": 30.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 5.15,
+      "revenue_per_harvested_acre": 128.75,
+      "revenue_per_planted_acre": 128.75,
+      "yield": 25.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3286,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1985": 25.0
+    },
+    "yoy_pct": {
+      "1984": 50.0,
+      "1985": -16.67
+    }
+  }
+}

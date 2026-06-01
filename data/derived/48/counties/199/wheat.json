@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "199",
+    "name": "HARDIN"
+  },
+  "rank": {
+    "2001": {
+      "count_in_nation": 1777,
+      "count_in_state": 159,
+      "percentile_in_nation": 0.2173,
+      "percentile_in_state": 0.6582,
+      "rank_in_nation": 1391,
+      "rank_in_state": 55
+    }
+  },
+  "revenue": {
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.78,
+      "revenue_per_harvested_acre": 95.91,
+      "revenue_per_planted_acre": 58.6889,
+      "yield": 34.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

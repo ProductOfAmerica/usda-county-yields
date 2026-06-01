@@ -1,0 +1,117 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "157",
+    "name": "RAPPAHANNOCK"
+  },
+  "rank": {
+    "1943": {
+      "count_in_nation": 731,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.2726,
+      "percentile_in_state": 0.7778,
+      "rank_in_nation": 532,
+      "rank_in_state": 19
+    },
+    "1944": {
+      "count_in_nation": 836,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.521,
+      "percentile_in_state": 0.9412,
+      "rank_in_nation": 401,
+      "rank_in_state": 6
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 65,
+      "percentile_in_nation": 0.1594,
+      "percentile_in_state": 0.7188,
+      "rank_in_nation": 1546,
+      "rank_in_state": 19
+    },
+    "2009": {
+      "count_in_nation": 1410,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.494,
+      "percentile_in_state": 0.8696,
+      "rank_in_nation": 714,
+      "rank_in_state": 7
+    },
+    "2015": {
+      "count_in_nation": 1335,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.7211,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 373,
+      "rank_in_state": 1
+    },
+    "2016": {
+      "count_in_nation": 1379,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.2177,
+      "percentile_in_state": 0.6,
+      "rank_in_nation": 1079,
+      "rank_in_state": 19
+    }
+  },
+  "revenue": {
+    "1943": {
+      "marketing_year": "1943",
+      "price": 1.9,
+      "revenue_per_harvested_acre": 19.0,
+      "yield": 10.0
+    },
+    "1944": {
+      "marketing_year": "1944",
+      "price": 2.06,
+      "revenue_per_harvested_acre": 30.9,
+      "yield": 15.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.9,
+      "revenue_per_harvested_acre": 112.1,
+      "revenue_per_planted_acre": 112.1,
+      "yield": 19.0
+    },
+    "2009": {
+      "marketing_year": "2009",
+      "price": 9.4,
+      "revenue_per_harvested_acre": 394.8,
+      "revenue_per_planted_acre": 394.8,
+      "yield": 42.0
+    },
+    "2015": {
+      "marketing_year": "2015",
+      "price": 8.8,
+      "revenue_per_harvested_acre": 457.6,
+      "revenue_per_planted_acre": 419.4667,
+      "yield": 52.0
+    },
+    "2016": {
+      "marketing_year": "2016",
+      "price": 9.4,
+      "revenue_per_harvested_acre": 358.14,
+      "revenue_per_planted_acre": 344.04,
+      "yield": 38.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.461,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1944": 50.0,
+      "2016": -26.73
+    }
+  }
+}

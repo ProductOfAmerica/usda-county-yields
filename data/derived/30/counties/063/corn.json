@@ -1,0 +1,177 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "063",
+    "name": "MISSOULA"
+  },
+  "rank": {
+    "1944": {
+      "count_in_nation": 1444,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.359,
+      "percentile_in_state": 0.9714,
+      "rank_in_nation": 926,
+      "rank_in_state": 2
+    },
+    "1945": {
+      "count_in_nation": 1447,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.2261,
+      "percentile_in_state": 0.8649,
+      "rank_in_nation": 1120,
+      "rank_in_state": 6
+    },
+    "1946": {
+      "count_in_nation": 1446,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.1889,
+      "percentile_in_state": 0.8649,
+      "rank_in_nation": 1173,
+      "rank_in_state": 6
+    },
+    "1947": {
+      "count_in_nation": 1449,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.3356,
+      "percentile_in_state": 0.8095,
+      "rank_in_nation": 963,
+      "rank_in_state": 9
+    },
+    "1955": {
+      "count_in_nation": 1864,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.6221,
+      "percentile_in_state": 0.8421,
+      "rank_in_nation": 705,
+      "rank_in_state": 7
+    },
+    "1956": {
+      "count_in_nation": 1906,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.757,
+      "percentile_in_state": 0.9697,
+      "rank_in_nation": 464,
+      "rank_in_state": 2
+    },
+    "1957": {
+      "count_in_nation": 1881,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.7681,
+      "percentile_in_state": 0.9459,
+      "rank_in_nation": 437,
+      "rank_in_state": 3
+    },
+    "1958": {
+      "count_in_nation": 2058,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.4069,
+      "percentile_in_state": 0.7297,
+      "rank_in_nation": 1221,
+      "rank_in_state": 11
+    },
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.3029,
+      "percentile_in_state": 0.6154,
+      "rank_in_nation": 1515,
+      "rank_in_state": 16
+    }
+  },
+  "revenue": {
+    "1944": {
+      "marketing_year": "1944",
+      "price": 1.13,
+      "revenue_per_harvested_acre": 27.12,
+      "revenue_per_planted_acre": 27.12,
+      "yield": 24.0
+    },
+    "1945": {
+      "marketing_year": "1945",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 25.2,
+      "revenue_per_planted_acre": 25.2,
+      "yield": 20.0
+    },
+    "1946": {
+      "marketing_year": "1946",
+      "price": 1.5,
+      "revenue_per_harvested_acre": 28.5,
+      "revenue_per_planted_acre": 28.5,
+      "yield": 19.0
+    },
+    "1947": {
+      "marketing_year": "1947",
+      "price": 2.14,
+      "revenue_per_harvested_acre": 47.08,
+      "revenue_per_planted_acre": 47.08,
+      "yield": 22.0
+    },
+    "1955": {
+      "marketing_year": "1955",
+      "price": 1.53,
+      "revenue_per_harvested_acre": 61.2,
+      "revenue_per_planted_acre": 61.2,
+      "yield": 40.0
+    },
+    "1956": {
+      "marketing_year": "1956",
+      "price": 1.39,
+      "revenue_per_harvested_acre": 76.45,
+      "revenue_per_planted_acre": 76.45,
+      "yield": 55.0
+    },
+    "1957": {
+      "marketing_year": "1957",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 67.08,
+      "revenue_per_planted_acre": 67.08,
+      "yield": 52.0
+    },
+    "1958": {
+      "marketing_year": "1958",
+      "price": 1.16,
+      "revenue_per_harvested_acre": 45.24,
+      "revenue_per_planted_acre": 45.24,
+      "yield": 39.0
+    },
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 41.58,
+      "revenue_per_planted_acre": 41.58,
+      "yield": 33.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.7572,
+    "trailing_10yr_avg": {
+      "1959": 43.8
+    },
+    "trailing_5yr_avg": {
+      "1946": 21.0,
+      "1947": 21.25,
+      "1957": 49.0,
+      "1958": 46.5,
+      "1959": 43.8
+    },
+    "yoy_pct": {
+      "1945": -16.67,
+      "1946": -5.0,
+      "1947": 15.79,
+      "1956": 37.5,
+      "1957": -5.45,
+      "1958": -25.0,
+      "1959": -15.38
+    }
+  }
+}

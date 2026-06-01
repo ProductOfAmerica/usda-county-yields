@@ -7,14 +7,64 @@
     "code": "225",
     "name": "HOUSTON"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1980": 2500.0,
+        "1981": 3100.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1980": 3500.0,
+        "1981": 4000.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1980": 28500.0,
+        "1981": 53000.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

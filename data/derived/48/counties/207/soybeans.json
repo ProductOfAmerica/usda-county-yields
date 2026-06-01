@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "207",
+    "name": "HASKELL"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 1453,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.5179,
+      "percentile_in_state": 0.4884,
+      "rank_in_nation": 701,
+      "rank_in_state": 23
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.0884,
+      "percentile_in_state": 0.2105,
+      "rank_in_nation": 1693,
+      "rank_in_state": 61
+    },
+    "1997": {
+      "count_in_nation": 1683,
+      "count_in_state": 54,
+      "percentile_in_nation": 0.2152,
+      "percentile_in_state": 0.4717,
+      "rank_in_nation": 1321,
+      "rank_in_state": 29
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 56.852,
+      "revenue_per_planted_acre": 53.9783,
+      "yield": 24.4
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.3,
+      "revenue_per_harvested_acre": 105.21,
+      "revenue_per_planted_acre": 94.5,
+      "yield": 16.7
+    },
+    "1997": {
+      "marketing_year": "1997",
+      "price": 6.33,
+      "revenue_per_harvested_acre": 169.011,
+      "revenue_per_planted_acre": 151.92,
+      "yield": 26.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.138,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

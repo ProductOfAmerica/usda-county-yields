@@ -1,0 +1,107 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "061",
+    "name": "MINERAL"
+  },
+  "rank": {
+    "1946": {
+      "count_in_nation": 1446,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.0436,
+      "percentile_in_state": 0.3784,
+      "rank_in_nation": 1383,
+      "rank_in_state": 24
+    },
+    "1947": {
+      "count_in_nation": 1449,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.2659,
+      "percentile_in_state": 0.7143,
+      "rank_in_nation": 1064,
+      "rank_in_state": 13
+    },
+    "1957": {
+      "count_in_nation": 1881,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.7314,
+      "percentile_in_state": 0.8919,
+      "rank_in_nation": 506,
+      "rank_in_state": 5
+    },
+    "1958": {
+      "count_in_nation": 2058,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.4346,
+      "percentile_in_state": 0.7568,
+      "rank_in_nation": 1164,
+      "rank_in_state": 10
+    },
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.5571,
+      "percentile_in_state": 0.7692,
+      "rank_in_nation": 963,
+      "rank_in_state": 10
+    }
+  },
+  "revenue": {
+    "1946": {
+      "marketing_year": "1946",
+      "price": 1.5,
+      "revenue_per_harvested_acre": 18.0,
+      "revenue_per_planted_acre": 18.0,
+      "yield": 12.0
+    },
+    "1947": {
+      "marketing_year": "1947",
+      "price": 2.14,
+      "revenue_per_harvested_acre": 42.8,
+      "revenue_per_planted_acre": 42.8,
+      "yield": 20.0
+    },
+    "1957": {
+      "marketing_year": "1957",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 64.5,
+      "revenue_per_planted_acre": 64.5,
+      "yield": 50.0
+    },
+    "1958": {
+      "marketing_year": "1958",
+      "price": 1.16,
+      "revenue_per_harvested_acre": 46.4,
+      "revenue_per_planted_acre": 46.4,
+      "yield": 40.0
+    },
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 57.96,
+      "revenue_per_planted_acre": 57.96,
+      "yield": 46.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.5112,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1959": 45.33
+    },
+    "yoy_pct": {
+      "1947": 66.67,
+      "1958": -20.0,
+      "1959": 15.0
+    }
+  }
+}

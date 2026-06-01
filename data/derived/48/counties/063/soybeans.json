@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "063",
+    "name": "CAMP"
+  },
+  "rank": {
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.5891,
+      "percentile_in_state": 0.6364,
+      "rank_in_nation": 737,
+      "rank_in_state": 21
+    },
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.2489,
+      "percentile_in_state": 0.18,
+      "rank_in_nation": 1371,
+      "rank_in_state": 42
+    }
+  },
+  "revenue": {
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.31,
+      "revenue_per_harvested_acre": 111.198,
+      "revenue_per_planted_acre": 88.786,
+      "yield": 25.8
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.07,
+      "revenue_per_harvested_acre": 120.666,
+      "revenue_per_planted_acre": 102.6675,
+      "yield": 23.8
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.1429,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

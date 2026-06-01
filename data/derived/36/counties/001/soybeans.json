@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "001",
+    "name": "ALBANY"
+  },
+  "rank": {
+    "2003": {
+      "count_in_nation": 1625,
+      "count_in_state": 33,
+      "percentile_in_nation": 0.6736,
+      "percentile_in_state": 0.6562,
+      "rank_in_nation": 531,
+      "rank_in_state": 12
+    }
+  },
+  "revenue": {
+    "2003": {
+      "marketing_year": "2003",
+      "price": 7.8,
+      "revenue_per_harvested_acre": 288.6,
+      "revenue_per_planted_acre": 214.5,
+      "yield": 37.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

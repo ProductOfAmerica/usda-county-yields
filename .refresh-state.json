@@ -1,12 +1,18 @@
 {
-  "last_etag": "\"42fecb91-65276e1b3fefc\"",
-  "last_filtered_row_count": 1318932,
-  "last_missing_canonical_at": "2026-05-25T10:53:06Z",
-  "last_missing_canonical_count": 24,
-  "last_modified": "Sat, 23 May 2026 07:13:26 GMT",
-  "last_run_at": "2026-05-25T10:53:06Z",
+  "last_derived_shard_count": 8178,
+  "last_etag": "\"4302c7fa-65303b35201c6\"",
+  "last_filtered_row_count": {
+    "derived": 8064,
+    "leaf": 4372991,
+    "prices": 155364
+  },
+  "last_missing_canonical_at": "2026-06-01T11:05:27Z",
+  "last_missing_canonical_count": 53,
+  "last_modified": "Sat, 30 May 2026 07:13:38 GMT",
+  "last_price_shard_count": 125,
+  "last_run_at": "2026-06-01T11:05:27Z",
   "last_sp_a_shard_count": 23,
-  "last_successful_date": "2026-05-23",
-  "last_total_row_count": 23729564,
-  "last_url": "https://www.nass.usda.gov/datasets/qs.crops_20260523.txt.gz"
+  "last_successful_date": "2026-05-30",
+  "last_total_row_count": 23736064,
+  "last_url": "https://www.nass.usda.gov/datasets/qs.crops_20260530.txt.gz"
 }

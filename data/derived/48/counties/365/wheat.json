@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "365",
+    "name": "PANOLA"
+  },
+  "rank": {
+    "1977": {
+      "count_in_nation": 2482,
+      "count_in_state": 191,
+      "percentile_in_nation": 0.0423,
+      "percentile_in_state": 0.1737,
+      "rank_in_nation": 2377,
+      "rank_in_state": 158
+    },
+    "1981": {
+      "count_in_nation": 2535,
+      "count_in_state": 204,
+      "percentile_in_nation": 0.6105,
+      "percentile_in_state": 0.9606,
+      "rank_in_nation": 988,
+      "rank_in_state": 9
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 206,
+      "percentile_in_nation": 0.0691,
+      "percentile_in_state": 0.5659,
+      "rank_in_nation": 2357,
+      "rank_in_state": 90
+    }
+  },
+  "revenue": {
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.15,
+      "revenue_per_harvested_acre": 39.13,
+      "revenue_per_planted_acre": 27.95,
+      "yield": 18.2
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 3.65,
+      "revenue_per_harvested_acre": 146.0,
+      "revenue_per_planted_acre": 58.4,
+      "yield": 40.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.42,
+      "revenue_per_harvested_acre": 76.95,
+      "revenue_per_planted_acre": 36.2118,
+      "yield": 22.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.1714,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1982": -43.75
+    }
+  }
+}

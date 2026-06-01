@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "415",
+    "name": "SCURRY"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 133,
+      "percentile_in_nation": 0.3209,
+      "percentile_in_state": 0.6288,
+      "rank_in_nation": 1717,
+      "rank_in_state": 50
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.09,
+      "revenue_per_harvested_acre": 154.5,
+      "revenue_per_planted_acre": 139.05,
+      "yield": 50.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

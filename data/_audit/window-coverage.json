@@ -460,8 +460,8 @@
     },
     "22/soybeans": {
       "harvest_usable": 16,
-      "plant_usable": 19,
-      "reason": "insufficient usable years: plant(19<20), harvest(16<20)",
+      "plant_usable": 20,
+      "reason": "insufficient usable years: harvest(16<20)",
       "status": "OMITTED"
     },
     "22/winter-wheat": {
@@ -478,8 +478,8 @@
     },
     "24/corn": {
       "harvest_usable": 2,
-      "plant_usable": 9,
-      "reason": "insufficient usable years: plant(9<20), harvest(2<20)",
+      "plant_usable": 10,
+      "reason": "insufficient usable years: plant(10<20), harvest(2<20)",
       "status": "OMITTED"
     },
     "24/soybeans": {
@@ -1282,5 +1282,5 @@
     }
   },
   "product_name": "NASS planting-window coverage",
-  "refreshed_at": "2026-05-25T10:53:06Z"
+  "refreshed_at": "2026-06-01T11:05:27Z"
 }

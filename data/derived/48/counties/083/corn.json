@@ -1,0 +1,92 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "083",
+    "name": "COLEMAN"
+  },
+  "rank": {
+    "2017": {
+      "count_in_nation": 1512,
+      "count_in_state": 62,
+      "percentile_in_nation": 0.0582,
+      "percentile_in_state": 0.2951,
+      "rank_in_nation": 1424,
+      "rank_in_state": 44
+    },
+    "2019": {
+      "count_in_nation": 1288,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0039,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1283,
+      "rank_in_state": 57
+    },
+    "2020": {
+      "count_in_nation": 1699,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.0006,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1698,
+      "rank_in_state": 60
+    },
+    "2021": {
+      "count_in_nation": 1502,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0113,
+      "percentile_in_state": 0.0179,
+      "rank_in_nation": 1485,
+      "rank_in_state": 56
+    }
+  },
+  "revenue": {
+    "2017": {
+      "marketing_year": "2017",
+      "price": 3.7,
+      "revenue_per_harvested_acre": 371.85,
+      "revenue_per_planted_acre": 329.8286,
+      "yield": 100.5
+    },
+    "2019": {
+      "marketing_year": "2019",
+      "price": 4.2,
+      "revenue_per_harvested_acre": 265.44,
+      "revenue_per_planted_acre": 247.8,
+      "yield": 63.2
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 4.52,
+      "revenue_per_harvested_acre": 126.56,
+      "revenue_per_planted_acre": 95.8407,
+      "yield": 28.0
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 6.18,
+      "revenue_per_harvested_acre": 323.832,
+      "revenue_per_planted_acre": 240.1676,
+      "yield": 52.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -14.7686,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2020": 63.9,
+      "2021": 61.02
+    },
+    "yoy_pct": {
+      "2020": -55.7,
+      "2021": 87.14
+    }
+  }
+}

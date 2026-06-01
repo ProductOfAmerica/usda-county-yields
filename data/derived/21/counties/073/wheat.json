@@ -1,0 +1,127 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "073",
+    "name": "FRANKLIN"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.6491,
+      "percentile_in_state": 0.7468,
+      "rank_in_nation": 879,
+      "rank_in_state": 21
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.5076,
+      "percentile_in_state": 0.5823,
+      "rank_in_nation": 1240,
+      "rank_in_state": 34
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.4613,
+      "percentile_in_state": 0.241,
+      "rank_in_nation": 1386,
+      "rank_in_state": 64
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.4503,
+      "percentile_in_state": 0.1059,
+      "rank_in_nation": 1389,
+      "rank_in_state": 77
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.5283,
+      "percentile_in_state": 0.6235,
+      "rank_in_nation": 1200,
+      "rank_in_state": 33
+    },
+    "1996": {
+      "count_in_nation": 2008,
+      "count_in_state": 72,
+      "percentile_in_nation": 0.7125,
+      "percentile_in_state": 0.3944,
+      "rank_in_nation": 578,
+      "rank_in_state": 44
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.47,
+      "revenue_per_harvested_acre": 51.45,
+      "revenue_per_planted_acre": 14.7,
+      "yield": 35.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.28,
+      "revenue_per_harvested_acre": 98.4,
+      "revenue_per_planted_acre": 30.2769,
+      "yield": 30.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.77,
+      "revenue_per_harvested_acre": 105.56,
+      "revenue_per_planted_acre": 12.9594,
+      "yield": 28.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.96,
+      "revenue_per_harvested_acre": 85.84,
+      "revenue_per_planted_acre": 11.4453,
+      "yield": 29.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.95,
+      "revenue_per_harvested_acre": 91.45,
+      "revenue_per_planted_acre": 20.3222,
+      "yield": 31.0
+    },
+    "1996": {
+      "marketing_year": "1996",
+      "price": 4.33,
+      "revenue_per_harvested_acre": 190.52,
+      "revenue_per_planted_acre": 44.4547,
+      "yield": 44.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.5726,
+    "trailing_10yr_avg": {
+      "1976": 30.6
+    },
+    "trailing_5yr_avg": {
+      "1974": 31.0,
+      "1975": 30.5,
+      "1976": 30.6
+    },
+    "yoy_pct": {
+      "1973": -14.29,
+      "1974": -6.67,
+      "1975": 3.57,
+      "1976": 6.9
+    }
+  }
+}

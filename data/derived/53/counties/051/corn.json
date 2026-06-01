@@ -1,0 +1,59 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "051",
+    "name": "PEND OREILLE"
+  },
+  "rank": {
+    "1939": {
+      "count_in_nation": 1285,
+      "count_in_state": 30,
+      "percentile_in_nation": 0.5273,
+      "percentile_in_state": 0.6207,
+      "rank_in_nation": 608,
+      "rank_in_state": 12
+    },
+    "1940": {
+      "count_in_nation": 1285,
+      "count_in_state": 30,
+      "percentile_in_nation": 0.6433,
+      "percentile_in_state": 0.6207,
+      "rank_in_nation": 459,
+      "rank_in_state": 12
+    },
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.4352,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1373,
+      "rank_in_state": 16
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.34,
+      "revenue_per_harvested_acre": 77.72,
+      "revenue_per_planted_acre": 29.145,
+      "yield": 58.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.9179,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1940": 13.79
+    }
+  }
+}

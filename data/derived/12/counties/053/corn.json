@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "053",
+    "name": "HERNANDO"
+  },
+  "rank": {
+    "1962": {
+      "count_in_nation": 2319,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.3909,
+      "percentile_in_state": 0.898,
+      "rank_in_nation": 1413,
+      "rank_in_state": 6
+    },
+    "1963": {
+      "count_in_nation": 2353,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.3827,
+      "percentile_in_state": 0.8776,
+      "rank_in_nation": 1453,
+      "rank_in_state": 7
+    },
+    "1964": {
+      "count_in_nation": 2257,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.2398,
+      "percentile_in_state": 0.7551,
+      "rank_in_nation": 1716,
+      "rank_in_state": 13
+    },
+    "1965": {
+      "count_in_nation": 2322,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.2538,
+      "percentile_in_state": 0.4082,
+      "rank_in_nation": 1733,
+      "rank_in_state": 30
+    }
+  },
+  "revenue": {
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.19,
+      "revenue_per_harvested_acre": 49.98,
+      "revenue_per_planted_acre": 24.99,
+      "yield": 42.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.16,
+      "revenue_per_harvested_acre": 51.04,
+      "revenue_per_planted_acre": 40.832,
+      "yield": 44.0
+    },
+    "1964": {
+      "marketing_year": "1964",
+      "price": 1.23,
+      "revenue_per_harvested_acre": 41.82,
+      "revenue_per_planted_acre": 34.85,
+      "yield": 34.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.2,
+      "revenue_per_harvested_acre": 50.4,
+      "revenue_per_planted_acre": 42.0,
+      "yield": 42.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -1.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1964": 40.0,
+      "1965": 40.5
+    },
+    "yoy_pct": {
+      "1963": 4.76,
+      "1964": -22.73,
+      "1965": 23.53
+    }
+  }
+}

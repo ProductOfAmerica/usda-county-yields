@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "085",
+    "name": "ONEIDA"
+  },
+  "rank": {
+    "1951": {
+      "count_in_nation": 1009,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.0873,
+      "percentile_in_state": 0.1111,
+      "rank_in_nation": 921,
+      "rank_in_state": 57
+    },
+    "1953": {
+      "count_in_nation": 1002,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.4675,
+      "percentile_in_state": 0.6212,
+      "rank_in_nation": 534,
+      "rank_in_state": 26
+    },
+    "1960": {
+      "count_in_nation": 1167,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.1475,
+      "percentile_in_state": 0.5263,
+      "rank_in_nation": 995,
+      "rank_in_state": 28
+    }
+  },
+  "revenue": {
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.69,
+      "revenue_per_harvested_acre": 32.28,
+      "revenue_per_planted_acre": 10.76,
+      "yield": 12.0
+    },
+    "1953": {
+      "marketing_year": "1953",
+      "price": 2.66,
+      "revenue_per_harvested_acre": 39.9,
+      "revenue_per_planted_acre": 39.9,
+      "yield": 15.0
+    },
+    "1960": {
+      "marketing_year": "1960",
+      "price": 1.96,
+      "revenue_per_harvested_acre": 31.36,
+      "revenue_per_planted_acre": 31.36,
+      "yield": 16.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WI",
+    "fips": "55",
+    "name": "WISCONSIN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3657,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

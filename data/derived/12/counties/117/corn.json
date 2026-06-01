@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "117",
+    "name": "SEMINOLE"
+  },
+  "rank": {
+    "1961": {
+      "count_in_nation": 2305,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.3333,
+      "percentile_in_state": 0.9348,
+      "rank_in_nation": 1537,
+      "rank_in_state": 4
+    },
+    "1962": {
+      "count_in_nation": 2319,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.4206,
+      "percentile_in_state": 0.9184,
+      "rank_in_nation": 1344,
+      "rank_in_state": 5
+    },
+    "1963": {
+      "count_in_nation": 2353,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.321,
+      "percentile_in_state": 0.7347,
+      "rank_in_nation": 1598,
+      "rank_in_state": 14
+    },
+    "1964": {
+      "count_in_nation": 2257,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.3879,
+      "percentile_in_state": 0.9184,
+      "rank_in_nation": 1382,
+      "rank_in_state": 5
+    },
+    "1965": {
+      "count_in_nation": 2322,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.2719,
+      "percentile_in_state": 0.449,
+      "rank_in_nation": 1691,
+      "rank_in_state": 28
+    }
+  },
+  "revenue": {
+    "1961": {
+      "marketing_year": "1961",
+      "price": 1.07,
+      "revenue_per_harvested_acre": 42.8,
+      "revenue_per_planted_acre": 7.1333,
+      "yield": 40.0
+    },
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.19,
+      "revenue_per_harvested_acre": 52.36,
+      "revenue_per_planted_acre": 13.09,
+      "yield": 44.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.16,
+      "revenue_per_harvested_acre": 46.4,
+      "revenue_per_planted_acre": 30.9333,
+      "yield": 40.0
+    },
+    "1964": {
+      "marketing_year": "1964",
+      "price": 1.23,
+      "revenue_per_harvested_acre": 51.66,
+      "revenue_per_planted_acre": 25.83,
+      "yield": 42.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.2,
+      "revenue_per_harvested_acre": 51.6,
+      "revenue_per_planted_acre": 25.8,
+      "yield": 43.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4,
+    "trailing_10yr_avg": {
+      "1965": 41.8
+    },
+    "trailing_5yr_avg": {
+      "1963": 41.33,
+      "1964": 41.5,
+      "1965": 41.8
+    },
+    "yoy_pct": {
+      "1962": 10.0,
+      "1963": -9.09,
+      "1964": 5.0,
+      "1965": 2.38
+    }
+  }
+}

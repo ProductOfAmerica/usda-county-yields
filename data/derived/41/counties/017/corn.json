@@ -1,0 +1,174 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "017",
+    "name": "DESCHUTES"
+  },
+  "rank": {
+    "1958": {
+      "count_in_nation": 2058,
+      "count_in_state": 22,
+      "percentile_in_nation": 0.4346,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1164,
+      "rank_in_state": 22
+    },
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 22,
+      "percentile_in_nation": 0.0488,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 2067,
+      "rank_in_state": 22
+    },
+    "1960": {
+      "count_in_nation": 2201,
+      "count_in_state": 22,
+      "percentile_in_nation": 0.0418,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 2109,
+      "rank_in_state": 22
+    },
+    "1973": {
+      "count_in_nation": 2480,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.7797,
+      "percentile_in_state": 0.6667,
+      "rank_in_nation": 547,
+      "rank_in_state": 5
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.6743,
+      "percentile_in_state": 0.4286,
+      "rank_in_nation": 824,
+      "rank_in_state": 9
+    },
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.6616,
+      "percentile_in_state": 0.6667,
+      "rank_in_nation": 849,
+      "rank_in_state": 5
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.7856,
+      "percentile_in_state": 0.6667,
+      "rank_in_nation": 541,
+      "rank_in_state": 6
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.618,
+      "percentile_in_state": 0.5714,
+      "rank_in_nation": 967,
+      "rank_in_state": 7
+    },
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.0313,
+      "percentile_in_state": 0.7826,
+      "rank_in_nation": 2013,
+      "rank_in_state": 6
+    }
+  },
+  "revenue": {
+    "1958": {
+      "marketing_year": "1958",
+      "price": 1.44,
+      "revenue_per_harvested_acre": 57.6,
+      "revenue_per_planted_acre": 28.8,
+      "yield": 40.0
+    },
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.46,
+      "revenue_per_harvested_acre": 23.36,
+      "revenue_per_planted_acre": 2.92,
+      "yield": 16.0
+    },
+    "1960": {
+      "marketing_year": "1960",
+      "price": 1.37,
+      "revenue_per_harvested_acre": 27.4,
+      "revenue_per_planted_acre": 6.85,
+      "yield": 20.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.1,
+      "revenue_per_harvested_acre": 279.0,
+      "revenue_per_planted_acre": 279.0,
+      "yield": 90.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.6,
+      "revenue_per_harvested_acre": 262.8,
+      "revenue_per_planted_acre": 175.2,
+      "yield": 73.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.05,
+      "revenue_per_harvested_acre": 244.0,
+      "revenue_per_planted_acre": 122.0,
+      "yield": 80.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.75,
+      "revenue_per_harvested_acre": 261.25,
+      "revenue_per_planted_acre": 261.25,
+      "yield": 95.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.45,
+      "revenue_per_harvested_acre": 205.8,
+      "revenue_per_planted_acre": 205.8,
+      "yield": 84.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.41,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0347,
+    "trailing_10yr_avg": {
+      "1977": 84.4
+    },
+    "trailing_5yr_avg": {
+      "1960": 25.33,
+      "1975": 81.0,
+      "1976": 84.5,
+      "1977": 84.4
+    },
+    "yoy_pct": {
+      "1959": -60.0,
+      "1960": 25.0,
+      "1974": -18.89,
+      "1975": 9.59,
+      "1976": 18.75,
+      "1977": -11.58
+    }
+  }
+}

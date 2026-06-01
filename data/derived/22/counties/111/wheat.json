@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "111",
+    "name": "UNION"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.1692,
+      "percentile_in_state": 0.8864,
+      "rank_in_nation": 2137,
+      "rank_in_state": 6
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.95,
+      "revenue_per_harvested_acre": 79.0,
+      "revenue_per_planted_acre": 19.75,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

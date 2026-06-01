@@ -1,0 +1,197 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "133",
+    "name": "WASHINGTON"
+  },
+  "rank": {
+    "1926": {
+      "count_in_nation": 752,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.1651,
+      "percentile_in_state": 0.6866,
+      "rank_in_nation": 628,
+      "rank_in_state": 22
+    },
+    "1927": {
+      "count_in_nation": 841,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.7881,
+      "percentile_in_state": 0.7463,
+      "rank_in_nation": 179,
+      "rank_in_state": 18
+    },
+    "1928": {
+      "count_in_nation": 838,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.5544,
+      "percentile_in_state": 0.806,
+      "rank_in_nation": 374,
+      "rank_in_state": 14
+    },
+    "1929": {
+      "count_in_nation": 971,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.5753,
+      "percentile_in_state": 0.7164,
+      "rank_in_nation": 413,
+      "rank_in_state": 20
+    },
+    "1930": {
+      "count_in_nation": 934,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.3248,
+      "percentile_in_state": 0.5522,
+      "rank_in_nation": 631,
+      "rank_in_state": 31
+    },
+    "1931": {
+      "count_in_nation": 1030,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.0632,
+      "percentile_in_state": 0.4328,
+      "rank_in_nation": 965,
+      "rank_in_state": 39
+    },
+    "1932": {
+      "count_in_nation": 1031,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.3621,
+      "percentile_in_state": 0.1791,
+      "rank_in_nation": 658,
+      "rank_in_state": 56
+    },
+    "1933": {
+      "count_in_nation": 1033,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.0552,
+      "percentile_in_state": 0.597,
+      "rank_in_nation": 976,
+      "rank_in_state": 28
+    },
+    "1934": {
+      "count_in_nation": 1111,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.1063,
+      "percentile_in_state": 0.6481,
+      "rank_in_nation": 993,
+      "rank_in_state": 20
+    },
+    "1935": {
+      "count_in_nation": 1078,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.2981,
+      "percentile_in_state": 0.5373,
+      "rank_in_nation": 757,
+      "rank_in_state": 32
+    },
+    "1936": {
+      "count_in_nation": 1031,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.0942,
+      "percentile_in_state": 0.5088,
+      "rank_in_nation": 934,
+      "rank_in_state": 29
+    },
+    "1937": {
+      "count_in_nation": 1035,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.0687,
+      "percentile_in_state": 0.3433,
+      "rank_in_nation": 964,
+      "rank_in_state": 45
+    },
+    "1938": {
+      "count_in_nation": 1033,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.0368,
+      "percentile_in_state": 0.2687,
+      "rank_in_nation": 995,
+      "rank_in_state": 50
+    },
+    "1939": {
+      "count_in_nation": 1151,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.0678,
+      "percentile_in_state": 0.4328,
+      "rank_in_nation": 1073,
+      "rank_in_state": 39
+    },
+    "1940": {
+      "count_in_nation": 1184,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.0169,
+      "percentile_in_state": 0.0896,
+      "rank_in_nation": 1164,
+      "rank_in_state": 62
+    },
+    "1941": {
+      "count_in_nation": 1238,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.1269,
+      "percentile_in_state": 0.2985,
+      "rank_in_nation": 1081,
+      "rank_in_state": 48
+    }
+  },
+  "revenue": {},
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.5521,
+    "trailing_10yr_avg": {
+      "1930": 13.42,
+      "1931": 11.95,
+      "1932": 11.93,
+      "1933": 10.94,
+      "1934": 10.17,
+      "1935": 10.14,
+      "1936": 9.7,
+      "1937": 8.35,
+      "1938": 7.4,
+      "1939": 6.68,
+      "1940": 5.92,
+      "1941": 6.47
+    },
+    "trailing_5yr_avg": {
+      "1928": 13.6,
+      "1929": 13.62,
+      "1930": 13.42,
+      "1931": 12.62,
+      "1932": 11.44,
+      "1933": 9.34,
+      "1934": 7.4,
+      "1935": 6.86,
+      "1936": 6.78,
+      "1937": 5.26,
+      "1938": 5.46,
+      "1939": 5.96,
+      "1940": 4.98,
+      "1941": 6.16
+    },
+    "yoy_pct": {
+      "1927": 105.81,
+      "1928": -18.08,
+      "1929": -5.52,
+      "1930": -8.03,
+      "1931": -63.49,
+      "1932": 156.52,
+      "1933": -66.1,
+      "1934": 0.0,
+      "1935": 147.5,
+      "1936": -57.58,
+      "1937": 0.0,
+      "1938": 19.05,
+      "1939": 30.0,
+      "1940": -23.08,
+      "1941": 102.0
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "057",
+    "name": "CUMBERLAND"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.2925,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1820,
+      "rank_in_state": 84
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.4503,
+      "percentile_in_state": 0.1059,
+      "rank_in_nation": 1389,
+      "rank_in_state": 77
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.5838,
+      "percentile_in_state": 0.7059,
+      "rank_in_nation": 1059,
+      "rank_in_state": 26
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.77,
+      "revenue_per_harvested_acre": 90.48,
+      "revenue_per_planted_acre": 45.24,
+      "yield": 24.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.96,
+      "revenue_per_harvested_acre": 85.84,
+      "revenue_per_planted_acre": 28.6133,
+      "yield": 29.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.95,
+      "revenue_per_harvested_acre": 94.4,
+      "revenue_per_planted_acre": 47.2,
+      "yield": 32.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 4.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1976": 28.33
+    },
+    "yoy_pct": {
+      "1975": 20.83,
+      "1976": 10.34
+    }
+  }
+}

@@ -7,14 +7,108 @@
     "code": "041",
     "name": "FOREST"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {
+        "2022": 9.0,
+        "2023": 21.9,
+        "2025": 37.8
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1945": 10.0,
+        "1946": 10.0,
+        "1974": 50.0,
+        "1975": 50.0,
+        "2022": 400.0,
+        "2023": 490.0,
+        "2025": 890.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2022": 9.0,
+        "2023": 21.9,
+        "2025": 37.6
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1938": 10.0,
+        "1940": 10.0,
+        "1942": 40.0,
+        "1944": 10.0,
+        "1945": 40.0,
+        "1946": 50.0,
+        "1947": 10.0,
+        "1948": 10.0,
+        "1949": 10.0,
+        "1950": 10.0,
+        "1951": 10.0,
+        "1953": 10.0,
+        "1954": 10.0,
+        "1955": 20.0,
+        "1956": 10.0,
+        "1974": 50.0,
+        "1975": 50.0,
+        "2022": 400.0,
+        "2023": 500.0,
+        "2025": 900.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2022": 13.1,
+        "2023": 21.9,
+        "2025": 39.2
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1945": 110.0,
+        "1946": 130.0,
+        "1974": 700.0,
+        "1975": 1000.0,
+        "2022": 12900.0,
+        "2023": 14100.0,
+        "2025": 35500.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2022": 8.7,
+        "2023": 1.6,
+        "2025": 9.6
+      },
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -30,9 +124,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / NET PLANTED ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

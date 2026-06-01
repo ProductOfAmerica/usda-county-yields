@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "102",
+    "name": "OGLALA LAKOTA"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.083,
+      "percentile_in_state": 0.15,
+      "rank_in_nation": 1525,
+      "rank_in_state": 52
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.27,
+      "revenue_per_harvested_acre": 68.32,
+      "revenue_per_planted_acre": 53.9368,
+      "yield": 16.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

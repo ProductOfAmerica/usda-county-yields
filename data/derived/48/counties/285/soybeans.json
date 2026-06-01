@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "285",
+    "name": "LAVACA"
+  },
+  "rank": {
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.1627,
+      "percentile_in_state": 0.2338,
+      "rank_in_nation": 1540,
+      "rank_in_state": 60
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.2936,
+      "percentile_in_state": 0.3553,
+      "rank_in_nation": 1312,
+      "rank_in_state": 50
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 69,
+      "percentile_in_nation": 0.093,
+      "percentile_in_state": 0.2941,
+      "rank_in_nation": 1707,
+      "rank_in_state": 49
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.4944,
+      "percentile_in_state": 0.4727,
+      "rank_in_nation": 944,
+      "rank_in_state": 30
+    }
+  },
+  "revenue": {
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 102.72,
+      "revenue_per_planted_acre": 95.5357,
+      "yield": 19.2
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.3,
+      "revenue_per_harvested_acre": 136.71,
+      "revenue_per_planted_acre": 136.5,
+      "yield": 21.7
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 132.44,
+      "revenue_per_planted_acre": 132.44,
+      "yield": 22.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.72,
+      "revenue_per_harvested_acre": 167.524,
+      "revenue_per_planted_acre": 167.2667,
+      "yield": 21.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.78,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1979": 20.97,
+      "1980": 21.15
+    },
+    "yoy_pct": {
+      "1978": 13.02,
+      "1979": 1.38,
+      "1980": -1.36
+    }
+  }
+}

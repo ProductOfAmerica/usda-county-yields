@@ -1,0 +1,76 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "097",
+    "name": "MACKINAC"
+  },
+  "rank": {
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.4877,
+      "percentile_in_state": 0.3731,
+      "rank_in_nation": 961,
+      "rank_in_state": 43
+    },
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.372,
+      "percentile_in_state": 0.2985,
+      "rank_in_nation": 1164,
+      "rank_in_state": 48
+    },
+    "1986": {
+      "count_in_nation": 1814,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.4308,
+      "percentile_in_state": 0.3016,
+      "rank_in_nation": 1033,
+      "rank_in_state": 45
+    }
+  },
+  "revenue": {
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.79,
+      "revenue_per_harvested_acre": 150.54,
+      "revenue_per_planted_acre": 150.54,
+      "yield": 26.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 4.93,
+      "revenue_per_harvested_acre": 133.11,
+      "revenue_per_planted_acre": 133.11,
+      "yield": 27.0
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 4.67,
+      "revenue_per_harvested_acre": 126.09,
+      "revenue_per_planted_acre": 126.09,
+      "yield": 27.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.5,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1986": 26.67
+    },
+    "yoy_pct": {
+      "1985": 3.85,
+      "1986": 0.0
+    }
+  }
+}

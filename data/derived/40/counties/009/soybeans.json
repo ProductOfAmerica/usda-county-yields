@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "009",
+    "name": "BECKHAM"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.0505,
+      "percentile_in_state": 0.3158,
+      "rank_in_nation": 1579,
+      "rank_in_state": 40
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.25,
+      "revenue_per_harvested_acre": 60.775,
+      "revenue_per_planted_acre": 28.3333,
+      "yield": 14.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

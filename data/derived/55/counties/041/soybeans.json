@@ -1,0 +1,137 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "041",
+    "name": "FOREST"
+  },
+  "rank": {
+    "1945": {
+      "count_in_nation": 738,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.2212,
+      "percentile_in_state": 0.0909,
+      "rank_in_nation": 575,
+      "rank_in_state": 61
+    },
+    "1946": {
+      "count_in_nation": 739,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.2534,
+      "percentile_in_state": 0.7576,
+      "rank_in_nation": 552,
+      "rank_in_state": 17
+    },
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.0402,
+      "percentile_in_state": 0.1746,
+      "rank_in_nation": 1744,
+      "rank_in_state": 53
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.172,
+      "percentile_in_state": 0.4746,
+      "rank_in_nation": 1484,
+      "rank_in_state": 32
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.1219,
+      "percentile_in_state": 0.0159,
+      "rank_in_nation": 1226,
+      "rank_in_state": 63
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 62,
+      "percentile_in_nation": 0.0797,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1202,
+      "rank_in_state": 62
+    },
+    "2025": {
+      "count_in_nation": 1100,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.2784,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 794,
+      "rank_in_state": 63
+    }
+  },
+  "revenue": {
+    "1945": {
+      "marketing_year": "1945",
+      "price": 2.11,
+      "revenue_per_harvested_acre": 23.21,
+      "revenue_per_planted_acre": 5.8025,
+      "yield": 11.0
+    },
+    "1946": {
+      "marketing_year": "1946",
+      "price": 2.9,
+      "revenue_per_harvested_acre": 37.7,
+      "revenue_per_planted_acre": 7.54,
+      "yield": 13.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.38,
+      "revenue_per_harvested_acre": 89.32,
+      "revenue_per_planted_acre": 89.32,
+      "yield": 14.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.87,
+      "revenue_per_harvested_acre": 97.4,
+      "revenue_per_planted_acre": 97.4,
+      "yield": 20.0
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 13.8,
+      "revenue_per_harvested_acre": 445.74,
+      "revenue_per_planted_acre": 445.05,
+      "yield": 32.3
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.4,
+      "revenue_per_harvested_acre": 357.12,
+      "revenue_per_planted_acre": 349.68,
+      "yield": 28.8
+    },
+    "2025": {
+      "marketing_year": "2025",
+      "price": 9.9,
+      "revenue_per_harvested_acre": 395.01,
+      "revenue_per_planted_acre": 390.5,
+      "yield": 39.9
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WI",
+    "fips": "55",
+    "name": "WISCONSIN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2905,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2025": 33.67
+    },
+    "yoy_pct": {
+      "1946": 18.18,
+      "1975": 42.86,
+      "2023": -10.84
+    }
+  }
+}

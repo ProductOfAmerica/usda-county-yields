@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "063",
+    "name": "CAMP"
+  },
+  "rank": {
+    "1989": {
+      "count_in_nation": 2359,
+      "count_in_state": 185,
+      "percentile_in_nation": 0.4338,
+      "percentile_in_state": 0.962,
+      "rank_in_nation": 1336,
+      "rank_in_state": 8
+    },
+    "1990": {
+      "count_in_nation": 2329,
+      "count_in_state": 184,
+      "percentile_in_nation": 0.0477,
+      "percentile_in_state": 0.2186,
+      "rank_in_nation": 2218,
+      "rank_in_state": 144
+    },
+    "1996": {
+      "count_in_nation": 2008,
+      "count_in_state": 173,
+      "percentile_in_nation": 0.3812,
+      "percentile_in_state": 0.8605,
+      "rank_in_nation": 1243,
+      "rank_in_state": 25
+    }
+  },
+  "revenue": {
+    "1989": {
+      "marketing_year": "1989",
+      "price": 3.79,
+      "revenue_per_harvested_acre": 130.755,
+      "revenue_per_planted_acre": 62.6174,
+      "yield": 34.5
+    },
+    "1990": {
+      "marketing_year": "1990",
+      "price": 2.74,
+      "revenue_per_harvested_acre": 58.362,
+      "revenue_per_planted_acre": 33.2714,
+      "yield": 21.3
+    },
+    "1996": {
+      "marketing_year": "1996",
+      "price": 4.98,
+      "revenue_per_harvested_acre": 174.3,
+      "revenue_per_planted_acre": 34.86,
+      "yield": 35.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.843,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1990": -38.26
+    }
+  }
+}

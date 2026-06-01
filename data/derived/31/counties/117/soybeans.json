@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "117",
+    "name": "MCPHERSON"
+  },
+  "rank": {
+    "1988": {
+      "count_in_nation": 1814,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.9829,
+      "percentile_in_state": 0.8675,
+      "rank_in_nation": 32,
+      "rank_in_state": 12
+    },
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.5006,
+      "percentile_in_state": 0.3797,
+      "rank_in_nation": 831,
+      "rank_in_state": 50
+    }
+  },
+  "revenue": {
+    "1988": {
+      "marketing_year": "1988",
+      "price": 7.31,
+      "revenue_per_harvested_acre": 292.4,
+      "revenue_per_planted_acre": 292.4,
+      "yield": 40.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.44,
+      "revenue_per_harvested_acre": 158.064,
+      "revenue_per_planted_acre": 158.064,
+      "yield": 35.6
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.3667,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

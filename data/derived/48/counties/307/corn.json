@@ -1,0 +1,86 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "307",
+    "name": "MCCULLOCH"
+  },
+  "rank": {
+    "1970": {
+      "count_in_nation": 2397,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.2913,
+      "percentile_in_state": 0.4597,
+      "rank_in_nation": 1699,
+      "rank_in_state": 68
+    },
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 106,
+      "percentile_in_nation": 0.2427,
+      "percentile_in_state": 0.4571,
+      "rank_in_nation": 1574,
+      "rank_in_state": 58
+    },
+    "2002": {
+      "count_in_nation": 2086,
+      "count_in_state": 109,
+      "percentile_in_nation": 0.2484,
+      "percentile_in_state": 0.4444,
+      "rank_in_nation": 1568,
+      "rank_in_state": 61
+    },
+    "2010": {
+      "count_in_nation": 1750,
+      "count_in_state": 75,
+      "percentile_in_nation": 0.0314,
+      "percentile_in_state": 0.0405,
+      "rank_in_nation": 1695,
+      "rank_in_state": 72
+    }
+  },
+  "revenue": {
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.42,
+      "revenue_per_harvested_acre": 53.534,
+      "revenue_per_planted_acre": 35.6578,
+      "yield": 37.7
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.18,
+      "revenue_per_harvested_acre": 206.446,
+      "revenue_per_planted_acre": 57.3259,
+      "yield": 94.7
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 2.57,
+      "revenue_per_harvested_acre": 188.381,
+      "revenue_per_planted_acre": 80.7714,
+      "yield": 73.3
+    },
+    "2010": {
+      "marketing_year": "2010",
+      "price": 4.67,
+      "revenue_per_harvested_acre": 261.52,
+      "revenue_per_planted_acre": 261.52,
+      "yield": 56.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.8161,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

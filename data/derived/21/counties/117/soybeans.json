@@ -1,0 +1,104 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "117",
+    "name": "KENTON"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 1724,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.5932,
+      "percentile_in_state": 0.4756,
+      "rank_in_nation": 702,
+      "rank_in_state": 44
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 79,
+      "percentile_in_nation": 0.8342,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 298,
+      "rank_in_state": 1
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 79,
+      "percentile_in_nation": 0.8625,
+      "percentile_in_state": 0.9359,
+      "rank_in_nation": 247,
+      "rank_in_state": 6
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 76,
+      "percentile_in_nation": 0.5322,
+      "percentile_in_state": 0.2667,
+      "rank_in_nation": 633,
+      "rank_in_state": 56
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.6506,
+      "percentile_in_state": 0.4839,
+      "rank_in_nation": 457,
+      "rank_in_state": 33
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 4.06,
+      "revenue_per_harvested_acre": 101.5,
+      "yield": 25.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.87,
+      "revenue_per_harvested_acre": 150.97,
+      "revenue_per_planted_acre": 100.6467,
+      "yield": 31.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.74,
+      "revenue_per_harvested_acre": 212.31,
+      "revenue_per_planted_acre": 141.54,
+      "yield": 31.5
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 13.1,
+      "revenue_per_harvested_acre": 672.03,
+      "revenue_per_planted_acre": 671.375,
+      "yield": 51.3
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.8,
+      "revenue_per_harvested_acre": 678.4,
+      "revenue_per_planted_acre": 678.4,
+      "yield": 53.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4863,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1976": 29.17
+    },
+    "yoy_pct": {
+      "1976": 1.61
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "029",
+    "name": "OCEAN"
+  },
+  "rank": {
+    "1955": {
+      "count_in_nation": 1650,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.8144,
+      "percentile_in_state": 0.7368,
+      "rank_in_nation": 307,
+      "rank_in_state": 6
+    },
+    "1961": {
+      "count_in_nation": 1931,
+      "count_in_state": 17,
+      "percentile_in_nation": 0.8093,
+      "percentile_in_state": 0.5,
+      "rank_in_nation": 369,
+      "rank_in_state": 9
+    },
+    "1962": {
+      "count_in_nation": 1760,
+      "count_in_state": 17,
+      "percentile_in_nation": 0.8255,
+      "percentile_in_state": 0.5625,
+      "rank_in_nation": 308,
+      "rank_in_state": 8
+    },
+    "1965": {
+      "count_in_nation": 1837,
+      "count_in_state": 17,
+      "percentile_in_nation": 0.8617,
+      "percentile_in_state": 0.4375,
+      "rank_in_nation": 255,
+      "rank_in_state": 10
+    }
+  },
+  "revenue": {
+    "1955": {
+      "marketing_year": "1955",
+      "price": 2.08,
+      "revenue_per_harvested_acre": 62.4,
+      "yield": 30.0
+    },
+    "1961": {
+      "marketing_year": "1961",
+      "price": 1.77,
+      "revenue_per_harvested_acre": 54.87,
+      "yield": 31.0
+    },
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.98,
+      "revenue_per_harvested_acre": 63.36,
+      "yield": 32.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.4,
+      "revenue_per_harvested_acre": 47.6,
+      "yield": 34.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3744,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1965": 32.33
+    },
+    "yoy_pct": {
+      "1962": 3.23
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "061",
+    "name": "CAMERON"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 167,
+      "percentile_in_nation": 0.3306,
+      "percentile_in_state": 0.9398,
+      "rank_in_nation": 1722,
+      "rank_in_state": 11
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 181,
+      "percentile_in_nation": 0.2301,
+      "percentile_in_state": 0.7389,
+      "rank_in_nation": 1945,
+      "rank_in_state": 48
+    },
+    "1978": {
+      "count_in_nation": 2420,
+      "count_in_state": 188,
+      "percentile_in_nation": 0.8884,
+      "percentile_in_state": 0.9733,
+      "rank_in_nation": 271,
+      "rank_in_state": 6
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.87,
+      "revenue_per_harvested_acre": 97.137,
+      "revenue_per_planted_acre": 75.68,
+      "yield": 25.1
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.38,
+      "revenue_per_harvested_acre": 82.134,
+      "revenue_per_planted_acre": 72.5706,
+      "yield": 24.3
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 2.93,
+      "revenue_per_harvested_acre": 117.2,
+      "revenue_per_planted_acre": 33.4857,
+      "yield": 40.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 4.0731,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1978": 29.8
+    },
+    "yoy_pct": {
+      "1975": -3.19
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "077",
+    "name": "PRESTON"
+  },
+  "rank": {
+    "2015": {
+      "count_in_nation": 1335,
+      "count_in_state": 4,
+      "percentile_in_nation": 0.2361,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1020,
+      "rank_in_state": 4
+    }
+  },
+  "revenue": {
+    "2015": {
+      "marketing_year": "2015",
+      "price": 8.8,
+      "revenue_per_harvested_acre": 322.08,
+      "revenue_per_planted_acre": 302.72,
+      "yield": 36.6
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

@@ -7,14 +7,392 @@
     "code": "035",
     "name": "KITSAP"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1939": 30.0,
+        "1940": 20.0,
+        "1941": 20.0,
+        "1944": 10.0,
+        "1945": 10.0,
+        "1946": 10.0,
+        "1947": 20.0,
+        "1948": 50.0,
+        "1950": 30.0,
+        "1964": 10.0,
+        "1965": 10.0,
+        "1968": 60.0,
+        "1969": 270.0,
+        "1971": 70.0,
+        "1972": 20.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, CONTINUOUS CROP - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 20.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1963": 10.0,
+        "1964": 20.0,
+        "1965": 20.0,
+        "1966": 10.0,
+        "1967": 10.0,
+        "1968": 90.0,
+        "1969": 370.0,
+        "1971": 110.0,
+        "1972": 40.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 40.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 40.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 40.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 40.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, CONTINUOUS CROP - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 40.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - ACRES PLANTED, NET",
+      "statistic": "AREA PLANTED, NET",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 40.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - ACRES PLANTED, NET",
+      "statistic": "AREA PLANTED, NET",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 40.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - ACRES PLANTED, NET",
+      "statistic": "AREA PLANTED, NET",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 40.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - ACRES PLANTED, NET",
+      "statistic": "AREA PLANTED, NET",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 40.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - ACRES PLANTED, NET",
+      "statistic": "AREA PLANTED, NET",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 40.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, CONTINUOUS CROP - ACRES PLANTED, NET",
+      "statistic": "AREA PLANTED, NET",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 40.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1939": 1200.0,
+        "1940": 500.0,
+        "1941": 500.0,
+        "1944": 350.0,
+        "1945": 380.0,
+        "1946": 400.0,
+        "1947": 740.0,
+        "1948": 1600.0,
+        "1950": 900.0,
+        "1964": 220.0,
+        "1965": 200.0,
+        "1968": 1740.0,
+        "1969": 6610.0,
+        "1971": 2100.0,
+        "1972": 600.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 600.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 600.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 600.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 600.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED, CONTINUOUS CROP - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 600.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -38,9 +416,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "WHEAT - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / NET PLANTED ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -50,9 +430,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -62,9 +444,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / NET PLANTED ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -74,9 +458,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
       "raw": {},
       "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -86,9 +472,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
       "raw": {},
       "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / NET PLANTED ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -98,9 +486,11 @@
     },
     {
       "class": "WINTER",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -110,9 +500,11 @@
     },
     {
       "class": "WINTER",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / NET PLANTED ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -122,9 +514,11 @@
     },
     {
       "class": "WINTER",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, WINTER, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -134,9 +528,11 @@
     },
     {
       "class": "WINTER",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, WINTER, NON-IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / NET PLANTED ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -146,9 +542,11 @@
     },
     {
       "class": "WINTER",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
       "raw": {},
       "short_desc": "WHEAT, WINTER, NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -158,9 +556,11 @@
     },
     {
       "class": "WINTER",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
       "raw": {},
       "short_desc": "WHEAT, WINTER, NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / NET PLANTED ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

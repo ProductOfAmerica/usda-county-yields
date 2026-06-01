@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "113",
+    "name": "MISSAUKEE"
+  },
+  "rank": {
+    "1988": {
+      "count_in_nation": 1814,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.2217,
+      "percentile_in_state": 0.127,
+      "rank_in_nation": 1412,
+      "rank_in_state": 56
+    },
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 65,
+      "percentile_in_nation": 0.3646,
+      "percentile_in_state": 0.1094,
+      "rank_in_nation": 1160,
+      "rank_in_state": 58
+    }
+  },
+  "revenue": {
+    "1988": {
+      "marketing_year": "1988",
+      "price": 7.28,
+      "revenue_per_harvested_acre": 152.88,
+      "revenue_per_planted_acre": 152.88,
+      "yield": 21.0
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.6,
+      "revenue_per_harvested_acre": 145.6,
+      "revenue_per_planted_acre": 145.6,
+      "yield": 26.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 5.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1989": 23.81
+    }
+  }
+}

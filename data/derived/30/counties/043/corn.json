@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "043",
+    "name": "JEFFERSON"
+  },
+  "rank": {
+    "1948": {
+      "count_in_nation": 1442,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.2769,
+      "percentile_in_state": 0.8421,
+      "rank_in_nation": 1043,
+      "rank_in_state": 7
+    },
+    "1953": {
+      "count_in_nation": 1596,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.2903,
+      "percentile_in_state": 0.7353,
+      "rank_in_nation": 1133,
+      "rank_in_state": 10
+    },
+    "1954": {
+      "count_in_nation": 1756,
+      "count_in_state": 37,
+      "percentile_in_nation": 0.5214,
+      "percentile_in_state": 0.7222,
+      "rank_in_nation": 841,
+      "rank_in_state": 11
+    }
+  },
+  "revenue": {
+    "1948": {
+      "marketing_year": "1948",
+      "price": 1.51,
+      "revenue_per_harvested_acre": 43.79,
+      "revenue_per_planted_acre": 43.79,
+      "yield": 29.0
+    },
+    "1953": {
+      "marketing_year": "1953",
+      "price": 1.49,
+      "revenue_per_harvested_acre": 37.25,
+      "revenue_per_planted_acre": 37.25,
+      "yield": 25.0
+    },
+    "1954": {
+      "marketing_year": "1954",
+      "price": 1.51,
+      "revenue_per_harvested_acre": 45.3,
+      "revenue_per_planted_acre": 45.3,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.1452,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1954": 20.0
+    }
+  }
+}

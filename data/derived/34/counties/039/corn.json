@@ -1,0 +1,188 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "039",
+    "name": "UNION"
+  },
+  "rank": {
+    "1953": {
+      "count_in_nation": 1596,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.7442,
+      "percentile_in_state": 0.3684,
+      "rank_in_nation": 409,
+      "rank_in_state": 13
+    },
+    "1954": {
+      "count_in_nation": 1756,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.7077,
+      "percentile_in_state": 0.3684,
+      "rank_in_nation": 514,
+      "rank_in_state": 13
+    },
+    "1955": {
+      "count_in_nation": 1864,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.2925,
+      "percentile_in_state": 0.6316,
+      "rank_in_nation": 1319,
+      "rank_in_state": 8
+    },
+    "1956": {
+      "count_in_nation": 1906,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.9339,
+      "percentile_in_state": 0.4737,
+      "rank_in_nation": 127,
+      "rank_in_state": 11
+    },
+    "1957": {
+      "count_in_nation": 1881,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.1713,
+      "percentile_in_state": 0.35,
+      "rank_in_nation": 1559,
+      "rank_in_state": 14
+    },
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.9383,
+      "percentile_in_state": 0.5,
+      "rank_in_nation": 135,
+      "rank_in_state": 11
+    },
+    "1960": {
+      "count_in_nation": 2201,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.9359,
+      "percentile_in_state": 0.55,
+      "rank_in_nation": 142,
+      "rank_in_state": 10
+    },
+    "1961": {
+      "count_in_nation": 2305,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.8446,
+      "percentile_in_state": 0.6,
+      "rank_in_nation": 359,
+      "rank_in_state": 9
+    },
+    "1962": {
+      "count_in_nation": 2319,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.8533,
+      "percentile_in_state": 0.6,
+      "rank_in_nation": 341,
+      "rank_in_state": 9
+    },
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.6525,
+      "percentile_in_state": 0.5263,
+      "rank_in_nation": 845,
+      "rank_in_state": 10
+    }
+  },
+  "revenue": {
+    "1953": {
+      "marketing_year": "1953",
+      "price": 1.63,
+      "revenue_per_harvested_acre": 78.24,
+      "yield": 48.0
+    },
+    "1954": {
+      "marketing_year": "1954",
+      "price": 1.59,
+      "revenue_per_harvested_acre": 66.78,
+      "yield": 42.0
+    },
+    "1955": {
+      "marketing_year": "1955",
+      "price": 1.46,
+      "revenue_per_harvested_acre": 39.42,
+      "yield": 27.0
+    },
+    "1956": {
+      "marketing_year": "1956",
+      "price": 1.41,
+      "revenue_per_harvested_acre": 97.29,
+      "yield": 69.0
+    },
+    "1957": {
+      "marketing_year": "1957",
+      "price": 1.44,
+      "revenue_per_harvested_acre": 33.12,
+      "yield": 23.0
+    },
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.28,
+      "revenue_per_harvested_acre": 89.6,
+      "yield": 70.0
+    },
+    "1960": {
+      "marketing_year": "1960",
+      "price": 1.27,
+      "revenue_per_harvested_acre": 90.17,
+      "yield": 71.0
+    },
+    "1961": {
+      "marketing_year": "1961",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 90.72,
+      "yield": 72.0
+    },
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.33,
+      "revenue_per_harvested_acre": 97.09,
+      "yield": 73.0
+    },
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.33,
+      "revenue_per_harvested_acre": 102.41,
+      "yield": 77.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.835,
+    "trailing_10yr_avg": {
+      "1957": 41.8,
+      "1959": 46.5,
+      "1960": 50.0,
+      "1961": 52.75,
+      "1962": 55.0
+    },
+    "trailing_5yr_avg": {
+      "1955": 39.0,
+      "1956": 46.5,
+      "1957": 41.8,
+      "1959": 47.25,
+      "1960": 58.25,
+      "1961": 59.0,
+      "1962": 71.5
+    },
+    "yoy_pct": {
+      "1954": -12.5,
+      "1955": -35.71,
+      "1956": 155.56,
+      "1957": -66.67,
+      "1960": 1.43,
+      "1961": 1.41,
+      "1962": 1.39
+    }
+  }
+}

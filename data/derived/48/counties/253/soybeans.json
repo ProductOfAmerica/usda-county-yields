@@ -1,0 +1,86 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "253",
+    "name": "JONES"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 1453,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.5296,
+      "percentile_in_state": 0.5116,
+      "rank_in_nation": 684,
+      "rank_in_state": 22
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.1219,
+      "percentile_in_state": 0.1558,
+      "rank_in_nation": 1615,
+      "rank_in_state": 66
+    },
+    "1982": {
+      "count_in_nation": 1813,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.0541,
+      "percentile_in_state": 0.4419,
+      "rank_in_nation": 1715,
+      "rank_in_state": 25
+    },
+    "1992": {
+      "count_in_nation": 1739,
+      "count_in_state": 37,
+      "percentile_in_nation": 0.0282,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1690,
+      "rank_in_state": 37
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 57.551,
+      "revenue_per_planted_acre": 45.9787,
+      "yield": 24.7
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 96.3,
+      "revenue_per_planted_acre": 87.5455,
+      "yield": 18.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 5.41,
+      "revenue_per_harvested_acre": 100.085,
+      "revenue_per_planted_acre": 100.085,
+      "yield": 18.5
+    },
+    "1992": {
+      "marketing_year": "1992",
+      "price": 5.07,
+      "revenue_per_harvested_acre": 90.753,
+      "revenue_per_planted_acre": 81.627,
+      "yield": 17.9
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.2621,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "083",
+    "name": "KEWEENAW"
+  },
+  "rank": {
+    "1942": {
+      "count_in_nation": 1264,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.5471,
+      "percentile_in_state": 0.0976,
+      "rank_in_nation": 573,
+      "rank_in_state": 75
+    },
+    "1943": {
+      "count_in_nation": 1265,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.1432,
+      "percentile_in_state": 0.0854,
+      "rank_in_nation": 1084,
+      "rank_in_state": 76
+    },
+    "1944": {
+      "count_in_nation": 1284,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.0398,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1233,
+      "rank_in_state": 83
+    },
+    "1945": {
+      "count_in_nation": 1334,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.6137,
+      "percentile_in_state": 0.3293,
+      "rank_in_nation": 516,
+      "rank_in_state": 56
+    },
+    "1951": {
+      "count_in_nation": 1434,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.3699,
+      "percentile_in_state": 0.0854,
+      "rank_in_nation": 904,
+      "rank_in_state": 76
+    },
+    "1952": {
+      "count_in_nation": 1435,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.2155,
+      "percentile_in_state": 0.0854,
+      "rank_in_nation": 1126,
+      "rank_in_state": 76
+    },
+    "1953": {
+      "count_in_nation": 1495,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.421,
+      "percentile_in_state": 0.1975,
+      "rank_in_nation": 866,
+      "rank_in_state": 66
+    }
+  },
+  "revenue": {
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.21,
+      "revenue_per_harvested_acre": 33.15,
+      "yield": 15.0
+    },
+    "1952": {
+      "marketing_year": "1952",
+      "price": 1.97,
+      "revenue_per_harvested_acre": 31.52,
+      "yield": 16.0
+    },
+    "1953": {
+      "marketing_year": "1953",
+      "price": 1.97,
+      "revenue_per_harvested_acre": 39.4,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3395,
+    "trailing_10yr_avg": {
+      "1951": 14.6,
+      "1952": 14.2,
+      "1953": 16.2
+    },
+    "trailing_5yr_avg": {
+      "1944": 12.67,
+      "1945": 14.5,
+      "1953": 17.0
+    },
+    "yoy_pct": {
+      "1943": -44.44,
+      "1944": 0.0,
+      "1945": 100.0,
+      "1952": 6.67,
+      "1953": 25.0
+    }
+  }
+}

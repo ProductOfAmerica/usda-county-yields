@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "035",
+    "name": "FULTON"
+  },
+  "rank": {
+    "2025": {
+      "count_in_nation": 1100,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.1338,
+      "percentile_in_state": 0.08,
+      "rank_in_nation": 953,
+      "rank_in_state": 24
+    }
+  },
+  "revenue": {
+    "2025": {
+      "marketing_year": "2025",
+      "price": 10.0,
+      "revenue_per_harvested_acre": 343.0,
+      "revenue_per_planted_acre": 336.0,
+      "yield": 34.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "077",
+    "name": "LATIMER"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.6744,
+      "percentile_in_state": 0.9206,
+      "rank_in_nation": 574,
+      "rank_in_state": 6
+    },
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.56,
+      "percentile_in_state": 0.4032,
+      "rank_in_nation": 800,
+      "rank_in_state": 38
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.622,
+      "percentile_in_state": 0.9189,
+      "rank_in_nation": 678,
+      "rank_in_state": 4
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.8267,
+      "percentile_in_state": 0.9773,
+      "rank_in_nation": 311,
+      "rank_in_state": 2
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.0506,
+      "percentile_in_state": 0.4565,
+      "rank_in_nation": 1763,
+      "rank_in_state": 26
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.4588,
+      "percentile_in_state": 0.92,
+      "rank_in_nation": 1019,
+      "rank_in_state": 5
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.0118,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1844,
+      "rank_in_state": 48
+    },
+    "1999": {
+      "count_in_nation": 1633,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.0055,
+      "percentile_in_state": 0.0508,
+      "rank_in_nation": 1624,
+      "rank_in_state": 57
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.31,
+      "revenue_per_harvested_acre": 139.122,
+      "revenue_per_planted_acre": 136.5429,
+      "yield": 26.2
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.48,
+      "revenue_per_harvested_acre": 149.688,
+      "revenue_per_planted_acre": 148.3738,
+      "yield": 23.1
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.44,
+      "revenue_per_harvested_acre": 115.44,
+      "revenue_per_planted_acre": 111.2404,
+      "yield": 26.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.45,
+      "revenue_per_harvested_acre": 193.5,
+      "revenue_per_planted_acre": 193.5,
+      "yield": 30.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.35,
+      "revenue_per_harvested_acre": 90.17,
+      "revenue_per_planted_acre": 89.9583,
+      "yield": 14.2
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 5.9,
+      "revenue_per_harvested_acre": 166.97,
+      "revenue_per_planted_acre": 143.2857,
+      "yield": 28.3
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.34,
+      "revenue_per_harvested_acre": 60.922,
+      "revenue_per_planted_acre": 52.4286,
+      "yield": 8.3
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 4.35,
+      "revenue_per_harvested_acre": 43.5,
+      "revenue_per_planted_acre": 43.5,
+      "yield": 10.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.6444,
+    "trailing_10yr_avg": {
+      "1978": 23.9,
+      "1979": 24.63,
+      "1980": 22.3
+    },
+    "trailing_5yr_avg": {
+      "1975": 25.1,
+      "1976": 26.32,
+      "1978": 23.32,
+      "1979": 24.62,
+      "1980": 20.2
+    },
+    "yoy_pct": {
+      "1974": -11.83,
+      "1975": 12.55,
+      "1976": 15.38,
+      "1979": 99.3,
+      "1980": -70.67
+    }
+  }
+}

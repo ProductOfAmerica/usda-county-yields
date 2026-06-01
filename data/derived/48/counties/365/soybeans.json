@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "365",
+    "name": "PANOLA"
+  },
+  "rank": {
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.0473,
+      "percentile_in_state": 0.039,
+      "rank_in_nation": 1752,
+      "rank_in_state": 75
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.0216,
+      "percentile_in_state": 0.0263,
+      "rank_in_nation": 1817,
+      "rank_in_state": 75
+    }
+  },
+  "revenue": {
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 85.6,
+      "revenue_per_planted_acre": 71.3333,
+      "yield": 16.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.3,
+      "revenue_per_harvested_acre": 80.64,
+      "revenue_per_planted_acre": 72.45,
+      "yield": 12.8
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -3.2,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1978": -20.0
+    }
+  }
+}

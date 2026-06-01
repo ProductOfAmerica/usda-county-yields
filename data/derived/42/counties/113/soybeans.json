@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "113",
+    "name": "SULLIVAN"
+  },
+  "rank": {
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.2443,
+      "percentile_in_state": 0.0408,
+      "rank_in_nation": 1022,
+      "rank_in_state": 48
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.0452,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1333,
+      "rank_in_state": 48
+    }
+  },
+  "revenue": {
+    "2021": {
+      "marketing_year": "2021",
+      "price": 13.8,
+      "revenue_per_harvested_acre": 574.08,
+      "revenue_per_planted_acre": 565.8,
+      "yield": 41.6
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 14.5,
+      "revenue_per_harvested_acre": 337.85,
+      "revenue_per_planted_acre": 333.5,
+      "yield": 23.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -18.3,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "2022": -43.99
+    }
+  }
+}

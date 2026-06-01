@@ -1,0 +1,88 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "207",
+    "name": "HASKELL"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.0321,
+      "percentile_in_state": 0.3282,
+      "rank_in_nation": 2352,
+      "rank_in_state": 89
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 133,
+      "percentile_in_nation": 0.4397,
+      "percentile_in_state": 0.6742,
+      "rank_in_nation": 1417,
+      "rank_in_state": 44
+    },
+    "1979": {
+      "count_in_nation": 2431,
+      "count_in_state": 127,
+      "percentile_in_nation": 0.0979,
+      "percentile_in_state": 0.3413,
+      "rank_in_nation": 2193,
+      "rank_in_state": 84
+    },
+    "1980": {
+      "count_in_nation": 2411,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.4743,
+      "percentile_in_state": 0.6452,
+      "rank_in_nation": 1268,
+      "rank_in_state": 45
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 28.38,
+      "revenue_per_planted_acre": 2.838,
+      "yield": 22.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.09,
+      "revenue_per_harvested_acre": 179.22,
+      "revenue_per_planted_acre": 143.376,
+      "yield": 58.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 2.82,
+      "revenue_per_harvested_acre": 138.18,
+      "revenue_per_planted_acre": 138.18,
+      "yield": 49.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.44,
+      "revenue_per_harvested_acre": 227.728,
+      "revenue_per_planted_acre": 195.0971,
+      "yield": 66.2
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 3.1091,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1980": 35.1
+    }
+  }
+}

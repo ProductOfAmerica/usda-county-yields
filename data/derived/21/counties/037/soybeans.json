@@ -1,0 +1,104 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "037",
+    "name": "CAMPBELL"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 1724,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.5932,
+      "percentile_in_state": 0.4756,
+      "rank_in_nation": 702,
+      "rank_in_state": 44
+    },
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.6102,
+      "percentile_in_state": 0.6623,
+      "rank_in_nation": 687,
+      "rank_in_state": 27
+    },
+    "1993": {
+      "count_in_nation": 1677,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.7637,
+      "percentile_in_state": 0.7683,
+      "rank_in_nation": 397,
+      "rank_in_state": 20
+    },
+    "1994": {
+      "count_in_nation": 1660,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.7197,
+      "percentile_in_state": 0.9,
+      "rank_in_nation": 466,
+      "rank_in_state": 9
+    },
+    "1996": {
+      "count_in_nation": 1633,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.78,
+      "percentile_in_state": 0.8875,
+      "rank_in_nation": 360,
+      "rank_in_state": 10
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 4.06,
+      "revenue_per_harvested_acre": 101.5,
+      "yield": 25.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.64,
+      "revenue_per_harvested_acre": 141.0,
+      "yield": 25.0
+    },
+    "1993": {
+      "marketing_year": "1993",
+      "price": 6.55,
+      "revenue_per_harvested_acre": 242.35,
+      "revenue_per_planted_acre": 201.9583,
+      "yield": 37.0
+    },
+    "1994": {
+      "marketing_year": "1994",
+      "price": 5.65,
+      "revenue_per_harvested_acre": 237.3,
+      "revenue_per_planted_acre": 197.75,
+      "yield": 42.0
+    },
+    "1996": {
+      "marketing_year": "1996",
+      "price": 7.43,
+      "revenue_per_harvested_acre": 297.2,
+      "revenue_per_planted_acre": 247.6667,
+      "yield": 40.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.6715,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1996": 39.67
+    },
+    "yoy_pct": {
+      "1973": 0.0,
+      "1994": 13.51
+    }
+  }
+}

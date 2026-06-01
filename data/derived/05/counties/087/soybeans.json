@@ -1,0 +1,122 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "087",
+    "name": "MADISON"
+  },
+  "rank": {
+    "1961": {
+      "count_in_nation": 1238,
+      "count_in_state": 75,
+      "percentile_in_nation": 0.0275,
+      "percentile_in_state": 0.0405,
+      "rank_in_nation": 1204,
+      "rank_in_state": 72
+    },
+    "1962": {
+      "count_in_nation": 1253,
+      "count_in_state": 75,
+      "percentile_in_nation": 0.0887,
+      "percentile_in_state": 0.0405,
+      "rank_in_nation": 1142,
+      "rank_in_state": 72
+    },
+    "1963": {
+      "count_in_nation": 1253,
+      "count_in_state": 75,
+      "percentile_in_nation": 0.0655,
+      "percentile_in_state": 0.0541,
+      "rank_in_nation": 1171,
+      "rank_in_state": 71
+    },
+    "1964": {
+      "count_in_nation": 1288,
+      "count_in_state": 75,
+      "percentile_in_nation": 0.0839,
+      "percentile_in_state": 0.0405,
+      "rank_in_nation": 1180,
+      "rank_in_state": 72
+    },
+    "1965": {
+      "count_in_nation": 1310,
+      "count_in_state": 75,
+      "percentile_in_nation": 0.1299,
+      "percentile_in_state": 0.1351,
+      "rank_in_nation": 1140,
+      "rank_in_state": 65
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.1349,
+      "percentile_in_state": 0.1515,
+      "rank_in_nation": 1591,
+      "rank_in_state": 57
+    }
+  },
+  "revenue": {
+    "1961": {
+      "marketing_year": "1961",
+      "price": 2.27,
+      "revenue_per_harvested_acre": 27.24,
+      "yield": 12.0
+    },
+    "1962": {
+      "marketing_year": "1962",
+      "price": 2.34,
+      "revenue_per_harvested_acre": 32.76,
+      "yield": 14.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 2.6,
+      "revenue_per_harvested_acre": 31.2,
+      "yield": 12.0
+    },
+    "1964": {
+      "marketing_year": "1964",
+      "price": 2.65,
+      "revenue_per_harvested_acre": 31.8,
+      "yield": 12.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 2.56,
+      "revenue_per_harvested_acre": 40.96,
+      "yield": 16.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 6.15,
+      "revenue_per_harvested_acre": 115.62,
+      "revenue_per_planted_acre": 92.25,
+      "yield": 18.8
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4115,
+    "trailing_10yr_avg": {
+      "1965": 13.2
+    },
+    "trailing_5yr_avg": {
+      "1963": 12.67,
+      "1964": 12.5,
+      "1965": 13.2
+    },
+    "yoy_pct": {
+      "1962": 16.67,
+      "1963": -14.29,
+      "1964": 0.0,
+      "1965": 33.33
+    }
+  }
+}

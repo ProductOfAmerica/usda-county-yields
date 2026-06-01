@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "427",
+    "name": "STARR"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 69,
+      "percentile_in_nation": 0.2679,
+      "percentile_in_state": 0.4559,
+      "rank_in_nation": 1378,
+      "rank_in_state": 38
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 150.5,
+      "revenue_per_planted_acre": 150.5,
+      "yield": 25.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

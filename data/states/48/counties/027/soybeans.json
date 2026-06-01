@@ -7,14 +7,121 @@
     "code": "027",
     "name": "BELL"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1989": 1800.0,
+        "1990": 1000.0,
+        "1998": 1100.0,
+        "1999": 1500.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1989": 1800.0,
+        "1990": 1000.0,
+        "1998": 1100.0,
+        "1999": 1500.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1989": 2200.0,
+        "1990": 1100.0,
+        "1998": 1200.0,
+        "1999": 1500.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1989": 2200.0,
+        "1990": 1100.0,
+        "1998": 1200.0,
+        "1999": 1500.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1989": 36700.0,
+        "1990": 12000.0,
+        "1998": 12100.0,
+        "1999": 27300.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "SOYBEANS, NON-IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1989": 36700.0,
+        "1990": 12000.0,
+        "1998": 12100.0,
+        "1999": 27300.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -27,9 +134,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED",
       "raw": {},
       "short_desc": "SOYBEANS, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

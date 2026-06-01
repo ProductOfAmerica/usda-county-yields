@@ -1,0 +1,259 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "123",
+    "name": "GILMER"
+  },
+  "rank": {
+    "1954": {
+      "count_in_nation": 1626,
+      "count_in_state": 138,
+      "percentile_in_nation": 0.3212,
+      "percentile_in_state": 0.5474,
+      "rank_in_nation": 1104,
+      "rank_in_state": 63
+    },
+    "1955": {
+      "count_in_nation": 1650,
+      "count_in_state": 134,
+      "percentile_in_nation": 0.2862,
+      "percentile_in_state": 0.8271,
+      "rank_in_nation": 1178,
+      "rank_in_state": 24
+    },
+    "1956": {
+      "count_in_nation": 1794,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.2331,
+      "percentile_in_state": 0.2014,
+      "rank_in_nation": 1376,
+      "rank_in_state": 112
+    },
+    "1957": {
+      "count_in_nation": 1846,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.252,
+      "percentile_in_state": 0.4676,
+      "rank_in_nation": 1381,
+      "rank_in_state": 75
+    },
+    "1958": {
+      "count_in_nation": 1841,
+      "count_in_state": 141,
+      "percentile_in_nation": 0.2033,
+      "percentile_in_state": 0.1857,
+      "rank_in_nation": 1467,
+      "rank_in_state": 115
+    },
+    "1959": {
+      "count_in_nation": 1843,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.1384,
+      "percentile_in_state": 0.0863,
+      "rank_in_nation": 1588,
+      "rank_in_state": 128
+    },
+    "1960": {
+      "count_in_nation": 1841,
+      "count_in_state": 137,
+      "percentile_in_nation": 0.0837,
+      "percentile_in_state": 0.0515,
+      "rank_in_nation": 1687,
+      "rank_in_state": 130
+    },
+    "1961": {
+      "count_in_nation": 1931,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.1845,
+      "percentile_in_state": 0.0647,
+      "rank_in_nation": 1575,
+      "rank_in_state": 131
+    },
+    "1963": {
+      "count_in_nation": 1920,
+      "count_in_state": 145,
+      "percentile_in_nation": 0.1933,
+      "percentile_in_state": 0.2083,
+      "rank_in_nation": 1549,
+      "rank_in_state": 115
+    },
+    "1964": {
+      "count_in_nation": 1774,
+      "count_in_state": 134,
+      "percentile_in_nation": 0.0682,
+      "percentile_in_state": 0.0226,
+      "rank_in_nation": 1653,
+      "rank_in_state": 131
+    },
+    "1965": {
+      "count_in_nation": 1837,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.0512,
+      "percentile_in_state": 0.036,
+      "rank_in_nation": 1743,
+      "rank_in_state": 135
+    },
+    "1966": {
+      "count_in_nation": 1889,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.0636,
+      "percentile_in_state": 0.0216,
+      "rank_in_nation": 1769,
+      "rank_in_state": 137
+    },
+    "1968": {
+      "count_in_nation": 2089,
+      "count_in_state": 126,
+      "percentile_in_nation": 0.2299,
+      "percentile_in_state": 0.048,
+      "rank_in_nation": 1609,
+      "rank_in_state": 120
+    },
+    "1969": {
+      "count_in_nation": 2011,
+      "count_in_state": 113,
+      "percentile_in_nation": 0.4761,
+      "percentile_in_state": 0.3125,
+      "rank_in_nation": 1054,
+      "rank_in_state": 78
+    }
+  },
+  "revenue": {
+    "1954": {
+      "marketing_year": "1954",
+      "price": 2.07,
+      "revenue_per_harvested_acre": 36.432,
+      "yield": 17.6
+    },
+    "1955": {
+      "marketing_year": "1955",
+      "price": 2.04,
+      "revenue_per_harvested_acre": 33.66,
+      "yield": 16.5
+    },
+    "1956": {
+      "marketing_year": "1956",
+      "price": 1.95,
+      "revenue_per_harvested_acre": 35.1,
+      "yield": 18.0
+    },
+    "1957": {
+      "marketing_year": "1957",
+      "price": 1.93,
+      "revenue_per_harvested_acre": 32.81,
+      "yield": 17.0
+    },
+    "1958": {
+      "marketing_year": "1958",
+      "price": 1.91,
+      "revenue_per_harvested_acre": 39.155,
+      "yield": 20.5
+    },
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.79,
+      "revenue_per_harvested_acre": 28.64,
+      "yield": 16.0
+    },
+    "1960": {
+      "marketing_year": "1960",
+      "price": 1.82,
+      "revenue_per_harvested_acre": 32.76,
+      "yield": 18.0
+    },
+    "1961": {
+      "marketing_year": "1961",
+      "price": 1.78,
+      "revenue_per_harvested_acre": 35.6,
+      "yield": 20.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.85,
+      "revenue_per_harvested_acre": 37.0,
+      "yield": 20.0
+    },
+    "1964": {
+      "marketing_year": "1964",
+      "price": 1.46,
+      "revenue_per_harvested_acre": 23.36,
+      "yield": 16.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.42,
+      "revenue_per_harvested_acre": 22.72,
+      "yield": 16.0
+    },
+    "1966": {
+      "marketing_year": "1966",
+      "price": 1.58,
+      "revenue_per_harvested_acre": 26.86,
+      "yield": 17.0
+    },
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.21,
+      "revenue_per_harvested_acre": 28.193,
+      "yield": 23.3
+    },
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.27,
+      "revenue_per_harvested_acre": 38.1,
+      "revenue_per_planted_acre": 27.94,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4216,
+    "trailing_10yr_avg": {
+      "1958": 17.92,
+      "1959": 17.6,
+      "1960": 17.66,
+      "1961": 17.95,
+      "1963": 18.18,
+      "1964": 18.0,
+      "1965": 17.94,
+      "1966": 17.83,
+      "1968": 18.29,
+      "1969": 20.04
+    },
+    "trailing_5yr_avg": {
+      "1956": 17.37,
+      "1957": 17.27,
+      "1958": 17.92,
+      "1959": 17.6,
+      "1960": 17.9,
+      "1961": 18.3,
+      "1963": 18.5,
+      "1964": 18.5,
+      "1965": 18.0,
+      "1966": 17.25,
+      "1968": 18.07,
+      "1969": 21.57
+    },
+    "yoy_pct": {
+      "1955": -6.25,
+      "1956": 9.09,
+      "1957": -5.56,
+      "1958": 20.59,
+      "1959": -21.95,
+      "1960": 12.5,
+      "1961": 11.11,
+      "1964": -20.0,
+      "1965": 0.0,
+      "1966": 6.25,
+      "1969": 28.76
+    }
+  }
+}

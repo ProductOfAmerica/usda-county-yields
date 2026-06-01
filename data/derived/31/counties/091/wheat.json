@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "091",
+    "name": "HOOKER"
+  },
+  "rank": {
+    "1961": {
+      "count_in_nation": 1931,
+      "count_in_state": 92,
+      "percentile_in_nation": 0.043,
+      "percentile_in_state": 0.0769,
+      "rank_in_nation": 1848,
+      "rank_in_state": 85
+    },
+    "1962": {
+      "count_in_nation": 1760,
+      "count_in_state": 90,
+      "percentile_in_nation": 0.0057,
+      "percentile_in_state": 0.0899,
+      "rank_in_nation": 1750,
+      "rank_in_state": 82
+    }
+  },
+  "revenue": {
+    "1961": {
+      "marketing_year": "1961",
+      "price": 1.77,
+      "revenue_per_harvested_acre": 21.24,
+      "revenue_per_planted_acre": 21.24,
+      "yield": 12.0
+    },
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.94,
+      "revenue_per_harvested_acre": 17.46,
+      "revenue_per_planted_acre": 17.46,
+      "yield": 9.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -3.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1962": -25.0
+    }
+  }
+}

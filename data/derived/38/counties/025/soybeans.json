@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "025",
+    "name": "DUNN"
+  },
+  "rank": {
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.01,
+      "percentile_in_state": 0.1875,
+      "rank_in_nation": 1484,
+      "rank_in_state": 40
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.0566,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 1317,
+      "rank_in_state": 37
+    },
+    "2025": {
+      "count_in_nation": 1100,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.0136,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1085,
+      "rank_in_state": 36
+    }
+  },
+  "revenue": {
+    "2020": {
+      "marketing_year": "2020",
+      "price": 10.2,
+      "revenue_per_harvested_acre": 239.7,
+      "revenue_per_planted_acre": 235.5563,
+      "yield": 23.5
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 13.7,
+      "revenue_per_harvested_acre": 345.24,
+      "revenue_per_planted_acre": 272.4778,
+      "yield": 25.2
+    },
+    "2025": {
+      "marketing_year": "2025",
+      "price": 9.65,
+      "revenue_per_harvested_acre": 244.145,
+      "revenue_per_planted_acre": 241.7325,
+      "yield": 25.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3342,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

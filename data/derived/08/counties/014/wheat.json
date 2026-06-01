@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "014",
+    "name": "BROOMFIELD"
+  },
+  "rank": {
+    "2007": {
+      "count_in_nation": 1639,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.0818,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 1505,
+      "rank_in_state": 36
+    }
+  },
+  "revenue": {
+    "2007": {
+      "marketing_year": "2007",
+      "price": 6.01,
+      "revenue_per_harvested_acre": 141.235,
+      "revenue_per_planted_acre": 140.2333,
+      "yield": 23.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

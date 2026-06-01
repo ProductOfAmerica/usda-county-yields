@@ -1,0 +1,88 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "281",
+    "name": "LAMPASAS"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 2393,
+      "count_in_state": 124,
+      "percentile_in_nation": 0.018,
+      "percentile_in_state": 0.0163,
+      "rank_in_nation": 2350,
+      "rank_in_state": 122
+    },
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.189,
+      "percentile_in_state": 0.6031,
+      "rank_in_nation": 1971,
+      "rank_in_state": 53
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 135,
+      "percentile_in_nation": 0.1941,
+      "percentile_in_state": 0.3209,
+      "rank_in_nation": 2039,
+      "rank_in_state": 92
+    },
+    "2002": {
+      "count_in_nation": 2086,
+      "count_in_state": 109,
+      "percentile_in_nation": 0.3094,
+      "percentile_in_state": 0.5,
+      "rank_in_nation": 1441,
+      "rank_in_state": 55
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 30.36,
+      "revenue_per_planted_acre": 28.52,
+      "yield": 26.4
+    },
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 43.86,
+      "revenue_per_planted_acre": 13.158,
+      "yield": 34.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.16,
+      "revenue_per_harvested_acre": 81.216,
+      "revenue_per_planted_acre": 81.216,
+      "yield": 37.6
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 2.57,
+      "revenue_per_harvested_acre": 205.6,
+      "revenue_per_planted_acre": 74.7636,
+      "yield": 80.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.5045,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1969": 28.79
+    }
+  }
+}

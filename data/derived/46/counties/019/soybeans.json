@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "019",
+    "name": "BUTTE"
+  },
+  "rank": {
+    "2015": {
+      "count_in_nation": 1335,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.2181,
+      "percentile_in_state": 0.0303,
+      "rank_in_nation": 1044,
+      "rank_in_state": 33
+    },
+    "2018": {
+      "count_in_nation": 1209,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.2798,
+      "percentile_in_state": 0.325,
+      "rank_in_nation": 871,
+      "rank_in_state": 28
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 54,
+      "percentile_in_nation": 0.1182,
+      "percentile_in_state": 0.1321,
+      "rank_in_nation": 1322,
+      "rank_in_state": 47
+    }
+  },
+  "revenue": {
+    "2015": {
+      "marketing_year": "2015",
+      "price": 8.54,
+      "revenue_per_harvested_acre": 304.024,
+      "revenue_per_planted_acre": 299.51,
+      "yield": 35.6
+    },
+    "2018": {
+      "marketing_year": "2018",
+      "price": 7.97,
+      "revenue_per_harvested_acre": 330.755,
+      "revenue_per_planted_acre": 325.4417,
+      "yield": 41.5
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 10.3,
+      "revenue_per_harvested_acre": 368.74,
+      "revenue_per_planted_acre": 337.5231,
+      "yield": 35.8
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.1921,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

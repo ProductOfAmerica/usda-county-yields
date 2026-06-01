@@ -1,0 +1,107 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "007",
+    "name": "BENNETT"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.2036,
+      "percentile_in_state": 0.2647,
+      "rank_in_nation": 1499,
+      "rank_in_state": 26
+    },
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.0854,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 1521,
+      "rank_in_state": 51
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.2574,
+      "percentile_in_state": 0.4912,
+      "rank_in_nation": 1224,
+      "rank_in_state": 30
+    },
+    "2002": {
+      "count_in_nation": 1631,
+      "count_in_state": 53,
+      "percentile_in_nation": 0.5945,
+      "percentile_in_state": 0.7308,
+      "rank_in_nation": 662,
+      "rank_in_state": 15
+    },
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0054,
+      "percentile_in_state": 0.0714,
+      "rank_in_nation": 1669,
+      "rank_in_state": 53
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 5.95,
+      "revenue_per_harvested_acre": 142.8,
+      "revenue_per_planted_acre": 142.8,
+      "yield": 24.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.27,
+      "revenue_per_harvested_acre": 70.882,
+      "revenue_per_planted_acre": 56.9333,
+      "yield": 16.6
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.13,
+      "revenue_per_harvested_acre": 123.9,
+      "revenue_per_planted_acre": 61.95,
+      "yield": 30.0
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 5.33,
+      "revenue_per_harvested_acre": 184.951,
+      "revenue_per_planted_acre": 184.7733,
+      "yield": 34.7
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.58,
+      "revenue_per_harvested_acre": 55.8,
+      "revenue_per_planted_acre": 42.9231,
+      "yield": 10.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.0988,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2002": 27.1,
+      "2004": 22.83
+    },
+    "yoy_pct": {
+      "2001": 80.72,
+      "2002": 15.67
+    }
+  }
+}

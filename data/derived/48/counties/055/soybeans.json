@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "055",
+    "name": "CALDWELL"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.1652,
+      "percentile_in_state": 0.1,
+      "rank_in_nation": 1517,
+      "rank_in_state": 37
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.61,
+      "revenue_per_harvested_acre": 118.98,
+      "revenue_per_planted_acre": 47.592,
+      "yield": 18.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

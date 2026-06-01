@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "007",
+    "name": "BANNER"
+  },
+  "rank": {
+    "1987": {
+      "count_in_nation": 1778,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.4941,
+      "percentile_in_state": 0.075,
+      "rank_in_nation": 900,
+      "rank_in_state": 75
+    },
+    "1988": {
+      "count_in_nation": 1814,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.9548,
+      "percentile_in_state": 0.7108,
+      "rank_in_nation": 83,
+      "rank_in_state": 25
+    },
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.7319,
+      "percentile_in_state": 0.5802,
+      "rank_in_nation": 490,
+      "rank_in_state": 35
+    },
+    "1999": {
+      "count_in_nation": 1633,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.4424,
+      "percentile_in_state": 0.0132,
+      "rank_in_nation": 911,
+      "rank_in_state": 76
+    }
+  },
+  "revenue": {
+    "1987": {
+      "marketing_year": "1987",
+      "price": 5.82,
+      "revenue_per_harvested_acre": 168.78,
+      "revenue_per_planted_acre": 126.585,
+      "yield": 29.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 7.31,
+      "revenue_per_harvested_acre": 263.16,
+      "revenue_per_planted_acre": 263.16,
+      "yield": 36.0
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.45,
+      "revenue_per_harvested_acre": 185.3,
+      "revenue_per_planted_acre": 185.3,
+      "yield": 34.0
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 4.47,
+      "revenue_per_harvested_acre": 126.501,
+      "revenue_per_planted_acre": 63.325,
+      "yield": 28.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.3642,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1989": 33.0
+    },
+    "yoy_pct": {
+      "1988": 24.14,
+      "1989": -5.56
+    }
+  }
+}

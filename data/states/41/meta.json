@@ -139,6 +139,7 @@
     },
     "041": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "LINCOLN"
@@ -194,6 +195,7 @@
     },
     "057": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "TILLAMOOK"
@@ -235,6 +237,7 @@
     },
     "069": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "WHEELER"
@@ -254,7 +257,7 @@
       "name": "OTHER (COMBINED) COUNTIES"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "state": {
     "alpha": "OR",
     "fips": "41",

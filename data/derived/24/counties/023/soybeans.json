@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "023",
+    "name": "GARRETT"
+  },
+  "rank": {
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 19,
+      "percentile_in_nation": 0.2198,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1055,
+      "rank_in_state": 19
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 18,
+      "percentile_in_nation": 0.3341,
+      "percentile_in_state": 0.4118,
+      "rank_in_nation": 930,
+      "rank_in_state": 11
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.1579,
+      "percentile_in_state": 0.1579,
+      "rank_in_nation": 1100,
+      "rank_in_state": 17
+    },
+    "2024": {
+      "count_in_nation": 1148,
+      "count_in_state": 19,
+      "percentile_in_nation": 0.0235,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1121,
+      "rank_in_state": 19
+    },
+    "2025": {
+      "count_in_nation": 1100,
+      "count_in_state": 17,
+      "percentile_in_nation": 0.1247,
+      "percentile_in_state": 0.1875,
+      "rank_in_nation": 963,
+      "rank_in_state": 14
+    }
+  },
+  "revenue": {
+    "2021": {
+      "marketing_year": "2021",
+      "price": 14.2,
+      "revenue_per_harvested_acre": 570.84,
+      "revenue_per_planted_acre": 542.6429,
+      "yield": 40.2
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 14.0,
+      "revenue_per_harvested_acre": 586.6,
+      "revenue_per_planted_acre": 565.0909,
+      "yield": 41.9
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 11.8,
+      "revenue_per_harvested_acre": 423.62,
+      "revenue_per_planted_acre": 414.9032,
+      "yield": 35.9
+    },
+    "2024": {
+      "marketing_year": "2024",
+      "price": 9.8,
+      "revenue_per_harvested_acre": 223.44,
+      "revenue_per_planted_acre": 209.475,
+      "yield": 22.8
+    },
+    "2025": {
+      "marketing_year": "2025",
+      "price": 10.1,
+      "revenue_per_harvested_acre": 343.4,
+      "revenue_per_planted_acre": 332.492,
+      "yield": 34.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MD",
+    "fips": "24",
+    "name": "MARYLAND"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -3.15,
+    "trailing_10yr_avg": {
+      "2025": 34.96
+    },
+    "trailing_5yr_avg": {
+      "2023": 39.33,
+      "2024": 35.2,
+      "2025": 34.96
+    },
+    "yoy_pct": {
+      "2022": 4.23,
+      "2023": -14.32,
+      "2024": -36.49,
+      "2025": 49.12
+    }
+  }
+}

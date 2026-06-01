@@ -1,0 +1,86 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "005",
+    "name": "ALLAMAKEE"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 2448,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.7585,
+      "percentile_in_state": 0.7176,
+      "rank_in_nation": 592,
+      "rank_in_state": 25
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.7195,
+      "percentile_in_state": 0.7765,
+      "rank_in_nation": 711,
+      "rank_in_state": 20
+    },
+    "1991": {
+      "count_in_nation": 2236,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.6345,
+      "percentile_in_state": 0.5932,
+      "rank_in_nation": 818,
+      "rank_in_state": 25
+    },
+    "1996": {
+      "count_in_nation": 2008,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.3518,
+      "percentile_in_state": 0.4576,
+      "rank_in_nation": 1302,
+      "rank_in_state": 33
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 3.3,
+      "revenue_per_harvested_acre": 132.0,
+      "revenue_per_planted_acre": 132.0,
+      "yield": 40.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.3,
+      "revenue_per_harvested_acre": 128.7,
+      "revenue_per_planted_acre": 128.7,
+      "yield": 39.0
+    },
+    "1991": {
+      "marketing_year": "1991",
+      "price": 2.4,
+      "revenue_per_harvested_acre": 86.4,
+      "revenue_per_planted_acre": 57.6,
+      "yield": 36.0
+    },
+    "1996": {
+      "marketing_year": "1996",
+      "price": 4.1,
+      "revenue_per_harvested_acre": 141.45,
+      "revenue_per_planted_acre": 111.2857,
+      "yield": 34.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.3253,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

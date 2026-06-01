@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "373",
+    "name": "POLK"
+  },
+  "rank": {
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.3379,
+      "percentile_in_state": 0.4156,
+      "rank_in_nation": 1218,
+      "rank_in_state": 46
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.1428,
+      "percentile_in_state": 0.2895,
+      "rank_in_nation": 1592,
+      "rank_in_state": 55
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 69,
+      "percentile_in_nation": 0.1515,
+      "percentile_in_state": 0.3824,
+      "rank_in_nation": 1597,
+      "rank_in_state": 43
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.4617,
+      "percentile_in_state": 0.3818,
+      "rank_in_nation": 1005,
+      "rank_in_state": 35
+    },
+    "1981": {
+      "count_in_nation": 1835,
+      "count_in_state": 42,
+      "percentile_in_nation": 0.0905,
+      "percentile_in_state": 0.3659,
+      "rank_in_nation": 1669,
+      "rank_in_state": 27
+    }
+  },
+  "revenue": {
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 118.235,
+      "revenue_per_planted_acre": 113.551,
+      "yield": 22.1
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.3,
+      "revenue_per_harvested_acre": 117.81,
+      "revenue_per_planted_acre": 103.95,
+      "yield": 18.7
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 141.47,
+      "revenue_per_planted_acre": 128.6091,
+      "yield": 23.5
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.72,
+      "revenue_per_harvested_acre": 154.4,
+      "revenue_per_planted_acre": 154.4,
+      "yield": 20.0
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 5.7,
+      "revenue_per_harvested_acre": 105.45,
+      "revenue_per_planted_acre": 91.2,
+      "yield": 18.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.59,
+    "trailing_10yr_avg": {
+      "1981": 20.56
+    },
+    "trailing_5yr_avg": {
+      "1979": 21.43,
+      "1980": 21.07,
+      "1981": 20.56
+    },
+    "yoy_pct": {
+      "1978": -15.38,
+      "1979": 25.67,
+      "1980": -14.89,
+      "1981": -7.5
+    }
+  }
+}

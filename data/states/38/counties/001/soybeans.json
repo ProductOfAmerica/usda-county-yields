@@ -7,14 +7,112 @@
     "code": "001",
     "name": "ADAMS"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {
+        "2020": 2.3,
+        "2021": 1.8,
+        "2022": 2.1,
+        "2023": 3.2,
+        "2025": 54.9
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 20.0,
+        "1983": 200.0,
+        "1984": 200.0,
+        "2017": 4200.0,
+        "2019": 6200.0,
+        "2020": 14900.0,
+        "2021": 15100.0,
+        "2022": 11900.0,
+        "2023": 10400.0,
+        "2025": 9100.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2020": 1.9,
+        "2021": 1.1,
+        "2022": 1.7,
+        "2023": 2.9,
+        "2025": 54.7
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 20.0,
+        "1983": 200.0,
+        "1984": 200.0,
+        "2017": 4400.0,
+        "2019": 6500.0,
+        "2020": 15200.0,
+        "2021": 15400.0,
+        "2022": 12000.0,
+        "2023": 10500.0,
+        "2025": 9200.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2020": 10.7,
+        "2021": 8.4,
+        "2022": 5.0,
+        "2023": 5.4,
+        "2025": 55.4
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1954": 120.0,
+        "1983": 2600.0,
+        "1984": 2000.0,
+        "2017": 58000.0,
+        "2019": 219000.0,
+        "2020": 253000.0,
+        "2021": 240000.0,
+        "2022": 219000.0,
+        "2023": 350000.0,
+        "2025": 249000.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2020": 10.5,
+        "2021": 8.2,
+        "2022": 4.6,
+        "2023": 4.5,
+        "2025": 6.2
+      },
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -33,9 +131,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / NET PLANTED ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

@@ -1,0 +1,152 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "037",
+    "name": "GRANT"
+  },
+  "rank": {
+    "1994": {
+      "count_in_nation": 1660,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.0024,
+      "percentile_in_state": 0.1481,
+      "rank_in_nation": 1656,
+      "rank_in_state": 24
+    },
+    "1999": {
+      "count_in_nation": 1633,
+      "count_in_state": 33,
+      "percentile_in_nation": 0.193,
+      "percentile_in_state": 0.0625,
+      "rank_in_nation": 1318,
+      "rank_in_state": 31
+    },
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.2292,
+      "percentile_in_state": 0.1143,
+      "rank_in_nation": 1282,
+      "rank_in_state": 32
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.0225,
+      "percentile_in_state": 0.025,
+      "rank_in_nation": 1611,
+      "rank_in_state": 40
+    },
+    "2010": {
+      "count_in_nation": 1523,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.1833,
+      "percentile_in_state": 0.0571,
+      "rank_in_nation": 1244,
+      "rank_in_state": 34
+    },
+    "2011": {
+      "count_in_nation": 1447,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.1293,
+      "percentile_in_state": 0.0909,
+      "rank_in_nation": 1260,
+      "rank_in_state": 31
+    },
+    "2019": {
+      "count_in_nation": 1126,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.0489,
+      "percentile_in_state": 0.0882,
+      "rank_in_nation": 1071,
+      "rank_in_state": 32
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.053,
+      "percentile_in_state": 0.1778,
+      "rank_in_nation": 1322,
+      "rank_in_state": 38
+    }
+  },
+  "revenue": {
+    "1994": {
+      "marketing_year": "1994",
+      "price": 5.19,
+      "revenue_per_harvested_acre": 62.28,
+      "revenue_per_planted_acre": 62.28,
+      "yield": 12.0
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 4.19,
+      "revenue_per_harvested_acre": 83.8,
+      "revenue_per_planted_acre": 83.8,
+      "yield": 20.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.23,
+      "revenue_per_harvested_acre": 101.52,
+      "revenue_per_planted_acre": 84.6,
+      "yield": 24.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.05,
+      "revenue_per_harvested_acre": 64.8,
+      "revenue_per_planted_acre": 64.8,
+      "yield": 16.0
+    },
+    "2010": {
+      "marketing_year": "2010",
+      "price": 10.9,
+      "revenue_per_harvested_acre": 306.29,
+      "revenue_per_planted_acre": 301.8462,
+      "yield": 28.1
+    },
+    "2011": {
+      "marketing_year": "2011",
+      "price": 11.9,
+      "revenue_per_harvested_acre": 317.73,
+      "revenue_per_planted_acre": 317.3333,
+      "yield": 26.7
+    },
+    "2019": {
+      "marketing_year": "2019",
+      "price": 7.93,
+      "revenue_per_harvested_acre": 209.352,
+      "revenue_per_planted_acre": 197.6206,
+      "yield": 26.4
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 13.7,
+      "revenue_per_harvested_acre": 341.13,
+      "revenue_per_planted_acre": 333.3307,
+      "yield": 24.9
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4233,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2001": 20.0
+    },
+    "yoy_pct": {
+      "2000": 20.0,
+      "2001": -33.33,
+      "2011": -4.98
+    }
+  }
+}

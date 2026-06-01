@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "375",
+    "name": "POTTER"
+  },
+  "rank": {
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.61,
+      "percentile_in_state": 0.6316,
+      "rank_in_nation": 730,
+      "rank_in_state": 15
+    }
+  },
+  "revenue": {
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.43,
+      "revenue_per_harvested_acre": 186.493,
+      "revenue_per_planted_acre": 186.493,
+      "yield": 25.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

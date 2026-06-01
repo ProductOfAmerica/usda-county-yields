@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "027",
+    "name": "CUSTER"
+  },
+  "rank": {
+    "1963": {
+      "count_in_nation": 2353,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.321,
+      "percentile_in_state": 0.2973,
+      "rank_in_nation": 1598,
+      "rank_in_state": 27
+    },
+    "1973": {
+      "count_in_nation": 2480,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.6253,
+      "percentile_in_state": 0.1818,
+      "rank_in_nation": 930,
+      "rank_in_state": 28
+    }
+  },
+  "revenue": {
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.21,
+      "revenue_per_harvested_acre": 48.4,
+      "revenue_per_planted_acre": 36.3,
+      "yield": 40.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.54,
+      "revenue_per_harvested_acre": 203.2,
+      "revenue_per_planted_acre": 203.2,
+      "yield": 80.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 4.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

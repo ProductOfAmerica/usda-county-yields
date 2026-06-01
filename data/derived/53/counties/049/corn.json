@@ -1,0 +1,39 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "049",
+    "name": "PACIFIC"
+  },
+  "rank": {
+    "1949": {
+      "count_in_nation": 1376,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.5622,
+      "percentile_in_state": 0.6087,
+      "rank_in_nation": 603,
+      "rank_in_state": 10
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.5,
+      "revenue_per_harvested_acre": 60.0,
+      "yield": 40.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

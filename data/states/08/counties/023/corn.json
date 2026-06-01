@@ -7,14 +7,174 @@
     "code": "023",
     "name": "COSTILLA"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "GRAIN",
+      "values": {
+        "1969": 10.0,
+        "1970": 50.0,
+        "1971": 300.0,
+        "1977": 100.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "SILAGE",
+      "values": {
+        "1963": 100.0,
+        "1964": 110.0,
+        "1965": 70.0,
+        "1969": 60.0,
+        "1970": 50.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "GRAIN",
+      "values": {
+        "1969": 10.0,
+        "1970": 50.0,
+        "1971": 300.0,
+        "1977": 100.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1963": 100.0,
+        "1964": 210.0,
+        "1965": 90.0,
+        "1969": 70.0,
+        "1970": 100.0,
+        "1971": 300.0,
+        "1976": 100.0,
+        "1977": 100.0,
+        "1978": 100.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - ACRES PLANTED, NET",
+      "statistic": "AREA PLANTED, NET",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "GRAIN",
+      "values": {
+        "1977": 100.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - ACRES PLANTED, NET",
+      "statistic": "AREA PLANTED, NET",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "GRAIN",
+      "values": {
+        "1977": 100.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "GRAIN",
+      "values": {
+        "1969": 700.0,
+        "1970": 3750.0,
+        "1971": 26400.0,
+        "1977": 6800.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - PRODUCTION, MEASURED IN TONS",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "TONS",
+      "util_practice": "SILAGE",
+      "values": {
+        "1963": 1630.0,
+        "1964": 770.0,
+        "1965": 1840.0,
+        "1969": 600.0,
+        "1970": 750.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "CORN, GRAIN, IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "GRAIN",
+      "values": {
+        "1969": 700.0,
+        "1970": 3750.0,
+        "1971": 26400.0,
+        "1977": 6800.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "GRAIN",
@@ -27,9 +187,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / NET PLANTED ACRE",
       "util_practice": "GRAIN",
@@ -39,9 +201,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "TONS / ACRE",
       "util_practice": "SILAGE",
@@ -55,9 +219,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "IRRIGATED",
       "raw": {},
       "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "GRAIN",
@@ -70,9 +236,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "IRRIGATED",
       "raw": {},
       "short_desc": "CORN, GRAIN, IRRIGATED - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / NET PLANTED ACRE",
       "util_practice": "GRAIN",

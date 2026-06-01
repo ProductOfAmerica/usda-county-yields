@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "419",
+    "name": "SHELBY"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 2393,
+      "count_in_state": 124,
+      "percentile_in_nation": 0.2492,
+      "percentile_in_state": 0.4634,
+      "rank_in_nation": 1797,
+      "rank_in_state": 67
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 133,
+      "percentile_in_nation": 0.1239,
+      "percentile_in_state": 0.3636,
+      "rank_in_nation": 2215,
+      "rank_in_state": 85
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 135,
+      "percentile_in_nation": 0.136,
+      "percentile_in_state": 0.1269,
+      "rank_in_nation": 2186,
+      "rank_in_state": 118
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 48.875,
+      "revenue_per_planted_acre": 43.125,
+      "yield": 42.5
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.09,
+      "revenue_per_harvested_acre": 114.33,
+      "revenue_per_planted_acre": 97.9971,
+      "yield": 37.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.16,
+      "revenue_per_harvested_acre": 64.8,
+      "revenue_per_planted_acre": 38.88,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -1.3214,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

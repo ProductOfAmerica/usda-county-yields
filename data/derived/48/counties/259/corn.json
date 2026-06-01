@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "259",
+    "name": "KENDALL"
+  },
+  "rank": {
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 135,
+      "percentile_in_nation": 0.1538,
+      "percentile_in_state": 0.2463,
+      "rank_in_nation": 2141,
+      "rank_in_state": 102
+    },
+    "1979": {
+      "count_in_nation": 2431,
+      "count_in_state": 127,
+      "percentile_in_nation": 0.1136,
+      "percentile_in_state": 0.381,
+      "rank_in_nation": 2155,
+      "rank_in_state": 79
+    },
+    "1980": {
+      "count_in_nation": 2411,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.0087,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 2390,
+      "rank_in_state": 125
+    }
+  },
+  "revenue": {
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.16,
+      "revenue_per_harvested_acre": 70.2,
+      "revenue_per_planted_acre": 62.4,
+      "yield": 32.5
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 2.82,
+      "revenue_per_harvested_acre": 141.0,
+      "revenue_per_planted_acre": 56.4,
+      "yield": 50.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.44,
+      "revenue_per_harvested_acre": 58.48,
+      "revenue_per_planted_acre": 23.392,
+      "yield": 17.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -3.1786,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1980": 33.17
+    },
+    "yoy_pct": {
+      "1980": -66.0
+    }
+  }
+}

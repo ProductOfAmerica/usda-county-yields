@@ -1,0 +1,107 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "179",
+    "name": "LIBERTY"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 2011,
+      "count_in_state": 113,
+      "percentile_in_nation": 0.4761,
+      "percentile_in_state": 0.3125,
+      "rank_in_nation": 1054,
+      "rank_in_state": 78
+    },
+    "1970": {
+      "count_in_nation": 1906,
+      "count_in_state": 119,
+      "percentile_in_nation": 0.705,
+      "percentile_in_state": 0.5169,
+      "rank_in_nation": 563,
+      "rank_in_state": 58
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 142,
+      "percentile_in_nation": 0.4724,
+      "percentile_in_state": 0.766,
+      "rank_in_nation": 1321,
+      "rank_in_state": 34
+    },
+    "1981": {
+      "count_in_nation": 2535,
+      "count_in_state": 143,
+      "percentile_in_nation": 0.2893,
+      "percentile_in_state": 0.1197,
+      "rank_in_nation": 1802,
+      "rank_in_state": 126
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 145,
+      "percentile_in_nation": 0.2845,
+      "percentile_in_state": 0.4236,
+      "rank_in_nation": 1812,
+      "rank_in_state": 84
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.27,
+      "revenue_per_harvested_acre": 38.1,
+      "revenue_per_planted_acre": 29.1353,
+      "yield": 30.0
+    },
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 46.053,
+      "revenue_per_planted_acre": 35.8333,
+      "yield": 35.7
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.66,
+      "revenue_per_harvested_acre": 124.44,
+      "revenue_per_planted_acre": 111.996,
+      "yield": 34.0
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 3.32,
+      "revenue_per_harvested_acre": 109.228,
+      "revenue_per_planted_acre": 102.505,
+      "yield": 32.9
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.04,
+      "revenue_per_harvested_acre": 92.72,
+      "revenue_per_planted_acre": 80.4587,
+      "yield": 30.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.0368,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1982": 32.47
+    },
+    "yoy_pct": {
+      "1970": 19.0,
+      "1981": -3.24,
+      "1982": -7.29
+    }
+  }
+}

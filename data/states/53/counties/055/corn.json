@@ -1,0 +1,39 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "055",
+    "name": "SAN JUAN"
+  },
+  "schema_version": 3,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1963": 20.0,
+        "1964": 20.0,
+        "1965": 20.0,
+        "1966": 20.0,
+        "1967": 50.0,
+        "1968": 50.0,
+        "1969": 20.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  }
+}

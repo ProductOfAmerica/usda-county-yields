@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "063",
+    "name": "CAMP"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.0119,
+      "percentile_in_state": 0.1832,
+      "rank_in_nation": 2401,
+      "rank_in_state": 108
+    },
+    "2002": {
+      "count_in_nation": 2086,
+      "count_in_state": 109,
+      "percentile_in_nation": 0.3655,
+      "percentile_in_state": 0.6204,
+      "rank_in_nation": 1324,
+      "rank_in_state": 42
+    },
+    "2003": {
+      "count_in_nation": 2059,
+      "count_in_state": 103,
+      "percentile_in_nation": 0.2303,
+      "percentile_in_state": 0.5882,
+      "rank_in_nation": 1585,
+      "rank_in_state": 43
+    },
+    "2004": {
+      "count_in_nation": 2014,
+      "count_in_state": 107,
+      "percentile_in_nation": 0.5609,
+      "percentile_in_state": 0.7642,
+      "rank_in_nation": 885,
+      "rank_in_state": 26
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 21.93,
+      "revenue_per_planted_acre": 13.158,
+      "yield": 17.0
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 2.57,
+      "revenue_per_harvested_acre": 222.819,
+      "revenue_per_planted_acre": 205.6,
+      "yield": 86.7
+    },
+    "2003": {
+      "marketing_year": "2003",
+      "price": 2.59,
+      "revenue_per_harvested_acre": 246.05,
+      "revenue_per_planted_acre": 205.0417,
+      "yield": 95.0
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 2.6,
+      "revenue_per_harvested_acre": 369.98,
+      "revenue_per_planted_acre": 339.0833,
+      "yield": 142.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.7343,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2004": 108.0
+    },
+    "yoy_pct": {
+      "2003": 9.57,
+      "2004": 49.79
+    }
+  }
+}

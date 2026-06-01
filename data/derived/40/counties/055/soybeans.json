@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "055",
+    "name": "GREER"
+  },
+  "rank": {
+    "1967": {
+      "count_in_nation": 1399,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.2196,
+      "percentile_in_state": 0.381,
+      "rank_in_nation": 1092,
+      "rank_in_state": 27
+    },
+    "1982": {
+      "count_in_nation": 1813,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.8168,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 333,
+      "rank_in_state": 1
+    },
+    "1998": {
+      "count_in_nation": 1683,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.1106,
+      "percentile_in_state": 0.6724,
+      "rank_in_nation": 1497,
+      "rank_in_state": 20
+    }
+  },
+  "revenue": {
+    "1967": {
+      "marketing_year": "1967",
+      "price": 2.37,
+      "revenue_per_harvested_acre": 46.452,
+      "revenue_per_planted_acre": 46.452,
+      "yield": 19.6
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 5.2,
+      "revenue_per_harvested_acre": 182.0,
+      "revenue_per_planted_acre": 156.0,
+      "yield": 35.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 4.8,
+      "revenue_per_harvested_acre": 87.84,
+      "revenue_per_planted_acre": 40.6154,
+      "yield": 18.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.0531,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

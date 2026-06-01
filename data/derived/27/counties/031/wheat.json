@@ -1,0 +1,43 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "031",
+    "name": "COOK"
+  },
+  "rank": {
+    "1921": {
+      "count_in_nation": 471,
+      "count_in_state": 85,
+      "percentile_in_nation": 0.9617,
+      "percentile_in_state": 0.9881,
+      "rank_in_nation": 19,
+      "rank_in_state": 2
+    },
+    "1922": {
+      "count_in_nation": 472,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.6645,
+      "percentile_in_state": 0.5882,
+      "rank_in_nation": 159,
+      "rank_in_state": 36
+    }
+  },
+  "revenue": {},
+  "schema_version": 3,
+  "state": {
+    "alpha": "MN",
+    "fips": "27",
+    "name": "MINNESOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.2,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1922": -12.94
+    }
+  }
+}

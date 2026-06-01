@@ -1,0 +1,118 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "087",
+    "name": "HAYWOOD"
+  },
+  "rank": {
+    "1999": {
+      "count_in_nation": 1856,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.0027,
+      "percentile_in_state": 0.0123,
+      "rank_in_nation": 1851,
+      "rank_in_state": 81
+    },
+    "2000": {
+      "count_in_nation": 1833,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.0066,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1821,
+      "rank_in_state": 80
+    },
+    "2001": {
+      "count_in_nation": 1777,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.013,
+      "percentile_in_state": 0.025,
+      "rank_in_nation": 1754,
+      "rank_in_state": 79
+    },
+    "2002": {
+      "count_in_nation": 1782,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.0039,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1775,
+      "rank_in_state": 81
+    },
+    "2004": {
+      "count_in_nation": 1774,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.7169,
+      "percentile_in_state": 0.8987,
+      "rank_in_nation": 503,
+      "rank_in_state": 9
+    },
+    "2007": {
+      "count_in_nation": 1639,
+      "count_in_state": 76,
+      "percentile_in_nation": 0.0012,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1637,
+      "rank_in_state": 76
+    }
+  },
+  "revenue": {
+    "1999": {
+      "marketing_year": "1999",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.35,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.4,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 2.75,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 3.1,
+      "revenue_per_harvested_acre": 170.5,
+      "revenue_per_planted_acre": 56.8333,
+      "yield": 55.0
+    },
+    "2007": {
+      "marketing_year": "2007",
+      "price": 4.9,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.3541,
+    "trailing_10yr_avg": {
+      "2004": 11.0,
+      "2007": 9.17
+    },
+    "trailing_5yr_avg": {
+      "2001": 0.0,
+      "2002": 0.0,
+      "2004": 13.75
+    },
+    "yoy_pct": {}
+  }
+}

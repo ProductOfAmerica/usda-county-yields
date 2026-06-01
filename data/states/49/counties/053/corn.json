@@ -7,14 +7,113 @@
     "code": "053",
     "name": "WASHINGTON"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "GRAIN",
+      "values": {
+        "1974": 100.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "SILAGE",
+      "values": {
+        "1975": 100.0,
+        "1976": 100.0,
+        "1977": 100.0,
+        "1979": 100.0,
+        "1980": 100.0,
+        "1981": 100.0,
+        "1982": 100.0,
+        "1983": 100.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1972": 180.0,
+        "1973": 200.0,
+        "1974": 100.0,
+        "1975": 100.0,
+        "1976": 100.0,
+        "1977": 100.0,
+        "1979": 200.0,
+        "1980": 100.0,
+        "1981": 100.0,
+        "1982": 100.0,
+        "1983": 100.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "GRAIN",
+      "values": {
+        "1974": 8000.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, SILAGE - PRODUCTION, MEASURED IN TONS",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "TONS",
+      "util_practice": "SILAGE",
+      "values": {
+        "1975": 1200.0,
+        "1976": 1300.0,
+        "1977": 1300.0,
+        "1979": 1600.0,
+        "1980": 2000.0,
+        "1981": 1800.0,
+        "1982": 1900.0,
+        "1983": 1900.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "GRAIN",
@@ -24,9 +123,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "TONS / ACRE",
       "util_practice": "SILAGE",

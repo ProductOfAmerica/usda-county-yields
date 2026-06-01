@@ -1,0 +1,266 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "099",
+    "name": "TETON"
+  },
+  "rank": {
+    "1944": {
+      "count_in_nation": 1444,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.1504,
+      "percentile_in_state": 0.5429,
+      "rank_in_nation": 1227,
+      "rank_in_state": 17
+    },
+    "1945": {
+      "count_in_nation": 1447,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.1113,
+      "percentile_in_state": 0.7568,
+      "rank_in_nation": 1286,
+      "rank_in_state": 10
+    },
+    "1946": {
+      "count_in_nation": 1446,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.1273,
+      "percentile_in_state": 0.7838,
+      "rank_in_nation": 1262,
+      "rank_in_state": 9
+    },
+    "1947": {
+      "count_in_nation": 1449,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.2659,
+      "percentile_in_state": 0.7143,
+      "rank_in_nation": 1064,
+      "rank_in_state": 13
+    },
+    "1948": {
+      "count_in_nation": 1442,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.3754,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 901,
+      "rank_in_state": 1
+    },
+    "1949": {
+      "count_in_nation": 1376,
+      "count_in_state": 37,
+      "percentile_in_nation": 0.0276,
+      "percentile_in_state": 0.4722,
+      "rank_in_nation": 1338,
+      "rank_in_state": 20
+    },
+    "1950": {
+      "count_in_nation": 1416,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.2989,
+      "percentile_in_state": 0.8824,
+      "rank_in_nation": 993,
+      "rank_in_state": 5
+    },
+    "1951": {
+      "count_in_nation": 1494,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.286,
+      "percentile_in_state": 0.8529,
+      "rank_in_nation": 1067,
+      "rank_in_state": 6
+    },
+    "1952": {
+      "count_in_nation": 1493,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.3827,
+      "percentile_in_state": 0.7273,
+      "rank_in_nation": 922,
+      "rank_in_state": 10
+    },
+    "1954": {
+      "count_in_nation": 1756,
+      "count_in_state": 37,
+      "percentile_in_nation": 0.6803,
+      "percentile_in_state": 0.8333,
+      "rank_in_nation": 562,
+      "rank_in_state": 7
+    },
+    "1955": {
+      "count_in_nation": 1864,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.0612,
+      "percentile_in_state": 0.2105,
+      "rank_in_nation": 1750,
+      "rank_in_state": 31
+    },
+    "1958": {
+      "count_in_nation": 2058,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.122,
+      "percentile_in_state": 0.5946,
+      "rank_in_nation": 1807,
+      "rank_in_state": 16
+    },
+    "1965": {
+      "count_in_nation": 2322,
+      "count_in_state": 12,
+      "percentile_in_nation": 0.3981,
+      "percentile_in_state": 0.2727,
+      "rank_in_nation": 1398,
+      "rank_in_state": 9
+    },
+    "1973": {
+      "count_in_nation": 2480,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.3477,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 1618,
+      "rank_in_state": 11
+    }
+  },
+  "revenue": {
+    "1944": {
+      "marketing_year": "1944",
+      "price": 1.13,
+      "revenue_per_harvested_acre": 19.21,
+      "revenue_per_planted_acre": 19.21,
+      "yield": 17.0
+    },
+    "1945": {
+      "marketing_year": "1945",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 20.16,
+      "revenue_per_planted_acre": 20.16,
+      "yield": 16.0
+    },
+    "1946": {
+      "marketing_year": "1946",
+      "price": 1.5,
+      "revenue_per_harvested_acre": 25.5,
+      "revenue_per_planted_acre": 25.5,
+      "yield": 17.0
+    },
+    "1947": {
+      "marketing_year": "1947",
+      "price": 2.14,
+      "revenue_per_harvested_acre": 42.8,
+      "revenue_per_planted_acre": 42.8,
+      "yield": 20.0
+    },
+    "1948": {
+      "marketing_year": "1948",
+      "price": 1.51,
+      "revenue_per_harvested_acre": 51.34,
+      "revenue_per_planted_acre": 51.34,
+      "yield": 34.0
+    },
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.43,
+      "revenue_per_harvested_acre": 14.3,
+      "revenue_per_planted_acre": 14.3,
+      "yield": 10.0
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 1.64,
+      "revenue_per_harvested_acre": 49.2,
+      "revenue_per_planted_acre": 49.2,
+      "yield": 30.0
+    },
+    "1951": {
+      "marketing_year": "1951",
+      "price": 1.82,
+      "revenue_per_harvested_acre": 45.5,
+      "revenue_per_planted_acre": 45.5,
+      "yield": 25.0
+    },
+    "1952": {
+      "marketing_year": "1952",
+      "price": 1.72,
+      "revenue_per_harvested_acre": 51.6,
+      "revenue_per_planted_acre": 51.6,
+      "yield": 30.0
+    },
+    "1954": {
+      "marketing_year": "1954",
+      "price": 1.51,
+      "revenue_per_harvested_acre": 60.4,
+      "revenue_per_planted_acre": 60.4,
+      "yield": 40.0
+    },
+    "1955": {
+      "marketing_year": "1955",
+      "price": 1.53,
+      "revenue_per_harvested_acre": 24.48,
+      "revenue_per_planted_acre": 24.48,
+      "yield": 16.0
+    },
+    "1958": {
+      "marketing_year": "1958",
+      "price": 1.16,
+      "revenue_per_harvested_acre": 30.16,
+      "revenue_per_planted_acre": 30.16,
+      "yield": 26.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 64.5,
+      "revenue_per_planted_acre": 32.25,
+      "yield": 50.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.61,
+      "revenue_per_harvested_acre": 161.82,
+      "revenue_per_planted_acre": 32.364,
+      "yield": 62.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.496,
+    "trailing_10yr_avg": {
+      "1948": 20.8,
+      "1949": 19.0,
+      "1950": 20.57,
+      "1951": 21.12,
+      "1952": 22.11,
+      "1954": 24.67,
+      "1955": 24.67,
+      "1958": 25.29
+    },
+    "trailing_5yr_avg": {
+      "1946": 16.67,
+      "1947": 17.5,
+      "1948": 20.8,
+      "1949": 19.4,
+      "1950": 22.2,
+      "1951": 23.8,
+      "1952": 25.8,
+      "1954": 31.25,
+      "1955": 27.75,
+      "1958": 27.33
+    },
+    "yoy_pct": {
+      "1945": -5.88,
+      "1946": 6.25,
+      "1947": 17.65,
+      "1948": 70.0,
+      "1949": -70.59,
+      "1950": 200.0,
+      "1951": -16.67,
+      "1952": 20.0,
+      "1955": -60.0
+    }
+  }
+}

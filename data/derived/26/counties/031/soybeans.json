@@ -1,0 +1,202 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "031",
+    "name": "CHEBOYGAN"
+  },
+  "rank": {
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.2834,
+      "percentile_in_state": 0.3968,
+      "rank_in_nation": 1331,
+      "rank_in_state": 39
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.0696,
+      "percentile_in_state": 0.0952,
+      "rank_in_nation": 1751,
+      "rank_in_state": 58
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.6794,
+      "percentile_in_state": 0.193,
+      "rank_in_nation": 599,
+      "rank_in_state": 47
+    },
+    "1981": {
+      "count_in_nation": 1835,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.4215,
+      "percentile_in_state": 0.125,
+      "rank_in_nation": 1062,
+      "rank_in_state": 50
+    },
+    "1982": {
+      "count_in_nation": 1813,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.2914,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 1285,
+      "rank_in_state": 46
+    },
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 66,
+      "percentile_in_nation": 0.6881,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 584,
+      "rank_in_state": 53
+    },
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.5496,
+      "percentile_in_state": 0.7015,
+      "rank_in_nation": 845,
+      "rank_in_state": 21
+    },
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.372,
+      "percentile_in_state": 0.2985,
+      "rank_in_nation": 1164,
+      "rank_in_state": 48
+    },
+    "1986": {
+      "count_in_nation": 1814,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.4021,
+      "percentile_in_state": 0.1429,
+      "rank_in_nation": 1085,
+      "rank_in_state": 55
+    },
+    "1987": {
+      "count_in_nation": 1778,
+      "count_in_state": 62,
+      "percentile_in_nation": 0.3787,
+      "percentile_in_state": 0.1148,
+      "rank_in_nation": 1105,
+      "rank_in_state": 55
+    }
+  },
+  "revenue": {
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.81,
+      "revenue_per_harvested_acre": 145.734,
+      "revenue_per_planted_acre": 145.9286,
+      "yield": 21.4
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.13,
+      "revenue_per_harvested_acre": 133.634,
+      "revenue_per_planted_acre": 133.634,
+      "yield": 21.8
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.49,
+      "revenue_per_harvested_acre": 211.967,
+      "revenue_per_planted_acre": 212.2167,
+      "yield": 28.3
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 6.04,
+      "revenue_per_harvested_acre": 151.0,
+      "revenue_per_planted_acre": 151.0,
+      "yield": 25.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 5.46,
+      "revenue_per_harvested_acre": 136.5,
+      "revenue_per_planted_acre": 136.5,
+      "yield": 25.0
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.82,
+      "revenue_per_harvested_acre": 215.05,
+      "revenue_per_planted_acre": 215.05,
+      "yield": 27.5
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.79,
+      "revenue_per_harvested_acre": 156.33,
+      "revenue_per_planted_acre": 156.33,
+      "yield": 27.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 4.93,
+      "revenue_per_harvested_acre": 133.11,
+      "revenue_per_planted_acre": 133.11,
+      "yield": 27.0
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 4.67,
+      "revenue_per_harvested_acre": 121.42,
+      "revenue_per_planted_acre": 121.42,
+      "yield": 26.0
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 5.62,
+      "revenue_per_harvested_acre": 140.5,
+      "revenue_per_planted_acre": 140.5,
+      "yield": 25.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3867,
+    "trailing_10yr_avg": {
+      "1982": 24.3,
+      "1983": 24.83,
+      "1984": 25.14,
+      "1985": 25.38,
+      "1986": 25.44,
+      "1987": 25.4
+    },
+    "trailing_5yr_avg": {
+      "1980": 23.83,
+      "1981": 24.12,
+      "1982": 24.3,
+      "1983": 25.52,
+      "1984": 26.56,
+      "1985": 26.3,
+      "1986": 26.5,
+      "1987": 26.5
+    },
+    "yoy_pct": {
+      "1979": 1.87,
+      "1980": 29.82,
+      "1981": -11.66,
+      "1982": 0.0,
+      "1983": 10.0,
+      "1984": -1.82,
+      "1985": 0.0,
+      "1986": -3.7,
+      "1987": -3.85
+    }
+  }
+}

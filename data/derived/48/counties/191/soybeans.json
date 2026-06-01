@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "191",
+    "name": "HALL"
+  },
+  "rank": {
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.6628,
+      "percentile_in_state": 0.56,
+      "rank_in_nation": 616,
+      "rank_in_state": 23
+    }
+  },
+  "revenue": {
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.07,
+      "revenue_per_harvested_acre": 165.789,
+      "revenue_per_planted_acre": 165.8614,
+      "yield": 32.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

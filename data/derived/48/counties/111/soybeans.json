@@ -1,0 +1,171 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "111",
+    "name": "DALLAM"
+  },
+  "rank": {
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.6589,
+      "percentile_in_state": 0.7792,
+      "rank_in_nation": 628,
+      "rank_in_state": 18
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.59,
+      "percentile_in_state": 0.75,
+      "rank_in_nation": 762,
+      "rank_in_state": 20
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 69,
+      "percentile_in_nation": 0.7129,
+      "percentile_in_state": 0.8235,
+      "rank_in_nation": 541,
+      "rank_in_state": 13
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.733,
+      "percentile_in_state": 0.8182,
+      "rank_in_nation": 499,
+      "rank_in_state": 11
+    },
+    "1988": {
+      "count_in_nation": 1814,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.9829,
+      "percentile_in_state": 0.8529,
+      "rank_in_nation": 32,
+      "rank_in_state": 6
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.6922,
+      "percentile_in_state": 0.8372,
+      "rank_in_nation": 508,
+      "rank_in_state": 8
+    },
+    "2002": {
+      "count_in_nation": 1631,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.7607,
+      "percentile_in_state": 0.7727,
+      "rank_in_nation": 391,
+      "rank_in_state": 11
+    },
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.5993,
+      "percentile_in_state": 0.8947,
+      "rank_in_nation": 673,
+      "rank_in_state": 5
+    },
+    "2006": {
+      "count_in_nation": 1611,
+      "count_in_state": 32,
+      "percentile_in_nation": 0.8814,
+      "percentile_in_state": 0.9677,
+      "rank_in_nation": 192,
+      "rank_in_state": 2
+    }
+  },
+  "revenue": {
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 164.245,
+      "revenue_per_planted_acre": 153.3667,
+      "yield": 30.7
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.3,
+      "revenue_per_harvested_acre": 175.14,
+      "revenue_per_planted_acre": 157.5,
+      "yield": 27.8
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 193.242,
+      "revenue_per_planted_acre": 193.2133,
+      "yield": 32.1
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.72,
+      "revenue_per_harvested_acre": 231.6,
+      "revenue_per_planted_acre": 231.6,
+      "yield": 30.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 7.05,
+      "revenue_per_harvested_acre": 282.0,
+      "revenue_per_planted_acre": 282.0,
+      "yield": 40.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.6,
+      "revenue_per_harvested_acre": 184.0,
+      "revenue_per_planted_acre": 159.4667,
+      "yield": 40.0
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 5.1,
+      "revenue_per_harvested_acre": 204.0,
+      "revenue_per_planted_acre": 204.0,
+      "yield": 40.0
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.85,
+      "revenue_per_harvested_acre": 249.21,
+      "revenue_per_planted_acre": 231.9828,
+      "yield": 42.6
+    },
+    "2006": {
+      "marketing_year": "2006",
+      "price": 5.4,
+      "revenue_per_harvested_acre": 275.4,
+      "revenue_per_planted_acre": 273.6,
+      "yield": 51.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.5438,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1979": 30.2,
+      "1980": 30.15,
+      "2004": 40.87,
+      "2006": 44.53
+    },
+    "yoy_pct": {
+      "1978": -9.45,
+      "1979": 15.47,
+      "1980": -6.54,
+      "2002": 0.0
+    }
+  }
+}

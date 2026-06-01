@@ -1,0 +1,166 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "265",
+    "name": "TALIAFERRO"
+  },
+  "rank": {
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.1713,
+      "percentile_in_state": 0.6475,
+      "rank_in_nation": 1539,
+      "rank_in_state": 50
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.2307,
+      "percentile_in_state": 0.1918,
+      "rank_in_nation": 1448,
+      "rank_in_state": 119
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.1046,
+      "percentile_in_state": 0.411,
+      "rank_in_nation": 1671,
+      "rank_in_state": 87
+    },
+    "1981": {
+      "count_in_nation": 1835,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.0654,
+      "percentile_in_state": 0.3904,
+      "rank_in_nation": 1715,
+      "rank_in_state": 90
+    },
+    "1982": {
+      "count_in_nation": 1813,
+      "count_in_state": 146,
+      "percentile_in_nation": 0.0524,
+      "percentile_in_state": 0.0345,
+      "rank_in_nation": 1718,
+      "rank_in_state": 141
+    },
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 142,
+      "percentile_in_nation": 0.305,
+      "percentile_in_state": 0.2908,
+      "rank_in_nation": 1300,
+      "rank_in_state": 101
+    },
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 146,
+      "percentile_in_nation": 0.0117,
+      "percentile_in_state": 0.0069,
+      "rank_in_nation": 1853,
+      "rank_in_state": 145
+    },
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 142,
+      "percentile_in_nation": 0.2813,
+      "percentile_in_state": 0.6383,
+      "rank_in_nation": 1332,
+      "rank_in_state": 52
+    }
+  },
+  "revenue": {
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.39,
+      "revenue_per_harvested_acre": 121.41,
+      "revenue_per_planted_acre": 111.2925,
+      "yield": 19.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.36,
+      "revenue_per_harvested_acre": 157.728,
+      "revenue_per_planted_acre": 145.7908,
+      "yield": 24.8
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.63,
+      "revenue_per_harvested_acre": 86.219,
+      "revenue_per_planted_acre": 70.2885,
+      "yield": 11.3
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 6.09,
+      "revenue_per_harvested_acre": 107.184,
+      "revenue_per_planted_acre": 100.7618,
+      "yield": 17.6
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 5.45,
+      "revenue_per_harvested_acre": 99.19,
+      "revenue_per_planted_acre": 92.4683,
+      "yield": 18.2
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.59,
+      "revenue_per_harvested_acre": 139.656,
+      "revenue_per_planted_acre": 136.7718,
+      "yield": 18.4
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.99,
+      "revenue_per_harvested_acre": 64.093,
+      "revenue_per_planted_acre": 62.8339,
+      "yield": 10.7
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 4.82,
+      "revenue_per_harvested_acre": 123.392,
+      "revenue_per_planted_acre": 118.6462,
+      "yield": 25.6
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.0286,
+    "trailing_10yr_avg": {
+      "1982": 18.18,
+      "1983": 18.22,
+      "1984": 17.14,
+      "1985": 18.2
+    },
+    "trailing_5yr_avg": {
+      "1980": 18.37,
+      "1981": 18.18,
+      "1982": 18.18,
+      "1983": 18.06,
+      "1984": 15.24,
+      "1985": 18.1
+    },
+    "yoy_pct": {
+      "1979": 30.53,
+      "1980": -54.44,
+      "1981": 55.75,
+      "1982": 3.41,
+      "1983": 1.1,
+      "1984": -41.85,
+      "1985": 139.25
+    }
+  }
+}

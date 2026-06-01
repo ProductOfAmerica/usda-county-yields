@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "173",
+    "name": "SWAIN"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 94,
+      "percentile_in_nation": 0.7285,
+      "percentile_in_state": 0.914,
+      "rank_in_nation": 494,
+      "rank_in_state": 9
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 95,
+      "percentile_in_nation": 0.172,
+      "percentile_in_state": 0.4362,
+      "rank_in_nation": 1484,
+      "rank_in_state": 54
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.1219,
+      "percentile_in_state": 0.5104,
+      "rank_in_nation": 1615,
+      "rank_in_state": 48
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.81,
+      "revenue_per_harvested_acre": 170.25,
+      "revenue_per_planted_acre": 136.2,
+      "yield": 25.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.67,
+      "revenue_per_harvested_acre": 93.4,
+      "revenue_per_planted_acre": 93.4,
+      "yield": 20.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 108.36,
+      "revenue_per_planted_acre": 108.36,
+      "yield": 18.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.1429,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1977": 21.0
+    },
+    "yoy_pct": {
+      "1975": -20.0
+    }
+  }
+}

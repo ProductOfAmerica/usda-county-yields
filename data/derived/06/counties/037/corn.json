@@ -1,0 +1,127 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "037",
+    "name": "LOS ANGELES"
+  },
+  "rank": {
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.9719,
+      "percentile_in_state": 0.8824,
+      "rank_in_nation": 62,
+      "rank_in_state": 5
+    },
+    "1960": {
+      "count_in_nation": 2201,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.9786,
+      "percentile_in_state": 0.8529,
+      "rank_in_nation": 48,
+      "rank_in_state": 6
+    },
+    "1961": {
+      "count_in_nation": 2305,
+      "count_in_state": 31,
+      "percentile_in_nation": 0.8776,
+      "percentile_in_state": 0.7667,
+      "rank_in_nation": 283,
+      "rank_in_state": 8
+    },
+    "1962": {
+      "count_in_nation": 2319,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.8533,
+      "percentile_in_state": 0.7576,
+      "rank_in_nation": 341,
+      "rank_in_state": 9
+    },
+    "1963": {
+      "count_in_nation": 2353,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.7912,
+      "percentile_in_state": 0.4242,
+      "rank_in_nation": 492,
+      "rank_in_state": 20
+    },
+    "1988": {
+      "count_in_nation": 2265,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.9019,
+      "percentile_in_state": 0.12,
+      "rank_in_nation": 223,
+      "rank_in_state": 23
+    }
+  },
+  "revenue": {
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.4,
+      "revenue_per_harvested_acre": 105.0,
+      "revenue_per_planted_acre": 42.0,
+      "yield": 75.0
+    },
+    "1960": {
+      "marketing_year": "1960",
+      "price": 1.38,
+      "revenue_per_harvested_acre": 104.88,
+      "revenue_per_planted_acre": 41.952,
+      "yield": 76.0
+    },
+    "1961": {
+      "marketing_year": "1961",
+      "price": 1.35,
+      "revenue_per_harvested_acre": 99.9,
+      "revenue_per_planted_acre": 33.3,
+      "yield": 74.0
+    },
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.39,
+      "revenue_per_harvested_acre": 101.47,
+      "revenue_per_planted_acre": 38.0512,
+      "yield": 73.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.46,
+      "revenue_per_harvested_acre": 102.2,
+      "revenue_per_planted_acre": 63.875,
+      "yield": 70.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 3.16,
+      "revenue_per_harvested_acre": 379.2,
+      "revenue_per_planted_acre": 270.8571,
+      "yield": 120.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.6696,
+    "trailing_10yr_avg": {
+      "1963": 73.6
+    },
+    "trailing_5yr_avg": {
+      "1961": 75.0,
+      "1962": 74.5,
+      "1963": 73.6
+    },
+    "yoy_pct": {
+      "1960": 1.33,
+      "1961": -2.63,
+      "1962": -1.35,
+      "1963": -4.11
+    }
+  }
+}

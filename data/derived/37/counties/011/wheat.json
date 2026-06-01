@@ -1,0 +1,39 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "011",
+    "name": "AVERY"
+  },
+  "rank": {
+    "2001": {
+      "count_in_nation": 1777,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.013,
+      "percentile_in_state": 0.025,
+      "rank_in_nation": 1754,
+      "rank_in_state": 79
+    }
+  },
+  "revenue": {
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.4,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

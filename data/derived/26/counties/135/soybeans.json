@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "135",
+    "name": "OSCODA"
+  },
+  "rank": {
+    "1988": {
+      "count_in_nation": 1814,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.1798,
+      "percentile_in_state": 0.0317,
+      "rank_in_nation": 1488,
+      "rank_in_state": 62
+    },
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 65,
+      "percentile_in_nation": 0.3816,
+      "percentile_in_state": 0.1875,
+      "rank_in_nation": 1129,
+      "rank_in_state": 53
+    }
+  },
+  "revenue": {
+    "1988": {
+      "marketing_year": "1988",
+      "price": 7.28,
+      "revenue_per_harvested_acre": 145.6,
+      "revenue_per_planted_acre": 145.6,
+      "yield": 20.0
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.6,
+      "revenue_per_harvested_acre": 149.52,
+      "revenue_per_planted_acre": 149.3333,
+      "yield": 26.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 6.7,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1989": 33.5
+    }
+  }
+}

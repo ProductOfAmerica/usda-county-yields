@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "165",
+    "name": "SIOUX"
+  },
+  "rank": {
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.7319,
+      "percentile_in_state": 0.5802,
+      "rank_in_nation": 490,
+      "rank_in_state": 35
+    }
+  },
+  "revenue": {
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.45,
+      "revenue_per_harvested_acre": 185.3,
+      "revenue_per_planted_acre": 185.3,
+      "yield": 34.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

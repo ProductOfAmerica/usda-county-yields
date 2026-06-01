@@ -1,0 +1,172 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "111",
+    "name": "FANNIN"
+  },
+  "rank": {
+    "1966": {
+      "count_in_nation": 1339,
+      "count_in_state": 103,
+      "percentile_in_nation": 0.1644,
+      "percentile_in_state": 0.1765,
+      "rank_in_nation": 1119,
+      "rank_in_state": 85
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 135,
+      "percentile_in_nation": 0.2791,
+      "percentile_in_state": 0.7239,
+      "rank_in_nation": 1326,
+      "rank_in_state": 38
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.3761,
+      "percentile_in_state": 0.9281,
+      "rank_in_nation": 1159,
+      "rank_in_state": 11
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.2036,
+      "percentile_in_state": 0.1712,
+      "rank_in_nation": 1499,
+      "rank_in_state": 122
+    },
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 146,
+      "percentile_in_nation": 0.4418,
+      "percentile_in_state": 0.7586,
+      "rank_in_nation": 1047,
+      "rank_in_state": 36
+    },
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 142,
+      "percentile_in_nation": 0.2662,
+      "percentile_in_state": 0.5957,
+      "rank_in_nation": 1360,
+      "rank_in_state": 58
+    },
+    "1988": {
+      "count_in_nation": 1814,
+      "count_in_state": 128,
+      "percentile_in_nation": 0.3039,
+      "percentile_in_state": 0.4331,
+      "rank_in_nation": 1263,
+      "rank_in_state": 73
+    },
+    "1991": {
+      "count_in_nation": 1740,
+      "count_in_state": 128,
+      "percentile_in_nation": 0.6843,
+      "percentile_in_state": 0.9449,
+      "rank_in_nation": 550,
+      "rank_in_state": 8
+    },
+    "1992": {
+      "count_in_nation": 1739,
+      "count_in_state": 123,
+      "percentile_in_nation": 0.225,
+      "percentile_in_state": 0.3607,
+      "rank_in_nation": 1348,
+      "rank_in_state": 79
+    }
+  },
+  "revenue": {
+    "1966": {
+      "marketing_year": "1966",
+      "price": 2.8,
+      "revenue_per_harvested_acre": 50.4,
+      "yield": 18.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 6.16,
+      "revenue_per_harvested_acre": 129.36,
+      "revenue_per_planted_acre": 119.4092,
+      "yield": 21.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.39,
+      "revenue_per_harvested_acre": 146.97,
+      "revenue_per_planted_acre": 128.5987,
+      "yield": 23.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.36,
+      "revenue_per_harvested_acre": 152.64,
+      "revenue_per_planted_acre": 140.8985,
+      "yield": 24.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.99,
+      "revenue_per_harvested_acre": 149.75,
+      "revenue_per_planted_acre": 104.825,
+      "yield": 25.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 4.82,
+      "revenue_per_harvested_acre": 120.5,
+      "revenue_per_planted_acre": 75.3125,
+      "yield": 25.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 7.3,
+      "revenue_per_harvested_acre": 167.17,
+      "revenue_per_planted_acre": 142.35,
+      "yield": 22.9
+    },
+    "1991": {
+      "marketing_year": "1991",
+      "price": 5.53,
+      "revenue_per_harvested_acre": 193.55,
+      "revenue_per_planted_acre": 193.55,
+      "yield": 35.0
+    },
+    "1992": {
+      "marketing_year": "1992",
+      "price": 5.49,
+      "revenue_per_harvested_acre": 149.877,
+      "revenue_per_planted_acre": 149.7273,
+      "yield": 27.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4561,
+    "trailing_10yr_avg": {
+      "1985": 23.6,
+      "1992": 27.04
+    },
+    "trailing_5yr_avg": {
+      "1979": 22.67,
+      "1988": 24.3,
+      "1992": 28.4
+    },
+    "yoy_pct": {
+      "1978": 9.52,
+      "1979": 4.35,
+      "1985": 0.0,
+      "1992": -22.0
+    }
+  }
+}

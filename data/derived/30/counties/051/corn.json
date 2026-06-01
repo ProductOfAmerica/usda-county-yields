@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "051",
+    "name": "LIBERTY"
+  },
+  "rank": {
+    "1947": {
+      "count_in_nation": 1449,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.0055,
+      "percentile_in_state": 0.0238,
+      "rank_in_nation": 1441,
+      "rank_in_state": 42
+    },
+    "1999": {
+      "count_in_nation": 2098,
+      "count_in_state": 18,
+      "percentile_in_nation": 0.4564,
+      "percentile_in_state": 0.4118,
+      "rank_in_nation": 1141,
+      "rank_in_state": 11
+    }
+  },
+  "revenue": {
+    "1947": {
+      "marketing_year": "1947",
+      "price": 2.14,
+      "revenue_per_harvested_acre": 19.26,
+      "revenue_per_planted_acre": 19.26,
+      "yield": 9.0
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 1.55,
+      "revenue_per_harvested_acre": 155.0,
+      "revenue_per_planted_acre": 129.1667,
+      "yield": 100.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.75,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

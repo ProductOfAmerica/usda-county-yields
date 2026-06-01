@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "093",
+    "name": "MEADE"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.0265,
+      "percentile_in_state": 0.05,
+      "rank_in_nation": 1619,
+      "rank_in_state": 58
+    },
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0018,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1675,
+      "rank_in_state": 57
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.27,
+      "revenue_per_harvested_acre": 52.948,
+      "revenue_per_planted_acre": 53.0105,
+      "yield": 12.4
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.58,
+      "revenue_per_harvested_acre": 51.894,
+      "revenue_per_planted_acre": 48.36,
+      "yield": 9.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.775,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

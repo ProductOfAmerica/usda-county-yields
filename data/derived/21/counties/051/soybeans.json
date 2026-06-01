@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "051",
+    "name": "CLAY"
+  },
+  "rank": {
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.486,
+      "percentile_in_state": 0.122,
+      "rank_in_nation": 771,
+      "rank_in_state": 73
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 76,
+      "percentile_in_nation": 0.3575,
+      "percentile_in_state": 0.0533,
+      "rank_in_nation": 869,
+      "rank_in_state": 72
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 69,
+      "percentile_in_nation": 0.428,
+      "percentile_in_state": 0.1029,
+      "rank_in_nation": 799,
+      "rank_in_state": 62
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.472,
+      "percentile_in_state": 0.0968,
+      "rank_in_nation": 690,
+      "rank_in_state": 57
+    }
+  },
+  "revenue": {
+    "2020": {
+      "marketing_year": "2020",
+      "price": 10.8,
+      "revenue_per_harvested_acre": 531.36,
+      "revenue_per_planted_acre": 525.15,
+      "yield": 49.2
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 13.1,
+      "revenue_per_harvested_acre": 603.91,
+      "revenue_per_planted_acre": 604.4714,
+      "yield": 46.1
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 14.4,
+      "revenue_per_harvested_acre": 645.12,
+      "revenue_per_planted_acre": 644.4,
+      "yield": 44.8
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.8,
+      "revenue_per_harvested_acre": 613.12,
+      "revenue_per_planted_acre": 612.5714,
+      "yield": 47.9
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.52,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2022": 46.7,
+      "2023": 47.0
+    },
+    "yoy_pct": {
+      "2021": -6.3,
+      "2022": -2.82,
+      "2023": 6.92
+    }
+  }
+}

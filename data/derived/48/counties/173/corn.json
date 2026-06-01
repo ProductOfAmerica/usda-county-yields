@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "173",
+    "name": "GLASSCOCK"
+  },
+  "rank": {
+    "1998": {
+      "count_in_nation": 2123,
+      "count_in_state": 113,
+      "percentile_in_nation": 0.6447,
+      "percentile_in_state": 0.8214,
+      "rank_in_nation": 755,
+      "rank_in_state": 21
+    },
+    "2021": {
+      "count_in_nation": 1502,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.5256,
+      "percentile_in_state": 0.8214,
+      "rank_in_nation": 713,
+      "rank_in_state": 11
+    }
+  },
+  "revenue": {
+    "1998": {
+      "marketing_year": "1998",
+      "price": 2.26,
+      "revenue_per_harvested_acre": 271.2,
+      "revenue_per_planted_acre": 271.2,
+      "yield": 120.0
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 6.18,
+      "revenue_per_harvested_acre": 1059.252,
+      "revenue_per_planted_acre": 983.5029,
+      "yield": 171.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.2348,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

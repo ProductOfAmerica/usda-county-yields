@@ -1,0 +1,123 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "245",
+    "name": "JEFFERSON"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 2089,
+      "count_in_state": 168,
+      "percentile_in_nation": 0.0738,
+      "percentile_in_state": 0.4132,
+      "rank_in_nation": 1935,
+      "rank_in_state": 99
+    },
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 164,
+      "percentile_in_nation": 0.1819,
+      "percentile_in_state": 0.7117,
+      "rank_in_nation": 2048,
+      "rank_in_state": 48
+    },
+    "1986": {
+      "count_in_nation": 2402,
+      "count_in_state": 196,
+      "percentile_in_nation": 0.2695,
+      "percentile_in_state": 0.7641,
+      "rank_in_nation": 1755,
+      "rank_in_state": 47
+    },
+    "1987": {
+      "count_in_nation": 2373,
+      "count_in_state": 191,
+      "percentile_in_nation": 0.2323,
+      "percentile_in_state": 0.7737,
+      "rank_in_nation": 1822,
+      "rank_in_state": 44
+    },
+    "1988": {
+      "count_in_nation": 2362,
+      "count_in_state": 187,
+      "percentile_in_nation": 0.0953,
+      "percentile_in_state": 0.3011,
+      "rank_in_nation": 2137,
+      "rank_in_state": 131
+    },
+    "1989": {
+      "count_in_nation": 2359,
+      "count_in_state": 185,
+      "percentile_in_nation": 0.003,
+      "percentile_in_state": 0.0272,
+      "rank_in_nation": 2352,
+      "rank_in_state": 180
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 22.428,
+      "revenue_per_planted_acre": 8.1327,
+      "yield": 17.8
+    },
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.56,
+      "revenue_per_harvested_acre": 34.788,
+      "revenue_per_planted_acre": 11.6133,
+      "yield": 22.3
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 2.32,
+      "revenue_per_harvested_acre": 64.496,
+      "revenue_per_planted_acre": 58.0,
+      "yield": 27.8
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 2.36,
+      "revenue_per_harvested_acre": 70.8,
+      "revenue_per_planted_acre": 4.1647,
+      "yield": 30.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 3.39,
+      "revenue_per_harvested_acre": 67.8,
+      "revenue_per_planted_acre": 33.9,
+      "yield": 20.0
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 3.79,
+      "revenue_per_harvested_acre": 32.594,
+      "revenue_per_planted_acre": 20.6727,
+      "yield": 8.6
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.027,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1988": 25.93,
+      "1989": 21.6
+    },
+    "yoy_pct": {
+      "1987": 7.91,
+      "1988": -33.33,
+      "1989": -57.0
+    }
+  }
+}

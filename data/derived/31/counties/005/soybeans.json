@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "005",
+    "name": "ARTHUR"
+  },
+  "rank": {
+    "1987": {
+      "count_in_nation": 1778,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.8897,
+      "percentile_in_state": 0.85,
+      "rank_in_nation": 197,
+      "rank_in_state": 13
+    },
+    "1988": {
+      "count_in_nation": 1814,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.9829,
+      "percentile_in_state": 0.8675,
+      "rank_in_nation": 32,
+      "rank_in_state": 12
+    }
+  },
+  "revenue": {
+    "1987": {
+      "marketing_year": "1987",
+      "price": 5.82,
+      "revenue_per_harvested_acre": 238.62,
+      "revenue_per_planted_acre": 238.62,
+      "yield": 41.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 7.31,
+      "revenue_per_harvested_acre": 292.4,
+      "revenue_per_planted_acre": 292.4,
+      "yield": 40.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -1.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1988": -2.44
+    }
+  }
+}

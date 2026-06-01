@@ -1,0 +1,126 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "065",
+    "name": "CLINCH"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 130,
+      "percentile_in_nation": 0.0903,
+      "percentile_in_state": 0.3256,
+      "rank_in_nation": 2277,
+      "rank_in_state": 88
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.0855,
+      "percentile_in_state": 0.0242,
+      "rank_in_nation": 2302,
+      "rank_in_state": 122
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 128,
+      "percentile_in_nation": 0.2703,
+      "percentile_in_state": 0.5197,
+      "rank_in_nation": 1877,
+      "rank_in_state": 62
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 127,
+      "percentile_in_nation": 0.1263,
+      "percentile_in_state": 0.119,
+      "rank_in_nation": 2207,
+      "rank_in_state": 112
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 142,
+      "percentile_in_nation": 0.2998,
+      "percentile_in_state": 0.4043,
+      "rank_in_nation": 1753,
+      "rank_in_state": 85
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 145,
+      "percentile_in_nation": 0.3244,
+      "percentile_in_state": 0.4931,
+      "rank_in_nation": 1711,
+      "rank_in_state": 74
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.36,
+      "revenue_per_harvested_acre": 24.48,
+      "revenue_per_planted_acre": 12.24,
+      "yield": 18.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.69,
+      "revenue_per_harvested_acre": 54.876,
+      "revenue_per_planted_acre": 40.7343,
+      "yield": 20.4
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.33,
+      "revenue_per_harvested_acre": 78.255,
+      "revenue_per_planted_acre": 53.4553,
+      "yield": 23.5
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.89,
+      "revenue_per_harvested_acre": 60.979,
+      "revenue_per_planted_acre": 45.6981,
+      "yield": 21.1
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.66,
+      "revenue_per_harvested_acre": 109.8,
+      "revenue_per_planted_acre": 98.82,
+      "yield": 30.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.04,
+      "revenue_per_harvested_acre": 94.544,
+      "revenue_per_planted_acre": 85.12,
+      "yield": 31.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.2841,
+    "trailing_10yr_avg": {
+      "1980": 22.6,
+      "1982": 25.22
+    },
+    "trailing_5yr_avg": {
+      "1974": 20.63,
+      "1975": 20.75
+    },
+    "yoy_pct": {
+      "1973": 13.33,
+      "1974": 15.2,
+      "1975": -10.21
+    }
+  }
+}

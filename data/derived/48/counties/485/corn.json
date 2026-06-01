@@ -1,0 +1,159 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "485",
+    "name": "WICHITA"
+  },
+  "rank": {
+    "1982": {
+      "count_in_nation": 2395,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.0802,
+      "percentile_in_state": 0.1294,
+      "rank_in_nation": 2203,
+      "rank_in_state": 75
+    },
+    "2001": {
+      "count_in_nation": 2023,
+      "count_in_state": 98,
+      "percentile_in_nation": 0.0514,
+      "percentile_in_state": 0.134,
+      "rank_in_nation": 1919,
+      "rank_in_state": 85
+    },
+    "2002": {
+      "count_in_nation": 2086,
+      "count_in_state": 109,
+      "percentile_in_nation": 0.1386,
+      "percentile_in_state": 0.3148,
+      "rank_in_nation": 1797,
+      "rank_in_state": 75
+    },
+    "2003": {
+      "count_in_nation": 2059,
+      "count_in_state": 103,
+      "percentile_in_nation": 0.0826,
+      "percentile_in_state": 0.2745,
+      "rank_in_nation": 1889,
+      "rank_in_state": 75
+    },
+    "2004": {
+      "count_in_nation": 2014,
+      "count_in_state": 107,
+      "percentile_in_nation": 0.1307,
+      "percentile_in_state": 0.3302,
+      "rank_in_nation": 1751,
+      "rank_in_state": 72
+    },
+    "2005": {
+      "count_in_nation": 2003,
+      "count_in_state": 105,
+      "percentile_in_nation": 0.1933,
+      "percentile_in_state": 0.5769,
+      "rank_in_nation": 1616,
+      "rank_in_state": 45
+    },
+    "2007": {
+      "count_in_nation": 1934,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.029,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1878,
+      "rank_in_state": 81
+    },
+    "2024": {
+      "count_in_nation": 1297,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.034,
+      "percentile_in_state": 0.1091,
+      "rank_in_nation": 1253,
+      "rank_in_state": 50
+    }
+  },
+  "revenue": {
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.07,
+      "revenue_per_harvested_acre": 170.078,
+      "revenue_per_planted_acre": 113.3342,
+      "yield": 55.4
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.29,
+      "revenue_per_harvested_acre": 124.118,
+      "revenue_per_planted_acre": 106.3214,
+      "yield": 54.2
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 2.57,
+      "revenue_per_harvested_acre": 151.63,
+      "revenue_per_planted_acre": 151.63,
+      "yield": 59.0
+    },
+    "2003": {
+      "marketing_year": "2003",
+      "price": 2.59,
+      "revenue_per_harvested_acre": 164.724,
+      "revenue_per_planted_acre": 164.8182,
+      "yield": 63.6
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 2.6,
+      "revenue_per_harvested_acre": 241.54,
+      "revenue_per_planted_acre": 195.0,
+      "yield": 92.9
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 2.47,
+      "revenue_per_harvested_acre": 230.451,
+      "revenue_per_planted_acre": 125.7455,
+      "yield": 93.3
+    },
+    "2007": {
+      "marketing_year": "2007",
+      "price": 4.35,
+      "revenue_per_harvested_acre": 217.5,
+      "revenue_per_planted_acre": 171.7105,
+      "yield": 50.0
+    },
+    "2024": {
+      "marketing_year": "2024",
+      "price": 4.9,
+      "revenue_per_harvested_acre": 288.12,
+      "revenue_per_planted_acre": 267.5658,
+      "yield": 58.8
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.1323,
+    "trailing_10yr_avg": {
+      "2005": 72.6,
+      "2007": 68.83
+    },
+    "trailing_5yr_avg": {
+      "2003": 58.93,
+      "2004": 67.42,
+      "2005": 72.6,
+      "2007": 74.95
+    },
+    "yoy_pct": {
+      "2002": 8.86,
+      "2003": 7.8,
+      "2004": 46.07,
+      "2005": 0.43
+    }
+  }
+}

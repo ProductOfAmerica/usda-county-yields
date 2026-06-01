@@ -1,0 +1,129 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "015",
+    "name": "AUSTIN"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 42,
+      "percentile_in_nation": 0.1472,
+      "percentile_in_state": 0.5854,
+      "rank_in_nation": 1502,
+      "rank_in_state": 18
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.053,
+      "percentile_in_state": 0.2182,
+      "rank_in_nation": 1697,
+      "rank_in_state": 44
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.3533,
+      "percentile_in_state": 0.3023,
+      "rank_in_nation": 1158,
+      "rank_in_state": 31
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.3014,
+      "percentile_in_state": 0.4026,
+      "rank_in_nation": 1285,
+      "rank_in_state": 47
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.3966,
+      "percentile_in_state": 0.4079,
+      "rank_in_nation": 1121,
+      "rank_in_state": 46
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 69,
+      "percentile_in_nation": 0.353,
+      "percentile_in_state": 0.5882,
+      "rank_in_nation": 1218,
+      "rank_in_state": 29
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.23,
+      "revenue_per_harvested_acre": 101.462,
+      "revenue_per_planted_acre": 81.065,
+      "yield": 19.4
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.31,
+      "revenue_per_harvested_acre": 74.994,
+      "revenue_per_planted_acre": 71.3305,
+      "yield": 17.4
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.1,
+      "revenue_per_harvested_acre": 122.0,
+      "revenue_per_planted_acre": 122.0,
+      "yield": 20.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 116.63,
+      "revenue_per_planted_acre": 109.9722,
+      "yield": 21.8
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.3,
+      "revenue_per_harvested_acre": 149.94,
+      "revenue_per_planted_acre": 139.5,
+      "yield": 23.8
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 160.734,
+      "revenue_per_planted_acre": 148.1846,
+      "yield": 26.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.3229,
+    "trailing_10yr_avg": {
+      "1978": 20.48,
+      "1979": 21.52
+    },
+    "trailing_5yr_avg": {
+      "1976": 18.93,
+      "1977": 19.65,
+      "1978": 20.75,
+      "1979": 21.94
+    },
+    "yoy_pct": {
+      "1976": 14.94,
+      "1977": 9.0,
+      "1978": 9.17,
+      "1979": 12.18
+    }
+  }
+}

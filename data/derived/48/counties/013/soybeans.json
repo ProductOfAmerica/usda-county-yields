@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "013",
+    "name": "ATASCOSA"
+  },
+  "rank": {
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.2992,
+      "percentile_in_state": 0.3896,
+      "rank_in_nation": 1289,
+      "rank_in_state": 48
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 69,
+      "percentile_in_nation": 0.3945,
+      "percentile_in_state": 0.6176,
+      "rank_in_nation": 1140,
+      "rank_in_state": 27
+    }
+  },
+  "revenue": {
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 116.095,
+      "revenue_per_planted_acre": 115.9167,
+      "yield": 21.7
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 162.54,
+      "revenue_per_planted_acre": 162.54,
+      "yield": 27.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.65,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

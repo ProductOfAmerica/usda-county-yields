@@ -1,0 +1,118 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "075",
+    "name": "LEVY"
+  },
+  "rank": {
+    "1961": {
+      "count_in_nation": 1931,
+      "count_in_state": 12,
+      "percentile_in_nation": 0.5192,
+      "percentile_in_state": 0.8182,
+      "rank_in_nation": 929,
+      "rank_in_state": 3
+    },
+    "1962": {
+      "count_in_nation": 1760,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.5537,
+      "percentile_in_state": 0.5833,
+      "rank_in_nation": 786,
+      "rank_in_state": 6
+    },
+    "1963": {
+      "count_in_nation": 1920,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.2402,
+      "percentile_in_state": 0.4167,
+      "rank_in_nation": 1459,
+      "rank_in_state": 8
+    },
+    "1964": {
+      "count_in_nation": 1774,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.0462,
+      "percentile_in_state": 0.0833,
+      "rank_in_nation": 1692,
+      "rank_in_state": 12
+    },
+    "1965": {
+      "count_in_nation": 1837,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.1008,
+      "percentile_in_state": 0.25,
+      "rank_in_nation": 1652,
+      "rank_in_state": 10
+    },
+    "1966": {
+      "count_in_nation": 1889,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.1345,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 1635,
+      "rank_in_state": 11
+    }
+  },
+  "revenue": {
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.9,
+      "revenue_per_harvested_acre": 47.5,
+      "yield": 25.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 2.0,
+      "revenue_per_harvested_acre": 42.0,
+      "yield": 21.0
+    },
+    "1964": {
+      "marketing_year": "1964",
+      "price": 1.36,
+      "revenue_per_harvested_acre": 20.4,
+      "yield": 15.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.32,
+      "revenue_per_harvested_acre": 23.76,
+      "yield": 18.0
+    },
+    "1966": {
+      "marketing_year": "1966",
+      "price": 1.56,
+      "revenue_per_harvested_acre": 31.2,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -1.6286,
+    "trailing_10yr_avg": {
+      "1965": 21.0,
+      "1966": 20.83
+    },
+    "trailing_5yr_avg": {
+      "1963": 24.0,
+      "1964": 21.75,
+      "1965": 21.0,
+      "1966": 19.8
+    },
+    "yoy_pct": {
+      "1962": -3.85,
+      "1963": -16.0,
+      "1964": -28.57,
+      "1965": 20.0,
+      "1966": 11.11
+    }
+  }
+}

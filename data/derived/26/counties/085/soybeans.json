@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "085",
+    "name": "LAKE"
+  },
+  "rank": {
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.5496,
+      "percentile_in_state": 0.7015,
+      "rank_in_nation": 845,
+      "rank_in_state": 21
+    },
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.2662,
+      "percentile_in_state": 0.0149,
+      "rank_in_nation": 1360,
+      "rank_in_state": 67
+    },
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 65,
+      "percentile_in_nation": 0.5548,
+      "percentile_in_state": 0.3594,
+      "rank_in_nation": 813,
+      "rank_in_state": 42
+    }
+  },
+  "revenue": {
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.79,
+      "revenue_per_harvested_acre": 156.33,
+      "revenue_per_planted_acre": 156.33,
+      "yield": 27.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 4.93,
+      "revenue_per_harvested_acre": 123.25,
+      "revenue_per_planted_acre": 123.25,
+      "yield": 25.0
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.6,
+      "revenue_per_harvested_acre": 168.0,
+      "revenue_per_planted_acre": 168.0,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.7857,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1985": -7.41
+    }
+  }
+}

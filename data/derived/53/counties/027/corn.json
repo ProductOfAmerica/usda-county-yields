@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "027",
+    "name": "GRAYS HARBOR"
+  },
+  "rank": {
+    "1939": {
+      "count_in_nation": 1285,
+      "count_in_state": 30,
+      "percentile_in_nation": 0.4852,
+      "percentile_in_state": 0.4828,
+      "rank_in_nation": 662,
+      "rank_in_state": 16
+    },
+    "1940": {
+      "count_in_nation": 1285,
+      "count_in_state": 30,
+      "percentile_in_nation": 0.5343,
+      "percentile_in_state": 0.3793,
+      "rank_in_nation": 599,
+      "rank_in_state": 19
+    },
+    "1962": {
+      "count_in_nation": 2319,
+      "count_in_state": 19,
+      "percentile_in_nation": 0.6566,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 797,
+      "rank_in_state": 19
+    }
+  },
+  "revenue": {
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.34,
+      "revenue_per_harvested_acre": 80.4,
+      "yield": 60.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.4231,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1940": 7.41
+    }
+  }
+}

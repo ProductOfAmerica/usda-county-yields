@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "391",
+    "name": "REFUGIO"
+  },
+  "rank": {
+    "1993": {
+      "count_in_nation": 1677,
+      "count_in_state": 33,
+      "percentile_in_nation": 0.2339,
+      "percentile_in_state": 0.625,
+      "rank_in_nation": 1285,
+      "rank_in_state": 13
+    },
+    "1997": {
+      "count_in_nation": 1683,
+      "count_in_state": 54,
+      "percentile_in_nation": 0.2015,
+      "percentile_in_state": 0.3962,
+      "rank_in_nation": 1344,
+      "rank_in_state": 33
+    },
+    "1998": {
+      "count_in_nation": 1683,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.0541,
+      "percentile_in_state": 0.2456,
+      "rank_in_nation": 1592,
+      "rank_in_state": 44
+    },
+    "1999": {
+      "count_in_nation": 1633,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.2629,
+      "percentile_in_state": 0.3818,
+      "rank_in_nation": 1204,
+      "rank_in_state": 35
+    }
+  },
+  "revenue": {
+    "1993": {
+      "marketing_year": "1993",
+      "price": 5.61,
+      "revenue_per_harvested_acre": 122.298,
+      "revenue_per_planted_acre": 122.4,
+      "yield": 21.8
+    },
+    "1997": {
+      "marketing_year": "1997",
+      "price": 6.33,
+      "revenue_per_harvested_acre": 164.58,
+      "revenue_per_planted_acre": 153.7577,
+      "yield": 26.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 4.5,
+      "revenue_per_harvested_acre": 71.1,
+      "revenue_per_planted_acre": 58.0909,
+      "yield": 15.8
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 4.2,
+      "revenue_per_harvested_acre": 94.08,
+      "revenue_per_planted_acre": 86.9077,
+      "yield": 22.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.2458,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1999": 21.4
+    },
+    "yoy_pct": {
+      "1998": -39.23,
+      "1999": 41.77
+    }
+  }
+}

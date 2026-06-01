@@ -1,0 +1,86 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "131",
+    "name": "WYOMING"
+  },
+  "rank": {
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.748,
+      "percentile_in_state": 0.82,
+      "rank_in_nation": 472,
+      "rank_in_state": 10
+    },
+    "2005": {
+      "count_in_nation": 1650,
+      "count_in_state": 53,
+      "percentile_in_nation": 0.53,
+      "percentile_in_state": 0.4038,
+      "rank_in_nation": 776,
+      "rank_in_state": 32
+    },
+    "2014": {
+      "count_in_nation": 1458,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.453,
+      "percentile_in_state": 0.3488,
+      "rank_in_nation": 798,
+      "rank_in_state": 29
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.4238,
+      "percentile_in_state": 0.413,
+      "rank_in_nation": 753,
+      "rank_in_state": 28
+    }
+  },
+  "revenue": {
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.8,
+      "revenue_per_harvested_acre": 226.2,
+      "revenue_per_planted_acre": 226.2,
+      "yield": 29.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 5.6,
+      "revenue_per_harvested_acre": 222.32,
+      "revenue_per_planted_acre": 222.1333,
+      "yield": 39.7
+    },
+    "2014": {
+      "marketing_year": "2014",
+      "price": 9.8,
+      "revenue_per_harvested_acre": 437.08,
+      "revenue_per_planted_acre": 418.6,
+      "yield": 44.6
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.5,
+      "revenue_per_harvested_acre": 575.0,
+      "revenue_per_planted_acre": 564.7727,
+      "yield": 46.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4444,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "253",
+    "name": "JONES"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.0424,
+      "percentile_in_state": 0.3969,
+      "rank_in_nation": 2327,
+      "rank_in_state": 80
+    },
+    "1970": {
+      "count_in_nation": 2397,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.3923,
+      "percentile_in_state": 0.6129,
+      "rank_in_nation": 1457,
+      "rank_in_state": 49
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 30.573,
+      "revenue_per_planted_acre": 19.2821,
+      "yield": 23.7
+    },
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.42,
+      "revenue_per_harvested_acre": 62.48,
+      "revenue_per_planted_acre": 31.24,
+      "yield": 44.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 20.3,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1970": 85.65
+    }
+  }
+}

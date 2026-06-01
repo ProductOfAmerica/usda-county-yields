@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "013",
+    "name": "CAMPBELL"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 1724,
+      "count_in_state": 79,
+      "percentile_in_nation": 0.2966,
+      "percentile_in_state": 0.2051,
+      "rank_in_nation": 1213,
+      "rank_in_state": 63
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.5791,
+      "percentile_in_state": 0.6588,
+      "rank_in_nation": 754,
+      "rank_in_state": 30
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.4652,
+      "percentile_in_state": 0.7529,
+      "rank_in_nation": 984,
+      "rank_in_state": 22
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.4795,
+      "percentile_in_state": 0.6471,
+      "rank_in_nation": 967,
+      "rank_in_state": 31
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 4.07,
+      "revenue_per_harvested_acre": 81.4,
+      "revenue_per_planted_acre": 40.7,
+      "yield": 20.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.63,
+      "revenue_per_harvested_acre": 159.12,
+      "revenue_per_planted_acre": 79.56,
+      "yield": 24.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.68,
+      "revenue_per_harvested_acre": 142.0,
+      "revenue_per_planted_acre": 71.0,
+      "yield": 25.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.73,
+      "revenue_per_harvested_acre": 168.25,
+      "revenue_per_planted_acre": 84.125,
+      "yield": 25.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.8916,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1978": 24.67
+    },
+    "yoy_pct": {
+      "1977": 4.17,
+      "1978": 0.0
+    }
+  }
+}

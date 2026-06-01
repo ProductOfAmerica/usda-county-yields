@@ -179,6 +179,12 @@
       ],
       "name": "LAKE"
     },
+    "071": {
+      "crops": [
+        "corn"
+      ],
+      "name": "LEE"
+    },
     "073": {
       "crops": [
         "corn",
@@ -242,11 +248,23 @@
       ],
       "name": "OKALOOSA"
     },
+    "093": {
+      "crops": [
+        "corn"
+      ],
+      "name": "OKEECHOBEE"
+    },
     "095": {
       "crops": [
         "corn"
       ],
       "name": "ORANGE"
+    },
+    "097": {
+      "crops": [
+        "corn"
+      ],
+      "name": "OSCEOLA"
     },
     "099": {
       "crops": [
@@ -358,7 +376,7 @@
       "name": "OTHER (COMBINED) COUNTIES"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "state": {
     "alpha": "FL",
     "fips": "12",

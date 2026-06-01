@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "247",
+    "name": "JIM HOGG"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 2011,
+      "count_in_state": 170,
+      "percentile_in_nation": 0.1861,
+      "percentile_in_state": 0.7456,
+      "rank_in_nation": 1637,
+      "rank_in_state": 44
+    },
+    "1970": {
+      "count_in_nation": 1906,
+      "count_in_state": 166,
+      "percentile_in_nation": 0.0,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1906,
+      "rank_in_state": 166
+    },
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 164,
+      "percentile_in_nation": 0.7046,
+      "percentile_in_state": 0.9571,
+      "rank_in_nation": 740,
+      "rank_in_state": 8
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.25,
+      "revenue_per_harvested_acre": 29.75,
+      "revenue_per_planted_acre": 5.9375,
+      "yield": 23.8
+    },
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.3,
+      "revenue_per_harvested_acre": 15.34,
+      "revenue_per_planted_acre": 7.6917,
+      "yield": 11.8
+    },
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.56,
+      "revenue_per_harvested_acre": 57.252,
+      "revenue_per_planted_acre": 15.42,
+      "yield": 36.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 5.4643,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1972": 24.1
+    },
+    "yoy_pct": {
+      "1970": -50.42
+    }
+  }
+}

@@ -7,14 +7,135 @@
     "code": "053",
     "name": "GOGEBIC"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1942": 10.0,
+        "1943": 10.0,
+        "1944": 10.0,
+        "1945": 10.0,
+        "1951": 10.0,
+        "1952": 10.0,
+        "1953": 10.0,
+        "1955": 10.0,
+        "1956": 10.0,
+        "1957": 10.0,
+        "1958": 10.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1951": 10.0,
+        "1952": 10.0,
+        "1953": 10.0,
+        "1955": 10.0,
+        "1956": 10.0,
+        "1957": 10.0,
+        "1958": 10.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1959": 10.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1959": 10.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1942": 200.0,
+        "1943": 100.0,
+        "1944": 160.0,
+        "1945": 280.0,
+        "1951": 150.0,
+        "1952": 150.0,
+        "1953": 200.0,
+        "1955": 100.0,
+        "1956": 100.0,
+        "1957": 100.0,
+        "1958": 200.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1951": 150.0,
+        "1952": 150.0,
+        "1953": 200.0,
+        "1955": 100.0,
+        "1956": 100.0,
+        "1957": 100.0,
+        "1958": 200.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -34,9 +155,11 @@
     },
     {
       "class": "WINTER",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

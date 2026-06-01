@@ -1,0 +1,195 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "449",
+    "name": "TITUS"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 177,
+      "percentile_in_nation": 0.0497,
+      "percentile_in_state": 0.2102,
+      "rank_in_nation": 2392,
+      "rank_in_state": 140
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 208,
+      "percentile_in_nation": 0.4265,
+      "percentile_in_state": 0.913,
+      "rank_in_nation": 1436,
+      "rank_in_state": 19
+    },
+    "1981": {
+      "count_in_nation": 2535,
+      "count_in_state": 204,
+      "percentile_in_nation": 0.3761,
+      "percentile_in_state": 0.8227,
+      "rank_in_nation": 1582,
+      "rank_in_state": 37
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 206,
+      "percentile_in_nation": 0.0439,
+      "percentile_in_state": 0.4146,
+      "rank_in_nation": 2421,
+      "rank_in_state": 121
+    },
+    "1983": {
+      "count_in_nation": 2480,
+      "count_in_state": 199,
+      "percentile_in_nation": 0.0141,
+      "percentile_in_state": 0.0859,
+      "rank_in_nation": 2445,
+      "rank_in_state": 182
+    },
+    "1984": {
+      "count_in_nation": 2472,
+      "count_in_state": 193,
+      "percentile_in_nation": 0.5933,
+      "percentile_in_state": 0.8594,
+      "rank_in_nation": 1006,
+      "rank_in_state": 28
+    },
+    "1985": {
+      "count_in_nation": 2477,
+      "count_in_state": 205,
+      "percentile_in_nation": 0.5408,
+      "percentile_in_state": 0.8725,
+      "rank_in_nation": 1138,
+      "rank_in_state": 27
+    },
+    "1987": {
+      "count_in_nation": 2373,
+      "count_in_state": 191,
+      "percentile_in_nation": 0.0291,
+      "percentile_in_state": 0.2579,
+      "rank_in_nation": 2304,
+      "rank_in_state": 142
+    },
+    "1991": {
+      "count_in_nation": 2236,
+      "count_in_state": 181,
+      "percentile_in_nation": 0.1996,
+      "percentile_in_state": 0.4556,
+      "rank_in_nation": 1790,
+      "rank_in_state": 99
+    },
+    "1992": {
+      "count_in_nation": 2231,
+      "count_in_state": 186,
+      "percentile_in_nation": 0.1762,
+      "percentile_in_state": 0.5892,
+      "rank_in_nation": 1838,
+      "rank_in_state": 77
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.04,
+      "revenue_per_harvested_acre": 54.72,
+      "revenue_per_planted_acre": 7.296,
+      "yield": 18.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.74,
+      "revenue_per_harvested_acre": 124.542,
+      "revenue_per_planted_acre": 46.75,
+      "yield": 33.3
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 3.65,
+      "revenue_per_harvested_acre": 127.75,
+      "revenue_per_planted_acre": 68.1333,
+      "yield": 35.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.42,
+      "revenue_per_harvested_acre": 68.4,
+      "revenue_per_planted_acre": 43.776,
+      "yield": 20.0
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 3.38,
+      "revenue_per_harvested_acre": 70.304,
+      "revenue_per_planted_acre": 52.8125,
+      "yield": 20.8
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 3.39,
+      "revenue_per_harvested_acre": 135.6,
+      "revenue_per_planted_acre": 70.7478,
+      "yield": 40.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 2.97,
+      "revenue_per_harvested_acre": 112.86,
+      "revenue_per_planted_acre": 94.05,
+      "yield": 38.0
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 2.36,
+      "revenue_per_harvested_acre": 47.2,
+      "revenue_per_planted_acre": 15.7333,
+      "yield": 20.0
+    },
+    "1991": {
+      "marketing_year": "1991",
+      "price": 2.69,
+      "revenue_per_harvested_acre": 67.25,
+      "revenue_per_planted_acre": 11.2083,
+      "yield": 25.0
+    },
+    "1992": {
+      "marketing_year": "1992",
+      "price": 3.18,
+      "revenue_per_harvested_acre": 95.4,
+      "revenue_per_planted_acre": 19.08,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2632,
+    "trailing_10yr_avg": {
+      "1984": 29.82,
+      "1985": 31.18,
+      "1987": 29.59,
+      "1991": 27.3,
+      "1992": 28.97
+    },
+    "trailing_5yr_avg": {
+      "1982": 29.43,
+      "1983": 27.27,
+      "1984": 29.82,
+      "1985": 30.76,
+      "1987": 29.7
+    },
+    "yoy_pct": {
+      "1981": 5.11,
+      "1982": -42.86,
+      "1983": 4.0,
+      "1984": 92.31,
+      "1985": -5.0,
+      "1992": 20.0
+    }
+  }
+}

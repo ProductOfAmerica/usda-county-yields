@@ -1,0 +1,133 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "117",
+    "name": "STANLEY"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.2036,
+      "percentile_in_state": 0.2647,
+      "rank_in_nation": 1499,
+      "rank_in_state": 26
+    },
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.7774,
+      "percentile_in_state": 0.8235,
+      "rank_in_nation": 417,
+      "rank_in_state": 7
+    },
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.0403,
+      "percentile_in_state": 0.0833,
+      "rank_in_nation": 1596,
+      "rank_in_state": 56
+    },
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0054,
+      "percentile_in_state": 0.0714,
+      "rank_in_nation": 1669,
+      "rank_in_state": 53
+    },
+    "2005": {
+      "count_in_nation": 1650,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.0024,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1646,
+      "rank_in_state": 51
+    },
+    "2010": {
+      "count_in_nation": 1523,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.0269,
+      "percentile_in_state": 0.02,
+      "rank_in_nation": 1482,
+      "rank_in_state": 50
+    },
+    "2025": {
+      "count_in_nation": 1100,
+      "count_in_state": 30,
+      "percentile_in_nation": 0.2539,
+      "percentile_in_state": 0.1034,
+      "rank_in_nation": 821,
+      "rank_in_state": 27
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 5.95,
+      "revenue_per_harvested_acre": 142.8,
+      "revenue_per_planted_acre": 133.28,
+      "yield": 24.0
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.66,
+      "revenue_per_harvested_acre": 229.8,
+      "revenue_per_planted_acre": 229.8,
+      "yield": 30.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.27,
+      "revenue_per_harvested_acre": 58.499,
+      "revenue_per_planted_acre": 58.3567,
+      "yield": 13.7
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.58,
+      "revenue_per_harvested_acre": 55.8,
+      "revenue_per_planted_acre": 55.8,
+      "yield": 10.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 5.39,
+      "revenue_per_harvested_acre": 59.829,
+      "revenue_per_planted_acre": 59.727,
+      "yield": 11.1
+    },
+    "2010": {
+      "marketing_year": "2010",
+      "price": 10.9,
+      "revenue_per_harvested_acre": 188.57,
+      "revenue_per_planted_acre": 159.3077,
+      "yield": 17.3
+    },
+    "2025": {
+      "marketing_year": "2025",
+      "price": 9.6,
+      "revenue_per_harvested_acre": 375.36,
+      "revenue_per_planted_acre": 373.0286,
+      "yield": 39.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0721,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "2005": 11.0
+    }
+  }
+}

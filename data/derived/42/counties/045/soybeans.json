@@ -1,0 +1,166 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "045",
+    "name": "DELAWARE"
+  },
+  "rank": {
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.4024,
+      "percentile_in_state": 0.24,
+      "rank_in_nation": 1118,
+      "rank_in_state": 39
+    },
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.9701,
+      "percentile_in_state": 0.8776,
+      "rank_in_nation": 57,
+      "rank_in_state": 7
+    },
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.8758,
+      "percentile_in_state": 0.92,
+      "rank_in_nation": 231,
+      "rank_in_state": 5
+    },
+    "1986": {
+      "count_in_nation": 1814,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.856,
+      "percentile_in_state": 0.98,
+      "rank_in_nation": 262,
+      "rank_in_state": 2
+    },
+    "1987": {
+      "count_in_nation": 1778,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.8413,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 283,
+      "rank_in_state": 1
+    },
+    "1988": {
+      "count_in_nation": 1814,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.9763,
+      "percentile_in_state": 0.9412,
+      "rank_in_nation": 44,
+      "rank_in_state": 4
+    },
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.7774,
+      "percentile_in_state": 0.7843,
+      "rank_in_nation": 407,
+      "rank_in_state": 12
+    },
+    "1990": {
+      "count_in_nation": 1773,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.7929,
+      "percentile_in_state": 0.6863,
+      "rank_in_nation": 368,
+      "rank_in_state": 17
+    }
+  },
+  "revenue": {
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.8,
+      "revenue_per_harvested_acre": 156.0,
+      "revenue_per_planted_acre": 156.0,
+      "yield": 20.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.85,
+      "revenue_per_harvested_acre": 228.15,
+      "revenue_per_planted_acre": 228.15,
+      "yield": 39.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 4.75,
+      "revenue_per_harvested_acre": 185.25,
+      "revenue_per_planted_acre": 185.25,
+      "yield": 39.0
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 4.85,
+      "revenue_per_harvested_acre": 189.15,
+      "revenue_per_planted_acre": 189.15,
+      "yield": 39.0
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 6.2,
+      "revenue_per_harvested_acre": 241.8,
+      "revenue_per_planted_acre": 241.8,
+      "yield": 39.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 7.45,
+      "revenue_per_harvested_acre": 290.55,
+      "revenue_per_planted_acre": 290.55,
+      "yield": 39.0
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.65,
+      "revenue_per_harvested_acre": 197.75,
+      "revenue_per_planted_acre": 197.75,
+      "yield": 35.0
+    },
+    "1990": {
+      "marketing_year": "1990",
+      "price": 5.7,
+      "revenue_per_harvested_acre": 222.3,
+      "revenue_per_planted_acre": 222.3,
+      "yield": 39.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.3452,
+    "trailing_10yr_avg": {
+      "1987": 35.2,
+      "1988": 35.83,
+      "1989": 35.71,
+      "1990": 36.12
+    },
+    "trailing_5yr_avg": {
+      "1985": 32.67,
+      "1986": 34.25,
+      "1987": 35.2,
+      "1988": 39.0,
+      "1989": 38.2,
+      "1990": 38.2
+    },
+    "yoy_pct": {
+      "1984": 95.0,
+      "1985": 0.0,
+      "1986": 0.0,
+      "1987": 0.0,
+      "1988": 0.0,
+      "1989": -10.26,
+      "1990": 11.43
+    }
+  }
+}

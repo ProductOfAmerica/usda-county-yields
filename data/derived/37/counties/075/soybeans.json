@@ -1,0 +1,111 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "075",
+    "name": "GRAHAM"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 1724,
+      "count_in_state": 91,
+      "percentile_in_nation": 0.1642,
+      "percentile_in_state": 0.2556,
+      "rank_in_nation": 1441,
+      "rank_in_state": 68
+    },
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 88,
+      "percentile_in_nation": 0.0216,
+      "percentile_in_state": 0.0115,
+      "rank_in_nation": 1723,
+      "rank_in_state": 87
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 95,
+      "percentile_in_nation": 0.1066,
+      "percentile_in_state": 0.3085,
+      "rank_in_nation": 1601,
+      "rank_in_state": 66
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.2515,
+      "percentile_in_state": 0.4792,
+      "rank_in_nation": 1340,
+      "rank_in_state": 51
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.1219,
+      "percentile_in_state": 0.5104,
+      "rank_in_nation": 1615,
+      "rank_in_state": 48
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 4.13,
+      "revenue_per_harvested_acre": 74.34,
+      "revenue_per_planted_acre": 29.736,
+      "yield": 18.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.58,
+      "revenue_per_harvested_acre": 89.28,
+      "revenue_per_planted_acre": 65.565,
+      "yield": 16.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.67,
+      "revenue_per_harvested_acre": 88.73,
+      "revenue_per_planted_acre": 88.73,
+      "yield": 19.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.65,
+      "revenue_per_harvested_acre": 119.7,
+      "revenue_per_planted_acre": 79.8,
+      "yield": 18.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 108.36,
+      "revenue_per_planted_acre": 108.36,
+      "yield": 18.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2093,
+    "trailing_10yr_avg": {
+      "1977": 17.8
+    },
+    "trailing_5yr_avg": {
+      "1975": 17.67,
+      "1976": 17.75,
+      "1977": 17.75
+    },
+    "yoy_pct": {
+      "1973": -11.11,
+      "1976": -5.26,
+      "1977": 0.0
+    }
+  }
+}

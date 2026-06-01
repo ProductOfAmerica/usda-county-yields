@@ -1,0 +1,106 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "115",
+    "name": "VERNON"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.1355,
+      "percentile_in_state": 0.6512,
+      "rank_in_nation": 2164,
+      "rank_in_state": 16
+    },
+    "1981": {
+      "count_in_nation": 2535,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.4676,
+      "percentile_in_state": 0.5227,
+      "rank_in_nation": 1350,
+      "rank_in_state": 22
+    },
+    "1985": {
+      "count_in_nation": 2477,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.2775,
+      "percentile_in_state": 0.2791,
+      "rank_in_nation": 1790,
+      "rank_in_state": 32
+    },
+    "1986": {
+      "count_in_nation": 2402,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.2911,
+      "percentile_in_state": 0.0851,
+      "rank_in_nation": 1703,
+      "rank_in_state": 44
+    },
+    "1987": {
+      "count_in_nation": 2373,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.2323,
+      "percentile_in_state": 0.4565,
+      "rank_in_nation": 1822,
+      "rank_in_state": 26
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.41,
+      "revenue_per_harvested_acre": 28.2,
+      "revenue_per_planted_acre": 1.41,
+      "yield": 20.0
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 3.7,
+      "revenue_per_harvested_acre": 136.9,
+      "revenue_per_planted_acre": 117.3429,
+      "yield": 37.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 3.25,
+      "revenue_per_harvested_acre": 97.5,
+      "revenue_per_planted_acre": 69.6429,
+      "yield": 30.0
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 2.75,
+      "revenue_per_harvested_acre": 77.0,
+      "revenue_per_planted_acre": 61.6,
+      "yield": 28.0
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 2.8,
+      "revenue_per_harvested_acre": 84.0,
+      "revenue_per_planted_acre": 56.0,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.5703,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1987": 29.33
+    },
+    "yoy_pct": {
+      "1986": -6.67,
+      "1987": 7.14
+    }
+  }
+}

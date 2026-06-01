@@ -1,0 +1,145 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "179",
+    "name": "WASHINGTON"
+  },
+  "rank": {
+    "2014": {
+      "count_in_nation": 1458,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.2519,
+      "percentile_in_state": 0.0714,
+      "rank_in_nation": 1091,
+      "rank_in_state": 53
+    },
+    "2015": {
+      "count_in_nation": 1335,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.4595,
+      "percentile_in_state": 0.4386,
+      "rank_in_nation": 722,
+      "rank_in_state": 33
+    },
+    "2016": {
+      "count_in_nation": 1379,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.2721,
+      "percentile_in_state": 0.2037,
+      "rank_in_nation": 1004,
+      "rank_in_state": 44
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.5701,
+      "percentile_in_state": 0.5645,
+      "rank_in_nation": 645,
+      "rank_in_state": 28
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.4226,
+      "percentile_in_state": 0.3137,
+      "rank_in_nation": 781,
+      "rank_in_state": 36
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 53,
+      "percentile_in_nation": 0.6523,
+      "percentile_in_state": 0.6923,
+      "rank_in_nation": 486,
+      "rank_in_state": 17
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.5395,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 602,
+      "rank_in_state": 37
+    }
+  },
+  "revenue": {
+    "2014": {
+      "marketing_year": "2014",
+      "price": 10.6,
+      "revenue_per_harvested_acre": 411.28,
+      "revenue_per_planted_acre": 383.72,
+      "yield": 38.8
+    },
+    "2015": {
+      "marketing_year": "2015",
+      "price": 9.29,
+      "revenue_per_harvested_acre": 418.05,
+      "revenue_per_planted_acre": 393.4588,
+      "yield": 45.0
+    },
+    "2016": {
+      "marketing_year": "2016",
+      "price": 9.78,
+      "revenue_per_harvested_acre": 400.002,
+      "revenue_per_planted_acre": 366.75,
+      "yield": 40.9
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 10.8,
+      "revenue_per_harvested_acre": 550.8,
+      "revenue_per_planted_acre": 540.0,
+      "yield": 51.0
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 12.8,
+      "revenue_per_harvested_acre": 614.4,
+      "revenue_per_planted_acre": 601.0435,
+      "yield": 48.0
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 13.8,
+      "revenue_per_harvested_acre": 716.22,
+      "revenue_per_planted_acre": 677.4545,
+      "yield": 51.9
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.6,
+      "revenue_per_harvested_acre": 630.0,
+      "revenue_per_planted_acre": 619.92,
+      "yield": 50.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TN",
+    "fips": "47",
+    "name": "TENNESSEE"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.2468,
+    "trailing_10yr_avg": {
+      "2021": 44.74,
+      "2022": 45.93,
+      "2023": 46.51
+    },
+    "trailing_5yr_avg": {
+      "2016": 41.57,
+      "2022": 50.3,
+      "2023": 50.23
+    },
+    "yoy_pct": {
+      "2015": 15.98,
+      "2016": -9.11,
+      "2021": -5.88,
+      "2022": 8.12,
+      "2023": -3.66
+    }
+  }
+}

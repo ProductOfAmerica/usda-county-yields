@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "057",
+    "name": "TILLAMOOK"
+  },
+  "schema_version": 3,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1971": 100.0,
+        "1972": 100.0,
+        "1973": 100.0,
+        "1975": 150.0,
+        "1976": 200.0,
+        "1977": 100.0,
+        "1985": 100.0,
+        "1987": 100.0,
+        "1988": 100.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "CORN, GRAIN - ACRES PLANTED, NET",
+      "statistic": "AREA PLANTED, NET",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "GRAIN",
+      "values": {
+        "1988": 100.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  }
+}

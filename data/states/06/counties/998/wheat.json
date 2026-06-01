@@ -7,14 +7,558 @@
     "code": "998",
     "name": "OTHER (COMBINED) COUNTIES"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 2500.0,
+        "2003": 500.0,
+        "2004": 600.0,
+        "2006": 900.0,
+        "2007": 200.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 1000.0,
+        "2003": 500.0,
+        "2004": 500.0,
+        "2006": 200.0,
+        "2007": 200.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 2000.0,
+        "2004": 500.0,
+        "2006": 700.0,
+        "2007": 200.0
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "cv": {
+        "2020": 14.6,
+        "2021": 102.9,
+        "2022": 44.8
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2007": 2700.0,
+        "2008": 6500.0,
+        "2009": 89500.0,
+        "2011": 74200.0,
+        "2013": 6900.0,
+        "2016": 3200.0,
+        "2017": 1400.0,
+        "2018": 9900.0,
+        "2019": 5400.0,
+        "2020": 3100.0,
+        "2021": 1660.0,
+        "2022": 7200.0,
+        "2023": 17000.0,
+        "2025": 14000.0
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM, IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2007": 500.0,
+        "2008": 1600.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {
+        "2020": 13.3,
+        "2021": 15.5,
+        "2022": 7.7,
+        "2023": 9.3,
+        "2025": 9.1
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 2500.0,
+        "2003": 500.0,
+        "2004": 100.0,
+        "2006": 900.0,
+        "2007": 2100.0,
+        "2008": 2000.0,
+        "2009": 10600.0,
+        "2010": 1200.0,
+        "2011": 64000.0,
+        "2012": 1800.0,
+        "2013": 16800.0,
+        "2014": 89300.0,
+        "2015": 44500.0,
+        "2016": 27600.0,
+        "2017": 14700.0,
+        "2018": 2300.0,
+        "2019": 13000.0,
+        "2020": 38040.0,
+        "2021": 46520.0,
+        "2022": 51900.0,
+        "2023": 51510.0,
+        "2025": 70400.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 2500.0,
+        "2003": 500.0,
+        "2004": 500.0,
+        "2006": 200.0,
+        "2007": 1700.0,
+        "2008": 7300.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 2000.0,
+        "2004": 500.0,
+        "2006": 700.0,
+        "2007": 1200.0,
+        "2008": 1800.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 6000.0,
+        "2003": 500.0,
+        "2004": 1000.0,
+        "2005": 1000.0,
+        "2006": 1000.0,
+        "2007": 1000.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 2000.0,
+        "2003": 500.0,
+        "2004": 700.0,
+        "2005": 500.0,
+        "2006": 800.0,
+        "2007": 500.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 4000.0,
+        "2004": 300.0,
+        "2005": 500.0,
+        "2006": 1000.0,
+        "2007": 500.0
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "cv": {
+        "2020": 17.4,
+        "2021": 3.0,
+        "2022": 5.1
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 500.0,
+        "2007": 1300.0,
+        "2008": 6100.0,
+        "2009": 90000.0,
+        "2011": 75000.0,
+        "2013": 15000.0,
+        "2016": 5700.0,
+        "2017": 5800.0,
+        "2018": 14900.0,
+        "2019": 9500.0,
+        "2020": 7300.0,
+        "2021": 5700.0,
+        "2022": 8800.0,
+        "2023": 18000.0,
+        "2025": 15000.0
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM, IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 500.0,
+        "2007": 2900.0,
+        "2008": 2200.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {
+        "2020": 1.5,
+        "2021": 0.2,
+        "2022": 0.0,
+        "2023": 0.1,
+        "2025": 0.2
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 6000.0,
+        "2003": 500.0,
+        "2004": 500.0,
+        "2005": 1000.0,
+        "2006": 1000.0,
+        "2007": 4400.0,
+        "2008": 303300.0,
+        "2009": 301100.0,
+        "2010": 15800.0,
+        "2011": 126500.0,
+        "2012": 80000.0,
+        "2013": 254000.0,
+        "2014": 302000.0,
+        "2015": 23000.0,
+        "2016": 8900.0,
+        "2017": 8200.0,
+        "2018": 7900.0,
+        "2019": 10300.0,
+        "2020": 197100.0,
+        "2021": 206300.0,
+        "2022": 307200.0,
+        "2023": 241600.0,
+        "2025": 194800.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 3000.0,
+        "2003": 500.0,
+        "2004": 700.0,
+        "2005": 500.0,
+        "2006": 400.0,
+        "2007": 10500.0,
+        "2008": 92400.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 4000.0,
+        "2004": 500.0,
+        "2005": 500.0,
+        "2006": 600.0,
+        "2007": 4500.0,
+        "2008": 2700.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 73000.0,
+        "2003": 30000.0,
+        "2004": 42000.0,
+        "2006": 36000.0,
+        "2007": 9000.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 60000.0,
+        "2003": 30000.0,
+        "2004": 19000.0,
+        "2006": 8000.0,
+        "2007": 19000.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 75000.0,
+        "2004": 2000.0,
+        "2006": 28000.0,
+        "2007": 23000.0
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "cv": {
+        "2020": 20.6,
+        "2021": 91.5,
+        "2022": 50.8
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2007": 42000.0,
+        "2008": 285500.0,
+        "2009": 9500000.0,
+        "2011": 8100000.0,
+        "2013": 3185000.0,
+        "2016": 2008000.0,
+        "2017": 98000.0,
+        "2018": 835000.0,
+        "2019": 571700.0,
+        "2020": 225000.0,
+        "2021": 178000.0,
+        "2022": 660900.0,
+        "2023": 1938000.0,
+        "2025": 1750000.0
+      }
+    },
+    {
+      "class": "SPRING, DURUM",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, DURUM, IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2007": 42000.0,
+        "2008": 146500.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {
+        "2020": 13.9,
+        "2021": 16.3,
+        "2022": 9.8,
+        "2023": 10.6,
+        "2025": 10.3
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 73000.0,
+        "2003": 30000.0,
+        "2004": 21000.0,
+        "2006": 36000.0,
+        "2007": 157000.0,
+        "2008": 730000.0,
+        "2009": 565000.0,
+        "2010": 225000.0,
+        "2011": 980000.0,
+        "2012": 205000.0,
+        "2013": 1195000.0,
+        "2014": 10000.0,
+        "2015": 3095000.0,
+        "2016": 340000.0,
+        "2017": 300000.0,
+        "2018": 104000.0,
+        "2019": 339000.0,
+        "2020": 2123900.0,
+        "2021": 3706700.0,
+        "2022": 3566000.0,
+        "2023": 4004800.0,
+        "2025": 5703000.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 73000.0,
+        "2003": 30000.0,
+        "2004": 19000.0,
+        "2006": 8000.0,
+        "2007": 92000.0,
+        "2008": 1155000.0
+      }
+    },
+    {
+      "class": "WINTER",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, WINTER, NON-IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2002": 75000.0,
+        "2004": 3000.0,
+        "2006": 28000.0,
+        "2007": 68000.0,
+        "2008": 42000.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -29,9 +573,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -46,9 +592,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -62,9 +610,15 @@
     },
     {
       "class": "SPRING, DURUM",
+      "cv": {
+        "2020": 14.5,
+        "2021": 11.5,
+        "2022": 5.4
+      },
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "WHEAT, SPRING, DURUM - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -88,9 +642,11 @@
     },
     {
       "class": "SPRING, DURUM",
+      "cv": {},
       "prodn_practice": "IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, SPRING, DURUM, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -102,9 +658,17 @@
     },
     {
       "class": "WINTER",
+      "cv": {
+        "2020": 10.2,
+        "2021": 7.2,
+        "2022": 5.4,
+        "2023": 4.4,
+        "2025": 4.6
+      },
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -136,9 +700,11 @@
     },
     {
       "class": "WINTER",
+      "cv": {},
       "prodn_practice": "IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, WINTER, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -154,9 +720,11 @@
     },
     {
       "class": "WINTER",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, WINTER, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

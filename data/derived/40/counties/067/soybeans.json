@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "067",
+    "name": "JEFFERSON"
+  },
+  "rank": {
+    "1997": {
+      "count_in_nation": 1683,
+      "count_in_state": 54,
+      "percentile_in_nation": 0.2693,
+      "percentile_in_state": 0.6226,
+      "rank_in_nation": 1230,
+      "rank_in_state": 21
+    },
+    "1998": {
+      "count_in_nation": 1683,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.0244,
+      "percentile_in_state": 0.2586,
+      "rank_in_nation": 1642,
+      "rank_in_state": 44
+    }
+  },
+  "revenue": {
+    "1997": {
+      "marketing_year": "1997",
+      "price": 6.4,
+      "revenue_per_harvested_acre": 179.2,
+      "revenue_per_planted_acre": 179.2,
+      "yield": 28.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 4.8,
+      "revenue_per_harvested_acre": 62.4,
+      "revenue_per_planted_acre": 12.48,
+      "yield": 13.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -15.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1998": -53.57
+    }
+  }
+}

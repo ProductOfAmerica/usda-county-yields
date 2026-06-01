@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "005",
+    "name": "ANDERSON"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.7417,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 665,
+      "rank_in_state": 1
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.7675,
+      "percentile_in_state": 0.8,
+      "rank_in_nation": 588,
+      "rank_in_state": 18
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.3788,
+      "percentile_in_state": 0.3294,
+      "rank_in_nation": 1580,
+      "rank_in_state": 58
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 70,
+      "percentile_in_nation": 0.5316,
+      "percentile_in_state": 0.3623,
+      "rank_in_nation": 1173,
+      "rank_in_state": 45
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.77,
+      "revenue_per_harvested_acre": 131.95,
+      "revenue_per_planted_acre": 18.85,
+      "yield": 35.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.96,
+      "revenue_per_harvested_acre": 103.6,
+      "revenue_per_planted_acre": 51.8,
+      "yield": 35.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.95,
+      "revenue_per_harvested_acre": 84.075,
+      "revenue_per_planted_acre": 42.0375,
+      "yield": 28.5
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.85,
+      "revenue_per_harvested_acre": 134.75,
+      "revenue_per_planted_acre": 44.9167,
+      "yield": 35.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0783,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1976": 32.83
+    },
+    "yoy_pct": {
+      "1975": 0.0,
+      "1976": -18.57
+    }
+  }
+}

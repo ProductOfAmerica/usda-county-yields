@@ -1,0 +1,107 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "031",
+    "name": "COMANCHE"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 1453,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.1494,
+      "percentile_in_state": 0.0455,
+      "rank_in_nation": 1236,
+      "rank_in_state": 43
+    },
+    "1969": {
+      "count_in_nation": 1471,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.5952,
+      "percentile_in_state": 0.96,
+      "rank_in_nation": 596,
+      "rank_in_state": 3
+    },
+    "1999": {
+      "count_in_nation": 1633,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.0839,
+      "percentile_in_state": 0.339,
+      "rank_in_nation": 1496,
+      "rank_in_state": 40
+    },
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.0409,
+      "percentile_in_state": 0.2456,
+      "rank_in_nation": 1595,
+      "rank_in_state": 44
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.0613,
+      "percentile_in_state": 0.6545,
+      "rank_in_nation": 1547,
+      "rank_in_state": 20
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 2.29,
+      "revenue_per_harvested_acre": 38.93,
+      "revenue_per_planted_acre": 38.93,
+      "yield": 17.0
+    },
+    "1969": {
+      "marketing_year": "1969",
+      "price": 2.17,
+      "revenue_per_harvested_acre": 56.42,
+      "revenue_per_planted_acre": 28.21,
+      "yield": 26.0
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 4.35,
+      "revenue_per_harvested_acre": 72.645,
+      "revenue_per_planted_acre": 7.7679,
+      "yield": 16.7
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.25,
+      "revenue_per_harvested_acre": 58.65,
+      "revenue_per_planted_acre": 15.5833,
+      "yield": 13.8
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.3,
+      "revenue_per_harvested_acre": 86.0,
+      "revenue_per_planted_acre": 21.5,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.1413,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2001": 16.83
+    },
+    "yoy_pct": {
+      "1969": 52.94,
+      "2000": -17.37,
+      "2001": 44.93
+    }
+  }
+}

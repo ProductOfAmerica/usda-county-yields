@@ -1,0 +1,200 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "049",
+    "name": "LEWIS"
+  },
+  "rank": {
+    "2013": {
+      "count_in_nation": 1395,
+      "count_in_state": 25,
+      "percentile_in_nation": 0.3651,
+      "percentile_in_state": 0.25,
+      "rank_in_nation": 886,
+      "rank_in_state": 19
+    },
+    "2014": {
+      "count_in_nation": 1458,
+      "count_in_state": 23,
+      "percentile_in_nation": 0.2471,
+      "percentile_in_state": 0.1364,
+      "rank_in_nation": 1098,
+      "rank_in_state": 20
+    },
+    "2015": {
+      "count_in_nation": 1335,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.0345,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1289,
+      "rank_in_state": 28
+    },
+    "2016": {
+      "count_in_nation": 1379,
+      "count_in_state": 32,
+      "percentile_in_nation": 0.7192,
+      "percentile_in_state": 0.9355,
+      "rank_in_nation": 388,
+      "rank_in_state": 3
+    },
+    "2017": {
+      "count_in_nation": 1381,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.3029,
+      "percentile_in_state": 0.3636,
+      "rank_in_nation": 963,
+      "rank_in_state": 22
+    },
+    "2019": {
+      "count_in_nation": 1126,
+      "count_in_state": 31,
+      "percentile_in_nation": 0.5653,
+      "percentile_in_state": 0.4333,
+      "rank_in_nation": 490,
+      "rank_in_state": 18
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.6222,
+      "percentile_in_state": 0.6857,
+      "rank_in_nation": 567,
+      "rank_in_state": 12
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.416,
+      "percentile_in_state": 0.4,
+      "rank_in_nation": 790,
+      "rank_in_state": 22
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.6781,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 450,
+      "rank_in_state": 1
+    },
+    "2024": {
+      "count_in_nation": 1148,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.6277,
+      "percentile_in_state": 0.4444,
+      "rank_in_nation": 428,
+      "rank_in_state": 16
+    }
+  },
+  "revenue": {
+    "2013": {
+      "marketing_year": "2013",
+      "price": 12.8,
+      "revenue_per_harvested_acre": 512.0,
+      "revenue_per_planted_acre": 512.0,
+      "yield": 40.0
+    },
+    "2014": {
+      "marketing_year": "2014",
+      "price": 9.69,
+      "revenue_per_harvested_acre": 374.034,
+      "revenue_per_planted_acre": 327.0375,
+      "yield": 38.6
+    },
+    "2015": {
+      "marketing_year": "2015",
+      "price": 9.1,
+      "revenue_per_harvested_acre": 227.5,
+      "revenue_per_planted_acre": 227.5,
+      "yield": 25.0
+    },
+    "2016": {
+      "marketing_year": "2016",
+      "price": 9.57,
+      "revenue_per_harvested_acre": 526.35,
+      "revenue_per_planted_acre": 526.35,
+      "yield": 55.0
+    },
+    "2017": {
+      "marketing_year": "2017",
+      "price": 9.26,
+      "revenue_per_harvested_acre": 395.402,
+      "revenue_per_planted_acre": 370.4,
+      "yield": 42.7
+    },
+    "2019": {
+      "marketing_year": "2019",
+      "price": 8.5,
+      "revenue_per_harvested_acre": 402.05,
+      "revenue_per_planted_acre": 355.0,
+      "yield": 47.3
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 11.3,
+      "revenue_per_harvested_acre": 587.6,
+      "revenue_per_planted_acre": 582.8917,
+      "yield": 52.0
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 12.3,
+      "revenue_per_harvested_acre": 587.94,
+      "revenue_per_planted_acre": 556.3385,
+      "yield": 47.8
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 14.4,
+      "revenue_per_harvested_acre": 757.44,
+      "revenue_per_planted_acre": 698.9538,
+      "yield": 52.6
+    },
+    "2024": {
+      "marketing_year": "2024",
+      "price": 9.6,
+      "revenue_per_harvested_acre": 481.92,
+      "revenue_per_planted_acre": 476.9032,
+      "yield": 50.2
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.4812,
+    "trailing_10yr_avg": {
+      "2017": 40.26,
+      "2019": 41.43,
+      "2020": 42.94,
+      "2021": 43.55,
+      "2022": 44.56,
+      "2024": 46.58
+    },
+    "trailing_5yr_avg": {
+      "2015": 34.53,
+      "2016": 39.65,
+      "2017": 40.26,
+      "2019": 42.5,
+      "2020": 49.25,
+      "2021": 47.45,
+      "2022": 49.92,
+      "2024": 50.65
+    },
+    "yoy_pct": {
+      "2014": -3.5,
+      "2015": -35.23,
+      "2016": 120.0,
+      "2017": -22.36,
+      "2020": 9.94,
+      "2021": -8.08,
+      "2022": 10.04
+    }
+  }
+}

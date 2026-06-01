@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "033",
+    "name": "CUSTER"
+  },
+  "rank": {
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0054,
+      "percentile_in_state": 0.0714,
+      "rank_in_nation": 1669,
+      "rank_in_state": 53
+    }
+  },
+  "revenue": {
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.58,
+      "revenue_per_harvested_acre": 55.8,
+      "revenue_per_planted_acre": 44.64,
+      "yield": 10.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

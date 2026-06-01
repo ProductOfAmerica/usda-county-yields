@@ -1,0 +1,76 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "003",
+    "name": "ALGER"
+  },
+  "rank": {
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 66,
+      "percentile_in_nation": 0.6078,
+      "percentile_in_state": 0.0615,
+      "rank_in_nation": 734,
+      "rank_in_state": 62
+    },
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.4418,
+      "percentile_in_state": 0.2537,
+      "rank_in_nation": 1047,
+      "rank_in_state": 51
+    },
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.372,
+      "percentile_in_state": 0.2985,
+      "rank_in_nation": 1164,
+      "rank_in_state": 48
+    }
+  },
+  "revenue": {
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.82,
+      "revenue_per_harvested_acre": 195.5,
+      "revenue_per_planted_acre": 195.5,
+      "yield": 25.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.79,
+      "revenue_per_harvested_acre": 144.75,
+      "revenue_per_planted_acre": 144.75,
+      "yield": 25.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 4.93,
+      "revenue_per_harvested_acre": 133.11,
+      "revenue_per_planted_acre": 133.11,
+      "yield": 27.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1985": 25.67
+    },
+    "yoy_pct": {
+      "1984": 0.0,
+      "1985": 8.0
+    }
+  }
+}

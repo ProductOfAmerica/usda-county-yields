@@ -1,0 +1,92 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "427",
+    "name": "STARR"
+  },
+  "rank": {
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 181,
+      "percentile_in_nation": 0.2198,
+      "percentile_in_state": 0.7222,
+      "rank_in_nation": 1971,
+      "rank_in_state": 51
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 193,
+      "percentile_in_nation": 0.0181,
+      "percentile_in_state": 0.1354,
+      "rank_in_nation": 2497,
+      "rank_in_state": 167
+    },
+    "1978": {
+      "count_in_nation": 2420,
+      "count_in_state": 188,
+      "percentile_in_nation": 0.6226,
+      "percentile_in_state": 0.9412,
+      "rank_in_nation": 914,
+      "rank_in_state": 12
+    },
+    "1979": {
+      "count_in_nation": 2448,
+      "count_in_state": 204,
+      "percentile_in_nation": 0.2509,
+      "percentile_in_state": 0.6601,
+      "rank_in_nation": 1834,
+      "rank_in_state": 70
+    }
+  },
+  "revenue": {
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.38,
+      "revenue_per_harvested_acre": 81.12,
+      "revenue_per_planted_acre": 60.84,
+      "yield": 24.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 3.04,
+      "revenue_per_harvested_acre": 30.4,
+      "revenue_per_planted_acre": 30.4,
+      "yield": 10.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 2.93,
+      "revenue_per_harvested_acre": 97.569,
+      "revenue_per_planted_acre": 41.8571,
+      "yield": 33.3
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 3.86,
+      "revenue_per_harvested_acre": 113.098,
+      "revenue_per_planted_acre": 79.13,
+      "yield": 29.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 3.39,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1978": 22.43,
+      "1979": 24.15
+    },
+    "yoy_pct": {
+      "1976": -58.33,
+      "1979": -12.01
+    }
+  }
+}

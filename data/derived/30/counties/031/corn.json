@@ -1,0 +1,87 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "031",
+    "name": "GALLATIN"
+  },
+  "rank": {
+    "1947": {
+      "count_in_nation": 1449,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.4344,
+      "percentile_in_state": 0.9524,
+      "rank_in_nation": 820,
+      "rank_in_state": 3
+    },
+    "1958": {
+      "count_in_nation": 2058,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.3306,
+      "percentile_in_state": 0.6486,
+      "rank_in_nation": 1378,
+      "rank_in_state": 14
+    },
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.8066,
+      "percentile_in_state": 0.8974,
+      "rank_in_nation": 421,
+      "rank_in_state": 5
+    },
+    "2002": {
+      "count_in_nation": 2086,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.0312,
+      "percentile_in_state": 0.0833,
+      "rank_in_nation": 2021,
+      "rank_in_state": 12
+    }
+  },
+  "revenue": {
+    "1947": {
+      "marketing_year": "1947",
+      "price": 2.14,
+      "revenue_per_harvested_acre": 55.64,
+      "revenue_per_planted_acre": 55.64,
+      "yield": 26.0
+    },
+    "1958": {
+      "marketing_year": "1958",
+      "price": 1.16,
+      "revenue_per_harvested_acre": 40.6,
+      "revenue_per_planted_acre": 40.9867,
+      "yield": 35.0
+    },
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 75.6,
+      "revenue_per_planted_acre": 75.6,
+      "yield": 60.0
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 2.45,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.7092,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1959": 71.43
+    }
+  }
+}

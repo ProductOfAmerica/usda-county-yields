@@ -10,9 +10,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 5.5,
+            "2021": 4.6,
+            "2022": 8.4,
+            "2023": 10.9,
+            "2024": 3.4,
+            "2025": 2.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -104,9 +113,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -134,9 +145,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 10.0,
+            "2021": 14.8,
+            "2022": 11.9,
+            "2023": 10.3,
+            "2024": 12.7,
+            "2025": 9.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -187,9 +207,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 4.4,
+            "2021": 10.0,
+            "2022": 4.3,
+            "2024": 6.8,
+            "2025": 5.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -301,9 +329,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -331,9 +361,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 10.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -383,9 +417,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.5,
+            "2021": 4.9,
+            "2022": 3.1,
+            "2023": 2.8,
+            "2024": 3.9,
+            "2025": 3.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -493,9 +536,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -523,9 +568,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 6.6,
+            "2022": 8.1,
+            "2023": 9.6,
+            "2024": 3.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -589,9 +641,15 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 8.7,
+            "2021": 12.2,
+            "2022": 8.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -683,9 +741,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -713,9 +773,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.8,
+            "2024": 11.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -764,9 +829,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.9,
+            "2021": 8.3,
+            "2022": 4.3,
+            "2023": 8.2,
+            "2024": 3.6,
+            "2025": 5.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -878,9 +952,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -908,9 +984,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 5.3,
+            "2021": 10.6,
+            "2022": 5.1,
+            "2025": 8.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -966,9 +1049,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.1,
+            "2021": 2.5,
+            "2022": 1.6,
+            "2023": 3.3,
+            "2024": 3.3,
+            "2025": 3.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -1082,9 +1174,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -1112,9 +1206,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -1168,9 +1264,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.5,
+            "2021": 1.8,
+            "2022": 2.2,
+            "2023": 1.8,
+            "2024": 2.2,
+            "2025": 2.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -1284,9 +1389,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -1314,9 +1421,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2023": 7.4,
+            "2024": 22.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -1369,9 +1481,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.4,
+            "2021": 2.7,
+            "2022": 2.1,
+            "2023": 2.6,
+            "2024": 2.9,
+            "2025": 1.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -1485,9 +1606,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -1515,9 +1638,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 4.3,
+            "2021": 6.3,
+            "2022": 10.8,
+            "2023": 8.1,
+            "2024": 13.9,
+            "2025": 5.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -1577,9 +1709,15 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2022": 6.4,
+            "2023": 10.5,
+            "2025": 5.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -1665,9 +1803,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -1687,9 +1827,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 6.1,
+            "2021": 8.4,
+            "2022": 9.5,
+            "2023": 15.1,
+            "2024": 7.6,
+            "2025": 13.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -1742,9 +1891,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.3,
+            "2021": 2.6,
+            "2022": 2.4,
+            "2023": 2.1,
+            "2024": 4.0,
+            "2025": 3.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -1858,9 +2016,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -1888,9 +2048,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 8.0,
+            "2021": 4.4,
+            "2022": 5.9,
+            "2023": 6.9,
+            "2024": 12.1,
+            "2025": 9.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -1951,9 +2120,15 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 5.9,
+            "2022": 6.6,
+            "2023": 7.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -2048,9 +2223,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -2078,9 +2255,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 11.2,
+            "2021": 18.1,
+            "2022": 13.1,
+            "2023": 16.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -2132,9 +2316,16 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2021": 2.9,
+            "2022": 2.2,
+            "2023": 2.7,
+            "2025": 2.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -2246,9 +2437,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -2276,9 +2469,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2023": 5.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -2332,9 +2529,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.1,
+            "2021": 8.2,
+            "2022": 2.1,
+            "2023": 5.6,
+            "2024": 5.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -2447,9 +2652,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -2477,9 +2684,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2023": 8.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -2537,9 +2748,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.3,
+            "2021": 2.6,
+            "2023": 1.3,
+            "2024": 6.4,
+            "2025": 0.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -2652,9 +2871,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -2682,9 +2903,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2023": 8.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -2740,9 +2965,15 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 5.1,
+            "2021": 6.5,
+            "2024": 2.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -2842,9 +3073,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -2872,9 +3105,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 8.8,
+            "2021": 13.1,
+            "2024": 4.4,
+            "2025": 4.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -2933,9 +3173,11 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -2952,9 +3194,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.1,
+            "2021": 2.2,
+            "2022": 1.4,
+            "2023": 0.9,
+            "2024": 2.2,
+            "2025": 1.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -3068,9 +3319,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -3098,9 +3351,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2023": 6.2,
+            "2024": 6.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -3157,9 +3415,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 8.3,
+            "2021": 9.5,
+            "2022": 4.8,
+            "2023": 11.0,
+            "2024": 6.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -3264,9 +3530,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -3294,9 +3562,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2025": 9.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -3357,9 +3629,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.4,
+            "2021": 4.0,
+            "2022": 2.9,
+            "2023": 3.2,
+            "2024": 3.5,
+            "2025": 6.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -3473,9 +3754,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -3503,9 +3786,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2021": 3.7,
+            "2022": 1.6,
+            "2023": 2.8,
+            "2024": 5.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -3563,9 +3853,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.1,
+            "2022": 1.4,
+            "2023": 4.2,
+            "2024": 2.7,
+            "2025": 1.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -3678,9 +3976,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -3708,9 +4008,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.6,
+            "2021": 2.3,
+            "2022": 4.8,
+            "2024": 6.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -3772,9 +4079,16 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.5,
+            "2021": 5.6,
+            "2022": 1.9,
+            "2025": 3.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -3884,9 +4198,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -3914,9 +4230,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2024": 12.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -3968,9 +4288,16 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.1,
+            "2021": 4.1,
+            "2022": 1.6,
+            "2025": 1.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -4082,9 +4409,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -4112,9 +4441,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -4162,9 +4493,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.8,
+            "2021": 2.0,
+            "2022": 2.2,
+            "2023": 4.0,
+            "2024": 2.0,
+            "2025": 2.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -4278,9 +4618,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -4308,9 +4650,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.4,
+            "2021": 3.1,
+            "2022": 5.7,
+            "2023": 7.1,
+            "2024": 3.9,
+            "2025": 4.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -4372,9 +4723,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.9,
+            "2021": 0.7,
+            "2022": 2.0,
+            "2023": 2.8,
+            "2024": 2.5,
+            "2025": 1.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -4488,9 +4848,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -4518,9 +4880,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2022": 7.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -4570,9 +4936,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.9,
+            "2021": 4.4,
+            "2022": 2.5,
+            "2023": 2.9,
+            "2024": 1.8,
+            "2025": 1.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -4686,9 +5061,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -4716,9 +5093,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.8,
+            "2021": 3.8,
+            "2022": 1.7,
+            "2023": 6.2,
+            "2024": 2.8,
+            "2025": 3.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -4778,9 +5164,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.5,
+            "2021": 1.4,
+            "2022": 1.0,
+            "2023": 1.9,
+            "2024": 2.6,
+            "2025": 3.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -4893,9 +5288,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -4923,9 +5320,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2021": 8.8,
+            "2023": 10.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -4980,9 +5382,16 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.7,
+            "2021": 5.6,
+            "2022": 4.0,
+            "2024": 5.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -5094,9 +5503,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -5124,9 +5535,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 9.7,
+            "2021": 17.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -5185,9 +5601,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.8,
+            "2021": 2.0,
+            "2022": 1.3,
+            "2023": 1.6,
+            "2024": 3.5,
+            "2025": 3.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -5301,9 +5726,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -5331,9 +5758,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.6,
+            "2021": 2.0,
+            "2022": 2.2,
+            "2023": 5.8,
+            "2024": 2.5,
+            "2025": 8.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -5392,9 +5828,16 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 10.0,
+            "2021": 10.8,
+            "2022": 4.7,
+            "2025": 7.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -5493,9 +5936,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -5523,9 +5968,15 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 9.9,
+            "2021": 31.2,
+            "2024": 28.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -5575,9 +6026,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 5.3,
+            "2021": 6.5,
+            "2022": 3.4,
+            "2023": 7.7,
+            "2024": 2.7,
+            "2025": 4.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -5690,9 +6150,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -5720,9 +6182,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2021": 4.9,
+            "2022": 2.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -5780,9 +6247,15 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.2,
+            "2021": 8.2,
+            "2022": 7.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -5859,9 +6332,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -5886,9 +6361,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2023": 25.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -5919,9 +6398,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.2,
+            "2021": 2.6,
+            "2022": 1.2,
+            "2023": 1.9,
+            "2024": 3.8,
+            "2025": 1.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -6035,9 +6523,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -6065,9 +6555,15 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2021": 8.1,
+            "2023": 8.9,
+            "2024": 16.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -6123,9 +6619,15 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2021": 6.2,
+            "2022": 1.5,
+            "2025": 2.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -6229,9 +6731,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -6259,9 +6763,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2023": 18.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -6318,9 +6826,16 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.1,
+            "2023": 2.3,
+            "2024": 4.3,
+            "2025": 1.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -6431,9 +6946,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -6461,9 +6978,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.2,
+            "2023": 2.4,
+            "2024": 5.0,
+            "2025": 6.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -6524,9 +7048,13 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 7.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -6621,9 +7149,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -6650,9 +7180,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 12.7,
+            "2021": 13.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -6704,9 +7239,13 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2022": 5.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -6769,9 +7308,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -6793,9 +7334,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -6824,9 +7367,16 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.2,
+            "2023": 2.5,
+            "2024": 2.8,
+            "2025": 1.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -6938,9 +7488,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -6968,9 +7520,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2023": 5.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -7022,9 +7578,11 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -7041,9 +7599,11 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -7096,9 +7656,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -7116,9 +7678,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -7145,9 +7709,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.3,
+            "2021": 1.4,
+            "2022": 2.3,
+            "2023": 3.1,
+            "2024": 4.7,
+            "2025": 2.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -7260,9 +7833,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -7290,9 +7865,17 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 7.5,
+            "2021": 7.1,
+            "2022": 8.1,
+            "2023": 6.8,
+            "2025": 5.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -7350,9 +7933,16 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.3,
+            "2021": 2.3,
+            "2023": 2.4,
+            "2024": 2.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -7463,9 +8053,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -7493,9 +8085,17 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 8.6,
+            "2021": 5.2,
+            "2022": 9.9,
+            "2023": 6.6,
+            "2024": 7.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -7553,9 +8153,15 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.0,
+            "2021": 3.2,
+            "2022": 2.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -7666,9 +8272,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -7696,9 +8304,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2022": 4.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -7750,9 +8362,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 4.0,
+            "2021": 1.6,
+            "2022": 1.6,
+            "2023": 5.9,
+            "2024": 3.4,
+            "2025": 1.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -7866,9 +8487,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -7896,9 +8519,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2022": 6.5,
+            "2024": 6.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -7956,9 +8584,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.0,
+            "2021": 9.1,
+            "2022": 6.0,
+            "2023": 1.2,
+            "2024": 3.6,
+            "2025": 1.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -8065,9 +8702,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -8095,9 +8734,17 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 10.0,
+            "2021": 17.6,
+            "2022": 6.4,
+            "2023": 5.3,
+            "2024": 11.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -8162,9 +8809,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 8.2,
+            "2021": 10.4,
+            "2022": 7.4,
+            "2023": 5.5,
+            "2024": 5.7,
+            "2025": 2.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -8273,9 +8929,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -8303,9 +8961,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -8355,9 +9015,15 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.7,
+            "2021": 2.3,
+            "2022": 0.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -8468,9 +9134,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -8498,9 +9166,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -8546,9 +9216,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.8,
+            "2021": 3.6,
+            "2022": 2.9,
+            "2023": 1.7,
+            "2025": 3.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -8660,9 +9338,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -8690,9 +9370,17 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.8,
+            "2021": 4.9,
+            "2022": 10.5,
+            "2024": 4.8,
+            "2025": 2.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -8751,9 +9439,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 5.9,
+            "2021": 9.6,
+            "2022": 5.2,
+            "2023": 6.5,
+            "2024": 6.2,
+            "2025": 4.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -8864,9 +9561,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -8894,9 +9593,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.5,
+            "2021": 12.5,
+            "2022": 11.6,
+            "2023": 4.2,
+            "2024": 11.6,
+            "2025": 5.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -8961,9 +9669,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.2,
+            "2021": 6.4,
+            "2022": 3.3,
+            "2023": 7.3,
+            "2024": 3.2,
+            "2025": 4.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -9075,9 +9792,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -9105,9 +9824,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 5.9,
+            "2022": 3.9,
+            "2023": 18.3,
+            "2024": 11.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -9167,9 +9893,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.2,
+            "2022": 1.6,
+            "2023": 1.9,
+            "2024": 2.2,
+            "2025": 1.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -9282,9 +10016,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -9312,9 +10048,15 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2022": 5.7,
+            "2023": 4.2,
+            "2024": 7.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -9371,9 +10113,15 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.4,
+            "2021": 2.1,
+            "2022": 2.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -9484,9 +10232,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -9514,9 +10264,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.2,
+            "2021": 3.8,
+            "2022": 5.6,
+            "2023": 7.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -9572,9 +10329,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.4,
+            "2021": 0.8,
+            "2022": 1.3,
+            "2023": 1.7,
+            "2024": 2.2,
+            "2025": 2.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -9688,9 +10454,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -9718,9 +10486,15 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 8.0,
+            "2021": 3.4,
+            "2024": 7.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -9778,9 +10552,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.8,
+            "2021": 1.7,
+            "2022": 1.9,
+            "2023": 1.4,
+            "2024": 2.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -9893,9 +10675,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -9923,9 +10707,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2022": 3.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -9978,9 +10766,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.1,
+            "2021": 2.6,
+            "2023": 1.9,
+            "2024": 7.2,
+            "2025": 1.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -10089,9 +10885,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -10119,9 +10917,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2024": 6.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -10173,9 +10975,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.4,
+            "2021": 2.9,
+            "2022": 0.8,
+            "2023": 4.7,
+            "2024": 3.3,
+            "2025": 2.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -10289,9 +11100,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -10319,9 +11132,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 5.8,
+            "2021": 7.6,
+            "2022": 4.4,
+            "2023": 6.6,
+            "2024": 4.3,
+            "2025": 2.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -10383,9 +11205,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 0.8,
+            "2021": 5.0,
+            "2022": 4.9,
+            "2023": 4.5,
+            "2024": 3.6,
+            "2025": 3.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -10499,9 +11330,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -10529,9 +11362,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 4.2,
+            "2021": 12.0,
+            "2024": 8.5,
+            "2025": 6.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -10593,9 +11433,13 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2025": 3.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -10692,9 +11536,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -10722,9 +11568,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 12.9,
+            "2024": 2.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -10766,9 +11617,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.0,
+            "2021": 6.5,
+            "2022": 5.9,
+            "2023": 5.5,
+            "2024": 3.6,
+            "2025": 5.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -10878,9 +11738,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -10908,9 +11770,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 5.4,
+            "2021": 7.2,
+            "2023": 11.9,
+            "2024": 7.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -10971,9 +11840,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.0,
+            "2021": 3.4,
+            "2022": 2.4,
+            "2023": 2.2,
+            "2024": 2.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -11085,9 +11962,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -11115,9 +11994,15 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 5.6,
+            "2022": 11.1,
+            "2025": 4.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -11171,9 +12056,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.3,
+            "2021": 13.3,
+            "2022": 1.9,
+            "2023": 3.9,
+            "2024": 6.0,
+            "2025": 1.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -11281,9 +12175,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -11311,9 +12207,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2022": 7.5,
+            "2024": 7.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -11366,9 +12267,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.1,
+            "2021": 3.7,
+            "2022": 2.3,
+            "2023": 5.2,
+            "2024": 2.5,
+            "2025": 4.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -11482,9 +12392,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -11512,9 +12424,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 7.0,
+            "2023": 6.7,
+            "2024": 6.7,
+            "2025": 7.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -11572,9 +12491,11 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -11649,9 +12570,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -11676,9 +12599,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -11706,9 +12631,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 4.4,
+            "2021": 6.4,
+            "2022": 2.0,
+            "2023": 2.6,
+            "2024": 5.1,
+            "2025": 1.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -11815,9 +12749,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -11845,9 +12781,15 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 10.9,
+            "2021": 12.4,
+            "2022": 7.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -11911,9 +12853,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.0,
+            "2021": 3.2,
+            "2022": 4.8,
+            "2023": 3.9,
+            "2024": 2.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -12026,9 +12976,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -12056,9 +13008,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2023": 5.1,
+            "2024": 15.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -12112,9 +13069,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.9,
+            "2021": 1.8,
+            "2022": 1.6,
+            "2023": 2.3,
+            "2024": 2.3,
+            "2025": 1.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -12228,9 +13194,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -12258,9 +13226,15 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2021": 12.3,
+            "2023": 20.3,
+            "2024": 8.4
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -12315,9 +13289,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.8,
+            "2021": 4.4,
+            "2022": 1.9,
+            "2023": 2.3,
+            "2024": 5.8,
+            "2025": 1.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -12430,9 +13413,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -12460,9 +13445,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 5.9,
+            "2021": 4.2,
+            "2022": 7.4,
+            "2023": 7.2,
+            "2024": 13.1,
+            "2025": 10.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -12523,9 +13517,15 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.7,
+            "2021": 3.3,
+            "2022": 3.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -12636,9 +13636,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -12666,9 +13668,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 6.2,
+            "2021": 3.7,
+            "2022": 8.2,
+            "2023": 2.4,
+            "2024": 3.2,
+            "2025": 3.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -12725,9 +13736,14 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 7.7,
+            "2021": 15.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -12828,9 +13844,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -12857,9 +13875,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 10.2,
+            "2021": 22.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -12918,9 +13941,11 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -12978,9 +14003,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -12996,9 +14023,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -13027,9 +14056,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.5,
+            "2021": 3.1,
+            "2022": 2.1,
+            "2023": 4.5,
+            "2024": 3.3,
+            "2025": 3.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -13141,9 +14179,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -13171,9 +14211,17 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 7.6,
+            "2021": 7.9,
+            "2022": 8.5,
+            "2023": 12.8,
+            "2024": 11.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -13236,9 +14284,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 6.2,
+            "2021": 6.1,
+            "2022": 5.9,
+            "2023": 6.9,
+            "2024": 6.2,
+            "2025": 7.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -13351,9 +14408,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -13381,9 +14440,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 10.5,
+            "2021": 17.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -13442,9 +14506,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.4,
+            "2021": 1.6,
+            "2022": 1.5,
+            "2023": 2.2,
+            "2024": 3.3,
+            "2025": 1.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -13558,9 +14631,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -13588,9 +14663,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 9.9,
+            "2022": 8.9,
+            "2023": 10.3,
+            "2024": 6.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -13646,9 +14728,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.5,
+            "2021": 6.3,
+            "2022": 3.4,
+            "2023": 4.4,
+            "2024": 2.7,
+            "2025": 3.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -13762,9 +14853,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -13792,9 +14885,15 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2022": 2.1,
+            "2024": 4.4,
+            "2025": 4.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -13860,9 +14959,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.9,
+            "2021": 1.6,
+            "2022": 1.5,
+            "2023": 3.4,
+            "2024": 2.3,
+            "2025": 2.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -13976,9 +15084,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -14006,9 +15116,16 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 4.7,
+            "2022": 11.5,
+            "2023": 13.2,
+            "2024": 14.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -14069,9 +15186,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.1,
+            "2021": 2.5,
+            "2022": 1.5,
+            "2023": 1.8,
+            "2024": 1.6,
+            "2025": 2.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -14185,9 +15311,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -14215,9 +15343,17 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.1,
+            "2021": 1.7,
+            "2022": 4.1,
+            "2024": 2.3,
+            "2025": 2.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -14283,9 +15419,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.1,
+            "2022": 2.4,
+            "2023": 1.2,
+            "2024": 2.3,
+            "2025": 1.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -14398,9 +15542,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -14428,9 +15574,17 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.2,
+            "2022": 1.4,
+            "2023": 2.8,
+            "2024": 4.4,
+            "2025": 3.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -14492,9 +15646,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.4,
+            "2021": 7.9,
+            "2022": 3.0,
+            "2023": 4.3,
+            "2024": 3.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -14605,9 +15767,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -14635,9 +15799,17 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 7.8,
+            "2021": 6.6,
+            "2022": 5.1,
+            "2023": 5.6,
+            "2024": 9.8
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -14697,9 +15869,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.9,
+            "2021": 1.9,
+            "2022": 2.8,
+            "2023": 1.8,
+            "2025": 3.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -14812,9 +15992,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -14842,9 +16024,17 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2021": 11.6,
+            "2022": 2.1,
+            "2023": 3.9,
+            "2024": 8.4,
+            "2025": 5.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -14893,9 +16083,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.8,
+            "2021": 1.3,
+            "2022": 1.8,
+            "2024": 2.8,
+            "2025": 2.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -15008,9 +16206,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -15038,9 +16238,17 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.1,
+            "2021": 4.2,
+            "2022": 3.5,
+            "2024": 5.7,
+            "2025": 6.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -15103,9 +16311,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 6.5,
+            "2021": 12.3,
+            "2022": 4.7,
+            "2023": 7.8,
+            "2024": 4.3,
+            "2025": 6.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -15219,9 +16436,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -15249,9 +16468,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 6.8,
+            "2021": 12.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -15310,9 +16534,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.0,
+            "2021": 1.3,
+            "2022": 1.3,
+            "2023": 3.2,
+            "2024": 1.7,
+            "2025": 1.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -15426,9 +16659,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -15456,9 +16691,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2023": 8.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -15511,9 +16750,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.7,
+            "2021": 2.9,
+            "2022": 2.1,
+            "2023": 3.1,
+            "2024": 7.1,
+            "2025": 3.6
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -15627,9 +16875,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -15657,9 +16907,17 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 7.8,
+            "2021": 14.7,
+            "2022": 11.4,
+            "2023": 11.8,
+            "2024": 17.3
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -15719,9 +16977,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.6,
+            "2021": 1.3,
+            "2022": 2.0,
+            "2023": 1.0,
+            "2024": 4.4,
+            "2025": 1.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -15835,9 +17102,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -15865,9 +17134,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -15921,9 +17192,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.4,
+            "2021": 6.7,
+            "2022": 3.0,
+            "2023": 3.1,
+            "2024": 1.9,
+            "2025": 1.9
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -16035,9 +17315,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -16065,9 +17347,14 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 4.3,
+            "2022": 2.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -16112,9 +17399,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.5,
+            "2021": 1.3,
+            "2022": 3.0,
+            "2023": 3.0,
+            "2024": 2.2,
+            "2025": 2.0
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -16228,9 +17524,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -16258,9 +17556,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.6,
+            "2021": 3.3,
+            "2022": 5.9,
+            "2023": 3.8,
+            "2024": 3.3,
+            "2025": 3.5
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -16326,9 +17633,17 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.0,
+            "2021": 3.7,
+            "2022": 3.9,
+            "2023": 4.6,
+            "2025": 3.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -16439,9 +17754,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -16469,9 +17786,13 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2023": 7.1
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -16524,9 +17845,15 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 2.2,
+            "2022": 2.0,
+            "2023": 2.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -16637,9 +17964,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -16667,9 +17996,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -16720,9 +18051,18 @@
         {
           "canonical": true,
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 3.6,
+            "2021": 1.3,
+            "2022": 1.3,
+            "2023": 0.9,
+            "2024": 0.9,
+            "2025": 0.7
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / ACRE",
           "util_practice": "GRAIN",
@@ -16773,9 +18113,11 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {},
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "BU / NET PLANTED ACRE",
           "util_practice": "GRAIN",
@@ -16788,9 +18130,18 @@
         },
         {
           "class": "ALL CLASSES",
+          "cv": {
+            "2020": 1.1,
+            "2021": 1.6,
+            "2022": 1.4,
+            "2023": 2.1,
+            "2024": 2.0,
+            "2025": 1.2
+          },
           "prodn_practice": "ALL PRODUCTION PRACTICES",
           "raw": {},
           "short_desc": "CORN, SILAGE - YIELD, MEASURED IN TONS / ACRE",
+          "statistic": "YIELD",
           "suppressed": {},
           "unit": "TONS / ACRE",
           "util_practice": "SILAGE",
@@ -16841,7 +18192,7 @@
       ]
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "state": {
     "alpha": "MN",
     "fips": "27",

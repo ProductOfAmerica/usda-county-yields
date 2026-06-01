@@ -1,0 +1,179 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "003",
+    "name": "BERKELEY"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 4,
+      "percentile_in_nation": 0.9844,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 27,
+      "rank_in_state": 1
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 5,
+      "percentile_in_nation": 0.3485,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1074,
+      "rank_in_state": 5
+    },
+    "2009": {
+      "count_in_nation": 1410,
+      "count_in_state": 4,
+      "percentile_in_nation": 0.374,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 883,
+      "rank_in_state": 3
+    },
+    "2010": {
+      "count_in_nation": 1523,
+      "count_in_state": 5,
+      "percentile_in_nation": 0.0013,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1521,
+      "rank_in_state": 5
+    },
+    "2011": {
+      "count_in_nation": 1447,
+      "count_in_state": 4,
+      "percentile_in_nation": 0.4544,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 790,
+      "rank_in_state": 4
+    },
+    "2012": {
+      "count_in_nation": 1483,
+      "count_in_state": 3,
+      "percentile_in_nation": 0.8799,
+      "percentile_in_state": 0.5,
+      "rank_in_nation": 179,
+      "rank_in_state": 2
+    },
+    "2013": {
+      "count_in_nation": 1395,
+      "count_in_state": 4,
+      "percentile_in_nation": 0.34,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 921,
+      "rank_in_state": 4
+    },
+    "2014": {
+      "count_in_nation": 1458,
+      "count_in_state": 4,
+      "percentile_in_nation": 0.6019,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 581,
+      "rank_in_state": 4
+    },
+    "2015": {
+      "count_in_nation": 1335,
+      "count_in_state": 4,
+      "percentile_in_nation": 0.3898,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 815,
+      "rank_in_state": 3
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.66,
+      "revenue_per_harvested_acre": 238.126,
+      "revenue_per_planted_acre": 238.1778,
+      "yield": 51.1
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.33,
+      "revenue_per_harvested_acre": 140.725,
+      "revenue_per_planted_acre": 129.9,
+      "yield": 32.5
+    },
+    "2009": {
+      "marketing_year": "2009",
+      "price": 9.6,
+      "revenue_per_harvested_acre": 379.2,
+      "revenue_per_planted_acre": 357.3333,
+      "yield": 39.5
+    },
+    "2010": {
+      "marketing_year": "2010",
+      "price": 12.0,
+      "revenue_per_harvested_acre": 133.2,
+      "revenue_per_planted_acre": 116.25,
+      "yield": 11.1
+    },
+    "2011": {
+      "marketing_year": "2011",
+      "price": 12.4,
+      "revenue_per_harvested_acre": 478.64,
+      "revenue_per_planted_acre": 398.8667,
+      "yield": 38.6
+    },
+    "2012": {
+      "marketing_year": "2012",
+      "price": 14.3,
+      "revenue_per_harvested_acre": 722.15,
+      "revenue_per_planted_acre": 662.5667,
+      "yield": 50.5
+    },
+    "2013": {
+      "marketing_year": "2013",
+      "price": 12.9,
+      "revenue_per_harvested_acre": 506.97,
+      "revenue_per_planted_acre": 491.49,
+      "yield": 39.3
+    },
+    "2014": {
+      "marketing_year": "2014",
+      "price": 10.0,
+      "revenue_per_harvested_acre": 482.0,
+      "revenue_per_planted_acre": 462.069,
+      "yield": 48.2
+    },
+    "2015": {
+      "marketing_year": "2015",
+      "price": 8.8,
+      "revenue_per_harvested_acre": 375.76,
+      "revenue_per_planted_acre": 361.7778,
+      "yield": 42.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0734,
+    "trailing_10yr_avg": {
+      "2013": 35.8,
+      "2014": 37.87,
+      "2015": 38.56
+    },
+    "trailing_5yr_avg": {
+      "2011": 29.73,
+      "2012": 34.92,
+      "2013": 35.8,
+      "2014": 37.54,
+      "2015": 43.86
+    },
+    "yoy_pct": {
+      "2001": -36.4,
+      "2010": -71.9,
+      "2011": 247.75,
+      "2012": 30.83,
+      "2013": -22.18,
+      "2014": 22.65,
+      "2015": -11.41
+    }
+  }
+}

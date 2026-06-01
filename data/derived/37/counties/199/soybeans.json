@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "199",
+    "name": "YANCEY"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 94,
+      "percentile_in_nation": 0.9009,
+      "percentile_in_state": 0.9677,
+      "rank_in_nation": 181,
+      "rank_in_state": 4
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.81,
+      "revenue_per_harvested_acre": 190.68,
+      "revenue_per_planted_acre": 190.68,
+      "yield": 28.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

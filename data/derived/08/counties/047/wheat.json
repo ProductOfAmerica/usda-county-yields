@@ -1,0 +1,141 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "047",
+    "name": "GILPIN"
+  },
+  "rank": {
+    "1931": {
+      "count_in_nation": 1030,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.1973,
+      "percentile_in_state": 0.3273,
+      "rank_in_nation": 827,
+      "rank_in_state": 38
+    },
+    "1932": {
+      "count_in_nation": 1031,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.4233,
+      "percentile_in_state": 0.4821,
+      "rank_in_nation": 595,
+      "rank_in_state": 30
+    },
+    "1933": {
+      "count_in_nation": 1033,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.3062,
+      "percentile_in_state": 0.375,
+      "rank_in_nation": 717,
+      "rank_in_state": 36
+    },
+    "1934": {
+      "count_in_nation": 1111,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.2252,
+      "percentile_in_state": 0.2909,
+      "rank_in_nation": 861,
+      "rank_in_state": 40
+    },
+    "1935": {
+      "count_in_nation": 1078,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.9545,
+      "percentile_in_state": 0.8,
+      "rank_in_nation": 50,
+      "rank_in_state": 12
+    },
+    "1936": {
+      "count_in_nation": 1031,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.868,
+      "percentile_in_state": 0.6364,
+      "rank_in_nation": 137,
+      "rank_in_state": 21
+    },
+    "1937": {
+      "count_in_nation": 1035,
+      "count_in_state": 54,
+      "percentile_in_nation": 0.6673,
+      "percentile_in_state": 0.3962,
+      "rank_in_nation": 345,
+      "rank_in_state": 33
+    },
+    "1938": {
+      "count_in_nation": 1033,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.7849,
+      "percentile_in_state": 0.4,
+      "rank_in_nation": 223,
+      "rank_in_state": 34
+    },
+    "1940": {
+      "count_in_nation": 1184,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.4328,
+      "percentile_in_state": 0.4364,
+      "rank_in_nation": 672,
+      "rank_in_state": 32
+    },
+    "1941": {
+      "count_in_nation": 1238,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.6047,
+      "percentile_in_state": 0.2909,
+      "rank_in_nation": 490,
+      "rank_in_state": 40
+    },
+    "1942": {
+      "count_in_nation": 1264,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.673,
+      "percentile_in_state": 0.4,
+      "rank_in_nation": 414,
+      "rank_in_state": 34
+    }
+  },
+  "revenue": {},
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.8231,
+    "trailing_10yr_avg": {
+      "1935": 12.6,
+      "1936": 13.83,
+      "1937": 14.29,
+      "1938": 14.75,
+      "1940": 14.89,
+      "1941": 15.67,
+      "1942": 16.56
+    },
+    "trailing_5yr_avg": {
+      "1933": 10.67,
+      "1934": 9.75,
+      "1935": 12.6,
+      "1936": 14.4,
+      "1937": 15.4,
+      "1938": 17.2,
+      "1940": 17.75,
+      "1941": 17.25,
+      "1942": 18.0
+    },
+    "yoy_pct": {
+      "1932": 9.09,
+      "1933": -25.0,
+      "1934": -22.22,
+      "1935": 242.86,
+      "1936": -16.67,
+      "1937": -15.0,
+      "1938": 5.88,
+      "1941": 12.5,
+      "1942": 11.11
+    }
+  }
+}

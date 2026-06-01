@@ -1,0 +1,92 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "023",
+    "name": "CAMERON"
+  },
+  "rank": {
+    "1985": {
+      "count_in_nation": 2477,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.2775,
+      "percentile_in_state": 0.2791,
+      "rank_in_nation": 1790,
+      "rank_in_state": 32
+    },
+    "1986": {
+      "count_in_nation": 2402,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.4977,
+      "percentile_in_state": 0.3404,
+      "rank_in_nation": 1207,
+      "rank_in_state": 32
+    },
+    "1989": {
+      "count_in_nation": 2359,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.4304,
+      "percentile_in_state": 0.7045,
+      "rank_in_nation": 1344,
+      "rank_in_state": 14
+    },
+    "1990": {
+      "count_in_nation": 2329,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.0464,
+      "percentile_in_state": 0.125,
+      "rank_in_nation": 2221,
+      "rank_in_state": 36
+    }
+  },
+  "revenue": {
+    "1985": {
+      "marketing_year": "1985",
+      "price": 3.25,
+      "revenue_per_harvested_acre": 97.5,
+      "revenue_per_planted_acre": 83.5714,
+      "yield": 30.0
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 2.75,
+      "revenue_per_harvested_acre": 90.75,
+      "revenue_per_planted_acre": 79.4062,
+      "yield": 33.0
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 3.9,
+      "revenue_per_harvested_acre": 133.77,
+      "revenue_per_planted_acre": 117.0,
+      "yield": 34.3
+    },
+    "1990": {
+      "marketing_year": "1990",
+      "price": 3.25,
+      "revenue_per_harvested_acre": 68.575,
+      "revenue_per_planted_acre": 61.75,
+      "yield": 21.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -1.1941,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1989": 32.43,
+      "1990": 29.47
+    },
+    "yoy_pct": {
+      "1986": 10.0,
+      "1990": -38.48
+    }
+  }
+}

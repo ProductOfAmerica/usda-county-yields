@@ -1,0 +1,147 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "127",
+    "name": "PUSHMATAHA"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.4665,
+      "percentile_in_state": 0.6825,
+      "rank_in_nation": 940,
+      "rank_in_state": 21
+    },
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.3161,
+      "percentile_in_state": 0.1935,
+      "rank_in_nation": 1243,
+      "rank_in_state": 51
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.172,
+      "percentile_in_state": 0.2973,
+      "rank_in_nation": 1484,
+      "rank_in_state": 27
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.8267,
+      "percentile_in_state": 0.9773,
+      "rank_in_nation": 311,
+      "rank_in_state": 2
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.0636,
+      "percentile_in_state": 0.5435,
+      "rank_in_nation": 1739,
+      "rank_in_state": 22
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.5896,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 773,
+      "rank_in_state": 1
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.067,
+      "percentile_in_state": 0.5106,
+      "rank_in_nation": 1741,
+      "rank_in_state": 24
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.31,
+      "revenue_per_harvested_acre": 123.723,
+      "revenue_per_planted_acre": 123.9,
+      "yield": 23.3
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.48,
+      "revenue_per_harvested_acre": 129.6,
+      "revenue_per_planted_acre": 129.6,
+      "yield": 20.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.44,
+      "revenue_per_harvested_acre": 88.8,
+      "revenue_per_planted_acre": 88.8,
+      "yield": 20.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.45,
+      "revenue_per_harvested_acre": 193.5,
+      "revenue_per_planted_acre": 193.5,
+      "yield": 30.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.35,
+      "revenue_per_harvested_acre": 95.25,
+      "revenue_per_planted_acre": 95.25,
+      "yield": 15.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 5.9,
+      "revenue_per_harvested_acre": 177.0,
+      "revenue_per_planted_acre": 177.0,
+      "yield": 30.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.34,
+      "revenue_per_harvested_acre": 73.4,
+      "revenue_per_planted_acre": 73.4,
+      "yield": 10.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.8021,
+    "trailing_10yr_avg": {
+      "1978": 21.66,
+      "1979": 23.05,
+      "1980": 21.19
+    },
+    "trailing_5yr_avg": {
+      "1975": 21.1,
+      "1976": 23.32,
+      "1978": 21.25,
+      "1979": 23.75,
+      "1980": 21.25
+    },
+    "yoy_pct": {
+      "1974": -14.16,
+      "1975": 0.0,
+      "1976": 50.0,
+      "1979": 100.0,
+      "1980": -66.67
+    }
+  }
+}

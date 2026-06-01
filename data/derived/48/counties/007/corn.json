@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "007",
+    "name": "ARANSAS"
+  },
+  "rank": {
+    "1984": {
+      "count_in_nation": 2361,
+      "count_in_state": 100,
+      "percentile_in_nation": 0.0669,
+      "percentile_in_state": 0.3939,
+      "rank_in_nation": 2203,
+      "rank_in_state": 61
+    }
+  },
+  "revenue": {
+    "1984": {
+      "marketing_year": "1984",
+      "price": 3.03,
+      "revenue_per_harvested_acre": 149.682,
+      "revenue_per_planted_acre": 149.7956,
+      "yield": 49.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

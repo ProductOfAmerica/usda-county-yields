@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "157",
+    "name": "SCOTTS BLUFF"
+  },
+  "rank": {
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.8758,
+      "percentile_in_state": 0.8987,
+      "rank_in_nation": 231,
+      "rank_in_state": 9
+    },
+    "1987": {
+      "count_in_nation": 1778,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.4941,
+      "percentile_in_state": 0.075,
+      "rank_in_nation": 900,
+      "rank_in_state": 75
+    },
+    "1988": {
+      "count_in_nation": 1814,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.9548,
+      "percentile_in_state": 0.7108,
+      "rank_in_nation": 83,
+      "rank_in_state": 25
+    }
+  },
+  "revenue": {
+    "1985": {
+      "marketing_year": "1985",
+      "price": 4.86,
+      "revenue_per_harvested_acre": 189.54,
+      "revenue_per_planted_acre": 189.54,
+      "yield": 39.0
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 5.82,
+      "revenue_per_harvested_acre": 168.78,
+      "revenue_per_planted_acre": 168.78,
+      "yield": 29.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 7.31,
+      "revenue_per_harvested_acre": 263.16,
+      "revenue_per_planted_acre": 263.16,
+      "yield": 36.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -1.5714,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1988": 34.67
+    },
+    "yoy_pct": {
+      "1988": 24.14
+    }
+  }
+}

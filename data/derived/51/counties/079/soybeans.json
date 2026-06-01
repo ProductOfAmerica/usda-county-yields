@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "079",
+    "name": "GREENE"
+  },
+  "rank": {
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.3761,
+      "percentile_in_state": 0.2576,
+      "rank_in_nation": 1159,
+      "rank_in_state": 50
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.2679,
+      "percentile_in_state": 0.3182,
+      "rank_in_nation": 1378,
+      "rank_in_state": 46
+    },
+    "2024": {
+      "count_in_nation": 1148,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.2284,
+      "percentile_in_state": 0.1538,
+      "rank_in_nation": 886,
+      "rank_in_state": 34
+    }
+  },
+  "revenue": {
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.85,
+      "revenue_per_harvested_acre": 157.55,
+      "revenue_per_planted_acre": 157.55,
+      "yield": 23.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.3,
+      "revenue_per_harvested_acre": 157.5,
+      "revenue_per_planted_acre": 157.5,
+      "yield": 25.0
+    },
+    "2024": {
+      "marketing_year": "2024",
+      "price": 10.1,
+      "revenue_per_harvested_acre": 385.82,
+      "revenue_per_planted_acre": 308.7714,
+      "yield": 38.2
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3127,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1979": 8.7
+    }
+  }
+}

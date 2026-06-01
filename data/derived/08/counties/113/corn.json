@@ -1,0 +1,126 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "113",
+    "name": "SAN MIGUEL"
+  },
+  "rank": {
+    "1963": {
+      "count_in_nation": 2353,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.0034,
+      "percentile_in_state": 0.0811,
+      "rank_in_nation": 2345,
+      "rank_in_state": 35
+    },
+    "1964": {
+      "count_in_nation": 2257,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.9867,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 31,
+      "rank_in_state": 1
+    },
+    "1965": {
+      "count_in_nation": 2322,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.6437,
+      "percentile_in_state": 0.3636,
+      "rank_in_nation": 828,
+      "rank_in_state": 22
+    },
+    "1966": {
+      "count_in_nation": 2318,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.7937,
+      "percentile_in_state": 0.7059,
+      "rank_in_nation": 479,
+      "rank_in_state": 11
+    },
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.8361,
+      "percentile_in_state": 0.6,
+      "rank_in_nation": 399,
+      "rank_in_state": 17
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.8491,
+      "percentile_in_state": 0.6216,
+      "rank_in_nation": 381,
+      "rank_in_state": 15
+    }
+  },
+  "revenue": {
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.21,
+      "revenue_per_harvested_acre": 19.36,
+      "revenue_per_planted_acre": 3.4149,
+      "yield": 16.0
+    },
+    "1964": {
+      "marketing_year": "1964",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 113.4,
+      "revenue_per_planted_acre": 20.3538,
+      "yield": 90.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 81.9,
+      "revenue_per_planted_acre": 19.8545,
+      "yield": 65.0
+    },
+    "1966": {
+      "marketing_year": "1966",
+      "price": 1.32,
+      "revenue_per_harvested_acre": 99.0,
+      "revenue_per_planted_acre": 16.5,
+      "yield": 75.0
+    },
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.18,
+      "revenue_per_harvested_acre": 106.2,
+      "revenue_per_planted_acre": 19.9125,
+      "yield": 90.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.13,
+      "revenue_per_harvested_acre": 213.0,
+      "revenue_per_planted_acre": 213.0,
+      "yield": 100.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 4.0784,
+    "trailing_10yr_avg": {
+      "1969": 67.2
+    },
+    "trailing_5yr_avg": {
+      "1965": 57.0,
+      "1966": 61.5,
+      "1969": 76.67
+    },
+    "yoy_pct": {
+      "1964": 462.5,
+      "1965": -27.78,
+      "1966": 15.38
+    }
+  }
+}

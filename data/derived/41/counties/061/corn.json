@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "061",
+    "name": "UNION"
+  },
+  "rank": {
+    "1996": {
+      "count_in_nation": 2142,
+      "count_in_state": 18,
+      "percentile_in_nation": 0.6544,
+      "percentile_in_state": 0.1176,
+      "rank_in_nation": 741,
+      "rank_in_state": 16
+    }
+  },
+  "revenue": {
+    "1996": {
+      "marketing_year": "1996",
+      "price": 3.19,
+      "revenue_per_harvested_acre": 389.18,
+      "revenue_per_planted_acre": 222.3886,
+      "yield": 122.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

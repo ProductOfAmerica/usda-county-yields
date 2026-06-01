@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "041",
+    "name": "DEWEY"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.1907,
+      "percentile_in_state": 0.2333,
+      "rank_in_nation": 1346,
+      "rank_in_state": 47
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.1105,
+      "percentile_in_state": 0.193,
+      "rank_in_nation": 1466,
+      "rank_in_state": 47
+    },
+    "2025": {
+      "count_in_nation": 1100,
+      "count_in_state": 30,
+      "percentile_in_nation": 0.1374,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 949,
+      "rank_in_state": 30
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.27,
+      "revenue_per_harvested_acre": 97.356,
+      "revenue_per_planted_acre": 97.2246,
+      "yield": 22.8
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.13,
+      "revenue_per_harvested_acre": 99.12,
+      "revenue_per_planted_acre": 99.12,
+      "yield": 24.0
+    },
+    "2025": {
+      "marketing_year": "2025",
+      "price": 9.6,
+      "revenue_per_harvested_acre": 330.24,
+      "revenue_per_planted_acre": 324.3243,
+      "yield": 34.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4499,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "2001": 5.26
+    }
+  }
+}

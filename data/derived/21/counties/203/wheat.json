@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "203",
+    "name": "ROCKCASTLE"
+  },
+  "rank": {
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.8004,
+      "percentile_in_state": 0.9059,
+      "rank_in_nation": 505,
+      "rank_in_state": 9
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.8639,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 347,
+      "rank_in_state": 1
+    }
+  },
+  "revenue": {
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.96,
+      "revenue_per_harvested_acre": 106.56,
+      "revenue_per_planted_acre": 53.28,
+      "yield": 36.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.95,
+      "revenue_per_harvested_acre": 118.0,
+      "revenue_per_planted_acre": 39.3333,
+      "yield": 40.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 4.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1976": 11.11
+    }
+  }
+}

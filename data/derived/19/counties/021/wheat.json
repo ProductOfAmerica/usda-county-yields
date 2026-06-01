@@ -1,0 +1,143 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "021",
+    "name": "BUENA VISTA"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.832,
+      "percentile_in_state": 0.8171,
+      "rank_in_nation": 433,
+      "rank_in_state": 16
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 87,
+      "percentile_in_nation": 0.8246,
+      "percentile_in_state": 0.4535,
+      "rank_in_nation": 444,
+      "rank_in_state": 48
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 92,
+      "percentile_in_nation": 0.7651,
+      "percentile_in_state": 0.5824,
+      "rank_in_nation": 598,
+      "rank_in_state": 39
+    },
+    "1978": {
+      "count_in_nation": 2420,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.4254,
+      "percentile_in_state": 0.4937,
+      "rank_in_nation": 1391,
+      "rank_in_state": 41
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.1118,
+      "percentile_in_state": 0.0941,
+      "rank_in_nation": 2249,
+      "rank_in_state": 78
+    },
+    "1984": {
+      "count_in_nation": 2472,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.3553,
+      "percentile_in_state": 0.5455,
+      "rank_in_nation": 1594,
+      "rank_in_state": 36
+    },
+    "1985": {
+      "count_in_nation": 2477,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.7217,
+      "percentile_in_state": 0.4177,
+      "rank_in_nation": 690,
+      "rank_in_state": 47
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 4.13,
+      "revenue_per_harvested_acre": 157.353,
+      "revenue_per_planted_acre": 146.6862,
+      "yield": 38.1
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.46,
+      "revenue_per_harvested_acre": 129.058,
+      "revenue_per_planted_acre": 123.3565,
+      "yield": 37.3
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.94,
+      "revenue_per_harvested_acre": 106.722,
+      "revenue_per_planted_acre": 104.4638,
+      "yield": 36.3
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 2.7,
+      "revenue_per_harvested_acre": 81.0,
+      "revenue_per_planted_acre": 81.0,
+      "yield": 30.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.3,
+      "revenue_per_harvested_acre": 82.5,
+      "revenue_per_planted_acre": 82.5,
+      "yield": 25.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 3.26,
+      "revenue_per_harvested_acre": 115.73,
+      "revenue_per_planted_acre": 115.73,
+      "yield": 35.5
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 2.95,
+      "revenue_per_harvested_acre": 132.75,
+      "revenue_per_planted_acre": 132.75,
+      "yield": 45.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.071,
+    "trailing_10yr_avg": {
+      "1982": 33.34,
+      "1984": 32.82,
+      "1985": 34.36
+    },
+    "trailing_5yr_avg": {
+      "1976": 37.23,
+      "1978": 35.42,
+      "1985": 35.17
+    },
+    "yoy_pct": {
+      "1975": -2.1,
+      "1976": -2.68,
+      "1985": 26.76
+    }
+  }
+}

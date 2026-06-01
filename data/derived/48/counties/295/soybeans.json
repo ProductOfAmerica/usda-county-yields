@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "295",
+    "name": "LIPSCOMB"
+  },
+  "rank": {
+    "1998": {
+      "count_in_nation": 1683,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.9073,
+      "percentile_in_state": 0.9825,
+      "rank_in_nation": 157,
+      "rank_in_state": 2
+    },
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.3556,
+      "percentile_in_state": 0.6042,
+      "rank_in_nation": 1072,
+      "rank_in_state": 20
+    }
+  },
+  "revenue": {
+    "1998": {
+      "marketing_year": "1998",
+      "price": 4.5,
+      "revenue_per_harvested_acre": 214.2,
+      "revenue_per_planted_acre": 194.7273,
+      "yield": 47.6
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.4,
+      "revenue_per_harvested_acre": 132.0,
+      "revenue_per_planted_acre": 96.0,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -8.8,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

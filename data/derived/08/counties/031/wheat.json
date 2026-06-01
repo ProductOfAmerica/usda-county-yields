@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "031",
+    "name": "DENVER"
+  },
+  "rank": {
+    "2007": {
+      "count_in_nation": 1639,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.0684,
+      "percentile_in_state": 0.0952,
+      "rank_in_nation": 1527,
+      "rank_in_state": 39
+    }
+  },
+  "revenue": {
+    "2007": {
+      "marketing_year": "2007",
+      "price": 6.01,
+      "revenue_per_harvested_acre": 132.22,
+      "revenue_per_planted_acre": 126.8778,
+      "yield": 22.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

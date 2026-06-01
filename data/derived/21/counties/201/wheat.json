@@ -1,0 +1,76 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "201",
+    "name": "ROBERTSON"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.5434,
+      "percentile_in_state": 0.4819,
+      "rank_in_nation": 1175,
+      "rank_in_state": 44
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.4503,
+      "percentile_in_state": 0.1059,
+      "rank_in_nation": 1389,
+      "rank_in_state": 77
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.3627,
+      "percentile_in_state": 0.3059,
+      "rank_in_nation": 1621,
+      "rank_in_state": 60
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.77,
+      "revenue_per_harvested_acre": 113.1,
+      "revenue_per_planted_acre": 56.55,
+      "yield": 30.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.96,
+      "revenue_per_harvested_acre": 85.84,
+      "revenue_per_planted_acre": 42.92,
+      "yield": 29.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.95,
+      "revenue_per_harvested_acre": 82.6,
+      "revenue_per_planted_acre": 41.3,
+      "yield": 28.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -1.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1976": 29.0
+    },
+    "yoy_pct": {
+      "1975": -3.33,
+      "1976": -3.45
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "339",
+    "name": "MONTGOMERY"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.0354,
+      "percentile_in_state": 0.3588,
+      "rank_in_nation": 2344,
+      "rank_in_state": 85
+    },
+    "1970": {
+      "count_in_nation": 2397,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.1565,
+      "percentile_in_state": 0.1855,
+      "rank_in_nation": 2022,
+      "rank_in_state": 102
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 29.541,
+      "revenue_per_planted_acre": 26.23,
+      "yield": 22.9
+    },
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.42,
+      "revenue_per_harvested_acre": 41.18,
+      "revenue_per_planted_acre": 34.3167,
+      "yield": 29.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 6.1,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1970": 26.64
+    }
+  }
+}

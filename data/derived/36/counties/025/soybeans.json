@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "025",
+    "name": "DELAWARE"
+  },
+  "rank": {
+    "2005": {
+      "count_in_nation": 1650,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.4306,
+      "percentile_in_state": 0.2703,
+      "rank_in_nation": 940,
+      "rank_in_state": 28
+    }
+  },
+  "revenue": {
+    "2005": {
+      "marketing_year": "2005",
+      "price": 5.2,
+      "revenue_per_harvested_acre": 187.2,
+      "revenue_per_planted_acre": 187.2,
+      "yield": 36.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

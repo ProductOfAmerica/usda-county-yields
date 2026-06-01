@@ -1,0 +1,201 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "051",
+    "name": "WASATCH"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.4552,
+      "percentile_in_state": 0.4444,
+      "rank_in_nation": 1364,
+      "rank_in_state": 16
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.5127,
+      "percentile_in_state": 0.5185,
+      "rank_in_nation": 1227,
+      "rank_in_state": 14
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.4177,
+      "percentile_in_state": 0.4074,
+      "rank_in_nation": 1498,
+      "rank_in_state": 17
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.537,
+      "percentile_in_state": 0.6154,
+      "rank_in_nation": 1170,
+      "rank_in_state": 11
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.0944,
+      "percentile_in_state": 0.1481,
+      "rank_in_nation": 2303,
+      "rank_in_state": 24
+    },
+    "1977": {
+      "count_in_nation": 2482,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.0754,
+      "percentile_in_state": 0.36,
+      "rank_in_nation": 2295,
+      "rank_in_state": 17
+    },
+    "1978": {
+      "count_in_nation": 2420,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.6776,
+      "percentile_in_state": 0.6154,
+      "rank_in_nation": 781,
+      "rank_in_state": 11
+    },
+    "1979": {
+      "count_in_nation": 2448,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.9236,
+      "percentile_in_state": 0.84,
+      "rank_in_nation": 188,
+      "rank_in_state": 5
+    },
+    "1981": {
+      "count_in_nation": 2535,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.9669,
+      "percentile_in_state": 0.8077,
+      "rank_in_nation": 85,
+      "rank_in_state": 6
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.9605,
+      "percentile_in_state": 0.7692,
+      "rank_in_nation": 101,
+      "rank_in_state": 7
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.77,
+      "revenue_per_harvested_acre": 53.454,
+      "revenue_per_planted_acre": 48.7648,
+      "yield": 30.2
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 4.14,
+      "revenue_per_harvested_acre": 125.442,
+      "revenue_per_planted_acre": 85.9478,
+      "yield": 30.3
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 4.0,
+      "revenue_per_harvested_acre": 108.8,
+      "revenue_per_planted_acre": 108.8989,
+      "yield": 27.2
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.44,
+      "revenue_per_harvested_acre": 105.608,
+      "revenue_per_planted_acre": 105.6571,
+      "yield": 30.7
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.56,
+      "revenue_per_harvested_acre": 50.688,
+      "revenue_per_planted_acre": 50.6311,
+      "yield": 19.8
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.43,
+      "revenue_per_harvested_acre": 50.058,
+      "revenue_per_planted_acre": 43.74,
+      "yield": 20.6
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 2.98,
+      "revenue_per_harvested_acre": 102.214,
+      "revenue_per_planted_acre": 102.3133,
+      "yield": 34.3
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 3.62,
+      "revenue_per_harvested_acre": 183.534,
+      "revenue_per_planted_acre": 183.4133,
+      "yield": 50.7
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 3.72,
+      "revenue_per_harvested_acre": 223.2,
+      "revenue_per_planted_acre": 223.2,
+      "yield": 60.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.32,
+      "revenue_per_harvested_acre": 199.2,
+      "revenue_per_planted_acre": 199.2,
+      "yield": 60.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "UT",
+    "fips": "49",
+    "name": "UTAH"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 3.4949,
+    "trailing_10yr_avg": {
+      "1976": 27.64,
+      "1977": 26.47,
+      "1978": 27.59,
+      "1979": 30.48,
+      "1981": 33.76,
+      "1982": 37.07
+    },
+    "trailing_5yr_avg": {
+      "1974": 29.23,
+      "1975": 29.6,
+      "1976": 27.64,
+      "1977": 25.72,
+      "1978": 26.52,
+      "1979": 31.22,
+      "1981": 41.4,
+      "1982": 51.25
+    },
+    "yoy_pct": {
+      "1973": 0.33,
+      "1974": -10.23,
+      "1975": 12.87,
+      "1976": -35.5,
+      "1977": 4.04,
+      "1978": 66.5,
+      "1979": 47.81,
+      "1982": 0.0
+    }
+  }
+}

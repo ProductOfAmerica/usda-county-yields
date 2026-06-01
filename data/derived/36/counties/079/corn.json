@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "079",
+    "name": "PUTNAM"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2459,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.5407,
+      "percentile_in_state": 0.902,
+      "rank_in_nation": 1130,
+      "rank_in_state": 6
+    },
+    "1973": {
+      "count_in_nation": 2480,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.4893,
+      "percentile_in_state": 0.2745,
+      "rank_in_nation": 1267,
+      "rank_in_state": 38
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.6256,
+      "percentile_in_state": 0.0784,
+      "rank_in_nation": 947,
+      "rank_in_state": 48
+    },
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.6784,
+      "percentile_in_state": 0.1176,
+      "rank_in_nation": 807,
+      "rank_in_state": 46
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.6455,
+      "percentile_in_state": 0.7451,
+      "rank_in_nation": 894,
+      "rank_in_state": 14
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.71,
+      "revenue_per_harvested_acre": 128.25,
+      "revenue_per_planted_acre": 64.125,
+      "yield": 75.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.76,
+      "revenue_per_harvested_acre": 198.72,
+      "revenue_per_planted_acre": 39.744,
+      "yield": 72.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.03,
+      "revenue_per_harvested_acre": 212.1,
+      "revenue_per_planted_acre": 30.3,
+      "yield": 70.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.57,
+      "revenue_per_harvested_acre": 208.17,
+      "revenue_per_planted_acre": 34.695,
+      "yield": 81.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.42,
+      "revenue_per_harvested_acre": 203.28,
+      "revenue_per_planted_acre": 40.656,
+      "yield": 84.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.7,
+    "trailing_10yr_avg": {
+      "1976": 76.4
+    },
+    "trailing_5yr_avg": {
+      "1974": 72.33,
+      "1975": 74.5,
+      "1976": 76.4
+    },
+    "yoy_pct": {
+      "1973": -4.0,
+      "1974": -2.78,
+      "1975": 15.71,
+      "1976": 3.7
+    }
+  }
+}

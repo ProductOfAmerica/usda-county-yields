@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "075",
+    "name": "PLAQUEMINES"
+  },
+  "rank": {
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.3903,
+      "percentile_in_state": 0.8814,
+      "rank_in_nation": 1543,
+      "rank_in_state": 8
+    }
+  },
+  "revenue": {
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.0,
+      "revenue_per_harvested_acre": 120.0,
+      "revenue_per_planted_acre": 96.0,
+      "yield": 60.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

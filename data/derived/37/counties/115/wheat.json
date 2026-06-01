@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "115",
+    "name": "MADISON"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 85,
+      "percentile_in_nation": 0.3637,
+      "percentile_in_state": 0.3929,
+      "rank_in_nation": 1593,
+      "rank_in_state": 52
+    },
+    "1988": {
+      "count_in_nation": 2362,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.305,
+      "percentile_in_state": 0.0361,
+      "rank_in_nation": 1642,
+      "rank_in_state": 81
+    },
+    "1989": {
+      "count_in_nation": 2359,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.3944,
+      "percentile_in_state": 0.4512,
+      "rank_in_nation": 1429,
+      "rank_in_state": 46
+    },
+    "1990": {
+      "count_in_nation": 2329,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.2753,
+      "percentile_in_state": 0.0964,
+      "rank_in_nation": 1688,
+      "rank_in_state": 76
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.34,
+      "revenue_per_harvested_acre": 37.52,
+      "revenue_per_planted_acre": 31.2667,
+      "yield": 28.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 3.4,
+      "revenue_per_harvested_acre": 115.6,
+      "revenue_per_planted_acre": 102.0,
+      "yield": 34.0
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 3.4,
+      "revenue_per_harvested_acre": 112.2,
+      "revenue_per_planted_acre": 88.4,
+      "yield": 33.0
+    },
+    "1990": {
+      "marketing_year": "1990",
+      "price": 3.0,
+      "revenue_per_harvested_acre": 96.0,
+      "revenue_per_planted_acre": 69.4286,
+      "yield": 32.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2823,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1990": 33.0
+    },
+    "yoy_pct": {
+      "1989": -2.94,
+      "1990": -3.03
+    }
+  }
+}

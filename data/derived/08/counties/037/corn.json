@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "037",
+    "name": "EAGLE"
+  },
+  "rank": {
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.5263,
+      "percentile_in_state": 0.25,
+      "rank_in_nation": 1188,
+      "rank_in_state": 31
+    },
+    "1980": {
+      "count_in_nation": 2411,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.5108,
+      "percentile_in_state": 0.1429,
+      "rank_in_nation": 1180,
+      "rank_in_state": 31
+    }
+  },
+  "revenue": {
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.62,
+      "revenue_per_harvested_acre": 183.4,
+      "revenue_per_planted_acre": 183.4,
+      "yield": 70.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.05,
+      "revenue_per_harvested_acre": 213.5,
+      "revenue_per_planted_acre": 106.75,
+      "yield": 70.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

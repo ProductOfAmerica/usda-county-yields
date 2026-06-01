@@ -1,0 +1,192 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "001",
+    "name": "ADAMS"
+  },
+  "rank": {
+    "1954": {
+      "count_in_nation": 1068,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.0628,
+      "percentile_in_state": 0.1923,
+      "rank_in_nation": 1001,
+      "rank_in_state": 22
+    },
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.061,
+      "percentile_in_state": 0.04,
+      "rank_in_nation": 1756,
+      "rank_in_state": 25
+    },
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 29,
+      "percentile_in_nation": 0.008,
+      "percentile_in_state": 0.1071,
+      "rank_in_nation": 1860,
+      "rank_in_state": 26
+    },
+    "2017": {
+      "count_in_nation": 1381,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.0007,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1380,
+      "rank_in_state": 40
+    },
+    "2019": {
+      "count_in_nation": 1126,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.2018,
+      "percentile_in_state": 0.7941,
+      "rank_in_nation": 899,
+      "rank_in_state": 8
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.002,
+      "percentile_in_state": 0.0208,
+      "rank_in_nation": 1496,
+      "rank_in_state": 48
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.0126,
+      "percentile_in_state": 0.2609,
+      "rank_in_nation": 1335,
+      "rank_in_state": 35
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.0258,
+      "percentile_in_state": 0.0222,
+      "rank_in_nation": 1360,
+      "rank_in_state": 45
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.1249,
+      "percentile_in_state": 0.4048,
+      "rank_in_nation": 1143,
+      "rank_in_state": 26
+    },
+    "2025": {
+      "count_in_nation": 1100,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.0237,
+      "percentile_in_state": 0.0571,
+      "rank_in_nation": 1074,
+      "rank_in_state": 34
+    }
+  },
+  "revenue": {
+    "1954": {
+      "marketing_year": "1954",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 13.98,
+      "revenue_per_planted_acre": 13.98,
+      "yield": 6.0
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.37,
+      "revenue_per_harvested_acre": 95.81,
+      "revenue_per_planted_acre": 95.81,
+      "yield": 13.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.59,
+      "revenue_per_harvested_acre": 55.9,
+      "revenue_per_planted_acre": 55.9,
+      "yield": 10.0
+    },
+    "2017": {
+      "marketing_year": "2017",
+      "price": 8.88,
+      "revenue_per_harvested_acre": 122.544,
+      "revenue_per_planted_acre": 117.0545,
+      "yield": 13.8
+    },
+    "2019": {
+      "marketing_year": "2019",
+      "price": 7.93,
+      "revenue_per_harvested_acre": 279.929,
+      "revenue_per_planted_acre": 267.18,
+      "yield": 35.3
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 10.2,
+      "revenue_per_harvested_acre": 173.4,
+      "revenue_per_planted_acre": 169.7763,
+      "yield": 17.0
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 12.6,
+      "revenue_per_harvested_acre": 200.34,
+      "revenue_per_planted_acre": 196.3636,
+      "yield": 15.9
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 13.7,
+      "revenue_per_harvested_acre": 252.08,
+      "revenue_per_planted_acre": 250.025,
+      "yield": 18.4
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.0,
+      "revenue_per_harvested_acre": 404.4,
+      "revenue_per_planted_acre": 400.0,
+      "yield": 33.7
+    },
+    "2025": {
+      "marketing_year": "2025",
+      "price": 9.65,
+      "revenue_per_harvested_acre": 264.41,
+      "revenue_per_planted_acre": 261.1793,
+      "yield": 27.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.28,
+    "trailing_10yr_avg": {
+      "2022": 20.08,
+      "2023": 22.35,
+      "2025": 23.07
+    },
+    "trailing_5yr_avg": {
+      "2020": 22.03,
+      "2021": 20.5,
+      "2022": 21.65,
+      "2023": 24.06,
+      "2025": 23.85
+    },
+    "yoy_pct": {
+      "1984": -23.08,
+      "2020": -51.84,
+      "2021": -6.47,
+      "2022": 15.72,
+      "2023": 83.15
+    }
+  }
+}

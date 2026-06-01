@@ -1,0 +1,39 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "043",
+    "name": "FREMONT"
+  },
+  "rank": {
+    "2004": {
+      "count_in_nation": 2014,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.0219,
+      "percentile_in_state": 0.1,
+      "rank_in_nation": 1970,
+      "rank_in_state": 19
+    }
+  },
+  "revenue": {
+    "2004": {
+      "marketing_year": "2004",
+      "price": 2.82,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "ID",
+    "fips": "16",
+    "name": "IDAHO"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

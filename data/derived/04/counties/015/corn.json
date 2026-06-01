@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "015",
+    "name": "MOHAVE"
+  },
+  "rank": {
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 14,
+      "percentile_in_nation": 0.0437,
+      "percentile_in_state": 0.3077,
+      "rank_in_nation": 2410,
+      "rank_in_state": 10
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 14,
+      "percentile_in_nation": 0.0902,
+      "percentile_in_state": 0.3077,
+      "rank_in_nation": 2302,
+      "rank_in_state": 10
+    }
+  },
+  "revenue": {
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.6,
+      "revenue_per_harvested_acre": 78.0,
+      "revenue_per_planted_acre": 39.0,
+      "yield": 30.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.2,
+      "revenue_per_harvested_acre": 55.0,
+      "revenue_per_planted_acre": 18.3333,
+      "yield": 25.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "AZ",
+    "fips": "04",
+    "name": "ARIZONA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -5.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1977": -16.67
+    }
+  }
+}

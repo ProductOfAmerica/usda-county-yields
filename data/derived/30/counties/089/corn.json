@@ -1,0 +1,106 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "089",
+    "name": "SANDERS"
+  },
+  "rank": {
+    "1947": {
+      "count_in_nation": 1449,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.1374,
+      "percentile_in_state": 0.4286,
+      "rank_in_nation": 1250,
+      "rank_in_state": 25
+    },
+    "1948": {
+      "count_in_nation": 1442,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.018,
+      "percentile_in_state": 0.2895,
+      "rank_in_nation": 1416,
+      "rank_in_state": 28
+    },
+    "1949": {
+      "count_in_nation": 1376,
+      "count_in_state": 37,
+      "percentile_in_nation": 0.0276,
+      "percentile_in_state": 0.4722,
+      "rank_in_nation": 1338,
+      "rank_in_state": 20
+    },
+    "1955": {
+      "count_in_nation": 1864,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.6221,
+      "percentile_in_state": 0.8421,
+      "rank_in_nation": 705,
+      "rank_in_state": 7
+    },
+    "1963": {
+      "count_in_nation": 2353,
+      "count_in_state": 22,
+      "percentile_in_nation": 0.1641,
+      "percentile_in_state": 0.2857,
+      "rank_in_nation": 1967,
+      "rank_in_state": 16
+    }
+  },
+  "revenue": {
+    "1947": {
+      "marketing_year": "1947",
+      "price": 2.14,
+      "revenue_per_harvested_acre": 34.24,
+      "revenue_per_planted_acre": 34.24,
+      "yield": 16.0
+    },
+    "1948": {
+      "marketing_year": "1948",
+      "price": 1.51,
+      "revenue_per_harvested_acre": 21.14,
+      "revenue_per_planted_acre": 21.14,
+      "yield": 14.0
+    },
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.43,
+      "revenue_per_harvested_acre": 14.3,
+      "revenue_per_planted_acre": 14.3,
+      "yield": 10.0
+    },
+    "1955": {
+      "marketing_year": "1955",
+      "price": 1.53,
+      "revenue_per_harvested_acre": 61.2,
+      "revenue_per_planted_acre": 61.2,
+      "yield": 40.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.2,
+      "revenue_per_harvested_acre": 38.4,
+      "revenue_per_planted_acre": 19.2,
+      "yield": 32.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.4576,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1949": 13.33
+    },
+    "yoy_pct": {
+      "1948": -12.5,
+      "1949": -28.57
+    }
+  }
+}

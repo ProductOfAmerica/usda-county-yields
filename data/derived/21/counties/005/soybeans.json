@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "005",
+    "name": "ANDERSON"
+  },
+  "rank": {
+    "2012": {
+      "count_in_nation": 1483,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.4062,
+      "percentile_in_state": 0.4079,
+      "rank_in_nation": 881,
+      "rank_in_state": 46
+    },
+    "2013": {
+      "count_in_nation": 1395,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.5653,
+      "percentile_in_state": 0.1724,
+      "rank_in_nation": 607,
+      "rank_in_state": 49
+    },
+    "2014": {
+      "count_in_nation": 1458,
+      "count_in_state": 70,
+      "percentile_in_nation": 0.4132,
+      "percentile_in_state": 0.1739,
+      "rank_in_nation": 856,
+      "rank_in_state": 58
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 76,
+      "percentile_in_nation": 0.6077,
+      "percentile_in_state": 0.4133,
+      "rank_in_nation": 531,
+      "rank_in_state": 45
+    }
+  },
+  "revenue": {
+    "2012": {
+      "marketing_year": "2012",
+      "price": 14.5,
+      "revenue_per_harvested_acre": 551.0,
+      "revenue_per_planted_acre": 551.0,
+      "yield": 38.0
+    },
+    "2013": {
+      "marketing_year": "2013",
+      "price": 13.1,
+      "revenue_per_harvested_acre": 590.81,
+      "revenue_per_planted_acre": 541.4667,
+      "yield": 45.1
+    },
+    "2014": {
+      "marketing_year": "2014",
+      "price": 10.5,
+      "revenue_per_harvested_acre": 457.8,
+      "revenue_per_planted_acre": 449.75,
+      "yield": 43.6
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 13.1,
+      "revenue_per_harvested_acre": 699.54,
+      "revenue_per_planted_acre": 699.9143,
+      "yield": 53.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.452,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2014": 42.23
+    },
+    "yoy_pct": {
+      "2013": 18.68,
+      "2014": -3.33
+    }
+  }
+}

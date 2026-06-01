@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "337",
+    "name": "MONTAGUE"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 2393,
+      "count_in_state": 124,
+      "percentile_in_nation": 0.1664,
+      "percentile_in_state": 0.2846,
+      "rank_in_nation": 1995,
+      "rank_in_state": 89
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.0322,
+      "percentile_in_state": 0.1069,
+      "rank_in_nation": 2439,
+      "rank_in_state": 118
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 42.78,
+      "revenue_per_planted_acre": 30.6667,
+      "yield": 37.2
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 62.211,
+      "revenue_per_planted_acre": 57.085,
+      "yield": 26.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -1.3125,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

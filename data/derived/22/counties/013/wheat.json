@@ -1,0 +1,199 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "013",
+    "name": "BIENVILLE"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.1978,
+      "percentile_in_state": 0.7674,
+      "rank_in_nation": 2008,
+      "rank_in_state": 11
+    },
+    "1977": {
+      "count_in_nation": 2482,
+      "count_in_state": 29,
+      "percentile_in_nation": 0.3777,
+      "percentile_in_state": 0.3929,
+      "rank_in_nation": 1545,
+      "rank_in_state": 18
+    },
+    "1978": {
+      "count_in_nation": 2420,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.4254,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 1391,
+      "rank_in_state": 13
+    },
+    "1979": {
+      "count_in_nation": 2448,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.076,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 2262,
+      "rank_in_state": 20
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 42,
+      "percentile_in_nation": 0.1739,
+      "percentile_in_state": 0.6585,
+      "rank_in_nation": 2068,
+      "rank_in_state": 15
+    },
+    "1981": {
+      "count_in_nation": 2535,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.2123,
+      "percentile_in_state": 0.0227,
+      "rank_in_nation": 1997,
+      "rank_in_state": 44
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.2699,
+      "percentile_in_state": 0.2667,
+      "rank_in_nation": 1849,
+      "rank_in_state": 34
+    },
+    "1983": {
+      "count_in_nation": 2480,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.1505,
+      "percentile_in_state": 0.3864,
+      "rank_in_nation": 2107,
+      "rank_in_state": 28
+    },
+    "1984": {
+      "count_in_nation": 2472,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.159,
+      "percentile_in_state": 0.1163,
+      "rank_in_nation": 2079,
+      "rank_in_state": 39
+    },
+    "1987": {
+      "count_in_nation": 2373,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.2323,
+      "percentile_in_state": 0.4565,
+      "rank_in_nation": 1822,
+      "rank_in_state": 26
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.41,
+      "revenue_per_harvested_acre": 32.43,
+      "revenue_per_planted_acre": 10.81,
+      "yield": 23.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.1,
+      "revenue_per_harvested_acre": 63.0,
+      "revenue_per_planted_acre": 37.8,
+      "yield": 30.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 3.05,
+      "revenue_per_harvested_acre": 91.5,
+      "revenue_per_planted_acre": 61.0,
+      "yield": 30.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 3.9,
+      "revenue_per_harvested_acre": 85.8,
+      "revenue_per_planted_acre": 61.2857,
+      "yield": 22.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.8,
+      "revenue_per_harvested_acre": 98.8,
+      "revenue_per_planted_acre": 74.1,
+      "yield": 26.0
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 3.7,
+      "revenue_per_harvested_acre": 111.0,
+      "revenue_per_planted_acre": 100.9091,
+      "yield": 30.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.2,
+      "revenue_per_harvested_acre": 96.0,
+      "revenue_per_planted_acre": 83.2,
+      "yield": 30.0
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 3.6,
+      "revenue_per_harvested_acre": 103.68,
+      "revenue_per_planted_acre": 69.0,
+      "yield": 28.8
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 3.5,
+      "revenue_per_harvested_acre": 105.0,
+      "revenue_per_planted_acre": 70.0,
+      "yield": 30.0
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 2.8,
+      "revenue_per_harvested_acre": 84.0,
+      "revenue_per_planted_acre": 28.0,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4258,
+    "trailing_10yr_avg": {
+      "1980": 26.2,
+      "1981": 26.83,
+      "1982": 28.0,
+      "1983": 28.11,
+      "1984": 28.35,
+      "1987": 28.35
+    },
+    "trailing_5yr_avg": {
+      "1979": 27.33,
+      "1980": 27.0,
+      "1981": 27.6,
+      "1982": 27.6,
+      "1983": 27.36,
+      "1984": 28.96,
+      "1987": 29.6
+    },
+    "yoy_pct": {
+      "1978": 0.0,
+      "1979": -26.67,
+      "1980": 18.18,
+      "1981": 15.38,
+      "1982": 0.0,
+      "1983": -4.0,
+      "1984": 4.17
+    }
+  }
+}

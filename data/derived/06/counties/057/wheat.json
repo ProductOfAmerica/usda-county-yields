@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "057",
+    "name": "NEVADA"
+  },
+  "rank": {
+    "1949": {
+      "count_in_nation": 1480,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.4943,
+      "percentile_in_state": 0.2909,
+      "rank_in_nation": 749,
+      "rank_in_state": 40
+    },
+    "1950": {
+      "count_in_nation": 1483,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.4825,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 768,
+      "rank_in_state": 45
+    },
+    "1951": {
+      "count_in_nation": 1434,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.4955,
+      "percentile_in_state": 0.3091,
+      "rank_in_nation": 724,
+      "rank_in_state": 39
+    },
+    "1952": {
+      "count_in_nation": 1435,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.2727,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 1044,
+      "rank_in_state": 45
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.99,
+      "revenue_per_harvested_acre": 33.83,
+      "revenue_per_planted_acre": 33.83,
+      "yield": 17.0
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 2.04,
+      "revenue_per_harvested_acre": 34.68,
+      "revenue_per_planted_acre": 34.68,
+      "yield": 17.0
+    },
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.23,
+      "revenue_per_harvested_acre": 37.91,
+      "revenue_per_planted_acre": 37.91,
+      "yield": 17.0
+    },
+    "1952": {
+      "marketing_year": "1952",
+      "price": 2.21,
+      "revenue_per_harvested_acre": 37.57,
+      "revenue_per_planted_acre": 37.57,
+      "yield": 17.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1951": 17.0,
+      "1952": 17.0
+    },
+    "yoy_pct": {
+      "1950": 0.0,
+      "1951": 0.0,
+      "1952": 0.0
+    }
+  }
+}

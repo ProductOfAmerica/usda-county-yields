@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "075",
+    "name": "PLAQUEMINES"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 2011,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.0264,
+      "percentile_in_state": 0.0526,
+      "rank_in_nation": 1958,
+      "rank_in_state": 19
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.17,
+      "revenue_per_harvested_acre": 17.55,
+      "revenue_per_planted_acre": 17.55,
+      "yield": 15.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

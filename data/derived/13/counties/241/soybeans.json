@@ -1,0 +1,89 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "241",
+    "name": "RABUN"
+  },
+  "rank": {
+    "1962": {
+      "count_in_nation": 1253,
+      "count_in_state": 65,
+      "percentile_in_nation": 0.008,
+      "percentile_in_state": 0.0312,
+      "rank_in_nation": 1243,
+      "rank_in_state": 63
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 139,
+      "percentile_in_nation": 0.4947,
+      "percentile_in_state": 0.4855,
+      "rank_in_nation": 906,
+      "rank_in_state": 72
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.2349,
+      "percentile_in_state": 0.7914,
+      "rank_in_nation": 1421,
+      "rank_in_state": 30
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.2036,
+      "percentile_in_state": 0.1712,
+      "rank_in_nation": 1499,
+      "rank_in_state": 122
+    }
+  },
+  "revenue": {
+    "1962": {
+      "marketing_year": "1962",
+      "price": 2.35,
+      "revenue_per_harvested_acre": 21.15,
+      "yield": 9.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.65,
+      "revenue_per_harvested_acre": 114.855,
+      "revenue_per_planted_acre": 115.0263,
+      "yield": 24.7
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.39,
+      "revenue_per_harvested_acre": 127.8,
+      "revenue_per_planted_acre": 122.475,
+      "yield": 20.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.36,
+      "revenue_per_harvested_acre": 152.64,
+      "revenue_per_planted_acre": 152.64,
+      "yield": 24.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.8408,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1979": 22.9
+    },
+    "yoy_pct": {
+      "1979": 20.0
+    }
+  }
+}

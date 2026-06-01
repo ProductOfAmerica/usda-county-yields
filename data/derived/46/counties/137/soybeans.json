@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "137",
+    "name": "ZIEBACH"
+  },
+  "rank": {
+    "2009": {
+      "count_in_nation": 1410,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.0142,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1390,
+      "rank_in_state": 45
+    },
+    "2012": {
+      "count_in_nation": 1483,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.087,
+      "percentile_in_state": 0.3111,
+      "rank_in_nation": 1354,
+      "rank_in_state": 32
+    }
+  },
+  "revenue": {
+    "2009": {
+      "marketing_year": "2009",
+      "price": 9.18,
+      "revenue_per_harvested_acre": 188.19,
+      "revenue_per_planted_acre": 189.3375,
+      "yield": 20.5
+    },
+    "2012": {
+      "marketing_year": "2012",
+      "price": 14.2,
+      "revenue_per_harvested_acre": 346.48,
+      "revenue_per_planted_acre": 276.9,
+      "yield": 24.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.3,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

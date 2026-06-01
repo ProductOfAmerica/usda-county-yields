@@ -1,0 +1,92 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "061",
+    "name": "LINCOLN"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.0803,
+      "percentile_in_state": 0.6216,
+      "rank_in_nation": 2315,
+      "rank_in_state": 15
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.1155,
+      "percentile_in_state": 0.6818,
+      "rank_in_nation": 2275,
+      "rank_in_state": 15
+    },
+    "1977": {
+      "count_in_nation": 2482,
+      "count_in_state": 29,
+      "percentile_in_nation": 0.3777,
+      "percentile_in_state": 0.3929,
+      "rank_in_nation": 1545,
+      "rank_in_state": 18
+    },
+    "1978": {
+      "count_in_nation": 2420,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.5593,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 1067,
+      "rank_in_state": 11
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.65,
+      "revenue_per_harvested_acre": 53.0,
+      "revenue_per_planted_acre": 13.25,
+      "yield": 20.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.95,
+      "revenue_per_harvested_acre": 71.1,
+      "revenue_per_planted_acre": 17.775,
+      "yield": 18.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.1,
+      "revenue_per_harvested_acre": 63.0,
+      "revenue_per_planted_acre": 63.0,
+      "yield": 30.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 3.05,
+      "revenue_per_harvested_acre": 97.6,
+      "revenue_per_planted_acre": 44.3636,
+      "yield": 32.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.8235,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1977": 22.67,
+      "1978": 26.67
+    },
+    "yoy_pct": {
+      "1974": -10.0,
+      "1978": 6.67
+    }
+  }
+}

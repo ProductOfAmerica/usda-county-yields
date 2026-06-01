@@ -1,0 +1,32 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "015",
+    "name": "CURRY"
+  },
+  "rank": {
+    "1919": {
+      "count_in_nation": 418,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.5132,
+      "percentile_in_state": 0.3235,
+      "rank_in_nation": 204,
+      "rank_in_state": 24
+    }
+  },
+  "revenue": {},
+  "schema_version": 3,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

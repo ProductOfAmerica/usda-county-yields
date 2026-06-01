@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "155",
+    "name": "PULASKI"
+  },
+  "rank": {
+    "1954": {
+      "count_in_nation": 1068,
+      "count_in_state": 74,
+      "percentile_in_nation": 0.7048,
+      "percentile_in_state": 0.9589,
+      "rank_in_nation": 316,
+      "rank_in_state": 4
+    },
+    "1955": {
+      "count_in_nation": 1078,
+      "count_in_state": 73,
+      "percentile_in_nation": 0.7242,
+      "percentile_in_state": 0.8889,
+      "rank_in_nation": 298,
+      "rank_in_state": 9
+    }
+  },
+  "revenue": {
+    "1954": {
+      "marketing_year": "1954",
+      "price": 2.66,
+      "revenue_per_harvested_acre": 53.2,
+      "yield": 20.0
+    },
+    "1955": {
+      "marketing_year": "1955",
+      "price": 2.17,
+      "revenue_per_harvested_acre": 43.4,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1955": 0.0
+    }
+  }
+}

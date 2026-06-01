@@ -1,0 +1,161 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "006",
+    "name": "CIBOLA"
+  },
+  "rank": {
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.9688,
+      "percentile_in_state": 0.7692,
+      "rank_in_nation": 80,
+      "rank_in_state": 7
+    },
+    "1983": {
+      "count_in_nation": 2480,
+      "count_in_state": 25,
+      "percentile_in_nation": 0.0097,
+      "percentile_in_state": 0.0833,
+      "rank_in_nation": 2456,
+      "rank_in_state": 23
+    },
+    "1985": {
+      "count_in_nation": 2477,
+      "count_in_state": 29,
+      "percentile_in_nation": 0.8655,
+      "percentile_in_state": 0.6429,
+      "rank_in_nation": 334,
+      "rank_in_state": 11
+    },
+    "1986": {
+      "count_in_nation": 2402,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.4648,
+      "percentile_in_state": 0.3913,
+      "rank_in_nation": 1286,
+      "rank_in_state": 15
+    },
+    "1987": {
+      "count_in_nation": 2373,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.7315,
+      "percentile_in_state": 0.5556,
+      "rank_in_nation": 638,
+      "rank_in_state": 13
+    },
+    "1988": {
+      "count_in_nation": 2362,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.6137,
+      "percentile_in_state": 0.5385,
+      "rank_in_nation": 913,
+      "rank_in_state": 13
+    },
+    "1992": {
+      "count_in_nation": 2231,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.1318,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 1937,
+      "rank_in_state": 17
+    },
+    "1994": {
+      "count_in_nation": 2108,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.0422,
+      "percentile_in_state": 0.2632,
+      "rank_in_nation": 2019,
+      "rank_in_state": 15
+    }
+  },
+  "revenue": {
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.39,
+      "revenue_per_harvested_acre": 220.35,
+      "revenue_per_planted_acre": 220.35,
+      "yield": 65.0
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 3.38,
+      "revenue_per_harvested_acre": 67.6,
+      "revenue_per_planted_acre": 59.15,
+      "yield": 20.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 2.9,
+      "revenue_per_harvested_acre": 163.27,
+      "revenue_per_planted_acre": 163.3667,
+      "yield": 56.3
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 2.25,
+      "revenue_per_harvested_acre": 72.225,
+      "revenue_per_planted_acre": 56.25,
+      "yield": 32.1
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 2.28,
+      "revenue_per_harvested_acre": 104.88,
+      "revenue_per_planted_acre": 104.88,
+      "yield": 46.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 3.45,
+      "revenue_per_harvested_acre": 155.25,
+      "revenue_per_planted_acre": 155.25,
+      "yield": 45.0
+    },
+    "1992": {
+      "marketing_year": "1992",
+      "price": 3.1,
+      "revenue_per_harvested_acre": 88.97,
+      "revenue_per_planted_acre": 66.65,
+      "yield": 28.7
+    },
+    "1994": {
+      "marketing_year": "1994",
+      "price": 3.3,
+      "revenue_per_harvested_acre": 66.0,
+      "revenue_per_planted_acre": 16.5,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NM",
+    "fips": "35",
+    "name": "NEW MEXICO"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.1538,
+    "trailing_10yr_avg": {
+      "1987": 43.88,
+      "1988": 44.07,
+      "1992": 38.02,
+      "1994": 38.02
+    },
+    "trailing_5yr_avg": {
+      "1985": 47.1,
+      "1986": 43.35,
+      "1987": 38.6,
+      "1988": 44.85
+    },
+    "yoy_pct": {
+      "1983": -69.23,
+      "1986": -42.98,
+      "1987": 43.3,
+      "1988": -2.17
+    }
+  }
+}

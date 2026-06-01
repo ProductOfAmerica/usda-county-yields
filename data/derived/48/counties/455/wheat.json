@@ -1,0 +1,39 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "455",
+    "name": "TRINITY"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 1833,
+      "count_in_state": 157,
+      "percentile_in_nation": 0.0066,
+      "percentile_in_state": 0.0192,
+      "rank_in_nation": 1821,
+      "rank_in_state": 154
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.52,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

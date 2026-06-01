@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "067",
+    "name": "PARK"
+  },
+  "rank": {
+    "1957": {
+      "count_in_nation": 1881,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.141,
+      "percentile_in_state": 0.5135,
+      "rank_in_nation": 1616,
+      "rank_in_state": 19
+    }
+  },
+  "revenue": {
+    "1957": {
+      "marketing_year": "1957",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 28.38,
+      "revenue_per_planted_acre": 28.38,
+      "yield": 22.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

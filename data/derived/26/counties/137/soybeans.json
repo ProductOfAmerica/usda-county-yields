@@ -1,0 +1,133 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "137",
+    "name": "OTSEGO"
+  },
+  "rank": {
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 65,
+      "percentile_in_nation": 0.3224,
+      "percentile_in_state": 0.0781,
+      "rank_in_nation": 1237,
+      "rank_in_state": 60
+    },
+    "2012": {
+      "count_in_nation": 1483,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.0938,
+      "percentile_in_state": 0.04,
+      "rank_in_nation": 1344,
+      "rank_in_state": 49
+    },
+    "2014": {
+      "count_in_nation": 1458,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.0172,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1433,
+      "rank_in_state": 50
+    },
+    "2017": {
+      "count_in_nation": 1381,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.021,
+      "percentile_in_state": 0.0217,
+      "rank_in_nation": 1352,
+      "rank_in_state": 46
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.3486,
+      "percentile_in_state": 0.2128,
+      "rank_in_nation": 881,
+      "rank_in_state": 38
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.0513,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1239,
+      "rank_in_state": 49
+    },
+    "2025": {
+      "count_in_nation": 1100,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.2684,
+      "percentile_in_state": 0.0606,
+      "rank_in_nation": 805,
+      "rank_in_state": 32
+    }
+  },
+  "revenue": {
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.6,
+      "revenue_per_harvested_acre": 140.0,
+      "revenue_per_planted_acre": 140.0,
+      "yield": 25.0
+    },
+    "2012": {
+      "marketing_year": "2012",
+      "price": 14.0,
+      "revenue_per_harvested_acre": 350.0,
+      "revenue_per_planted_acre": 291.6667,
+      "yield": 25.0
+    },
+    "2014": {
+      "marketing_year": "2014",
+      "price": 10.1,
+      "revenue_per_harvested_acre": 248.46,
+      "revenue_per_planted_acre": 244.0833,
+      "yield": 24.6
+    },
+    "2017": {
+      "marketing_year": "2017",
+      "price": 9.39,
+      "revenue_per_harvested_acre": 258.225,
+      "revenue_per_planted_acre": 258.225,
+      "yield": 27.5
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 14.0,
+      "revenue_per_harvested_acre": 641.2,
+      "revenue_per_planted_acre": 641.2,
+      "yield": 45.8
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.8,
+      "revenue_per_harvested_acre": 322.56,
+      "revenue_per_planted_acre": 320.0,
+      "yield": 25.2
+    },
+    "2025": {
+      "marketing_year": "2025",
+      "price": 10.4,
+      "revenue_per_harvested_acre": 411.84,
+      "revenue_per_planted_acre": 399.4824,
+      "yield": 39.6
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3372,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2025": 36.87
+    },
+    "yoy_pct": {}
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "069",
+    "name": "WAHKIAKUM"
+  },
+  "rank": {
+    "1939": {
+      "count_in_nation": 1151,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.9948,
+      "percentile_in_state": 0.8947,
+      "rank_in_nation": 7,
+      "rank_in_state": 5
+    },
+    "1940": {
+      "count_in_nation": 1184,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.6932,
+      "percentile_in_state": 0.5263,
+      "rank_in_nation": 364,
+      "rank_in_state": 19
+    },
+    "1941": {
+      "count_in_nation": 1238,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.9547,
+      "percentile_in_state": 0.5,
+      "rank_in_nation": 57,
+      "rank_in_state": 20
+    },
+    "1942": {
+      "count_in_nation": 1264,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.9652,
+      "percentile_in_state": 0.5946,
+      "rank_in_nation": 45,
+      "rank_in_state": 16
+    },
+    "1943": {
+      "count_in_nation": 1265,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.9644,
+      "percentile_in_state": 0.5405,
+      "rank_in_nation": 46,
+      "rank_in_state": 18
+    },
+    "1944": {
+      "count_in_nation": 1284,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.9712,
+      "percentile_in_state": 0.6579,
+      "rank_in_nation": 38,
+      "rank_in_state": 14
+    },
+    "1945": {
+      "count_in_nation": 1334,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.9842,
+      "percentile_in_state": 0.7368,
+      "rank_in_nation": 22,
+      "rank_in_state": 11
+    },
+    "1950": {
+      "count_in_nation": 1483,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.9636,
+      "percentile_in_state": 0.6579,
+      "rank_in_nation": 55,
+      "rank_in_state": 14
+    },
+    "1954": {
+      "count_in_nation": 1626,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.4326,
+      "percentile_in_state": 0.0286,
+      "rank_in_nation": 923,
+      "rank_in_state": 35
+    }
+  },
+  "revenue": {
+    "1950": {
+      "marketing_year": "1950",
+      "price": 1.98,
+      "revenue_per_harvested_acre": 59.4,
+      "yield": 30.0
+    },
+    "1954": {
+      "marketing_year": "1954",
+      "price": 2.13,
+      "revenue_per_harvested_acre": 44.73,
+      "yield": 21.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.4948,
+    "trailing_10yr_avg": {
+      "1943": 30.0,
+      "1944": 30.5,
+      "1945": 31.14,
+      "1950": 31.33
+    },
+    "trailing_5yr_avg": {
+      "1941": 30.0,
+      "1942": 30.0,
+      "1943": 30.0,
+      "1944": 28.6,
+      "1945": 31.6
+    },
+    "yoy_pct": {
+      "1940": -50.0,
+      "1941": 50.0,
+      "1942": 0.0,
+      "1943": 0.0,
+      "1944": 10.0,
+      "1945": 6.06
+    }
+  }
+}

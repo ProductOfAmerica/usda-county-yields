@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "053",
+    "name": "LINCOLN"
+  },
+  "rank": {
+    "1948": {
+      "count_in_nation": 1442,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.0111,
+      "percentile_in_state": 0.1842,
+      "rank_in_nation": 1426,
+      "rank_in_state": 32
+    }
+  },
+  "revenue": {
+    "1948": {
+      "marketing_year": "1948",
+      "price": 1.51,
+      "revenue_per_harvested_acre": 19.63,
+      "revenue_per_planted_acre": 19.63,
+      "yield": 13.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

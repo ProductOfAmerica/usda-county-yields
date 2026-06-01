@@ -1,0 +1,105 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "161",
+    "name": "SHERIDAN"
+  },
+  "rank": {
+    "1987": {
+      "count_in_nation": 1778,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.4941,
+      "percentile_in_state": 0.075,
+      "rank_in_nation": 900,
+      "rank_in_state": 75
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.7535,
+      "percentile_in_state": 0.225,
+      "rank_in_nation": 407,
+      "rank_in_state": 63
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 70,
+      "percentile_in_nation": 0.014,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1478,
+      "rank_in_state": 70
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.544,
+      "percentile_in_state": 0.0851,
+      "rank_in_nation": 617,
+      "rank_in_state": 44
+    },
+    "2024": {
+      "count_in_nation": 1148,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.4525,
+      "percentile_in_state": 0.08,
+      "rank_in_nation": 629,
+      "rank_in_state": 47
+    }
+  },
+  "revenue": {
+    "1987": {
+      "marketing_year": "1987",
+      "price": 5.82,
+      "revenue_per_harvested_acre": 168.78,
+      "revenue_per_planted_acre": 168.78,
+      "yield": 29.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.19,
+      "revenue_per_harvested_acre": 175.98,
+      "revenue_per_planted_acre": 156.4267,
+      "yield": 42.0
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 10.2,
+      "revenue_per_harvested_acre": 262.14,
+      "revenue_per_planted_acre": 252.5714,
+      "yield": 25.7
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 12.7,
+      "revenue_per_harvested_acre": 656.59,
+      "revenue_per_planted_acre": 646.9811,
+      "yield": 51.7
+    },
+    "2024": {
+      "marketing_year": "2024",
+      "price": 9.79,
+      "revenue_per_harvested_acre": 444.466,
+      "revenue_per_planted_acre": 424.2333,
+      "yield": 45.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2926,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2024": 40.93
+    },
+    "yoy_pct": {
+      "2021": 101.17
+    }
+  }
+}

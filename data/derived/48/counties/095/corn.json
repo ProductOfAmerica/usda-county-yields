@@ -1,0 +1,101 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "095",
+    "name": "CONCHO"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 133,
+      "percentile_in_nation": 0.0158,
+      "percentile_in_state": 0.0303,
+      "rank_in_nation": 2488,
+      "rank_in_state": 129
+    },
+    "1993": {
+      "count_in_nation": 2169,
+      "count_in_state": 113,
+      "percentile_in_nation": 0.7173,
+      "percentile_in_state": 0.7054,
+      "rank_in_nation": 614,
+      "rank_in_state": 34
+    },
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 106,
+      "percentile_in_nation": 0.2504,
+      "percentile_in_state": 0.4667,
+      "rank_in_nation": 1558,
+      "rank_in_state": 57
+    },
+    "2016": {
+      "count_in_nation": 1541,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.0682,
+      "percentile_in_state": 0.403,
+      "rank_in_nation": 1436,
+      "rank_in_state": 41
+    },
+    "2019": {
+      "count_in_nation": 1288,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.1321,
+      "percentile_in_state": 0.5714,
+      "rank_in_nation": 1118,
+      "rank_in_state": 25
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.09,
+      "revenue_per_harvested_acre": 73.542,
+      "revenue_per_planted_acre": 58.71,
+      "yield": 23.8
+    },
+    "1993": {
+      "marketing_year": "1993",
+      "price": 2.61,
+      "revenue_per_harvested_acre": 271.962,
+      "revenue_per_planted_acre": 217.5,
+      "yield": 104.2
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.18,
+      "revenue_per_harvested_acre": 207.1,
+      "revenue_per_planted_acre": 56.4818,
+      "yield": 95.0
+    },
+    "2016": {
+      "marketing_year": "2016",
+      "price": 3.71,
+      "revenue_per_harvested_acre": 342.433,
+      "revenue_per_planted_acre": 171.19,
+      "yield": 92.3
+    },
+    "2019": {
+      "marketing_year": "2019",
+      "price": 4.2,
+      "revenue_per_harvested_acre": 490.14,
+      "revenue_per_planted_acre": 367.5,
+      "yield": 116.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.6203,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

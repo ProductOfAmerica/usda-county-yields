@@ -1,0 +1,148 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "101",
+    "name": "PASCO"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 25,
+      "percentile_in_nation": 0.7092,
+      "percentile_in_state": 0.9583,
+      "rank_in_nation": 548,
+      "rank_in_state": 2
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 25,
+      "percentile_in_nation": 0.5957,
+      "percentile_in_state": 0.6667,
+      "rank_in_nation": 755,
+      "rank_in_state": 9
+    },
+    "1981": {
+      "count_in_nation": 1835,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.1636,
+      "percentile_in_state": 0.1111,
+      "rank_in_nation": 1535,
+      "rank_in_state": 25
+    },
+    "1982": {
+      "count_in_nation": 1813,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.6893,
+      "percentile_in_state": 0.9259,
+      "rank_in_nation": 564,
+      "rank_in_state": 3
+    },
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.6078,
+      "percentile_in_state": 0.7037,
+      "rank_in_nation": 734,
+      "rank_in_state": 9
+    },
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 29,
+      "percentile_in_nation": 0.4418,
+      "percentile_in_state": 0.7857,
+      "rank_in_nation": 1047,
+      "rank_in_state": 7
+    },
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.1798,
+      "percentile_in_state": 0.1923,
+      "rank_in_nation": 1520,
+      "rank_in_state": 22
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.6,
+      "revenue_per_harvested_acre": 211.2,
+      "revenue_per_planted_acre": 211.2,
+      "yield": 32.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.9,
+      "revenue_per_harvested_acre": 197.5,
+      "revenue_per_planted_acre": 177.75,
+      "yield": 25.0
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 6.2,
+      "revenue_per_harvested_acre": 124.0,
+      "revenue_per_planted_acre": 111.6,
+      "yield": 20.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 5.45,
+      "revenue_per_harvested_acre": 174.4,
+      "revenue_per_planted_acre": 163.5,
+      "yield": 32.0
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 8.15,
+      "revenue_per_harvested_acre": 203.75,
+      "revenue_per_planted_acre": 190.1667,
+      "yield": 25.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 6.2,
+      "revenue_per_harvested_acre": 155.0,
+      "revenue_per_planted_acre": 144.6667,
+      "yield": 25.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 5.2,
+      "revenue_per_harvested_acre": 119.6,
+      "revenue_per_planted_acre": 93.6,
+      "yield": 23.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.7857,
+    "trailing_10yr_avg": {
+      "1983": 26.8,
+      "1984": 26.5,
+      "1985": 26.0
+    },
+    "trailing_5yr_avg": {
+      "1981": 25.67,
+      "1982": 27.25,
+      "1983": 26.8,
+      "1984": 25.4,
+      "1985": 25.0
+    },
+    "yoy_pct": {
+      "1980": -21.88,
+      "1981": -20.0,
+      "1982": 60.0,
+      "1983": -21.88,
+      "1984": 0.0,
+      "1985": -8.0
+    }
+  }
+}

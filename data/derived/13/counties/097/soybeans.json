@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "097",
+    "name": "DOUGLAS"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.3275,
+      "percentile_in_state": 0.4315,
+      "rank_in_nation": 1266,
+      "rank_in_state": 84
+    },
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 146,
+      "percentile_in_nation": 0.4909,
+      "percentile_in_state": 0.8069,
+      "rank_in_nation": 955,
+      "rank_in_state": 29
+    },
+    "1986": {
+      "count_in_nation": 1814,
+      "count_in_state": 131,
+      "percentile_in_nation": 0.2372,
+      "percentile_in_state": 0.7,
+      "rank_in_nation": 1384,
+      "rank_in_state": 40
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.36,
+      "revenue_per_harvested_acre": 165.36,
+      "revenue_per_planted_acre": 165.36,
+      "yield": 26.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.99,
+      "revenue_per_harvested_acre": 156.339,
+      "revenue_per_planted_acre": 93.7435,
+      "yield": 26.1
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 4.75,
+      "revenue_per_harvested_acre": 99.75,
+      "revenue_per_planted_acre": 62.3438,
+      "yield": 21.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.5731,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

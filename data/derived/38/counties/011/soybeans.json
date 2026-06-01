@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "011",
+    "name": "BOWMAN"
+  },
+  "rank": {
+    "1954": {
+      "count_in_nation": 1068,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.2127,
+      "percentile_in_state": 0.5385,
+      "rank_in_nation": 841,
+      "rank_in_state": 13
+    },
+    "1990": {
+      "count_in_nation": 1773,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.1067,
+      "percentile_in_state": 0.4242,
+      "rank_in_nation": 1584,
+      "rank_in_state": 20
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.131,
+      "percentile_in_state": 0.4524,
+      "rank_in_nation": 1135,
+      "rank_in_state": 24
+    }
+  },
+  "revenue": {
+    "1954": {
+      "marketing_year": "1954",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 23.3,
+      "revenue_per_planted_acre": 23.3,
+      "yield": 10.0
+    },
+    "1990": {
+      "marketing_year": "1990",
+      "price": 5.53,
+      "revenue_per_harvested_acre": 88.48,
+      "revenue_per_planted_acre": 88.48,
+      "yield": 16.0
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.0,
+      "revenue_per_harvested_acre": 408.0,
+      "revenue_per_planted_acre": 402.75,
+      "yield": 34.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3451,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

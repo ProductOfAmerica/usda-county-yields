@@ -450,7 +450,8 @@
     "113": {
       "crops": [
         "corn",
-        "soybeans"
+        "soybeans",
+        "wheat"
       ],
       "name": "POLK"
     },
@@ -607,7 +608,7 @@
       "name": "OTHER (COMBINED) COUNTIES"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "state": {
     "alpha": "AR",
     "fips": "05",

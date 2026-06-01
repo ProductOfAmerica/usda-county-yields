@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "007",
+    "name": "GILA"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 11,
+      "percentile_in_nation": 0.0107,
+      "percentile_in_state": 0.1,
+      "rank_in_nation": 2501,
+      "rank_in_state": 10
+    },
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.0223,
+      "percentile_in_state": 0.25,
+      "rank_in_nation": 2451,
+      "rank_in_state": 10
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 14,
+      "percentile_in_nation": 0.1632,
+      "percentile_in_state": 0.7692,
+      "rank_in_nation": 2109,
+      "rank_in_state": 4
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 14,
+      "percentile_in_nation": 0.3167,
+      "percentile_in_state": 0.6923,
+      "rank_in_nation": 1729,
+      "rank_in_state": 5
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.7,
+      "revenue_per_harvested_acre": 74.0,
+      "revenue_per_planted_acre": 37.0,
+      "yield": 20.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.2,
+      "revenue_per_harvested_acre": 80.0,
+      "revenue_per_planted_acre": 40.0,
+      "yield": 25.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.6,
+      "revenue_per_harvested_acre": 117.0,
+      "revenue_per_planted_acre": 58.5,
+      "yield": 45.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.2,
+      "revenue_per_harvested_acre": 110.0,
+      "revenue_per_planted_acre": 110.0,
+      "yield": 50.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "AZ",
+    "fips": "04",
+    "name": "ARIZONA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 11.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1976": 30.0,
+      "1977": 35.0
+    },
+    "yoy_pct": {
+      "1975": 25.0,
+      "1976": 80.0,
+      "1977": 11.11
+    }
+  }
+}

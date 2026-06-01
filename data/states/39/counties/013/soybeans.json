@@ -7,14 +7,112 @@
     "code": "013",
     "name": "BELMONT"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {
+        "2022": 5.9
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1940": 100.0,
+        "1941": 200.0,
+        "1948": 100.0,
+        "1949": 100.0,
+        "1950": 100.0,
+        "1951": 100.0,
+        "1952": 100.0,
+        "1953": 100.0,
+        "1954": 100.0,
+        "1955": 100.0,
+        "1956": 100.0,
+        "1957": 200.0,
+        "1958": 200.0,
+        "1959": 100.0,
+        "1961": 100.0,
+        "1962": 100.0,
+        "1963": 100.0,
+        "1964": 100.0,
+        "1965": 100.0,
+        "1966": 100.0,
+        "1973": 100.0,
+        "2022": 500.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2022": 5.9
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1973": 100.0,
+        "2022": 500.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2022": 7.2
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1940": 2000.0,
+        "1941": 3000.0,
+        "1948": 2000.0,
+        "1949": 2000.0,
+        "1950": 2000.0,
+        "1951": 2000.0,
+        "1952": 2000.0,
+        "1953": 2000.0,
+        "1954": 2000.0,
+        "1955": 2000.0,
+        "1956": 2000.0,
+        "1957": 4000.0,
+        "1958": 4000.0,
+        "1959": 2000.0,
+        "1961": 2100.0,
+        "1962": 2300.0,
+        "1963": 2200.0,
+        "1964": 2800.0,
+        "1965": 2300.0,
+        "1966": 2600.0,
+        "1973": 2200.0,
+        "2022": 22800.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2022": 4.0
+      },
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

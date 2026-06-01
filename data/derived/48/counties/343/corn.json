@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "343",
+    "name": "MORRIS"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.0231,
+      "percentile_in_state": 0.2901,
+      "rank_in_nation": 2374,
+      "rank_in_state": 94
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.0171,
+      "percentile_in_state": 0.0229,
+      "rank_in_nation": 2477,
+      "rank_in_state": 129
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 25.8,
+      "revenue_per_planted_acre": 15.48,
+      "yield": 20.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 45.901,
+      "revenue_per_planted_acre": 27.494,
+      "yield": 19.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.0429,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

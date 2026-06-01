@@ -1,0 +1,264 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "035",
+    "name": "DOUGLAS"
+  },
+  "rank": {
+    "1963": {
+      "count_in_nation": 2353,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.0013,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 2350,
+      "rank_in_state": 38
+    },
+    "1964": {
+      "count_in_nation": 2257,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.2469,
+      "percentile_in_state": 0.1212,
+      "rank_in_nation": 1700,
+      "rank_in_state": 30
+    },
+    "1965": {
+      "count_in_nation": 2322,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.3124,
+      "percentile_in_state": 0.1515,
+      "rank_in_nation": 1597,
+      "rank_in_state": 29
+    },
+    "1966": {
+      "count_in_nation": 2318,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.3349,
+      "percentile_in_state": 0.0588,
+      "rank_in_nation": 1542,
+      "rank_in_state": 33
+    },
+    "1967": {
+      "count_in_nation": 2297,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.703,
+      "percentile_in_state": 0.5455,
+      "rank_in_nation": 683,
+      "rank_in_state": 16
+    },
+    "1968": {
+      "count_in_nation": 2393,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.763,
+      "percentile_in_state": 0.5758,
+      "rank_in_nation": 568,
+      "rank_in_state": 15
+    },
+    "1970": {
+      "count_in_nation": 2397,
+      "count_in_state": 42,
+      "percentile_in_nation": 0.0196,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 2350,
+      "rank_in_state": 42
+    },
+    "1971": {
+      "count_in_nation": 2401,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.3846,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 1478,
+      "rank_in_state": 33
+    },
+    "1973": {
+      "count_in_nation": 2480,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.6745,
+      "percentile_in_state": 0.2727,
+      "rank_in_nation": 808,
+      "rank_in_state": 25
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.9158,
+      "percentile_in_state": 0.9189,
+      "rank_in_nation": 213,
+      "rank_in_state": 4
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.7007,
+      "percentile_in_state": 0.55,
+      "rank_in_nation": 758,
+      "rank_in_state": 19
+    },
+    "1987": {
+      "count_in_nation": 2300,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.8512,
+      "percentile_in_state": 0.2593,
+      "rank_in_nation": 343,
+      "rank_in_state": 21
+    },
+    "1988": {
+      "count_in_nation": 2265,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.9019,
+      "percentile_in_state": 0.1923,
+      "rank_in_nation": 223,
+      "rank_in_state": 22
+    },
+    "1989": {
+      "count_in_nation": 2257,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.7828,
+      "percentile_in_state": 0.1154,
+      "rank_in_nation": 491,
+      "rank_in_state": 24
+    }
+  },
+  "revenue": {
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.21,
+      "revenue_per_harvested_acre": 14.52,
+      "revenue_per_planted_acre": 0.0593,
+      "yield": 12.0
+    },
+    "1964": {
+      "marketing_year": "1964",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 43.47,
+      "revenue_per_planted_acre": 2.7169,
+      "yield": 34.5
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 56.7,
+      "revenue_per_planted_acre": 4.718,
+      "yield": 45.0
+    },
+    "1966": {
+      "marketing_year": "1966",
+      "price": 1.32,
+      "revenue_per_harvested_acre": 54.78,
+      "revenue_per_planted_acre": 5.3444,
+      "yield": 41.5
+    },
+    "1967": {
+      "marketing_year": "1967",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 87.4,
+      "revenue_per_planted_acre": 4.8556,
+      "yield": 76.0
+    },
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 92.0,
+      "revenue_per_planted_acre": 4.6,
+      "yield": 80.0
+    },
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.32,
+      "revenue_per_harvested_acre": 26.4,
+      "revenue_per_planted_acre": 1.76,
+      "yield": 20.0
+    },
+    "1971": {
+      "marketing_year": "1971",
+      "price": 1.19,
+      "revenue_per_harvested_acre": 68.425,
+      "revenue_per_planted_acre": 27.251,
+      "yield": 57.5
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.54,
+      "revenue_per_harvested_acre": 210.82,
+      "revenue_per_planted_acre": 84.328,
+      "yield": 83.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.13,
+      "revenue_per_harvested_acre": 228.975,
+      "revenue_per_planted_acre": 114.4875,
+      "yield": 107.5
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 1.94,
+      "revenue_per_harvested_acre": 174.6,
+      "revenue_per_planted_acre": 29.1,
+      "yield": 90.0
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 1.95,
+      "revenue_per_harvested_acre": 253.5,
+      "revenue_per_planted_acre": 253.5,
+      "yield": 130.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 2.54,
+      "revenue_per_harvested_acre": 304.8,
+      "revenue_per_planted_acre": 304.8,
+      "yield": 120.0
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 2.32,
+      "revenue_per_harvested_acre": 278.4,
+      "revenue_per_planted_acre": 278.4,
+      "yield": 120.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 3.7068,
+    "trailing_10yr_avg": {
+      "1967": 41.8,
+      "1968": 48.17,
+      "1970": 44.14,
+      "1971": 45.81,
+      "1973": 54.69,
+      "1976": 70.67,
+      "1977": 73.0
+    },
+    "trailing_5yr_avg": {
+      "1965": 30.5,
+      "1966": 33.25,
+      "1967": 41.8,
+      "1968": 55.4,
+      "1970": 54.38,
+      "1971": 58.38,
+      "1973": 53.5,
+      "1977": 93.5,
+      "1989": 123.33
+    },
+    "yoy_pct": {
+      "1964": 187.5,
+      "1965": 30.43,
+      "1966": -7.78,
+      "1967": 83.13,
+      "1968": 5.26,
+      "1971": 187.5,
+      "1977": -16.28,
+      "1988": -7.69,
+      "1989": 0.0
+    }
+  }
+}

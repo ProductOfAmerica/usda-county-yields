@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "rank": {
+    "2002": {
+      "count_in_nation": 1782,
+      "count_in_state": 37,
+      "percentile_in_nation": 0.0876,
+      "percentile_in_state": 0.4167,
+      "rank_in_nation": 1626,
+      "rank_in_state": 22
+    },
+    "2005": {
+      "count_in_nation": 1693,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.0378,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 1629,
+      "rank_in_state": 33
+    },
+    "2006": {
+      "count_in_nation": 1639,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.014,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1616,
+      "rank_in_state": 40
+    }
+  },
+  "revenue": {
+    "2002": {
+      "marketing_year": "2002",
+      "price": 3.63,
+      "revenue_per_harvested_acre": 76.23,
+      "revenue_per_planted_acre": 30.5321,
+      "yield": 21.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 3.43,
+      "revenue_per_harvested_acre": 77.175,
+      "revenue_per_planted_acre": 77.175,
+      "yield": 22.5
+    },
+    "2006": {
+      "marketing_year": "2006",
+      "price": 4.54,
+      "revenue_per_harvested_acre": 45.4,
+      "revenue_per_planted_acre": 124.85,
+      "yield": 10.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2006": 17.83
+    },
+    "yoy_pct": {
+      "2006": -55.56
+    }
+  }
+}

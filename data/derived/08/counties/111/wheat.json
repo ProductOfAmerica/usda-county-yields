@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "111",
+    "name": "SAN JUAN"
+  },
+  "rank": {
+    "1999": {
+      "count_in_nation": 1856,
+      "count_in_state": 42,
+      "percentile_in_nation": 0.0049,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1847,
+      "rank_in_state": 42
+    }
+  },
+  "revenue": {
+    "1999": {
+      "marketing_year": "1999",
+      "price": 2.22,
+      "revenue_per_harvested_acre": 27.75,
+      "revenue_per_planted_acre": 22.2,
+      "yield": 12.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "105",
+    "name": "RIO GRANDE"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.5648,
+      "percentile_in_state": 0.225,
+      "rank_in_nation": 1058,
+      "rank_in_state": 32
+    },
+    "1970": {
+      "count_in_nation": 2397,
+      "count_in_state": 42,
+      "percentile_in_nation": 0.7266,
+      "percentile_in_state": 0.3902,
+      "rank_in_nation": 656,
+      "rank_in_state": 26
+    },
+    "1971": {
+      "count_in_nation": 2401,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.7854,
+      "percentile_in_state": 0.85,
+      "rank_in_nation": 516,
+      "rank_in_state": 7
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.7824,
+      "percentile_in_state": 0.2564,
+      "rank_in_nation": 551,
+      "rank_in_state": 30
+    },
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.6616,
+      "percentile_in_state": 0.45,
+      "rank_in_nation": 849,
+      "rank_in_state": 23
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.18,
+      "revenue_per_harvested_acre": 82.6,
+      "revenue_per_planted_acre": 5.5067,
+      "yield": 70.0
+    },
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.32,
+      "revenue_per_harvested_acre": 99.0,
+      "revenue_per_planted_acre": 69.3,
+      "yield": 75.0
+    },
+    "1971": {
+      "marketing_year": "1971",
+      "price": 1.19,
+      "revenue_per_harvested_acre": 104.72,
+      "revenue_per_planted_acre": 104.72,
+      "yield": 88.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.02,
+      "revenue_per_harvested_acre": 241.6,
+      "revenue_per_planted_acre": 120.8,
+      "yield": 80.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.62,
+      "revenue_per_harvested_acre": 209.6,
+      "revenue_per_planted_acre": 104.8,
+      "yield": 80.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.1418,
+    "trailing_10yr_avg": {
+      "1975": 78.6
+    },
+    "trailing_5yr_avg": {
+      "1971": 77.67,
+      "1974": 81.0,
+      "1975": 82.67
+    },
+    "yoy_pct": {
+      "1970": 7.14,
+      "1971": 17.33,
+      "1975": 0.0
+    }
+  }
+}

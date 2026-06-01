@@ -1,0 +1,138 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "017",
+    "name": "EL DORADO"
+  },
+  "rank": {
+    "1948": {
+      "count_in_nation": 1418,
+      "count_in_state": 53,
+      "percentile_in_nation": 0.6937,
+      "percentile_in_state": 0.6346,
+      "rank_in_nation": 435,
+      "rank_in_state": 20
+    },
+    "1949": {
+      "count_in_nation": 1480,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.5646,
+      "percentile_in_state": 0.4182,
+      "rank_in_nation": 645,
+      "rank_in_state": 33
+    },
+    "1950": {
+      "count_in_nation": 1483,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.5648,
+      "percentile_in_state": 0.3636,
+      "rank_in_nation": 646,
+      "rank_in_state": 36
+    },
+    "1951": {
+      "count_in_nation": 1434,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.5666,
+      "percentile_in_state": 0.4545,
+      "rank_in_nation": 622,
+      "rank_in_state": 31
+    },
+    "1952": {
+      "count_in_nation": 1435,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.341,
+      "percentile_in_state": 0.3091,
+      "rank_in_nation": 946,
+      "rank_in_state": 39
+    },
+    "1953": {
+      "count_in_nation": 1495,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.3046,
+      "percentile_in_state": 0.3889,
+      "rank_in_nation": 1040,
+      "rank_in_state": 34
+    },
+    "1970": {
+      "count_in_nation": 1906,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.0037,
+      "percentile_in_state": 0.0417,
+      "rank_in_nation": 1899,
+      "rank_in_state": 47
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.99,
+      "revenue_per_harvested_acre": 35.82,
+      "revenue_per_planted_acre": 35.82,
+      "yield": 18.0
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 2.04,
+      "revenue_per_harvested_acre": 36.72,
+      "revenue_per_planted_acre": 36.72,
+      "yield": 18.0
+    },
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.23,
+      "revenue_per_harvested_acre": 40.14,
+      "revenue_per_planted_acre": 40.14,
+      "yield": 18.0
+    },
+    "1952": {
+      "marketing_year": "1952",
+      "price": 2.21,
+      "revenue_per_harvested_acre": 39.78,
+      "revenue_per_planted_acre": 39.78,
+      "yield": 18.0
+    },
+    "1953": {
+      "marketing_year": "1953",
+      "price": 2.12,
+      "revenue_per_harvested_acre": 38.16,
+      "revenue_per_planted_acre": 38.16,
+      "yield": 18.0
+    },
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.43,
+      "revenue_per_harvested_acre": 20.02,
+      "revenue_per_planted_acre": 20.02,
+      "yield": 14.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.2562,
+    "trailing_10yr_avg": {
+      "1952": 18.8,
+      "1953": 18.67
+    },
+    "trailing_5yr_avg": {
+      "1950": 19.33,
+      "1951": 19.0,
+      "1952": 18.8,
+      "1953": 18.0
+    },
+    "yoy_pct": {
+      "1949": -18.18,
+      "1950": 0.0,
+      "1951": 0.0,
+      "1952": 0.0,
+      "1953": 0.0
+    }
+  }
+}

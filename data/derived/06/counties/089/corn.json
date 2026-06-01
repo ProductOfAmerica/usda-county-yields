@@ -1,0 +1,185 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "089",
+    "name": "SHASTA"
+  },
+  "rank": {
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.4093,
+      "percentile_in_state": 0.0294,
+      "rank_in_nation": 1284,
+      "rank_in_state": 34
+    },
+    "1960": {
+      "count_in_nation": 2201,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.3645,
+      "percentile_in_state": 0.0294,
+      "rank_in_nation": 1399,
+      "rank_in_state": 34
+    },
+    "1961": {
+      "count_in_nation": 2305,
+      "count_in_state": 31,
+      "percentile_in_nation": 0.5299,
+      "percentile_in_state": 0.0667,
+      "rank_in_nation": 1084,
+      "rank_in_state": 29
+    },
+    "1962": {
+      "count_in_nation": 2319,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.3378,
+      "percentile_in_state": 0.0303,
+      "rank_in_nation": 1536,
+      "rank_in_state": 33
+    },
+    "1963": {
+      "count_in_nation": 2353,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.2938,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1662,
+      "rank_in_state": 34
+    },
+    "1991": {
+      "count_in_nation": 2222,
+      "count_in_state": 25,
+      "percentile_in_nation": 0.9941,
+      "percentile_in_state": 0.875,
+      "rank_in_nation": 14,
+      "rank_in_state": 4
+    },
+    "1998": {
+      "count_in_nation": 2123,
+      "count_in_state": 31,
+      "percentile_in_nation": 0.0038,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 2115,
+      "rank_in_state": 25
+    },
+    "1999": {
+      "count_in_nation": 2098,
+      "count_in_state": 30,
+      "percentile_in_nation": 0.0358,
+      "percentile_in_state": 0.2069,
+      "rank_in_nation": 2023,
+      "rank_in_state": 24
+    },
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 29,
+      "percentile_in_nation": 0.0313,
+      "percentile_in_state": 0.1429,
+      "rank_in_nation": 2013,
+      "rank_in_state": 25
+    },
+    "2001": {
+      "count_in_nation": 2023,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.0376,
+      "percentile_in_state": 0.1852,
+      "rank_in_nation": 1947,
+      "rank_in_state": 23
+    }
+  },
+  "revenue": {
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.4,
+      "revenue_per_harvested_acre": 54.6,
+      "revenue_per_planted_acre": 9.1,
+      "yield": 39.0
+    },
+    "1960": {
+      "marketing_year": "1960",
+      "price": 1.38,
+      "revenue_per_harvested_acre": 53.82,
+      "revenue_per_planted_acre": 8.97,
+      "yield": 39.0
+    },
+    "1961": {
+      "marketing_year": "1961",
+      "price": 1.35,
+      "revenue_per_harvested_acre": 67.5,
+      "revenue_per_planted_acre": 7.5,
+      "yield": 50.0
+    },
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.39,
+      "revenue_per_harvested_acre": 54.21,
+      "revenue_per_planted_acre": 13.5525,
+      "yield": 39.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.46,
+      "revenue_per_harvested_acre": 56.94,
+      "revenue_per_planted_acre": 11.388,
+      "yield": 39.0
+    },
+    "1991": {
+      "marketing_year": "1991",
+      "price": 3.1,
+      "revenue_per_harvested_acre": 542.5,
+      "revenue_per_planted_acre": 542.5,
+      "yield": 175.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 2.66,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 2.5,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.44,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.45,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.509,
+    "trailing_10yr_avg": {
+      "1963": 41.2
+    },
+    "trailing_5yr_avg": {
+      "1961": 42.67,
+      "1962": 41.75,
+      "1963": 41.2,
+      "2000": 0.0,
+      "2001": 0.0
+    },
+    "yoy_pct": {
+      "1960": 0.0,
+      "1961": 28.21,
+      "1962": -22.0,
+      "1963": 0.0
+    }
+  }
+}

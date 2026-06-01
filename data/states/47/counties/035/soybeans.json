@@ -7,14 +7,120 @@
     "code": "035",
     "name": "CUMBERLAND"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {
+        "2024": 43.0
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1976": 700.0,
+        "1977": 1800.0,
+        "1978": 3400.0,
+        "1979": 4000.0,
+        "1980": 4500.0,
+        "1981": 3500.0,
+        "1982": 3500.0,
+        "1983": 2800.0,
+        "1984": 2900.0,
+        "1985": 2900.0,
+        "1986": 2300.0,
+        "1987": 2100.0,
+        "1988": 2000.0,
+        "1989": 1100.0,
+        "1990": 900.0,
+        "1991": 800.0,
+        "1992": 800.0,
+        "2024": 890.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2024": 42.9
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1976": 1100.0,
+        "1977": 2200.0,
+        "1978": 3700.0,
+        "1979": 4200.0,
+        "1980": 4900.0,
+        "1981": 3700.0,
+        "1982": 4000.0,
+        "1983": 3000.0,
+        "1984": 3100.0,
+        "1985": 3000.0,
+        "1986": 2500.0,
+        "1987": 2300.0,
+        "1988": 2200.0,
+        "1989": 1300.0,
+        "1990": 1000.0,
+        "1991": 900.0,
+        "1992": 900.0,
+        "2024": 900.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2024": 46.4
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1976": 16300.0,
+        "1977": 41700.0,
+        "1978": 83500.0,
+        "1979": 109000.0,
+        "1980": 72000.0,
+        "1981": 97000.0,
+        "1982": 99000.0,
+        "1983": 52000.0,
+        "1984": 63000.0,
+        "1985": 90000.0,
+        "1986": 57000.0,
+        "1987": 46000.0,
+        "1988": 46000.0,
+        "1989": 31000.0,
+        "1990": 27300.0,
+        "1991": 21000.0,
+        "1992": 26000.0,
+        "2024": 41700.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2024": 17.1
+      },
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

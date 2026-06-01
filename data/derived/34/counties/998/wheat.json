@@ -1,0 +1,130 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "rank": {
+    "2002": {
+      "count_in_nation": 1782,
+      "count_in_state": 11,
+      "percentile_in_nation": 0.8276,
+      "percentile_in_state": 0.7,
+      "rank_in_nation": 308,
+      "rank_in_state": 4
+    },
+    "2003": {
+      "count_in_nation": 1777,
+      "count_in_state": 10,
+      "percentile_in_nation": 0.2928,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1257,
+      "rank_in_state": 10
+    },
+    "2004": {
+      "count_in_nation": 1774,
+      "count_in_state": 9,
+      "percentile_in_nation": 0.3012,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1240,
+      "rank_in_state": 9
+    },
+    "2005": {
+      "count_in_nation": 1693,
+      "count_in_state": 9,
+      "percentile_in_nation": 0.5343,
+      "percentile_in_state": 0.25,
+      "rank_in_nation": 789,
+      "rank_in_state": 7
+    },
+    "2006": {
+      "count_in_nation": 1639,
+      "count_in_state": 9,
+      "percentile_in_nation": 0.6563,
+      "percentile_in_state": 0.625,
+      "rank_in_nation": 564,
+      "rank_in_state": 4
+    },
+    "2007": {
+      "count_in_nation": 1639,
+      "count_in_state": 9,
+      "percentile_in_nation": 0.677,
+      "percentile_in_state": 0.5,
+      "rank_in_nation": 530,
+      "rank_in_state": 5
+    }
+  },
+  "revenue": {
+    "2002": {
+      "marketing_year": "2002",
+      "price": 3.1,
+      "revenue_per_harvested_acre": 182.9,
+      "revenue_per_planted_acre": 161.2,
+      "yield": 59.0
+    },
+    "2003": {
+      "marketing_year": "2003",
+      "price": 3.1,
+      "revenue_per_harvested_acre": 120.9,
+      "revenue_per_planted_acre": 91.76,
+      "yield": 39.0
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 3.3,
+      "revenue_per_harvested_acre": 132.0,
+      "revenue_per_planted_acre": 90.2,
+      "yield": 40.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 3.25,
+      "revenue_per_harvested_acre": 162.5,
+      "revenue_per_planted_acre": 55.25,
+      "yield": 50.0
+    },
+    "2006": {
+      "marketing_year": "2006",
+      "price": 3.8,
+      "revenue_per_harvested_acre": 228.0,
+      "revenue_per_planted_acre": 197.6,
+      "yield": 60.0
+    },
+    "2007": {
+      "marketing_year": "2007",
+      "price": 5.8,
+      "revenue_per_harvested_acre": 307.4,
+      "revenue_per_planted_acre": 1914.0,
+      "yield": 53.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.2286,
+    "trailing_10yr_avg": {
+      "2006": 49.6,
+      "2007": 50.17
+    },
+    "trailing_5yr_avg": {
+      "2004": 46.0,
+      "2005": 47.0,
+      "2006": 49.6,
+      "2007": 48.4
+    },
+    "yoy_pct": {
+      "2003": -33.9,
+      "2004": 2.56,
+      "2005": 25.0,
+      "2006": 20.0,
+      "2007": -11.67
+    }
+  }
+}

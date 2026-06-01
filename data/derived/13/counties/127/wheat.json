@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "127",
+    "name": "GLYNN"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 2448,
+      "count_in_state": 136,
+      "percentile_in_nation": 0.0008,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 2446,
+      "rank_in_state": 136
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 142,
+      "percentile_in_nation": 0.0915,
+      "percentile_in_state": 0.0213,
+      "rank_in_nation": 2274,
+      "rank_in_state": 139
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 3.75,
+      "revenue_per_harvested_acre": 45.0,
+      "revenue_per_planted_acre": 38.5714,
+      "yield": 12.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.66,
+      "revenue_per_harvested_acre": 73.2,
+      "revenue_per_planted_acre": 65.88,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 8.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1980": 66.67
+    }
+  }
+}

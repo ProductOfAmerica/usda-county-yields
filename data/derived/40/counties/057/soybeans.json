@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "057",
+    "name": "HARMON"
+  },
+  "rank": {
+    "1967": {
+      "count_in_nation": 1399,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.2196,
+      "percentile_in_state": 0.381,
+      "rank_in_nation": 1092,
+      "rank_in_state": 27
+    },
+    "1998": {
+      "count_in_nation": 1683,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.0826,
+      "percentile_in_state": 0.5862,
+      "rank_in_nation": 1544,
+      "rank_in_state": 25
+    }
+  },
+  "revenue": {
+    "1967": {
+      "marketing_year": "1967",
+      "price": 2.37,
+      "revenue_per_harvested_acre": 46.452,
+      "revenue_per_planted_acre": 46.452,
+      "yield": 19.6
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 4.8,
+      "revenue_per_harvested_acre": 82.08,
+      "revenue_per_planted_acre": 41.1429,
+      "yield": 17.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.0806,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

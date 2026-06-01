@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "039",
+    "name": "CHEROKEE"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 85,
+      "percentile_in_nation": 0.3997,
+      "percentile_in_state": 0.4405,
+      "rank_in_nation": 1503,
+      "rank_in_state": 48
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 85,
+      "percentile_in_nation": 0.5541,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 1123,
+      "rank_in_state": 71
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.34,
+      "revenue_per_harvested_acre": 38.86,
+      "revenue_per_planted_acre": 30.2244,
+      "yield": 29.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.88,
+      "revenue_per_harvested_acre": 89.28,
+      "revenue_per_planted_acre": 63.7714,
+      "yield": 31.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1973": 6.9
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "027",
+    "name": "BELL"
+  },
+  "rank": {
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.1382,
+      "percentile_in_state": 0.08,
+      "rank_in_nation": 1573,
+      "rank_in_state": 47
+    },
+    "1990": {
+      "count_in_nation": 1773,
+      "count_in_state": 31,
+      "percentile_in_nation": 0.0316,
+      "percentile_in_state": 0.0667,
+      "rank_in_nation": 1717,
+      "rank_in_state": 29
+    },
+    "1998": {
+      "count_in_nation": 1683,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.0095,
+      "percentile_in_state": 0.0351,
+      "rank_in_nation": 1667,
+      "rank_in_state": 56
+    },
+    "1999": {
+      "count_in_nation": 1633,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.1262,
+      "percentile_in_state": 0.1818,
+      "rank_in_nation": 1427,
+      "rank_in_state": 46
+    }
+  },
+  "revenue": {
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.07,
+      "revenue_per_harvested_acre": 103.428,
+      "revenue_per_planted_acre": 84.5768,
+      "yield": 20.4
+    },
+    "1990": {
+      "marketing_year": "1990",
+      "price": 5.47,
+      "revenue_per_harvested_acre": 65.64,
+      "revenue_per_planted_acre": 59.6727,
+      "yield": 12.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 4.5,
+      "revenue_per_harvested_acre": 49.5,
+      "revenue_per_planted_acre": 45.375,
+      "yield": 11.0
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 4.2,
+      "revenue_per_harvested_acre": 76.44,
+      "revenue_per_planted_acre": 76.44,
+      "yield": 18.2
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.1829,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1990": -41.18,
+      "1999": 65.45
+    }
+  }
+}

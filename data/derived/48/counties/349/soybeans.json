@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "349",
+    "name": "NAVARRO"
+  },
+  "rank": {
+    "2005": {
+      "count_in_nation": 1650,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.2444,
+      "percentile_in_state": 0.625,
+      "rank_in_nation": 1247,
+      "rank_in_state": 16
+    },
+    "2006": {
+      "count_in_nation": 1611,
+      "count_in_state": 32,
+      "percentile_in_nation": 0.0739,
+      "percentile_in_state": 0.3226,
+      "rank_in_nation": 1492,
+      "rank_in_state": 22
+    }
+  },
+  "revenue": {
+    "2005": {
+      "marketing_year": "2005",
+      "price": 5.45,
+      "revenue_per_harvested_acre": 166.225,
+      "revenue_per_planted_acre": 150.5238,
+      "yield": 30.5
+    },
+    "2006": {
+      "marketing_year": "2006",
+      "price": 5.4,
+      "revenue_per_harvested_acre": 108.0,
+      "revenue_per_planted_acre": 54.0,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -10.5,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "2006": -34.43
+    }
+  }
+}

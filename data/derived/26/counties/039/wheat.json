@@ -1,0 +1,182 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "039",
+    "name": "CRAWFORD"
+  },
+  "rank": {
+    "1942": {
+      "count_in_nation": 1264,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.7181,
+      "percentile_in_state": 0.439,
+      "rank_in_nation": 357,
+      "rank_in_state": 47
+    },
+    "1943": {
+      "count_in_nation": 1265,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.5063,
+      "percentile_in_state": 0.4878,
+      "rank_in_nation": 625,
+      "rank_in_state": 43
+    },
+    "1944": {
+      "count_in_nation": 1284,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.6804,
+      "percentile_in_state": 0.4146,
+      "rank_in_nation": 411,
+      "rank_in_state": 49
+    },
+    "1945": {
+      "count_in_nation": 1334,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.3893,
+      "percentile_in_state": 0.1098,
+      "rank_in_nation": 815,
+      "rank_in_state": 74
+    },
+    "1946": {
+      "count_in_nation": 1230,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.3198,
+      "percentile_in_state": 0.0909,
+      "rank_in_nation": 837,
+      "rank_in_state": 71
+    },
+    "1947": {
+      "count_in_nation": 1324,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.1338,
+      "percentile_in_state": 0.1039,
+      "rank_in_nation": 1147,
+      "rank_in_state": 70
+    },
+    "1948": {
+      "count_in_nation": 1418,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.2548,
+      "percentile_in_state": 0.1169,
+      "rank_in_nation": 1057,
+      "rank_in_state": 69
+    },
+    "1949": {
+      "count_in_nation": 1480,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.3212,
+      "percentile_in_state": 0.1392,
+      "rank_in_nation": 1005,
+      "rank_in_state": 69
+    },
+    "1950": {
+      "count_in_nation": 1483,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.2051,
+      "percentile_in_state": 0.1139,
+      "rank_in_nation": 1179,
+      "rank_in_state": 71
+    },
+    "1951": {
+      "count_in_nation": 1434,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.3699,
+      "percentile_in_state": 0.0854,
+      "rank_in_nation": 904,
+      "rank_in_state": 76
+    },
+    "1952": {
+      "count_in_nation": 1435,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.1715,
+      "percentile_in_state": 0.061,
+      "rank_in_nation": 1189,
+      "rank_in_state": 78
+    },
+    "1959": {
+      "count_in_nation": 1843,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.1135,
+      "percentile_in_state": 0.0759,
+      "rank_in_nation": 1634,
+      "rank_in_state": 74
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.83,
+      "revenue_per_harvested_acre": 25.62,
+      "yield": 14.0
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 2.02,
+      "revenue_per_harvested_acre": 24.644,
+      "yield": 12.2
+    },
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.21,
+      "revenue_per_harvested_acre": 33.15,
+      "yield": 15.0
+    },
+    "1952": {
+      "marketing_year": "1952",
+      "price": 1.97,
+      "revenue_per_harvested_acre": 29.55,
+      "yield": 15.0
+    },
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.76,
+      "revenue_per_harvested_acre": 26.4,
+      "revenue_per_planted_acre": 26.4,
+      "yield": 15.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.2715,
+    "trailing_10yr_avg": {
+      "1946": 17.48,
+      "1947": 16.95,
+      "1948": 16.67,
+      "1949": 16.34,
+      "1950": 15.88,
+      "1951": 15.79,
+      "1952": 15.19
+    },
+    "trailing_5yr_avg": {
+      "1944": 18.67,
+      "1945": 18.0,
+      "1946": 17.48,
+      "1947": 16.14,
+      "1948": 16.14,
+      "1949": 14.94,
+      "1950": 14.18,
+      "1951": 14.1,
+      "1952": 14.24
+    },
+    "yoy_pct": {
+      "1943": -28.57,
+      "1944": 33.33,
+      "1945": -20.0,
+      "1946": -3.75,
+      "1947": -7.14,
+      "1948": 4.9,
+      "1949": -6.67,
+      "1950": -12.86,
+      "1951": 22.95,
+      "1952": 0.0
+    }
+  }
+}

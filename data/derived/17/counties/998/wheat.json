@@ -1,0 +1,256 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "rank": {
+    "1995": {
+      "count_in_nation": 1959,
+      "count_in_state": 94,
+      "percentile_in_nation": 0.6338,
+      "percentile_in_state": 0.2688,
+      "rank_in_nation": 718,
+      "rank_in_state": 69
+    },
+    "1996": {
+      "count_in_nation": 2008,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.6143,
+      "percentile_in_state": 0.6707,
+      "rank_in_nation": 775,
+      "rank_in_state": 28
+    },
+    "1997": {
+      "count_in_nation": 1970,
+      "count_in_state": 88,
+      "percentile_in_nation": 0.7836,
+      "percentile_in_state": 0.2529,
+      "rank_in_nation": 427,
+      "rank_in_state": 66
+    },
+    "1998": {
+      "count_in_nation": 1911,
+      "count_in_state": 89,
+      "percentile_in_nation": 0.8581,
+      "percentile_in_state": 0.7273,
+      "rank_in_nation": 272,
+      "rank_in_state": 25
+    },
+    "1999": {
+      "count_in_nation": 1856,
+      "count_in_state": 85,
+      "percentile_in_nation": 0.5871,
+      "percentile_in_state": 0.0476,
+      "rank_in_nation": 767,
+      "rank_in_state": 81
+    },
+    "2000": {
+      "count_in_nation": 1833,
+      "count_in_state": 85,
+      "percentile_in_nation": 0.8957,
+      "percentile_in_state": 0.869,
+      "rank_in_nation": 192,
+      "rank_in_state": 12
+    },
+    "2001": {
+      "count_in_nation": 1777,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.942,
+      "percentile_in_state": 0.8916,
+      "rank_in_nation": 104,
+      "rank_in_state": 10
+    },
+    "2002": {
+      "count_in_nation": 1782,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.7114,
+      "percentile_in_state": 0.5125,
+      "rank_in_nation": 515,
+      "rank_in_state": 40
+    },
+    "2003": {
+      "count_in_nation": 1777,
+      "count_in_state": 88,
+      "percentile_in_nation": 0.5304,
+      "percentile_in_state": 0.023,
+      "rank_in_nation": 835,
+      "rank_in_state": 86
+    },
+    "2004": {
+      "count_in_nation": 1774,
+      "count_in_state": 91,
+      "percentile_in_nation": 0.9103,
+      "percentile_in_state": 0.7778,
+      "rank_in_nation": 160,
+      "rank_in_state": 21
+    },
+    "2005": {
+      "count_in_nation": 1693,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.5857,
+      "percentile_in_state": 0.0886,
+      "rank_in_nation": 702,
+      "rank_in_state": 73
+    },
+    "2006": {
+      "count_in_nation": 1639,
+      "count_in_state": 88,
+      "percentile_in_nation": 0.6996,
+      "percentile_in_state": 0.2644,
+      "rank_in_nation": 493,
+      "rank_in_state": 65
+    },
+    "2007": {
+      "count_in_nation": 1639,
+      "count_in_state": 92,
+      "percentile_in_nation": 0.677,
+      "percentile_in_state": 0.3187,
+      "rank_in_nation": 530,
+      "rank_in_state": 63
+    }
+  },
+  "revenue": {
+    "1995": {
+      "marketing_year": "1995",
+      "price": 3.89,
+      "revenue_per_harvested_acre": 178.94,
+      "revenue_per_planted_acre": 389.3242,
+      "yield": 46.0
+    },
+    "1996": {
+      "marketing_year": "1996",
+      "price": 4.12,
+      "revenue_per_harvested_acre": 168.92,
+      "revenue_per_planted_acre": 33.8474,
+      "yield": 41.0
+    },
+    "1997": {
+      "marketing_year": "1997",
+      "price": 3.14,
+      "revenue_per_harvested_acre": 178.98,
+      "revenue_per_planted_acre": 264.545,
+      "yield": 57.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 2.35,
+      "revenue_per_harvested_acre": 133.95,
+      "revenue_per_planted_acre": 61.6287,
+      "yield": 57.0
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 2.11,
+      "revenue_per_harvested_acre": 105.5,
+      "revenue_per_planted_acre": 95.372,
+      "yield": 50.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.09,
+      "revenue_per_harvested_acre": 146.3,
+      "revenue_per_planted_acre": 65.4662,
+      "yield": 70.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.49,
+      "revenue_per_harvested_acre": 184.26,
+      "revenue_per_planted_acre": 84.8675,
+      "yield": 74.0
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 3.01,
+      "revenue_per_harvested_acre": 150.5,
+      "revenue_per_planted_acre": 47.5812,
+      "yield": 50.0
+    },
+    "2003": {
+      "marketing_year": "2003",
+      "price": 3.2,
+      "revenue_per_harvested_acre": 156.8,
+      "revenue_per_planted_acre": 122.4615,
+      "yield": 49.0
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 3.19,
+      "revenue_per_harvested_acre": 213.73,
+      "revenue_per_planted_acre": 219.7113,
+      "yield": 67.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 3.24,
+      "revenue_per_harvested_acre": 168.48,
+      "revenue_per_planted_acre": 266.8737,
+      "yield": 52.0
+    },
+    "2006": {
+      "marketing_year": "2006",
+      "price": 3.4,
+      "revenue_per_harvested_acre": 210.8,
+      "revenue_per_planted_acre": 261.8,
+      "yield": 62.0
+    },
+    "2007": {
+      "marketing_year": "2007",
+      "price": 5.37,
+      "revenue_per_harvested_acre": 284.61,
+      "revenue_per_planted_acre": 44.1533,
+      "yield": 53.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "IL",
+    "fips": "17",
+    "name": "ILLINOIS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.7418,
+    "trailing_10yr_avg": {
+      "1999": 50.2,
+      "2000": 53.5,
+      "2001": 56.43,
+      "2002": 55.62,
+      "2003": 54.89,
+      "2004": 56.1,
+      "2005": 56.7,
+      "2006": 58.8,
+      "2007": 58.4
+    },
+    "trailing_5yr_avg": {
+      "1997": 48.0,
+      "1998": 50.25,
+      "1999": 50.2,
+      "2000": 55.0,
+      "2001": 61.6,
+      "2002": 60.2,
+      "2003": 58.6,
+      "2004": 62.0,
+      "2005": 58.4,
+      "2006": 56.0,
+      "2007": 56.6
+    },
+    "yoy_pct": {
+      "1996": -10.87,
+      "1997": 39.02,
+      "1998": 0.0,
+      "1999": -12.28,
+      "2000": 40.0,
+      "2001": 5.71,
+      "2002": -32.43,
+      "2003": -2.0,
+      "2004": 36.73,
+      "2005": -22.39,
+      "2006": 19.23,
+      "2007": -14.52
+    }
+  }
+}

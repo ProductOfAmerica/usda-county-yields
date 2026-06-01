@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "265",
+    "name": "KERR"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.2499,
+      "percentile_in_state": 0.6947,
+      "rank_in_nation": 1823,
+      "rank_in_state": 41
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 133,
+      "percentile_in_nation": 0.0324,
+      "percentile_in_state": 0.0833,
+      "rank_in_nation": 2446,
+      "rank_in_state": 122
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 51.213,
+      "revenue_per_planted_acre": 30.702,
+      "yield": 39.7
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.09,
+      "revenue_per_harvested_acre": 84.357,
+      "revenue_per_planted_acre": 67.362,
+      "yield": 27.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.48,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "129",
+    "name": "DONLEY"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.3987,
+      "percentile_in_state": 0.225,
+      "rank_in_nation": 1093,
+      "rank_in_state": 32
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.0229,
+      "percentile_in_state": 0.1273,
+      "rank_in_nation": 1751,
+      "rank_in_state": 49
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.5103,
+      "percentile_in_state": 0.5714,
+      "rank_in_nation": 901,
+      "rank_in_state": 34
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.61,
+      "revenue_per_harvested_acre": 140.793,
+      "revenue_per_planted_acre": 70.5067,
+      "yield": 21.3
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.31,
+      "revenue_per_harvested_acre": 65.081,
+      "revenue_per_planted_acre": 60.34,
+      "yield": 15.1
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 139.1,
+      "revenue_per_planted_acre": 115.9167,
+      "yield": 26.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.1214,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1977": 20.8
+    },
+    "yoy_pct": {
+      "1975": -29.11
+    }
+  }
+}

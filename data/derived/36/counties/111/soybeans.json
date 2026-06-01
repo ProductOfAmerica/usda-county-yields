@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "111",
+    "name": "ULSTER"
+  },
+  "rank": {
+    "2016": {
+      "count_in_nation": 1379,
+      "count_in_state": 32,
+      "percentile_in_nation": 0.9681,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 45,
+      "rank_in_state": 1
+    }
+  },
+  "revenue": {
+    "2016": {
+      "marketing_year": "2016",
+      "price": 9.57,
+      "revenue_per_harvested_acre": 621.093,
+      "revenue_per_planted_acre": 558.888,
+      "yield": 64.9
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

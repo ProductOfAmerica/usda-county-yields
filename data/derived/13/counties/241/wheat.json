@@ -1,0 +1,135 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "241",
+    "name": "RABUN"
+  },
+  "rank": {
+    "1954": {
+      "count_in_nation": 1626,
+      "count_in_state": 138,
+      "percentile_in_nation": 0.1729,
+      "percentile_in_state": 0.1022,
+      "rank_in_nation": 1345,
+      "rank_in_state": 124
+    },
+    "1955": {
+      "count_in_nation": 1650,
+      "count_in_state": 134,
+      "percentile_in_nation": 0.265,
+      "percentile_in_state": 0.6992,
+      "rank_in_nation": 1213,
+      "rank_in_state": 41
+    },
+    "1956": {
+      "count_in_nation": 1794,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.1472,
+      "percentile_in_state": 0.0144,
+      "rank_in_nation": 1530,
+      "rank_in_state": 138
+    },
+    "1962": {
+      "count_in_nation": 1760,
+      "count_in_state": 133,
+      "percentile_in_nation": 0.174,
+      "percentile_in_state": 0.0758,
+      "rank_in_nation": 1454,
+      "rank_in_state": 123
+    },
+    "1963": {
+      "count_in_nation": 1920,
+      "count_in_state": 145,
+      "percentile_in_nation": 0.0646,
+      "percentile_in_state": 0.0139,
+      "rank_in_nation": 1796,
+      "rank_in_state": 143
+    },
+    "1965": {
+      "count_in_nation": 1837,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.0359,
+      "percentile_in_state": 0.0216,
+      "rank_in_nation": 1771,
+      "rank_in_state": 137
+    },
+    "1966": {
+      "count_in_nation": 1889,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.035,
+      "percentile_in_state": 0.0072,
+      "rank_in_nation": 1823,
+      "rank_in_state": 139
+    }
+  },
+  "revenue": {
+    "1954": {
+      "marketing_year": "1954",
+      "price": 2.07,
+      "revenue_per_harvested_acre": 27.324,
+      "yield": 13.2
+    },
+    "1955": {
+      "marketing_year": "1955",
+      "price": 2.04,
+      "revenue_per_harvested_acre": 32.64,
+      "yield": 16.0
+    },
+    "1956": {
+      "marketing_year": "1956",
+      "price": 1.95,
+      "revenue_per_harvested_acre": 29.25,
+      "yield": 15.0
+    },
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.9,
+      "revenue_per_harvested_acre": 36.1,
+      "yield": 19.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.85,
+      "revenue_per_harvested_acre": 27.75,
+      "yield": 15.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.42,
+      "revenue_per_harvested_acre": 21.3,
+      "yield": 15.0
+    },
+    "1966": {
+      "marketing_year": "1966",
+      "price": 1.58,
+      "revenue_per_harvested_acre": 23.7,
+      "yield": 15.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0884,
+    "trailing_10yr_avg": {
+      "1963": 15.64
+    },
+    "trailing_5yr_avg": {
+      "1956": 14.73,
+      "1965": 16.33,
+      "1966": 16.0
+    },
+    "yoy_pct": {
+      "1955": 21.21,
+      "1956": -6.25,
+      "1963": -21.05,
+      "1966": 0.0
+    }
+  }
+}

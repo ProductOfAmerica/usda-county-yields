@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "105",
+    "name": "PERKINS"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.1895,
+      "percentile_in_state": 0.2167,
+      "rank_in_nation": 1348,
+      "rank_in_state": 48
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.071,
+      "percentile_in_state": 0.1404,
+      "rank_in_nation": 1531,
+      "rank_in_state": 50
+    },
+    "2011": {
+      "count_in_nation": 1447,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.0526,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1371,
+      "rank_in_state": 47
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.27,
+      "revenue_per_harvested_acre": 96.502,
+      "revenue_per_planted_acre": 90.2393,
+      "yield": 22.6
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.13,
+      "revenue_per_harvested_acre": 86.73,
+      "revenue_per_planted_acre": 72.275,
+      "yield": 21.0
+    },
+    "2011": {
+      "marketing_year": "2011",
+      "price": 12.2,
+      "revenue_per_harvested_acre": 217.16,
+      "revenue_per_planted_acre": 170.8,
+      "yield": 17.8
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.3892,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "2001": -7.08
+    }
+  }
+}

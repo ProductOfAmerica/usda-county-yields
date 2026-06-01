@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "125",
+    "name": "LAUREL"
+  },
+  "rank": {
+    "1998": {
+      "count_in_nation": 1683,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.3222,
+      "percentile_in_state": 0.1899,
+      "rank_in_nation": 1141,
+      "rank_in_state": 65
+    },
+    "2014": {
+      "count_in_nation": 1458,
+      "count_in_state": 70,
+      "percentile_in_nation": 0.2704,
+      "percentile_in_state": 0.058,
+      "rank_in_nation": 1064,
+      "rank_in_state": 66
+    }
+  },
+  "revenue": {
+    "1998": {
+      "marketing_year": "1998",
+      "price": 5.15,
+      "revenue_per_harvested_acre": 133.9,
+      "revenue_per_planted_acre": 133.9,
+      "yield": 26.0
+    },
+    "2014": {
+      "marketing_year": "2014",
+      "price": 10.5,
+      "revenue_per_harvested_acre": 414.75,
+      "revenue_per_planted_acre": 414.75,
+      "yield": 39.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.8438,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "057",
+    "name": "MADISON"
+  },
+  "rank": {
+    "1958": {
+      "count_in_nation": 2058,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.367,
+      "percentile_in_state": 0.7027,
+      "rank_in_nation": 1303,
+      "rank_in_state": 12
+    },
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.7316,
+      "percentile_in_state": 0.8718,
+      "rank_in_nation": 584,
+      "rank_in_state": 6
+    }
+  },
+  "revenue": {
+    "1958": {
+      "marketing_year": "1958",
+      "price": 1.16,
+      "revenue_per_harvested_acre": 42.92,
+      "revenue_per_planted_acre": 42.92,
+      "yield": 37.0
+    },
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 69.3,
+      "revenue_per_planted_acre": 69.3,
+      "yield": 55.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 18.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1959": 48.65
+    }
+  }
+}

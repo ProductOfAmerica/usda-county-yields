@@ -1,0 +1,39 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "173",
+    "name": "SMYTH"
+  },
+  "rank": {
+    "1943": {
+      "count_in_nation": 731,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.2726,
+      "percentile_in_state": 0.7778,
+      "rank_in_nation": 532,
+      "rank_in_state": 19
+    }
+  },
+  "revenue": {
+    "1943": {
+      "marketing_year": "1943",
+      "price": 1.9,
+      "revenue_per_harvested_acre": 19.0,
+      "yield": 10.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

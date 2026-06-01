@@ -1,0 +1,103 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "083",
+    "name": "RENSSELAER"
+  },
+  "rank": {
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.672,
+      "percentile_in_state": 0.8857,
+      "rank_in_nation": 551,
+      "rank_in_state": 5
+    },
+    "2005": {
+      "count_in_nation": 1650,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.638,
+      "percentile_in_state": 0.6216,
+      "rank_in_nation": 598,
+      "rank_in_state": 15
+    },
+    "2017": {
+      "count_in_nation": 1381,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.4319,
+      "percentile_in_state": 0.7273,
+      "rank_in_nation": 785,
+      "rank_in_state": 10
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.4138,
+      "percentile_in_state": 0.3714,
+      "rank_in_nation": 793,
+      "rank_in_state": 23
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 33,
+      "percentile_in_nation": 0.6146,
+      "percentile_in_state": 0.5938,
+      "rank_in_nation": 504,
+      "rank_in_state": 14
+    }
+  },
+  "revenue": {
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.4,
+      "revenue_per_harvested_acre": 237.6,
+      "revenue_per_planted_acre": 237.6,
+      "yield": 44.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 5.2,
+      "revenue_per_harvested_acre": 218.4,
+      "revenue_per_planted_acre": 215.8,
+      "yield": 42.0
+    },
+    "2017": {
+      "marketing_year": "2017",
+      "price": 9.26,
+      "revenue_per_harvested_acre": 429.664,
+      "revenue_per_planted_acre": 429.7729,
+      "yield": 46.4
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 12.3,
+      "revenue_per_harvested_acre": 586.71,
+      "revenue_per_planted_acre": 578.1,
+      "yield": 47.7
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.5,
+      "revenue_per_harvested_acre": 650.0,
+      "revenue_per_planted_acre": 631.9444,
+      "yield": 52.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3847,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "2005": -4.55
+    }
+  }
+}

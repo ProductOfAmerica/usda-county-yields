@@ -1,0 +1,173 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "005",
+    "name": "ALLEGHANY"
+  },
+  "rank": {
+    "1981": {
+      "count_in_nation": 2535,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.6105,
+      "percentile_in_state": 0.6386,
+      "rank_in_nation": 988,
+      "rank_in_state": 31
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 87,
+      "percentile_in_nation": 0.5851,
+      "percentile_in_state": 0.686,
+      "rank_in_nation": 1051,
+      "rank_in_state": 28
+    },
+    "1983": {
+      "count_in_nation": 2480,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.2146,
+      "percentile_in_state": 0.1294,
+      "rank_in_nation": 1948,
+      "rank_in_state": 75
+    },
+    "1984": {
+      "count_in_nation": 2472,
+      "count_in_state": 87,
+      "percentile_in_nation": 0.4334,
+      "percentile_in_state": 0.1047,
+      "rank_in_nation": 1401,
+      "rank_in_state": 78
+    },
+    "1985": {
+      "count_in_nation": 2477,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.3162,
+      "percentile_in_state": 0.6118,
+      "rank_in_nation": 1694,
+      "rank_in_state": 34
+    },
+    "1997": {
+      "count_in_nation": 1970,
+      "count_in_state": 79,
+      "percentile_in_nation": 0.1077,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1758,
+      "rank_in_state": 79
+    },
+    "1998": {
+      "count_in_nation": 1911,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.3895,
+      "percentile_in_state": 0.4444,
+      "rank_in_nation": 1167,
+      "rank_in_state": 46
+    },
+    "1999": {
+      "count_in_nation": 1856,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.0027,
+      "percentile_in_state": 0.0123,
+      "rank_in_nation": 1851,
+      "rank_in_state": 81
+    },
+    "2003": {
+      "count_in_nation": 1777,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.0051,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1768,
+      "rank_in_state": 80
+    }
+  },
+  "revenue": {
+    "1981": {
+      "marketing_year": "1981",
+      "price": 3.4,
+      "revenue_per_harvested_acre": 136.0,
+      "revenue_per_planted_acre": 136.0,
+      "yield": 40.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.0,
+      "revenue_per_harvested_acre": 108.0,
+      "revenue_per_planted_acre": 78.5455,
+      "yield": 36.0
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 3.05,
+      "revenue_per_harvested_acre": 91.5,
+      "revenue_per_planted_acre": 76.25,
+      "yield": 30.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 3.35,
+      "revenue_per_harvested_acre": 123.95,
+      "revenue_per_planted_acre": 114.8571,
+      "yield": 37.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 2.9,
+      "revenue_per_harvested_acre": 89.9,
+      "revenue_per_planted_acre": 83.375,
+      "yield": 31.0
+    },
+    "1997": {
+      "marketing_year": "1997",
+      "price": 3.2,
+      "revenue_per_harvested_acre": 86.4,
+      "revenue_per_planted_acre": 85.3333,
+      "yield": 27.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 2.55,
+      "revenue_per_harvested_acre": 102.0,
+      "revenue_per_planted_acre": 51.0,
+      "yield": 40.0
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "2003": {
+      "marketing_year": "2003",
+      "price": 2.85,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -1.2623,
+    "trailing_10yr_avg": {
+      "1985": 34.8
+    },
+    "trailing_5yr_avg": {
+      "1983": 35.33,
+      "1984": 35.75,
+      "1985": 34.8,
+      "1999": 22.33
+    },
+    "yoy_pct": {
+      "1982": -10.0,
+      "1983": -16.67,
+      "1984": 23.33,
+      "1985": -16.22,
+      "1998": 48.15,
+      "1999": -100.0
+    }
+  }
+}

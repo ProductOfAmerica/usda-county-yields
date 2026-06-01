@@ -7,14 +7,105 @@
     "code": "065",
     "name": "OLIVER"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {
+        "2020": 1.5,
+        "2021": 1.5,
+        "2023": 1.5,
+        "2024": 3.5
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 700.0,
+        "2014": 10700.0,
+        "2016": 13300.0,
+        "2018": 24600.0,
+        "2019": 21200.0,
+        "2020": 28900.0,
+        "2021": 29500.0,
+        "2023": 26300.0,
+        "2024": 35600.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2020": 0.8,
+        "2021": 0.6,
+        "2023": 1.0,
+        "2024": 3.5
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 800.0,
+        "2014": 10800.0,
+        "2016": 13400.0,
+        "2018": 24900.0,
+        "2019": 22100.0,
+        "2020": 29100.0,
+        "2021": 32300.0,
+        "2023": 26400.0,
+        "2024": 35700.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2020": 3.7,
+        "2021": 17.7,
+        "2023": 2.2,
+        "2024": 5.8
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 14000.0,
+        "2014": 292000.0,
+        "2016": 572000.0,
+        "2018": 667000.0,
+        "2019": 765000.0,
+        "2020": 795000.0,
+        "2021": 319000.0,
+        "2023": 1132000.0,
+        "2024": 1253000.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2020": 3.4,
+        "2021": 17.7,
+        "2023": 1.4,
+        "2024": 4.6
+      },
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

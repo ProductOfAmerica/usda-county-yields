@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "153",
+    "name": "WOODWARD"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.2142,
+      "percentile_in_state": 0.3016,
+      "rank_in_nation": 1384,
+      "rank_in_state": 45
+    },
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.3161,
+      "percentile_in_state": 0.1935,
+      "rank_in_nation": 1243,
+      "rank_in_state": 51
+    },
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.0662,
+      "percentile_in_state": 0.4386,
+      "rank_in_nation": 1553,
+      "rank_in_state": 33
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.31,
+      "revenue_per_harvested_acre": 106.2,
+      "revenue_per_planted_acre": 106.2,
+      "yield": 20.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.48,
+      "revenue_per_harvested_acre": 129.6,
+      "revenue_per_planted_acre": 129.6,
+      "yield": 20.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.25,
+      "revenue_per_harvested_acre": 63.75,
+      "revenue_per_planted_acre": 25.5,
+      "yield": 15.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.1885,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1974": 0.0
+    }
+  }
+}

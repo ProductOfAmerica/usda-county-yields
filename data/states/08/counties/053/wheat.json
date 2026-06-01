@@ -7,14 +7,415 @@
     "code": "053",
     "name": "HINSDALE"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 40.0,
+        "1945": 30.0,
+        "1946": 30.0,
+        "1947": 30.0,
+        "1948": 30.0,
+        "1949": 50.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 40.0,
+        "1945": 30.0,
+        "1946": 30.0,
+        "1947": 30.0,
+        "1948": 30.0,
+        "1949": 30.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 20.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 20.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 40.0,
+        "1945": 30.0,
+        "1946": 30.0,
+        "1947": 30.0,
+        "1948": 30.0,
+        "1949": 50.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 40.0,
+        "1945": 30.0,
+        "1946": 30.0,
+        "1947": 30.0,
+        "1948": 30.0,
+        "1949": 30.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 20.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED, CONTINUOUS CROP - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 20.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 40.0,
+        "1945": 30.0,
+        "1946": 30.0,
+        "1947": 30.0,
+        "1948": 30.0,
+        "1949": 50.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 40.0,
+        "1945": 30.0,
+        "1946": 30.0,
+        "1947": 30.0,
+        "1948": 30.0,
+        "1949": 30.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 20.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 20.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 40.0,
+        "1945": 30.0,
+        "1946": 30.0,
+        "1947": 30.0,
+        "1948": 30.0,
+        "1949": 50.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 40.0,
+        "1945": 30.0,
+        "1946": 30.0,
+        "1947": 30.0,
+        "1948": 30.0,
+        "1949": 30.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 20.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED, CONTINUOUS CROP - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 20.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 1080.0,
+        "1945": 780.0,
+        "1946": 750.0,
+        "1947": 810.0,
+        "1948": 630.0,
+        "1949": 1360.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 1080.0,
+        "1945": 780.0,
+        "1946": 750.0,
+        "1947": 810.0,
+        "1948": 630.0,
+        "1949": 900.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 460.0
+      }
+    },
+    {
+      "class": "ALL CLASSES",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 460.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM) - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 1080.0,
+        "1945": 780.0,
+        "1946": 750.0,
+        "1947": 810.0,
+        "1948": 630.0,
+        "1949": 1360.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1944": 1080.0,
+        "1945": 780.0,
+        "1946": 750.0,
+        "1947": 810.0,
+        "1948": 630.0,
+        "1949": 900.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 460.0
+      }
+    },
+    {
+      "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
+      "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
+      "raw": {},
+      "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED, CONTINUOUS CROP - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1949": 460.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "WHEAT - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -29,9 +430,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -46,9 +449,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -58,9 +463,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
       "raw": {},
       "short_desc": "WHEAT, NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -70,9 +477,11 @@
     },
     {
       "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -87,9 +496,11 @@
     },
     {
       "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
       "prodn_practice": "IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, SPRING, (EXCL DURUM), IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -104,9 +515,11 @@
     },
     {
       "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED",
       "raw": {},
       "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -116,9 +529,11 @@
     },
     {
       "class": "SPRING, (EXCL DURUM)",
+      "cv": {},
       "prodn_practice": "NON-IRRIGATED, CONTINUOUS CROP",
       "raw": {},
       "short_desc": "WHEAT, SPRING, (EXCL DURUM), NON-IRRIGATED, CONTINUOUS CROP - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

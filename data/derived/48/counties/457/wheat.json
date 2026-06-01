@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "457",
+    "name": "TYLER"
+  },
+  "rank": {
+    "1985": {
+      "count_in_nation": 2477,
+      "count_in_state": 205,
+      "percentile_in_nation": 0.3946,
+      "percentile_in_state": 0.75,
+      "rank_in_nation": 1500,
+      "rank_in_state": 52
+    }
+  },
+  "revenue": {
+    "1985": {
+      "marketing_year": "1985",
+      "price": 2.97,
+      "revenue_per_harvested_acre": 98.901,
+      "revenue_per_planted_acre": 59.4,
+      "yield": 33.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

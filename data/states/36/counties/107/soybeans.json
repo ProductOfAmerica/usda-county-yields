@@ -7,14 +7,118 @@
     "code": "107",
     "name": "TIOGA"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {
+        "2020": 2.1,
+        "2021": 2.5,
+        "2022": 2.8,
+        "2024": 23.7,
+        "2025": 11.6
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 200.0,
+        "2005": 200.0,
+        "2006": 100.0,
+        "2012": 600.0,
+        "2016": 1250.0,
+        "2018": 1560.0,
+        "2019": 1500.0,
+        "2020": 1790.0,
+        "2021": 1780.0,
+        "2022": 1850.0,
+        "2024": 2780.0,
+        "2025": 2200.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2020": 1.3,
+        "2021": 1.7,
+        "2022": 1.6,
+        "2024": 23.8,
+        "2025": 11.5
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 200.0,
+        "2005": 200.0,
+        "2006": 100.0,
+        "2012": 600.0,
+        "2016": 1300.0,
+        "2018": 1700.0,
+        "2019": 1500.0,
+        "2020": 1800.0,
+        "2021": 1800.0,
+        "2022": 2000.0,
+        "2024": 2800.0,
+        "2025": 2300.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2020": 6.9,
+        "2021": 3.4,
+        "2022": 7.2,
+        "2024": 23.8,
+        "2025": 15.5
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "2004": 7300.0,
+        "2005": 5700.0,
+        "2006": 4400.0,
+        "2012": 27300.0,
+        "2016": 54900.0,
+        "2018": 70000.0,
+        "2019": 87000.0,
+        "2020": 88100.0,
+        "2021": 87900.0,
+        "2022": 66200.0,
+        "2024": 157000.0,
+        "2025": 97000.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2020": 6.5,
+        "2021": 2.2,
+        "2022": 6.7,
+        "2024": 3.3,
+        "2025": 10.2
+      },
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

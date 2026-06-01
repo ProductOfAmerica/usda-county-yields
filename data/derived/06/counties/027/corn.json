@@ -1,0 +1,92 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "027",
+    "name": "INYO"
+  },
+  "rank": {
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.6367,
+      "percentile_in_state": 0.1471,
+      "rank_in_nation": 790,
+      "rank_in_state": 30
+    },
+    "1960": {
+      "count_in_nation": 2201,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.6245,
+      "percentile_in_state": 0.1176,
+      "rank_in_nation": 827,
+      "rank_in_state": 31
+    },
+    "1962": {
+      "count_in_nation": 2319,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.5315,
+      "percentile_in_state": 0.1515,
+      "rank_in_nation": 1087,
+      "rank_in_state": 29
+    },
+    "1963": {
+      "count_in_nation": 2353,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.5225,
+      "percentile_in_state": 0.0909,
+      "rank_in_nation": 1124,
+      "rank_in_state": 31
+    }
+  },
+  "revenue": {
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.4,
+      "revenue_per_harvested_acre": 70.0,
+      "revenue_per_planted_acre": 70.0,
+      "yield": 50.0
+    },
+    "1960": {
+      "marketing_year": "1960",
+      "price": 1.38,
+      "revenue_per_harvested_acre": 71.76,
+      "revenue_per_planted_acre": 71.76,
+      "yield": 52.0
+    },
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.39,
+      "revenue_per_harvested_acre": 72.28,
+      "revenue_per_planted_acre": 72.28,
+      "yield": 52.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.46,
+      "revenue_per_harvested_acre": 75.92,
+      "revenue_per_planted_acre": 75.92,
+      "yield": 52.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1962": 51.33,
+      "1963": 51.5
+    },
+    "yoy_pct": {
+      "1960": 4.0,
+      "1963": 0.0
+    }
+  }
+}

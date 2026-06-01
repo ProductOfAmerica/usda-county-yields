@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "433",
+    "name": "STONEWALL"
+  },
+  "rank": {
+    "1970": {
+      "count_in_nation": 2397,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.0088,
+      "percentile_in_state": 0.0081,
+      "rank_in_nation": 2376,
+      "rank_in_state": 124
+    }
+  },
+  "revenue": {
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.42,
+      "revenue_per_harvested_acre": 26.838,
+      "revenue_per_planted_acre": 15.62,
+      "yield": 18.9
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

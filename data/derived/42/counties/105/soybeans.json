@@ -1,0 +1,92 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "105",
+    "name": "POTTER"
+  },
+  "rank": {
+    "2012": {
+      "count_in_nation": 1483,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.6869,
+      "percentile_in_state": 0.42,
+      "rank_in_nation": 465,
+      "rank_in_state": 30
+    },
+    "2013": {
+      "count_in_nation": 1395,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.4799,
+      "percentile_in_state": 0.2041,
+      "rank_in_nation": 726,
+      "rank_in_state": 40
+    },
+    "2014": {
+      "count_in_nation": 1458,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.0858,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1333,
+      "rank_in_state": 44
+    },
+    "2017": {
+      "count_in_nation": 1381,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.0659,
+      "percentile_in_state": 0.0222,
+      "rank_in_nation": 1290,
+      "rank_in_state": 45
+    }
+  },
+  "revenue": {
+    "2012": {
+      "marketing_year": "2012",
+      "price": 14.2,
+      "revenue_per_harvested_acre": 639.0,
+      "revenue_per_planted_acre": 639.0,
+      "yield": 45.0
+    },
+    "2013": {
+      "marketing_year": "2013",
+      "price": 13.0,
+      "revenue_per_harvested_acre": 553.8,
+      "revenue_per_planted_acre": 531.7,
+      "yield": 42.6
+    },
+    "2014": {
+      "marketing_year": "2014",
+      "price": 9.8,
+      "revenue_per_harvested_acre": 307.72,
+      "revenue_per_planted_acre": 289.8,
+      "yield": 31.4
+    },
+    "2017": {
+      "marketing_year": "2017",
+      "price": 9.34,
+      "revenue_per_harvested_acre": 298.88,
+      "revenue_per_planted_acre": 298.88,
+      "yield": 32.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.6143,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2014": 39.67,
+      "2017": 35.33
+    },
+    "yoy_pct": {
+      "2013": -5.33,
+      "2014": -26.29
+    }
+  }
+}

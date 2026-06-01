@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "013",
+    "name": "BOX BUTTE"
+  },
+  "rank": {
+    "1990": {
+      "count_in_nation": 1773,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.5581,
+      "percentile_in_state": 0.2278,
+      "rank_in_nation": 784,
+      "rank_in_state": 62
+    },
+    "1992": {
+      "count_in_nation": 1739,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.7946,
+      "percentile_in_state": 0.4545,
+      "rank_in_nation": 358,
+      "rank_in_state": 43
+    },
+    "1993": {
+      "count_in_nation": 1677,
+      "count_in_state": 79,
+      "percentile_in_nation": 0.5221,
+      "percentile_in_state": 0.0513,
+      "rank_in_nation": 802,
+      "rank_in_state": 75
+    }
+  },
+  "revenue": {
+    "1990": {
+      "marketing_year": "1990",
+      "price": 5.59,
+      "revenue_per_harvested_acre": 178.88,
+      "revenue_per_planted_acre": 178.88,
+      "yield": 32.0
+    },
+    "1992": {
+      "marketing_year": "1992",
+      "price": 5.37,
+      "revenue_per_harvested_acre": 214.8,
+      "revenue_per_planted_acre": 214.8,
+      "yield": 40.0
+    },
+    "1993": {
+      "marketing_year": "1993",
+      "price": 6.2,
+      "revenue_per_harvested_acre": 186.0,
+      "revenue_per_planted_acre": 186.0,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1993": 34.0
+    },
+    "yoy_pct": {
+      "1993": -25.0
+    }
+  }
+}

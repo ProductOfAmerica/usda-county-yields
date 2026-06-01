@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "099",
+    "name": "JACKSON"
+  },
+  "rank": {
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 87,
+      "percentile_in_nation": 0.3204,
+      "percentile_in_state": 0.2093,
+      "rank_in_nation": 1721,
+      "rank_in_state": 69
+    }
+  },
+  "revenue": {
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.0,
+      "revenue_per_harvested_acre": 93.0,
+      "revenue_per_planted_acre": 76.0909,
+      "yield": 31.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

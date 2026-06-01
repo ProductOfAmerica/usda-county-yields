@@ -1,0 +1,181 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "085",
+    "name": "SABINE"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 1724,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.415,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 1009,
+      "rank_in_state": 37
+    },
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.3955,
+      "percentile_in_state": 0.6364,
+      "rank_in_nation": 1065,
+      "rank_in_state": 21
+    },
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.7285,
+      "percentile_in_state": 0.5273,
+      "rank_in_nation": 494,
+      "rank_in_state": 27
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.172,
+      "percentile_in_state": 0.1071,
+      "rank_in_nation": 1484,
+      "rank_in_state": 51
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.5791,
+      "percentile_in_state": 0.2857,
+      "rank_in_nation": 754,
+      "rank_in_state": 41
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.228,
+      "percentile_in_state": 0.2069,
+      "rank_in_nation": 1420,
+      "rank_in_state": 47
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.2349,
+      "percentile_in_state": 0.25,
+      "rank_in_nation": 1421,
+      "rank_in_state": 43
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.2679,
+      "percentile_in_state": 0.322,
+      "rank_in_nation": 1378,
+      "rank_in_state": 41
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.4617,
+      "percentile_in_state": 0.5333,
+      "rank_in_nation": 1005,
+      "rank_in_state": 29
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 3.88,
+      "revenue_per_harvested_acre": 85.36,
+      "yield": 22.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.67,
+      "revenue_per_harvested_acre": 127.575,
+      "yield": 22.5
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 7.12,
+      "revenue_per_harvested_acre": 178.0,
+      "yield": 25.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.79,
+      "revenue_per_harvested_acre": 95.8,
+      "revenue_per_planted_acre": 95.8,
+      "yield": 20.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.41,
+      "revenue_per_harvested_acre": 153.84,
+      "revenue_per_planted_acre": 153.84,
+      "yield": 24.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.78,
+      "revenue_per_harvested_acre": 115.6,
+      "revenue_per_planted_acre": 115.6,
+      "yield": 20.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.54,
+      "revenue_per_harvested_acre": 130.8,
+      "revenue_per_planted_acre": 130.8,
+      "yield": 20.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.42,
+      "revenue_per_harvested_acre": 160.5,
+      "revenue_per_planted_acre": 160.5,
+      "yield": 25.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.87,
+      "revenue_per_harvested_acre": 157.4,
+      "revenue_per_planted_acre": 157.4,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.175,
+    "trailing_10yr_avg": {
+      "1976": 22.7,
+      "1977": 22.25,
+      "1978": 21.93,
+      "1979": 22.31,
+      "1980": 22.06
+    },
+    "trailing_5yr_avg": {
+      "1974": 23.17,
+      "1975": 22.38,
+      "1976": 22.7,
+      "1977": 22.3,
+      "1978": 21.8,
+      "1979": 21.8,
+      "1980": 21.8
+    },
+    "yoy_pct": {
+      "1973": 2.27,
+      "1974": 11.11,
+      "1975": -20.0,
+      "1976": 20.0,
+      "1977": -16.67,
+      "1978": 0.0,
+      "1979": 25.0,
+      "1980": -20.0
+    }
+  }
+}

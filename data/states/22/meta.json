@@ -195,7 +195,8 @@
     "049": {
       "crops": [
         "corn",
-        "soybeans"
+        "soybeans",
+        "wheat"
       ],
       "name": "JACKSON"
     },
@@ -232,7 +233,8 @@
     "059": {
       "crops": [
         "corn",
-        "soybeans"
+        "soybeans",
+        "wheat"
       ],
       "name": "LA SALLE"
     },
@@ -247,7 +249,8 @@
     "063": {
       "crops": [
         "corn",
-        "soybeans"
+        "soybeans",
+        "wheat"
       ],
       "name": "LIVINGSTON"
     },
@@ -326,14 +329,16 @@
     "085": {
       "crops": [
         "corn",
-        "soybeans"
+        "soybeans",
+        "wheat"
       ],
       "name": "SABINE"
     },
     "089": {
       "crops": [
         "corn",
-        "soybeans"
+        "soybeans",
+        "wheat"
       ],
       "name": "SAINT CHARLES"
     },
@@ -498,7 +503,7 @@
       "name": "OTHER (COMBINED) COUNTIES"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "state": {
     "alpha": "LA",
     "fips": "22",

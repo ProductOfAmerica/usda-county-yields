@@ -1,0 +1,88 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "089",
+    "name": "STARK"
+  },
+  "rank": {
+    "1954": {
+      "count_in_nation": 1068,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.0431,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1022,
+      "rank_in_state": 27
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.004,
+      "percentile_in_state": 0.0833,
+      "rank_in_nation": 1493,
+      "rank_in_state": 45
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.0294,
+      "percentile_in_state": 0.0889,
+      "rank_in_nation": 1355,
+      "rank_in_state": 42
+    },
+    "2024": {
+      "count_in_nation": 1148,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.0192,
+      "percentile_in_state": 0.025,
+      "rank_in_nation": 1126,
+      "rank_in_state": 40
+    }
+  },
+  "revenue": {
+    "1954": {
+      "marketing_year": "1954",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 11.65,
+      "revenue_per_planted_acre": 11.65,
+      "yield": 5.0
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 10.2,
+      "revenue_per_harvested_acre": 180.54,
+      "revenue_per_planted_acre": 168.9538,
+      "yield": 17.7
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 13.7,
+      "revenue_per_harvested_acre": 261.67,
+      "revenue_per_planted_acre": 257.1754,
+      "yield": 19.1
+    },
+    "2024": {
+      "marketing_year": "2024",
+      "price": 9.53,
+      "revenue_per_harvested_acre": 210.613,
+      "revenue_per_planted_acre": 208.9269,
+      "yield": 22.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2172,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2024": 19.63
+    },
+    "yoy_pct": {}
+  }
+}

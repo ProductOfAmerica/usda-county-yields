@@ -1,0 +1,139 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "007",
+    "name": "ARCHULETA"
+  },
+  "rank": {
+    "1963": {
+      "count_in_nation": 2353,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.8784,
+      "percentile_in_state": 0.8378,
+      "rank_in_nation": 287,
+      "rank_in_state": 7
+    },
+    "1964": {
+      "count_in_nation": 2257,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.8887,
+      "percentile_in_state": 0.8485,
+      "rank_in_nation": 252,
+      "rank_in_state": 6
+    },
+    "1965": {
+      "count_in_nation": 2322,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.7906,
+      "percentile_in_state": 0.697,
+      "rank_in_nation": 487,
+      "rank_in_state": 11
+    },
+    "1966": {
+      "count_in_nation": 2318,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.7937,
+      "percentile_in_state": 0.7059,
+      "rank_in_nation": 479,
+      "rank_in_state": 11
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.9482,
+      "percentile_in_state": 0.7179,
+      "rank_in_nation": 132,
+      "rank_in_state": 12
+    },
+    "1979": {
+      "count_in_nation": 2431,
+      "count_in_state": 32,
+      "percentile_in_nation": 0.8095,
+      "percentile_in_state": 0.3548,
+      "rank_in_nation": 464,
+      "rank_in_state": 21
+    },
+    "1980": {
+      "count_in_nation": 2411,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.9079,
+      "percentile_in_state": 0.5714,
+      "rank_in_nation": 223,
+      "rank_in_state": 16
+    }
+  },
+  "revenue": {
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.21,
+      "revenue_per_harvested_acre": 94.38,
+      "revenue_per_planted_acre": 80.0462,
+      "yield": 78.0
+    },
+    "1964": {
+      "marketing_year": "1964",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 94.5,
+      "revenue_per_planted_acre": 80.325,
+      "yield": 75.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 94.5,
+      "revenue_per_planted_acre": 71.5909,
+      "yield": 75.0
+    },
+    "1966": {
+      "marketing_year": "1966",
+      "price": 1.32,
+      "revenue_per_harvested_acre": 99.0,
+      "revenue_per_planted_acre": 68.0625,
+      "yield": 75.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.02,
+      "revenue_per_harvested_acre": 295.96,
+      "revenue_per_planted_acre": 295.96,
+      "yield": 98.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 2.53,
+      "revenue_per_harvested_acre": 278.3,
+      "revenue_per_planted_acre": 139.15,
+      "yield": 110.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.05,
+      "revenue_per_harvested_acre": 335.5,
+      "revenue_per_planted_acre": 167.75,
+      "yield": 110.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.2372,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1965": 76.0,
+      "1966": 75.75
+    },
+    "yoy_pct": {
+      "1964": -3.85,
+      "1965": 0.0,
+      "1966": 0.0,
+      "1980": 0.0
+    }
+  }
+}

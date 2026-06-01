@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "009",
+    "name": "BLAINE"
+  },
+  "rank": {
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.3224,
+      "percentile_in_state": 0.0864,
+      "rank_in_nation": 1237,
+      "rank_in_state": 75
+    },
+    "1997": {
+      "count_in_nation": 1683,
+      "count_in_state": 75,
+      "percentile_in_nation": 0.4489,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 928,
+      "rank_in_state": 75
+    }
+  },
+  "revenue": {
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.45,
+      "revenue_per_harvested_acre": 136.25,
+      "revenue_per_planted_acre": 136.25,
+      "yield": 25.0
+    },
+    "1997": {
+      "marketing_year": "1997",
+      "price": 6.28,
+      "revenue_per_harvested_acre": 207.24,
+      "revenue_per_planted_acre": 165.792,
+      "yield": 33.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

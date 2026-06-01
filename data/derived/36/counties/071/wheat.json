@@ -1,0 +1,76 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "071",
+    "name": "ORANGE"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.7358,
+      "percentile_in_state": 0.3404,
+      "rank_in_nation": 662,
+      "rank_in_state": 32
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.7619,
+      "percentile_in_state": 0.2083,
+      "rank_in_nation": 600,
+      "rank_in_state": 39
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.9397,
+      "percentile_in_state": 0.8696,
+      "rank_in_nation": 156,
+      "rank_in_state": 7
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.55,
+      "revenue_per_harvested_acre": 57.35,
+      "revenue_per_planted_acre": 57.35,
+      "yield": 37.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.77,
+      "revenue_per_harvested_acre": 131.95,
+      "revenue_per_planted_acre": 131.95,
+      "yield": 35.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.71,
+      "revenue_per_harvested_acre": 163.24,
+      "revenue_per_planted_acre": 163.24,
+      "yield": 44.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 3.5,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1974": 38.67
+    },
+    "yoy_pct": {
+      "1973": -5.41,
+      "1974": 25.71
+    }
+  }
+}

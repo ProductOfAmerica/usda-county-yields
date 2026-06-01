@@ -1,0 +1,88 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "191",
+    "name": "WASHINGTON"
+  },
+  "rank": {
+    "1943": {
+      "count_in_nation": 731,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.2726,
+      "percentile_in_state": 0.7778,
+      "rank_in_nation": 532,
+      "rank_in_state": 19
+    },
+    "1944": {
+      "count_in_nation": 836,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.2359,
+      "percentile_in_state": 0.1176,
+      "rank_in_nation": 639,
+      "rank_in_state": 76
+    },
+    "1947": {
+      "count_in_nation": 882,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.4336,
+      "percentile_in_state": 0.3026,
+      "rank_in_nation": 500,
+      "rank_in_state": 54
+    },
+    "1948": {
+      "count_in_nation": 904,
+      "count_in_state": 74,
+      "percentile_in_nation": 0.2226,
+      "percentile_in_state": 0.2466,
+      "rank_in_nation": 703,
+      "rank_in_state": 56
+    }
+  },
+  "revenue": {
+    "1943": {
+      "marketing_year": "1943",
+      "price": 1.9,
+      "revenue_per_harvested_acre": 19.0,
+      "yield": 10.0
+    },
+    "1944": {
+      "marketing_year": "1944",
+      "price": 2.06,
+      "revenue_per_harvested_acre": 24.72,
+      "yield": 12.0
+    },
+    "1947": {
+      "marketing_year": "1947",
+      "price": 3.03,
+      "revenue_per_harvested_acre": 39.39,
+      "yield": 13.0
+    },
+    "1948": {
+      "marketing_year": "1948",
+      "price": 2.23,
+      "revenue_per_harvested_acre": 31.22,
+      "yield": 14.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.6765,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1947": 11.67,
+      "1948": 13.0
+    },
+    "yoy_pct": {
+      "1944": 20.0,
+      "1948": 7.69
+    }
+  }
+}

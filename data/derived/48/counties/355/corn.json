@@ -1,0 +1,864 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "355",
+    "name": "NUECES"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 2480,
+      "count_in_state": 115,
+      "percentile_in_nation": 0.025,
+      "percentile_in_state": 0.1404,
+      "rank_in_nation": 2418,
+      "rank_in_state": 99
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 133,
+      "percentile_in_nation": 0.171,
+      "percentile_in_state": 0.4773,
+      "rank_in_nation": 2096,
+      "rank_in_state": 70
+    },
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 119,
+      "percentile_in_nation": 0.0311,
+      "percentile_in_state": 0.1949,
+      "rank_in_nation": 2429,
+      "rank_in_state": 96
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.2787,
+      "percentile_in_state": 0.5267,
+      "rank_in_nation": 1818,
+      "rank_in_state": 63
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 135,
+      "percentile_in_nation": 0.3302,
+      "percentile_in_state": 0.5522,
+      "rank_in_nation": 1695,
+      "rank_in_state": 61
+    },
+    "1978": {
+      "count_in_nation": 2455,
+      "count_in_state": 121,
+      "percentile_in_nation": 0.3011,
+      "percentile_in_state": 0.6,
+      "rank_in_nation": 1716,
+      "rank_in_state": 49
+    },
+    "1979": {
+      "count_in_nation": 2431,
+      "count_in_state": 127,
+      "percentile_in_nation": 0.2745,
+      "percentile_in_state": 0.5635,
+      "rank_in_nation": 1764,
+      "rank_in_state": 56
+    },
+    "1980": {
+      "count_in_nation": 2411,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.2598,
+      "percentile_in_state": 0.3145,
+      "rank_in_nation": 1785,
+      "rank_in_state": 86
+    },
+    "1981": {
+      "count_in_nation": 2400,
+      "count_in_state": 90,
+      "percentile_in_nation": 0.5252,
+      "percentile_in_state": 0.5056,
+      "rank_in_nation": 1140,
+      "rank_in_state": 45
+    },
+    "1982": {
+      "count_in_nation": 2395,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.1157,
+      "percentile_in_state": 0.1882,
+      "rank_in_nation": 2118,
+      "rank_in_state": 70
+    },
+    "1983": {
+      "count_in_nation": 2355,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.4019,
+      "percentile_in_state": 0.3659,
+      "rank_in_nation": 1409,
+      "rank_in_state": 53
+    },
+    "1984": {
+      "count_in_nation": 2361,
+      "count_in_state": 100,
+      "percentile_in_nation": 0.0479,
+      "percentile_in_state": 0.303,
+      "rank_in_nation": 2248,
+      "rank_in_state": 70
+    },
+    "1985": {
+      "count_in_nation": 2351,
+      "count_in_state": 98,
+      "percentile_in_nation": 0.2702,
+      "percentile_in_state": 0.3918,
+      "rank_in_nation": 1716,
+      "rank_in_state": 60
+    },
+    "1986": {
+      "count_in_nation": 2314,
+      "count_in_state": 93,
+      "percentile_in_nation": 0.2827,
+      "percentile_in_state": 0.2391,
+      "rank_in_nation": 1660,
+      "rank_in_state": 71
+    },
+    "1987": {
+      "count_in_nation": 2300,
+      "count_in_state": 96,
+      "percentile_in_nation": 0.3467,
+      "percentile_in_state": 0.5263,
+      "rank_in_nation": 1503,
+      "rank_in_state": 46
+    },
+    "1988": {
+      "count_in_nation": 2265,
+      "count_in_state": 103,
+      "percentile_in_nation": 0.1285,
+      "percentile_in_state": 0.2157,
+      "rank_in_nation": 1974,
+      "rank_in_state": 81
+    },
+    "1989": {
+      "count_in_nation": 2257,
+      "count_in_state": 103,
+      "percentile_in_nation": 0.0173,
+      "percentile_in_state": 0.1373,
+      "rank_in_nation": 2218,
+      "rank_in_state": 89
+    },
+    "1990": {
+      "count_in_nation": 2192,
+      "count_in_state": 99,
+      "percentile_in_nation": 0.0324,
+      "percentile_in_state": 0.2449,
+      "rank_in_nation": 2121,
+      "rank_in_state": 75
+    },
+    "1991": {
+      "count_in_nation": 2222,
+      "count_in_state": 103,
+      "percentile_in_nation": 0.1144,
+      "percentile_in_state": 0.2451,
+      "rank_in_nation": 1968,
+      "rank_in_state": 78
+    },
+    "1992": {
+      "count_in_nation": 2252,
+      "count_in_state": 105,
+      "percentile_in_nation": 0.1808,
+      "percentile_in_state": 0.4038,
+      "rank_in_nation": 1845,
+      "rank_in_state": 63
+    },
+    "1993": {
+      "count_in_nation": 2169,
+      "count_in_state": 113,
+      "percentile_in_nation": 0.6167,
+      "percentile_in_state": 0.6429,
+      "rank_in_nation": 832,
+      "rank_in_state": 41
+    },
+    "1994": {
+      "count_in_nation": 2174,
+      "count_in_state": 111,
+      "percentile_in_nation": 0.0925,
+      "percentile_in_state": 0.3455,
+      "rank_in_nation": 1973,
+      "rank_in_state": 73
+    },
+    "1995": {
+      "count_in_nation": 2096,
+      "count_in_state": 102,
+      "percentile_in_nation": 0.02,
+      "percentile_in_state": 0.0792,
+      "rank_in_nation": 2054,
+      "rank_in_state": 94
+    },
+    "1996": {
+      "count_in_nation": 2142,
+      "count_in_state": 107,
+      "percentile_in_nation": 0.0033,
+      "percentile_in_state": 0.066,
+      "rank_in_nation": 2135,
+      "rank_in_state": 100
+    },
+    "1997": {
+      "count_in_nation": 2109,
+      "count_in_state": 109,
+      "percentile_in_nation": 0.1803,
+      "percentile_in_state": 0.213,
+      "rank_in_nation": 1729,
+      "rank_in_state": 86
+    },
+    "1998": {
+      "count_in_nation": 2123,
+      "count_in_state": 113,
+      "percentile_in_nation": 0.0702,
+      "percentile_in_state": 0.4286,
+      "rank_in_nation": 1974,
+      "rank_in_state": 65
+    },
+    "1999": {
+      "count_in_nation": 2098,
+      "count_in_state": 107,
+      "percentile_in_nation": 0.1555,
+      "percentile_in_state": 0.1792,
+      "rank_in_nation": 1772,
+      "rank_in_state": 88
+    },
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 106,
+      "percentile_in_nation": 0.0717,
+      "percentile_in_state": 0.0762,
+      "rank_in_nation": 1929,
+      "rank_in_state": 98
+    },
+    "2001": {
+      "count_in_nation": 2023,
+      "count_in_state": 98,
+      "percentile_in_nation": 0.0529,
+      "percentile_in_state": 0.1649,
+      "rank_in_nation": 1916,
+      "rank_in_state": 82
+    },
+    "2002": {
+      "count_in_nation": 2086,
+      "count_in_state": 109,
+      "percentile_in_nation": 0.0705,
+      "percentile_in_state": 0.1574,
+      "rank_in_nation": 1939,
+      "rank_in_state": 92
+    },
+    "2003": {
+      "count_in_nation": 2059,
+      "count_in_state": 103,
+      "percentile_in_nation": 0.0743,
+      "percentile_in_state": 0.2451,
+      "rank_in_nation": 1906,
+      "rank_in_state": 78
+    },
+    "2004": {
+      "count_in_nation": 2014,
+      "count_in_state": 107,
+      "percentile_in_nation": 0.1153,
+      "percentile_in_state": 0.2736,
+      "rank_in_nation": 1782,
+      "rank_in_state": 78
+    },
+    "2005": {
+      "count_in_nation": 2003,
+      "count_in_state": 105,
+      "percentile_in_nation": 0.0315,
+      "percentile_in_state": 0.0577,
+      "rank_in_nation": 1940,
+      "rank_in_state": 99
+    },
+    "2006": {
+      "count_in_nation": 1955,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.1111,
+      "percentile_in_state": 0.3229,
+      "rank_in_nation": 1738,
+      "rank_in_state": 66
+    },
+    "2007": {
+      "count_in_nation": 1934,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.1831,
+      "percentile_in_state": 0.175,
+      "rank_in_nation": 1580,
+      "rank_in_state": 67
+    },
+    "2008": {
+      "count_in_nation": 1623,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.0179,
+      "percentile_in_state": 0.0196,
+      "rank_in_nation": 1594,
+      "rank_in_state": 51
+    },
+    "2010": {
+      "count_in_nation": 1750,
+      "count_in_state": 75,
+      "percentile_in_nation": 0.1189,
+      "percentile_in_state": 0.2838,
+      "rank_in_nation": 1542,
+      "rank_in_state": 54
+    },
+    "2011": {
+      "count_in_nation": 1667,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.042,
+      "percentile_in_state": 0.3276,
+      "rank_in_nation": 1597,
+      "rank_in_state": 40
+    },
+    "2013": {
+      "count_in_nation": 1579,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.0006,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1578,
+      "rank_in_state": 63
+    },
+    "2014": {
+      "count_in_nation": 1595,
+      "count_in_state": 72,
+      "percentile_in_nation": 0.0056,
+      "percentile_in_state": 0.0563,
+      "rank_in_nation": 1586,
+      "rank_in_state": 68
+    },
+    "2015": {
+      "count_in_nation": 1468,
+      "count_in_state": 62,
+      "percentile_in_nation": 0.015,
+      "percentile_in_state": 0.1639,
+      "rank_in_nation": 1446,
+      "rank_in_state": 52
+    },
+    "2016": {
+      "count_in_nation": 1541,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.0662,
+      "percentile_in_state": 0.3881,
+      "rank_in_nation": 1439,
+      "rank_in_state": 42
+    },
+    "2017": {
+      "count_in_nation": 1512,
+      "count_in_state": 62,
+      "percentile_in_nation": 0.0271,
+      "percentile_in_state": 0.0328,
+      "rank_in_nation": 1471,
+      "rank_in_state": 60
+    },
+    "2019": {
+      "count_in_nation": 1288,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0637,
+      "percentile_in_state": 0.2321,
+      "rank_in_nation": 1206,
+      "rank_in_state": 44
+    },
+    "2020": {
+      "count_in_nation": 1699,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.0342,
+      "percentile_in_state": 0.2034,
+      "rank_in_nation": 1641,
+      "rank_in_state": 48
+    },
+    "2021": {
+      "count_in_nation": 1502,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0286,
+      "percentile_in_state": 0.1607,
+      "rank_in_nation": 1459,
+      "rank_in_state": 48
+    },
+    "2023": {
+      "count_in_nation": 1461,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.0281,
+      "percentile_in_state": 0.0952,
+      "rank_in_nation": 1420,
+      "rank_in_state": 39
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.57,
+      "revenue_per_harvested_acre": 73.245,
+      "revenue_per_planted_acre": 73.245,
+      "yield": 28.5
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.09,
+      "revenue_per_harvested_acre": 123.6,
+      "revenue_per_planted_acre": 119.1857,
+      "yield": 40.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.66,
+      "revenue_per_harvested_acre": 74.214,
+      "revenue_per_planted_acre": 66.36,
+      "yield": 27.9
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 123.024,
+      "revenue_per_planted_acre": 109.2511,
+      "yield": 52.8
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.16,
+      "revenue_per_harvested_acre": 113.4,
+      "revenue_per_planted_acre": 90.72,
+      "yield": 52.5
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 2.45,
+      "revenue_per_harvested_acre": 154.84,
+      "revenue_per_planted_acre": 142.8538,
+      "yield": 63.2
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 2.82,
+      "revenue_per_harvested_acre": 199.092,
+      "revenue_per_planted_acre": 192.559,
+      "yield": 70.6
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.44,
+      "revenue_per_harvested_acre": 143.792,
+      "revenue_per_planted_acre": 135.0829,
+      "yield": 41.8
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 2.88,
+      "revenue_per_harvested_acre": 259.2,
+      "revenue_per_planted_acre": 256.0151,
+      "yield": 90.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.07,
+      "revenue_per_harvested_acre": 184.507,
+      "revenue_per_planted_acre": 182.8456,
+      "yield": 60.1
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 3.39,
+      "revenue_per_harvested_acre": 206.451,
+      "revenue_per_planted_acre": 179.3276,
+      "yield": 60.9
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 3.03,
+      "revenue_per_harvested_acre": 135.744,
+      "revenue_per_planted_acre": 130.7894,
+      "yield": 44.8
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 2.49,
+      "revenue_per_harvested_acre": 202.686,
+      "revenue_per_planted_acre": 198.3603,
+      "yield": 81.4
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 1.87,
+      "revenue_per_harvested_acre": 136.136,
+      "revenue_per_planted_acre": 130.6032,
+      "yield": 72.8
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 2.17,
+      "revenue_per_harvested_acre": 181.195,
+      "revenue_per_planted_acre": 178.4925,
+      "yield": 83.5
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 2.71,
+      "revenue_per_harvested_acre": 128.725,
+      "revenue_per_planted_acre": 109.8358,
+      "yield": 47.5
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 2.63,
+      "revenue_per_harvested_acre": 84.686,
+      "revenue_per_planted_acre": 57.0221,
+      "yield": 32.2
+    },
+    "1990": {
+      "marketing_year": "1990",
+      "price": 2.51,
+      "revenue_per_harvested_acre": 80.571,
+      "revenue_per_planted_acre": 67.1306,
+      "yield": 32.1
+    },
+    "1991": {
+      "marketing_year": "1991",
+      "price": 2.68,
+      "revenue_per_harvested_acre": 160.8,
+      "revenue_per_planted_acre": 116.8724,
+      "yield": 60.0
+    },
+    "1992": {
+      "marketing_year": "1992",
+      "price": 2.41,
+      "revenue_per_harvested_acre": 192.077,
+      "revenue_per_planted_acre": 172.8627,
+      "yield": 79.7
+    },
+    "1993": {
+      "marketing_year": "1993",
+      "price": 2.61,
+      "revenue_per_harvested_acre": 248.211,
+      "revenue_per_planted_acre": 224.4098,
+      "yield": 95.1
+    },
+    "1994": {
+      "marketing_year": "1994",
+      "price": 2.51,
+      "revenue_per_harvested_acre": 194.274,
+      "revenue_per_planted_acre": 184.3867,
+      "yield": 77.4
+    },
+    "1995": {
+      "marketing_year": "1995",
+      "price": 3.19,
+      "revenue_per_harvested_acre": 168.113,
+      "revenue_per_planted_acre": 107.2009,
+      "yield": 52.7
+    },
+    "1996": {
+      "marketing_year": "1996",
+      "price": 3.19,
+      "revenue_per_harvested_acre": 74.965,
+      "revenue_per_planted_acre": 34.0267,
+      "yield": 23.5
+    },
+    "1997": {
+      "marketing_year": "1997",
+      "price": 2.74,
+      "revenue_per_harvested_acre": 224.954,
+      "revenue_per_planted_acre": 216.0159,
+      "yield": 82.1
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 2.26,
+      "revenue_per_harvested_acre": 94.242,
+      "revenue_per_planted_acre": 74.6038,
+      "yield": 41.7
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 2.07,
+      "revenue_per_harvested_acre": 142.416,
+      "revenue_per_planted_acre": 140.5597,
+      "yield": 68.8
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.18,
+      "revenue_per_harvested_acre": 116.63,
+      "revenue_per_planted_acre": 111.002,
+      "yield": 53.5
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.29,
+      "revenue_per_harvested_acre": 130.988,
+      "revenue_per_planted_acre": 123.8834,
+      "yield": 57.2
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 2.57,
+      "revenue_per_harvested_acre": 107.94,
+      "revenue_per_planted_acre": 83.6856,
+      "yield": 42.0
+    },
+    "2003": {
+      "marketing_year": "2003",
+      "price": 2.59,
+      "revenue_per_harvested_acre": 156.177,
+      "revenue_per_planted_acre": 153.373,
+      "yield": 60.3
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 2.6,
+      "revenue_per_harvested_acre": 236.08,
+      "revenue_per_planted_acre": 230.1,
+      "yield": 90.8
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 2.47,
+      "revenue_per_harvested_acre": 125.229,
+      "revenue_per_planted_acre": 123.5,
+      "yield": 50.7
+    },
+    "2006": {
+      "marketing_year": "2006",
+      "price": 3.2,
+      "revenue_per_harvested_acre": 220.8,
+      "revenue_per_planted_acre": 101.1892,
+      "yield": 69.0
+    },
+    "2007": {
+      "marketing_year": "2007",
+      "price": 4.35,
+      "revenue_per_harvested_acre": 382.8,
+      "revenue_per_planted_acre": 366.5825,
+      "yield": 88.0
+    },
+    "2008": {
+      "marketing_year": "2008",
+      "price": 4.82,
+      "revenue_per_harvested_acre": 187.98,
+      "revenue_per_planted_acre": 182.2836,
+      "yield": 39.0
+    },
+    "2010": {
+      "marketing_year": "2010",
+      "price": 4.67,
+      "revenue_per_harvested_acre": 392.28,
+      "revenue_per_planted_acre": 367.4575,
+      "yield": 84.0
+    },
+    "2011": {
+      "marketing_year": "2011",
+      "price": 6.61,
+      "revenue_per_harvested_acre": 289.518,
+      "revenue_per_planted_acre": 231.6144,
+      "yield": 43.8
+    },
+    "2013": {
+      "marketing_year": "2013",
+      "price": 5.14,
+      "revenue_per_harvested_acre": 182.47,
+      "revenue_per_planted_acre": 45.9675,
+      "yield": 35.5
+    },
+    "2014": {
+      "marketing_year": "2014",
+      "price": 4.42,
+      "revenue_per_harvested_acre": 250.172,
+      "revenue_per_planted_acre": 244.14,
+      "yield": 56.6
+    },
+    "2015": {
+      "marketing_year": "2015",
+      "price": 4.2,
+      "revenue_per_harvested_acre": 262.5,
+      "revenue_per_planted_acre": 258.5758,
+      "yield": 62.5
+    },
+    "2016": {
+      "marketing_year": "2016",
+      "price": 3.71,
+      "revenue_per_harvested_acre": 341.691,
+      "revenue_per_planted_acre": 333.3048,
+      "yield": 92.1
+    },
+    "2017": {
+      "marketing_year": "2017",
+      "price": 3.7,
+      "revenue_per_harvested_acre": 324.49,
+      "revenue_per_planted_acre": 316.2656,
+      "yield": 87.7
+    },
+    "2019": {
+      "marketing_year": "2019",
+      "price": 4.2,
+      "revenue_per_harvested_acre": 419.58,
+      "revenue_per_planted_acre": 407.76,
+      "yield": 99.9
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 4.52,
+      "revenue_per_harvested_acre": 369.736,
+      "revenue_per_planted_acre": 290.3686,
+      "yield": 81.8
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 6.18,
+      "revenue_per_harvested_acre": 461.646,
+      "revenue_per_planted_acre": 420.4607,
+      "yield": 74.7
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 5.46,
+      "revenue_per_harvested_acre": 488.124,
+      "revenue_per_planted_acre": 469.35,
+      "yield": 89.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.5367,
+    "trailing_10yr_avg": {
+      "1977": 40.34,
+      "1978": 44.15,
+      "1979": 47.93,
+      "1980": 47.16,
+      "1981": 51.92,
+      "1982": 52.74,
+      "1983": 55.98,
+      "1984": 56.46,
+      "1985": 61.81,
+      "1986": 63.81,
+      "1987": 66.91,
+      "1988": 65.34,
+      "1989": 61.5,
+      "1990": 60.53,
+      "1991": 57.53,
+      "1992": 59.49,
+      "1993": 62.91,
+      "1994": 66.17,
+      "1995": 63.3,
+      "1996": 58.37,
+      "1997": 58.23,
+      "1998": 57.65,
+      "1999": 61.31,
+      "2000": 63.45,
+      "2001": 63.17,
+      "2002": 59.4,
+      "2003": 55.92,
+      "2004": 57.26,
+      "2005": 57.06,
+      "2006": 61.61,
+      "2007": 62.2,
+      "2008": 61.93,
+      "2010": 64.56,
+      "2011": 63.07,
+      "2013": 62.6,
+      "2014": 58.33,
+      "2015": 59.8,
+      "2016": 62.69,
+      "2017": 62.65,
+      "2019": 70.26,
+      "2020": 69.99,
+      "2021": 73.85,
+      "2023": 80.59
+    },
+    "trailing_5yr_avg": {
+      "1975": 32.13,
+      "1976": 37.3,
+      "1977": 40.34,
+      "1978": 47.28,
+      "1979": 53.4,
+      "1980": 56.18,
+      "1981": 63.62,
+      "1982": 65.14,
+      "1983": 64.68,
+      "1984": 59.52,
+      "1985": 67.44,
+      "1986": 64.0,
+      "1987": 68.68,
+      "1988": 66.0,
+      "1989": 63.48,
+      "1990": 53.62,
+      "1991": 51.06,
+      "1992": 50.3,
+      "1993": 59.82,
+      "1994": 68.86,
+      "1995": 72.98,
+      "1996": 65.68,
+      "1997": 66.16,
+      "1998": 55.48,
+      "1999": 53.76,
+      "2000": 53.92,
+      "2001": 60.66,
+      "2002": 52.64,
+      "2003": 56.36,
+      "2004": 60.76,
+      "2005": 60.2,
+      "2006": 62.56,
+      "2007": 71.76,
+      "2008": 67.5,
+      "2010": 70.0,
+      "2011": 63.7,
+      "2013": 54.43,
+      "2014": 54.98,
+      "2015": 49.6,
+      "2016": 61.67,
+      "2017": 66.88,
+      "2019": 85.55,
+      "2020": 90.38,
+      "2021": 86.03,
+      "2023": 86.45
+    },
+    "yoy_pct": {
+      "1974": 40.35,
+      "1975": -30.25,
+      "1976": 89.25,
+      "1977": -0.57,
+      "1978": 20.38,
+      "1979": 11.71,
+      "1980": -40.79,
+      "1981": 115.31,
+      "1982": -33.22,
+      "1983": 1.33,
+      "1984": -26.44,
+      "1985": 81.7,
+      "1986": -10.57,
+      "1987": 14.7,
+      "1988": -43.11,
+      "1989": -32.21,
+      "1990": -0.31,
+      "1991": 86.92,
+      "1992": 32.83,
+      "1993": 19.32,
+      "1994": -18.61,
+      "1995": -31.91,
+      "1996": -55.41,
+      "1997": 249.36,
+      "1998": -49.21,
+      "1999": 64.99,
+      "2000": -22.24,
+      "2001": 6.92,
+      "2002": -26.57,
+      "2003": 43.57,
+      "2004": 50.58,
+      "2005": -44.16,
+      "2006": 36.09,
+      "2007": 27.54,
+      "2008": -55.68,
+      "2011": -47.86,
+      "2014": 59.44,
+      "2015": 10.42,
+      "2016": 47.36,
+      "2017": -4.78,
+      "2020": -18.12,
+      "2021": -8.68
+    }
+  }
+}

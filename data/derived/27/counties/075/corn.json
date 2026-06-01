@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "075",
+    "name": "LAKE"
+  },
+  "rank": {
+    "1922": {
+      "count_in_nation": 434,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.6305,
+      "percentile_in_state": 0.5412,
+      "rank_in_nation": 161,
+      "rank_in_state": 40
+    },
+    "1923": {
+      "count_in_nation": 435,
+      "count_in_state": 87,
+      "percentile_in_nation": 0.212,
+      "percentile_in_state": 0.1279,
+      "rank_in_nation": 343,
+      "rank_in_state": 76
+    }
+  },
+  "revenue": {
+    "1922": {
+      "marketing_year": "1922",
+      "price": 0.6,
+      "revenue_per_harvested_acre": 19.2,
+      "yield": 32.0
+    },
+    "1923": {
+      "marketing_year": "1923",
+      "price": 0.67,
+      "revenue_per_harvested_acre": 18.76,
+      "yield": 28.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MN",
+    "fips": "27",
+    "name": "MINNESOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -4.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1923": -12.5
+    }
+  }
+}

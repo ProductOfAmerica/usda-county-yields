@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "091",
+    "name": "OURAY"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 2393,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.6906,
+      "percentile_in_state": 0.3636,
+      "rank_in_nation": 741,
+      "rank_in_state": 22
+    },
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 41,
+      "percentile_in_nation": 0.8361,
+      "percentile_in_state": 0.6,
+      "rank_in_nation": 399,
+      "rank_in_state": 17
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 86.25,
+      "revenue_per_planted_acre": 17.25,
+      "yield": 75.0
+    },
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.18,
+      "revenue_per_harvested_acre": 106.2,
+      "revenue_per_planted_acre": 17.7,
+      "yield": 90.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CO",
+    "fips": "08",
+    "name": "COLORADO"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 15.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1969": 20.0
+    }
+  }
+}

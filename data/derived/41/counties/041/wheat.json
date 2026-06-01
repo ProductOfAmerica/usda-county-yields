@@ -1,0 +1,214 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "041",
+    "name": "LINCOLN"
+  },
+  "rank": {
+    "1909": {
+      "count_in_nation": 31,
+      "count_in_state": 31,
+      "percentile_in_nation": 0.9667,
+      "percentile_in_state": 0.9667,
+      "rank_in_nation": 2,
+      "rank_in_state": 2
+    },
+    "1919": {
+      "count_in_nation": 418,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.5683,
+      "percentile_in_state": 0.3824,
+      "rank_in_nation": 181,
+      "rank_in_state": 22
+    },
+    "1929": {
+      "count_in_nation": 971,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.7464,
+      "percentile_in_state": 0.2424,
+      "rank_in_nation": 247,
+      "rank_in_state": 26
+    },
+    "1934": {
+      "count_in_nation": 1111,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.7018,
+      "percentile_in_state": 0.5152,
+      "rank_in_nation": 332,
+      "rank_in_state": 17
+    },
+    "1939": {
+      "count_in_nation": 1151,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.9296,
+      "percentile_in_state": 0.6364,
+      "rank_in_nation": 82,
+      "rank_in_state": 13
+    },
+    "1940": {
+      "count_in_nation": 1184,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.8377,
+      "percentile_in_state": 0.697,
+      "rank_in_nation": 193,
+      "rank_in_state": 11
+    },
+    "1941": {
+      "count_in_nation": 1238,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.6977,
+      "percentile_in_state": 0.3636,
+      "rank_in_nation": 375,
+      "rank_in_state": 22
+    },
+    "1942": {
+      "count_in_nation": 1264,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.673,
+      "percentile_in_state": 0.1515,
+      "rank_in_nation": 414,
+      "rank_in_state": 29
+    },
+    "1943": {
+      "count_in_nation": 1265,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.8141,
+      "percentile_in_state": 0.1212,
+      "rank_in_nation": 236,
+      "rank_in_state": 30
+    },
+    "1944": {
+      "count_in_nation": 1284,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.8815,
+      "percentile_in_state": 0.5,
+      "rank_in_nation": 153,
+      "rank_in_state": 18
+    },
+    "1945": {
+      "count_in_nation": 1334,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.6137,
+      "percentile_in_state": 0.2353,
+      "rank_in_nation": 516,
+      "rank_in_state": 27
+    },
+    "1946": {
+      "count_in_nation": 1230,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.62,
+      "percentile_in_state": 0.2353,
+      "rank_in_nation": 468,
+      "rank_in_state": 27
+    },
+    "1949": {
+      "count_in_nation": 1480,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.8999,
+      "percentile_in_state": 0.7353,
+      "rank_in_nation": 149,
+      "rank_in_state": 10
+    },
+    "1950": {
+      "count_in_nation": 1483,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.9055,
+      "percentile_in_state": 0.6471,
+      "rank_in_nation": 141,
+      "rank_in_state": 13
+    },
+    "1951": {
+      "count_in_nation": 1434,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.933,
+      "percentile_in_state": 0.6176,
+      "rank_in_nation": 97,
+      "rank_in_state": 14
+    },
+    "1952": {
+      "count_in_nation": 1435,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.8801,
+      "percentile_in_state": 0.4412,
+      "rank_in_nation": 173,
+      "rank_in_state": 20
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.98,
+      "revenue_per_harvested_acre": 52.47,
+      "revenue_per_planted_acre": 52.8,
+      "yield": 26.5
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 2.05,
+      "revenue_per_harvested_acre": 54.325,
+      "revenue_per_planted_acre": 54.6667,
+      "yield": 26.5
+    },
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.17,
+      "revenue_per_harvested_acre": 57.505,
+      "revenue_per_planted_acre": 57.8667,
+      "yield": 26.5
+    },
+    "1952": {
+      "marketing_year": "1952",
+      "price": 2.16,
+      "revenue_per_harvested_acre": 57.24,
+      "revenue_per_planted_acre": 57.6,
+      "yield": 26.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0799,
+    "trailing_10yr_avg": {
+      "1942": 20.6,
+      "1943": 20.5,
+      "1944": 22.17,
+      "1945": 21.86,
+      "1946": 21.62,
+      "1949": 21.88,
+      "1950": 22.25,
+      "1951": 23.06,
+      "1952": 23.88
+    },
+    "trailing_5yr_avg": {
+      "1941": 22.67,
+      "1942": 22.0,
+      "1943": 21.6,
+      "1944": 21.7,
+      "1945": 21.0,
+      "1946": 21.0,
+      "1949": 22.17,
+      "1950": 24.33,
+      "1951": 26.5,
+      "1952": 26.5
+    },
+    "yoy_pct": {
+      "1940": -4.08,
+      "1941": -14.89,
+      "1942": 0.0,
+      "1943": 0.0,
+      "1944": 25.0,
+      "1945": -20.0,
+      "1946": 0.0,
+      "1950": 0.0,
+      "1951": 0.0,
+      "1952": 0.0
+    }
+  }
+}

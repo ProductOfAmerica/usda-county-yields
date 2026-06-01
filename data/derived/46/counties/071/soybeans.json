@@ -1,0 +1,107 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "071",
+    "name": "JACKSON"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.0187,
+      "percentile_in_state": 0.0167,
+      "rank_in_nation": 1632,
+      "rank_in_state": 60
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.0024,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1644,
+      "rank_in_state": 58
+    },
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0131,
+      "percentile_in_state": 0.125,
+      "rank_in_nation": 1656,
+      "rank_in_state": 50
+    },
+    "2005": {
+      "count_in_nation": 1650,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.0449,
+      "percentile_in_state": 0.1,
+      "rank_in_nation": 1576,
+      "rank_in_state": 46
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 54,
+      "percentile_in_nation": 0.0007,
+      "percentile_in_state": 0.0189,
+      "rank_in_nation": 1498,
+      "rank_in_state": 53
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.27,
+      "revenue_per_harvested_acre": 47.824,
+      "revenue_per_planted_acre": 47.6817,
+      "yield": 11.2
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.13,
+      "revenue_per_harvested_acre": 41.3,
+      "revenue_per_planted_acre": 41.3,
+      "yield": 10.0
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.58,
+      "revenue_per_harvested_acre": 69.75,
+      "revenue_per_planted_acre": 32.8235,
+      "yield": 12.5
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 5.39,
+      "revenue_per_harvested_acre": 107.8,
+      "revenue_per_planted_acre": 107.8,
+      "yield": 20.0
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 10.3,
+      "revenue_per_harvested_acre": 157.59,
+      "revenue_per_planted_acre": 157.0328,
+      "yield": 15.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.1985,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2004": 11.23,
+      "2005": 14.17
+    },
+    "yoy_pct": {
+      "2001": -10.71,
+      "2005": 60.0
+    }
+  }
+}

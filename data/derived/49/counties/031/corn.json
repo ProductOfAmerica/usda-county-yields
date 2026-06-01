@@ -1,0 +1,39 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "031",
+    "name": "PIUTE"
+  },
+  "rank": {
+    "2005": {
+      "count_in_nation": 2003,
+      "count_in_state": 12,
+      "percentile_in_nation": 0.0225,
+      "percentile_in_state": 0.2727,
+      "rank_in_nation": 1958,
+      "rank_in_state": 9
+    }
+  },
+  "revenue": {
+    "2005": {
+      "marketing_year": "2005",
+      "price": 2.77,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "UT",
+    "fips": "49",
+    "name": "UTAH"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

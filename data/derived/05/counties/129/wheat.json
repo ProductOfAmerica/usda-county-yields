@@ -1,0 +1,107 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "129",
+    "name": "SEARCY"
+  },
+  "rank": {
+    "1961": {
+      "count_in_nation": 1931,
+      "count_in_state": 62,
+      "percentile_in_nation": 0.0648,
+      "percentile_in_state": 0.0492,
+      "rank_in_nation": 1806,
+      "rank_in_state": 59
+    },
+    "1962": {
+      "count_in_nation": 1760,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.0466,
+      "percentile_in_state": 0.0968,
+      "rank_in_nation": 1678,
+      "rank_in_state": 57
+    },
+    "1963": {
+      "count_in_nation": 1920,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.0532,
+      "percentile_in_state": 0.0727,
+      "rank_in_nation": 1818,
+      "rank_in_state": 52
+    },
+    "1964": {
+      "count_in_nation": 1774,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.1162,
+      "percentile_in_state": 0.1207,
+      "rank_in_nation": 1568,
+      "rank_in_state": 52
+    },
+    "1965": {
+      "count_in_nation": 1837,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.1253,
+      "percentile_in_state": 0.1552,
+      "rank_in_nation": 1607,
+      "rank_in_state": 50
+    }
+  },
+  "revenue": {
+    "1961": {
+      "marketing_year": "1961",
+      "price": 1.71,
+      "revenue_per_harvested_acre": 25.65,
+      "yield": 15.0
+    },
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.99,
+      "revenue_per_harvested_acre": 27.86,
+      "yield": 14.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.79,
+      "revenue_per_harvested_acre": 25.06,
+      "yield": 14.0
+    },
+    "1964": {
+      "marketing_year": "1964",
+      "price": 1.28,
+      "revenue_per_harvested_acre": 23.04,
+      "yield": 18.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.28,
+      "revenue_per_harvested_acre": 24.32,
+      "yield": 19.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.2,
+    "trailing_10yr_avg": {
+      "1965": 16.0
+    },
+    "trailing_5yr_avg": {
+      "1963": 14.33,
+      "1964": 15.25,
+      "1965": 16.0
+    },
+    "yoy_pct": {
+      "1962": -6.67,
+      "1963": 0.0,
+      "1964": 28.57,
+      "1965": 5.56
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "247",
+    "name": "JIM HOGG"
+  },
+  "rank": {
+    "1970": {
+      "count_in_nation": 2397,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.3781,
+      "percentile_in_state": 0.5968,
+      "rank_in_nation": 1491,
+      "rank_in_state": 51
+    }
+  },
+  "revenue": {
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.42,
+      "revenue_per_harvested_acre": 61.486,
+      "revenue_per_planted_acre": 30.7075,
+      "yield": 43.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

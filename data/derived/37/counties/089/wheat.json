@@ -1,0 +1,148 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "089",
+    "name": "HENDERSON"
+  },
+  "rank": {
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.2234,
+      "percentile_in_state": 0.0843,
+      "rank_in_nation": 1944,
+      "rank_in_state": 77
+    },
+    "1981": {
+      "count_in_nation": 2535,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.6105,
+      "percentile_in_state": 0.6386,
+      "rank_in_nation": 988,
+      "rank_in_state": 31
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 87,
+      "percentile_in_nation": 0.6875,
+      "percentile_in_state": 0.8372,
+      "rank_in_nation": 792,
+      "rank_in_state": 15
+    },
+    "1983": {
+      "count_in_nation": 2480,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.1339,
+      "percentile_in_state": 0.0353,
+      "rank_in_nation": 2148,
+      "rank_in_state": 83
+    },
+    "1984": {
+      "count_in_nation": 2472,
+      "count_in_state": 87,
+      "percentile_in_nation": 0.6694,
+      "percentile_in_state": 0.4884,
+      "rank_in_nation": 818,
+      "rank_in_state": 45
+    },
+    "1985": {
+      "count_in_nation": 2477,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.4568,
+      "percentile_in_state": 0.8118,
+      "rank_in_nation": 1346,
+      "rank_in_state": 17
+    },
+    "1986": {
+      "count_in_nation": 2402,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.4619,
+      "percentile_in_state": 0.5904,
+      "rank_in_nation": 1293,
+      "rank_in_state": 35
+    }
+  },
+  "revenue": {
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.75,
+      "revenue_per_harvested_acre": 105.0,
+      "revenue_per_planted_acre": 105.0,
+      "yield": 28.0
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 3.4,
+      "revenue_per_harvested_acre": 136.0,
+      "revenue_per_planted_acre": 119.0,
+      "yield": 40.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.0,
+      "revenue_per_harvested_acre": 114.0,
+      "revenue_per_planted_acre": 57.0,
+      "yield": 38.0
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 3.05,
+      "revenue_per_harvested_acre": 85.4,
+      "revenue_per_planted_acre": 71.1667,
+      "yield": 28.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 3.35,
+      "revenue_per_harvested_acre": 140.7,
+      "revenue_per_planted_acre": 119.6429,
+      "yield": 42.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 2.9,
+      "revenue_per_harvested_acre": 101.5,
+      "revenue_per_planted_acre": 87.0,
+      "yield": 35.0
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 2.5,
+      "revenue_per_harvested_acre": 80.0,
+      "revenue_per_planted_acre": 52.7778,
+      "yield": 32.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2143,
+    "trailing_10yr_avg": {
+      "1984": 35.2,
+      "1985": 35.17,
+      "1986": 34.71
+    },
+    "trailing_5yr_avg": {
+      "1982": 35.33,
+      "1983": 33.5,
+      "1984": 35.2,
+      "1985": 36.6,
+      "1986": 35.0
+    },
+    "yoy_pct": {
+      "1981": 42.86,
+      "1982": -5.0,
+      "1983": -26.32,
+      "1984": 50.0,
+      "1985": -16.67,
+      "1986": -8.57
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "079",
+    "name": "HAMILTON"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 2448,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.3106,
+      "percentile_in_state": 0.0824,
+      "rank_in_nation": 1688,
+      "rank_in_state": 79
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 91,
+      "percentile_in_nation": 0.5316,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 1173,
+      "rank_in_state": 61
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 3.3,
+      "revenue_per_harvested_acre": 99.0,
+      "revenue_per_planted_acre": 99.0,
+      "yield": 30.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.85,
+      "revenue_per_harvested_acre": 134.75,
+      "revenue_per_planted_acre": 134.75,
+      "yield": 35.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 5.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1980": 16.67
+    }
+  }
+}

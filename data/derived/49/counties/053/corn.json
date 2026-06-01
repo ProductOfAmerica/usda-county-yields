@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "053",
+    "name": "WASHINGTON"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.7824,
+      "percentile_in_state": 0.6,
+      "rank_in_nation": 551,
+      "rank_in_state": 7
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.1,
+      "revenue_per_harvested_acre": 248.0,
+      "revenue_per_planted_acre": 248.0,
+      "yield": 80.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "UT",
+    "fips": "49",
+    "name": "UTAH"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

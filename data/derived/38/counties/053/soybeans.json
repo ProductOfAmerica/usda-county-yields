@@ -1,0 +1,179 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "053",
+    "name": "MCKENZIE"
+  },
+  "rank": {
+    "1954": {
+      "count_in_nation": 1068,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.0628,
+      "percentile_in_state": 0.1923,
+      "rank_in_nation": 1001,
+      "rank_in_state": 22
+    },
+    "2013": {
+      "count_in_nation": 1395,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.0947,
+      "percentile_in_state": 0.2963,
+      "rank_in_nation": 1263,
+      "rank_in_state": 20
+    },
+    "2017": {
+      "count_in_nation": 1381,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.0986,
+      "percentile_in_state": 0.641,
+      "rank_in_nation": 1245,
+      "rank_in_state": 15
+    },
+    "2018": {
+      "count_in_nation": 1209,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.0025,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1206,
+      "rank_in_state": 36
+    },
+    "2019": {
+      "count_in_nation": 1126,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.256,
+      "percentile_in_state": 0.9118,
+      "rank_in_nation": 838,
+      "rank_in_state": 4
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.0093,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 1485,
+      "rank_in_state": 41
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.0059,
+      "percentile_in_state": 0.1087,
+      "rank_in_nation": 1344,
+      "rank_in_state": 42
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.028,
+      "percentile_in_state": 0.0667,
+      "rank_in_nation": 1357,
+      "rank_in_state": 43
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.0429,
+      "percentile_in_state": 0.0238,
+      "rank_in_nation": 1250,
+      "rank_in_state": 42
+    }
+  },
+  "revenue": {
+    "1954": {
+      "marketing_year": "1954",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 13.98,
+      "revenue_per_planted_acre": 13.98,
+      "yield": 6.0
+    },
+    "2013": {
+      "marketing_year": "2013",
+      "price": 12.4,
+      "revenue_per_harvested_acre": 358.36,
+      "revenue_per_planted_acre": 314.7692,
+      "yield": 28.9
+    },
+    "2017": {
+      "marketing_year": "2017",
+      "price": 8.88,
+      "revenue_per_harvested_acre": 307.248,
+      "revenue_per_planted_acre": 284.4889,
+      "yield": 34.6
+    },
+    "2018": {
+      "marketing_year": "2018",
+      "price": 7.98,
+      "revenue_per_harvested_acre": 163.59,
+      "revenue_per_planted_acre": 159.6,
+      "yield": 20.5
+    },
+    "2019": {
+      "marketing_year": "2019",
+      "price": 7.93,
+      "revenue_per_harvested_acre": 301.34,
+      "revenue_per_planted_acre": 283.2143,
+      "yield": 38.0
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 10.2,
+      "revenue_per_harvested_acre": 238.68,
+      "revenue_per_planted_acre": 234.3243,
+      "yield": 23.4
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 12.6,
+      "revenue_per_harvested_acre": 176.4,
+      "revenue_per_planted_acre": 143.4653,
+      "yield": 14.0
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 13.7,
+      "revenue_per_harvested_acre": 260.3,
+      "revenue_per_planted_acre": 244.9162,
+      "yield": 19.0
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.0,
+      "revenue_per_harvested_acre": 282.0,
+      "revenue_per_planted_acre": 267.6,
+      "yield": 23.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2676,
+    "trailing_10yr_avg": {
+      "2020": 29.08,
+      "2021": 26.57,
+      "2022": 25.49,
+      "2023": 24.71
+    },
+    "trailing_5yr_avg": {
+      "2019": 31.03,
+      "2020": 29.12,
+      "2021": 26.1,
+      "2022": 22.98,
+      "2023": 23.58
+    },
+    "yoy_pct": {
+      "2018": -40.75,
+      "2019": 85.37,
+      "2020": -38.42,
+      "2021": -40.17,
+      "2022": 35.71,
+      "2023": 23.68
+    }
+  }
+}

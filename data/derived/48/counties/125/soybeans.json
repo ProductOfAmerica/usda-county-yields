@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "125",
+    "name": "DICKENS"
+  },
+  "rank": {
+    "1982": {
+      "count_in_nation": 1813,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.7472,
+      "percentile_in_state": 0.8837,
+      "rank_in_nation": 459,
+      "rank_in_state": 6
+    }
+  },
+  "revenue": {
+    "1982": {
+      "marketing_year": "1982",
+      "price": 5.41,
+      "revenue_per_harvested_acre": 180.153,
+      "revenue_per_planted_acre": 180.3333,
+      "yield": 33.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "037",
+    "name": "FLORENCE"
+  },
+  "rank": {
+    "1952": {
+      "count_in_nation": 1025,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.2715,
+      "percentile_in_state": 0.3548,
+      "rank_in_nation": 747,
+      "rank_in_state": 41
+    },
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.2875,
+      "percentile_in_state": 0.3871,
+      "rank_in_nation": 1255,
+      "rank_in_state": 39
+    },
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.0132,
+      "percentile_in_state": 0.0159,
+      "rank_in_nation": 1793,
+      "rank_in_state": 63
+    }
+  },
+  "revenue": {
+    "1952": {
+      "marketing_year": "1952",
+      "price": 2.65,
+      "revenue_per_harvested_acre": 37.1,
+      "revenue_per_planted_acre": 13.9125,
+      "yield": 14.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.58,
+      "revenue_per_harvested_acre": 117.18,
+      "revenue_per_planted_acre": 117.18,
+      "yield": 21.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.38,
+      "revenue_per_harvested_acre": 76.56,
+      "revenue_per_planted_acre": 76.56,
+      "yield": 12.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WI",
+    "fips": "55",
+    "name": "WISCONSIN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.1015,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1974": -42.86
+    }
+  }
+}

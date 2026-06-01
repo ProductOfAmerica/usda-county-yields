@@ -1,0 +1,138 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "059",
+    "name": "MINGO"
+  },
+  "rank": {
+    "1949": {
+      "count_in_nation": 1480,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.382,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 915,
+      "rank_in_state": 46
+    },
+    "1950": {
+      "count_in_nation": 1483,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.3718,
+      "percentile_in_state": 0.3704,
+      "rank_in_nation": 932,
+      "rank_in_state": 35
+    },
+    "1951": {
+      "count_in_nation": 1434,
+      "count_in_state": 54,
+      "percentile_in_nation": 0.3699,
+      "percentile_in_state": 0.1698,
+      "rank_in_nation": 904,
+      "rank_in_state": 45
+    },
+    "1960": {
+      "count_in_nation": 1841,
+      "count_in_state": 50,
+      "percentile_in_nation": 0.4511,
+      "percentile_in_state": 0.2653,
+      "rank_in_nation": 1011,
+      "rank_in_state": 37
+    },
+    "1961": {
+      "count_in_nation": 1931,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.1399,
+      "percentile_in_state": 0.0625,
+      "rank_in_nation": 1661,
+      "rank_in_state": 46
+    },
+    "1965": {
+      "count_in_nation": 1837,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.1253,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1607,
+      "rank_in_state": 45
+    },
+    "1966": {
+      "count_in_nation": 1889,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.0678,
+      "percentile_in_state": 0.0227,
+      "rank_in_nation": 1761,
+      "rank_in_state": 44
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.87,
+      "revenue_per_harvested_acre": 28.05,
+      "revenue_per_planted_acre": 14.025,
+      "yield": 15.0
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 1.99,
+      "revenue_per_harvested_acre": 29.85,
+      "revenue_per_planted_acre": 14.925,
+      "yield": 15.0
+    },
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.15,
+      "revenue_per_harvested_acre": 32.25,
+      "revenue_per_planted_acre": 6.45,
+      "yield": 15.0
+    },
+    "1960": {
+      "marketing_year": "1960",
+      "price": 1.78,
+      "revenue_per_harvested_acre": 44.5,
+      "revenue_per_planted_acre": 22.25,
+      "yield": 25.0
+    },
+    "1961": {
+      "marketing_year": "1961",
+      "price": 1.79,
+      "revenue_per_harvested_acre": 34.01,
+      "revenue_per_planted_acre": 17.005,
+      "yield": 19.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.64,
+      "revenue_per_harvested_acre": 31.16,
+      "revenue_per_planted_acre": 20.7733,
+      "yield": 19.0
+    },
+    "1966": {
+      "marketing_year": "1966",
+      "price": 1.64,
+      "revenue_per_harvested_acre": 28.7,
+      "revenue_per_planted_acre": 19.1333,
+      "yield": 17.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2887,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1951": 15.0
+    },
+    "yoy_pct": {
+      "1950": 0.0,
+      "1951": 0.0,
+      "1961": -24.0,
+      "1966": -7.89
+    }
+  }
+}

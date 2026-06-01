@@ -1,0 +1,148 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "227",
+    "name": "PICKENS"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.4524,
+      "percentile_in_state": 0.6781,
+      "rank_in_nation": 1031,
+      "rank_in_state": 48
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.2365,
+      "percentile_in_state": 0.6575,
+      "rank_in_nation": 1425,
+      "rank_in_state": 51
+    },
+    "1981": {
+      "count_in_nation": 1835,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.2617,
+      "percentile_in_state": 0.6918,
+      "rank_in_nation": 1355,
+      "rank_in_state": 46
+    },
+    "1982": {
+      "count_in_nation": 1813,
+      "count_in_state": 146,
+      "percentile_in_nation": 0.1556,
+      "percentile_in_state": 0.1862,
+      "rank_in_nation": 1531,
+      "rank_in_state": 119
+    },
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 142,
+      "percentile_in_nation": 0.1798,
+      "percentile_in_state": 0.078,
+      "rank_in_nation": 1534,
+      "rank_in_state": 131
+    },
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 146,
+      "percentile_in_nation": 0.2017,
+      "percentile_in_state": 0.4966,
+      "rank_in_nation": 1497,
+      "rank_in_state": 74
+    },
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 142,
+      "percentile_in_nation": 0.2165,
+      "percentile_in_state": 0.5035,
+      "rank_in_nation": 1452,
+      "rank_in_state": 71
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.36,
+      "revenue_per_harvested_acre": 178.08,
+      "revenue_per_planted_acre": 172.6836,
+      "yield": 28.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.63,
+      "revenue_per_harvested_acre": 109.872,
+      "revenue_per_planted_acre": 105.0456,
+      "yield": 14.4
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 6.09,
+      "revenue_per_harvested_acre": 137.634,
+      "revenue_per_planted_acre": 128.702,
+      "yield": 22.6
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 5.45,
+      "revenue_per_harvested_acre": 121.535,
+      "revenue_per_planted_acre": 121.2625,
+      "yield": 22.3
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.59,
+      "revenue_per_harvested_acre": 121.44,
+      "revenue_per_planted_acre": 116.9907,
+      "yield": 16.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.99,
+      "revenue_per_harvested_acre": 119.8,
+      "revenue_per_planted_acre": 91.9235,
+      "yield": 20.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 4.82,
+      "revenue_per_harvested_acre": 115.68,
+      "revenue_per_planted_acre": 93.2903,
+      "yield": 24.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.2643,
+    "trailing_10yr_avg": {
+      "1983": 20.66,
+      "1984": 20.55,
+      "1985": 21.04
+    },
+    "trailing_5yr_avg": {
+      "1981": 21.67,
+      "1982": 21.82,
+      "1983": 20.66,
+      "1984": 19.06,
+      "1985": 20.98
+    },
+    "yoy_pct": {
+      "1980": -48.57,
+      "1981": 56.94,
+      "1982": -1.33,
+      "1983": -28.25,
+      "1984": 25.0,
+      "1985": 20.0
+    }
+  }
+}

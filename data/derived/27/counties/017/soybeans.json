@@ -1,0 +1,180 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "017",
+    "name": "CARLTON"
+  },
+  "rank": {
+    "1971": {
+      "count_in_nation": 1456,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.0392,
+      "percentile_in_state": 0.3375,
+      "rank_in_nation": 1399,
+      "rank_in_state": 54
+    },
+    "1972": {
+      "count_in_nation": 1724,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.2205,
+      "percentile_in_state": 0.3158,
+      "rank_in_nation": 1344,
+      "rank_in_state": 53
+    },
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.1347,
+      "percentile_in_state": 0.1169,
+      "rank_in_nation": 1524,
+      "rank_in_state": 69
+    },
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.0804,
+      "percentile_in_state": 0.3704,
+      "rank_in_nation": 1671,
+      "rank_in_state": 52
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.1066,
+      "percentile_in_state": 0.3875,
+      "rank_in_nation": 1601,
+      "rank_in_state": 50
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 74,
+      "percentile_in_nation": 0.0486,
+      "percentile_in_state": 0.3288,
+      "rank_in_nation": 1703,
+      "rank_in_state": 50
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.2791,
+      "percentile_in_state": 0.1711,
+      "rank_in_nation": 1326,
+      "rank_in_state": 64
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 79,
+      "percentile_in_nation": 0.3761,
+      "percentile_in_state": 0.0769,
+      "rank_in_nation": 1159,
+      "rank_in_state": 73
+    },
+    "2025": {
+      "count_in_nation": 1100,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.3749,
+      "percentile_in_state": 0.2836,
+      "rank_in_nation": 688,
+      "rank_in_state": 49
+    }
+  },
+  "revenue": {
+    "1971": {
+      "marketing_year": "1971",
+      "price": 3.08,
+      "revenue_per_harvested_acre": 43.12,
+      "yield": 14.0
+    },
+    "1972": {
+      "marketing_year": "1972",
+      "price": 4.58,
+      "revenue_per_harvested_acre": 87.02,
+      "revenue_per_planted_acre": 87.02,
+      "yield": 19.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.61,
+      "revenue_per_harvested_acre": 106.59,
+      "revenue_per_planted_acre": 106.59,
+      "yield": 19.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.26,
+      "revenue_per_harvested_acre": 100.16,
+      "revenue_per_planted_acre": 100.16,
+      "yield": 16.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 5.02,
+      "revenue_per_harvested_acre": 95.38,
+      "revenue_per_planted_acre": 95.38,
+      "yield": 19.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 7.22,
+      "revenue_per_harvested_acre": 93.86,
+      "revenue_per_planted_acre": 93.86,
+      "yield": 13.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.9,
+      "revenue_per_harvested_acre": 123.9,
+      "revenue_per_planted_acre": 123.9,
+      "yield": 21.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.52,
+      "revenue_per_harvested_acre": 149.96,
+      "revenue_per_planted_acre": 149.96,
+      "yield": 23.0
+    },
+    "2025": {
+      "marketing_year": "2025",
+      "price": 9.9,
+      "revenue_per_harvested_acre": 421.74,
+      "revenue_per_planted_acre": 368.775,
+      "yield": 42.6
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MN",
+    "fips": "27",
+    "name": "MINNESOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4908,
+    "trailing_10yr_avg": {
+      "1975": 17.4,
+      "1976": 16.67,
+      "1977": 17.29,
+      "1978": 18.0
+    },
+    "trailing_5yr_avg": {
+      "1973": 17.33,
+      "1974": 17.0,
+      "1975": 17.4,
+      "1976": 17.2,
+      "1977": 17.6,
+      "1978": 18.4
+    },
+    "yoy_pct": {
+      "1972": 35.71,
+      "1973": 0.0,
+      "1974": -15.79,
+      "1975": 18.75,
+      "1976": -31.58,
+      "1977": 61.54,
+      "1978": 9.52
+    }
+  }
+}

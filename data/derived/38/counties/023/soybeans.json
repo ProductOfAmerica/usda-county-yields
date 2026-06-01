@@ -1,0 +1,88 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "023",
+    "name": "DIVIDE"
+  },
+  "rank": {
+    "1992": {
+      "count_in_nation": 1739,
+      "count_in_state": 30,
+      "percentile_in_nation": 0.0017,
+      "percentile_in_state": 0.069,
+      "rank_in_nation": 1736,
+      "rank_in_state": 28
+    },
+    "2014": {
+      "count_in_nation": 1458,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.0165,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1434,
+      "rank_in_state": 34
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.0013,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1497,
+      "rank_in_state": 49
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.0037,
+      "percentile_in_state": 0.0652,
+      "rank_in_nation": 1347,
+      "rank_in_state": 44
+    }
+  },
+  "revenue": {
+    "1992": {
+      "marketing_year": "1992",
+      "price": 5.32,
+      "revenue_per_harvested_acre": 42.56,
+      "revenue_per_planted_acre": 21.28,
+      "yield": 8.0
+    },
+    "2014": {
+      "marketing_year": "2014",
+      "price": 9.49,
+      "revenue_per_harvested_acre": 228.709,
+      "revenue_per_planted_acre": 226.367,
+      "yield": 24.1
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 10.2,
+      "revenue_per_harvested_acre": 168.3,
+      "revenue_per_planted_acre": 150.5455,
+      "yield": 16.5
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 12.6,
+      "revenue_per_harvested_acre": 171.36,
+      "revenue_per_planted_acre": 153.3677,
+      "yield": 13.6
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "ND",
+    "fips": "38",
+    "name": "NORTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2882,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "2021": -17.58
+    }
+  }
+}

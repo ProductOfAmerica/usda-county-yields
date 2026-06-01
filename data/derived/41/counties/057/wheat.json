@@ -1,0 +1,137 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "057",
+    "name": "TILLAMOOK"
+  },
+  "rank": {
+    "1944": {
+      "count_in_nation": 1284,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.8815,
+      "percentile_in_state": 0.5,
+      "rank_in_nation": 153,
+      "rank_in_state": 18
+    },
+    "1945": {
+      "count_in_nation": 1334,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.6137,
+      "percentile_in_state": 0.2353,
+      "rank_in_nation": 516,
+      "rank_in_state": 27
+    },
+    "1946": {
+      "count_in_nation": 1230,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.62,
+      "percentile_in_state": 0.2353,
+      "rank_in_nation": 468,
+      "rank_in_state": 27
+    },
+    "1947": {
+      "count_in_nation": 1324,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.6062,
+      "percentile_in_state": 0.2424,
+      "rank_in_nation": 522,
+      "rank_in_state": 26
+    },
+    "1949": {
+      "count_in_nation": 1480,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.9953,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 8,
+      "rank_in_state": 1
+    },
+    "1950": {
+      "count_in_nation": 1483,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.9939,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 10,
+      "rank_in_state": 1
+    },
+    "1951": {
+      "count_in_nation": 1434,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.9958,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 7,
+      "rank_in_state": 1
+    },
+    "1952": {
+      "count_in_nation": 1435,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.9944,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 9,
+      "rank_in_state": 1
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.98,
+      "revenue_per_harvested_acre": 79.2,
+      "revenue_per_planted_acre": 79.2,
+      "yield": 40.0
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 2.05,
+      "revenue_per_harvested_acre": 82.0,
+      "revenue_per_planted_acre": 82.0,
+      "yield": 40.0
+    },
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.17,
+      "revenue_per_harvested_acre": 86.8,
+      "revenue_per_planted_acre": 86.8,
+      "yield": 40.0
+    },
+    "1952": {
+      "marketing_year": "1952",
+      "price": 2.16,
+      "revenue_per_harvested_acre": 86.4,
+      "revenue_per_planted_acre": 86.4,
+      "yield": 40.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 3.0,
+    "trailing_10yr_avg": {
+      "1949": 25.0,
+      "1950": 27.5,
+      "1951": 29.29,
+      "1952": 30.62
+    },
+    "trailing_5yr_avg": {
+      "1946": 21.67,
+      "1947": 21.25,
+      "1949": 25.0,
+      "1950": 30.0,
+      "1951": 35.0,
+      "1952": 40.0
+    },
+    "yoy_pct": {
+      "1945": -20.0,
+      "1946": 0.0,
+      "1947": 0.0,
+      "1950": 0.0,
+      "1951": 0.0,
+      "1952": 0.0
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "103",
+    "name": "PIKE"
+  },
+  "rank": {
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.7561,
+      "percentile_in_state": 0.68,
+      "rank_in_nation": 410,
+      "rank_in_state": 17
+    },
+    "2005": {
+      "count_in_nation": 1650,
+      "count_in_state": 53,
+      "percentile_in_nation": 0.4706,
+      "percentile_in_state": 0.25,
+      "rank_in_nation": 874,
+      "rank_in_state": 40
+    }
+  },
+  "revenue": {
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.43,
+      "revenue_per_harvested_acre": 253.038,
+      "revenue_per_planted_acre": 253.038,
+      "yield": 46.6
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 5.6,
+      "revenue_per_harvested_acre": 210.0,
+      "revenue_per_planted_acre": 168.0,
+      "yield": 37.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "PA",
+    "fips": "42",
+    "name": "PENNSYLVANIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -9.1,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "2005": -19.53
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "187",
+    "name": "OWEN"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 1833,
+      "count_in_state": 66,
+      "percentile_in_nation": 0.6261,
+      "percentile_in_state": 0.4923,
+      "rank_in_nation": 686,
+      "rank_in_state": 34
+    },
+    "2001": {
+      "count_in_nation": 1777,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.5907,
+      "percentile_in_state": 0.1607,
+      "rank_in_nation": 728,
+      "rank_in_state": 48
+    },
+    "2005": {
+      "count_in_nation": 1693,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.4923,
+      "percentile_in_state": 0.0851,
+      "rank_in_nation": 860,
+      "rank_in_state": 44
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.26,
+      "revenue_per_harvested_acre": 119.78,
+      "revenue_per_planted_acre": 28.519,
+      "yield": 53.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.5,
+      "revenue_per_harvested_acre": 125.0,
+      "revenue_per_planted_acre": 26.7857,
+      "yield": 50.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 3.31,
+      "revenue_per_harvested_acre": 162.19,
+      "revenue_per_planted_acre": 81.095,
+      "yield": 49.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.6429,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "2001": -5.66
+    }
+  }
+}

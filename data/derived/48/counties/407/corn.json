@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "407",
+    "name": "SAN JACINTO"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 2393,
+      "count_in_state": 124,
+      "percentile_in_nation": 0.0648,
+      "percentile_in_state": 0.1057,
+      "rank_in_nation": 2238,
+      "rank_in_state": 111
+    },
+    "1969": {
+      "count_in_nation": 2430,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.0231,
+      "percentile_in_state": 0.2901,
+      "rank_in_nation": 2374,
+      "rank_in_state": 94
+    },
+    "1971": {
+      "count_in_nation": 2401,
+      "count_in_state": 118,
+      "percentile_in_nation": 0.0171,
+      "percentile_in_state": 0.1624,
+      "rank_in_nation": 2360,
+      "rank_in_state": 99
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 36.11,
+      "revenue_per_planted_acre": 25.3,
+      "yield": 31.4
+    },
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.29,
+      "revenue_per_harvested_acre": 25.8,
+      "revenue_per_planted_acre": 20.64,
+      "yield": 20.0
+    },
+    "1971": {
+      "marketing_year": "1971",
+      "price": 1.34,
+      "revenue_per_harvested_acre": 30.954,
+      "revenue_per_planted_acre": 28.7143,
+      "yield": 23.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.15,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1971": 24.83
+    },
+    "yoy_pct": {
+      "1969": -36.31
+    }
+  }
+}

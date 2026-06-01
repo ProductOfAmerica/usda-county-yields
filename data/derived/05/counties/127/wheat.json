@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "127",
+    "name": "SCOTT"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 66,
+      "percentile_in_nation": 0.1692,
+      "percentile_in_state": 0.3231,
+      "rank_in_nation": 2137,
+      "rank_in_state": 45
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.0539,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 2390,
+      "rank_in_state": 68
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.2671,
+      "percentile_in_state": 0.2121,
+      "rank_in_nation": 1864,
+      "rank_in_state": 53
+    },
+    "1977": {
+      "count_in_nation": 2482,
+      "count_in_state": 65,
+      "percentile_in_nation": 0.2713,
+      "percentile_in_state": 0.1562,
+      "rank_in_nation": 1809,
+      "rank_in_state": 55
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.6,
+      "revenue_per_harvested_acre": 72.0,
+      "revenue_per_planted_acre": 14.4,
+      "yield": 20.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.87,
+      "revenue_per_harvested_acre": 51.66,
+      "revenue_per_planted_acre": 32.2875,
+      "yield": 18.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 3.14,
+      "revenue_per_harvested_acre": 81.64,
+      "revenue_per_planted_acre": 68.0333,
+      "yield": 26.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.09,
+      "revenue_per_harvested_acre": 58.52,
+      "revenue_per_planted_acre": 39.0133,
+      "yield": 28.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 3.2,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1976": 21.33,
+      "1977": 23.0
+    },
+    "yoy_pct": {
+      "1975": -10.0,
+      "1976": 44.44,
+      "1977": 7.69
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "005",
+    "name": "ALLEGHANY"
+  },
+  "rank": {
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.2007,
+      "percentile_in_state": 0.3958,
+      "rank_in_nation": 1431,
+      "rank_in_state": 59
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 91,
+      "percentile_in_nation": 0.0372,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 1812,
+      "rank_in_state": 73
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 91,
+      "percentile_in_nation": 0.3968,
+      "percentile_in_state": 0.6222,
+      "rank_in_nation": 1126,
+      "rank_in_state": 35
+    }
+  },
+  "revenue": {
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.65,
+      "revenue_per_harvested_acre": 113.05,
+      "revenue_per_planted_acre": 56.525,
+      "yield": 17.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.45,
+      "revenue_per_harvested_acre": 129.0,
+      "revenue_per_planted_acre": 129.0,
+      "yield": 20.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.83,
+      "revenue_per_harvested_acre": 140.94,
+      "revenue_per_planted_acre": 91.35,
+      "yield": 18.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4231,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1980": 18.33
+    },
+    "yoy_pct": {
+      "1980": -10.0
+    }
+  }
+}

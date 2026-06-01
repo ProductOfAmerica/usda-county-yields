@@ -1,0 +1,184 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "071",
+    "name": "ORANGE"
+  },
+  "rank": {
+    "2016": {
+      "count_in_nation": 1379,
+      "count_in_state": 32,
+      "percentile_in_nation": 0.9521,
+      "percentile_in_state": 0.9677,
+      "rank_in_nation": 67,
+      "rank_in_state": 2
+    },
+    "2017": {
+      "count_in_nation": 1381,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.9964,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 6,
+      "rank_in_state": 1
+    },
+    "2018": {
+      "count_in_nation": 1209,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.9719,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 35,
+      "rank_in_state": 1
+    },
+    "2019": {
+      "count_in_nation": 1126,
+      "count_in_state": 31,
+      "percentile_in_nation": 0.7787,
+      "percentile_in_state": 0.8667,
+      "rank_in_nation": 250,
+      "rank_in_state": 5
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.7076,
+      "percentile_in_state": 0.7429,
+      "rank_in_nation": 439,
+      "rank_in_state": 10
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.5196,
+      "percentile_in_state": 0.5714,
+      "rank_in_nation": 650,
+      "rank_in_state": 16
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.3441,
+      "percentile_in_state": 0.3529,
+      "rank_in_nation": 916,
+      "rank_in_state": 23
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 33,
+      "percentile_in_nation": 0.5088,
+      "percentile_in_state": 0.3438,
+      "rank_in_nation": 642,
+      "rank_in_state": 22
+    },
+    "2024": {
+      "count_in_nation": 1148,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.6356,
+      "percentile_in_state": 0.5185,
+      "rank_in_nation": 419,
+      "rank_in_state": 14
+    }
+  },
+  "revenue": {
+    "2016": {
+      "marketing_year": "2016",
+      "price": 9.57,
+      "revenue_per_harvested_acre": 607.695,
+      "revenue_per_planted_acre": 607.9765,
+      "yield": 63.5
+    },
+    "2017": {
+      "marketing_year": "2017",
+      "price": 9.26,
+      "revenue_per_harvested_acre": 640.792,
+      "revenue_per_planted_acre": 623.8316,
+      "yield": 69.2
+    },
+    "2018": {
+      "marketing_year": "2018",
+      "price": 8.2,
+      "revenue_per_harvested_acre": 546.94,
+      "revenue_per_planted_acre": 499.1304,
+      "yield": 66.7
+    },
+    "2019": {
+      "marketing_year": "2019",
+      "price": 8.5,
+      "revenue_per_harvested_acre": 447.1,
+      "revenue_per_planted_acre": 447.3684,
+      "yield": 52.6
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 11.3,
+      "revenue_per_harvested_acre": 610.2,
+      "revenue_per_planted_acre": 588.4071,
+      "yield": 54.0
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 12.3,
+      "revenue_per_harvested_acre": 626.07,
+      "revenue_per_planted_acre": 570.8647,
+      "yield": 50.9
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 14.4,
+      "revenue_per_harvested_acre": 606.24,
+      "revenue_per_planted_acre": 560.88,
+      "yield": 42.1
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.5,
+      "revenue_per_harvested_acre": 613.75,
+      "revenue_per_planted_acre": 598.125,
+      "yield": 49.1
+    },
+    "2024": {
+      "marketing_year": "2024",
+      "price": 9.6,
+      "revenue_per_harvested_acre": 484.8,
+      "revenue_per_planted_acre": 480.0,
+      "yield": 50.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.72,
+    "trailing_10yr_avg": {
+      "2020": 61.2,
+      "2021": 59.48,
+      "2022": 57.0,
+      "2023": 56.01,
+      "2024": 55.4
+    },
+    "trailing_5yr_avg": {
+      "2018": 66.47,
+      "2019": 63.0,
+      "2020": 61.2,
+      "2021": 58.68,
+      "2022": 53.26,
+      "2023": 49.74,
+      "2024": 49.32
+    },
+    "yoy_pct": {
+      "2017": 8.98,
+      "2018": -3.61,
+      "2019": -21.14,
+      "2020": 2.66,
+      "2021": -5.74,
+      "2022": -17.29,
+      "2023": 16.63,
+      "2024": 2.85
+    }
+  }
+}

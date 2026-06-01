@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "487",
+    "name": "WILBARGER"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 69,
+      "percentile_in_nation": 0.9649,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 67,
+      "rank_in_state": 1
+    },
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.0969,
+      "percentile_in_state": 0.0417,
+      "rank_in_nation": 1502,
+      "rank_in_state": 47
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.0826,
+      "percentile_in_state": 0.2791,
+      "rank_in_nation": 1512,
+      "rank_in_state": 32
+    },
+    "2002": {
+      "count_in_nation": 1631,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.027,
+      "percentile_in_state": 0.0227,
+      "rank_in_nation": 1587,
+      "rank_in_state": 44
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 240.8,
+      "revenue_per_planted_acre": 240.8,
+      "yield": 40.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.4,
+      "revenue_per_harvested_acre": 74.8,
+      "revenue_per_planted_acre": 49.4298,
+      "yield": 17.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.6,
+      "revenue_per_harvested_acre": 102.12,
+      "revenue_per_planted_acre": 83.6364,
+      "yield": 22.2
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 5.1,
+      "revenue_per_harvested_acre": 78.54,
+      "revenue_per_planted_acre": 44.3478,
+      "yield": 15.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.9899,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2002": 18.2
+    },
+    "yoy_pct": {
+      "2001": 30.59,
+      "2002": -30.63
+    }
+  }
+}

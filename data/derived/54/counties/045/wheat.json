@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "045",
+    "name": "LOGAN"
+  },
+  "rank": {
+    "1949": {
+      "count_in_nation": 1480,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.382,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 915,
+      "rank_in_state": 46
+    },
+    "1950": {
+      "count_in_nation": 1483,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.3718,
+      "percentile_in_state": 0.3704,
+      "rank_in_nation": 932,
+      "rank_in_state": 35
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.87,
+      "revenue_per_harvested_acre": 28.05,
+      "revenue_per_planted_acre": 14.025,
+      "yield": 15.0
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 1.99,
+      "revenue_per_harvested_acre": 29.85,
+      "revenue_per_planted_acre": 9.95,
+      "yield": 15.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1950": 0.0
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "109",
+    "name": "CULBERSON"
+  },
+  "rank": {
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 135,
+      "percentile_in_nation": 0.8395,
+      "percentile_in_state": 0.8358,
+      "rank_in_nation": 407,
+      "rank_in_state": 23
+    },
+    "1979": {
+      "count_in_nation": 2431,
+      "count_in_state": 127,
+      "percentile_in_nation": 0.707,
+      "percentile_in_state": 0.746,
+      "rank_in_nation": 713,
+      "rank_in_state": 33
+    },
+    "1981": {
+      "count_in_nation": 2400,
+      "count_in_state": 90,
+      "percentile_in_nation": 0.5265,
+      "percentile_in_state": 0.5169,
+      "rank_in_nation": 1137,
+      "rank_in_state": 44
+    }
+  },
+  "revenue": {
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.16,
+      "revenue_per_harvested_acre": 216.0,
+      "revenue_per_planted_acre": 137.4545,
+      "yield": 100.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 2.82,
+      "revenue_per_harvested_acre": 282.846,
+      "revenue_per_planted_acre": 282.8057,
+      "yield": 100.3
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 2.88,
+      "revenue_per_harvested_acre": 259.488,
+      "revenue_per_planted_acre": 235.8982,
+      "yield": 90.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.475,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1981": 96.8
+    },
+    "yoy_pct": {}
+  }
+}

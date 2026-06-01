@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "045",
+    "name": "GULF"
+  },
+  "rank": {
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 29,
+      "percentile_in_nation": 0.6062,
+      "percentile_in_state": 0.9643,
+      "rank_in_nation": 739,
+      "rank_in_state": 2
+    },
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.4141,
+      "percentile_in_state": 0.8462,
+      "rank_in_nation": 1086,
+      "rank_in_state": 5
+    }
+  },
+  "revenue": {
+    "1984": {
+      "marketing_year": "1984",
+      "price": 6.2,
+      "revenue_per_harvested_acre": 173.6,
+      "revenue_per_planted_acre": 166.3667,
+      "yield": 28.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 5.2,
+      "revenue_per_harvested_acre": 145.6,
+      "revenue_per_planted_acre": 124.8,
+      "yield": 28.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1985": 0.0
+    }
+  }
+}

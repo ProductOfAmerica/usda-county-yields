@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "031",
+    "name": "PIUTE"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.9249,
+      "percentile_in_state": 0.7407,
+      "rank_in_nation": 189,
+      "rank_in_state": 8
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.8923,
+      "percentile_in_state": 0.7407,
+      "rank_in_nation": 272,
+      "rank_in_state": 8
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.9304,
+      "percentile_in_state": 0.7037,
+      "rank_in_nation": 180,
+      "rank_in_state": 9
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.6214,
+      "percentile_in_state": 0.6538,
+      "rank_in_nation": 957,
+      "rank_in_state": 10
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.2227,
+      "percentile_in_state": 0.4444,
+      "rank_in_nation": 1977,
+      "rank_in_state": 16
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.77,
+      "revenue_per_harvested_acre": 83.013,
+      "revenue_per_planted_acre": 66.375,
+      "yield": 46.9
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 4.14,
+      "revenue_per_harvested_acre": 164.772,
+      "revenue_per_planted_acre": 131.652,
+      "yield": 39.8
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 4.0,
+      "revenue_per_harvested_acre": 173.2,
+      "revenue_per_planted_acre": 173.3333,
+      "yield": 43.3
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.44,
+      "revenue_per_harvested_acre": 110.08,
+      "revenue_per_planted_acre": 110.08,
+      "yield": 32.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.56,
+      "revenue_per_harvested_acre": 64.0,
+      "revenue_per_planted_acre": 64.0,
+      "yield": 25.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "UT",
+    "fips": "49",
+    "name": "UTAH"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -5.16,
+    "trailing_10yr_avg": {
+      "1976": 37.4
+    },
+    "trailing_5yr_avg": {
+      "1974": 43.33,
+      "1975": 40.5,
+      "1976": 37.4
+    },
+    "yoy_pct": {
+      "1973": -15.14,
+      "1974": 8.79,
+      "1975": -26.1,
+      "1976": -21.88
+    }
+  }
+}

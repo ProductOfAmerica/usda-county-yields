@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER COUNTIES"
+  },
+  "rank": {
+    "2024": {
+      "count_in_nation": 1148,
+      "count_in_state": 2,
+      "percentile_in_nation": 0.4429,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 640,
+      "rank_in_state": 1
+    }
+  },
+  "revenue": {
+    "2024": {
+      "marketing_year": "2024",
+      "price": 9.8,
+      "revenue_per_harvested_acre": 441.98,
+      "revenue_per_planted_acre": 436.9063,
+      "yield": 45.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "DE",
+    "fips": "10",
+    "name": "DELAWARE"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

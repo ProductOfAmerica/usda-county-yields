@@ -1,0 +1,183 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "059",
+    "name": "SKAMANIA"
+  },
+  "rank": {
+    "1939": {
+      "count_in_nation": 1285,
+      "count_in_state": 30,
+      "percentile_in_nation": 0.6036,
+      "percentile_in_state": 0.7931,
+      "rank_in_nation": 510,
+      "rank_in_state": 7
+    },
+    "1940": {
+      "count_in_nation": 1285,
+      "count_in_state": 30,
+      "percentile_in_nation": 0.7188,
+      "percentile_in_state": 0.7241,
+      "rank_in_nation": 362,
+      "rank_in_state": 9
+    },
+    "1941": {
+      "count_in_nation": 1336,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.4846,
+      "percentile_in_state": 0.48,
+      "rank_in_nation": 689,
+      "rank_in_state": 14
+    },
+    "1942": {
+      "count_in_nation": 1361,
+      "count_in_state": 25,
+      "percentile_in_nation": 0.1772,
+      "percentile_in_state": 0.2083,
+      "rank_in_nation": 1120,
+      "rank_in_state": 20
+    },
+    "1943": {
+      "count_in_nation": 1362,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.4122,
+      "percentile_in_state": 0.64,
+      "rank_in_nation": 801,
+      "rank_in_state": 10
+    },
+    "1944": {
+      "count_in_nation": 1444,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.587,
+      "percentile_in_state": 0.84,
+      "rank_in_nation": 597,
+      "rank_in_state": 5
+    },
+    "1945": {
+      "count_in_nation": 1447,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.7953,
+      "percentile_in_state": 0.8462,
+      "rank_in_nation": 297,
+      "rank_in_state": 5
+    },
+    "1946": {
+      "count_in_nation": 1446,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.5599,
+      "percentile_in_state": 0.28,
+      "rank_in_nation": 637,
+      "rank_in_state": 19
+    },
+    "1947": {
+      "count_in_nation": 1449,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.75,
+      "percentile_in_state": 0.28,
+      "rank_in_nation": 363,
+      "rank_in_state": 19
+    },
+    "1948": {
+      "count_in_nation": 1442,
+      "count_in_state": 23,
+      "percentile_in_nation": 0.3997,
+      "percentile_in_state": 0.1818,
+      "rank_in_nation": 866,
+      "rank_in_state": 19
+    },
+    "1949": {
+      "count_in_nation": 1376,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.4945,
+      "percentile_in_state": 0.5652,
+      "rank_in_nation": 696,
+      "rank_in_state": 11
+    },
+    "1950": {
+      "count_in_nation": 1416,
+      "count_in_state": 23,
+      "percentile_in_nation": 0.8488,
+      "percentile_in_state": 0.7727,
+      "rank_in_nation": 215,
+      "rank_in_state": 6
+    },
+    "1951": {
+      "count_in_nation": 1494,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.5914,
+      "percentile_in_state": 0.6522,
+      "rank_in_nation": 611,
+      "rank_in_state": 9
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.5,
+      "revenue_per_harvested_acre": 55.5,
+      "yield": 37.0
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 1.78,
+      "revenue_per_harvested_acre": 89.0,
+      "yield": 50.0
+    },
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.02,
+      "revenue_per_harvested_acre": 76.76,
+      "yield": 38.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.0687,
+    "trailing_10yr_avg": {
+      "1943": 29.1,
+      "1944": 29.75,
+      "1945": 31.64,
+      "1946": 32.19,
+      "1947": 32.72,
+      "1948": 32.95,
+      "1949": 33.35,
+      "1950": 34.6,
+      "1951": 35.5
+    },
+    "trailing_5yr_avg": {
+      "1941": 33.17,
+      "1942": 29.88,
+      "1943": 29.1,
+      "1944": 29.1,
+      "1945": 30.2,
+      "1946": 31.6,
+      "1947": 35.0,
+      "1948": 36.8,
+      "1949": 37.6,
+      "1950": 39.0,
+      "1951": 39.4
+    },
+    "yoy_pct": {
+      "1940": 13.64,
+      "1941": -22.67,
+      "1942": -31.03,
+      "1943": 30.0,
+      "1944": 26.92,
+      "1945": 30.3,
+      "1946": -16.28,
+      "1947": 2.78,
+      "1948": -5.41,
+      "1949": 5.71,
+      "1950": 35.14,
+      "1951": -24.0
+    }
+  }
+}

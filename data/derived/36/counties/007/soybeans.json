@@ -1,0 +1,71 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "007",
+    "name": "BROOME"
+  },
+  "rank": {
+    "2006": {
+      "count_in_nation": 1611,
+      "count_in_state": 33,
+      "percentile_in_nation": 0.654,
+      "percentile_in_state": 0.4688,
+      "rank_in_nation": 558,
+      "rank_in_state": 18
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.4479,
+      "percentile_in_state": 0.4571,
+      "rank_in_nation": 828,
+      "rank_in_state": 20
+    },
+    "2024": {
+      "count_in_nation": 1148,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.5867,
+      "percentile_in_state": 0.2593,
+      "rank_in_nation": 475,
+      "rank_in_state": 21
+    }
+  },
+  "revenue": {
+    "2006": {
+      "marketing_year": "2006",
+      "price": 6.19,
+      "revenue_per_harvested_acre": 272.36,
+      "revenue_per_planted_acre": 272.36,
+      "yield": 44.0
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 11.3,
+      "revenue_per_harvested_acre": 545.79,
+      "revenue_per_planted_acre": 536.75,
+      "yield": 48.3
+    },
+    "2024": {
+      "marketing_year": "2024",
+      "price": 9.6,
+      "revenue_per_harvested_acre": 471.36,
+      "revenue_per_planted_acre": 429.8667,
+      "yield": 49.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2896,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

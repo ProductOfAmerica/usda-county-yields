@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "115",
+    "name": "DAWSON"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 2393,
+      "count_in_state": 124,
+      "percentile_in_nation": 0.2237,
+      "percentile_in_state": 0.3984,
+      "rank_in_nation": 1858,
+      "rank_in_state": 75
+    },
+    "1998": {
+      "count_in_nation": 2123,
+      "count_in_state": 113,
+      "percentile_in_nation": 0.1913,
+      "percentile_in_state": 0.625,
+      "rank_in_nation": 1717,
+      "rank_in_state": 43
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 47.035,
+      "revenue_per_planted_acre": 44.3571,
+      "yield": 40.9
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 2.26,
+      "revenue_per_harvested_acre": 151.646,
+      "revenue_per_planted_acre": 81.7077,
+      "yield": 67.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.8733,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

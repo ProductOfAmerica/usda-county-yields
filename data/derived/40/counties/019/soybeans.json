@@ -1,0 +1,122 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "019",
+    "name": "CARTER"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.542,
+      "percentile_in_state": 0.7778,
+      "rank_in_nation": 807,
+      "rank_in_state": 15
+    },
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.5721,
+      "percentile_in_state": 0.4677,
+      "rank_in_nation": 778,
+      "rank_in_state": 34
+    },
+    "1981": {
+      "count_in_nation": 1835,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.2879,
+      "percentile_in_state": 0.6444,
+      "rank_in_nation": 1307,
+      "rank_in_state": 17
+    },
+    "1982": {
+      "count_in_nation": 1813,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.1264,
+      "percentile_in_state": 0.619,
+      "rank_in_nation": 1584,
+      "rank_in_state": 17
+    },
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.7774,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 417,
+      "rank_in_state": 1
+    },
+    "1991": {
+      "count_in_nation": 1740,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.3905,
+      "percentile_in_state": 0.7568,
+      "rank_in_nation": 1061,
+      "rank_in_state": 10
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.31,
+      "revenue_per_harvested_acre": 127.44,
+      "revenue_per_planted_acre": 115.8545,
+      "yield": 24.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.48,
+      "revenue_per_harvested_acre": 150.984,
+      "revenue_per_planted_acre": 151.2,
+      "yield": 23.3
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 5.7,
+      "revenue_per_harvested_acre": 131.1,
+      "revenue_per_planted_acre": 109.25,
+      "yield": 23.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 5.2,
+      "revenue_per_harvested_acre": 112.32,
+      "revenue_per_planted_acre": 93.6,
+      "yield": 21.6
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.6,
+      "revenue_per_harvested_acre": 228.0,
+      "revenue_per_planted_acre": 182.4,
+      "yield": 30.0
+    },
+    "1991": {
+      "marketing_year": "1991",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 151.94,
+      "revenue_per_planted_acre": 114.1333,
+      "yield": 28.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2788,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1983": 24.87
+    },
+    "yoy_pct": {
+      "1974": -2.92,
+      "1982": -6.09,
+      "1983": 38.89
+    }
+  }
+}

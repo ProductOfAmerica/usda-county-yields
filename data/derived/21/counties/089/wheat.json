@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "089",
+    "name": "GREENUP"
+  },
+  "rank": {
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.7208,
+      "percentile_in_state": 0.7059,
+      "rank_in_nation": 706,
+      "rank_in_state": 26
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.5838,
+      "percentile_in_state": 0.7059,
+      "rank_in_nation": 1059,
+      "rank_in_state": 26
+    }
+  },
+  "revenue": {
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.96,
+      "revenue_per_harvested_acre": 100.64,
+      "revenue_per_planted_acre": 50.32,
+      "yield": 34.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.95,
+      "revenue_per_harvested_acre": 94.4,
+      "revenue_per_planted_acre": 47.2,
+      "yield": 32.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1976": -5.88
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "027",
+    "name": "DUTCHESS"
+  },
+  "rank": {
+    "2003": {
+      "count_in_nation": 1625,
+      "count_in_state": 33,
+      "percentile_in_nation": 0.9581,
+      "percentile_in_state": 0.9375,
+      "rank_in_nation": 69,
+      "rank_in_state": 3
+    },
+    "2005": {
+      "count_in_nation": 1650,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.7029,
+      "percentile_in_state": 0.8378,
+      "rank_in_nation": 491,
+      "rank_in_state": 7
+    },
+    "2007": {
+      "count_in_nation": 1537,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.8574,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 220,
+      "rank_in_state": 1
+    },
+    "2016": {
+      "count_in_nation": 1379,
+      "count_in_state": 32,
+      "percentile_in_nation": 0.4594,
+      "percentile_in_state": 0.7419,
+      "rank_in_nation": 746,
+      "rank_in_state": 9
+    },
+    "2018": {
+      "count_in_nation": 1209,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.6589,
+      "percentile_in_state": 0.56,
+      "rank_in_nation": 413,
+      "rank_in_state": 12
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.3563,
+      "percentile_in_state": 0.3824,
+      "rank_in_nation": 899,
+      "rank_in_state": 22
+    }
+  },
+  "revenue": {
+    "2003": {
+      "marketing_year": "2003",
+      "price": 7.8,
+      "revenue_per_harvested_acre": 358.8,
+      "revenue_per_planted_acre": 361.4,
+      "yield": 46.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 5.2,
+      "revenue_per_harvested_acre": 228.8,
+      "revenue_per_planted_acre": 227.6444,
+      "yield": 44.0
+    },
+    "2007": {
+      "marketing_year": "2007",
+      "price": 11.2,
+      "revenue_per_harvested_acre": 560.0,
+      "revenue_per_planted_acre": 557.76,
+      "yield": 50.0
+    },
+    "2016": {
+      "marketing_year": "2016",
+      "price": 9.57,
+      "revenue_per_harvested_acre": 458.403,
+      "revenue_per_planted_acre": 435.9667,
+      "yield": 47.9
+    },
+    "2018": {
+      "marketing_year": "2018",
+      "price": 8.2,
+      "revenue_per_harvested_acre": 432.14,
+      "revenue_per_planted_acre": 389.09,
+      "yield": 52.7
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 14.4,
+      "revenue_per_harvested_acre": 612.0,
+      "revenue_per_planted_acre": 565.7143,
+      "yield": 42.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.026,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2007": 46.67
+    },
+    "yoy_pct": {}
+  }
+}

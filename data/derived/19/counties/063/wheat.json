@@ -1,0 +1,166 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "063",
+    "name": "EMMET"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.5076,
+      "percentile_in_state": 0.2444,
+      "rank_in_nation": 1240,
+      "rank_in_state": 35
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.9405,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 154,
+      "rank_in_state": 1
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 87,
+      "percentile_in_nation": 0.7263,
+      "percentile_in_state": 0.3023,
+      "rank_in_nation": 692,
+      "rank_in_state": 61
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 92,
+      "percentile_in_nation": 0.7286,
+      "percentile_in_state": 0.5275,
+      "rank_in_nation": 691,
+      "rank_in_state": 44
+    },
+    "1977": {
+      "count_in_nation": 2482,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.6372,
+      "percentile_in_state": 0.4737,
+      "rank_in_nation": 901,
+      "rank_in_state": 41
+    },
+    "1978": {
+      "count_in_nation": 2420,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.4254,
+      "percentile_in_state": 0.4937,
+      "rank_in_nation": 1391,
+      "rank_in_state": 41
+    },
+    "1979": {
+      "count_in_nation": 2448,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.3519,
+      "percentile_in_state": 0.1529,
+      "rank_in_nation": 1587,
+      "rank_in_state": 73
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 91,
+      "percentile_in_nation": 0.2522,
+      "percentile_in_state": 0.0111,
+      "rank_in_nation": 1872,
+      "rank_in_state": 90
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.01,
+      "revenue_per_harvested_acre": 90.3,
+      "revenue_per_planted_acre": 76.4077,
+      "yield": 30.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 4.13,
+      "revenue_per_harvested_acre": 182.546,
+      "revenue_per_planted_acre": 172.8079,
+      "yield": 44.2
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.46,
+      "revenue_per_harvested_acre": 118.332,
+      "revenue_per_planted_acre": 109.1231,
+      "yield": 34.2
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.94,
+      "revenue_per_harvested_acre": 103.782,
+      "revenue_per_planted_acre": 103.6737,
+      "yield": 35.3
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.11,
+      "revenue_per_harvested_acre": 73.85,
+      "revenue_per_planted_acre": 73.85,
+      "yield": 35.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 2.7,
+      "revenue_per_harvested_acre": 81.0,
+      "revenue_per_planted_acre": 81.0,
+      "yield": 30.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 3.3,
+      "revenue_per_harvested_acre": 102.3,
+      "revenue_per_planted_acre": 102.3,
+      "yield": 31.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.85,
+      "revenue_per_harvested_acre": 111.65,
+      "revenue_per_planted_acre": 111.65,
+      "yield": 29.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -1.0226,
+    "trailing_10yr_avg": {
+      "1977": 35.74,
+      "1978": 34.78,
+      "1979": 34.24,
+      "1980": 33.59
+    },
+    "trailing_5yr_avg": {
+      "1975": 36.13,
+      "1976": 35.92,
+      "1977": 35.74,
+      "1978": 35.74,
+      "1979": 33.1,
+      "1980": 32.06
+    },
+    "yoy_pct": {
+      "1974": 47.33,
+      "1975": -22.62,
+      "1976": 3.22,
+      "1977": -0.85,
+      "1978": -14.29,
+      "1979": 3.33,
+      "1980": -6.45
+    }
+  }
+}

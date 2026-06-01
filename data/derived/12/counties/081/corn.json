@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "081",
+    "name": "MANATEE"
+  },
+  "rank": {
+    "1997": {
+      "count_in_nation": 2109,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.9787,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 46,
+      "rank_in_state": 1
+    },
+    "1998": {
+      "count_in_nation": 2123,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.3497,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 1381,
+      "rank_in_state": 1
+    }
+  },
+  "revenue": {
+    "1997": {
+      "marketing_year": "1997",
+      "price": 2.9,
+      "revenue_per_harvested_acre": 507.5,
+      "revenue_per_planted_acre": 390.3846,
+      "yield": 175.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 2.3,
+      "revenue_per_harvested_acre": 207.0,
+      "revenue_per_planted_acre": 85.2353,
+      "yield": 90.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -85.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1998": -48.57
+    }
+  }
+}

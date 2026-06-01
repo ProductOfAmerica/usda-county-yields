@@ -1,0 +1,136 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "013",
+    "name": "CROOK"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 2480,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.8725,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 317,
+      "rank_in_state": 1
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.8476,
+      "percentile_in_state": 0.7143,
+      "rank_in_nation": 386,
+      "rank_in_state": 5
+    },
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.8168,
+      "percentile_in_state": 0.8333,
+      "rank_in_nation": 460,
+      "rank_in_state": 3
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.8491,
+      "percentile_in_state": 0.8667,
+      "rank_in_nation": 381,
+      "rank_in_state": 3
+    },
+    "1996": {
+      "count_in_nation": 2142,
+      "count_in_state": 18,
+      "percentile_in_nation": 0.958,
+      "percentile_in_state": 0.7647,
+      "rank_in_nation": 91,
+      "rank_in_state": 5
+    },
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.0313,
+      "percentile_in_state": 0.7826,
+      "rank_in_nation": 2013,
+      "rank_in_state": 6
+    },
+    "2001": {
+      "count_in_nation": 2023,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.0376,
+      "percentile_in_state": 0.8,
+      "rank_in_nation": 1947,
+      "rank_in_state": 5
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.1,
+      "revenue_per_harvested_acre": 310.0,
+      "revenue_per_planted_acre": 310.0,
+      "yield": 100.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.6,
+      "revenue_per_harvested_acre": 306.0,
+      "revenue_per_planted_acre": 306.0,
+      "yield": 85.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.05,
+      "revenue_per_harvested_acre": 274.5,
+      "revenue_per_planted_acre": 274.5,
+      "yield": 90.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.75,
+      "revenue_per_harvested_acre": 275.0,
+      "revenue_per_planted_acre": 275.0,
+      "yield": 100.0
+    },
+    "1996": {
+      "marketing_year": "1996",
+      "price": 3.19,
+      "revenue_per_harvested_acre": 510.4,
+      "revenue_per_planted_acre": 510.4,
+      "yield": 160.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.41,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.54,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.0754,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1975": 91.67,
+      "1976": 93.75
+    },
+    "yoy_pct": {
+      "1974": -15.0,
+      "1975": 5.88,
+      "1976": 11.11
+    }
+  }
+}

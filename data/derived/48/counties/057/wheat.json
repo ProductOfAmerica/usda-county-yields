@@ -1,0 +1,124 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "057",
+    "name": "CALHOUN"
+  },
+  "rank": {
+    "1977": {
+      "count_in_nation": 2482,
+      "count_in_state": 191,
+      "percentile_in_nation": 0.0379,
+      "percentile_in_state": 0.1526,
+      "rank_in_nation": 2388,
+      "rank_in_state": 162
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 208,
+      "percentile_in_nation": 0.1267,
+      "percentile_in_state": 0.5749,
+      "rank_in_nation": 2186,
+      "rank_in_state": 89
+    },
+    "1981": {
+      "count_in_nation": 2535,
+      "count_in_state": 204,
+      "percentile_in_nation": 0.1685,
+      "percentile_in_state": 0.5222,
+      "rank_in_nation": 2108,
+      "rank_in_state": 98
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 206,
+      "percentile_in_nation": 0.0051,
+      "percentile_in_state": 0.039,
+      "rank_in_nation": 2519,
+      "rank_in_state": 198
+    },
+    "1985": {
+      "count_in_nation": 2477,
+      "count_in_state": 205,
+      "percentile_in_nation": 0.0392,
+      "percentile_in_state": 0.0784,
+      "rank_in_nation": 2380,
+      "rank_in_state": 189
+    },
+    "2001": {
+      "count_in_nation": 1777,
+      "count_in_state": 159,
+      "percentile_in_nation": 0.013,
+      "percentile_in_state": 0.0063,
+      "rank_in_nation": 1754,
+      "rank_in_state": 158
+    }
+  },
+  "revenue": {
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.15,
+      "revenue_per_harvested_acre": 38.055,
+      "revenue_per_planted_acre": 16.2786,
+      "yield": 17.7
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.74,
+      "revenue_per_harvested_acre": 87.142,
+      "revenue_per_planted_acre": 65.45,
+      "yield": 23.3
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 3.65,
+      "revenue_per_harvested_acre": 103.295,
+      "revenue_per_planted_acre": 62.05,
+      "yield": 28.3
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.42,
+      "revenue_per_harvested_acre": 49.932,
+      "revenue_per_planted_acre": 36.1,
+      "yield": 14.6
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 2.97,
+      "revenue_per_harvested_acre": 59.4,
+      "revenue_per_planted_acre": 27.4154,
+      "yield": 20.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.78,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.9415,
+    "trailing_10yr_avg": {
+      "1985": 20.78
+    },
+    "trailing_5yr_avg": {
+      "1981": 23.1,
+      "1982": 22.07,
+      "1985": 20.97
+    },
+    "yoy_pct": {
+      "1981": 21.46,
+      "1982": -48.41
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "223",
+    "name": "PAULDING"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.2679,
+      "percentile_in_state": 0.274,
+      "rank_in_nation": 1378,
+      "rank_in_state": 107
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.3609,
+      "percentile_in_state": 0.8151,
+      "rank_in_nation": 1193,
+      "rank_in_state": 28
+    },
+    "1982": {
+      "count_in_nation": 1813,
+      "count_in_state": 146,
+      "percentile_in_nation": 0.0883,
+      "percentile_in_state": 0.0897,
+      "rank_in_nation": 1653,
+      "rank_in_state": 133
+    },
+    "1991": {
+      "count_in_nation": 1740,
+      "count_in_state": 128,
+      "percentile_in_nation": 0.7706,
+      "percentile_in_state": 0.9843,
+      "rank_in_nation": 400,
+      "rank_in_state": 3
+    },
+    "1992": {
+      "count_in_nation": 1739,
+      "count_in_state": 123,
+      "percentile_in_nation": 0.3487,
+      "percentile_in_state": 0.6557,
+      "rank_in_nation": 1133,
+      "rank_in_state": 43
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.36,
+      "revenue_per_harvested_acre": 159.0,
+      "revenue_per_planted_acre": 144.5455,
+      "yield": 25.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.63,
+      "revenue_per_harvested_acre": 132.762,
+      "revenue_per_planted_acre": 133.0163,
+      "yield": 17.4
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 5.45,
+      "revenue_per_harvested_acre": 109.0,
+      "revenue_per_planted_acre": 109.0,
+      "yield": 20.0
+    },
+    "1991": {
+      "marketing_year": "1991",
+      "price": 5.53,
+      "revenue_per_harvested_acre": 207.375,
+      "revenue_per_planted_acre": 207.375,
+      "yield": 37.5
+    },
+    "1992": {
+      "marketing_year": "1992",
+      "price": 5.49,
+      "revenue_per_harvested_acre": 164.7,
+      "revenue_per_planted_acre": 164.7,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.0593,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1982": 20.8
+    },
+    "yoy_pct": {
+      "1980": -30.4,
+      "1992": -20.0
+    }
+  }
+}

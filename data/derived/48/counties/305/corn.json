@@ -1,0 +1,166 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "305",
+    "name": "LYNN"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 2393,
+      "count_in_state": 124,
+      "percentile_in_nation": 0.1685,
+      "percentile_in_state": 0.3008,
+      "rank_in_nation": 1990,
+      "rank_in_state": 87
+    },
+    "1970": {
+      "count_in_nation": 2397,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.4912,
+      "percentile_in_state": 0.7258,
+      "rank_in_nation": 1220,
+      "rank_in_state": 35
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 135,
+      "percentile_in_nation": 0.8588,
+      "percentile_in_state": 0.8657,
+      "rank_in_nation": 358,
+      "rank_in_state": 19
+    },
+    "1978": {
+      "count_in_nation": 2455,
+      "count_in_state": 121,
+      "percentile_in_nation": 0.8403,
+      "percentile_in_state": 0.8333,
+      "rank_in_nation": 393,
+      "rank_in_state": 21
+    },
+    "1998": {
+      "count_in_nation": 2123,
+      "count_in_state": 113,
+      "percentile_in_nation": 0.1598,
+      "percentile_in_state": 0.5804,
+      "rank_in_nation": 1784,
+      "rank_in_state": 48
+    },
+    "2016": {
+      "count_in_nation": 1541,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.1071,
+      "percentile_in_state": 0.6119,
+      "rank_in_nation": 1376,
+      "rank_in_state": 27
+    },
+    "2019": {
+      "count_in_nation": 1288,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.2082,
+      "percentile_in_state": 0.7143,
+      "rank_in_nation": 1020,
+      "rank_in_state": 17
+    },
+    "2020": {
+      "count_in_nation": 1699,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.0135,
+      "percentile_in_state": 0.0339,
+      "rank_in_nation": 1676,
+      "rank_in_state": 58
+    },
+    "2025": {
+      "count_in_nation": 1241,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.1766,
+      "percentile_in_state": 0.6383,
+      "rank_in_nation": 1022,
+      "rank_in_state": 18
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 43.125,
+      "revenue_per_planted_acre": 4.9286,
+      "yield": 37.5
+    },
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.42,
+      "revenue_per_harvested_acre": 73.84,
+      "revenue_per_planted_acre": 59.072,
+      "yield": 52.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.16,
+      "revenue_per_harvested_acre": 220.32,
+      "revenue_per_planted_acre": 220.32,
+      "yield": 102.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 2.45,
+      "revenue_per_harvested_acre": 257.25,
+      "revenue_per_planted_acre": 192.9375,
+      "yield": 105.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 2.26,
+      "revenue_per_harvested_acre": 140.12,
+      "revenue_per_planted_acre": 100.0857,
+      "yield": 62.0
+    },
+    "2016": {
+      "marketing_year": "2016",
+      "price": 3.71,
+      "revenue_per_harvested_acre": 393.26,
+      "revenue_per_planted_acre": 342.1444,
+      "yield": 106.0
+    },
+    "2019": {
+      "marketing_year": "2019",
+      "price": 4.2,
+      "revenue_per_harvested_acre": 540.96,
+      "revenue_per_planted_acre": 521.2048,
+      "yield": 128.8
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 4.52,
+      "revenue_per_harvested_acre": 305.552,
+      "revenue_per_planted_acre": 221.3241,
+      "yield": 67.6
+    },
+    "2025": {
+      "marketing_year": "2025",
+      "price": 4.6,
+      "revenue_per_harvested_acre": 617.32,
+      "revenue_per_planted_acre": 464.8936,
+      "yield": 134.2
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.8625,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2020": 100.8
+    },
+    "yoy_pct": {
+      "1978": 2.94,
+      "2020": -47.52
+    }
+  }
+}

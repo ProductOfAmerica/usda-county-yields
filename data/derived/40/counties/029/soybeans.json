@@ -1,0 +1,177 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "029",
+    "name": "COAL"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.2142,
+      "percentile_in_state": 0.3016,
+      "rank_in_nation": 1384,
+      "rank_in_state": 45
+    },
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.6503,
+      "percentile_in_state": 0.7097,
+      "rank_in_nation": 636,
+      "rank_in_state": 19
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 45,
+      "percentile_in_nation": 0.218,
+      "percentile_in_state": 0.4318,
+      "rank_in_nation": 1400,
+      "rank_in_state": 26
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.228,
+      "percentile_in_state": 0.4889,
+      "rank_in_nation": 1420,
+      "rank_in_state": 24
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.1309,
+      "percentile_in_state": 0.7609,
+      "rank_in_nation": 1614,
+      "rank_in_state": 12
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.0665,
+      "percentile_in_state": 0.42,
+      "rank_in_nation": 1757,
+      "rank_in_state": 30
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 48,
+      "percentile_in_nation": 0.2263,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 1444,
+      "rank_in_state": 1
+    },
+    "1997": {
+      "count_in_nation": 1683,
+      "count_in_state": 54,
+      "percentile_in_nation": 0.0684,
+      "percentile_in_state": 0.1132,
+      "rank_in_nation": 1568,
+      "rank_in_state": 48
+    },
+    "2010": {
+      "count_in_nation": 1523,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.0138,
+      "percentile_in_state": 0.037,
+      "rank_in_nation": 1502,
+      "rank_in_state": 27
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.31,
+      "revenue_per_harvested_acre": 106.2,
+      "revenue_per_planted_acre": 106.2,
+      "yield": 20.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.48,
+      "revenue_per_harvested_acre": 155.52,
+      "revenue_per_planted_acre": 155.52,
+      "yield": 24.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.45,
+      "revenue_per_harvested_acre": 112.875,
+      "revenue_per_planted_acre": 90.3,
+      "yield": 17.5
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 107.0,
+      "revenue_per_planted_acre": 93.625,
+      "yield": 20.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.35,
+      "revenue_per_harvested_acre": 114.3,
+      "revenue_per_planted_acre": 95.25,
+      "yield": 18.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 5.9,
+      "revenue_per_harvested_acre": 128.03,
+      "revenue_per_planted_acre": 109.5714,
+      "yield": 21.7
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.34,
+      "revenue_per_harvested_acre": 102.76,
+      "revenue_per_planted_acre": 85.6333,
+      "yield": 14.0
+    },
+    "1997": {
+      "marketing_year": "1997",
+      "price": 6.4,
+      "revenue_per_harvested_acre": 128.0,
+      "revenue_per_planted_acre": 128.0,
+      "yield": 20.0
+    },
+    "2010": {
+      "marketing_year": "2010",
+      "price": 11.4,
+      "revenue_per_harvested_acre": 176.7,
+      "revenue_per_planted_acre": 161.5,
+      "yield": 15.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.0983,
+    "trailing_10yr_avg": {
+      "1978": 19.9,
+      "1979": 20.2,
+      "1980": 19.31
+    },
+    "trailing_5yr_avg": {
+      "1976": 20.5,
+      "1977": 20.38,
+      "1978": 19.88,
+      "1979": 19.3,
+      "1980": 18.24
+    },
+    "yoy_pct": {
+      "1974": 20.0,
+      "1977": 14.29,
+      "1978": -10.0,
+      "1979": 20.56,
+      "1980": -35.48
+    }
+  }
+}

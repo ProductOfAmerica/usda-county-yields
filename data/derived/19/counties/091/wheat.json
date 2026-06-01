@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "091",
+    "name": "HUMBOLDT"
+  },
+  "rank": {
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 92,
+      "percentile_in_nation": 0.9359,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 164,
+      "rank_in_state": 1
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 91,
+      "percentile_in_nation": 0.5316,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 1173,
+      "rank_in_state": 61
+    }
+  },
+  "revenue": {
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.94,
+      "revenue_per_harvested_acre": 133.182,
+      "revenue_per_planted_acre": 124.95,
+      "yield": 45.3
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.85,
+      "revenue_per_harvested_acre": 134.75,
+      "revenue_per_planted_acre": 134.75,
+      "yield": 35.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -2.575,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

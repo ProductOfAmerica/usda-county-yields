@@ -1,0 +1,165 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "113",
+    "name": "MACON"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 1724,
+      "count_in_state": 91,
+      "percentile_in_nation": 0.2205,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 1344,
+      "rank_in_state": 61
+    },
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 94,
+      "percentile_in_nation": 0.1129,
+      "percentile_in_state": 0.172,
+      "rank_in_nation": 1612,
+      "rank_in_state": 78
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 95,
+      "percentile_in_nation": 0.172,
+      "percentile_in_state": 0.4362,
+      "rank_in_nation": 1484,
+      "rank_in_state": 54
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.2515,
+      "percentile_in_state": 0.4792,
+      "rank_in_nation": 1340,
+      "rank_in_state": 51
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.0892,
+      "percentile_in_state": 0.3854,
+      "rank_in_nation": 1675,
+      "rank_in_state": 60
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 90,
+      "percentile_in_nation": 0.4795,
+      "percentile_in_state": 0.7865,
+      "rank_in_nation": 967,
+      "rank_in_state": 20
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 91,
+      "percentile_in_nation": 0.093,
+      "percentile_in_state": 0.4333,
+      "rank_in_nation": 1707,
+      "rank_in_state": 52
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 91,
+      "percentile_in_nation": 0.4879,
+      "percentile_in_state": 0.8111,
+      "rank_in_nation": 956,
+      "rank_in_state": 18
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 4.13,
+      "revenue_per_harvested_acre": 78.47,
+      "revenue_per_planted_acre": 31.388,
+      "yield": 19.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.81,
+      "revenue_per_harvested_acre": 115.77,
+      "revenue_per_planted_acre": 92.616,
+      "yield": 17.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.67,
+      "revenue_per_harvested_acre": 93.4,
+      "revenue_per_planted_acre": 84.9091,
+      "yield": 20.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.65,
+      "revenue_per_harvested_acre": 119.7,
+      "revenue_per_planted_acre": 97.2562,
+      "yield": 18.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 102.34,
+      "revenue_per_planted_acre": 86.0,
+      "yield": 17.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.57,
+      "revenue_per_harvested_acre": 164.25,
+      "revenue_per_planted_acre": 164.25,
+      "yield": 25.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.45,
+      "revenue_per_harvested_acre": 141.9,
+      "revenue_per_planted_acre": 139.75,
+      "yield": 22.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.83,
+      "revenue_per_harvested_acre": 164.43,
+      "revenue_per_planted_acre": 140.94,
+      "yield": 21.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.5489,
+    "trailing_10yr_avg": {
+      "1977": 18.2,
+      "1978": 19.33,
+      "1979": 19.71,
+      "1980": 19.88
+    },
+    "trailing_5yr_avg": {
+      "1975": 18.67,
+      "1976": 18.5,
+      "1977": 18.0,
+      "1978": 19.4,
+      "1979": 20.4,
+      "1980": 20.6
+    },
+    "yoy_pct": {
+      "1975": 17.65,
+      "1976": -10.0,
+      "1977": -5.56,
+      "1978": 47.06,
+      "1979": -12.0,
+      "1980": -4.55
+    }
+  }
+}

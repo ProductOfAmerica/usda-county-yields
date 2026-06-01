@@ -1,0 +1,127 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "073",
+    "name": "PONDERA"
+  },
+  "rank": {
+    "1947": {
+      "count_in_nation": 1449,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.0836,
+      "percentile_in_state": 0.2619,
+      "rank_in_nation": 1328,
+      "rank_in_state": 32
+    },
+    "1948": {
+      "count_in_nation": 1442,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.304,
+      "percentile_in_state": 0.8947,
+      "rank_in_nation": 1004,
+      "rank_in_state": 5
+    },
+    "1949": {
+      "count_in_nation": 1376,
+      "count_in_state": 37,
+      "percentile_in_nation": 0.0356,
+      "percentile_in_state": 0.5556,
+      "rank_in_nation": 1327,
+      "rank_in_state": 17
+    },
+    "1954": {
+      "count_in_nation": 1756,
+      "count_in_state": 37,
+      "percentile_in_nation": 0.5003,
+      "percentile_in_state": 0.6667,
+      "rank_in_nation": 878,
+      "rank_in_state": 13
+    },
+    "1955": {
+      "count_in_nation": 1864,
+      "count_in_state": 39,
+      "percentile_in_nation": 0.1691,
+      "percentile_in_state": 0.5526,
+      "rank_in_nation": 1549,
+      "rank_in_state": 18
+    },
+    "1956": {
+      "count_in_nation": 1906,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.4404,
+      "percentile_in_state": 0.7576,
+      "rank_in_nation": 1067,
+      "rank_in_state": 9
+    }
+  },
+  "revenue": {
+    "1947": {
+      "marketing_year": "1947",
+      "price": 2.14,
+      "revenue_per_harvested_acre": 29.96,
+      "revenue_per_planted_acre": 29.96,
+      "yield": 14.0
+    },
+    "1948": {
+      "marketing_year": "1948",
+      "price": 1.51,
+      "revenue_per_harvested_acre": 45.3,
+      "revenue_per_planted_acre": 45.3,
+      "yield": 30.0
+    },
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.43,
+      "revenue_per_harvested_acre": 15.73,
+      "revenue_per_planted_acre": 15.73,
+      "yield": 11.0
+    },
+    "1954": {
+      "marketing_year": "1954",
+      "price": 1.51,
+      "revenue_per_harvested_acre": 43.79,
+      "revenue_per_planted_acre": 43.79,
+      "yield": 29.0
+    },
+    "1955": {
+      "marketing_year": "1955",
+      "price": 1.53,
+      "revenue_per_harvested_acre": 33.66,
+      "revenue_per_planted_acre": 21.93,
+      "yield": 22.0
+    },
+    "1956": {
+      "marketing_year": "1956",
+      "price": 1.39,
+      "revenue_per_harvested_acre": 48.65,
+      "revenue_per_planted_acre": 48.65,
+      "yield": 35.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.4387,
+    "trailing_10yr_avg": {
+      "1955": 21.2,
+      "1956": 23.5
+    },
+    "trailing_5yr_avg": {
+      "1949": 18.33,
+      "1956": 28.67
+    },
+    "yoy_pct": {
+      "1948": 114.29,
+      "1949": -63.33,
+      "1955": -24.14,
+      "1956": 59.09
+    }
+  }
+}

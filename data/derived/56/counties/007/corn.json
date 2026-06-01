@@ -1,0 +1,148 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "007",
+    "name": "CARBON"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2459,
+      "count_in_state": 14,
+      "percentile_in_nation": 0.4776,
+      "percentile_in_state": 0.5385,
+      "rank_in_nation": 1285,
+      "rank_in_state": 7
+    },
+    "1973": {
+      "count_in_nation": 2480,
+      "count_in_state": 14,
+      "percentile_in_nation": 0.5131,
+      "percentile_in_state": 0.4615,
+      "rank_in_nation": 1208,
+      "rank_in_state": 8
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 14,
+      "percentile_in_nation": 0.7475,
+      "percentile_in_state": 0.8462,
+      "rank_in_nation": 639,
+      "rank_in_state": 3
+    },
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 14,
+      "percentile_in_nation": 0.4389,
+      "percentile_in_state": 0.6154,
+      "rank_in_nation": 1407,
+      "rank_in_state": 6
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.3136,
+      "percentile_in_state": 0.4286,
+      "rank_in_nation": 1730,
+      "rank_in_state": 9
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.3495,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 1646,
+      "rank_in_state": 9
+    },
+    "1978": {
+      "count_in_nation": 2455,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.2861,
+      "percentile_in_state": 0.3571,
+      "rank_in_nation": 1753,
+      "rank_in_state": 10
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.61,
+      "revenue_per_harvested_acre": 112.7,
+      "revenue_per_planted_acre": 112.7,
+      "yield": 70.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.77,
+      "revenue_per_harvested_acre": 204.98,
+      "revenue_per_planted_acre": 204.98,
+      "yield": 74.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.44,
+      "revenue_per_harvested_acre": 268.32,
+      "revenue_per_planted_acre": 89.44,
+      "yield": 78.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.07,
+      "revenue_per_harvested_acre": 193.41,
+      "revenue_per_planted_acre": 38.682,
+      "yield": 63.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.24,
+      "revenue_per_harvested_acre": 123.2,
+      "revenue_per_planted_acre": 30.8,
+      "yield": 55.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.05,
+      "revenue_per_harvested_acre": 112.75,
+      "revenue_per_planted_acre": 28.1875,
+      "yield": 55.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 2.25,
+      "revenue_per_harvested_acre": 137.25,
+      "revenue_per_planted_acre": 45.75,
+      "yield": 61.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WY",
+    "fips": "56",
+    "name": "WYOMING"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -3.1429,
+    "trailing_10yr_avg": {
+      "1976": 68.0,
+      "1977": 65.83,
+      "1978": 65.14
+    },
+    "trailing_5yr_avg": {
+      "1974": 74.0,
+      "1975": 71.25,
+      "1976": 68.0,
+      "1977": 65.0,
+      "1978": 62.4
+    },
+    "yoy_pct": {
+      "1973": 5.71,
+      "1974": 5.41,
+      "1975": -19.23,
+      "1976": -12.7,
+      "1977": 0.0,
+      "1978": 10.91
+    }
+  }
+}

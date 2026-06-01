@@ -1,0 +1,165 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "127",
+    "name": "WINN"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.3871,
+      "percentile_in_state": 0.1636,
+      "rank_in_nation": 1114,
+      "rank_in_state": 47
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.1898,
+      "percentile_in_state": 0.1786,
+      "rank_in_nation": 1452,
+      "rank_in_state": 47
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.4802,
+      "percentile_in_state": 0.1607,
+      "rank_in_nation": 931,
+      "rank_in_state": 48
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.2829,
+      "percentile_in_state": 0.3276,
+      "rank_in_nation": 1319,
+      "rank_in_state": 40
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.5754,
+      "percentile_in_state": 0.625,
+      "rank_in_nation": 789,
+      "rank_in_state": 22
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.0372,
+      "percentile_in_state": 0.0847,
+      "rank_in_nation": 1812,
+      "rank_in_state": 55
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.2311,
+      "percentile_in_state": 0.2167,
+      "rank_in_nation": 1435,
+      "rank_in_state": 48
+    },
+    "1981": {
+      "count_in_nation": 1835,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.0371,
+      "percentile_in_state": 0.1404,
+      "rank_in_nation": 1767,
+      "rank_in_state": 50
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 7.12,
+      "revenue_per_harvested_acre": 149.52,
+      "yield": 21.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.79,
+      "revenue_per_harvested_acre": 98.195,
+      "revenue_per_planted_acre": 98.195,
+      "yield": 20.5
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.41,
+      "revenue_per_harvested_acre": 146.148,
+      "revenue_per_planted_acre": 145.8275,
+      "yield": 22.8
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.78,
+      "revenue_per_harvested_acre": 121.958,
+      "revenue_per_planted_acre": 122.0222,
+      "yield": 21.1
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.54,
+      "revenue_per_harvested_acre": 178.542,
+      "revenue_per_planted_acre": 163.5,
+      "yield": 27.3
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.42,
+      "revenue_per_harvested_acre": 128.4,
+      "revenue_per_planted_acre": 128.4,
+      "yield": 20.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.87,
+      "revenue_per_harvested_acre": 112.541,
+      "revenue_per_planted_acre": 87.4444,
+      "yield": 14.3
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 6.37,
+      "revenue_per_harvested_acre": 100.009,
+      "revenue_per_planted_acre": 100.1,
+      "yield": 15.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.8369,
+    "trailing_10yr_avg": {
+      "1978": 22.54,
+      "1979": 22.12,
+      "1980": 21.0,
+      "1981": 20.34
+    },
+    "trailing_5yr_avg": {
+      "1976": 21.43,
+      "1977": 21.35,
+      "1978": 22.54,
+      "1979": 22.34,
+      "1980": 21.1,
+      "1981": 19.68
+    },
+    "yoy_pct": {
+      "1975": -2.38,
+      "1976": 11.22,
+      "1977": -7.46,
+      "1978": 29.38,
+      "1979": -26.74,
+      "1980": -28.5,
+      "1981": 9.79
+    }
+  }
+}

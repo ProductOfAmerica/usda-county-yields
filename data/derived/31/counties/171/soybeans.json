@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "171",
+    "name": "THOMAS"
+  },
+  "rank": {
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.9317,
+      "percentile_in_state": 0.9221,
+      "rank_in_nation": 129,
+      "rank_in_state": 7
+    }
+  },
+  "revenue": {
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.63,
+      "revenue_per_harvested_acre": 208.31,
+      "revenue_per_planted_acre": 208.31,
+      "yield": 37.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NE",
+    "fips": "31",
+    "name": "NEBRASKA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "001",
+    "name": "ALACHUA"
+  },
+  "rank": {
+    "1961": {
+      "count_in_nation": 1931,
+      "count_in_state": 12,
+      "percentile_in_nation": 0.1161,
+      "percentile_in_state": 0.1818,
+      "rank_in_nation": 1707,
+      "rank_in_state": 10
+    },
+    "1962": {
+      "count_in_nation": 1760,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.3746,
+      "percentile_in_state": 0.4167,
+      "rank_in_nation": 1101,
+      "rank_in_state": 8
+    },
+    "1963": {
+      "count_in_nation": 1920,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.1371,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 1657,
+      "rank_in_state": 11
+    },
+    "1964": {
+      "count_in_nation": 1774,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.0682,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 1653,
+      "rank_in_state": 11
+    },
+    "1965": {
+      "count_in_nation": 1837,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.0512,
+      "percentile_in_state": 0.0833,
+      "rank_in_nation": 1743,
+      "rank_in_state": 12
+    },
+    "1966": {
+      "count_in_nation": 1889,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.0959,
+      "percentile_in_state": 0.0833,
+      "rank_in_nation": 1708,
+      "rank_in_state": 12
+    }
+  },
+  "revenue": {
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.9,
+      "revenue_per_harvested_acre": 41.8,
+      "yield": 22.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 2.0,
+      "revenue_per_harvested_acre": 38.0,
+      "yield": 19.0
+    },
+    "1964": {
+      "marketing_year": "1964",
+      "price": 1.36,
+      "revenue_per_harvested_acre": 21.76,
+      "yield": 16.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.32,
+      "revenue_per_harvested_acre": 21.12,
+      "yield": 16.0
+    },
+    "1966": {
+      "marketing_year": "1966",
+      "price": 1.56,
+      "revenue_per_harvested_acre": 29.64,
+      "yield": 19.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.4571,
+    "trailing_10yr_avg": {
+      "1965": 18.2,
+      "1966": 18.33
+    },
+    "trailing_5yr_avg": {
+      "1963": 19.67,
+      "1964": 18.75,
+      "1965": 18.2,
+      "1966": 18.4
+    },
+    "yoy_pct": {
+      "1962": 22.22,
+      "1963": -13.64,
+      "1964": -15.79,
+      "1965": 0.0,
+      "1966": 18.75
+    }
+  }
+}

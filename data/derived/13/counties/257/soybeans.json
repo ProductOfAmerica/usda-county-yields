@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "257",
+    "name": "STEPHENS"
+  },
+  "rank": {
+    "1981": {
+      "count_in_nation": 1835,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.0153,
+      "percentile_in_state": 0.1027,
+      "rank_in_nation": 1807,
+      "rank_in_state": 132
+    },
+    "1982": {
+      "count_in_nation": 1813,
+      "count_in_state": 146,
+      "percentile_in_nation": 0.4763,
+      "percentile_in_state": 0.6069,
+      "rank_in_nation": 950,
+      "rank_in_state": 58
+    },
+    "1983": {
+      "count_in_nation": 1870,
+      "count_in_state": 142,
+      "percentile_in_nation": 0.4147,
+      "percentile_in_state": 0.5177,
+      "rank_in_nation": 1095,
+      "rank_in_state": 69
+    },
+    "1984": {
+      "count_in_nation": 1875,
+      "count_in_state": 146,
+      "percentile_in_nation": 0.7209,
+      "percentile_in_state": 0.9655,
+      "rank_in_nation": 524,
+      "rank_in_state": 6
+    }
+  },
+  "revenue": {
+    "1981": {
+      "marketing_year": "1981",
+      "price": 6.09,
+      "revenue_per_harvested_acre": 80.997,
+      "revenue_per_planted_acre": 81.2,
+      "yield": 13.3
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 5.45,
+      "revenue_per_harvested_acre": 153.145,
+      "revenue_per_planted_acre": 140.3375,
+      "yield": 28.1
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 7.59,
+      "revenue_per_harvested_acre": 154.836,
+      "revenue_per_planted_acre": 154.836,
+      "yield": 20.4
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 5.99,
+      "revenue_per_harvested_acre": 184.492,
+      "revenue_per_planted_acre": 172.1127,
+      "yield": 30.8
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 4.48,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1983": 20.6,
+      "1984": 23.15
+    },
+    "yoy_pct": {
+      "1982": 111.28,
+      "1983": -27.4,
+      "1984": 50.98
+    }
+  }
+}

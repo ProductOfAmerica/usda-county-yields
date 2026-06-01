@@ -1,0 +1,25 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "schema_version": 3,
+  "series": [
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "period": "MARKETING YEAR",
+      "suppressed": {},
+      "unit": "$ / BU",
+      "values": {
+        "2020": 0.0,
+        "2021": 0.0
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OT",
+    "fips": "98",
+    "name": "OTHER STATES"
+  }
+}

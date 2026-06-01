@@ -1,0 +1,107 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "501",
+    "name": "YOAKUM"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 1453,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.0751,
+      "percentile_in_state": 0.0465,
+      "rank_in_nation": 1344,
+      "rank_in_state": 42
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.2596,
+      "percentile_in_state": 0.4182,
+      "rank_in_nation": 1327,
+      "rank_in_state": 33
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.6137,
+      "percentile_in_state": 0.6753,
+      "rank_in_nation": 711,
+      "rank_in_state": 26
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.5232,
+      "percentile_in_state": 0.6053,
+      "rank_in_nation": 886,
+      "rank_in_state": 31
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 69,
+      "percentile_in_nation": 0.0106,
+      "percentile_in_state": 0.1324,
+      "rank_in_nation": 1862,
+      "rank_in_state": 60
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 36.814,
+      "revenue_per_planted_acre": 34.0538,
+      "yield": 15.8
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.31,
+      "revenue_per_harvested_acre": 93.527,
+      "revenue_per_planted_acre": 93.5886,
+      "yield": 21.7
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 157.29,
+      "revenue_per_planted_acre": 141.775,
+      "yield": 29.4
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.3,
+      "revenue_per_harvested_acre": 163.8,
+      "revenue_per_planted_acre": 136.5,
+      "yield": 26.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 108.36,
+      "revenue_per_planted_acre": 108.36,
+      "yield": 18.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.6974,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1978": 25.7,
+      "1979": 23.77
+    },
+    "yoy_pct": {
+      "1978": -11.56,
+      "1979": -30.77
+    }
+  }
+}

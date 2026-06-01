@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "055",
+    "name": "NAPA"
+  },
+  "rank": {
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.8623,
+      "percentile_in_state": 0.4118,
+      "rank_in_nation": 300,
+      "rank_in_state": 21
+    },
+    "1960": {
+      "count_in_nation": 2201,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.8441,
+      "percentile_in_state": 0.4412,
+      "rank_in_nation": 344,
+      "rank_in_state": 20
+    },
+    "1961": {
+      "count_in_nation": 2305,
+      "count_in_state": 31,
+      "percentile_in_nation": 0.7287,
+      "percentile_in_state": 0.4333,
+      "rank_in_nation": 626,
+      "rank_in_state": 18
+    },
+    "1962": {
+      "count_in_nation": 2319,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.7213,
+      "percentile_in_state": 0.303,
+      "rank_in_nation": 647,
+      "rank_in_state": 24
+    },
+    "1963": {
+      "count_in_nation": 2353,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.7202,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 659,
+      "rank_in_state": 23
+    }
+  },
+  "revenue": {
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.4,
+      "revenue_per_harvested_acre": 89.6,
+      "revenue_per_planted_acre": 32.5818,
+      "yield": 64.0
+    },
+    "1960": {
+      "marketing_year": "1960",
+      "price": 1.38,
+      "revenue_per_harvested_acre": 88.32,
+      "revenue_per_planted_acre": 26.496,
+      "yield": 64.0
+    },
+    "1961": {
+      "marketing_year": "1961",
+      "price": 1.35,
+      "revenue_per_harvested_acre": 86.4,
+      "revenue_per_planted_acre": 28.8,
+      "yield": 64.0
+    },
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.39,
+      "revenue_per_harvested_acre": 88.96,
+      "revenue_per_planted_acre": 17.792,
+      "yield": 64.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 1.46,
+      "revenue_per_harvested_acre": 94.9,
+      "revenue_per_planted_acre": 15.8167,
+      "yield": 65.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2,
+    "trailing_10yr_avg": {
+      "1963": 64.2
+    },
+    "trailing_5yr_avg": {
+      "1961": 64.0,
+      "1962": 64.0,
+      "1963": 64.2
+    },
+    "yoy_pct": {
+      "1960": 0.0,
+      "1961": 0.0,
+      "1962": 0.0,
+      "1963": 1.56
+    }
+  }
+}

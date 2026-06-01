@@ -1,0 +1,39 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "013",
+    "name": "ESSEX"
+  },
+  "rank": {
+    "1955": {
+      "count_in_nation": 1650,
+      "count_in_state": 20,
+      "percentile_in_nation": 0.8144,
+      "percentile_in_state": 0.7368,
+      "rank_in_nation": 307,
+      "rank_in_state": 6
+    }
+  },
+  "revenue": {
+    "1955": {
+      "marketing_year": "1955",
+      "price": 2.08,
+      "revenue_per_harvested_acre": 62.4,
+      "yield": 30.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

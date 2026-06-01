@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "009",
+    "name": "ASHE"
+  },
+  "rank": {
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 95,
+      "percentile_in_nation": 0.0653,
+      "percentile_in_state": 0.1277,
+      "rank_in_nation": 1675,
+      "rank_in_state": 83
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.2007,
+      "percentile_in_state": 0.3958,
+      "rank_in_nation": 1431,
+      "rank_in_state": 59
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.1219,
+      "percentile_in_state": 0.5104,
+      "rank_in_nation": 1615,
+      "rank_in_state": 48
+    },
+    "1988": {
+      "count_in_nation": 1814,
+      "count_in_state": 87,
+      "percentile_in_nation": 0.342,
+      "percentile_in_state": 0.3256,
+      "rank_in_nation": 1194,
+      "rank_in_state": 59
+    }
+  },
+  "revenue": {
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.67,
+      "revenue_per_harvested_acre": 84.06,
+      "revenue_per_planted_acre": 70.05,
+      "yield": 18.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.65,
+      "revenue_per_harvested_acre": 113.05,
+      "revenue_per_planted_acre": 75.3667,
+      "yield": 17.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 108.36,
+      "revenue_per_planted_acre": 54.18,
+      "yield": 18.0
+    },
+    "1988": {
+      "marketing_year": "1988",
+      "price": 7.46,
+      "revenue_per_harvested_acre": 171.58,
+      "revenue_per_planted_acre": 171.58,
+      "yield": 23.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4364,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1977": 17.67
+    },
+    "yoy_pct": {
+      "1976": -5.56,
+      "1977": 5.88
+    }
+  }
+}

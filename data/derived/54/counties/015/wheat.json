@@ -1,0 +1,237 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "015",
+    "name": "CLAY"
+  },
+  "rank": {
+    "1926": {
+      "count_in_nation": 752,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.217,
+      "percentile_in_state": 0.0417,
+      "rank_in_nation": 589,
+      "rank_in_state": 47
+    },
+    "1927": {
+      "count_in_nation": 841,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.2179,
+      "percentile_in_state": 0.0417,
+      "rank_in_nation": 658,
+      "rank_in_state": 47
+    },
+    "1928": {
+      "count_in_nation": 838,
+      "count_in_state": 49,
+      "percentile_in_nation": 0.3501,
+      "percentile_in_state": 0.625,
+      "rank_in_nation": 545,
+      "rank_in_state": 19
+    },
+    "1934": {
+      "count_in_nation": 1111,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.2252,
+      "percentile_in_state": 0.1176,
+      "rank_in_nation": 861,
+      "rank_in_state": 46
+    },
+    "1935": {
+      "count_in_nation": 1078,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.4058,
+      "percentile_in_state": 0.0784,
+      "rank_in_nation": 641,
+      "rank_in_state": 48
+    },
+    "1941": {
+      "count_in_nation": 1238,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.0655,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1157,
+      "rank_in_state": 51
+    },
+    "1949": {
+      "count_in_nation": 1480,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.2874,
+      "percentile_in_state": 0.037,
+      "rank_in_nation": 1055,
+      "rank_in_state": 53
+    },
+    "1950": {
+      "count_in_nation": 1483,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.1646,
+      "percentile_in_state": 0.0185,
+      "rank_in_nation": 1239,
+      "rank_in_state": 54
+    },
+    "1951": {
+      "count_in_nation": 1434,
+      "count_in_state": 54,
+      "percentile_in_nation": 0.5108,
+      "percentile_in_state": 0.3208,
+      "rank_in_nation": 702,
+      "rank_in_state": 37
+    },
+    "1952": {
+      "count_in_nation": 1435,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.4038,
+      "percentile_in_state": 0.2745,
+      "rank_in_nation": 856,
+      "rank_in_state": 38
+    },
+    "1953": {
+      "count_in_nation": 1495,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.3046,
+      "percentile_in_state": 0.0784,
+      "rank_in_nation": 1040,
+      "rank_in_state": 48
+    },
+    "1954": {
+      "count_in_nation": 1626,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.1243,
+      "percentile_in_state": 0.0392,
+      "rank_in_nation": 1424,
+      "rank_in_state": 50
+    },
+    "1955": {
+      "count_in_nation": 1650,
+      "count_in_state": 53,
+      "percentile_in_nation": 0.1031,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1480,
+      "rank_in_state": 53
+    },
+    "1956": {
+      "count_in_nation": 1794,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.2331,
+      "percentile_in_state": 0.1569,
+      "rank_in_nation": 1376,
+      "rank_in_state": 44
+    },
+    "1957": {
+      "count_in_nation": 1846,
+      "count_in_state": 52,
+      "percentile_in_nation": 0.5843,
+      "percentile_in_state": 0.7059,
+      "rank_in_nation": 768,
+      "rank_in_state": 16
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.87,
+      "revenue_per_harvested_acre": 25.432,
+      "revenue_per_planted_acre": 15.895,
+      "yield": 13.6
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 1.99,
+      "revenue_per_harvested_acre": 23.084,
+      "revenue_per_planted_acre": 12.8244,
+      "yield": 11.6
+    },
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.15,
+      "revenue_per_harvested_acre": 37.195,
+      "revenue_per_planted_acre": 18.6333,
+      "yield": 17.3
+    },
+    "1952": {
+      "marketing_year": "1952",
+      "price": 2.04,
+      "revenue_per_harvested_acre": 38.76,
+      "revenue_per_planted_acre": 19.38,
+      "yield": 19.0
+    },
+    "1953": {
+      "marketing_year": "1953",
+      "price": 1.85,
+      "revenue_per_harvested_acre": 33.3,
+      "revenue_per_planted_acre": 8.325,
+      "yield": 18.0
+    },
+    "1954": {
+      "marketing_year": "1954",
+      "price": 1.92,
+      "revenue_per_harvested_acre": 21.12,
+      "revenue_per_planted_acre": 7.04,
+      "yield": 11.0
+    },
+    "1955": {
+      "marketing_year": "1955",
+      "price": 1.89,
+      "revenue_per_harvested_acre": 22.68,
+      "revenue_per_planted_acre": 7.56,
+      "yield": 12.0
+    },
+    "1956": {
+      "marketing_year": "1956",
+      "price": 1.93,
+      "revenue_per_harvested_acre": 34.74,
+      "revenue_per_planted_acre": 11.58,
+      "yield": 18.0
+    },
+    "1957": {
+      "marketing_year": "1957",
+      "price": 1.96,
+      "revenue_per_harvested_acre": 43.12,
+      "revenue_per_planted_acre": 14.3733,
+      "yield": 22.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WV",
+    "fips": "54",
+    "name": "WEST VIRGINIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2556,
+    "trailing_10yr_avg": {
+      "1935": 10.0,
+      "1953": 15.9,
+      "1954": 15.08,
+      "1955": 14.64,
+      "1956": 15.06,
+      "1957": 15.83
+    },
+    "trailing_5yr_avg": {
+      "1928": 10.67,
+      "1951": 14.17,
+      "1952": 15.38,
+      "1953": 15.9,
+      "1954": 15.38,
+      "1955": 15.46,
+      "1956": 15.6,
+      "1957": 16.2
+    },
+    "yoy_pct": {
+      "1927": 0.0,
+      "1928": 20.0,
+      "1935": 57.14,
+      "1950": -14.71,
+      "1951": 49.14,
+      "1952": 9.83,
+      "1953": -5.26,
+      "1954": -38.89,
+      "1955": 9.09,
+      "1956": 50.0,
+      "1957": 22.22
+    }
+  }
+}

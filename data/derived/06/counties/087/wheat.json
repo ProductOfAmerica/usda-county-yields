@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "087",
+    "name": "SANTA CRUZ"
+  },
+  "rank": {
+    "1949": {
+      "count_in_nation": 1480,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.8918,
+      "percentile_in_state": 0.8545,
+      "rank_in_nation": 161,
+      "rank_in_state": 9
+    },
+    "1950": {
+      "count_in_nation": 1483,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.8988,
+      "percentile_in_state": 0.7273,
+      "rank_in_nation": 151,
+      "rank_in_state": 16
+    },
+    "1951": {
+      "count_in_nation": 1434,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.9295,
+      "percentile_in_state": 0.8909,
+      "rank_in_nation": 102,
+      "rank_in_state": 7
+    },
+    "1952": {
+      "count_in_nation": 1435,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.8563,
+      "percentile_in_state": 0.7455,
+      "rank_in_nation": 207,
+      "rank_in_state": 15
+    },
+    "1953": {
+      "count_in_nation": 1495,
+      "count_in_state": 55,
+      "percentile_in_nation": 0.7483,
+      "percentile_in_state": 0.7963,
+      "rank_in_nation": 377,
+      "rank_in_state": 12
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.99,
+      "revenue_per_harvested_acre": 51.74,
+      "revenue_per_planted_acre": 40.8474,
+      "yield": 26.0
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 2.04,
+      "revenue_per_harvested_acre": 53.04,
+      "revenue_per_planted_acre": 53.04,
+      "yield": 26.0
+    },
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.23,
+      "revenue_per_harvested_acre": 57.98,
+      "revenue_per_planted_acre": 57.98,
+      "yield": 26.0
+    },
+    "1952": {
+      "marketing_year": "1952",
+      "price": 2.21,
+      "revenue_per_harvested_acre": 57.46,
+      "revenue_per_planted_acre": 57.46,
+      "yield": 26.0
+    },
+    "1953": {
+      "marketing_year": "1953",
+      "price": 2.12,
+      "revenue_per_harvested_acre": 55.12,
+      "revenue_per_planted_acre": 55.12,
+      "yield": 26.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.0,
+    "trailing_10yr_avg": {
+      "1953": 26.0
+    },
+    "trailing_5yr_avg": {
+      "1951": 26.0,
+      "1952": 26.0,
+      "1953": 26.0
+    },
+    "yoy_pct": {
+      "1950": 0.0,
+      "1951": 0.0,
+      "1952": 0.0,
+      "1953": 0.0
+    }
+  }
+}

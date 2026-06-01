@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "141",
+    "name": "O BRIEN"
+  },
+  "rank": {
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.9016,
+      "percentile_in_state": 0.9756,
+      "rank_in_nation": 254,
+      "rank_in_state": 3
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 87,
+      "percentile_in_nation": 0.842,
+      "percentile_in_state": 0.5116,
+      "rank_in_nation": 400,
+      "rank_in_state": 43
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 92,
+      "percentile_in_nation": 0.6876,
+      "percentile_in_state": 0.4286,
+      "rank_in_nation": 795,
+      "rank_in_state": 53
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.4753,
+      "percentile_in_state": 0.5882,
+      "rank_in_nation": 1329,
+      "rank_in_state": 36
+    }
+  },
+  "revenue": {
+    "1974": {
+      "marketing_year": "1974",
+      "price": 4.13,
+      "revenue_per_harvested_acre": 171.808,
+      "revenue_per_planted_acre": 159.0815,
+      "yield": 41.6
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.46,
+      "revenue_per_harvested_acre": 131.48,
+      "revenue_per_planted_acre": 125.219,
+      "yield": 38.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.94,
+      "revenue_per_harvested_acre": 101.43,
+      "revenue_per_planted_acre": 97.1478,
+      "yield": 34.5
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.3,
+      "revenue_per_harvested_acre": 112.2,
+      "revenue_per_planted_acre": 112.2,
+      "yield": 34.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "IA",
+    "fips": "19",
+    "name": "IOWA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.7297,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1976": 38.03
+    },
+    "yoy_pct": {
+      "1975": -8.65,
+      "1976": -9.21
+    }
+  }
+}

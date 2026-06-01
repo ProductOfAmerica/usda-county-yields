@@ -1,0 +1,111 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "037",
+    "name": "SUSSEX"
+  },
+  "rank": {
+    "2019": {
+      "count_in_nation": 1126,
+      "count_in_state": 9,
+      "percentile_in_nation": 0.1929,
+      "percentile_in_state": 0.25,
+      "rank_in_nation": 909,
+      "rank_in_state": 7
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 11,
+      "percentile_in_nation": 0.7076,
+      "percentile_in_state": 0.9,
+      "rank_in_nation": 439,
+      "rank_in_state": 2
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 10,
+      "percentile_in_nation": 0.3854,
+      "percentile_in_state": 0.4444,
+      "rank_in_nation": 803,
+      "rank_in_state": 6
+    },
+    "2024": {
+      "count_in_nation": 1148,
+      "count_in_state": 9,
+      "percentile_in_nation": 0.7071,
+      "percentile_in_state": 0.75,
+      "rank_in_nation": 337,
+      "rank_in_state": 3
+    },
+    "2025": {
+      "count_in_nation": 1100,
+      "count_in_state": 10,
+      "percentile_in_nation": 0.4268,
+      "percentile_in_state": 0.8889,
+      "rank_in_nation": 631,
+      "rank_in_state": 2
+    }
+  },
+  "revenue": {
+    "2019": {
+      "marketing_year": "2019",
+      "price": 8.45,
+      "revenue_per_harvested_acre": 295.75,
+      "revenue_per_planted_acre": 268.8636,
+      "yield": 35.0
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 11.5,
+      "revenue_per_harvested_acre": 621.0,
+      "revenue_per_planted_acre": 616.2083,
+      "yield": 54.0
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.2,
+      "revenue_per_harvested_acre": 547.78,
+      "revenue_per_planted_acre": 526.2267,
+      "yield": 44.9
+    },
+    "2024": {
+      "marketing_year": "2024",
+      "price": 10.0,
+      "revenue_per_harvested_acre": 527.0,
+      "revenue_per_planted_acre": 520.625,
+      "yield": 52.7
+    },
+    "2025": {
+      "marketing_year": "2025",
+      "price": 10.1,
+      "revenue_per_harvested_acre": 450.46,
+      "revenue_per_planted_acre": 447.2857,
+      "yield": 44.6
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.9276,
+    "trailing_10yr_avg": {
+      "2025": 46.24
+    },
+    "trailing_5yr_avg": {
+      "2023": 44.63,
+      "2024": 50.53,
+      "2025": 47.4
+    },
+    "yoy_pct": {
+      "2020": 54.29,
+      "2024": 17.37,
+      "2025": -15.37
+    }
+  }
+}

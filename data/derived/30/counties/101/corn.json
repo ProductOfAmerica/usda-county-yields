@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "101",
+    "name": "TOOLE"
+  },
+  "rank": {
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 40,
+      "percentile_in_nation": 0.4489,
+      "percentile_in_state": 0.7179,
+      "rank_in_nation": 1198,
+      "rank_in_state": 12
+    },
+    "2013": {
+      "count_in_nation": 1579,
+      "count_in_state": 10,
+      "percentile_in_nation": 0.0856,
+      "percentile_in_state": 0.2222,
+      "rank_in_nation": 1444,
+      "rank_in_state": 8
+    }
+  },
+  "revenue": {
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 51.66,
+      "revenue_per_planted_acre": 51.66,
+      "yield": 41.0
+    },
+    "2013": {
+      "marketing_year": "2013",
+      "price": 4.27,
+      "revenue_per_harvested_acre": 414.19,
+      "revenue_per_planted_acre": 376.5364,
+      "yield": 97.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.037,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

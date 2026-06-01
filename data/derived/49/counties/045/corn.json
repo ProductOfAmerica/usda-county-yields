@@ -1,0 +1,103 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "045",
+    "name": "TOOELE"
+  },
+  "rank": {
+    "1978": {
+      "count_in_nation": 2455,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.674,
+      "percentile_in_state": 0.8,
+      "rank_in_nation": 801,
+      "rank_in_state": 4
+    },
+    "1982": {
+      "count_in_nation": 2395,
+      "count_in_state": 17,
+      "percentile_in_nation": 0.792,
+      "percentile_in_state": 0.4375,
+      "rank_in_nation": 499,
+      "rank_in_state": 10
+    },
+    "1983": {
+      "count_in_nation": 2355,
+      "count_in_state": 18,
+      "percentile_in_nation": 0.9354,
+      "percentile_in_state": 0.7647,
+      "rank_in_nation": 153,
+      "rank_in_state": 5
+    },
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 18,
+      "percentile_in_nation": 0.6485,
+      "percentile_in_state": 0.4118,
+      "rank_in_nation": 731,
+      "rank_in_state": 11
+    },
+    "2007": {
+      "count_in_nation": 1934,
+      "count_in_state": 17,
+      "percentile_in_nation": 0.1252,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1692,
+      "rank_in_state": 17
+    }
+  },
+  "revenue": {
+    "1978": {
+      "marketing_year": "1978",
+      "price": 2.65,
+      "revenue_per_harvested_acre": 241.15,
+      "revenue_per_planted_acre": 21.9227,
+      "yield": 91.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.1,
+      "revenue_per_harvested_acre": 353.4,
+      "revenue_per_planted_acre": 58.9,
+      "yield": 114.0
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 3.71,
+      "revenue_per_harvested_acre": 419.23,
+      "revenue_per_planted_acre": 69.8717,
+      "yield": 113.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.61,
+      "revenue_per_harvested_acre": 352.35,
+      "revenue_per_planted_acre": 70.47,
+      "yield": 135.0
+    },
+    "2007": {
+      "marketing_year": "2007",
+      "price": 4.18,
+      "revenue_per_harvested_acre": 321.86,
+      "revenue_per_planted_acre": 80.2037,
+      "yield": 77.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "UT",
+    "fips": "49",
+    "name": "UTAH"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.2105,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1983": -0.88
+    }
+  }
+}

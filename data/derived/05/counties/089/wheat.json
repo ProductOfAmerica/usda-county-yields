@@ -1,0 +1,140 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "089",
+    "name": "MARION"
+  },
+  "rank": {
+    "1962": {
+      "count_in_nation": 1760,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.033,
+      "percentile_in_state": 0.0806,
+      "rank_in_nation": 1702,
+      "rank_in_state": 58
+    },
+    "1966": {
+      "count_in_nation": 1889,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.3416,
+      "percentile_in_state": 0.2759,
+      "rank_in_nation": 1244,
+      "rank_in_state": 43
+    },
+    "1971": {
+      "count_in_nation": 2064,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.0994,
+      "percentile_in_state": 0.2167,
+      "rank_in_nation": 1859,
+      "rank_in_state": 48
+    },
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.3197,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 1703,
+      "rank_in_state": 43
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.2289,
+      "percentile_in_state": 0.4746,
+      "rank_in_nation": 1941,
+      "rank_in_state": 32
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 66,
+      "percentile_in_nation": 0.0961,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 2325,
+      "rank_in_state": 53
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.0966,
+      "percentile_in_state": 0.1343,
+      "rank_in_nation": 2282,
+      "rank_in_state": 59
+    }
+  },
+  "revenue": {
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.99,
+      "revenue_per_harvested_acre": 25.87,
+      "yield": 13.0
+    },
+    "1966": {
+      "marketing_year": "1966",
+      "price": 1.55,
+      "revenue_per_harvested_acre": 38.75,
+      "yield": 25.0
+    },
+    "1971": {
+      "marketing_year": "1971",
+      "price": 1.45,
+      "revenue_per_harvested_acre": 31.9,
+      "yield": 22.0
+    },
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.33,
+      "revenue_per_harvested_acre": 35.91,
+      "revenue_per_planted_acre": 16.3227,
+      "yield": 27.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.85,
+      "revenue_per_harvested_acre": 71.25,
+      "revenue_per_planted_acre": 35.625,
+      "yield": 25.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.6,
+      "revenue_per_harvested_acre": 61.2,
+      "revenue_per_planted_acre": 40.8,
+      "yield": 17.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.87,
+      "revenue_per_harvested_acre": 57.4,
+      "revenue_per_planted_acre": 57.4,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "AR",
+    "fips": "05",
+    "name": "ARKANSAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3825,
+    "trailing_10yr_avg": {
+      "1974": 23.2,
+      "1975": 22.67
+    },
+    "trailing_5yr_avg": {
+      "1973": 24.67,
+      "1974": 22.75,
+      "1975": 22.2
+    },
+    "yoy_pct": {
+      "1972": 22.73,
+      "1973": -7.41,
+      "1974": -32.0,
+      "1975": 17.65
+    }
+  }
+}

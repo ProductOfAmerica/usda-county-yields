@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "361",
+    "name": "ORANGE"
+  },
+  "rank": {
+    "1970": {
+      "count_in_nation": 1906,
+      "count_in_state": 166,
+      "percentile_in_nation": 0.0226,
+      "percentile_in_state": 0.1455,
+      "rank_in_nation": 1863,
+      "rank_in_state": 142
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 193,
+      "percentile_in_nation": 0.1825,
+      "percentile_in_state": 0.7396,
+      "rank_in_nation": 2079,
+      "rank_in_state": 51
+    }
+  },
+  "revenue": {
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.3,
+      "revenue_per_harvested_acre": 21.71,
+      "revenue_per_planted_acre": 2.6,
+      "yield": 16.7
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 3.04,
+      "revenue_per_harvested_acre": 73.568,
+      "revenue_per_planted_acre": 33.9077,
+      "yield": 24.2
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.25,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

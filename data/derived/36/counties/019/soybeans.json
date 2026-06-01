@@ -1,0 +1,148 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "019",
+    "name": "CLINTON"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 23,
+      "percentile_in_nation": 0.6679,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 553,
+      "rank_in_state": 1
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 30,
+      "percentile_in_nation": 0.8713,
+      "percentile_in_state": 0.931,
+      "rank_in_nation": 213,
+      "rank_in_state": 3
+    },
+    "2002": {
+      "count_in_nation": 1631,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.5104,
+      "percentile_in_state": 0.4815,
+      "rank_in_nation": 799,
+      "rank_in_state": 15
+    },
+    "2003": {
+      "count_in_nation": 1625,
+      "count_in_state": 33,
+      "percentile_in_nation": 0.9926,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 13,
+      "rank_in_state": 1
+    },
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 36,
+      "percentile_in_nation": 1.0,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 1,
+      "rank_in_state": 1
+    },
+    "2005": {
+      "count_in_nation": 1650,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.812,
+      "percentile_in_state": 0.9459,
+      "rank_in_nation": 311,
+      "rank_in_state": 3
+    },
+    "2006": {
+      "count_in_nation": 1611,
+      "count_in_state": 33,
+      "percentile_in_nation": 0.9733,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 44,
+      "rank_in_state": 1
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.55,
+      "revenue_per_harvested_acre": 182.0,
+      "revenue_per_planted_acre": 184.1233,
+      "yield": 40.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.55,
+      "revenue_per_harvested_acre": 209.3,
+      "revenue_per_planted_acre": 209.3,
+      "yield": 46.0
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 5.85,
+      "revenue_per_harvested_acre": 187.2,
+      "revenue_per_planted_acre": 188.2324,
+      "yield": 32.0
+    },
+    "2003": {
+      "marketing_year": "2003",
+      "price": 7.8,
+      "revenue_per_harvested_acre": 413.4,
+      "revenue_per_planted_acre": 412.425,
+      "yield": 53.0
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.4,
+      "revenue_per_harvested_acre": 324.0,
+      "revenue_per_planted_acre": 287.4,
+      "yield": 60.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 5.2,
+      "revenue_per_harvested_acre": 249.6,
+      "revenue_per_planted_acre": 248.4444,
+      "yield": 48.0
+    },
+    "2006": {
+      "marketing_year": "2006",
+      "price": 6.19,
+      "revenue_per_harvested_acre": 340.45,
+      "revenue_per_planted_acre": 338.6294,
+      "yield": 55.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.75,
+    "trailing_10yr_avg": {
+      "2004": 46.2,
+      "2005": 46.5,
+      "2006": 47.71
+    },
+    "trailing_5yr_avg": {
+      "2002": 39.33,
+      "2003": 42.75,
+      "2004": 46.2,
+      "2005": 47.8,
+      "2006": 49.6
+    },
+    "yoy_pct": {
+      "2001": 15.0,
+      "2002": -30.43,
+      "2003": 65.62,
+      "2004": 13.21,
+      "2005": -20.0,
+      "2006": 14.58
+    }
+  }
+}

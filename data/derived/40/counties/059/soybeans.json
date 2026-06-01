@@ -1,0 +1,76 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "059",
+    "name": "HARPER"
+  },
+  "rank": {
+    "1998": {
+      "count_in_nation": 1683,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.2586,
+      "percentile_in_state": 0.931,
+      "rank_in_nation": 1248,
+      "rank_in_state": 5
+    },
+    "1999": {
+      "count_in_nation": 1633,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.193,
+      "percentile_in_state": 0.7288,
+      "rank_in_nation": 1318,
+      "rank_in_state": 17
+    },
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.1125,
+      "percentile_in_state": 0.7544,
+      "rank_in_nation": 1476,
+      "rank_in_state": 15
+    }
+  },
+  "revenue": {
+    "1998": {
+      "marketing_year": "1998",
+      "price": 4.8,
+      "revenue_per_harvested_acre": 116.64,
+      "revenue_per_planted_acre": 116.5714,
+      "yield": 24.3
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 4.35,
+      "revenue_per_harvested_acre": 87.0,
+      "revenue_per_planted_acre": 74.5714,
+      "yield": 20.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.25,
+      "revenue_per_harvested_acre": 77.775,
+      "revenue_per_planted_acre": 66.7857,
+      "yield": 18.3
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -3.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2000": 20.87
+    },
+    "yoy_pct": {
+      "1999": -17.7,
+      "2000": -8.5
+    }
+  }
+}

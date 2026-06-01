@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "125",
+    "name": "VILAS"
+  },
+  "rank": {
+    "1954": {
+      "count_in_nation": 1068,
+      "count_in_state": 66,
+      "percentile_in_nation": 0.4527,
+      "percentile_in_state": 0.5077,
+      "rank_in_nation": 585,
+      "rank_in_state": 33
+    },
+    "1990": {
+      "count_in_nation": 1773,
+      "count_in_state": 66,
+      "percentile_in_nation": 0.7929,
+      "percentile_in_state": 0.6615,
+      "rank_in_nation": 368,
+      "rank_in_state": 23
+    },
+    "1991": {
+      "count_in_nation": 1740,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.1271,
+      "percentile_in_state": 0.0152,
+      "rank_in_nation": 1519,
+      "rank_in_state": 66
+    }
+  },
+  "revenue": {
+    "1954": {
+      "marketing_year": "1954",
+      "price": 2.38,
+      "revenue_per_harvested_acre": 33.32,
+      "revenue_per_planted_acre": 33.32,
+      "yield": 14.0
+    },
+    "1990": {
+      "marketing_year": "1990",
+      "price": 5.51,
+      "revenue_per_harvested_acre": 214.89,
+      "revenue_per_planted_acre": 214.89,
+      "yield": 39.0
+    },
+    "1991": {
+      "marketing_year": "1991",
+      "price": 5.3,
+      "revenue_per_harvested_acre": 116.6,
+      "revenue_per_planted_acre": 116.6,
+      "yield": 22.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WI",
+    "fips": "55",
+    "name": "WISCONSIN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4422,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1991": -43.59
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "045",
+    "name": "ELLIS"
+  },
+  "rank": {
+    "1998": {
+      "count_in_nation": 1683,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.651,
+      "percentile_in_state": 0.9828,
+      "rank_in_nation": 588,
+      "rank_in_state": 2
+    },
+    "1999": {
+      "count_in_nation": 1633,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.6452,
+      "percentile_in_state": 0.9831,
+      "rank_in_nation": 580,
+      "rank_in_state": 2
+    },
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.1516,
+      "percentile_in_state": 0.8596,
+      "rank_in_nation": 1411,
+      "rank_in_state": 9
+    }
+  },
+  "revenue": {
+    "1998": {
+      "marketing_year": "1998",
+      "price": 4.8,
+      "revenue_per_harvested_acre": 182.4,
+      "revenue_per_planted_acre": 182.4,
+      "yield": 38.0
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 4.35,
+      "revenue_per_harvested_acre": 156.6,
+      "revenue_per_planted_acre": 130.5,
+      "yield": 36.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.25,
+      "revenue_per_harvested_acre": 85.0,
+      "revenue_per_planted_acre": 68.0,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -9.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2000": 31.33
+    },
+    "yoy_pct": {
+      "1999": -5.26,
+      "2000": -44.44
+    }
+  }
+}

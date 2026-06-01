@@ -1,0 +1,122 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "095",
+    "name": "MELLETTE"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 1663,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.0193,
+      "percentile_in_state": 0.0333,
+      "rank_in_nation": 1631,
+      "rank_in_state": 59
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.014,
+      "percentile_in_state": 0.0175,
+      "rank_in_nation": 1625,
+      "rank_in_state": 57
+    },
+    "2002": {
+      "count_in_nation": 1631,
+      "count_in_state": 53,
+      "percentile_in_nation": 0.0006,
+      "percentile_in_state": 0.0192,
+      "rank_in_nation": 1630,
+      "rank_in_state": 52
+    },
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0227,
+      "percentile_in_state": 0.1607,
+      "rank_in_nation": 1640,
+      "rank_in_state": 48
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 54,
+      "percentile_in_nation": 0.0194,
+      "percentile_in_state": 0.0566,
+      "rank_in_nation": 1470,
+      "rank_in_state": 51
+    },
+    "2024": {
+      "count_in_nation": 1148,
+      "count_in_state": 37,
+      "percentile_in_nation": 0.0044,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1143,
+      "rank_in_state": 37
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 4.27,
+      "revenue_per_harvested_acre": 48.251,
+      "revenue_per_planted_acre": 46.97,
+      "yield": 11.3
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.13,
+      "revenue_per_harvested_acre": 58.646,
+      "revenue_per_planted_acre": 54.0077,
+      "yield": 14.2
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 5.33,
+      "revenue_per_harvested_acre": 47.97,
+      "revenue_per_planted_acre": 47.97,
+      "yield": 9.0
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.58,
+      "revenue_per_harvested_acre": 83.7,
+      "revenue_per_planted_acre": 79.7143,
+      "yield": 15.0
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 10.3,
+      "revenue_per_harvested_acre": 284.28,
+      "revenue_per_planted_acre": 260.9333,
+      "yield": 27.6
+    },
+    "2024": {
+      "marketing_year": "2024",
+      "price": 9.67,
+      "revenue_per_harvested_acre": 149.885,
+      "revenue_per_planted_acre": 99.4894,
+      "yield": 15.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "SD",
+    "fips": "46",
+    "name": "SOUTH DAKOTA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4066,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2002": 11.5,
+      "2004": 12.38
+    },
+    "yoy_pct": {
+      "2001": 25.66,
+      "2002": -36.62
+    }
+  }
+}

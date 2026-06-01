@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "119",
+    "name": "SUMTER"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 25,
+      "percentile_in_nation": 0.1356,
+      "percentile_in_state": 0.0417,
+      "rank_in_nation": 1627,
+      "rank_in_state": 24
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 25,
+      "percentile_in_nation": 0.6708,
+      "percentile_in_state": 0.7917,
+      "rank_in_nation": 615,
+      "rank_in_state": 6
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.6,
+      "revenue_per_harvested_acre": 151.8,
+      "revenue_per_planted_acre": 135.3,
+      "yield": 23.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.9,
+      "revenue_per_harvested_acre": 221.2,
+      "revenue_per_planted_acre": 197.5,
+      "yield": 28.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 5.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1980": 21.74
+    }
+  }
+}

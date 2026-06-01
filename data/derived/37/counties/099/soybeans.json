@@ -1,0 +1,76 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "099",
+    "name": "JACKSON"
+  },
+  "rank": {
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 95,
+      "percentile_in_nation": 0.1066,
+      "percentile_in_state": 0.3085,
+      "rank_in_nation": 1601,
+      "rank_in_state": 66
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.2007,
+      "percentile_in_state": 0.3958,
+      "rank_in_nation": 1431,
+      "rank_in_state": 59
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.0049,
+      "percentile_in_state": 0.0417,
+      "rank_in_nation": 1830,
+      "rank_in_state": 93
+    }
+  },
+  "revenue": {
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.67,
+      "revenue_per_harvested_acre": 88.73,
+      "revenue_per_planted_acre": 66.5475,
+      "yield": 19.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.65,
+      "revenue_per_harvested_acre": 113.05,
+      "revenue_per_planted_acre": 90.44,
+      "yield": 17.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 6.02,
+      "revenue_per_harvested_acre": 78.26,
+      "revenue_per_planted_acre": 75.25,
+      "yield": 13.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NC",
+    "fips": "37",
+    "name": "NORTH CAROLINA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -3.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1977": 16.33
+    },
+    "yoy_pct": {
+      "1976": -10.53,
+      "1977": -23.53
+    }
+  }
+}

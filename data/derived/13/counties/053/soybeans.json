@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "053",
+    "name": "CHATTAHOOCHEE"
+  },
+  "rank": {
+    "1985": {
+      "count_in_nation": 1853,
+      "count_in_state": 142,
+      "percentile_in_nation": 0.2662,
+      "percentile_in_state": 0.5957,
+      "rank_in_nation": 1360,
+      "rank_in_state": 58
+    }
+  },
+  "revenue": {
+    "1985": {
+      "marketing_year": "1985",
+      "price": 4.82,
+      "revenue_per_harvested_acre": 120.5,
+      "revenue_per_planted_acre": 120.5,
+      "yield": 25.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

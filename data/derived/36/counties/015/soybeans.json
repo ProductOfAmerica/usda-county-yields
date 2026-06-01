@@ -1,0 +1,177 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "015",
+    "name": "CHEMUNG"
+  },
+  "rank": {
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.7096,
+      "percentile_in_state": 0.9143,
+      "rank_in_nation": 488,
+      "rank_in_state": 4
+    },
+    "2005": {
+      "count_in_nation": 1650,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.3669,
+      "percentile_in_state": 0.1622,
+      "rank_in_nation": 1045,
+      "rank_in_state": 32
+    },
+    "2006": {
+      "count_in_nation": 1611,
+      "count_in_state": 33,
+      "percentile_in_nation": 0.5578,
+      "percentile_in_state": 0.3125,
+      "rank_in_nation": 713,
+      "rank_in_state": 23
+    },
+    "2015": {
+      "count_in_nation": 1335,
+      "count_in_state": 28,
+      "percentile_in_nation": 0.2804,
+      "percentile_in_state": 0.2963,
+      "rank_in_nation": 961,
+      "rank_in_state": 20
+    },
+    "2016": {
+      "count_in_nation": 1379,
+      "count_in_state": 32,
+      "percentile_in_nation": 0.5232,
+      "percentile_in_state": 0.8387,
+      "rank_in_nation": 658,
+      "rank_in_state": 6
+    },
+    "2017": {
+      "count_in_nation": 1381,
+      "count_in_state": 34,
+      "percentile_in_nation": 0.5007,
+      "percentile_in_state": 0.8182,
+      "rank_in_nation": 690,
+      "rank_in_state": 7
+    },
+    "2020": {
+      "count_in_nation": 1499,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.1876,
+      "percentile_in_state": 0.1429,
+      "rank_in_nation": 1218,
+      "rank_in_state": 31
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.6654,
+      "percentile_in_state": 0.7714,
+      "rank_in_nation": 453,
+      "rank_in_state": 9
+    },
+    "2022": {
+      "count_in_nation": 1396,
+      "count_in_state": 35,
+      "percentile_in_nation": 0.4645,
+      "percentile_in_state": 0.7059,
+      "rank_in_nation": 748,
+      "rank_in_state": 11
+    }
+  },
+  "revenue": {
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.4,
+      "revenue_per_harvested_acre": 243.0,
+      "revenue_per_planted_acre": 162.0,
+      "yield": 45.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 5.2,
+      "revenue_per_harvested_acre": 176.8,
+      "revenue_per_planted_acre": 174.2,
+      "yield": 34.0
+    },
+    "2006": {
+      "marketing_year": "2006",
+      "price": 6.19,
+      "revenue_per_harvested_acre": 253.79,
+      "revenue_per_planted_acre": 255.8533,
+      "yield": 41.0
+    },
+    "2015": {
+      "marketing_year": "2015",
+      "price": 9.1,
+      "revenue_per_harvested_acre": 351.26,
+      "revenue_per_planted_acre": 351.4875,
+      "yield": 38.6
+    },
+    "2016": {
+      "marketing_year": "2016",
+      "price": 9.57,
+      "revenue_per_harvested_acre": 474.672,
+      "revenue_per_planted_acre": 451.385,
+      "yield": 49.6
+    },
+    "2017": {
+      "marketing_year": "2017",
+      "price": 9.26,
+      "revenue_per_harvested_acre": 446.332,
+      "revenue_per_planted_acre": 408.9833,
+      "yield": 48.2
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 11.3,
+      "revenue_per_harvested_acre": 440.7,
+      "revenue_per_planted_acre": 436.9333,
+      "yield": 39.0
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 12.3,
+      "revenue_per_harvested_acre": 677.73,
+      "revenue_per_planted_acre": 667.0385,
+      "yield": 55.1
+    },
+    "2022": {
+      "marketing_year": "2022",
+      "price": 14.4,
+      "revenue_per_harvested_acre": 663.84,
+      "revenue_per_planted_acre": 615.2727,
+      "yield": 46.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NY",
+    "fips": "36",
+    "name": "NEW YORK"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4581,
+    "trailing_10yr_avg": {
+      "2021": 46.1,
+      "2022": 46.1
+    },
+    "trailing_5yr_avg": {
+      "2006": 40.0,
+      "2017": 45.47,
+      "2020": 45.6,
+      "2021": 47.43,
+      "2022": 46.73
+    },
+    "yoy_pct": {
+      "2005": -24.44,
+      "2006": 20.59,
+      "2016": 28.5,
+      "2017": -2.82,
+      "2021": 41.28,
+      "2022": -16.33
+    }
+  }
+}

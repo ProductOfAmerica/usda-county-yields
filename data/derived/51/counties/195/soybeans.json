@@ -1,0 +1,141 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "195",
+    "name": "WISE"
+  },
+  "rank": {
+    "1949": {
+      "count_in_nation": 980,
+      "count_in_state": 76,
+      "percentile_in_nation": 0.1553,
+      "percentile_in_state": 0.0667,
+      "rank_in_nation": 828,
+      "rank_in_state": 71
+    },
+    "1950": {
+      "count_in_nation": 994,
+      "count_in_state": 75,
+      "percentile_in_nation": 0.0504,
+      "percentile_in_state": 0.0135,
+      "rank_in_nation": 944,
+      "rank_in_state": 74
+    },
+    "1951": {
+      "count_in_nation": 1009,
+      "count_in_state": 74,
+      "percentile_in_nation": 0.0327,
+      "percentile_in_state": 0.0137,
+      "rank_in_nation": 976,
+      "rank_in_state": 73
+    },
+    "1952": {
+      "count_in_nation": 1025,
+      "count_in_state": 74,
+      "percentile_in_nation": 0.3516,
+      "percentile_in_state": 0.1781,
+      "rank_in_nation": 665,
+      "rank_in_state": 61
+    },
+    "1953": {
+      "count_in_nation": 1002,
+      "count_in_state": 72,
+      "percentile_in_nation": 0.4675,
+      "percentile_in_state": 0.8451,
+      "rank_in_nation": 534,
+      "rank_in_state": 12
+    },
+    "1954": {
+      "count_in_nation": 1068,
+      "count_in_state": 74,
+      "percentile_in_nation": 0.2127,
+      "percentile_in_state": 0.3425,
+      "rank_in_nation": 841,
+      "rank_in_state": 49
+    },
+    "1955": {
+      "count_in_nation": 1078,
+      "count_in_state": 73,
+      "percentile_in_nation": 0.7242,
+      "percentile_in_state": 0.8889,
+      "rank_in_nation": 298,
+      "rank_in_state": 9
+    }
+  },
+  "revenue": {
+    "1949": {
+      "marketing_year": "1949",
+      "price": 1.96,
+      "revenue_per_harvested_acre": 25.48,
+      "yield": 13.0
+    },
+    "1950": {
+      "marketing_year": "1950",
+      "price": 2.49,
+      "revenue_per_harvested_acre": 24.9,
+      "yield": 10.0
+    },
+    "1951": {
+      "marketing_year": "1951",
+      "price": 2.67,
+      "revenue_per_harvested_acre": 26.7,
+      "yield": 10.0
+    },
+    "1952": {
+      "marketing_year": "1952",
+      "price": 2.66,
+      "revenue_per_harvested_acre": 39.9,
+      "yield": 15.0
+    },
+    "1953": {
+      "marketing_year": "1953",
+      "price": 2.76,
+      "revenue_per_harvested_acre": 41.4,
+      "yield": 15.0
+    },
+    "1954": {
+      "marketing_year": "1954",
+      "price": 2.66,
+      "revenue_per_harvested_acre": 26.6,
+      "yield": 10.0
+    },
+    "1955": {
+      "marketing_year": "1955",
+      "price": 2.17,
+      "revenue_per_harvested_acre": 43.4,
+      "yield": 20.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.9286,
+    "trailing_10yr_avg": {
+      "1953": 12.6,
+      "1954": 12.17,
+      "1955": 13.29
+    },
+    "trailing_5yr_avg": {
+      "1951": 11.0,
+      "1952": 12.0,
+      "1953": 12.6,
+      "1954": 12.0,
+      "1955": 14.0
+    },
+    "yoy_pct": {
+      "1950": -23.08,
+      "1951": 0.0,
+      "1952": 50.0,
+      "1953": 0.0,
+      "1954": -33.33,
+      "1955": 100.0
+    }
+  }
+}

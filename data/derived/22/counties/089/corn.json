@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "089",
+    "name": "SAINT CHARLES"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2459,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.0256,
+      "percentile_in_state": 0.0678,
+      "rank_in_nation": 2396,
+      "rank_in_state": 56
+    },
+    "1973": {
+      "count_in_nation": 2480,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.0387,
+      "percentile_in_state": 0.2373,
+      "rank_in_nation": 2384,
+      "rank_in_state": 46
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.0586,
+      "percentile_in_state": 0.1695,
+      "rank_in_nation": 2380,
+      "rank_in_state": 50
+    },
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.1852,
+      "percentile_in_state": 0.6441,
+      "rank_in_nation": 2043,
+      "rank_in_state": 22
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.3001,
+      "percentile_in_state": 0.5085,
+      "rank_in_nation": 1764,
+      "rank_in_state": 30
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.49,
+      "revenue_per_harvested_acre": 44.7,
+      "revenue_per_planted_acre": 29.8,
+      "yield": 30.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.35,
+      "revenue_per_harvested_acre": 70.5,
+      "revenue_per_planted_acre": 47.0,
+      "yield": 30.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.3,
+      "revenue_per_harvested_acre": 102.3,
+      "revenue_per_planted_acre": 51.15,
+      "yield": 31.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.0,
+      "revenue_per_harvested_acre": 135.0,
+      "revenue_per_planted_acre": 90.0,
+      "yield": 45.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.7,
+      "revenue_per_harvested_acre": 145.8,
+      "revenue_per_planted_acre": 97.2,
+      "yield": 54.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 6.3,
+    "trailing_10yr_avg": {
+      "1976": 38.0
+    },
+    "trailing_5yr_avg": {
+      "1974": 30.33,
+      "1975": 34.0,
+      "1976": 38.0
+    },
+    "yoy_pct": {
+      "1973": 0.0,
+      "1974": 3.33,
+      "1975": 45.16,
+      "1976": 20.0
+    }
+  }
+}

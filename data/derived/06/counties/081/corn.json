@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "081",
+    "name": "SAN MATEO"
+  },
+  "rank": {
+    "1984": {
+      "count_in_nation": 2361,
+      "count_in_state": 25,
+      "percentile_in_nation": 0.7564,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 576,
+      "rank_in_state": 21
+    },
+    "1985": {
+      "count_in_nation": 2351,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.3979,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1416,
+      "rank_in_state": 24
+    }
+  },
+  "revenue": {
+    "1984": {
+      "marketing_year": "1984",
+      "price": 3.4,
+      "revenue_per_harvested_acre": 374.0,
+      "revenue_per_planted_acre": 374.0,
+      "yield": 110.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 3.0,
+      "revenue_per_harvested_acre": 270.0,
+      "revenue_per_planted_acre": 270.0,
+      "yield": 90.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "CA",
+    "fips": "06",
+    "name": "CALIFORNIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -20.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1985": -18.18
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "127",
+    "name": "GLYNN"
+  },
+  "rank": {
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 140,
+      "percentile_in_nation": 0.278,
+      "percentile_in_state": 0.8561,
+      "rank_in_nation": 1341,
+      "rank_in_state": 21
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 147,
+      "percentile_in_nation": 0.2073,
+      "percentile_in_state": 0.1781,
+      "rank_in_nation": 1492,
+      "rank_in_state": 121
+    }
+  },
+  "revenue": {
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.39,
+      "revenue_per_harvested_acre": 134.19,
+      "revenue_per_planted_acre": 134.19,
+      "yield": 21.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.36,
+      "revenue_per_harvested_acre": 153.276,
+      "revenue_per_planted_acre": 144.5133,
+      "yield": 24.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "GA",
+    "fips": "13",
+    "name": "GEORGIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 3.1,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1979": 14.76
+    }
+  }
+}

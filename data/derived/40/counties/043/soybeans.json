@@ -1,0 +1,137 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "043",
+    "name": "DEWEY"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 1471,
+      "count_in_state": 51,
+      "percentile_in_nation": 0.5442,
+      "percentile_in_state": 0.9,
+      "rank_in_nation": 671,
+      "rank_in_state": 6
+    },
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.2142,
+      "percentile_in_state": 0.3016,
+      "rank_in_nation": 1384,
+      "rank_in_state": 45
+    },
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 56,
+      "percentile_in_nation": 0.2574,
+      "percentile_in_state": 0.9455,
+      "rank_in_nation": 1224,
+      "rank_in_state": 4
+    },
+    "2003": {
+      "count_in_nation": 1625,
+      "count_in_state": 47,
+      "percentile_in_nation": 0.9421,
+      "percentile_in_state": 0.9783,
+      "rank_in_nation": 95,
+      "rank_in_state": 2
+    },
+    "2004": {
+      "count_in_nation": 1678,
+      "count_in_state": 46,
+      "percentile_in_nation": 0.3304,
+      "percentile_in_state": 0.8444,
+      "rank_in_nation": 1124,
+      "rank_in_state": 8
+    },
+    "2005": {
+      "count_in_nation": 1650,
+      "count_in_state": 44,
+      "percentile_in_nation": 0.3972,
+      "percentile_in_state": 0.8837,
+      "rank_in_nation": 995,
+      "rank_in_state": 6
+    },
+    "2016": {
+      "count_in_nation": 1379,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.3962,
+      "percentile_in_state": 0.9714,
+      "rank_in_nation": 833,
+      "rank_in_state": 2
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 2.17,
+      "revenue_per_harvested_acre": 54.25,
+      "revenue_per_planted_acre": 27.125,
+      "yield": 25.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.31,
+      "revenue_per_harvested_acre": 106.2,
+      "revenue_per_planted_acre": 84.96,
+      "yield": 20.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.3,
+      "revenue_per_harvested_acre": 129.0,
+      "revenue_per_planted_acre": 25.8,
+      "yield": 30.0
+    },
+    "2003": {
+      "marketing_year": "2003",
+      "price": 7.4,
+      "revenue_per_harvested_acre": 333.0,
+      "revenue_per_planted_acre": 333.0,
+      "yield": 45.0
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 5.7,
+      "revenue_per_harvested_acre": 203.49,
+      "revenue_per_planted_acre": 203.5714,
+      "yield": 35.7
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 5.45,
+      "revenue_per_harvested_acre": 190.75,
+      "revenue_per_planted_acre": 190.75,
+      "yield": 35.0
+    },
+    "2016": {
+      "marketing_year": "2016",
+      "price": 9.4,
+      "revenue_per_harvested_acre": 431.46,
+      "revenue_per_planted_acre": 407.3333,
+      "yield": 45.9
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OK",
+    "fips": "40",
+    "name": "OKLAHOMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.4701,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2004": 36.9,
+      "2005": 36.42
+    },
+    "yoy_pct": {
+      "2004": -20.67,
+      "2005": -1.96
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "001",
+    "name": "ALLEGANY"
+  },
+  "rank": {
+    "1989": {
+      "count_in_nation": 1825,
+      "count_in_state": 22,
+      "percentile_in_nation": 0.5548,
+      "percentile_in_state": 0.5238,
+      "rank_in_nation": 813,
+      "rank_in_state": 11
+    },
+    "1990": {
+      "count_in_nation": 1773,
+      "count_in_state": 22,
+      "percentile_in_nation": 0.7365,
+      "percentile_in_state": 0.5714,
+      "rank_in_nation": 468,
+      "rank_in_state": 10
+    }
+  },
+  "revenue": {
+    "1989": {
+      "marketing_year": "1989",
+      "price": 5.6,
+      "revenue_per_harvested_acre": 168.0,
+      "revenue_per_planted_acre": 168.0,
+      "yield": 30.0
+    },
+    "1990": {
+      "marketing_year": "1990",
+      "price": 5.63,
+      "revenue_per_harvested_acre": 208.31,
+      "revenue_per_planted_acre": 208.31,
+      "yield": 37.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MD",
+    "fips": "24",
+    "name": "MARYLAND"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 7.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1990": 23.33
+    }
+  }
+}

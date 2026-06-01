@@ -1,0 +1,90 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "063",
+    "name": "WALLOWA"
+  },
+  "rank": {
+    "1971": {
+      "count_in_nation": 2401,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.5504,
+      "percentile_in_state": 0.0833,
+      "rank_in_nation": 1080,
+      "rank_in_state": 12
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.7824,
+      "percentile_in_state": 0.6429,
+      "rank_in_nation": 551,
+      "rank_in_state": 6
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.5772,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1066,
+      "rank_in_state": 16
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.4887,
+      "percentile_in_state": 0.1429,
+      "rank_in_nation": 1294,
+      "rank_in_state": 13
+    }
+  },
+  "revenue": {
+    "1971": {
+      "marketing_year": "1971",
+      "price": 1.4,
+      "revenue_per_harvested_acre": 98.0,
+      "revenue_per_planted_acre": 98.0,
+      "yield": 70.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.6,
+      "revenue_per_harvested_acre": 288.0,
+      "revenue_per_planted_acre": 192.0,
+      "yield": 80.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.75,
+      "revenue_per_harvested_acre": 217.25,
+      "revenue_per_planted_acre": 217.25,
+      "yield": 79.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.45,
+      "revenue_per_harvested_acre": 176.4,
+      "revenue_per_planted_acre": 176.4,
+      "yield": 72.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.6429,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1977": 77.0
+    },
+    "yoy_pct": {
+      "1977": -8.86
+    }
+  }
+}

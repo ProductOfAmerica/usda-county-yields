@@ -9,6 +9,7 @@
     },
     "003": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "ADAMS"
@@ -40,12 +41,14 @@
     },
     "013": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "BLAINE"
     },
     "015": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "BOISE"
@@ -77,6 +80,7 @@
     },
     "025": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "CAMAS"
@@ -268,6 +272,7 @@
     },
     "085": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "VALLEY"
@@ -287,7 +292,7 @@
       "name": "OTHER (COMBINED) COUNTIES"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "state": {
     "alpha": "ID",
     "fips": "16",

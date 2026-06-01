@@ -7,14 +7,108 @@
     "code": "085",
     "name": "SIOUX"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "series": [
     {
       "canonical": true,
       "class": "ALL CLASSES",
+      "cv": {
+        "2021": 3.0
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES HARVESTED",
+      "statistic": "AREA HARVESTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1988": 400.0,
+        "1989": 500.0,
+        "1990": 100.0,
+        "1991": 100.0,
+        "1992": 100.0,
+        "1993": 400.0,
+        "1994": 500.0,
+        "1995": 400.0,
+        "1998": 1300.0,
+        "1999": 700.0,
+        "2000": 900.0,
+        "2001": 1500.0,
+        "2019": 8300.0,
+        "2021": 13700.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2021": 2.6
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - ACRES PLANTED",
+      "statistic": "AREA PLANTED",
+      "suppressed": {},
+      "unit": "ACRES",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1988": 500.0,
+        "1989": 500.0,
+        "1990": 100.0,
+        "1991": 200.0,
+        "1992": 300.0,
+        "1993": 400.0,
+        "1994": 500.0,
+        "1995": 400.0,
+        "1998": 1300.0,
+        "1999": 700.0,
+        "2000": 900.0,
+        "2001": 1500.0,
+        "2019": 8900.0,
+        "2021": 14900.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2021": 15.1
+      },
+      "prodn_practice": "ALL PRODUCTION PRACTICES",
+      "raw": {},
+      "short_desc": "SOYBEANS - PRODUCTION, MEASURED IN BU",
+      "statistic": "PRODUCTION",
+      "suppressed": {},
+      "unit": "BU",
+      "util_practice": "ALL UTILIZATION PRACTICES",
+      "values": {
+        "1988": 7200.0,
+        "1989": 10000.0,
+        "1990": 2000.0,
+        "1991": 2000.0,
+        "1992": 1000.0,
+        "1993": 3700.0,
+        "1994": 7000.0,
+        "1995": 6500.0,
+        "1998": 44500.0,
+        "1999": 13700.0,
+        "2000": 32000.0,
+        "2001": 60000.0,
+        "2019": 339000.0,
+        "2021": 234000.0
+      }
+    },
+    {
+      "canonical": true,
+      "class": "ALL CLASSES",
+      "cv": {
+        "2021": 14.8
+      },
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",
@@ -37,9 +131,11 @@
     },
     {
       "class": "ALL CLASSES",
+      "cv": {},
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "raw": {},
       "short_desc": "SOYBEANS - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+      "statistic": "YIELD",
       "suppressed": {},
       "unit": "BU / NET PLANTED ACRE",
       "util_practice": "ALL UTILIZATION PRACTICES",

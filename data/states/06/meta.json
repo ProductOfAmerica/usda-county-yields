@@ -140,6 +140,7 @@
     },
     "043": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "MARIPOSA"
@@ -167,6 +168,7 @@
     },
     "051": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "MONO"
@@ -360,6 +362,7 @@
     },
     "109": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "TUOLUMNE"
@@ -393,7 +396,7 @@
       "name": "OTHER (COMBINED) COUNTIES"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "state": {
     "alpha": "CA",
     "fips": "06",

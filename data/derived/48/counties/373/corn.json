@@ -1,0 +1,91 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "373",
+    "name": "POLK"
+  },
+  "rank": {
+    "1970": {
+      "count_in_nation": 2397,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.1432,
+      "percentile_in_state": 0.1694,
+      "rank_in_nation": 2054,
+      "rank_in_state": 104
+    },
+    "1985": {
+      "count_in_nation": 2351,
+      "count_in_state": 98,
+      "percentile_in_nation": 0.494,
+      "percentile_in_state": 0.701,
+      "rank_in_nation": 1190,
+      "rank_in_state": 30
+    },
+    "1986": {
+      "count_in_nation": 2314,
+      "count_in_state": 93,
+      "percentile_in_nation": 0.2797,
+      "percentile_in_state": 0.2174,
+      "rank_in_nation": 1667,
+      "rank_in_state": 73
+    },
+    "1987": {
+      "count_in_nation": 2300,
+      "count_in_state": 96,
+      "percentile_in_nation": 0.4058,
+      "percentile_in_state": 0.6211,
+      "rank_in_nation": 1367,
+      "rank_in_state": 37
+    }
+  },
+  "revenue": {
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.42,
+      "revenue_per_harvested_acre": 39.76,
+      "revenue_per_planted_acre": 33.1333,
+      "yield": 28.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 2.49,
+      "revenue_per_harvested_acre": 242.028,
+      "revenue_per_planted_acre": 242.0833,
+      "yield": 97.2
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 1.87,
+      "revenue_per_harvested_acre": 134.827,
+      "revenue_per_planted_acre": 116.45,
+      "yield": 72.1
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 2.17,
+      "revenue_per_harvested_acre": 192.045,
+      "revenue_per_planted_acre": 147.7269,
+      "yield": 88.5
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 3.5387,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1987": 85.93
+    },
+    "yoy_pct": {
+      "1986": -25.82,
+      "1987": 22.75
+    }
+  }
+}

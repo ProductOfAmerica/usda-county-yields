@@ -1,0 +1,104 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "479",
+    "name": "WEBB"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 2393,
+      "count_in_state": 124,
+      "percentile_in_nation": 0.0259,
+      "percentile_in_state": 0.0488,
+      "rank_in_nation": 2331,
+      "rank_in_state": 118
+    },
+    "1979": {
+      "count_in_nation": 2431,
+      "count_in_state": 127,
+      "percentile_in_nation": 0.1621,
+      "percentile_in_state": 0.4841,
+      "rank_in_nation": 2037,
+      "rank_in_state": 66
+    },
+    "1980": {
+      "count_in_nation": 2411,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.6162,
+      "percentile_in_state": 0.7661,
+      "rank_in_nation": 926,
+      "rank_in_state": 30
+    },
+    "1991": {
+      "count_in_nation": 2222,
+      "count_in_state": 103,
+      "percentile_in_nation": 0.0365,
+      "percentile_in_state": 0.0882,
+      "rank_in_nation": 2141,
+      "rank_in_state": 94
+    },
+    "1992": {
+      "count_in_nation": 2252,
+      "count_in_state": 105,
+      "percentile_in_nation": 0.1324,
+      "percentile_in_state": 0.25,
+      "rank_in_nation": 1954,
+      "rank_in_state": 79
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 31.625,
+      "revenue_per_planted_acre": 6.325,
+      "yield": 27.5
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 2.82,
+      "revenue_per_harvested_acre": 163.56,
+      "revenue_per_planted_acre": 114.492,
+      "yield": 58.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.44,
+      "revenue_per_harvested_acre": 282.08,
+      "revenue_per_planted_acre": 282.08,
+      "yield": 82.0
+    },
+    "1991": {
+      "marketing_year": "1991",
+      "price": 2.68,
+      "revenue_per_harvested_acre": 126.764,
+      "revenue_per_planted_acre": 94.3497,
+      "yield": 47.3
+    },
+    "1992": {
+      "marketing_year": "1992",
+      "price": 2.41,
+      "revenue_per_harvested_acre": 173.52,
+      "revenue_per_planted_acre": 72.3,
+      "yield": 72.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.0838,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1980": 41.38,
+      "1992": 52.22
+    }
+  }
+}

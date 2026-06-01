@@ -107,6 +107,7 @@
     },
     "031": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "JEFFERSON"
@@ -190,6 +191,7 @@
     },
     "055": {
       "crops": [
+        "corn",
         "wheat"
       ],
       "name": "SAN JUAN"
@@ -279,7 +281,7 @@
       "name": "OTHER (COMBINED) COUNTIES"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "state": {
     "alpha": "WA",
     "fips": "53",

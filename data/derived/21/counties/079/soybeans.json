@@ -1,0 +1,133 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "079",
+    "name": "GARRARD"
+  },
+  "rank": {
+    "2001": {
+      "count_in_nation": 1648,
+      "count_in_state": 79,
+      "percentile_in_nation": 0.8154,
+      "percentile_in_state": 0.7564,
+      "rank_in_nation": 305,
+      "rank_in_state": 20
+    },
+    "2002": {
+      "count_in_nation": 1631,
+      "count_in_state": 83,
+      "percentile_in_nation": 0.5485,
+      "percentile_in_state": 0.561,
+      "rank_in_nation": 737,
+      "rank_in_state": 37
+    },
+    "2011": {
+      "count_in_nation": 1447,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.4758,
+      "percentile_in_state": 0.5625,
+      "rank_in_nation": 759,
+      "rank_in_state": 36
+    },
+    "2014": {
+      "count_in_nation": 1458,
+      "count_in_state": 70,
+      "percentile_in_nation": 0.5257,
+      "percentile_in_state": 0.2609,
+      "rank_in_nation": 692,
+      "rank_in_state": 52
+    },
+    "2017": {
+      "count_in_nation": 1381,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.5333,
+      "percentile_in_state": 0.1642,
+      "rank_in_nation": 645,
+      "rank_in_state": 57
+    },
+    "2021": {
+      "count_in_nation": 1352,
+      "count_in_state": 76,
+      "percentile_in_nation": 0.7217,
+      "percentile_in_state": 0.7067,
+      "rank_in_nation": 377,
+      "rank_in_state": 23
+    },
+    "2023": {
+      "count_in_nation": 1306,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.6996,
+      "percentile_in_state": 0.5323,
+      "rank_in_nation": 393,
+      "rank_in_state": 30
+    }
+  },
+  "revenue": {
+    "2001": {
+      "marketing_year": "2001",
+      "price": 4.47,
+      "revenue_per_harvested_acre": 196.68,
+      "revenue_per_planted_acre": 168.5829,
+      "yield": 44.0
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 5.74,
+      "revenue_per_harvested_acre": 189.42,
+      "revenue_per_planted_acre": 162.36,
+      "yield": 33.0
+    },
+    "2011": {
+      "marketing_year": "2011",
+      "price": 12.4,
+      "revenue_per_harvested_acre": 483.6,
+      "revenue_per_planted_acre": 413.3333,
+      "yield": 39.0
+    },
+    "2014": {
+      "marketing_year": "2014",
+      "price": 10.5,
+      "revenue_per_harvested_acre": 487.2,
+      "revenue_per_planted_acre": 481.7647,
+      "yield": 46.4
+    },
+    "2017": {
+      "marketing_year": "2017",
+      "price": 9.7,
+      "revenue_per_harvested_acre": 475.3,
+      "revenue_per_planted_acre": 446.2,
+      "yield": 49.0
+    },
+    "2021": {
+      "marketing_year": "2021",
+      "price": 13.1,
+      "revenue_per_harvested_acre": 742.77,
+      "revenue_per_planted_acre": 738.5125,
+      "yield": 56.7
+    },
+    "2023": {
+      "marketing_year": "2023",
+      "price": 12.8,
+      "revenue_per_harvested_acre": 696.32,
+      "revenue_per_planted_acre": 659.5368,
+      "yield": 54.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.808,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "2002": -25.0
+    }
+  }
+}

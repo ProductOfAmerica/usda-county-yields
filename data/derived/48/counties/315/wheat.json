@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "315",
+    "name": "MARION"
+  },
+  "rank": {
+    "1979": {
+      "count_in_nation": 2448,
+      "count_in_state": 204,
+      "percentile_in_nation": 0.4532,
+      "percentile_in_state": 0.8473,
+      "rank_in_nation": 1339,
+      "rank_in_state": 32
+    },
+    "1985": {
+      "count_in_nation": 2477,
+      "count_in_state": 205,
+      "percentile_in_nation": 0.1595,
+      "percentile_in_state": 0.451,
+      "rank_in_nation": 2082,
+      "rank_in_state": 113
+    }
+  },
+  "revenue": {
+    "1979": {
+      "marketing_year": "1979",
+      "price": 3.86,
+      "revenue_per_harvested_acre": 127.38,
+      "revenue_per_planted_acre": 42.46,
+      "yield": 33.0
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 2.97,
+      "revenue_per_harvested_acre": 80.487,
+      "revenue_per_planted_acre": 56.43,
+      "yield": 27.1
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.9833,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

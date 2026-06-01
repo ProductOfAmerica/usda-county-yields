@@ -1,0 +1,224 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "113",
+    "name": "SAWYER"
+  },
+  "rank": {
+    "1969": {
+      "count_in_nation": 2011,
+      "count_in_state": 62,
+      "percentile_in_nation": 0.5881,
+      "percentile_in_state": 0.3607,
+      "rank_in_nation": 829,
+      "rank_in_state": 40
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.0954,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 2277,
+      "rank_in_state": 67
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 66,
+      "percentile_in_nation": 0.3101,
+      "percentile_in_state": 0.3231,
+      "rank_in_nation": 1743,
+      "rank_in_state": 45
+    },
+    "1977": {
+      "count_in_nation": 2482,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.2713,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1809,
+      "rank_in_state": 67
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 69,
+      "percentile_in_nation": 0.3737,
+      "percentile_in_state": 0.6471,
+      "rank_in_nation": 1568,
+      "rank_in_state": 25
+    },
+    "1984": {
+      "count_in_nation": 2472,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.1174,
+      "percentile_in_state": 0.0323,
+      "rank_in_nation": 2182,
+      "rank_in_state": 61
+    },
+    "1985": {
+      "count_in_nation": 2477,
+      "count_in_state": 69,
+      "percentile_in_nation": 0.2775,
+      "percentile_in_state": 0.0441,
+      "rank_in_nation": 1790,
+      "rank_in_state": 66
+    },
+    "1986": {
+      "count_in_nation": 2402,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.7239,
+      "percentile_in_state": 0.197,
+      "rank_in_nation": 664,
+      "rank_in_state": 54
+    },
+    "1989": {
+      "count_in_nation": 2359,
+      "count_in_state": 71,
+      "percentile_in_nation": 0.7345,
+      "percentile_in_state": 0.5571,
+      "rank_in_nation": 627,
+      "rank_in_state": 32
+    },
+    "1990": {
+      "count_in_nation": 2329,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.3544,
+      "percentile_in_state": 0.0909,
+      "rank_in_nation": 1504,
+      "rank_in_state": 61
+    },
+    "1991": {
+      "count_in_nation": 2236,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.2295,
+      "percentile_in_state": 0.0896,
+      "rank_in_nation": 1723,
+      "rank_in_state": 62
+    },
+    "1992": {
+      "count_in_nation": 2231,
+      "count_in_state": 59,
+      "percentile_in_nation": 0.0816,
+      "percentile_in_state": 0.0862,
+      "rank_in_nation": 2049,
+      "rank_in_state": 54
+    }
+  },
+  "revenue": {
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 36.8,
+      "yield": 32.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.9,
+      "revenue_per_harvested_acre": 81.9,
+      "revenue_per_planted_acre": 81.9,
+      "yield": 21.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.22,
+      "revenue_per_harvested_acre": 83.72,
+      "revenue_per_planted_acre": 83.72,
+      "yield": 26.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 1.98,
+      "revenue_per_harvested_acre": 55.44,
+      "revenue_per_planted_acre": 55.44,
+      "yield": 28.0
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.85,
+      "revenue_per_harvested_acre": 123.2,
+      "revenue_per_planted_acre": 123.2,
+      "yield": 32.0
+    },
+    "1984": {
+      "marketing_year": "1984",
+      "price": 3.25,
+      "revenue_per_harvested_acre": 93.275,
+      "revenue_per_planted_acre": 87.3438,
+      "yield": 28.7
+    },
+    "1985": {
+      "marketing_year": "1985",
+      "price": 2.8,
+      "revenue_per_harvested_acre": 84.0,
+      "revenue_per_planted_acre": 70.0,
+      "yield": 30.0
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 2.34,
+      "revenue_per_harvested_acre": 93.6,
+      "revenue_per_planted_acre": 93.6,
+      "yield": 40.0
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 3.5,
+      "revenue_per_harvested_acre": 161.0,
+      "revenue_per_planted_acre": 161.0,
+      "yield": 46.0
+    },
+    "1990": {
+      "marketing_year": "1990",
+      "price": 2.6,
+      "revenue_per_harvested_acre": 88.4,
+      "revenue_per_planted_acre": 88.4,
+      "yield": 34.0
+    },
+    "1991": {
+      "marketing_year": "1991",
+      "price": 2.75,
+      "revenue_per_harvested_acre": 71.5,
+      "revenue_per_planted_acre": 71.5,
+      "yield": 26.0
+    },
+    "1992": {
+      "marketing_year": "1992",
+      "price": 3.0,
+      "revenue_per_harvested_acre": 78.0,
+      "revenue_per_planted_acre": 78.0,
+      "yield": 26.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WI",
+    "fips": "55",
+    "name": "WISCONSIN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2918,
+    "trailing_10yr_avg": {
+      "1986": 31.74,
+      "1989": 35.34,
+      "1990": 35.74,
+      "1991": 34.12,
+      "1992": 32.96
+    },
+    "trailing_5yr_avg": {
+      "1977": 25.0,
+      "1986": 32.9,
+      "1989": 38.67,
+      "1990": 40.0,
+      "1991": 35.33,
+      "1992": 33.0
+    },
+    "yoy_pct": {
+      "1985": 4.53,
+      "1986": 33.33,
+      "1990": -26.09,
+      "1991": -23.53,
+      "1992": 0.0
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "035",
+    "name": "KLAMATH"
+  },
+  "rank": {
+    "1996": {
+      "count_in_nation": 2142,
+      "count_in_state": 18,
+      "percentile_in_nation": 0.9313,
+      "percentile_in_state": 0.6471,
+      "rank_in_nation": 148,
+      "rank_in_state": 7
+    },
+    "1998": {
+      "count_in_nation": 2123,
+      "count_in_state": 11,
+      "percentile_in_nation": 0.7592,
+      "percentile_in_state": 0.2,
+      "rank_in_nation": 512,
+      "rank_in_state": 9
+    }
+  },
+  "revenue": {
+    "1996": {
+      "marketing_year": "1996",
+      "price": 3.19,
+      "revenue_per_harvested_acre": 481.69,
+      "revenue_per_planted_acre": 481.69,
+      "yield": 151.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 2.45,
+      "revenue_per_harvested_acre": 330.75,
+      "revenue_per_planted_acre": 165.375,
+      "yield": 135.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -8.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

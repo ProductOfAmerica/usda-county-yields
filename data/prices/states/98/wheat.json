@@ -1,0 +1,32 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "schema_version": 3,
+  "series": [
+    {
+      "class": "SPRING, DURUM",
+      "period": "MARKETING YEAR",
+      "suppressed": {},
+      "unit": "$ / BU",
+      "values": {
+        "2014": 8.22
+      }
+    },
+    {
+      "class": "WINTER",
+      "period": "MARKETING YEAR",
+      "suppressed": {},
+      "unit": "$ / BU",
+      "values": {
+        "2014": 7.47
+      }
+    }
+  ],
+  "state": {
+    "alpha": "OT",
+    "fips": "98",
+    "name": "OTHER STATES"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "245",
+    "name": "JEFFERSON"
+  },
+  "rank": {
+    "1999": {
+      "count_in_nation": 2098,
+      "count_in_state": 107,
+      "percentile_in_nation": 0.5179,
+      "percentile_in_state": 0.6226,
+      "rank_in_nation": 1012,
+      "rank_in_state": 41
+    },
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 106,
+      "percentile_in_nation": 0.0337,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 2008,
+      "rank_in_state": 106
+    },
+    "2001": {
+      "count_in_nation": 2023,
+      "count_in_state": 98,
+      "percentile_in_nation": 0.1904,
+      "percentile_in_state": 0.4948,
+      "rank_in_nation": 1638,
+      "rank_in_state": 50
+    },
+    "2002": {
+      "count_in_nation": 2086,
+      "count_in_state": 109,
+      "percentile_in_nation": 0.3995,
+      "percentile_in_state": 0.6574,
+      "rank_in_nation": 1253,
+      "rank_in_state": 38
+    }
+  },
+  "revenue": {
+    "1999": {
+      "marketing_year": "1999",
+      "price": 2.07,
+      "revenue_per_harvested_acre": 221.697,
+      "revenue_per_planted_acre": 209.3,
+      "yield": 107.1
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.18,
+      "revenue_per_harvested_acre": 45.78,
+      "revenue_per_planted_acre": 43.6,
+      "yield": 21.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.29,
+      "revenue_per_harvested_acre": 206.1,
+      "revenue_per_planted_acre": 185.49,
+      "yield": 90.0
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 2.57,
+      "revenue_per_harvested_acre": 231.3,
+      "revenue_per_planted_acre": 85.2158,
+      "yield": 90.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.77,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "2001": 72.7,
+      "2002": 77.03
+    },
+    "yoy_pct": {
+      "2000": -80.39,
+      "2001": 328.57,
+      "2002": 0.0
+    }
+  }
+}

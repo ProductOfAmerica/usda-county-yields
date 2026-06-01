@@ -1,0 +1,87 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "069",
+    "name": "WAHKIAKUM"
+  },
+  "rank": {
+    "1942": {
+      "count_in_nation": 1361,
+      "count_in_state": 25,
+      "percentile_in_nation": 0.0412,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1305,
+      "rank_in_state": 25
+    },
+    "1943": {
+      "count_in_nation": 1362,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.7884,
+      "percentile_in_state": 0.92,
+      "rank_in_nation": 289,
+      "rank_in_state": 3
+    },
+    "1944": {
+      "count_in_nation": 1444,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.6687,
+      "percentile_in_state": 0.88,
+      "rank_in_nation": 479,
+      "rank_in_state": 4
+    },
+    "1945": {
+      "count_in_nation": 1447,
+      "count_in_state": 27,
+      "percentile_in_nation": 0.7794,
+      "percentile_in_state": 0.7692,
+      "rank_in_nation": 320,
+      "rank_in_state": 7
+    },
+    "1946": {
+      "count_in_nation": 1446,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.7287,
+      "percentile_in_state": 0.68,
+      "rank_in_nation": 393,
+      "rank_in_state": 9
+    },
+    "1947": {
+      "count_in_nation": 1449,
+      "count_in_state": 26,
+      "percentile_in_nation": 0.864,
+      "percentile_in_state": 0.6,
+      "rank_in_nation": 198,
+      "rank_in_state": 11
+    }
+  },
+  "revenue": {},
+  "schema_version": 3,
+  "state": {
+    "alpha": "WA",
+    "fips": "53",
+    "name": "WASHINGTON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 4.2286,
+    "trailing_10yr_avg": {
+      "1946": 36.4,
+      "1947": 37.33
+    },
+    "trailing_5yr_avg": {
+      "1944": 31.67,
+      "1945": 34.25,
+      "1946": 36.4,
+      "1947": 42.2
+    },
+    "yoy_pct": {
+      "1943": 253.85,
+      "1944": -21.74,
+      "1945": 16.67,
+      "1946": 7.14,
+      "1947": -6.67
+    }
+  }
+}

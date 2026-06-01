@@ -1,0 +1,121 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "055",
+    "name": "SHERMAN"
+  },
+  "rank": {
+    "1958": {
+      "count_in_nation": 2058,
+      "count_in_state": 22,
+      "percentile_in_nation": 0.8123,
+      "percentile_in_state": 0.2857,
+      "rank_in_nation": 387,
+      "rank_in_state": 16
+    },
+    "1959": {
+      "count_in_nation": 2173,
+      "count_in_state": 22,
+      "percentile_in_nation": 0.8066,
+      "percentile_in_state": 0.381,
+      "rank_in_nation": 421,
+      "rank_in_state": 14
+    },
+    "1960": {
+      "count_in_nation": 2201,
+      "count_in_state": 22,
+      "percentile_in_nation": 0.7718,
+      "percentile_in_state": 0.2857,
+      "rank_in_nation": 503,
+      "rank_in_state": 16
+    },
+    "1961": {
+      "count_in_nation": 2305,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.6723,
+      "percentile_in_state": 0.25,
+      "rank_in_nation": 756,
+      "rank_in_state": 16
+    },
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.0313,
+      "percentile_in_state": 0.7826,
+      "rank_in_nation": 2013,
+      "rank_in_state": 6
+    },
+    "2001": {
+      "count_in_nation": 2023,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.0376,
+      "percentile_in_state": 0.8,
+      "rank_in_nation": 1947,
+      "rank_in_state": 5
+    }
+  },
+  "revenue": {
+    "1958": {
+      "marketing_year": "1958",
+      "price": 1.44,
+      "revenue_per_harvested_acre": 86.4,
+      "revenue_per_planted_acre": 86.4,
+      "yield": 60.0
+    },
+    "1959": {
+      "marketing_year": "1959",
+      "price": 1.46,
+      "revenue_per_harvested_acre": 87.6,
+      "revenue_per_planted_acre": 87.6,
+      "yield": 60.0
+    },
+    "1960": {
+      "marketing_year": "1960",
+      "price": 1.37,
+      "revenue_per_harvested_acre": 82.2,
+      "revenue_per_planted_acre": 82.2,
+      "yield": 60.0
+    },
+    "1961": {
+      "marketing_year": "1961",
+      "price": 1.38,
+      "revenue_per_harvested_acre": 82.8,
+      "revenue_per_planted_acre": 82.8,
+      "yield": 60.0
+    },
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.41,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.54,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -1.4598,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1960": 60.0,
+      "1961": 60.0
+    },
+    "yoy_pct": {
+      "1959": 0.0,
+      "1960": 0.0,
+      "1961": 0.0
+    }
+  }
+}

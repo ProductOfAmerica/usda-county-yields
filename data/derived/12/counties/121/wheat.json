@@ -1,0 +1,118 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "121",
+    "name": "SUWANNEE"
+  },
+  "rank": {
+    "1961": {
+      "count_in_nation": 1931,
+      "count_in_state": 12,
+      "percentile_in_nation": 0.0762,
+      "percentile_in_state": 0.0909,
+      "rank_in_nation": 1784,
+      "rank_in_state": 11
+    },
+    "1962": {
+      "count_in_nation": 1760,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.0716,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1634,
+      "rank_in_state": 13
+    },
+    "1963": {
+      "count_in_nation": 1920,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.1131,
+      "percentile_in_state": 0.0833,
+      "rank_in_nation": 1703,
+      "rank_in_state": 12
+    },
+    "1964": {
+      "count_in_nation": 1774,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.088,
+      "percentile_in_state": 0.25,
+      "rank_in_nation": 1618,
+      "rank_in_state": 10
+    },
+    "1965": {
+      "count_in_nation": 1837,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.0703,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 1708,
+      "rank_in_state": 11
+    },
+    "1966": {
+      "count_in_nation": 1889,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.161,
+      "percentile_in_state": 0.3333,
+      "rank_in_nation": 1585,
+      "rank_in_state": 9
+    }
+  },
+  "revenue": {
+    "1962": {
+      "marketing_year": "1962",
+      "price": 1.9,
+      "revenue_per_harvested_acre": 30.4,
+      "yield": 16.0
+    },
+    "1963": {
+      "marketing_year": "1963",
+      "price": 2.0,
+      "revenue_per_harvested_acre": 36.0,
+      "yield": 18.0
+    },
+    "1964": {
+      "marketing_year": "1964",
+      "price": 1.36,
+      "revenue_per_harvested_acre": 23.12,
+      "yield": 17.0
+    },
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.32,
+      "revenue_per_harvested_acre": 22.44,
+      "yield": 17.0
+    },
+    "1966": {
+      "marketing_year": "1966",
+      "price": 1.56,
+      "revenue_per_harvested_acre": 32.76,
+      "yield": 21.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "FL",
+    "fips": "12",
+    "name": "FLORIDA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.7714,
+    "trailing_10yr_avg": {
+      "1965": 16.8,
+      "1966": 17.5
+    },
+    "trailing_5yr_avg": {
+      "1963": 16.67,
+      "1964": 16.75,
+      "1965": 16.8,
+      "1966": 17.8
+    },
+    "yoy_pct": {
+      "1962": 0.0,
+      "1963": 12.5,
+      "1964": -5.56,
+      "1965": 0.0,
+      "1966": 23.53
+    }
+  }
+}

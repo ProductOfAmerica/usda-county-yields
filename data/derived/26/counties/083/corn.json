@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "083",
+    "name": "KEWEENAW"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2459,
+      "count_in_state": 75,
+      "percentile_in_nation": 0.3653,
+      "percentile_in_state": 0.1757,
+      "rank_in_nation": 1561,
+      "rank_in_state": 62
+    },
+    "1973": {
+      "count_in_nation": 2480,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.3977,
+      "percentile_in_state": 0.2911,
+      "rank_in_nation": 1494,
+      "rank_in_state": 57
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 79,
+      "percentile_in_nation": 0.4511,
+      "percentile_in_state": 0.4359,
+      "rank_in_nation": 1388,
+      "rank_in_state": 45
+    },
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.2306,
+      "percentile_in_state": 0.125,
+      "rank_in_nation": 1929,
+      "rank_in_state": 71
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 81,
+      "percentile_in_nation": 0.0738,
+      "percentile_in_state": 0.0625,
+      "rank_in_nation": 2334,
+      "rank_in_state": 76
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.49,
+      "revenue_per_harvested_acre": 92.38,
+      "revenue_per_planted_acre": 92.38,
+      "yield": 62.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.52,
+      "revenue_per_harvested_acre": 166.32,
+      "revenue_per_planted_acre": 166.32,
+      "yield": 66.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 2.91,
+      "revenue_per_harvested_acre": 171.69,
+      "revenue_per_planted_acre": 171.69,
+      "yield": 59.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.35,
+      "revenue_per_harvested_acre": 115.15,
+      "revenue_per_planted_acre": 115.15,
+      "yield": 49.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.04,
+      "revenue_per_harvested_acre": 77.52,
+      "revenue_per_planted_acre": 77.52,
+      "yield": 38.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MI",
+    "fips": "26",
+    "name": "MICHIGAN"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -6.5,
+    "trailing_10yr_avg": {
+      "1976": 54.8
+    },
+    "trailing_5yr_avg": {
+      "1974": 62.33,
+      "1975": 59.0,
+      "1976": 54.8
+    },
+    "yoy_pct": {
+      "1973": 6.45,
+      "1974": -10.61,
+      "1975": -16.95,
+      "1976": -22.45
+    }
+  }
+}

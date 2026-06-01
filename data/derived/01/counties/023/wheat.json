@@ -1,0 +1,183 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "023",
+    "name": "CHOCTAW"
+  },
+  "rank": {
+    "1965": {
+      "count_in_nation": 1837,
+      "count_in_state": 64,
+      "percentile_in_nation": 0.1727,
+      "percentile_in_state": 0.0159,
+      "rank_in_nation": 1520,
+      "rank_in_state": 63
+    },
+    "1967": {
+      "count_in_nation": 1853,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.3045,
+      "percentile_in_state": 0.7576,
+      "rank_in_nation": 1289,
+      "rank_in_state": 17
+    },
+    "1968": {
+      "count_in_nation": 2089,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.2577,
+      "percentile_in_state": 0.4091,
+      "rank_in_nation": 1551,
+      "rank_in_state": 40
+    },
+    "1969": {
+      "count_in_nation": 2011,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.3672,
+      "percentile_in_state": 0.3788,
+      "rank_in_nation": 1273,
+      "rank_in_state": 42
+    },
+    "1970": {
+      "count_in_nation": 1906,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.2294,
+      "percentile_in_state": 0.2727,
+      "rank_in_nation": 1469,
+      "rank_in_state": 49
+    },
+    "1971": {
+      "count_in_nation": 2064,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.1934,
+      "percentile_in_state": 0.2879,
+      "rank_in_nation": 1665,
+      "rank_in_state": 48
+    },
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.0548,
+      "percentile_in_state": 0.1667,
+      "rank_in_nation": 2366,
+      "rank_in_state": 56
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.0497,
+      "percentile_in_state": 0.2879,
+      "rank_in_nation": 2392,
+      "rank_in_state": 48
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.2587,
+      "percentile_in_state": 0.5,
+      "rank_in_nation": 1907,
+      "rank_in_state": 34
+    }
+  },
+  "revenue": {
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.42,
+      "revenue_per_harvested_acre": 28.4,
+      "revenue_per_planted_acre": 9.4667,
+      "yield": 20.0
+    },
+    "1967": {
+      "marketing_year": "1967",
+      "price": 1.49,
+      "revenue_per_harvested_acre": 37.25,
+      "revenue_per_planted_acre": 26.6071,
+      "yield": 25.0
+    },
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.2,
+      "revenue_per_harvested_acre": 28.8,
+      "revenue_per_planted_acre": 14.4,
+      "yield": 24.0
+    },
+    "1969": {
+      "marketing_year": "1969",
+      "price": 1.2,
+      "revenue_per_harvested_acre": 33.6,
+      "revenue_per_planted_acre": 22.4,
+      "yield": 28.0
+    },
+    "1970": {
+      "marketing_year": "1970",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 32.76,
+      "revenue_per_planted_acre": 19.2706,
+      "yield": 26.0
+    },
+    "1971": {
+      "marketing_year": "1971",
+      "price": 1.48,
+      "revenue_per_harvested_acre": 39.96,
+      "revenue_per_planted_acre": 28.5429,
+      "yield": 27.0
+    },
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.36,
+      "revenue_per_harvested_acre": 22.304,
+      "revenue_per_planted_acre": 16.0225,
+      "yield": 16.4
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 2.72,
+      "revenue_per_harvested_acre": 48.96,
+      "revenue_per_planted_acre": 24.48,
+      "yield": 18.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.66,
+      "revenue_per_harvested_acre": 84.18,
+      "revenue_per_planted_acre": 42.09,
+      "yield": 23.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "AL",
+    "fips": "01",
+    "name": "ALABAMA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.3216,
+    "trailing_10yr_avg": {
+      "1970": 24.6,
+      "1971": 25.0,
+      "1972": 23.77,
+      "1973": 23.05,
+      "1974": 23.04
+    },
+    "trailing_5yr_avg": {
+      "1968": 23.0,
+      "1969": 24.25,
+      "1970": 25.75,
+      "1971": 26.0,
+      "1972": 24.28,
+      "1973": 23.08,
+      "1974": 22.08
+    },
+    "yoy_pct": {
+      "1968": -4.0,
+      "1969": 16.67,
+      "1970": -7.14,
+      "1971": 3.85,
+      "1972": -39.26,
+      "1973": 9.76,
+      "1974": 27.78
+    }
+  }
+}

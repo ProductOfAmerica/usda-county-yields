@@ -1,0 +1,148 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "027",
+    "name": "MORRIS"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 12,
+      "percentile_in_nation": 0.2142,
+      "percentile_in_state": 0.4545,
+      "rank_in_nation": 1384,
+      "rank_in_state": 7
+    },
+    "1974": {
+      "count_in_nation": 1817,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.4692,
+      "percentile_in_state": 0.0833,
+      "rank_in_nation": 965,
+      "rank_in_state": 12
+    },
+    "1975": {
+      "count_in_nation": 1792,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.3037,
+      "percentile_in_state": 0.2143,
+      "rank_in_nation": 1248,
+      "rank_in_state": 12
+    },
+    "1976": {
+      "count_in_nation": 1790,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.5159,
+      "percentile_in_state": 0.3571,
+      "rank_in_nation": 867,
+      "rank_in_state": 10
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.6055,
+      "percentile_in_state": 1.0,
+      "rank_in_nation": 726,
+      "rank_in_state": 1
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.8314,
+      "percentile_in_state": 0.8571,
+      "rank_in_nation": 314,
+      "rank_in_state": 3
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.7533,
+      "percentile_in_state": 0.9286,
+      "rank_in_nation": 465,
+      "rank_in_state": 2
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.5,
+      "revenue_per_harvested_acre": 110.0,
+      "revenue_per_planted_acre": 110.0,
+      "yield": 20.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 6.73,
+      "revenue_per_harvested_acre": 148.06,
+      "revenue_per_planted_acre": 148.06,
+      "yield": 22.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 4.58,
+      "revenue_per_harvested_acre": 100.76,
+      "revenue_per_planted_acre": 100.76,
+      "yield": 22.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 6.65,
+      "revenue_per_harvested_acre": 152.95,
+      "revenue_per_planted_acre": 152.95,
+      "yield": 23.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.65,
+      "revenue_per_harvested_acre": 163.85,
+      "revenue_per_planted_acre": 163.85,
+      "yield": 29.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.8,
+      "revenue_per_harvested_acre": 224.4,
+      "revenue_per_planted_acre": 224.4,
+      "yield": 33.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.2,
+      "revenue_per_harvested_acre": 204.6,
+      "revenue_per_planted_acre": 204.6,
+      "yield": 33.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NJ",
+    "fips": "34",
+    "name": "NEW JERSEY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.4286,
+    "trailing_10yr_avg": {
+      "1977": 23.2,
+      "1978": 24.83,
+      "1979": 26.0
+    },
+    "trailing_5yr_avg": {
+      "1975": 21.33,
+      "1976": 21.75,
+      "1977": 23.2,
+      "1978": 25.8,
+      "1979": 28.0
+    },
+    "yoy_pct": {
+      "1974": 10.0,
+      "1975": 0.0,
+      "1976": 4.55,
+      "1977": 26.09,
+      "1978": 13.79,
+      "1979": 0.0
+    }
+  }
+}

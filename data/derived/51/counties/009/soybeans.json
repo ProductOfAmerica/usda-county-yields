@@ -1,0 +1,87 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "009",
+    "name": "AMHERST"
+  },
+  "rank": {
+    "1943": {
+      "count_in_nation": 731,
+      "count_in_state": 82,
+      "percentile_in_nation": 0.2726,
+      "percentile_in_state": 0.7778,
+      "rank_in_nation": 532,
+      "rank_in_state": 19
+    },
+    "1944": {
+      "count_in_nation": 836,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.1317,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 726,
+      "rank_in_state": 86
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.3265,
+      "percentile_in_state": 0.1515,
+      "rank_in_nation": 1251,
+      "rank_in_state": 57
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 67,
+      "percentile_in_nation": 0.2036,
+      "percentile_in_state": 0.2273,
+      "rank_in_nation": 1499,
+      "rank_in_state": 52
+    }
+  },
+  "revenue": {
+    "1943": {
+      "marketing_year": "1943",
+      "price": 1.9,
+      "revenue_per_harvested_acre": 19.0,
+      "yield": 10.0
+    },
+    "1944": {
+      "marketing_year": "1944",
+      "price": 2.06,
+      "revenue_per_harvested_acre": 20.6,
+      "yield": 10.0
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.85,
+      "revenue_per_harvested_acre": 150.7,
+      "revenue_per_planted_acre": 150.7,
+      "yield": 22.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.3,
+      "revenue_per_harvested_acre": 151.2,
+      "revenue_per_planted_acre": 151.2,
+      "yield": 24.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "VA",
+    "fips": "51",
+    "name": "VIRGINIA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.3719,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1944": 0.0,
+      "1979": 9.09
+    }
+  }
+}

@@ -1,0 +1,6143 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "counties": {
+    "001": {
+      "name": "ALBANY",
+      "rank": {
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4699,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 1315,
+          "rank_in_state": 11
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0317,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2448,
+          "rank_in_state": 14
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0718,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 2327,
+          "rank_in_state": 11
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.0977,
+          "percentile_in_state": 0.2143,
+          "rank_in_nation": 2274,
+          "rank_in_state": 12
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0704,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2352,
+          "rank_in_state": 13
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.0306,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2380,
+          "rank_in_state": 15
+        }
+      },
+      "yield": {
+        "1973": 71.0,
+        "1974": 27.0,
+        "1975": 35.0,
+        "1976": 40.0,
+        "1977": 22.0,
+        "1978": 29.0
+      }
+    },
+    "003": {
+      "name": "BIG HORN",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5958,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 754,
+          "rank_in_state": 2
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4404,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 1067,
+          "rank_in_state": 4
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7314,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 506,
+          "rank_in_state": 2
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.9402,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 124,
+          "rank_in_state": 1
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.9936,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 15,
+          "rank_in_state": 1
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.9145,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 189,
+          "rank_in_state": 1
+        },
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.625,
+          "percentile_in_state": 0.7273,
+          "rank_in_nation": 865,
+          "rank_in_state": 4
+        },
+        "1962": {
+          "count_in_nation": 2319,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5768,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 982,
+          "rank_in_state": 4
+        },
+        "1963": {
+          "count_in_nation": 2353,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.4919,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 1196,
+          "rank_in_state": 5
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5554,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 1004,
+          "rank_in_state": 6
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3417,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1529,
+          "rank_in_state": 8
+        },
+        "1966": {
+          "count_in_nation": 2318,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6025,
+          "percentile_in_state": 0.4444,
+          "rank_in_nation": 922,
+          "rank_in_state": 6
+        },
+        "1967": {
+          "count_in_nation": 2297,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.4909,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1170,
+          "rank_in_state": 7
+        },
+        "1968": {
+          "count_in_nation": 2393,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6484,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 842,
+          "rank_in_state": 5
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6245,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 913,
+          "rank_in_state": 4
+        },
+        "1970": {
+          "count_in_nation": 2397,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6356,
+          "percentile_in_state": 0.8889,
+          "rank_in_nation": 874,
+          "rank_in_state": 2
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5783,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 1013,
+          "rank_in_state": 6
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5216,
+          "percentile_in_state": 0.6923,
+          "rank_in_nation": 1177,
+          "rank_in_state": 5
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6624,
+          "percentile_in_state": 0.6923,
+          "rank_in_nation": 838,
+          "rank_in_state": 5
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4397,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1417,
+          "rank_in_state": 7
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4437,
+          "percentile_in_state": 0.6923,
+          "rank_in_nation": 1395,
+          "rank_in_state": 5
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.5963,
+          "percentile_in_state": 0.7143,
+          "rank_in_nation": 1018,
+          "rank_in_state": 5
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7007,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 758,
+          "rank_in_state": 2
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.3166,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1678,
+          "rank_in_state": 8
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.4786,
+          "percentile_in_state": 0.9091,
+          "rank_in_nation": 1268,
+          "rank_in_state": 2
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7361,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 637,
+          "rank_in_state": 5
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7757,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 539,
+          "rank_in_state": 4
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6625,
+          "percentile_in_state": 0.7692,
+          "rank_in_nation": 809,
+          "rank_in_state": 4
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7362,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 622,
+          "rank_in_state": 11
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5047,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1170,
+          "rank_in_state": 5
+        },
+        "1985": {
+          "count_in_nation": 2351,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.517,
+          "percentile_in_state": 0.7778,
+          "rank_in_nation": 1136,
+          "rank_in_state": 3
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5858,
+          "percentile_in_state": 0.6154,
+          "rank_in_nation": 959,
+          "rank_in_state": 6
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5359,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 1068,
+          "rank_in_state": 3
+        },
+        "1988": {
+          "count_in_nation": 2265,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.8666,
+          "percentile_in_state": 0.6,
+          "rank_in_nation": 303,
+          "rank_in_state": 5
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.2318,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1734,
+          "rank_in_state": 13
+        },
+        "1990": {
+          "count_in_nation": 2192,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.5701,
+          "percentile_in_state": 0.4,
+          "rank_in_nation": 943,
+          "rank_in_state": 7
+        },
+        "1991": {
+          "count_in_nation": 2222,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.7843,
+          "percentile_in_state": 0.7,
+          "rank_in_nation": 480,
+          "rank_in_state": 4
+        },
+        "1992": {
+          "count_in_nation": 2252,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.2874,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1605,
+          "rank_in_state": 6
+        },
+        "1993": {
+          "count_in_nation": 2169,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.3538,
+          "percentile_in_state": 0.1429,
+          "rank_in_nation": 1402,
+          "rank_in_state": 7
+        },
+        "1994": {
+          "count_in_nation": 2174,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4289,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1242,
+          "rank_in_state": 3
+        },
+        "1995": {
+          "count_in_nation": 2096,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.5179,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1011,
+          "rank_in_state": 6
+        },
+        "1996": {
+          "count_in_nation": 2142,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.4801,
+          "percentile_in_state": 0.625,
+          "rank_in_nation": 1114,
+          "rank_in_state": 4
+        },
+        "1997": {
+          "count_in_nation": 2109,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6784,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 679,
+          "rank_in_state": 7
+        },
+        "1998": {
+          "count_in_nation": 2123,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.3567,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1366,
+          "rank_in_state": 6
+        },
+        "1999": {
+          "count_in_nation": 2098,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4564,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1141,
+          "rank_in_state": 5
+        },
+        "2000": {
+          "count_in_nation": 2078,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.5272,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 983,
+          "rank_in_state": 3
+        },
+        "2001": {
+          "count_in_nation": 2023,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.2849,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1447,
+          "rank_in_state": 7
+        },
+        "2002": {
+          "count_in_nation": 2086,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.7309,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 562,
+          "rank_in_state": 3
+        },
+        "2003": {
+          "count_in_nation": 2059,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.6443,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 733,
+          "rank_in_state": 5
+        },
+        "2004": {
+          "count_in_nation": 2014,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.4019,
+          "percentile_in_state": 0.625,
+          "rank_in_nation": 1205,
+          "rank_in_state": 4
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4945,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1013,
+          "rank_in_state": 7
+        },
+        "2006": {
+          "count_in_nation": 1955,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.346,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1279,
+          "rank_in_state": 5
+        },
+        "2007": {
+          "count_in_nation": 1934,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.2654,
+          "percentile_in_state": 0.2857,
+          "rank_in_nation": 1421,
+          "rank_in_state": 6
+        },
+        "2008": {
+          "count_in_nation": 1623,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.4556,
+          "percentile_in_state": 0.2,
+          "rank_in_nation": 884,
+          "rank_in_state": 5
+        },
+        "2010": {
+          "count_in_nation": 1750,
+          "count_in_state": 5,
+          "percentile_in_nation": 0.4477,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 967,
+          "rank_in_state": 3
+        },
+        "2011": {
+          "count_in_nation": 1667,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.7869,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 356,
+          "rank_in_state": 1
+        },
+        "2013": {
+          "count_in_nation": 1579,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.3878,
+          "percentile_in_state": 0.6,
+          "rank_in_nation": 967,
+          "rank_in_state": 3
+        },
+        "2014": {
+          "count_in_nation": 1595,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.0828,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1463,
+          "rank_in_state": 6
+        },
+        "2015": {
+          "count_in_nation": 1468,
+          "count_in_state": 5,
+          "percentile_in_nation": 0.4663,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 784,
+          "rank_in_state": 4
+        }
+      },
+      "yield": {
+        "1955": 39.0,
+        "1956": 35.0,
+        "1957": 50.0,
+        "1958": 70.0,
+        "1959": 80.0,
+        "1960": 69.0,
+        "1961": 57.0,
+        "1962": 55.0,
+        "1963": 50.0,
+        "1964": 51.0,
+        "1965": 47.0,
+        "1966": 60.0,
+        "1967": 63.0,
+        "1968": 72.0,
+        "1969": 75.0,
+        "1970": 66.0,
+        "1971": 72.0,
+        "1972": 74.0,
+        "1973": 82.0,
+        "1974": 58.0,
+        "1975": 63.6,
+        "1976": 80.0,
+        "1977": 90.0,
+        "1978": 65.0,
+        "1979": 87.0,
+        "1980": 92.0,
+        "1981": 108.0,
+        "1982": 103.0,
+        "1983": 88.7,
+        "1984": 92.2,
+        "1985": 99.6,
+        "1986": 103.0,
+        "1987": 99.9,
+        "1988": 107.0,
+        "1989": 79.1,
+        "1990": 104.0,
+        "1991": 114.0,
+        "1992": 91.0,
+        "1993": 74.0,
+        "1994": 109.0,
+        "1995": 101.0,
+        "1996": 107.0,
+        "1997": 122.0,
+        "1998": 91.0,
+        "1999": 100.0,
+        "2000": 124.0,
+        "2001": 100.0,
+        "2002": 125.0,
+        "2003": 132.0,
+        "2004": 128.0,
+        "2005": 125.0,
+        "2006": 112.0,
+        "2007": 100.0,
+        "2008": 130.0,
+        "2010": 128.4,
+        "2011": 155.2,
+        "2013": 141.4,
+        "2014": 103.8,
+        "2015": 152.4
+      }
+    },
+    "005": {
+      "name": "CAMPBELL",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0381,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 1793,
+          "rank_in_state": 12
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1795,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1564,
+          "rank_in_state": 7
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0761,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 1738,
+          "rank_in_state": 12
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0107,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2036,
+          "rank_in_state": 14
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0322,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2103,
+          "rank_in_state": 14
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0036,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2193,
+          "rank_in_state": 14
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0559,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 2131,
+          "rank_in_state": 12
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0138,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 2290,
+          "rank_in_state": 12
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4574,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1319,
+          "rank_in_state": 9
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0246,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 2342,
+          "rank_in_state": 12
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0256,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2396,
+          "rank_in_state": 14
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0286,
+          "percentile_in_state": 0.0769,
+          "rank_in_nation": 2409,
+          "rank_in_state": 13
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0518,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 2397,
+          "rank_in_state": 11
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0718,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 2327,
+          "rank_in_state": 11
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.0977,
+          "percentile_in_state": 0.2143,
+          "rank_in_nation": 2274,
+          "rank_in_state": 12
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1408,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 2174,
+          "rank_in_state": 11
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.0623,
+          "percentile_in_state": 0.1429,
+          "rank_in_nation": 2302,
+          "rank_in_state": 13
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4587,
+          "percentile_in_state": 0.0769,
+          "rank_in_nation": 1253,
+          "rank_in_state": 13
+        },
+        "1996": {
+          "count_in_nation": 2142,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.0906,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1948,
+          "rank_in_state": 9
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0225,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1958,
+          "rank_in_state": 10
+        },
+        "2006": {
+          "count_in_nation": 1955,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.0215,
+          "percentile_in_state": 0.125,
+          "rank_in_nation": 1913,
+          "rank_in_state": 8
+        }
+      },
+      "yield": {
+        "1955": 13.0,
+        "1956": 21.0,
+        "1957": 20.0,
+        "1958": 12.0,
+        "1959": 12.0,
+        "1960": 10.0,
+        "1964": 21.0,
+        "1965": 20.0,
+        "1969": 60.0,
+        "1971": 24.0,
+        "1972": 30.0,
+        "1973": 29.0,
+        "1974": 30.0,
+        "1975": 35.0,
+        "1976": 40.0,
+        "1977": 31.0,
+        "1978": 34.0,
+        "1986": 90.0,
+        "1996": 70.0,
+        "2005": 0.0,
+        "2006": 0.0
+      }
+    },
+    "007": {
+      "name": "CARBON",
+      "rank": {
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4776,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1285,
+          "rank_in_state": 7
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5131,
+          "percentile_in_state": 0.4615,
+          "rank_in_nation": 1208,
+          "rank_in_state": 8
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7475,
+          "percentile_in_state": 0.8462,
+          "rank_in_nation": 639,
+          "rank_in_state": 3
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4389,
+          "percentile_in_state": 0.6154,
+          "rank_in_nation": 1407,
+          "rank_in_state": 6
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.3136,
+          "percentile_in_state": 0.4286,
+          "rank_in_nation": 1730,
+          "rank_in_state": 9
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3495,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1646,
+          "rank_in_state": 9
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.2861,
+          "percentile_in_state": 0.3571,
+          "rank_in_nation": 1753,
+          "rank_in_state": 10
+        }
+      },
+      "yield": {
+        "1972": 70.0,
+        "1973": 74.0,
+        "1974": 78.0,
+        "1975": 63.0,
+        "1976": 55.0,
+        "1977": 55.0,
+        "1978": 61.0
+      }
+    },
+    "009": {
+      "name": "CONVERSE",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0548,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1762,
+          "rank_in_state": 11
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1795,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1564,
+          "rank_in_state": 7
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3154,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1288,
+          "rank_in_state": 7
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3909,
+          "percentile_in_state": 0.3077,
+          "rank_in_nation": 1254,
+          "rank_in_state": 10
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4093,
+          "percentile_in_state": 0.3077,
+          "rank_in_nation": 1284,
+          "rank_in_state": 10
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3536,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1423,
+          "rank_in_state": 7
+        },
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.4922,
+          "percentile_in_state": 0.4545,
+          "rank_in_nation": 1171,
+          "rank_in_state": 7
+        },
+        "1962": {
+          "count_in_nation": 2319,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.0923,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2105,
+          "rank_in_state": 10
+        },
+        "1963": {
+          "count_in_nation": 2353,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.0383,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2263,
+          "rank_in_state": 10
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0754,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 2087,
+          "rank_in_state": 11
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0315,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 2249,
+          "rank_in_state": 11
+        },
+        "1966": {
+          "count_in_nation": 2318,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.3159,
+          "percentile_in_state": 0.1111,
+          "rank_in_nation": 1586,
+          "rank_in_state": 9
+        },
+        "1967": {
+          "count_in_nation": 2297,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.149,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1955,
+          "rank_in_state": 10
+        },
+        "1968": {
+          "count_in_nation": 2393,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.2182,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1871,
+          "rank_in_state": 10
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1091,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 2165,
+          "rank_in_state": 12
+        },
+        "1970": {
+          "count_in_nation": 2397,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.472,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1266,
+          "rank_in_state": 10
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4096,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1418,
+          "rank_in_state": 10
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3059,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 1707,
+          "rank_in_state": 11
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.4807,
+          "percentile_in_state": 0.5714,
+          "rank_in_nation": 1309,
+          "rank_in_state": 7
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.674,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 801,
+          "rank_in_state": 1
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.3835,
+          "percentile_in_state": 0.6364,
+          "rank_in_nation": 1499,
+          "rank_in_state": 5
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.712,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 695,
+          "rank_in_state": 6
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4164,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1401,
+          "rank_in_state": 8
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3542,
+          "percentile_in_state": 0.1538,
+          "rank_in_nation": 1547,
+          "rank_in_state": 12
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6992,
+          "percentile_in_state": 0.0769,
+          "rank_in_nation": 709,
+          "rank_in_state": 13
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4589,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1245,
+          "rank_in_state": 7
+        },
+        "1988": {
+          "count_in_nation": 2265,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.9165,
+          "percentile_in_state": 0.8,
+          "rank_in_nation": 190,
+          "rank_in_state": 3
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4127,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 1326,
+          "rank_in_state": 6
+        },
+        "1990": {
+          "count_in_nation": 2192,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.7513,
+          "percentile_in_state": 0.8,
+          "rank_in_nation": 546,
+          "rank_in_state": 3
+        },
+        "1991": {
+          "count_in_nation": 2222,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.6249,
+          "percentile_in_state": 0.4,
+          "rank_in_nation": 834,
+          "rank_in_state": 7
+        },
+        "1992": {
+          "count_in_nation": 2252,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.3421,
+          "percentile_in_state": 0.7,
+          "rank_in_nation": 1482,
+          "rank_in_state": 4
+        },
+        "1993": {
+          "count_in_nation": 2169,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.435,
+          "percentile_in_state": 0.5714,
+          "rank_in_nation": 1226,
+          "rank_in_state": 4
+        },
+        "2003": {
+          "count_in_nation": 2059,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.0287,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2000,
+          "rank_in_state": 9
+        },
+        "2004": {
+          "count_in_nation": 2014,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.0219,
+          "percentile_in_state": 0.125,
+          "rank_in_nation": 1970,
+          "rank_in_state": 8
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0225,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1958,
+          "rank_in_state": 10
+        }
+      },
+      "yield": {
+        "1955": 15.0,
+        "1956": 21.0,
+        "1957": 28.0,
+        "1958": 38.0,
+        "1959": 39.0,
+        "1960": 38.0,
+        "1961": 48.0,
+        "1962": 25.0,
+        "1963": 24.0,
+        "1964": 23.0,
+        "1965": 24.0,
+        "1966": 40.0,
+        "1967": 41.0,
+        "1968": 40.0,
+        "1969": 28.0,
+        "1970": 50.0,
+        "1971": 59.0,
+        "1972": 57.0,
+        "1976": 71.0,
+        "1978": 91.0,
+        "1979": 80.0,
+        "1980": 90.0,
+        "1981": 84.0,
+        "1982": 84.0,
+        "1983": 85.0,
+        "1987": 92.0,
+        "1988": 126.0,
+        "1989": 91.0,
+        "1990": 120.0,
+        "1991": 99.0,
+        "1992": 97.0,
+        "1993": 80.0,
+        "2003": 0.0,
+        "2004": 0.0,
+        "2005": 0.0
+      }
+    },
+    "011": {
+      "name": "CROOK",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1202,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1640,
+          "rank_in_state": 7
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1522,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1616,
+          "rank_in_state": 9
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.141,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1616,
+          "rank_in_state": 10
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4346,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1164,
+          "rank_in_state": 7
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.674,
+          "percentile_in_state": 0.6154,
+          "rank_in_nation": 709,
+          "rank_in_state": 6
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.39,
+          "percentile_in_state": 0.6154,
+          "rank_in_nation": 1343,
+          "rank_in_state": 6
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0246,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 2342,
+          "rank_in_state": 12
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.1428,
+          "percentile_in_state": 0.0769,
+          "rank_in_nation": 2108,
+          "rank_in_state": 13
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0286,
+          "percentile_in_state": 0.0769,
+          "rank_in_nation": 2409,
+          "rank_in_state": 13
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4096,
+          "percentile_in_state": 0.4615,
+          "rank_in_nation": 1493,
+          "rank_in_state": 8
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3755,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1566,
+          "rank_in_state": 7
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.0977,
+          "percentile_in_state": 0.2143,
+          "rank_in_nation": 2274,
+          "rank_in_state": 12
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3903,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1543,
+          "rank_in_state": 8
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.2139,
+          "percentile_in_state": 0.2143,
+          "rank_in_nation": 1930,
+          "rank_in_state": 12
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.058,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2290,
+          "rank_in_state": 12
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6253,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 904,
+          "rank_in_state": 11
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4381,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1349,
+          "rank_in_state": 7
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4294,
+          "percentile_in_state": 0.3846,
+          "rank_in_nation": 1367,
+          "rank_in_state": 9
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7579,
+          "percentile_in_state": 0.3846,
+          "rank_in_nation": 571,
+          "rank_in_state": 9
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4347,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1335,
+          "rank_in_state": 9
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.473,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 1220,
+          "rank_in_state": 11
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.391,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1401,
+          "rank_in_state": 11
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3431,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1483,
+          "rank_in_state": 9
+        },
+        "1992": {
+          "count_in_nation": 2252,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.1457,
+          "percentile_in_state": 0.1,
+          "rank_in_nation": 1924,
+          "rank_in_state": 10
+        },
+        "1997": {
+          "count_in_nation": 2109,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5493,
+          "percentile_in_state": 0.1111,
+          "rank_in_nation": 951,
+          "rank_in_state": 9
+        }
+      },
+      "yield": {
+        "1955": 20.0,
+        "1956": 20.0,
+        "1957": 22.0,
+        "1958": 40.0,
+        "1959": 52.0,
+        "1960": 40.0,
+        "1971": 24.0,
+        "1972": 44.0,
+        "1973": 29.0,
+        "1974": 56.0,
+        "1975": 59.0,
+        "1976": 40.0,
+        "1977": 60.0,
+        "1978": 54.8,
+        "1979": 43.0,
+        "1980": 83.0,
+        "1981": 85.0,
+        "1982": 89.0,
+        "1983": 90.0,
+        "1984": 88.0,
+        "1986": 92.0,
+        "1987": 87.0,
+        "1989": 87.0,
+        "1992": 74.0,
+        "1997": 110.0
+      }
+    },
+    "013": {
+      "name": "FREMONT",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5786,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 786,
+          "rank_in_state": 4
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4404,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 1067,
+          "rank_in_state": 4
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6426,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 673,
+          "rank_in_state": 3
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7132,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 591,
+          "rank_in_state": 2
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7933,
+          "percentile_in_state": 0.7692,
+          "rank_in_nation": 450,
+          "rank_in_state": 4
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6577,
+          "percentile_in_state": 0.7692,
+          "rank_in_nation": 754,
+          "rank_in_state": 4
+        },
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.6385,
+          "percentile_in_state": 0.8182,
+          "rank_in_nation": 834,
+          "rank_in_state": 3
+        },
+        "1962": {
+          "count_in_nation": 2319,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6204,
+          "percentile_in_state": 0.7778,
+          "rank_in_nation": 881,
+          "rank_in_state": 3
+        },
+        "1963": {
+          "count_in_nation": 2353,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5629,
+          "percentile_in_state": 0.7778,
+          "rank_in_nation": 1029,
+          "rank_in_state": 3
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5736,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 963,
+          "rank_in_state": 5
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3981,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 1398,
+          "rank_in_state": 3
+        },
+        "1966": {
+          "count_in_nation": 2318,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6888,
+          "percentile_in_state": 0.7778,
+          "rank_in_nation": 722,
+          "rank_in_state": 3
+        },
+        "1967": {
+          "count_in_nation": 2297,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5457,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1044,
+          "rank_in_state": 4
+        },
+        "1968": {
+          "count_in_nation": 2393,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6735,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 782,
+          "rank_in_state": 4
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6007,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 971,
+          "rank_in_state": 5
+        },
+        "1970": {
+          "count_in_nation": 2397,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6269,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 895,
+          "rank_in_state": 5
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6067,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 945,
+          "rank_in_state": 4
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6131,
+          "percentile_in_state": 0.8462,
+          "rank_in_nation": 952,
+          "rank_in_state": 3
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6975,
+          "percentile_in_state": 0.7692,
+          "rank_in_nation": 751,
+          "rank_in_state": 4
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3237,
+          "percentile_in_state": 0.3846,
+          "rank_in_nation": 1710,
+          "rank_in_state": 9
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3755,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1566,
+          "rank_in_state": 7
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.6582,
+          "percentile_in_state": 0.8571,
+          "rank_in_nation": 862,
+          "rank_in_state": 3
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6453,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 898,
+          "rank_in_state": 3
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.5725,
+          "percentile_in_state": 0.7857,
+          "rank_in_nation": 1050,
+          "rank_in_state": 4
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.4658,
+          "percentile_in_state": 0.7273,
+          "rank_in_nation": 1299,
+          "rank_in_state": 4
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.712,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 695,
+          "rank_in_state": 6
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4164,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1401,
+          "rank_in_state": 8
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.584,
+          "percentile_in_state": 0.6923,
+          "rank_in_nation": 997,
+          "rank_in_state": 5
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7965,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 480,
+          "rank_in_state": 7
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4746,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1241,
+          "rank_in_state": 7
+        },
+        "1985": {
+          "count_in_nation": 2351,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.4055,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1398,
+          "rank_in_state": 7
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5958,
+          "percentile_in_state": 0.6923,
+          "rank_in_nation": 936,
+          "rank_in_state": 5
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4467,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1273,
+          "rank_in_state": 8
+        },
+        "1988": {
+          "count_in_nation": 2265,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.8074,
+          "percentile_in_state": 0.1,
+          "rank_in_nation": 437,
+          "rank_in_state": 10
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4291,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 1289,
+          "rank_in_state": 4
+        },
+        "1990": {
+          "count_in_nation": 2192,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.4226,
+          "percentile_in_state": 0.1,
+          "rank_in_nation": 1266,
+          "rank_in_state": 10
+        },
+        "1991": {
+          "count_in_nation": 2222,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.5673,
+          "percentile_in_state": 0.3,
+          "rank_in_nation": 962,
+          "rank_in_state": 8
+        },
+        "1992": {
+          "count_in_nation": 2252,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.1657,
+          "percentile_in_state": 0.2,
+          "rank_in_nation": 1879,
+          "rank_in_state": 9
+        },
+        "1993": {
+          "count_in_nation": 2169,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.5378,
+          "percentile_in_state": 0.8571,
+          "rank_in_nation": 1003,
+          "rank_in_state": 2
+        },
+        "1994": {
+          "count_in_nation": 2174,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4593,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 1176,
+          "rank_in_state": 2
+        },
+        "1995": {
+          "count_in_nation": 2096,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.6315,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 773,
+          "rank_in_state": 2
+        },
+        "1996": {
+          "count_in_nation": 2142,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.4521,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1174,
+          "rank_in_state": 5
+        },
+        "1997": {
+          "count_in_nation": 2109,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.7206,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 590,
+          "rank_in_state": 5
+        },
+        "1999": {
+          "count_in_nation": 2098,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4635,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1126,
+          "rank_in_state": 4
+        },
+        "2000": {
+          "count_in_nation": 2078,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4131,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1220,
+          "rank_in_state": 6
+        },
+        "2004": {
+          "count_in_nation": 2014,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.4337,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 1141,
+          "rank_in_state": 3
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3472,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1308,
+          "rank_in_state": 9
+        },
+        "2006": {
+          "count_in_nation": 1955,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.6924,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 602,
+          "rank_in_state": 1
+        }
+      },
+      "yield": {
+        "1955": 38.0,
+        "1956": 35.0,
+        "1957": 45.0,
+        "1958": 55.0,
+        "1959": 59.0,
+        "1960": 54.0,
+        "1961": 58.0,
+        "1962": 58.0,
+        "1963": 55.0,
+        "1964": 52.0,
+        "1965": 50.0,
+        "1966": 66.0,
+        "1967": 66.0,
+        "1968": 74.0,
+        "1969": 73.0,
+        "1970": 65.0,
+        "1971": 74.0,
+        "1972": 80.0,
+        "1973": 84.8,
+        "1974": 50.5,
+        "1975": 59.0,
+        "1976": 85.0,
+        "1977": 86.0,
+        "1978": 85.4,
+        "1979": 86.0,
+        "1980": 90.0,
+        "1981": 84.0,
+        "1982": 98.0,
+        "1983": 94.0,
+        "1984": 90.0,
+        "1985": 91.0,
+        "1986": 104.0,
+        "1987": 91.0,
+        "1988": 95.0,
+        "1989": 92.1,
+        "1990": 92.0,
+        "1991": 95.0,
+        "1992": 78.0,
+        "1993": 88.5,
+        "1994": 111.0,
+        "1995": 108.0,
+        "1996": 105.0,
+        "1997": 126.0,
+        "1999": 101.0,
+        "2000": 113.0,
+        "2004": 131.0,
+        "2005": 111.0,
+        "2006": 147.0
+      }
+    },
+    "015": {
+      "name": "GOSHEN",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5958,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 754,
+          "rank_in_state": 2
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6299,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 706,
+          "rank_in_state": 1
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7681,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 437,
+          "rank_in_state": 1
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7132,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 591,
+          "rank_in_state": 2
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.8066,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 421,
+          "rank_in_state": 2
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6959,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 670,
+          "rank_in_state": 2
+        },
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.7578,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 559,
+          "rank_in_state": 1
+        },
+        "1962": {
+          "count_in_nation": 2319,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.2735,
+          "percentile_in_state": 0.1111,
+          "rank_in_nation": 1685,
+          "rank_in_state": 9
+        },
+        "1963": {
+          "count_in_nation": 2353,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5986,
+          "percentile_in_state": 0.8889,
+          "rank_in_nation": 945,
+          "rank_in_state": 2
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6959,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 687,
+          "rank_in_state": 3
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4205,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 1346,
+          "rank_in_state": 2
+        },
+        "1966": {
+          "count_in_nation": 2318,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.7108,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 671,
+          "rank_in_state": 1
+        },
+        "1967": {
+          "count_in_nation": 2297,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6424,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 822,
+          "rank_in_state": 1
+        },
+        "1968": {
+          "count_in_nation": 2393,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.7166,
+          "percentile_in_state": 0.8889,
+          "rank_in_nation": 679,
+          "rank_in_state": 2
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6525,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 845,
+          "rank_in_state": 3
+        },
+        "1970": {
+          "count_in_nation": 2397,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6356,
+          "percentile_in_state": 0.8889,
+          "rank_in_nation": 874,
+          "rank_in_state": 2
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7288,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 652,
+          "rank_in_state": 1
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7803,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 541,
+          "rank_in_state": 1
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7467,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 629,
+          "rank_in_state": 2
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7515,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 629,
+          "rank_in_state": 2
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7438,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 643,
+          "rank_in_state": 2
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.761,
+          "percentile_in_state": 0.9286,
+          "rank_in_nation": 603,
+          "rank_in_state": 2
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7544,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 622,
+          "rank_in_state": 1
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.6402,
+          "percentile_in_state": 0.9286,
+          "rank_in_nation": 884,
+          "rank_in_state": 2
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.5132,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 1184,
+          "rank_in_state": 1
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.8523,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 357,
+          "rank_in_state": 1
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.8216,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 429,
+          "rank_in_state": 1
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7356,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 634,
+          "rank_in_state": 1
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.9252,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 177,
+          "rank_in_state": 1
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6958,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 719,
+          "rank_in_state": 2
+        },
+        "1985": {
+          "count_in_nation": 2351,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5404,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 1081,
+          "rank_in_state": 1
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7449,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 591,
+          "rank_in_state": 1
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7351,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 610,
+          "rank_in_state": 1
+        },
+        "1988": {
+          "count_in_nation": 2265,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.9324,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 154,
+          "rank_in_state": 1
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.492,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 1147,
+          "rank_in_state": 3
+        },
+        "1990": {
+          "count_in_nation": 2192,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.8393,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 353,
+          "rank_in_state": 1
+        },
+        "1991": {
+          "count_in_nation": 2222,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.8847,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 257,
+          "rank_in_state": 1
+        },
+        "1992": {
+          "count_in_nation": 2252,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.3932,
+          "percentile_in_state": 0.9,
+          "rank_in_nation": 1367,
+          "rank_in_state": 2
+        },
+        "1993": {
+          "count_in_nation": 2169,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.4603,
+          "percentile_in_state": 0.7143,
+          "rank_in_nation": 1171,
+          "rank_in_state": 3
+        },
+        "1994": {
+          "count_in_nation": 2174,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.7046,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 643,
+          "rank_in_state": 1
+        },
+        "1995": {
+          "count_in_nation": 2096,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.6177,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 802,
+          "rank_in_state": 3
+        },
+        "1996": {
+          "count_in_nation": 2142,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.7646,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 505,
+          "rank_in_state": 1
+        },
+        "1997": {
+          "count_in_nation": 2109,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.8515,
+          "percentile_in_state": 0.8889,
+          "rank_in_nation": 314,
+          "rank_in_state": 2
+        },
+        "1998": {
+          "count_in_nation": 2123,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.7592,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 512,
+          "rank_in_state": 2
+        },
+        "1999": {
+          "count_in_nation": 2098,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.6519,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 731,
+          "rank_in_state": 3
+        },
+        "2000": {
+          "count_in_nation": 2078,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.675,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 676,
+          "rank_in_state": 1
+        },
+        "2001": {
+          "count_in_nation": 2023,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.6286,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 752,
+          "rank_in_state": 1
+        },
+        "2002": {
+          "count_in_nation": 2086,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.6777,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 673,
+          "rank_in_state": 4
+        },
+        "2003": {
+          "count_in_nation": 2059,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.6672,
+          "percentile_in_state": 0.875,
+          "rank_in_nation": 686,
+          "rank_in_state": 2
+        },
+        "2004": {
+          "count_in_nation": 2014,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.4685,
+          "percentile_in_state": 0.875,
+          "rank_in_nation": 1071,
+          "rank_in_state": 2
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7353,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 531,
+          "rank_in_state": 1
+        },
+        "2006": {
+          "count_in_nation": 1955,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.5476,
+          "percentile_in_state": 0.625,
+          "rank_in_nation": 885,
+          "rank_in_state": 4
+        },
+        "2007": {
+          "count_in_nation": 1934,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.5251,
+          "percentile_in_state": 0.4286,
+          "rank_in_nation": 919,
+          "rank_in_state": 5
+        },
+        "2008": {
+          "count_in_nation": 1623,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.5025,
+          "percentile_in_state": 0.4,
+          "rank_in_nation": 808,
+          "rank_in_state": 4
+        },
+        "2009": {
+          "count_in_nation": 1591,
+          "count_in_state": 3,
+          "percentile_in_nation": 0.4635,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 854,
+          "rank_in_state": 1
+        },
+        "2010": {
+          "count_in_nation": 1750,
+          "count_in_state": 5,
+          "percentile_in_nation": 0.4677,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 932,
+          "rank_in_state": 2
+        },
+        "2011": {
+          "count_in_nation": 1667,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.6056,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 658,
+          "rank_in_state": 3
+        },
+        "2012": {
+          "count_in_nation": 1719,
+          "count_in_state": 3,
+          "percentile_in_nation": 0.7916,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 359,
+          "rank_in_state": 2
+        },
+        "2013": {
+          "count_in_nation": 1579,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.3194,
+          "percentile_in_state": 0.2,
+          "rank_in_nation": 1075,
+          "rank_in_state": 5
+        },
+        "2014": {
+          "count_in_nation": 1595,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.3764,
+          "percentile_in_state": 0.6,
+          "rank_in_nation": 995,
+          "rank_in_state": 3
+        },
+        "2015": {
+          "count_in_nation": 1468,
+          "count_in_state": 5,
+          "percentile_in_nation": 0.6046,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 581,
+          "rank_in_state": 3
+        },
+        "2016": {
+          "count_in_nation": 1541,
+          "count_in_state": 3,
+          "percentile_in_nation": 0.4214,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 892,
+          "rank_in_state": 2
+        }
+      },
+      "yield": {
+        "1955": 39.0,
+        "1956": 47.0,
+        "1957": 52.0,
+        "1958": 55.0,
+        "1959": 60.0,
+        "1960": 56.0,
+        "1961": 66.0,
+        "1962": 35.0,
+        "1963": 57.0,
+        "1964": 60.0,
+        "1965": 52.0,
+        "1966": 68.0,
+        "1967": 72.0,
+        "1968": 77.0,
+        "1969": 77.0,
+        "1970": 66.0,
+        "1971": 83.0,
+        "1972": 94.0,
+        "1973": 87.9,
+        "1974": 78.6,
+        "1975": 85.1,
+        "1976": 93.1,
+        "1977": 94.0,
+        "1978": 89.5,
+        "1979": 89.8,
+        "1980": 102.9,
+        "1981": 113.3,
+        "1982": 109.2,
+        "1983": 110.5,
+        "1984": 105.4,
+        "1985": 100.0,
+        "1986": 119.7,
+        "1987": 117.7,
+        "1988": 130.8,
+        "1989": 96.9,
+        "1990": 128.0,
+        "1991": 126.0,
+        "1992": 101.0,
+        "1993": 82.0,
+        "1994": 130.4,
+        "1995": 107.0,
+        "1996": 131.0,
+        "1997": 139.0,
+        "1998": 135.0,
+        "1999": 122.0,
+        "2000": 137.0,
+        "2001": 131.0,
+        "2002": 119.0,
+        "2003": 134.0,
+        "2004": 134.0,
+        "2005": 147.0,
+        "2006": 133.0,
+        "2007": 128.0,
+        "2008": 133.0,
+        "2009": 145.0,
+        "2010": 130.8,
+        "2011": 138.4,
+        "2012": 146.4,
+        "2013": 134.7,
+        "2014": 149.5,
+        "2015": 163.1,
+        "2016": 147.4
+      }
+    },
+    "017": {
+      "name": "HOT SPRINGS",
+      "rank": {
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.3333,
+          "percentile_in_state": 0.2727,
+          "rank_in_nation": 1537,
+          "rank_in_state": 9
+        },
+        "1962": {
+          "count_in_nation": 2319,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.506,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 1146,
+          "rank_in_state": 5
+        },
+        "1963": {
+          "count_in_nation": 2353,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.321,
+          "percentile_in_state": 0.2222,
+          "rank_in_nation": 1598,
+          "rank_in_state": 8
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7899,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 475,
+          "rank_in_state": 2
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3981,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 1398,
+          "rank_in_state": 3
+        },
+        "1966": {
+          "count_in_nation": 2318,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.675,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 754,
+          "rank_in_state": 4
+        },
+        "1967": {
+          "count_in_nation": 2297,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5318,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 1076,
+          "rank_in_state": 5
+        },
+        "1968": {
+          "count_in_nation": 2393,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6258,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 896,
+          "rank_in_state": 7
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.9214,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 192,
+          "rank_in_state": 1
+        },
+        "1970": {
+          "count_in_nation": 2397,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6356,
+          "percentile_in_state": 0.8889,
+          "rank_in_nation": 874,
+          "rank_in_state": 2
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5079,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1182,
+          "rank_in_state": 9
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.712,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 695,
+          "rank_in_state": 6
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4164,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1401,
+          "rank_in_state": 8
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5723,
+          "percentile_in_state": 0.6154,
+          "rank_in_nation": 1025,
+          "rank_in_state": 6
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7107,
+          "percentile_in_state": 0.1538,
+          "rank_in_nation": 682,
+          "rank_in_state": 12
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3966,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1425,
+          "rank_in_state": 10
+        },
+        "1985": {
+          "count_in_nation": 2351,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.3762,
+          "percentile_in_state": 0.1111,
+          "rank_in_nation": 1467,
+          "rank_in_state": 9
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5443,
+          "percentile_in_state": 0.4615,
+          "rank_in_nation": 1055,
+          "rank_in_state": 8
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4145,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1347,
+          "rank_in_state": 9
+        },
+        "1988": {
+          "count_in_nation": 2265,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.8242,
+          "percentile_in_state": 0.4,
+          "rank_in_nation": 399,
+          "rank_in_state": 7
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4127,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 1326,
+          "rank_in_state": 6
+        },
+        "1990": {
+          "count_in_nation": 2192,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.4847,
+          "percentile_in_state": 0.3,
+          "rank_in_nation": 1130,
+          "rank_in_state": 8
+        },
+        "1991": {
+          "count_in_nation": 2222,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.3116,
+          "percentile_in_state": 0.1,
+          "rank_in_nation": 1530,
+          "rank_in_state": 10
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6908,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 620,
+          "rank_in_state": 2
+        }
+      },
+      "yield": {
+        "1961": 40.0,
+        "1962": 50.0,
+        "1963": 40.0,
+        "1964": 67.0,
+        "1965": 50.0,
+        "1966": 65.0,
+        "1967": 65.0,
+        "1968": 70.0,
+        "1969": 100.0,
+        "1970": 66.0,
+        "1971": 67.0,
+        "1980": 90.0,
+        "1981": 84.0,
+        "1982": 97.0,
+        "1983": 86.0,
+        "1984": 85.0,
+        "1985": 89.0,
+        "1986": 99.0,
+        "1987": 89.0,
+        "1988": 98.0,
+        "1989": 91.0,
+        "1990": 97.0,
+        "1991": 80.0,
+        "2005": 143.0
+      }
+    },
+    "019": {
+      "name": "JOHNSON",
+      "rank": {
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.0286,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2239,
+          "rank_in_state": 12
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3169,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1542,
+          "rank_in_state": 10
+        },
+        "2006": {
+          "count_in_nation": 1955,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.0215,
+          "percentile_in_state": 0.125,
+          "rank_in_nation": 1913,
+          "rank_in_state": 8
+        }
+      },
+      "yield": {
+        "1961": 20.0,
+        "1989": 85.0,
+        "2006": 0.0
+      }
+    },
+    "021": {
+      "name": "LARAMIE",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0709,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1732,
+          "rank_in_state": 9
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1522,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1616,
+          "rank_in_state": 9
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1048,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1684,
+          "rank_in_state": 11
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.1415,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 1767,
+          "rank_in_state": 11
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.233,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 1667,
+          "rank_in_state": 11
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.1,
+          "percentile_in_state": 0.0769,
+          "rank_in_nation": 1981,
+          "rank_in_state": 13
+        },
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.2934,
+          "percentile_in_state": 0.1818,
+          "rank_in_nation": 1629,
+          "rank_in_state": 10
+        },
+        "1962": {
+          "count_in_nation": 2319,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.3097,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1601,
+          "rank_in_state": 7
+        },
+        "1963": {
+          "count_in_nation": 2353,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.1875,
+          "percentile_in_state": 0.1111,
+          "rank_in_nation": 1912,
+          "rank_in_state": 9
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1746,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1863,
+          "rank_in_state": 9
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0758,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 2146,
+          "rank_in_state": 9
+        },
+        "1966": {
+          "count_in_nation": 2318,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.3159,
+          "percentile_in_state": 0.1111,
+          "rank_in_nation": 1586,
+          "rank_in_state": 9
+        },
+        "1967": {
+          "count_in_nation": 2297,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.2657,
+          "percentile_in_state": 0.1111,
+          "rank_in_nation": 1687,
+          "rank_in_state": 9
+        },
+        "1968": {
+          "count_in_nation": 2393,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5393,
+          "percentile_in_state": 0.2222,
+          "rank_in_nation": 1103,
+          "rank_in_state": 8
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.478,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1269,
+          "rank_in_state": 8
+        },
+        "1970": {
+          "count_in_nation": 2397,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6018,
+          "percentile_in_state": 0.2222,
+          "rank_in_nation": 955,
+          "rank_in_state": 8
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5208,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1151,
+          "rank_in_state": 8
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3462,
+          "percentile_in_state": 0.3846,
+          "rank_in_nation": 1608,
+          "rank_in_state": 9
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7156,
+          "percentile_in_state": 0.8462,
+          "rank_in_nation": 706,
+          "rank_in_state": 3
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.8702,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 329,
+          "rank_in_state": 1
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3292,
+          "percentile_in_state": 0.3846,
+          "rank_in_nation": 1682,
+          "rank_in_state": 9
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.5439,
+          "percentile_in_state": 0.6429,
+          "rank_in_nation": 1150,
+          "rank_in_state": 6
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5757,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 1074,
+          "rank_in_state": 4
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.2958,
+          "percentile_in_state": 0.4286,
+          "rank_in_nation": 1729,
+          "rank_in_state": 9
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.1325,
+          "percentile_in_state": 0.1818,
+          "rank_in_nation": 2109,
+          "rank_in_state": 10
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5506,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 1084,
+          "rank_in_state": 12
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1388,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 2067,
+          "rank_in_state": 12
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.485,
+          "percentile_in_state": 0.4615,
+          "rank_in_nation": 1234,
+          "rank_in_state": 8
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.8636,
+          "percentile_in_state": 0.8462,
+          "rank_in_nation": 322,
+          "rank_in_state": 3
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5758,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 1002,
+          "rank_in_state": 4
+        },
+        "1985": {
+          "count_in_nation": 2351,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.4477,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1299,
+          "rank_in_state": 4
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7428,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 596,
+          "rank_in_state": 2
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.679,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 739,
+          "rank_in_state": 2
+        },
+        "1988": {
+          "count_in_nation": 2265,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.9183,
+          "percentile_in_state": 0.9,
+          "rank_in_nation": 186,
+          "rank_in_state": 2
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.57,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 971,
+          "rank_in_state": 1
+        },
+        "1990": {
+          "count_in_nation": 2192,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.7827,
+          "percentile_in_state": 0.9,
+          "rank_in_nation": 477,
+          "rank_in_state": 2
+        },
+        "1991": {
+          "count_in_nation": 2222,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.7465,
+          "percentile_in_state": 0.6,
+          "rank_in_nation": 564,
+          "rank_in_state": 5
+        },
+        "1992": {
+          "count_in_nation": 2252,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.351,
+          "percentile_in_state": 0.8,
+          "rank_in_nation": 1462,
+          "rank_in_state": 3
+        },
+        "1993": {
+          "count_in_nation": 2169,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.2454,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1637,
+          "rank_in_state": 8
+        },
+        "1994": {
+          "count_in_nation": 2174,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4289,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1242,
+          "rank_in_state": 3
+        },
+        "1997": {
+          "count_in_nation": 2109,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.7315,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 567,
+          "rank_in_state": 4
+        },
+        "1998": {
+          "count_in_nation": 2123,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.5495,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 957,
+          "rank_in_state": 5
+        },
+        "1999": {
+          "count_in_nation": 2098,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.3214,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1424,
+          "rank_in_state": 6
+        },
+        "2000": {
+          "count_in_nation": 2078,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4545,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1134,
+          "rank_in_state": 5
+        },
+        "2001": {
+          "count_in_nation": 2023,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4219,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1170,
+          "rank_in_state": 5
+        },
+        "2002": {
+          "count_in_nation": 2086,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.5391,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 962,
+          "rank_in_state": 7
+        },
+        "2003": {
+          "count_in_nation": 2059,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.3431,
+          "percentile_in_state": 0.125,
+          "rank_in_nation": 1353,
+          "rank_in_state": 8
+        },
+        "2004": {
+          "count_in_nation": 2014,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.3159,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1378,
+          "rank_in_state": 5
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.531,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 940,
+          "rank_in_state": 6
+        },
+        "2006": {
+          "count_in_nation": 1955,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.5839,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 814,
+          "rank_in_state": 3
+        },
+        "2007": {
+          "count_in_nation": 1934,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.581,
+          "percentile_in_state": 0.5714,
+          "rank_in_nation": 811,
+          "rank_in_state": 4
+        },
+        "2008": {
+          "count_in_nation": 1623,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.4322,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 922,
+          "rank_in_state": 6
+        },
+        "2009": {
+          "count_in_nation": 1591,
+          "count_in_state": 3,
+          "percentile_in_nation": 0.2862,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1136,
+          "rank_in_state": 2
+        },
+        "2010": {
+          "count_in_nation": 1750,
+          "count_in_state": 5,
+          "percentile_in_nation": 0.211,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1381,
+          "rank_in_state": 5
+        },
+        "2011": {
+          "count_in_nation": 1667,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.1705,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1383,
+          "rank_in_state": 6
+        },
+        "2012": {
+          "count_in_nation": 1719,
+          "count_in_state": 3,
+          "percentile_in_nation": 0.7357,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 455,
+          "rank_in_state": 3
+        },
+        "2013": {
+          "count_in_nation": 1579,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.0729,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1464,
+          "rank_in_state": 6
+        },
+        "2014": {
+          "count_in_nation": 1595,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.1437,
+          "percentile_in_state": 0.4,
+          "rank_in_nation": 1366,
+          "rank_in_state": 4
+        },
+        "2015": {
+          "count_in_nation": 1468,
+          "count_in_state": 5,
+          "percentile_in_nation": 0.3838,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 905,
+          "rank_in_state": 5
+        },
+        "2016": {
+          "count_in_nation": 1541,
+          "count_in_state": 3,
+          "percentile_in_nation": 0.1487,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1312,
+          "rank_in_state": 3
+        }
+      },
+      "yield": {
+        "1955": 17.0,
+        "1956": 20.0,
+        "1957": 21.0,
+        "1958": 27.0,
+        "1959": 29.0,
+        "1960": 24.0,
+        "1961": 38.0,
+        "1962": 37.0,
+        "1963": 33.0,
+        "1964": 30.0,
+        "1965": 30.0,
+        "1966": 40.0,
+        "1967": 49.0,
+        "1968": 64.0,
+        "1969": 62.0,
+        "1970": 63.0,
+        "1971": 68.0,
+        "1972": 60.3,
+        "1973": 85.7,
+        "1974": 87.0,
+        "1975": 55.7,
+        "1976": 76.0,
+        "1977": 80.6,
+        "1978": 62.6,
+        "1979": 53.0,
+        "1980": 75.0,
+        "1981": 54.0,
+        "1982": 91.3,
+        "1983": 101.0,
+        "1984": 97.0,
+        "1985": 94.0,
+        "1986": 119.0,
+        "1987": 112.1,
+        "1988": 127.0,
+        "1989": 102.0,
+        "1990": 123.0,
+        "1991": 109.0,
+        "1992": 98.0,
+        "1993": 64.3,
+        "1994": 109.0,
+        "1997": 127.0,
+        "1998": 111.0,
+        "1999": 87.0,
+        "2000": 117.0,
+        "2001": 113.0,
+        "2002": 104.0,
+        "2003": 107.0,
+        "2004": 119.0,
+        "2005": 129.0,
+        "2006": 137.0,
+        "2007": 135.0,
+        "2008": 128.0,
+        "2009": 128.0,
+        "2010": 100.0,
+        "2011": 91.0,
+        "2012": 139.5,
+        "2013": 92.3,
+        "2014": 117.6,
+        "2015": 144.9,
+        "2016": 113.8
+      }
+    },
+    "025": {
+      "name": "NATRONA",
+      "rank": {
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4346,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1164,
+          "rank_in_state": 7
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6128,
+          "percentile_in_state": 0.4615,
+          "rank_in_nation": 842,
+          "rank_in_state": 8
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3536,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1423,
+          "rank_in_state": 7
+        },
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.3937,
+          "percentile_in_state": 0.3636,
+          "rank_in_nation": 1398,
+          "rank_in_state": 8
+        },
+        "1962": {
+          "count_in_nation": 2319,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.739,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 606,
+          "rank_in_state": 1
+        },
+        "1963": {
+          "count_in_nation": 2353,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.4919,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 1196,
+          "rank_in_state": 5
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4637,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1211,
+          "rank_in_state": 8
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3981,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 1398,
+          "rank_in_state": 3
+        },
+        "1966": {
+          "count_in_nation": 2318,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6025,
+          "percentile_in_state": 0.4444,
+          "rank_in_nation": 922,
+          "rank_in_state": 6
+        },
+        "1967": {
+          "count_in_nation": 2297,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5052,
+          "percentile_in_state": 0.4444,
+          "rank_in_nation": 1137,
+          "rank_in_state": 6
+        },
+        "1968": {
+          "count_in_nation": 2393,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.4987,
+          "percentile_in_state": 0.1111,
+          "rank_in_nation": 1200,
+          "rank_in_state": 9
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4352,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1373,
+          "rank_in_state": 11
+        },
+        "1970": {
+          "count_in_nation": 2397,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.576,
+          "percentile_in_state": 0.1111,
+          "rank_in_nation": 1017,
+          "rank_in_state": 9
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5917,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 981,
+          "rank_in_state": 5
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4776,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1285,
+          "rank_in_state": 7
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5006,
+          "percentile_in_state": 0.3846,
+          "rank_in_nation": 1239,
+          "rank_in_state": 9
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.2442,
+          "percentile_in_state": 0.3077,
+          "rank_in_nation": 1911,
+          "rank_in_state": 10
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3216,
+          "percentile_in_state": 0.3077,
+          "rank_in_nation": 1701,
+          "rank_in_state": 10
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.3136,
+          "percentile_in_state": 0.4286,
+          "rank_in_nation": 1730,
+          "rank_in_state": 9
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3495,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1646,
+          "rank_in_state": 9
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.2861,
+          "percentile_in_state": 0.3571,
+          "rank_in_nation": 1753,
+          "rank_in_state": 10
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.3206,
+          "percentile_in_state": 0.4545,
+          "rank_in_nation": 1652,
+          "rank_in_state": 7
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6556,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 831,
+          "rank_in_state": 10
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.2939,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1695,
+          "rank_in_state": 11
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3981,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 1442,
+          "rank_in_state": 11
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6245,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 885,
+          "rank_in_state": 14
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1758,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1946,
+          "rank_in_state": 13
+        },
+        "1985": {
+          "count_in_nation": 2351,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.0881,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2144,
+          "rank_in_state": 10
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3178,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1579,
+          "rank_in_state": 14
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3193,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1566,
+          "rank_in_state": 13
+        },
+        "1988": {
+          "count_in_nation": 2265,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.765,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 533,
+          "rank_in_state": 11
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3169,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1542,
+          "rank_in_state": 10
+        },
+        "1990": {
+          "count_in_nation": 2192,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.3984,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1319,
+          "rank_in_state": 11
+        },
+        "1991": {
+          "count_in_nation": 2222,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.548,
+          "percentile_in_state": 0.2,
+          "rank_in_nation": 1005,
+          "rank_in_state": 9
+        },
+        "1992": {
+          "count_in_nation": 2252,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.016,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2216,
+          "rank_in_state": 11
+        },
+        "1996": {
+          "count_in_nation": 2142,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.4246,
+          "percentile_in_state": 0.375,
+          "rank_in_nation": 1233,
+          "rank_in_state": 6
+        }
+      },
+      "yield": {
+        "1958": 40.0,
+        "1959": 49.0,
+        "1960": 38.0,
+        "1961": 43.0,
+        "1962": 65.0,
+        "1963": 50.0,
+        "1964": 46.0,
+        "1965": 50.0,
+        "1966": 60.0,
+        "1967": 64.0,
+        "1968": 60.0,
+        "1969": 58.0,
+        "1970": 60.0,
+        "1971": 73.0,
+        "1972": 70.0,
+        "1973": 73.0,
+        "1974": 45.0,
+        "1975": 55.0,
+        "1976": 55.0,
+        "1977": 55.0,
+        "1978": 61.0,
+        "1979": 75.0,
+        "1980": 85.0,
+        "1981": 74.0,
+        "1982": 87.0,
+        "1983": 78.0,
+        "1984": 65.0,
+        "1985": 60.0,
+        "1986": 76.0,
+        "1987": 80.0,
+        "1988": 90.0,
+        "1989": 85.0,
+        "1990": 90.0,
+        "1991": 94.0,
+        "1992": 38.0,
+        "1996": 103.0
+      }
+    },
+    "027": {
+      "name": "NIOBRARA",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0381,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 1793,
+          "rank_in_state": 12
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1071,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 1702,
+          "rank_in_state": 12
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1713,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1559,
+          "rank_in_state": 9
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4346,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1164,
+          "rank_in_state": 7
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4323,
+          "percentile_in_state": 0.3846,
+          "rank_in_nation": 1234,
+          "rank_in_state": 9
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.215,
+          "percentile_in_state": 0.3077,
+          "rank_in_nation": 1728,
+          "rank_in_state": 10
+        },
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.207,
+          "percentile_in_state": 0.0909,
+          "rank_in_nation": 1828,
+          "rank_in_state": 11
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1746,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1863,
+          "rank_in_state": 9
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0758,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 2146,
+          "rank_in_state": 9
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.6218,
+          "percentile_in_state": 0.8571,
+          "rank_in_nation": 929,
+          "rank_in_state": 3
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.2716,
+          "percentile_in_state": 0.3636,
+          "rank_in_nation": 1771,
+          "rank_in_state": 8
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7494,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 605,
+          "rank_in_state": 4
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5577,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 1062,
+          "rank_in_state": 6
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4119,
+          "percentile_in_state": 0.3077,
+          "rank_in_nation": 1409,
+          "rank_in_state": 10
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.8556,
+          "percentile_in_state": 0.7692,
+          "rank_in_nation": 341,
+          "rank_in_state": 4
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6038,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 936,
+          "rank_in_state": 3
+        },
+        "1985": {
+          "count_in_nation": 2351,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.3979,
+          "percentile_in_state": 0.2222,
+          "rank_in_nation": 1416,
+          "rank_in_state": 8
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5767,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 980,
+          "rank_in_state": 7
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4911,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1171,
+          "rank_in_state": 5
+        },
+        "1988": {
+          "count_in_nation": 2265,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.8701,
+          "percentile_in_state": 0.7,
+          "rank_in_nation": 295,
+          "rank_in_state": 4
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3949,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1366,
+          "rank_in_state": 8
+        },
+        "1990": {
+          "count_in_nation": 2192,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.6773,
+          "percentile_in_state": 0.7,
+          "rank_in_nation": 708,
+          "rank_in_state": 4
+        },
+        "1991": {
+          "count_in_nation": 2222,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.1571,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1873,
+          "rank_in_state": 11
+        },
+        "2003": {
+          "count_in_nation": 2059,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.4223,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1190,
+          "rank_in_state": 7
+        },
+        "2004": {
+          "count_in_nation": 2014,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.2171,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1577,
+          "rank_in_state": 7
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4416,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1119,
+          "rank_in_state": 8
+        }
+      },
+      "yield": {
+        "1955": 13.0,
+        "1956": 18.0,
+        "1957": 23.0,
+        "1958": 40.0,
+        "1959": 40.0,
+        "1960": 30.0,
+        "1961": 34.0,
+        "1964": 30.0,
+        "1965": 30.0,
+        "1978": 88.0,
+        "1979": 70.0,
+        "1980": 93.0,
+        "1981": 92.0,
+        "1982": 88.0,
+        "1983": 100.0,
+        "1984": 99.0,
+        "1985": 90.0,
+        "1986": 102.0,
+        "1987": 95.0,
+        "1988": 108.0,
+        "1989": 90.0,
+        "1990": 113.3,
+        "1991": 66.0,
+        "2003": 114.0,
+        "2004": 106.0,
+        "2005": 120.0
+      }
+    },
+    "029": {
+      "name": "PARK",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5566,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 827,
+          "rank_in_state": 5
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4698,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 1011,
+          "rank_in_state": 2
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6426,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 673,
+          "rank_in_state": 3
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6894,
+          "percentile_in_state": 0.6923,
+          "rank_in_nation": 640,
+          "rank_in_state": 5
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.8066,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 421,
+          "rank_in_state": 2
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6741,
+          "percentile_in_state": 0.8462,
+          "rank_in_nation": 718,
+          "rank_in_state": 3
+        },
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.6723,
+          "percentile_in_state": 0.9091,
+          "rank_in_nation": 756,
+          "rank_in_state": 2
+        },
+        "1962": {
+          "count_in_nation": 2319,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.739,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 606,
+          "rank_in_state": 1
+        },
+        "1963": {
+          "count_in_nation": 2353,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.656,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 810,
+          "rank_in_state": 1
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5891,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 928,
+          "rank_in_state": 4
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4808,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 1206,
+          "rank_in_state": 1
+        },
+        "1966": {
+          "count_in_nation": 2318,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5598,
+          "percentile_in_state": 0.2222,
+          "rank_in_nation": 1021,
+          "rank_in_state": 8
+        },
+        "1967": {
+          "count_in_nation": 2297,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.4909,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1170,
+          "rank_in_state": 7
+        },
+        "1968": {
+          "count_in_nation": 2393,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6375,
+          "percentile_in_state": 0.4444,
+          "rank_in_nation": 868,
+          "rank_in_state": 6
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6007,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 971,
+          "rank_in_state": 5
+        },
+        "1970": {
+          "count_in_nation": 2397,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6119,
+          "percentile_in_state": 0.4444,
+          "rank_in_nation": 931,
+          "rank_in_state": 6
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.565,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1045,
+          "rank_in_state": 7
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4963,
+          "percentile_in_state": 0.6154,
+          "rank_in_nation": 1239,
+          "rank_in_state": 6
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6624,
+          "percentile_in_state": 0.6923,
+          "rank_in_nation": 838,
+          "rank_in_state": 5
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5275,
+          "percentile_in_state": 0.6154,
+          "rank_in_nation": 1195,
+          "rank_in_state": 6
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.563,
+          "percentile_in_state": 0.8462,
+          "rank_in_nation": 1096,
+          "rank_in_state": 3
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.472,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1331,
+          "rank_in_state": 8
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4089,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1496,
+          "rank_in_state": 7
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.3566,
+          "percentile_in_state": 0.6429,
+          "rank_in_nation": 1580,
+          "rank_in_state": 6
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.3835,
+          "percentile_in_state": 0.6364,
+          "rank_in_nation": 1499,
+          "rank_in_state": 5
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7593,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 581,
+          "rank_in_state": 3
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7361,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 634,
+          "rank_in_state": 5
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3425,
+          "percentile_in_state": 0.0769,
+          "rank_in_nation": 1575,
+          "rank_in_state": 13
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7766,
+          "percentile_in_state": 0.4615,
+          "rank_in_nation": 527,
+          "rank_in_state": 8
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.503,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 1174,
+          "rank_in_state": 6
+        },
+        "1985": {
+          "count_in_nation": 2351,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.4179,
+          "percentile_in_state": 0.4444,
+          "rank_in_nation": 1369,
+          "rank_in_state": 6
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5141,
+          "percentile_in_state": 0.3846,
+          "rank_in_nation": 1125,
+          "rank_in_state": 9
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3589,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 1475,
+          "rank_in_state": 12
+        },
+        "1988": {
+          "count_in_nation": 2265,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.8176,
+          "percentile_in_state": 0.3,
+          "rank_in_nation": 414,
+          "rank_in_state": 8
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4286,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1290,
+          "rank_in_state": 5
+        },
+        "1990": {
+          "count_in_nation": 2192,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.4633,
+          "percentile_in_state": 0.2,
+          "rank_in_nation": 1177,
+          "rank_in_state": 9
+        },
+        "1991": {
+          "count_in_nation": 2222,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.8104,
+          "percentile_in_state": 0.8,
+          "rank_in_nation": 422,
+          "rank_in_state": 3
+        },
+        "1992": {
+          "count_in_nation": 2252,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.3065,
+          "percentile_in_state": 0.6,
+          "rank_in_nation": 1562,
+          "rank_in_state": 5
+        },
+        "1993": {
+          "count_in_nation": 2169,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.381,
+          "percentile_in_state": 0.2857,
+          "rank_in_nation": 1343,
+          "rank_in_state": 6
+        },
+        "1994": {
+          "count_in_nation": 2174,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4289,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1242,
+          "rank_in_state": 3
+        },
+        "1995": {
+          "count_in_nation": 2096,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.6048,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 829,
+          "rank_in_state": 4
+        },
+        "1996": {
+          "count_in_nation": 2142,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.5941,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 870,
+          "rank_in_state": 3
+        },
+        "1997": {
+          "count_in_nation": 2109,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.7206,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 590,
+          "rank_in_state": 5
+        },
+        "1998": {
+          "count_in_nation": 2123,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.5928,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 865,
+          "rank_in_state": 4
+        },
+        "1999": {
+          "count_in_nation": 2098,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.7153,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 598,
+          "rank_in_state": 2
+        },
+        "2000": {
+          "count_in_nation": 2078,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4709,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1100,
+          "rank_in_state": 4
+        },
+        "2001": {
+          "count_in_nation": 2023,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.5099,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 992,
+          "rank_in_state": 2
+        },
+        "2002": {
+          "count_in_nation": 2086,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.5506,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 938,
+          "rank_in_state": 6
+        },
+        "2003": {
+          "count_in_nation": 2059,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.6545,
+          "percentile_in_state": 0.625,
+          "rank_in_nation": 712,
+          "rank_in_state": 4
+        },
+        "2004": {
+          "count_in_nation": 2014,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.5047,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 998,
+          "rank_in_state": 1
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5939,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 814,
+          "rank_in_state": 3
+        },
+        "2006": {
+          "count_in_nation": 1955,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.6075,
+          "percentile_in_state": 0.875,
+          "rank_in_nation": 768,
+          "rank_in_state": 2
+        },
+        "2007": {
+          "count_in_nation": 1934,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.6694,
+          "percentile_in_state": 0.8571,
+          "rank_in_nation": 640,
+          "rank_in_state": 2
+        },
+        "2008": {
+          "count_in_nation": 1623,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.5857,
+          "percentile_in_state": 0.6,
+          "rank_in_nation": 673,
+          "rank_in_state": 3
+        },
+        "2010": {
+          "count_in_nation": 1750,
+          "count_in_state": 5,
+          "percentile_in_nation": 0.502,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 872,
+          "rank_in_state": 1
+        },
+        "2011": {
+          "count_in_nation": 1667,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.569,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 719,
+          "rank_in_state": 4
+        },
+        "2013": {
+          "count_in_nation": 1579,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.4639,
+          "percentile_in_state": 0.8,
+          "rank_in_nation": 847,
+          "rank_in_state": 2
+        },
+        "2014": {
+          "count_in_nation": 1595,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.1085,
+          "percentile_in_state": 0.2,
+          "rank_in_nation": 1422,
+          "rank_in_state": 5
+        },
+        "2015": {
+          "count_in_nation": 1468,
+          "count_in_state": 5,
+          "percentile_in_nation": 0.6108,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 572,
+          "rank_in_state": 2
+        }
+      },
+      "yield": {
+        "1955": 37.0,
+        "1956": 37.0,
+        "1957": 45.0,
+        "1958": 54.0,
+        "1959": 60.0,
+        "1960": 55.0,
+        "1961": 60.0,
+        "1962": 65.0,
+        "1963": 60.0,
+        "1964": 53.0,
+        "1965": 55.0,
+        "1966": 57.0,
+        "1967": 63.0,
+        "1968": 71.0,
+        "1969": 73.0,
+        "1970": 64.0,
+        "1971": 71.0,
+        "1972": 72.2,
+        "1973": 82.0,
+        "1974": 64.0,
+        "1975": 73.0,
+        "1976": 70.0,
+        "1977": 62.0,
+        "1978": 69.0,
+        "1979": 80.0,
+        "1980": 94.0,
+        "1981": 104.0,
+        "1982": 83.0,
+        "1983": 92.0,
+        "1984": 92.0,
+        "1985": 92.0,
+        "1986": 96.2,
+        "1987": 84.3,
+        "1988": 97.0,
+        "1989": 92.0,
+        "1990": 95.0,
+        "1991": 117.0,
+        "1992": 93.0,
+        "1993": 76.0,
+        "1994": 109.0,
+        "1995": 106.0,
+        "1996": 116.0,
+        "1997": 126.0,
+        "1998": 115.0,
+        "1999": 130.0,
+        "2000": 119.0,
+        "2001": 121.0,
+        "2002": 105.0,
+        "2003": 133.0,
+        "2004": 137.0,
+        "2005": 135.0,
+        "2006": 139.0,
+        "2007": 145.0,
+        "2008": 140.0,
+        "2010": 134.4,
+        "2011": 135.6,
+        "2013": 149.0,
+        "2014": 110.4,
+        "2015": 163.6
+      }
+    },
+    "031": {
+      "name": "PLATTE",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4257,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 1071,
+          "rank_in_state": 6
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3617,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 1217,
+          "rank_in_state": 6
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5899,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 772,
+          "rank_in_state": 6
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5401,
+          "percentile_in_state": 0.6154,
+          "rank_in_nation": 947,
+          "rank_in_state": 6
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6367,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 790,
+          "rank_in_state": 7
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3536,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1423,
+          "rank_in_state": 7
+        },
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.6089,
+          "percentile_in_state": 0.6364,
+          "rank_in_nation": 902,
+          "rank_in_state": 5
+        },
+        "1962": {
+          "count_in_nation": 2319,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.2921,
+          "percentile_in_state": 0.2222,
+          "rank_in_nation": 1642,
+          "rank_in_state": 8
+        },
+        "1963": {
+          "count_in_nation": 2353,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5472,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1066,
+          "rank_in_state": 4
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.516,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1093,
+          "rank_in_state": 7
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3546,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1499,
+          "rank_in_state": 7
+        },
+        "1966": {
+          "count_in_nation": 2318,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6159,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 891,
+          "rank_in_state": 5
+        },
+        "1967": {
+          "count_in_nation": 2297,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5875,
+          "percentile_in_state": 0.8889,
+          "rank_in_nation": 948,
+          "rank_in_state": 2
+        },
+        "1968": {
+          "count_in_nation": 2393,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.7308,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 645,
+          "rank_in_state": 1
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5084,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1195,
+          "rank_in_state": 7
+        },
+        "1970": {
+          "count_in_nation": 2397,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.6119,
+          "percentile_in_state": 0.4444,
+          "rank_in_nation": 931,
+          "rank_in_state": 6
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7071,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 704,
+          "rank_in_state": 2
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7803,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 541,
+          "rank_in_state": 1
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.9544,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 114,
+          "rank_in_state": 1
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6965,
+          "percentile_in_state": 0.7692,
+          "rank_in_nation": 768,
+          "rank_in_state": 4
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.8803,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 301,
+          "rank_in_state": 1
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.8225,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 448,
+          "rank_in_state": 1
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4966,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 1274,
+          "rank_in_state": 6
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.3602,
+          "percentile_in_state": 0.7143,
+          "rank_in_nation": 1571,
+          "rank_in_state": 5
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.47,
+          "percentile_in_state": 0.8182,
+          "rank_in_nation": 1289,
+          "rank_in_state": 3
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.712,
+          "percentile_in_state": 0.5833,
+          "rank_in_nation": 695,
+          "rank_in_state": 6
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.8008,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 479,
+          "rank_in_state": 3
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6725,
+          "percentile_in_state": 0.8462,
+          "rank_in_nation": 785,
+          "rank_in_state": 3
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.8076,
+          "percentile_in_state": 0.6154,
+          "rank_in_nation": 454,
+          "rank_in_state": 6
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4746,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 1241,
+          "rank_in_state": 7
+        },
+        "1985": {
+          "count_in_nation": 2351,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.4191,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 1366,
+          "rank_in_state": 5
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6394,
+          "percentile_in_state": 0.8462,
+          "rank_in_nation": 835,
+          "rank_in_state": 3
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.508,
+          "percentile_in_state": 0.75,
+          "rank_in_nation": 1132,
+          "rank_in_state": 4
+        },
+        "1988": {
+          "count_in_nation": 2265,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.8547,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 330,
+          "rank_in_state": 6
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5137,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 1098,
+          "rank_in_state": 2
+        },
+        "1990": {
+          "count_in_nation": 2192,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.6577,
+          "percentile_in_state": 0.6,
+          "rank_in_nation": 751,
+          "rank_in_state": 5
+        },
+        "1991": {
+          "count_in_nation": 2222,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.7226,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 617,
+          "rank_in_state": 6
+        },
+        "1992": {
+          "count_in_nation": 2252,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.2763,
+          "percentile_in_state": 0.4,
+          "rank_in_nation": 1630,
+          "rank_in_state": 7
+        },
+        "1993": {
+          "count_in_nation": 2169,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.435,
+          "percentile_in_state": 0.5714,
+          "rank_in_nation": 1226,
+          "rank_in_state": 4
+        },
+        "1994": {
+          "count_in_nation": 2174,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.3511,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1411,
+          "rank_in_state": 7
+        },
+        "1995": {
+          "count_in_nation": 2096,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.19,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1698,
+          "rank_in_state": 7
+        },
+        "1996": {
+          "count_in_nation": 2142,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.4101,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1264,
+          "rank_in_state": 7
+        },
+        "1997": {
+          "count_in_nation": 2109,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.7818,
+          "percentile_in_state": 0.7778,
+          "rank_in_nation": 461,
+          "rank_in_state": 3
+        },
+        "1998": {
+          "count_in_nation": 2123,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.7842,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 459,
+          "rank_in_state": 1
+        },
+        "1999": {
+          "count_in_nation": 2098,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.7592,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 506,
+          "rank_in_state": 1
+        },
+        "2000": {
+          "count_in_nation": 2078,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.6023,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 827,
+          "rank_in_state": 2
+        },
+        "2001": {
+          "count_in_nation": 2023,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4219,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1170,
+          "rank_in_state": 5
+        },
+        "2002": {
+          "count_in_nation": 2086,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.7362,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 551,
+          "rank_in_state": 2
+        },
+        "2003": {
+          "count_in_nation": 2059,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.8139,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 384,
+          "rank_in_state": 1
+        },
+        "2004": {
+          "count_in_nation": 2014,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.2916,
+          "percentile_in_state": 0.375,
+          "rank_in_nation": 1427,
+          "rank_in_state": 6
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5939,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 814,
+          "rank_in_state": 3
+        },
+        "2006": {
+          "count_in_nation": 1955,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.3173,
+          "percentile_in_state": 0.375,
+          "rank_in_nation": 1335,
+          "rank_in_state": 6
+        },
+        "2007": {
+          "count_in_nation": 1934,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.6694,
+          "percentile_in_state": 0.8571,
+          "rank_in_nation": 640,
+          "rank_in_state": 2
+        },
+        "2011": {
+          "count_in_nation": 1667,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.6597,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 568,
+          "rank_in_state": 2
+        },
+        "2014": {
+          "count_in_nation": 1595,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.4191,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 927,
+          "rank_in_state": 1
+        }
+      },
+      "yield": {
+        "1955": 32.0,
+        "1956": 30.0,
+        "1957": 42.0,
+        "1958": 45.0,
+        "1959": 50.0,
+        "1960": 38.0,
+        "1961": 56.0,
+        "1962": 36.0,
+        "1963": 54.0,
+        "1964": 49.0,
+        "1965": 48.0,
+        "1966": 61.0,
+        "1967": 69.0,
+        "1968": 78.0,
+        "1969": 65.0,
+        "1970": 64.0,
+        "1971": 81.0,
+        "1972": 94.0,
+        "1973": 112.4,
+        "1974": 74.7,
+        "1975": 96.0,
+        "1976": 98.0,
+        "1977": 73.8,
+        "1978": 69.9,
+        "1979": 86.8,
+        "1980": 90.0,
+        "1981": 110.8,
+        "1982": 104.0,
+        "1983": 95.0,
+        "1984": 90.0,
+        "1985": 92.3,
+        "1986": 108.0,
+        "1987": 97.0,
+        "1988": 104.0,
+        "1989": 98.1,
+        "1990": 111.8,
+        "1991": 106.0,
+        "1992": 90.0,
+        "1993": 80.0,
+        "1994": 103.0,
+        "1995": 80.0,
+        "1996": 102.0,
+        "1997": 132.0,
+        "1998": 138.0,
+        "1999": 135.0,
+        "2000": 131.0,
+        "2001": 113.0,
+        "2002": 126.0,
+        "2003": 150.0,
+        "2004": 116.0,
+        "2005": 135.0,
+        "2006": 109.0,
+        "2007": 145.0,
+        "2011": 143.5,
+        "2014": 152.5
+      }
+    },
+    "033": {
+      "name": "SHERIDAN",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0811,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1713,
+          "rank_in_state": 8
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1281,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1662,
+          "rank_in_state": 11
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.209,
+          "percentile_in_state": 0.4167,
+          "rank_in_nation": 1488,
+          "rank_in_state": 8
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.052,
+          "percentile_in_state": 0.1538,
+          "rank_in_nation": 1951,
+          "rank_in_state": 12
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0852,
+          "percentile_in_state": 0.0769,
+          "rank_in_nation": 1988,
+          "rank_in_state": 13
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.215,
+          "percentile_in_state": 0.3077,
+          "rank_in_nation": 1728,
+          "rank_in_state": 10
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4574,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1319,
+          "rank_in_state": 9
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3242,
+          "percentile_in_state": 0.3077,
+          "rank_in_nation": 1662,
+          "rank_in_state": 10
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5418,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1098,
+          "rank_in_state": 7
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7579,
+          "percentile_in_state": 0.3846,
+          "rank_in_nation": 571,
+          "rank_in_state": 9
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3966,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1425,
+          "rank_in_state": 10
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4643,
+          "percentile_in_state": 0.1538,
+          "rank_in_nation": 1240,
+          "rank_in_state": 12
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4145,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1347,
+          "rank_in_state": 9
+        },
+        "1992": {
+          "count_in_nation": 2252,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.2363,
+          "percentile_in_state": 0.3,
+          "rank_in_nation": 1720,
+          "rank_in_state": 8
+        },
+        "1997": {
+          "count_in_nation": 2109,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.055,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1993,
+          "rank_in_state": 10
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0225,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1958,
+          "rank_in_state": 10
+        },
+        "2007": {
+          "count_in_nation": 1934,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.0124,
+          "percentile_in_state": 0.1429,
+          "rank_in_nation": 1910,
+          "rank_in_state": 7
+        }
+      },
+      "yield": {
+        "1955": 18.0,
+        "1956": 19.0,
+        "1957": 24.0,
+        "1958": 20.0,
+        "1959": 20.0,
+        "1960": 30.0,
+        "1969": 60.0,
+        "1972": 59.0,
+        "1982": 95.0,
+        "1983": 90.0,
+        "1984": 85.0,
+        "1986": 91.0,
+        "1987": 89.0,
+        "1992": 86.0,
+        "1997": 69.0,
+        "2005": 0.0,
+        "2007": 0.0
+      }
+    },
+    "041": {
+      "name": "UINTA",
+      "rank": {
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5603,
+          "percentile_in_state": 0.5385,
+          "rank_in_nation": 1091,
+          "rank_in_state": 7
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0518,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 2397,
+          "rank_in_state": 11
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0718,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 2327,
+          "rank_in_state": 11
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.2501,
+          "percentile_in_state": 0.2857,
+          "rank_in_nation": 1890,
+          "rank_in_state": 11
+        }
+      },
+      "yield": {
+        "1973": 77.0,
+        "1974": 30.0,
+        "1975": 35.0,
+        "1976": 50.0
+      }
+    },
+    "043": {
+      "name": "WASHAKIE",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6221,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 705,
+          "rank_in_state": 1
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.453,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 1043,
+          "rank_in_state": 3
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6426,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 673,
+          "rank_in_state": 3
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7132,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 591,
+          "rank_in_state": 2
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.7316,
+          "percentile_in_state": 0.6923,
+          "rank_in_nation": 584,
+          "rank_in_state": 5
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6245,
+          "percentile_in_state": 0.6923,
+          "rank_in_nation": 827,
+          "rank_in_state": 5
+        },
+        "1961": {
+          "count_in_nation": 2305,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.5299,
+          "percentile_in_state": 0.5455,
+          "rank_in_nation": 1084,
+          "rank_in_state": 6
+        },
+        "1962": {
+          "count_in_nation": 2319,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.506,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 1146,
+          "rank_in_state": 5
+        },
+        "1963": {
+          "count_in_nation": 2353,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.4919,
+          "percentile_in_state": 0.5556,
+          "rank_in_nation": 1196,
+          "rank_in_state": 5
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.8027,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 446,
+          "rank_in_state": 1
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3981,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 1398,
+          "rank_in_state": 3
+        },
+        "1966": {
+          "count_in_nation": 2318,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.7108,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 671,
+          "rank_in_state": 1
+        },
+        "1967": {
+          "count_in_nation": 2297,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5875,
+          "percentile_in_state": 0.8889,
+          "rank_in_nation": 948,
+          "rank_in_state": 2
+        },
+        "1968": {
+          "count_in_nation": 2393,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.7019,
+          "percentile_in_state": 0.7778,
+          "rank_in_nation": 714,
+          "rank_in_state": 3
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.6859,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 764,
+          "rank_in_state": 2
+        },
+        "1970": {
+          "count_in_nation": 2397,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.674,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 782,
+          "rank_in_state": 1
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7071,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 704,
+          "rank_in_state": 2
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5525,
+          "percentile_in_state": 0.7692,
+          "rank_in_nation": 1101,
+          "rank_in_state": 4
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4893,
+          "percentile_in_state": 0.3077,
+          "rank_in_nation": 1267,
+          "rank_in_state": 10
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5766,
+          "percentile_in_state": 0.6923,
+          "rank_in_nation": 1071,
+          "rank_in_state": 5
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.4497,
+          "percentile_in_state": 0.7692,
+          "rank_in_nation": 1380,
+          "rank_in_state": 4
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.6582,
+          "percentile_in_state": 0.8571,
+          "rank_in_nation": 862,
+          "rank_in_state": 3
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5243,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1204,
+          "rank_in_state": 5
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.3566,
+          "percentile_in_state": 0.6429,
+          "rank_in_nation": 1580,
+          "rank_in_state": 6
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.2082,
+          "percentile_in_state": 0.2727,
+          "rank_in_nation": 1925,
+          "rank_in_state": 9
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.8058,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 469,
+          "rank_in_state": 2
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.8153,
+          "percentile_in_state": 0.9167,
+          "rank_in_nation": 444,
+          "rank_in_state": 2
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6905,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 742,
+          "rank_in_state": 2
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.9044,
+          "percentile_in_state": 0.9231,
+          "rank_in_nation": 226,
+          "rank_in_state": 2
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.7644,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 557,
+          "rank_in_state": 1
+        },
+        "1985": {
+          "count_in_nation": 2351,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.5404,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 1081,
+          "rank_in_state": 1
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.6204,
+          "percentile_in_state": 0.7692,
+          "rank_in_nation": 879,
+          "rank_in_state": 4
+        },
+        "1987": {
+          "count_in_nation": 2300,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.4911,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1171,
+          "rank_in_state": 5
+        },
+        "1988": {
+          "count_in_nation": 2265,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.8149,
+          "percentile_in_state": 0.2,
+          "rank_in_nation": 420,
+          "rank_in_state": 9
+        },
+        "1989": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3169,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1542,
+          "rank_in_state": 10
+        },
+        "1990": {
+          "count_in_nation": 2192,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.6454,
+          "percentile_in_state": 0.5,
+          "rank_in_nation": 778,
+          "rank_in_state": 6
+        },
+        "1991": {
+          "count_in_nation": 2222,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.8208,
+          "percentile_in_state": 0.9,
+          "rank_in_nation": 399,
+          "rank_in_state": 2
+        },
+        "1992": {
+          "count_in_nation": 2252,
+          "count_in_state": 11,
+          "percentile_in_nation": 0.6504,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 788,
+          "rank_in_state": 1
+        },
+        "1993": {
+          "count_in_nation": 2169,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.6162,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 833,
+          "rank_in_state": 1
+        },
+        "1994": {
+          "count_in_nation": 2174,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4133,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1276,
+          "rank_in_state": 6
+        },
+        "1995": {
+          "count_in_nation": 2096,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.9045,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 201,
+          "rank_in_state": 1
+        },
+        "1996": {
+          "count_in_nation": 2142,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.7319,
+          "percentile_in_state": 0.875,
+          "rank_in_nation": 575,
+          "rank_in_state": 2
+        },
+        "1997": {
+          "count_in_nation": 2109,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.9241,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 161,
+          "rank_in_state": 1
+        },
+        "1998": {
+          "count_in_nation": 2123,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.7592,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 512,
+          "rank_in_state": 2
+        },
+        "2001": {
+          "count_in_nation": 2023,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4832,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1046,
+          "rank_in_state": 3
+        },
+        "2002": {
+          "count_in_nation": 2086,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.8801,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 251,
+          "rank_in_state": 1
+        },
+        "2003": {
+          "count_in_nation": 2059,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.6672,
+          "percentile_in_state": 0.875,
+          "rank_in_nation": 686,
+          "rank_in_state": 2
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.5939,
+          "percentile_in_state": 0.8333,
+          "rank_in_nation": 814,
+          "rank_in_state": 3
+        },
+        "2007": {
+          "count_in_nation": 1934,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.6999,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 581,
+          "rank_in_state": 1
+        },
+        "2008": {
+          "count_in_nation": 1623,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.7324,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 435,
+          "rank_in_state": 1
+        },
+        "2011": {
+          "count_in_nation": 1667,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.5426,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 763,
+          "rank_in_state": 5
+        },
+        "2013": {
+          "count_in_nation": 1579,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.5,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 790,
+          "rank_in_state": 1
+        }
+      },
+      "yield": {
+        "1955": 40.0,
+        "1956": 36.0,
+        "1957": 45.0,
+        "1958": 55.0,
+        "1959": 55.0,
+        "1960": 52.0,
+        "1961": 50.0,
+        "1962": 50.0,
+        "1963": 50.0,
+        "1964": 68.0,
+        "1965": 50.0,
+        "1966": 68.0,
+        "1967": 69.0,
+        "1968": 76.0,
+        "1969": 79.0,
+        "1970": 70.0,
+        "1971": 81.0,
+        "1972": 76.0,
+        "1973": 72.0,
+        "1974": 67.0,
+        "1975": 64.0,
+        "1976": 85.0,
+        "1977": 76.0,
+        "1978": 69.0,
+        "1979": 64.0,
+        "1980": 98.0,
+        "1981": 112.4,
+        "1982": 105.4,
+        "1983": 107.0,
+        "1984": 111.0,
+        "1985": 100.0,
+        "1986": 106.0,
+        "1987": 95.0,
+        "1988": 96.3,
+        "1989": 85.0,
+        "1990": 110.4,
+        "1991": 118.5,
+        "1992": 123.0,
+        "1993": 95.0,
+        "1994": 108.0,
+        "1995": 130.0,
+        "1996": 128.0,
+        "1997": 148.0,
+        "1998": 135.0,
+        "2001": 119.0,
+        "2002": 153.0,
+        "2003": 134.0,
+        "2005": 135.0,
+        "2007": 149.0,
+        "2008": 155.0,
+        "2011": 132.4,
+        "2013": 152.1
+      }
+    },
+    "045": {
+      "name": "WESTON",
+      "rank": {
+        "1955": {
+          "count_in_nation": 1864,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0709,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 1732,
+          "rank_in_state": 9
+        },
+        "1956": {
+          "count_in_nation": 1906,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0703,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1772,
+          "rank_in_state": 13
+        },
+        "1957": {
+          "count_in_nation": 1881,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0761,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 1738,
+          "rank_in_state": 12
+        },
+        "1958": {
+          "count_in_nation": 2058,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.052,
+          "percentile_in_state": 0.1538,
+          "rank_in_nation": 1951,
+          "rank_in_state": 12
+        },
+        "1959": {
+          "count_in_nation": 2173,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.2021,
+          "percentile_in_state": 0.1538,
+          "rank_in_nation": 1734,
+          "rank_in_state": 12
+        },
+        "1960": {
+          "count_in_nation": 2201,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.215,
+          "percentile_in_state": 0.3077,
+          "rank_in_nation": 1728,
+          "rank_in_state": 10
+        },
+        "1964": {
+          "count_in_nation": 2257,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.012,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2230,
+          "rank_in_state": 13
+        },
+        "1965": {
+          "count_in_nation": 2322,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0073,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2305,
+          "rank_in_state": 13
+        },
+        "1969": {
+          "count_in_nation": 2430,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0272,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2364,
+          "rank_in_state": 13
+        },
+        "1971": {
+          "count_in_nation": 2401,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3325,
+          "percentile_in_state": 0.1667,
+          "rank_in_nation": 1603,
+          "rank_in_state": 11
+        },
+        "1972": {
+          "count_in_nation": 2459,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3059,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 1707,
+          "rank_in_state": 11
+        },
+        "1973": {
+          "count_in_nation": 2480,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.3009,
+          "percentile_in_state": 0.1538,
+          "rank_in_nation": 1734,
+          "rank_in_state": 12
+        },
+        "1974": {
+          "count_in_nation": 2528,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0518,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 2397,
+          "rank_in_state": 11
+        },
+        "1975": {
+          "count_in_nation": 2507,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0718,
+          "percentile_in_state": 0.2308,
+          "rank_in_nation": 2327,
+          "rank_in_state": 11
+        },
+        "1976": {
+          "count_in_nation": 2520,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.0977,
+          "percentile_in_state": 0.2143,
+          "rank_in_nation": 2274,
+          "rank_in_state": 12
+        },
+        "1977": {
+          "count_in_nation": 2530,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.136,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 2186,
+          "rank_in_state": 12
+        },
+        "1978": {
+          "count_in_nation": 2455,
+          "count_in_state": 15,
+          "percentile_in_nation": 0.0469,
+          "percentile_in_state": 0.0714,
+          "rank_in_nation": 2340,
+          "rank_in_state": 14
+        },
+        "1979": {
+          "count_in_nation": 2431,
+          "count_in_state": 12,
+          "percentile_in_nation": 0.0901,
+          "percentile_in_state": 0.0909,
+          "rank_in_nation": 2212,
+          "rank_in_state": 11
+        },
+        "1980": {
+          "count_in_nation": 2411,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.1892,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1955,
+          "rank_in_state": 13
+        },
+        "1981": {
+          "count_in_nation": 2400,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0225,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2346,
+          "rank_in_state": 13
+        },
+        "1982": {
+          "count_in_nation": 2395,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.0075,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2377,
+          "rank_in_state": 14
+        },
+        "1983": {
+          "count_in_nation": 2355,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.8403,
+          "percentile_in_state": 0.6923,
+          "rank_in_nation": 377,
+          "rank_in_state": 5
+        },
+        "1984": {
+          "count_in_nation": 2361,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.3797,
+          "percentile_in_state": 0.0833,
+          "rank_in_nation": 1465,
+          "rank_in_state": 12
+        },
+        "1986": {
+          "count_in_nation": 2314,
+          "count_in_state": 14,
+          "percentile_in_nation": 0.5045,
+          "percentile_in_state": 0.3077,
+          "rank_in_nation": 1147,
+          "rank_in_state": 10
+        }
+      },
+      "yield": {
+        "1955": 17.0,
+        "1956": 15.0,
+        "1957": 20.0,
+        "1958": 20.0,
+        "1959": 27.0,
+        "1960": 30.0,
+        "1964": 16.0,
+        "1965": 16.0,
+        "1969": 21.0,
+        "1971": 52.0,
+        "1972": 57.0,
+        "1973": 57.0,
+        "1974": 30.0,
+        "1975": 35.0,
+        "1976": 40.0,
+        "1977": 30.0,
+        "1978": 31.0,
+        "1979": 47.7,
+        "1980": 35.0,
+        "1981": 30.0,
+        "1982": 39.0,
+        "1983": 99.0,
+        "1984": 84.0,
+        "1986": 95.0
+      }
+    },
+    "998": {
+      "name": "OTHER (COMBINED) COUNTIES",
+      "rank": {
+        "1995": {
+          "count_in_nation": 2096,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.589,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 862,
+          "rank_in_state": 5
+        },
+        "1996": {
+          "count_in_nation": 2142,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.2961,
+          "percentile_in_state": 0.125,
+          "rank_in_nation": 1508,
+          "rank_in_state": 8
+        },
+        "1997": {
+          "count_in_nation": 2109,
+          "count_in_state": 10,
+          "percentile_in_nation": 0.658,
+          "percentile_in_state": 0.2222,
+          "rank_in_nation": 722,
+          "rank_in_state": 8
+        },
+        "1998": {
+          "count_in_nation": 2123,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.066,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1983,
+          "rank_in_state": 7
+        },
+        "1999": {
+          "count_in_nation": 2098,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.0358,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2023,
+          "rank_in_state": 7
+        },
+        "2000": {
+          "count_in_nation": 2078,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.0313,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 2013,
+          "rank_in_state": 7
+        },
+        "2001": {
+          "count_in_nation": 2023,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.4832,
+          "percentile_in_state": 0.6667,
+          "rank_in_nation": 1046,
+          "rank_in_state": 3
+        },
+        "2002": {
+          "count_in_nation": 2086,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.6681,
+          "percentile_in_state": 0.3333,
+          "rank_in_nation": 693,
+          "rank_in_state": 5
+        },
+        "2003": {
+          "count_in_nation": 2059,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.5282,
+          "percentile_in_state": 0.375,
+          "rank_in_nation": 972,
+          "rank_in_state": 6
+        },
+        "2004": {
+          "count_in_nation": 2014,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.0219,
+          "percentile_in_state": 0.125,
+          "rank_in_nation": 1970,
+          "rank_in_state": 8
+        },
+        "2005": {
+          "count_in_nation": 2003,
+          "count_in_state": 13,
+          "percentile_in_nation": 0.0225,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1958,
+          "rank_in_state": 10
+        },
+        "2006": {
+          "count_in_nation": 1955,
+          "count_in_state": 9,
+          "percentile_in_nation": 0.2938,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1381,
+          "rank_in_state": 7
+        },
+        "2007": {
+          "count_in_nation": 1934,
+          "count_in_state": 8,
+          "percentile_in_nation": 0.0124,
+          "percentile_in_state": 0.1429,
+          "rank_in_nation": 1910,
+          "rank_in_state": 7
+        },
+        "2008": {
+          "count_in_nation": 1623,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.7035,
+          "percentile_in_state": 0.8,
+          "rank_in_nation": 482,
+          "rank_in_state": 2
+        },
+        "2009": {
+          "count_in_nation": 1591,
+          "count_in_state": 3,
+          "percentile_in_nation": 0.266,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1168,
+          "rank_in_state": 3
+        },
+        "2010": {
+          "count_in_nation": 1750,
+          "count_in_state": 5,
+          "percentile_in_nation": 0.3453,
+          "percentile_in_state": 0.25,
+          "rank_in_nation": 1146,
+          "rank_in_state": 4
+        },
+        "2011": {
+          "count_in_nation": 1667,
+          "count_in_state": 7,
+          "percentile_in_nation": 0.1339,
+          "percentile_in_state": 0.0,
+          "rank_in_nation": 1444,
+          "rank_in_state": 7
+        },
+        "2012": {
+          "count_in_nation": 1719,
+          "count_in_state": 3,
+          "percentile_in_nation": 0.8102,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 327,
+          "rank_in_state": 1
+        },
+        "2013": {
+          "count_in_nation": 1579,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.3473,
+          "percentile_in_state": 0.4,
+          "rank_in_nation": 1031,
+          "rank_in_state": 4
+        },
+        "2014": {
+          "count_in_nation": 1595,
+          "count_in_state": 6,
+          "percentile_in_nation": 0.3977,
+          "percentile_in_state": 0.8,
+          "rank_in_nation": 961,
+          "rank_in_state": 2
+        },
+        "2015": {
+          "count_in_nation": 1468,
+          "count_in_state": 5,
+          "percentile_in_nation": 0.636,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 535,
+          "rank_in_state": 1
+        },
+        "2016": {
+          "count_in_nation": 1541,
+          "count_in_state": 3,
+          "percentile_in_nation": 0.587,
+          "percentile_in_state": 1.0,
+          "rank_in_nation": 637,
+          "rank_in_state": 1
+        }
+      },
+      "yield": {
+        "1995": 105.0,
+        "1996": 94.0,
+        "1997": 120.0,
+        "1998": 40.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 119.0,
+        "2002": 118.0,
+        "2003": 123.0,
+        "2004": 0.0,
+        "2005": 0.0,
+        "2006": 105.0,
+        "2007": 0.0,
+        "2008": 152.0,
+        "2009": 125.0,
+        "2010": 116.9,
+        "2011": 80.0,
+        "2012": 149.5,
+        "2013": 137.5,
+        "2014": 151.1,
+        "2015": 165.6,
+        "2016": 161.7
+      }
+    }
+  },
+  "production_weighted_yield": {
+    "national": {
+      "1910": 26.0,
+      "1911": 21.5,
+      "1912": 27.0,
+      "1913": 15.0,
+      "1914": 24.5,
+      "1915": 31.0,
+      "1916": 27.0,
+      "1917": 27.0,
+      "1918": 24.4138,
+      "1919": 28.5444,
+      "1920": 33.3976,
+      "1921": 32.3216,
+      "1922": 28.7967,
+      "1923": 33.2087,
+      "1924": 22.8127,
+      "1925": 28.5278,
+      "1926": 27.5211,
+      "1927": 30.8025,
+      "1928": 30.9423,
+      "1929": 30.0223,
+      "1930": 24.4678,
+      "1931": 27.2302,
+      "1932": 32.1088,
+      "1933": 26.4136,
+      "1934": 19.9077,
+      "1935": 28.1323,
+      "1936": 17.1473,
+      "1937": 33.1049,
+      "1938": 32.7191,
+      "1939": 35.0724,
+      "1940": 32.8841,
+      "1941": 36.6801,
+      "1942": 41.7713,
+      "1943": 37.7357,
+      "1944": 37.3063,
+      "1945": 35.9827,
+      "1946": 41.2143,
+      "1947": 30.3413,
+      "1948": 47.3182,
+      "1949": 41.0534,
+      "1950": 40.8791,
+      "1951": 38.8178,
+      "1952": 45.4682,
+      "1953": 42.6895,
+      "1954": 39.9163,
+      "1955": 41.6432,
+      "1956": 47.5547,
+      "1957": 49.5958,
+      "1958": 53.3359,
+      "1959": 52.6532,
+      "1960": 55.5227,
+      "1961": 63.0435,
+      "1962": 65.4259,
+      "1963": 68.474,
+      "1964": 63.4382,
+      "1965": 74.5541,
+      "1966": 73.184,
+      "1967": 80.3923,
+      "1968": 79.4113,
+      "1969": 85.7592,
+      "1970": 72.3356,
+      "1971": 88.0889,
+      "1972": 97.038,
+      "1973": 91.2656,
+      "1974": 71.8874,
+      "1975": 86.4044,
+      "1976": 87.9576,
+      "1977": 90.8475,
+      "1978": 101.0436,
+      "1979": 109.5084,
+      "1980": 91.0508,
+      "1981": 108.9895,
+      "1982": 113.2423,
+      "1983": 81.1061,
+      "1984": 106.7546,
+      "1985": 118.0338,
+      "1986": 119.4163,
+      "1987": 119.8974,
+      "1988": 84.6293,
+      "1989": 116.2929,
+      "1990": 118.5437,
+      "1991": 108.6375,
+      "1992": 131.519,
+      "1993": 100.7288,
+      "1994": 138.6427,
+      "1995": 113.5385,
+      "1996": 127.1188,
+      "1997": 126.7336,
+      "1998": 134.484,
+      "1999": 133.8289,
+      "2000": 136.9172,
+      "2001": 138.273,
+      "2002": 129.3866,
+      "2003": 142.2382,
+      "2004": 160.4081,
+      "2005": 148.0189,
+      "2006": 149.2097,
+      "2007": 150.9803,
+      "2008": 154.4456,
+      "2009": 165.9689,
+      "2010": 152.9617,
+      "2011": 147.5584,
+      "2012": 123.3661,
+      "2013": 159.9025,
+      "2014": 171.8846,
+      "2015": 169.9172,
+      "2016": 176.3068,
+      "2017": 179.2153,
+      "2018": 178.8373,
+      "2019": 173.2568,
+      "2020": 171.498,
+      "2021": 176.7796,
+      "2022": 173.5103,
+      "2023": 177.395,
+      "2024": 179.468,
+      "2025": 186.6062
+    },
+    "state": {
+      "1955": 30.0,
+      "1956": 39.0,
+      "1957": 44.0,
+      "1958": 51.0,
+      "1959": 56.5,
+      "1960": 51.0,
+      "1961": 60.0,
+      "1962": 40.0,
+      "1963": 55.0,
+      "1964": 57.0,
+      "1965": 50.0,
+      "1966": 65.0,
+      "1967": 70.0,
+      "1968": 75.0,
+      "1969": 72.5,
+      "1970": 65.0,
+      "1971": 78.0,
+      "1972": 85.0,
+      "1973": 89.0,
+      "1974": 71.0,
+      "1975": 80.0,
+      "1976": 87.0,
+      "1977": 85.0,
+      "1978": 81.0,
+      "1979": 87.0,
+      "1980": 97.0,
+      "1981": 110.0,
+      "1982": 105.0,
+      "1983": 104.0,
+      "1984": 100.0,
+      "1985": 98.0,
+      "1986": 114.0,
+      "1987": 111.0,
+      "1988": 122.0,
+      "1989": 95.0,
+      "1990": 120.0,
+      "1991": 119.0,
+      "1992": 98.0,
+      "1993": 80.0,
+      "1994": 122.0,
+      "1995": 105.2222,
+      "1996": 125.4772,
+      "1997": 134.8263,
+      "1998": 127.6027,
+      "1999": 117.973,
+      "2000": 132.0,
+      "2001": 125.0,
+      "2002": 119.5322,
+      "2003": 130.7609,
+      "2004": 131.022,
+      "2005": 140.0613,
+      "2006": 126.2295,
+      "2007": 129.6546,
+      "2008": 132.4449,
+      "2009": 139.4667,
+      "2010": 123.6786,
+      "2011": 130.3206,
+      "2012": 145.5324,
+      "2013": 140.0697,
+      "2014": 132.0312,
+      "2015": 158.1667,
+      "2016": 140.1625
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "WY",
+    "fips": "56",
+    "name": "WYOMING"
+  }
+}

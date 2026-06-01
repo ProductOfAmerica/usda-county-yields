@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "049",
+    "name": "JACKSON"
+  },
+  "rank": {
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0636,
+      "percentile_in_state": 0.0893,
+      "rank_in_nation": 1739,
+      "rank_in_state": 52
+    },
+    "1979": {
+      "count_in_nation": 1882,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.0005,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1881,
+      "rank_in_state": 60
+    },
+    "1980": {
+      "count_in_nation": 1866,
+      "count_in_state": 61,
+      "percentile_in_nation": 0.067,
+      "percentile_in_state": 0.0667,
+      "rank_in_nation": 1741,
+      "rank_in_state": 57
+    },
+    "1981": {
+      "count_in_nation": 1835,
+      "count_in_state": 58,
+      "percentile_in_nation": 0.0513,
+      "percentile_in_state": 0.2105,
+      "rank_in_nation": 1741,
+      "rank_in_state": 46
+    }
+  },
+  "revenue": {
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.54,
+      "revenue_per_harvested_acre": 98.1,
+      "revenue_per_planted_acre": 98.1,
+      "yield": 15.0
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 6.42,
+      "revenue_per_harvested_acre": 85.386,
+      "revenue_per_planted_acre": 85.6,
+      "yield": 13.3
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 7.87,
+      "revenue_per_harvested_acre": 78.7,
+      "revenue_per_planted_acre": 78.7,
+      "yield": 10.0
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 6.37,
+      "revenue_per_harvested_acre": 106.379,
+      "revenue_per_planted_acre": 106.1667,
+      "yield": 16.7
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "LA",
+    "fips": "22",
+    "name": "LOUISIANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.18,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1980": 12.77,
+      "1981": 13.75
+    },
+    "yoy_pct": {
+      "1979": -11.33,
+      "1980": -24.81,
+      "1981": 67.0
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "041",
+    "name": "CARROLL"
+  },
+  "rank": {
+    "1972": {
+      "count_in_nation": 2503,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.3197,
+      "percentile_in_state": 0.2152,
+      "rank_in_nation": 1703,
+      "rank_in_state": 63
+    },
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 80,
+      "percentile_in_nation": 0.7027,
+      "percentile_in_state": 0.7595,
+      "rank_in_nation": 749,
+      "rank_in_state": 20
+    },
+    "1974": {
+      "count_in_nation": 2572,
+      "count_in_state": 84,
+      "percentile_in_nation": 0.6254,
+      "percentile_in_state": 0.6747,
+      "rank_in_nation": 964,
+      "rank_in_state": 28
+    },
+    "1975": {
+      "count_in_nation": 2526,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.8218,
+      "percentile_in_state": 0.9294,
+      "rank_in_nation": 451,
+      "rank_in_state": 7
+    },
+    "1976": {
+      "count_in_nation": 2543,
+      "count_in_state": 86,
+      "percentile_in_nation": 0.6711,
+      "percentile_in_state": 0.8588,
+      "rank_in_nation": 837,
+      "rank_in_state": 13
+    }
+  },
+  "revenue": {
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.47,
+      "revenue_per_harvested_acre": 39.69,
+      "revenue_per_planted_acre": 15.876,
+      "yield": 27.0
+    },
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.28,
+      "revenue_per_harvested_acre": 111.52,
+      "revenue_per_planted_acre": 55.76,
+      "yield": 34.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.77,
+      "revenue_per_harvested_acre": 120.64,
+      "revenue_per_planted_acre": 67.86,
+      "yield": 32.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 2.96,
+      "revenue_per_harvested_acre": 109.52,
+      "revenue_per_planted_acre": 39.8255,
+      "yield": 37.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.95,
+      "revenue_per_harvested_acre": 100.3,
+      "revenue_per_planted_acre": 37.6125,
+      "yield": 34.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "KY",
+    "fips": "21",
+    "name": "KENTUCKY"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.7,
+    "trailing_10yr_avg": {
+      "1976": 32.8
+    },
+    "trailing_5yr_avg": {
+      "1974": 31.0,
+      "1975": 32.5,
+      "1976": 32.8
+    },
+    "yoy_pct": {
+      "1973": 25.93,
+      "1974": -5.88,
+      "1975": 15.62,
+      "1976": -8.11
+    }
+  }
+}

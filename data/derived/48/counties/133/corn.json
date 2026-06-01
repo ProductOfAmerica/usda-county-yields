@@ -1,0 +1,40 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "133",
+    "name": "EASTLAND"
+  },
+  "rank": {
+    "2006": {
+      "count_in_nation": 1955,
+      "count_in_state": 97,
+      "percentile_in_nation": 0.4944,
+      "percentile_in_state": 0.7604,
+      "rank_in_nation": 989,
+      "rank_in_state": 24
+    }
+  },
+  "revenue": {
+    "2006": {
+      "marketing_year": "2006",
+      "price": 3.2,
+      "revenue_per_harvested_acre": 409.6,
+      "revenue_per_planted_acre": 102.4,
+      "yield": 128.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {}
+  }
+}

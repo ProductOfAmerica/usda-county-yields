@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "313",
+    "name": "MADISON"
+  },
+  "rank": {
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 208,
+      "percentile_in_nation": 0.2234,
+      "percentile_in_state": 0.7585,
+      "rank_in_nation": 1944,
+      "rank_in_state": 51
+    },
+    "1981": {
+      "count_in_nation": 2535,
+      "count_in_state": 204,
+      "percentile_in_nation": 0.3346,
+      "percentile_in_state": 0.803,
+      "rank_in_nation": 1687,
+      "rank_in_state": 41
+    },
+    "1982": {
+      "count_in_nation": 2532,
+      "count_in_state": 206,
+      "percentile_in_nation": 0.0691,
+      "percentile_in_state": 0.5659,
+      "rank_in_nation": 2357,
+      "rank_in_state": 90
+    },
+    "1983": {
+      "count_in_nation": 2480,
+      "count_in_state": 199,
+      "percentile_in_nation": 0.8157,
+      "percentile_in_state": 0.9343,
+      "rank_in_nation": 458,
+      "rank_in_state": 14
+    }
+  },
+  "revenue": {
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.74,
+      "revenue_per_harvested_acre": 104.72,
+      "revenue_per_planted_acre": 52.36,
+      "yield": 28.0
+    },
+    "1981": {
+      "marketing_year": "1981",
+      "price": 3.65,
+      "revenue_per_harvested_acre": 124.1,
+      "revenue_per_planted_acre": 32.6579,
+      "yield": 34.0
+    },
+    "1982": {
+      "marketing_year": "1982",
+      "price": 3.42,
+      "revenue_per_harvested_acre": 76.95,
+      "revenue_per_planted_acre": 30.78,
+      "yield": 22.5
+    },
+    "1983": {
+      "marketing_year": "1983",
+      "price": 3.38,
+      "revenue_per_harvested_acre": 155.48,
+      "revenue_per_planted_acre": 103.6533,
+      "yield": 46.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 4.25,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1982": 28.17,
+      "1983": 32.62
+    },
+    "yoy_pct": {
+      "1981": 21.43,
+      "1982": -33.82,
+      "1983": 104.44
+    }
+  }
+}

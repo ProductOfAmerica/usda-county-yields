@@ -1,0 +1,88 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "135",
+    "name": "ECTOR"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 2517,
+      "count_in_state": 177,
+      "percentile_in_nation": 0.4106,
+      "percentile_in_state": 0.8011,
+      "rank_in_nation": 1484,
+      "rank_in_state": 36
+    },
+    "1980": {
+      "count_in_nation": 2503,
+      "count_in_state": 208,
+      "percentile_in_nation": 0.0224,
+      "percentile_in_state": 0.0676,
+      "rank_in_nation": 2447,
+      "rank_in_state": 194
+    },
+    "1986": {
+      "count_in_nation": 2402,
+      "count_in_state": 196,
+      "percentile_in_nation": 0.8763,
+      "percentile_in_state": 0.9897,
+      "rank_in_nation": 298,
+      "rank_in_state": 3
+    },
+    "1987": {
+      "count_in_nation": 2373,
+      "count_in_state": 191,
+      "percentile_in_nation": 0.5649,
+      "percentile_in_state": 0.9789,
+      "rank_in_nation": 1033,
+      "rank_in_state": 5
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 3.04,
+      "revenue_per_harvested_acre": 87.856,
+      "revenue_per_planted_acre": 41.04,
+      "yield": 28.9
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.74,
+      "revenue_per_harvested_acre": 49.742,
+      "revenue_per_planted_acre": 18.7,
+      "yield": 13.3
+    },
+    "1986": {
+      "marketing_year": "1986",
+      "price": 2.32,
+      "revenue_per_harvested_acre": 111.36,
+      "revenue_per_planted_acre": 61.8667,
+      "yield": 48.0
+    },
+    "1987": {
+      "marketing_year": "1987",
+      "price": 2.36,
+      "revenue_per_harvested_acre": 94.4,
+      "revenue_per_planted_acre": 34.3273,
+      "yield": 40.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.3632,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1987": -16.67
+    }
+  }
+}

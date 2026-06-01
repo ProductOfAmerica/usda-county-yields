@@ -1,0 +1,197 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "998",
+    "name": "OTHER (COMBINED) COUNTIES"
+  },
+  "rank": {
+    "2000": {
+      "count_in_nation": 2078,
+      "count_in_state": 24,
+      "percentile_in_nation": 0.6485,
+      "percentile_in_state": 0.8696,
+      "rank_in_nation": 731,
+      "rank_in_state": 4
+    },
+    "2001": {
+      "count_in_nation": 2023,
+      "count_in_state": 21,
+      "percentile_in_nation": 0.0495,
+      "percentile_in_state": 0.85,
+      "rank_in_nation": 1923,
+      "rank_in_state": 4
+    },
+    "2002": {
+      "count_in_nation": 2086,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.0312,
+      "percentile_in_state": 0.6429,
+      "rank_in_nation": 2021,
+      "rank_in_state": 6
+    },
+    "2003": {
+      "count_in_nation": 2059,
+      "count_in_state": 16,
+      "percentile_in_nation": 0.8698,
+      "percentile_in_state": 0.8667,
+      "rank_in_nation": 269,
+      "rank_in_state": 3
+    },
+    "2004": {
+      "count_in_nation": 2014,
+      "count_in_state": 10,
+      "percentile_in_nation": 0.4839,
+      "percentile_in_state": 0.6667,
+      "rank_in_nation": 1040,
+      "rank_in_state": 4
+    },
+    "2005": {
+      "count_in_nation": 2003,
+      "count_in_state": 5,
+      "percentile_in_nation": 0.0225,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1958,
+      "rank_in_state": 5
+    },
+    "2006": {
+      "count_in_nation": 1955,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.0215,
+      "percentile_in_state": 0.6667,
+      "rank_in_nation": 1913,
+      "rank_in_state": 5
+    },
+    "2007": {
+      "count_in_nation": 1934,
+      "count_in_state": 4,
+      "percentile_in_nation": 0.688,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 604,
+      "rank_in_state": 4
+    },
+    "2008": {
+      "count_in_nation": 1623,
+      "count_in_state": 4,
+      "percentile_in_nation": 0.0062,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 1613,
+      "rank_in_state": 4
+    },
+    "2009": {
+      "count_in_nation": 1591,
+      "count_in_state": 2,
+      "percentile_in_nation": 0.9906,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 16,
+      "rank_in_state": 2
+    }
+  },
+  "revenue": {
+    "2000": {
+      "marketing_year": "2000",
+      "price": 2.41,
+      "revenue_per_harvested_acre": 325.35,
+      "revenue_per_planted_acre": 71.1703,
+      "yield": 135.0
+    },
+    "2001": {
+      "marketing_year": "2001",
+      "price": 2.54,
+      "revenue_per_harvested_acre": 133.35,
+      "revenue_per_planted_acre": 61.6857,
+      "yield": 52.5
+    },
+    "2002": {
+      "marketing_year": "2002",
+      "price": 2.88,
+      "revenue_per_harvested_acre": 0.0,
+      "revenue_per_planted_acre": 96.48,
+      "yield": 0.0
+    },
+    "2003": {
+      "marketing_year": "2003",
+      "price": 3.08,
+      "revenue_per_harvested_acre": 485.1,
+      "revenue_per_planted_acre": 970.2,
+      "yield": 157.5
+    },
+    "2004": {
+      "marketing_year": "2004",
+      "price": 2.75,
+      "revenue_per_harvested_acre": 371.25,
+      "revenue_per_planted_acre": 2598.75,
+      "yield": 135.0
+    },
+    "2005": {
+      "marketing_year": "2005",
+      "price": 2.59,
+      "revenue_per_harvested_acre": 0.0,
+      "yield": 0.0
+    },
+    "2006": {
+      "marketing_year": "2006",
+      "price": 3.24,
+      "revenue_per_harvested_acre": 0.0,
+      "revenue_per_planted_acre": 1163.16,
+      "yield": 0.0
+    },
+    "2007": {
+      "marketing_year": "2007",
+      "price": 4.36,
+      "revenue_per_harvested_acre": 643.1,
+      "revenue_per_planted_acre": 285.8222,
+      "yield": 147.5
+    },
+    "2008": {
+      "marketing_year": "2008",
+      "price": 4.15,
+      "revenue_per_harvested_acre": 0.0,
+      "revenue_per_planted_acre": 1494.0,
+      "yield": 0.0
+    },
+    "2009": {
+      "marketing_year": "2009",
+      "price": 4.12,
+      "revenue_per_harvested_acre": 848.72,
+      "revenue_per_planted_acre": 679.1562,
+      "yield": 206.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "OR",
+    "fips": "41",
+    "name": "OREGON"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 2.4333,
+    "trailing_10yr_avg": {
+      "2004": 96.0,
+      "2005": 80.0,
+      "2006": 68.57,
+      "2007": 78.44,
+      "2008": 69.72,
+      "2009": 83.35
+    },
+    "trailing_5yr_avg": {
+      "2002": 62.5,
+      "2003": 86.25,
+      "2004": 96.0,
+      "2005": 69.0,
+      "2006": 58.5,
+      "2007": 88.0,
+      "2008": 56.5,
+      "2009": 70.7
+    },
+    "yoy_pct": {
+      "2001": -61.11,
+      "2002": -100.0,
+      "2004": -14.29,
+      "2005": -100.0,
+      "2008": -100.0
+    }
+  }
+}

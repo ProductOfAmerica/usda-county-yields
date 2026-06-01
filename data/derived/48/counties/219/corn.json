@@ -1,0 +1,254 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "219",
+    "name": "HOCKLEY"
+  },
+  "rank": {
+    "1968": {
+      "count_in_nation": 2393,
+      "count_in_state": 124,
+      "percentile_in_nation": 0.4009,
+      "percentile_in_state": 0.7154,
+      "rank_in_nation": 1434,
+      "rank_in_state": 36
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 132,
+      "percentile_in_nation": 0.9948,
+      "percentile_in_state": 0.9389,
+      "rank_in_nation": 14,
+      "rank_in_state": 9
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 135,
+      "percentile_in_nation": 0.9589,
+      "percentile_in_state": 0.9403,
+      "rank_in_nation": 105,
+      "rank_in_state": 9
+    },
+    "1979": {
+      "count_in_nation": 2431,
+      "count_in_state": 127,
+      "percentile_in_nation": 0.8379,
+      "percentile_in_state": 0.8651,
+      "rank_in_nation": 395,
+      "rank_in_state": 18
+    },
+    "1980": {
+      "count_in_nation": 2411,
+      "count_in_state": 125,
+      "percentile_in_nation": 0.7523,
+      "percentile_in_state": 0.8629,
+      "rank_in_nation": 598,
+      "rank_in_state": 18
+    },
+    "1994": {
+      "count_in_nation": 2174,
+      "count_in_state": 111,
+      "percentile_in_nation": 0.3203,
+      "percentile_in_state": 0.6273,
+      "rank_in_nation": 1478,
+      "rank_in_state": 42
+    },
+    "1998": {
+      "count_in_nation": 2123,
+      "count_in_state": 113,
+      "percentile_in_nation": 0.6041,
+      "percentile_in_state": 0.8125,
+      "rank_in_nation": 841,
+      "rank_in_state": 22
+    },
+    "1999": {
+      "count_in_nation": 2098,
+      "count_in_state": 107,
+      "percentile_in_nation": 0.7058,
+      "percentile_in_state": 0.783,
+      "rank_in_nation": 618,
+      "rank_in_state": 24
+    },
+    "2013": {
+      "count_in_nation": 1579,
+      "count_in_state": 63,
+      "percentile_in_nation": 0.5241,
+      "percentile_in_state": 0.7419,
+      "rank_in_nation": 752,
+      "rank_in_state": 17
+    },
+    "2014": {
+      "count_in_nation": 1595,
+      "count_in_state": 72,
+      "percentile_in_nation": 0.2233,
+      "percentile_in_state": 0.7183,
+      "rank_in_nation": 1239,
+      "rank_in_state": 21
+    },
+    "2015": {
+      "count_in_nation": 1468,
+      "count_in_state": 62,
+      "percentile_in_nation": 0.195,
+      "percentile_in_state": 0.6885,
+      "rank_in_nation": 1182,
+      "rank_in_state": 20
+    },
+    "2016": {
+      "count_in_nation": 1541,
+      "count_in_state": 68,
+      "percentile_in_nation": 0.1039,
+      "percentile_in_state": 0.597,
+      "rank_in_nation": 1381,
+      "rank_in_state": 28
+    },
+    "2019": {
+      "count_in_nation": 1288,
+      "count_in_state": 57,
+      "percentile_in_nation": 0.0163,
+      "percentile_in_state": 0.0179,
+      "rank_in_nation": 1267,
+      "rank_in_state": 56
+    },
+    "2020": {
+      "count_in_nation": 1699,
+      "count_in_state": 60,
+      "percentile_in_nation": 0.0353,
+      "percentile_in_state": 0.2203,
+      "rank_in_nation": 1639,
+      "rank_in_state": 47
+    }
+  },
+  "revenue": {
+    "1968": {
+      "marketing_year": "1968",
+      "price": 1.15,
+      "revenue_per_harvested_acre": 61.065,
+      "revenue_per_planted_acre": 19.55,
+      "yield": 53.1
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.33,
+      "revenue_per_harvested_acre": 312.22,
+      "revenue_per_planted_acre": 285.0704,
+      "yield": 134.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.16,
+      "revenue_per_harvested_acre": 247.32,
+      "revenue_per_planted_acre": 247.4182,
+      "yield": 114.5
+    },
+    "1979": {
+      "marketing_year": "1979",
+      "price": 2.82,
+      "revenue_per_harvested_acre": 320.916,
+      "revenue_per_planted_acre": 220.665,
+      "yield": 113.8
+    },
+    "1980": {
+      "marketing_year": "1980",
+      "price": 3.44,
+      "revenue_per_harvested_acre": 321.296,
+      "revenue_per_planted_acre": 267.7467,
+      "yield": 93.4
+    },
+    "1994": {
+      "marketing_year": "1994",
+      "price": 2.51,
+      "revenue_per_harvested_acre": 251.0,
+      "revenue_per_planted_acre": 212.3846,
+      "yield": 100.0
+    },
+    "1998": {
+      "marketing_year": "1998",
+      "price": 2.26,
+      "revenue_per_harvested_acre": 263.742,
+      "revenue_per_planted_acre": 43.9444,
+      "yield": 116.7
+    },
+    "1999": {
+      "marketing_year": "1999",
+      "price": 2.07,
+      "revenue_per_harvested_acre": 267.03,
+      "revenue_per_planted_acre": 242.7545,
+      "yield": 129.0
+    },
+    "2013": {
+      "marketing_year": "2013",
+      "price": 5.14,
+      "revenue_per_harvested_acre": 791.56,
+      "revenue_per_planted_acre": 662.613,
+      "yield": 154.0
+    },
+    "2014": {
+      "marketing_year": "2014",
+      "price": 4.42,
+      "revenue_per_harvested_acre": 576.81,
+      "revenue_per_planted_acre": 576.9263,
+      "yield": 130.5
+    },
+    "2015": {
+      "marketing_year": "2015",
+      "price": 4.2,
+      "revenue_per_harvested_acre": 506.52,
+      "revenue_per_planted_acre": 501.6558,
+      "yield": 120.6
+    },
+    "2016": {
+      "marketing_year": "2016",
+      "price": 3.71,
+      "revenue_per_harvested_acre": 391.034,
+      "revenue_per_planted_acre": 370.6774,
+      "yield": 105.4
+    },
+    "2019": {
+      "marketing_year": "2019",
+      "price": 4.2,
+      "revenue_per_harvested_acre": 311.22,
+      "revenue_per_planted_acre": 311.1111,
+      "yield": 74.1
+    },
+    "2020": {
+      "marketing_year": "2020",
+      "price": 4.52,
+      "revenue_per_harvested_acre": 375.16,
+      "revenue_per_planted_acre": 322.8571,
+      "yield": 83.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.2426,
+    "trailing_10yr_avg": {
+      "2019": 116.92,
+      "2020": 111.27
+    },
+    "trailing_5yr_avg": {
+      "1979": 120.77,
+      "1980": 113.92,
+      "2015": 135.03,
+      "2016": 127.62,
+      "2019": 100.03,
+      "2020": 87.5
+    },
+    "yoy_pct": {
+      "1977": -14.55,
+      "1980": -17.93,
+      "1999": 10.54,
+      "2014": -15.26,
+      "2015": -7.59,
+      "2016": -12.6,
+      "2020": 12.01
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "commodity": {
+    "desc": "WHEAT",
+    "slug": "wheat"
+  },
+  "county": {
+    "code": "510",
+    "name": "CARSON CITY"
+  },
+  "rank": {
+    "1988": {
+      "count_in_nation": 2362,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.9276,
+      "percentile_in_state": 0.0,
+      "rank_in_nation": 172,
+      "rank_in_state": 15
+    },
+    "1989": {
+      "count_in_nation": 2359,
+      "count_in_state": 15,
+      "percentile_in_nation": 0.9453,
+      "percentile_in_state": 0.0714,
+      "rank_in_nation": 130,
+      "rank_in_state": 14
+    }
+  },
+  "revenue": {
+    "1988": {
+      "marketing_year": "1988",
+      "price": 3.62,
+      "revenue_per_harvested_acre": 217.2,
+      "revenue_per_planted_acre": 217.2,
+      "yield": 60.0
+    },
+    "1989": {
+      "marketing_year": "1989",
+      "price": 3.55,
+      "revenue_per_harvested_acre": 248.5,
+      "revenue_per_planted_acre": 248.5,
+      "yield": 70.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "NV",
+    "fips": "32",
+    "name": "NEVADA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 10.0,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1989": 16.67
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "commodity": {
+    "desc": "SOYBEANS",
+    "slug": "soybeans"
+  },
+  "county": {
+    "code": "347",
+    "name": "NACOGDOCHES"
+  },
+  "rank": {
+    "1973": {
+      "count_in_nation": 1761,
+      "count_in_state": 42,
+      "percentile_in_nation": 0.0085,
+      "percentile_in_state": 0.1707,
+      "rank_in_nation": 1746,
+      "rank_in_state": 35
+    },
+    "1977": {
+      "count_in_nation": 1839,
+      "count_in_state": 78,
+      "percentile_in_nation": 0.1235,
+      "percentile_in_state": 0.1688,
+      "rank_in_nation": 1612,
+      "rank_in_state": 65
+    },
+    "1978": {
+      "count_in_nation": 1857,
+      "count_in_state": 77,
+      "percentile_in_nation": 0.0523,
+      "percentile_in_state": 0.1842,
+      "rank_in_nation": 1760,
+      "rank_in_state": 63
+    }
+  },
+  "revenue": {
+    "1973": {
+      "marketing_year": "1973",
+      "price": 5.23,
+      "revenue_per_harvested_acre": 78.45,
+      "revenue_per_planted_acre": 78.45,
+      "yield": 15.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 5.35,
+      "revenue_per_harvested_acre": 97.37,
+      "revenue_per_planted_acre": 89.1667,
+      "yield": 18.2
+    },
+    "1978": {
+      "marketing_year": "1978",
+      "price": 6.3,
+      "revenue_per_harvested_acre": 90.72,
+      "revenue_per_planted_acre": 80.5,
+      "yield": 14.4
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "TX",
+    "fips": "48",
+    "name": "TEXAS"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 0.1429,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {},
+    "yoy_pct": {
+      "1978": -20.88
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "097",
+    "name": "SWEET GRASS"
+  },
+  "rank": {
+    "1944": {
+      "count_in_nation": 1444,
+      "count_in_state": 36,
+      "percentile_in_nation": 0.018,
+      "percentile_in_state": 0.1143,
+      "rank_in_nation": 1418,
+      "rank_in_state": 32
+    },
+    "1945": {
+      "count_in_nation": 1447,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.047,
+      "percentile_in_state": 0.5135,
+      "rank_in_nation": 1379,
+      "rank_in_state": 19
+    },
+    "1946": {
+      "count_in_nation": 1446,
+      "count_in_state": 38,
+      "percentile_in_nation": 0.0187,
+      "percentile_in_state": 0.1351,
+      "rank_in_nation": 1419,
+      "rank_in_state": 33
+    },
+    "1947": {
+      "count_in_nation": 1449,
+      "count_in_state": 43,
+      "percentile_in_nation": 0.0055,
+      "percentile_in_state": 0.0238,
+      "rank_in_nation": 1441,
+      "rank_in_state": 42
+    }
+  },
+  "revenue": {
+    "1944": {
+      "marketing_year": "1944",
+      "price": 1.13,
+      "revenue_per_harvested_acre": 12.43,
+      "revenue_per_planted_acre": 12.43,
+      "yield": 11.0
+    },
+    "1945": {
+      "marketing_year": "1945",
+      "price": 1.26,
+      "revenue_per_harvested_acre": 16.38,
+      "revenue_per_planted_acre": 16.38,
+      "yield": 13.0
+    },
+    "1946": {
+      "marketing_year": "1946",
+      "price": 1.5,
+      "revenue_per_harvested_acre": 15.0,
+      "revenue_per_planted_acre": 15.0,
+      "yield": 10.0
+    },
+    "1947": {
+      "marketing_year": "1947",
+      "price": 2.14,
+      "revenue_per_harvested_acre": 19.26,
+      "revenue_per_planted_acre": 19.26,
+      "yield": 9.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "MT",
+    "fips": "30",
+    "name": "MONTANA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": -0.9,
+    "trailing_10yr_avg": {},
+    "trailing_5yr_avg": {
+      "1946": 11.33,
+      "1947": 10.75
+    },
+    "yoy_pct": {
+      "1945": 18.18,
+      "1946": -23.08,
+      "1947": -10.0
+    }
+  }
+}

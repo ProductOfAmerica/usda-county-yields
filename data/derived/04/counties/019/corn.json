@@ -1,0 +1,177 @@
+{
+  "commodity": {
+    "desc": "CORN",
+    "slug": "corn"
+  },
+  "county": {
+    "code": "019",
+    "name": "PIMA"
+  },
+  "rank": {
+    "1965": {
+      "count_in_nation": 2322,
+      "count_in_state": 9,
+      "percentile_in_nation": 0.7255,
+      "percentile_in_state": 0.625,
+      "rank_in_nation": 638,
+      "rank_in_state": 4
+    },
+    "1966": {
+      "count_in_nation": 2318,
+      "count_in_state": 9,
+      "percentile_in_nation": 0.7937,
+      "percentile_in_state": 0.625,
+      "rank_in_nation": 479,
+      "rank_in_state": 4
+    },
+    "1967": {
+      "count_in_nation": 2297,
+      "count_in_state": 9,
+      "percentile_in_nation": 0.5318,
+      "percentile_in_state": 0.625,
+      "rank_in_nation": 1076,
+      "rank_in_state": 4
+    },
+    "1972": {
+      "count_in_nation": 2459,
+      "count_in_state": 11,
+      "percentile_in_nation": 0.238,
+      "percentile_in_state": 0.4,
+      "rank_in_nation": 1874,
+      "rank_in_state": 7
+    },
+    "1974": {
+      "count_in_nation": 2528,
+      "count_in_state": 11,
+      "percentile_in_nation": 0.171,
+      "percentile_in_state": 0.5,
+      "rank_in_nation": 2096,
+      "rank_in_state": 6
+    },
+    "1975": {
+      "count_in_nation": 2507,
+      "count_in_state": 13,
+      "percentile_in_nation": 0.1852,
+      "percentile_in_state": 0.5833,
+      "rank_in_nation": 2043,
+      "rank_in_state": 6
+    },
+    "1976": {
+      "count_in_nation": 2520,
+      "count_in_state": 14,
+      "percentile_in_nation": 0.106,
+      "percentile_in_state": 0.4615,
+      "rank_in_nation": 2253,
+      "rank_in_state": 8
+    },
+    "1977": {
+      "count_in_nation": 2530,
+      "count_in_state": 14,
+      "percentile_in_nation": 0.3167,
+      "percentile_in_state": 0.6923,
+      "rank_in_nation": 1729,
+      "rank_in_state": 5
+    },
+    "1997": {
+      "count_in_nation": 2109,
+      "count_in_state": 8,
+      "percentile_in_nation": 0.7315,
+      "percentile_in_state": 0.1429,
+      "rank_in_nation": 567,
+      "rank_in_state": 7
+    }
+  },
+  "revenue": {
+    "1965": {
+      "marketing_year": "1965",
+      "price": 1.53,
+      "revenue_per_harvested_acre": 107.1,
+      "revenue_per_planted_acre": 30.6,
+      "yield": 70.0
+    },
+    "1966": {
+      "marketing_year": "1966",
+      "price": 1.58,
+      "revenue_per_harvested_acre": 118.5,
+      "revenue_per_planted_acre": 39.5,
+      "yield": 75.0
+    },
+    "1967": {
+      "marketing_year": "1967",
+      "price": 1.35,
+      "revenue_per_harvested_acre": 87.75,
+      "revenue_per_planted_acre": 29.25,
+      "yield": 65.0
+    },
+    "1972": {
+      "marketing_year": "1972",
+      "price": 1.7,
+      "revenue_per_harvested_acre": 85.0,
+      "revenue_per_planted_acre": 17.0,
+      "yield": 50.0
+    },
+    "1974": {
+      "marketing_year": "1974",
+      "price": 3.7,
+      "revenue_per_harvested_acre": 148.0,
+      "revenue_per_planted_acre": 24.6667,
+      "yield": 40.0
+    },
+    "1975": {
+      "marketing_year": "1975",
+      "price": 3.2,
+      "revenue_per_harvested_acre": 144.0,
+      "revenue_per_planted_acre": 102.8571,
+      "yield": 45.0
+    },
+    "1976": {
+      "marketing_year": "1976",
+      "price": 2.6,
+      "revenue_per_harvested_acre": 106.6,
+      "revenue_per_planted_acre": 53.3,
+      "yield": 41.0
+    },
+    "1977": {
+      "marketing_year": "1977",
+      "price": 2.2,
+      "revenue_per_harvested_acre": 110.0,
+      "revenue_per_planted_acre": 88.0,
+      "yield": 50.0
+    },
+    "1997": {
+      "marketing_year": "1997",
+      "price": 3.2,
+      "revenue_per_harvested_acre": 406.4,
+      "revenue_per_planted_acre": 365.76,
+      "yield": 127.0
+    }
+  },
+  "schema_version": 3,
+  "state": {
+    "alpha": "AZ",
+    "fips": "04",
+    "name": "ARIZONA"
+  },
+  "yield_trend": {
+    "slope_bu_per_year": 1.6559,
+    "trailing_10yr_avg": {
+      "1974": 60.0,
+      "1975": 55.0,
+      "1976": 48.2,
+      "1977": 45.2
+    },
+    "trailing_5yr_avg": {
+      "1967": 70.0,
+      "1975": 45.0,
+      "1976": 44.0,
+      "1977": 44.0
+    },
+    "yoy_pct": {
+      "1966": 7.14,
+      "1967": -13.33,
+      "1975": 12.5,
+      "1976": -8.89,
+      "1977": 21.95
+    }
+  }
+}
