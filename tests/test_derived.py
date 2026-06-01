@@ -182,5 +182,65 @@ class YieldStatsTest(unittest.TestCase):
         self.assertIn("slope_bu_per_year", stats)  # 2 distinct years -> slope defined
 
 
+class EmitTest(unittest.TestCase):
+    def test_emit_writes_both_families_and_audit(self):
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                paths = derived.emit_all(_states_one_county(), _price_states(),
+                                         disc, "2026-05-30T00:00:00Z")
+                county = json.loads((Path(td) / "derived" / "19" / "counties" / "169" / "corn.json").read_text())
+                state = json.loads((Path(td) / "states" / "19" / "derived" / "state-corn.json").read_text())
+                audit = json.loads((Path(td) / "_audit" / "derived.json").read_text())
+        self.assertEqual(county["schema_version"], 3)
+        self.assertIn("2024", county["revenue"])
+        self.assertEqual(state["schema_version"], 3)
+        self.assertIn("169", state["counties"])
+        self.assertIn(Path(td) / "_schema" / "derived-county.json", paths)
+        self.assertIn(Path(td) / "_schema" / "derived-state.json", paths)
+        self.assertEqual(audit["product_name"], "NASS derived families")
+
+    def test_emit_zero_shards_still_writes_audit(self):
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                derived.emit_all({}, {}, disc, "2026-05-30T00:00:00Z")
+                self.assertTrue((Path(td) / "_audit" / "derived.json").exists())
+
+    def test_schema_files_v3(self):
+        for name in ("derived-county.json", "derived-state.json"):
+            p = Path(refresh.DATA_DIR) / "_schema" / name
+            self.assertTrue(p.exists(), name)
+            self.assertEqual(json.loads(p.read_text())["properties"]["schema_version"]["const"], 3)
+
+    def test_yield_only_state_still_emits_national(self):
+        # State 19 has production+area (contributes weighted yield); state 20
+        # has only yield (ranked, no prod/area). State 20's shard must still
+        # carry the national block (codex P1 #2 regression).
+        def cy_full(name, y, prod, ah):
+            return _county(name, {"corn": _com("CORN", "corn", [
+                _series("YIELD", "BU / ACRE", {"2024": y}, canonical=True),
+                _series("PRODUCTION", "BU", {"2024": prod}, canonical=True),
+                _series("AREA HARVESTED", "ACRES", {"2024": ah}, canonical=True)])})
+        def cy_yield(name, y):
+            return _county(name, {"corn": _com("CORN", "corn", [
+                _series("YIELD", "BU / ACRE", {"2024": y}, canonical=True)])})
+        states = {
+            "19": {"state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
+                   "counties": {"001": cy_full("A", 200.0, 2000.0, 10.0)}},
+            "20": {"state": {"fips": "20", "alpha": "KS", "name": "KANSAS"},
+                   "counties": {"010": cy_yield("E", 150.0)}},
+        }
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                derived.emit_all(states, {}, disc, "2026-05-30T00:00:00Z")
+                ks = json.loads((Path(td) / "states" / "20" / "derived" / "state-corn.json").read_text())
+        self.assertEqual(ks["production_weighted_yield"]["state"], {})
+        self.assertIn("2024", ks["production_weighted_yield"]["national"])
+        # national corn weighted yield = 2000/10 (IA only) = 200.0
+        self.assertAlmostEqual(ks["production_weighted_yield"]["national"]["2024"], 200.0, places=4)
+
+
 if __name__ == "__main__":
     unittest.main()

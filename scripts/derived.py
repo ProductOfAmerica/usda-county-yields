@@ -228,3 +228,144 @@ def compute_yield_stats(states: dict) -> dict:
                         stats["trailing_10yr_avg"][str(y)] = round(sum(w10) / len(w10), 2)
                 out[(fips, code, slug)] = stats
     return out
+
+
+# ---------- paths ----------
+
+def _county_shard_path(fips: str, code: str, slug: str) -> Path:
+    return refresh.DATA_DIR / "derived" / fips / "counties" / code / f"{slug}.json"
+
+
+def _state_shard_path(fips: str, slug: str) -> Path:
+    return refresh.DATA_DIR / "states" / fips / "derived" / f"state-{slug}.json"
+
+
+def _audit_path() -> Path:
+    return refresh.DATA_DIR / "_audit" / "derived.json"
+
+
+def _county_schema_path() -> Path:
+    return refresh.DATA_DIR / "_schema" / "derived-county.json"
+
+
+def _state_schema_path() -> Path:
+    return refresh.DATA_DIR / "_schema" / "derived-state.json"
+
+
+def derived_bootstrap_needed() -> bool:
+    """True when the derived audit sentinel is absent (drives same-publication
+    re-emit). Mirrors refresh.sp_a_bootstrap_needed."""
+    return not _audit_path().exists()
+
+
+# ---------- shape asserts ----------
+
+def _assert_county_shape(shard: dict) -> None:
+    top = {"schema_version", "state", "county", "commodity", "revenue", "yield_trend", "rank"}
+    if set(shard) != top:
+        raise SystemExit(f"Derived county keys mismatch: {sorted(set(shard))}")
+    if shard["schema_version"] != 3:
+        raise SystemExit(f"Derived county schema_version not 3: {shard['schema_version']!r}")
+    yt = shard["yield_trend"]
+    for k in ("yoy_pct", "trailing_5yr_avg", "trailing_10yr_avg"):
+        if k not in yt:
+            raise SystemExit(f"Derived county yield_trend missing {k}")
+
+
+def _assert_state_shape(shard: dict) -> None:
+    top = {"schema_version", "state", "commodity", "production_weighted_yield", "counties"}
+    if set(shard) != top:
+        raise SystemExit(f"Derived state keys mismatch: {sorted(set(shard))}")
+    if shard["schema_version"] != 3:
+        raise SystemExit(f"Derived state schema_version not 3: {shard['schema_version']!r}")
+    if set(shard["production_weighted_yield"]) != {"state", "national"}:
+        raise SystemExit("Derived state production_weighted_yield needs state+national")
+
+
+# ---------- emit ----------
+
+def emit_all(states: dict, price_states: dict, discovery: dict, refreshed_at: str) -> set:
+    """Compute all derived families and write both shard trees + audit. Audit
+    written UNCONDITIONALLY (zero-shard bootstrap sentinel). Returns the
+    protected path set (both schemas + shards + audit)."""
+    revenue = compute_revenue(states, price_states)
+    ranks = compute_ranks(states)
+    weighted = compute_weighted_yield(states)
+    ystats = compute_yield_stats(states)
+
+    paths: set = {_county_schema_path(), _state_schema_path()}
+    county_count = 0
+
+    # county family: one shard per (fips, code, slug) that has a canonical yield
+    # (== appears in ystats, which keys on canonical YIELD presence)
+    for (fips, code, slug) in sorted(ystats):
+        st_meta = states[fips]["state"]
+        cty = states[fips]["counties"][code]
+        com = cty["commodities"][slug]
+        shard = {
+            "schema_version": 3,
+            "state": st_meta,
+            "county": {"code": code, "name": cty["name"]},
+            "commodity": {"slug": slug, "desc": com["commodity_desc"]},
+            "revenue": revenue.get((fips, code, slug), {}),
+            "yield_trend": ystats[(fips, code, slug)],
+            "rank": ranks.get((fips, code, slug), {}),
+        }
+        _assert_county_shape(shard)
+        p = _county_shard_path(fips, code, slug)
+        refresh.write_if_changed(p, refresh._dump_json(shard))
+        paths.add(p)
+        county_count += 1
+
+    # state family: one shard per (fips, slug) that has any weighted yield or
+    # any ranked county
+    state_keys = set(weighted) | {(f, s) for (f, _c, s) in ranks}
+    # National weighted yield is identical across states for a given slug; build
+    # a slug-keyed lookup so a state with ranked counties but no local
+    # production+area still emits the real national block (codex P1 #2).
+    national_by_slug = {slug: wy["national"] for (f, slug), wy in weighted.items()}
+    for (fips, slug) in sorted(state_keys):
+        st_meta = states[fips]["state"]
+        # county scan: yield values + rank for every county of this (fips, slug)
+        counties: dict = {}
+        for code, cty in states[fips]["counties"].items():
+            com = cty["commodities"].get(slug)
+            if com is None:
+                continue
+            yld = _canonical(com, "YIELD")
+            if yld is None:
+                continue
+            counties[code] = {
+                "name": cty["name"],
+                "yield": yld["values"],
+                "rank": ranks.get((fips, code, slug), {}),
+            }
+        wy = weighted.get((fips, slug))
+        state_block = wy["state"] if wy else {}
+        national_block = national_by_slug.get(slug, {})
+        desc = next((c["commodities"][slug]["commodity_desc"]
+                     for c in states[fips]["counties"].values()
+                     if slug in c["commodities"]), slug.upper())
+        shard = {
+            "schema_version": 3,
+            "state": st_meta,
+            "commodity": {"slug": slug, "desc": desc},
+            "production_weighted_yield": {"state": state_block, "national": national_block},
+            "counties": counties,
+        }
+        _assert_state_shape(shard)
+        p = _state_shard_path(fips, slug)
+        refresh.write_if_changed(p, refresh._dump_json(shard))
+        paths.add(p)
+
+    audit = {
+        "product_name": "NASS derived families",
+        "refreshed_at": refreshed_at,
+        "source": {"url": discovery["url"], "etag": discovery["etag"],
+                   "publication_date": discovery["date"]},
+        "county_shard_count": county_count,
+    }
+    ap = _audit_path()
+    refresh.write_if_changed(ap, refresh._dump_json(audit))
+    paths.add(ap)
+    return paths
