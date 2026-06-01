@@ -140,3 +140,59 @@ def group_prices(kept: list[dict]) -> dict:
         elif code is not None:
             series["suppressed"][vkey] = code
     return states
+
+
+def _series_sort_key(s: dict) -> tuple:
+    return (s["class"], s["period"])
+
+
+def sort_price_series(states: dict) -> None:
+    """Sort each crop's series[] by (class, period) so shard bytes stay stable
+    across NASS row reorders (mirrors refresh.sort_series)."""
+    for st in states.values():
+        for com in st["crops"].values():
+            com["series"].sort(key=_series_sort_key)
+
+
+def mark_price_canonical(states: dict) -> tuple[int, list[tuple[str, str]]]:
+    """Mark the ALL CLASSES marketing-year series canonical per (state, crop).
+
+    Returns (missing_count, samples): (state, crop) pairs that have price series
+    but no ALL CLASSES marketing-year series. (class, period) is a unique
+    grouping key, so at most one series matches; no ambiguity is possible.
+    """
+    missing = 0
+    samples: list[tuple[str, str]] = []
+    for fips, st in states.items():
+        for slug, com in st["crops"].items():
+            match = next(
+                (s for s in com["series"]
+                 if s["class"] == CANONICAL_PRICE_CLASS
+                 and s["period"] == CANONICAL_PRICE_PERIOD),
+                None)
+            if match is not None:
+                match["canonical"] = True
+            elif com["series"]:
+                missing += 1
+                if len(samples) < 10:
+                    samples.append((fips, slug))
+    return missing, samples
+
+
+def _assert_price_shape(shard: dict) -> None:
+    """Stdlib structural check matching data/_schema/price.json. Raises
+    SystemExit on drift so a producer regression fails fast (no jsonschema dep).
+    """
+    top = {"schema_version", "state", "commodity", "series"}
+    if set(shard) != top:
+        raise SystemExit(f"Price shard top-level keys mismatch: {sorted(set(shard))}")
+    if shard["schema_version"] != 3:
+        raise SystemExit(f"Price shard schema_version not 3: {shard['schema_version']!r}")
+    required = {"class", "period", "unit", "values", "suppressed"}
+    optional = {"canonical"}
+    for s in shard["series"]:
+        keys = set(s)
+        if required - keys:
+            raise SystemExit(f"Price series missing keys: {sorted(required - keys)}")
+        if keys - required - optional:
+            raise SystemExit(f"Price series unexpected keys: {sorted(keys - required - optional)}")

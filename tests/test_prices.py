@@ -112,5 +112,45 @@ class GroupPricesTest(unittest.TestCase):
         self.assertEqual(s["suppressed"], {"2024": "D"})
 
 
+class CanonicalPriceTest(unittest.TestCase):
+    def test_marks_all_classes_marketing_year(self):
+        _, kept = _filter([
+            _row(VALUE="4.80"),  # ALL CLASSES / MARKETING YEAR
+            _row(FREQ_DESC="MONTHLY", REFERENCE_PERIOD_DESC="AUG", VALUE="5.20"),
+        ])
+        states = prices.group_prices(kept)
+        prices.sort_price_series(states)
+        missing, _ = prices.mark_price_canonical(states)
+        self.assertEqual(missing, 0)
+        com = states["19"]["crops"]["corn"]
+        canon = [s for s in com["series"] if s.get("canonical")]
+        self.assertEqual(len(canon), 1)
+        self.assertEqual((canon[0]["class"], canon[0]["period"]),
+                         ("ALL CLASSES", "MARKETING YEAR"))
+
+    def test_missing_canonical_counted_when_no_marketing_year(self):
+        _, kept = _filter([_row(FREQ_DESC="MONTHLY", REFERENCE_PERIOD_DESC="AUG", VALUE="5.2")])
+        states = prices.group_prices(kept)
+        prices.sort_price_series(states)
+        missing, _ = prices.mark_price_canonical(states)
+        self.assertEqual(missing, 1)
+
+    def test_wheat_winter_not_canonical(self):
+        _, kept = _filter([
+            _row(COMMODITY_DESC="WHEAT", CLASS_DESC="ALL CLASSES", VALUE="6.10"),
+            _row(COMMODITY_DESC="WHEAT", CLASS_DESC="WINTER", VALUE="6.25"),
+        ])
+        states = prices.group_prices(kept)
+        prices.sort_price_series(states)
+        prices.mark_price_canonical(states)
+        wheat = states["19"]["crops"]["wheat"]
+        canon = [s for s in wheat["series"] if s.get("canonical")]
+        self.assertEqual([s["class"] for s in canon], ["ALL CLASSES"])
+
+    def test_shape_assert_rejects_bad_version(self):
+        with self.assertRaises(SystemExit):
+            prices._assert_price_shape({"schema_version": 2})
+
+
 if __name__ == "__main__":
     unittest.main()
