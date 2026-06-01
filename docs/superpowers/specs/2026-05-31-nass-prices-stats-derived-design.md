@@ -108,7 +108,7 @@ c. **Production-weighted state/national yield** = `sum(production) / sum(area ha
 
 d. **Per-series derived stats**: trailing 5- and 10-year average, year-over-year %, linear trend slope. Suppressed years are skipped, not treated as zero.
 
-e. **Multi-crop bundle** `data/bundles/{fips}/{code}.json`: corn+soy+wheat canonical raw + headline derived in one fetch. YAGNI candidate (leaves are ~5 KB and warm-cache fast, so three fetches is already cheap); retained because the owner asked for all five. First to cut if scope tightens.
+e. **Multi-crop bundle** `data/bundles/{fips}/{code}.json`: corn+soy+wheat canonical raw + headline derived in one fetch. YAGNI candidate (leaves are ~5 KB and warm-cache fast, so three fetches is already cheap); retained because the owner asked for all five. First to cut if scope tightens. **CUT 2026-06-01 (see section 9):** not built. The bundle is pure denormalized duplication of data already published in the leaf and derived families, has no consumer (field-mcp reads only county leaves and consumes neither prices nor derived yet), and would add weekly git churn and tree growth to save a hypothetical consumer two small warm-cache fetches. Revivable from this spec if a real multi-crop fetch consumer appears.
 
 ### 4.6 Marketing-year join, explicit mapping
 
@@ -182,9 +182,11 @@ The leaf/rollup change is internal to `refresh.py`: add `CV_%` to `REQUIRED_COLS
 1. **Foundation:** leaf v3 (yield + production + area + cv), yield-only v3 rollup, create `leaf.json`, the per-`(crop, statistic)` rule table + candidate-counting guard, per-family Gate 2 baselines, the bootstrap/`discover` inclusive-bound change, `CV_%` in `REQUIRED_COLS`, atomic schema/assert/test bump, README fix. Plus the field-mcp backward-compatible picker (section 4.2), deployed and verified live before any v3 data is published. Everything depends on this. Foundation's `bootstrap_needed` references `index + leaf + planting-windows` only.
 2. **Prices:** `prices.py` + `price.json` schema + audit. The prices term is added to `bootstrap_needed` in this phase, when `prices.py` exists to emit `_audit/prices.json`. Adds `prices` to the Gate 2 baseline map.
 3. **Derived:** `derived.py` + schemas + audit (rank/percentile, prod-weighted yield, imputed revenue/acre with marketing-year join, trailing/YoY/trend). The derived term is added to `bootstrap_needed` in this phase. Adds `derived` to the baseline map.
-4. **Bundle:** `bundles/` (YAGNI candidate; cut if scope tightens). If kept, its sentinel/baseline term is added in this phase.
+4. **Bundle:** `bundles/` (YAGNI candidate; cut if scope tightens). If kept, its sentinel/baseline term is added in this phase. **CUT 2026-06-01, not built (section 9).**
 
 Each phase is independently shippable and testable: at the end of each, the merged `bootstrap_needed` references only sentinels for emitters that exist as of that phase, so a same-publication rerun early-returns cleanly instead of looping. TDD per phase: tests for the new shape/filter/gate precede implementation.
+
+**Shipped status (2026-06-01):** Foundation merged `3a7a60f` (PR #3), Prices merged `84a69c7` (PR #4), Derived merged `fc0012d` (PR #5). Bundle cut as YAGNI. The expansion is complete: the producer now publishes county yield+production+area+cv leaves, state prices, and derived joins, up from yield-only.
 
 ## 8. Testing
 
@@ -202,7 +204,7 @@ Each phase is independently shippable and testable: at the end of each, the merg
 
 ## 9. Out of scope
 
-National price files, census source, other commodities, sub-state/zip/watershed aggregations, futures/basis, and any non-NASS source. New-statistic rollups (would breach 20 MB). These are deliberate future scope, not accidental omissions.
+National price files, census source, other commodities, sub-state/zip/watershed aggregations, futures/basis, and any non-NASS source. New-statistic rollups (would breach 20 MB). The **multi-crop bundle** (`data/bundles/`, section 4.5e), cut 2026-06-01: it duplicates data the leaf and derived families already publish, has no consumer, and the per-leaf fetch is already small and warm-cache fast, so the bundle would add maintenance and tree growth for no benefit; revive it only if a consumer materializes that genuinely needs corn+soy+wheat in one request. These are deliberate future scope, not accidental omissions.
 
 A separate, larger dependency lives in field-mcp: a price/production consumer must be written there for any of this new data to reach a report. Adding the data here is necessary but not sufficient for the FIE market-recap feature. Tracked as a field-mcp ticket.
 
