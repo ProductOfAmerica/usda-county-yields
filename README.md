@@ -166,11 +166,50 @@ GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/pr
 - Prices are **state-level**: a county report joining a state price to a county yield should label it state-imputed, not county revenue.
 - Schema: [`data/_schema/price.json`](data/_schema/price.json).
 
+### Derived families
+
+Precomputed joins and statistics, so a consumer fetches a result instead of re-deriving it. Two families.
+
+Per-(county, crop), revenue + yield trend + rank:
+
+```
+GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/derived/{fips}/counties/{county_code}/{crop_slug}.json
+```
+
+```json
+{
+  "schema_version": 3,
+  "state": { "fips": "19", "alpha": "IA", "name": "IOWA" },
+  "county": { "code": "169", "name": "STORY" },
+  "commodity": { "slug": "corn", "desc": "CORN" },
+  "revenue": {
+    "2024": { "marketing_year": "2024", "yield": 215.5, "price": 4.80,
+              "revenue_per_harvested_acre": 1034.4, "revenue_per_planted_acre": 1010.2 }
+  },
+  "yield_trend": { "slope_bu_per_year": 1.85, "yoy_pct": { "2024": 3.2 },
+                   "trailing_5yr_avg": { "2024": 201.4 }, "trailing_10yr_avg": { "2024": 195.0 } },
+  "rank": { "2024": { "rank_in_state": 12, "count_in_state": 99, "percentile_in_state": 0.8878,
+                      "rank_in_nation": 145, "count_in_nation": 2100, "percentile_in_nation": 0.9314 } }
+}
+```
+
+Per-(state, crop), production-weighted yield + a county comparison scan:
+
+```
+GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/{fips}/derived/state-{crop_slug}.json
+```
+
+- **Revenue is state-imputed.** `revenue_per_harvested_acre = county yield * state marketing-year price`; `revenue_per_planted_acre = county production * state price / county area planted`. The price is the state figure (NASS publishes no county price), so a report must label revenue as state-imputed, not a county-specific price. The marketing-year join is recorded per record (`marketing_year`): a crop's `yield[Y]` joins the marketing-year price labelled `Y` (corn, soybeans, wheat alike). A year is emitted only where both yield and the joined price exist; suppressed years are skipped, never zero-filled.
+- **Production-weighted yield** = `sum(production) / sum(area harvested)` across counties (the correct aggregate, not a county-mean), as both a `state` and a `national` series. The `national` block is identical across every state file for a crop.
+- **Rank/percentile** is competition rank (1 = highest, ties share a rank) within-state and within-nation, on canonical yield, per year. `percentile = (n - rank) / (n - 1)`, and `1.0` for a lone county.
+- **Yield trend**: `slope_bu_per_year` (OLS), `yoy_pct`, and trailing 5/10-year averages (emitted only with enough present years). Suppressed years are excluded from every statistic.
+- Schemas: [`data/_schema/derived-county.json`](data/_schema/derived-county.json), [`data/_schema/derived-state.json`](data/_schema/derived-state.json).
+
 ## Scope
 
 - **SURVEY** rows only (annual; CENSUS deferred until a consumer asks for it).
 - **CORN, SOYBEANS, WHEAT** only. Other commodities ship when consumer demos require them.
-- **County-level YIELD, PRODUCTION, and AREA** (harvested, planted, planted-net), each as its own series on the point leaf. State-level prices and precomputed derived joins are separate families (see the design spec). Other statistics remain out of scope.
+- **County-level YIELD, PRODUCTION, and AREA** (harvested, planted, planted-net), each as its own series on the point leaf. State-level prices (`data/prices/`) and precomputed derived joins (`data/derived/` + `data/states/{fips}/derived/`) are separate families. Other statistics remain out of scope.
 
 ## Refresh cadence
 

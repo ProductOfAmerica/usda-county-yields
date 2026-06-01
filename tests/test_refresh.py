@@ -830,6 +830,8 @@ class MainCaughtUpTest(unittest.TestCase):
              mock.patch.object(refresh, "sp_a_bootstrap_needed",
                                return_value=False):
             with mock.patch.object(refresh, "_prices_bootstrap_needed",
+                                   return_value=False), \
+                 mock.patch.object(refresh, "_derived_bootstrap_needed",
                                    return_value=False):
                 result = refresh.main(today=date(2026, 5, 1))
         self.assertEqual(result, 0)
@@ -1129,6 +1131,16 @@ class FoundationIntegrationTest(unittest.TestCase):
                 rollup = json.loads((Path(td) / "states" / "19" / "crops" / "corn.json").read_text())
         self.assertEqual(leaf["schema_version"], 3)
         self.assertEqual({s["statistic"] for s in rollup["counties"]["169"]["series"]}, {"YIELD"})
+
+
+class DerivedBootstrapTest(unittest.TestCase):
+    def test_bootstrap_needed_true_when_derived_audit_missing(self):
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                self.assertTrue(refresh._derived_bootstrap_needed())
+                (Path(td) / "_audit").mkdir(parents=True)
+                (Path(td) / "_audit" / "derived.json").write_text("{}", encoding="utf-8")
+                self.assertFalse(refresh._derived_bootstrap_needed())
 
 
 if __name__ == "__main__":

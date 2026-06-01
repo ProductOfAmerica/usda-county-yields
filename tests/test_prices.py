@@ -229,6 +229,25 @@ class EmitPricesTest(unittest.TestCase):
         self.assertEqual(res.kept_count, 3)
         self.assertEqual(res.shard_count, 2)  # corn + wheat
 
+    def test_run_prices_returns_grouped_states(self):
+        import gzip as _gz
+        rows = [_row(VALUE="4.80"),
+                _row(FREQ_DESC="MONTHLY", REFERENCE_PERIOD_DESC="AUG", VALUE="5.20")]
+        with tempfile.TemporaryDirectory() as td:
+            gz = Path(td) / "q.gz"
+            with _gz.open(gz, "wt", encoding="utf-8", newline="") as f:
+                w = csv.writer(f, delimiter="\t")
+                w.writerow(prices.REQUIRED_PRICE_COLS)
+                for r in rows:
+                    w.writerow([r[c] for c in prices.REQUIRED_PRICE_COLS])
+            with mock.patch.object(refresh, "DATA_DIR", Path(td) / "data"):
+                res = prices.run_prices(gz, {"url": "u", "etag": '"e"', "date": "2026-05-30"},
+                                        "2026-05-30T00:00:00Z", baseline=None)
+        self.assertIn("19", res.price_states)
+        corn = res.price_states["19"]["crops"]["corn"]
+        my = next(s for s in corn["series"] if s["period"] == "MARKETING YEAR")
+        self.assertTrue(my.get("canonical"))
+
     def test_run_prices_band_abort(self):
         import gzip as _gz
         with tempfile.TemporaryDirectory() as td:

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/_schema/derived-county.json",
+  "title": "NASS derived per-county shard (v3)",
+  "description": "Precomputed per-(county, crop) derivations: state-imputed revenue per acre (marketing-year join), yield trend stats, and within-state/within-nation rank + percentile. Prices used in revenue are state-level, not county; label revenue as state-imputed.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "state", "county", "commodity", "revenue", "yield_trend", "rank"],
+  "properties": {
+    "schema_version": {"const": 3},
+    "state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fips", "alpha", "name"],
+      "properties": {
+        "fips": {"type": "string", "pattern": "^[0-9]{2}$"},
+        "alpha": {"type": "string", "pattern": "^[A-Z]{2}$"},
+        "name": {"type": "string"}
+      }
+    },
+    "county": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "name"],
+      "properties": {"code": {"type": "string", "pattern": "^[0-9]{3}$"}, "name": {"type": "string"}}
+    },
+    "commodity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["slug", "desc"],
+      "properties": {"slug": {"type": "string"}, "desc": {"type": "string"}}
+    },
+    "revenue": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["marketing_year", "yield", "price", "revenue_per_harvested_acre"],
+        "properties": {
+          "marketing_year": {"type": "string"},
+          "yield": {"type": "number"},
+          "price": {"type": "number"},
+          "revenue_per_harvested_acre": {"type": "number"},
+          "revenue_per_planted_acre": {"type": "number"}
+        }
+      }
+    },
+    "yield_trend": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["yoy_pct", "trailing_5yr_avg", "trailing_10yr_avg"],
+      "properties": {
+        "slope_bu_per_year": {"type": "number"},
+        "yoy_pct": {"type": "object", "additionalProperties": {"type": "number"}},
+        "trailing_5yr_avg": {"type": "object", "additionalProperties": {"type": "number"}},
+        "trailing_10yr_avg": {"type": "object", "additionalProperties": {"type": "number"}}
+      }
+    },
+    "rank": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rank_in_state", "count_in_state", "percentile_in_state",
+                     "rank_in_nation", "count_in_nation", "percentile_in_nation"],
+        "properties": {
+          "rank_in_state": {"type": "integer"},
+          "count_in_state": {"type": "integer"},
+          "percentile_in_state": {"type": "number"},
+          "rank_in_nation": {"type": "integer"},
+          "count_in_nation": {"type": "integer"},
+          "percentile_in_nation": {"type": "number"}
+        }
+      }
+    }
+  }
+}

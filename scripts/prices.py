@@ -18,7 +18,7 @@ from __future__ import annotations
 import csv
 import gzip
 import sys
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Iterable, Optional
 
@@ -47,6 +47,9 @@ class PriceRunResult:
     paths: set
     shard_count: int
     kept_count: int
+    # Grouped state price tree (state_fips -> {state, crops}), so SP-C derived
+    # can join prices without re-parsing. Default keeps older constructors valid.
+    price_states: dict = field(default_factory=dict)
 
 
 def _kept_period(freq: str, ref: str) -> Optional[str]:
@@ -297,4 +300,5 @@ def run_prices(download_path: Path, discovery: dict, refreshed_at: str,
     paths = emit_all(states, discovery, refreshed_at)
     shard_count = sum(len(st["crops"]) for st in states.values())
     print(f"SP-B prices: kept={len(kept)} shards={shard_count}", file=sys.stderr)
-    return PriceRunResult(paths=paths, shard_count=shard_count, kept_count=len(kept))
+    return PriceRunResult(paths=paths, shard_count=shard_count,
+                          kept_count=len(kept), price_states=states)
