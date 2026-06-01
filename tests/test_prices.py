@@ -152,5 +152,78 @@ class CanonicalPriceTest(unittest.TestCase):
             prices._assert_price_shape({"schema_version": 2})
 
 
+class EmitPricesTest(unittest.TestCase):
+    def _states(self):
+        _, kept = _filter([
+            _row(VALUE="4.80"),
+            _row(FREQ_DESC="MONTHLY", REFERENCE_PERIOD_DESC="AUG", VALUE="5.20"),
+        ])
+        states = prices.group_prices(kept)
+        prices.sort_price_series(states)
+        prices.mark_price_canonical(states)
+        return states
+
+    def test_emit_writes_shard_and_audit_at_v3(self):
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                paths = prices.emit_all(self._states(), disc, "2026-05-30T00:00:00Z")
+                shard = json.loads((Path(td) / "prices" / "states" / "19" / "corn.json").read_text())
+                audit = json.loads((Path(td) / "_audit" / "prices.json").read_text())
+        self.assertEqual(shard["schema_version"], 3)
+        self.assertEqual(shard["commodity"]["slug"], "corn")
+        self.assertIn(Path(td) / "_audit" / "prices.json", paths)
+        self.assertIn(Path(td) / "_schema" / "price.json", paths)
+        self.assertEqual(audit["product_name"], "NASS state prices received")
+
+    def test_emit_writes_audit_even_with_zero_shards(self):
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                prices.emit_all({}, disc, "2026-05-30T00:00:00Z")
+                self.assertTrue((Path(td) / "_audit" / "prices.json").exists())
+
+    def test_schema_file_is_v3(self):
+        p = Path(refresh.DATA_DIR) / "_schema" / "price.json"
+        self.assertTrue(p.exists(), "data/_schema/price.json must exist")
+        sch = json.loads(p.read_text(encoding="utf-8"))
+        self.assertEqual(sch["properties"]["schema_version"].get("const"), 3)
+
+    def test_run_prices_returns_counts(self):
+        # Build a tiny gz the same way the real download would land, run end to
+        # end against a tempdir DATA_DIR.
+        import gzip as _gz
+        rows = [
+            _row(VALUE="4.80"),
+            _row(FREQ_DESC="MONTHLY", REFERENCE_PERIOD_DESC="AUG", VALUE="5.20"),
+            _row(COMMODITY_DESC="WHEAT", CLASS_DESC="WINTER", VALUE="6.25"),
+        ]
+        with tempfile.TemporaryDirectory() as td:
+            gz = Path(td) / "qs.crops.txt.gz"
+            with _gz.open(gz, "wt", encoding="utf-8", newline="") as f:
+                w = csv.writer(f, delimiter="\t")
+                w.writerow(prices.REQUIRED_PRICE_COLS)
+                for r in rows:
+                    w.writerow([r[c] for c in prices.REQUIRED_PRICE_COLS])
+            with mock.patch.object(refresh, "DATA_DIR", Path(td) / "data"):
+                res = prices.run_prices(gz, {"url": "u", "etag": '"e"', "date": "2026-05-30"},
+                                        "2026-05-30T00:00:00Z", baseline=None)
+        self.assertEqual(res.kept_count, 3)
+        self.assertEqual(res.shard_count, 2)  # corn + wheat
+
+    def test_run_prices_band_abort(self):
+        import gzip as _gz
+        with tempfile.TemporaryDirectory() as td:
+            gz = Path(td) / "q.gz"
+            with _gz.open(gz, "wt", encoding="utf-8", newline="") as f:
+                w = csv.writer(f, delimiter="\t")
+                w.writerow(prices.REQUIRED_PRICE_COLS)
+                w.writerow([_row()[c] for c in prices.REQUIRED_PRICE_COLS])  # 1 kept
+            with mock.patch.object(refresh, "DATA_DIR", Path(td) / "data"):
+                with self.assertRaises(SystemExit):
+                    prices.run_prices(gz, {"url": "u", "etag": '"e"', "date": "2026-05-30"},
+                                      "2026-05-30T00:00:00Z", baseline=100)
+
+
 if __name__ == "__main__":
     unittest.main()

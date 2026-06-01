@@ -196,3 +196,103 @@ def _assert_price_shape(shard: dict) -> None:
             raise SystemExit(f"Price series missing keys: {sorted(required - keys)}")
         if keys - required - optional:
             raise SystemExit(f"Price series unexpected keys: {sorted(keys - required - optional)}")
+
+
+# ---------- paths ----------
+
+def _data_dir() -> Path:
+    return refresh.DATA_DIR
+
+
+def _shard_path(fips: str, slug: str) -> Path:
+    return _data_dir() / "prices" / "states" / fips / f"{slug}.json"
+
+
+def _audit_path() -> Path:
+    return _data_dir() / "_audit" / "prices.json"
+
+
+def _schema_path() -> Path:
+    return _data_dir() / "_schema" / "price.json"
+
+
+def prices_bootstrap_needed() -> bool:
+    """True when the price audit sentinel is absent (drives same-publication
+    re-emit). Mirrors refresh.sp_a_bootstrap_needed."""
+    return not _audit_path().exists()
+
+
+# ---------- emit ----------
+
+def emit_all(states: dict, discovery: dict, refreshed_at: str) -> set:
+    """Write per-(state, crop) shards + audit. The audit is written
+    UNCONDITIONALLY (even with zero shards) so the bootstrap sentinel always
+    clears after a run. Returns the protected path set (schema + shards +
+    audit) so refresh.prune_stale does not delete them.
+    """
+    paths: set = {_schema_path()}
+    shard_count = 0
+    for fips in sorted(states):
+        st = states[fips]
+        for slug in sorted(st["crops"]):
+            com = st["crops"][slug]
+            shard = {
+                "schema_version": 3,
+                "state": st["state"],
+                "commodity": {"slug": slug, "desc": com["commodity_desc"]},
+                "series": com["series"],
+            }
+            _assert_price_shape(shard)
+            p = _shard_path(fips, slug)
+            refresh.write_if_changed(p, refresh._dump_json(shard))
+            paths.add(p)
+            shard_count += 1
+    audit = {
+        "product_name": "NASS state prices received",
+        "refreshed_at": refreshed_at,
+        "source": {"url": discovery["url"], "etag": discovery["etag"],
+                   "publication_date": discovery["date"]},
+        "unit": PRICE_UNIT,
+        "periods": ["MARKETING YEAR", "MONTHLY"],
+        "shard_count": shard_count,
+    }
+    ap = _audit_path()
+    refresh.write_if_changed(ap, refresh._dump_json(audit))
+    paths.add(ap)
+    return paths
+
+
+def _validate_band(kept: int, baseline: Optional[int]) -> None:
+    """Per-family Gate 2: +/-10% band vs prior price-row count. Bootstrap-
+    tolerant (baseline None) and zero-tolerant (baseline 0): a legitimately
+    empty price family is a valid published state, per spec 4.7's zero-shard
+    invariant.
+    """
+    if baseline is None or baseline == 0:
+        return
+    delta = abs(kept - baseline) / baseline
+    if delta > refresh.ROW_COUNT_TOLERANCE:
+        raise SystemExit(
+            f"SP-B price row count {kept} differs from baseline {baseline} by "
+            f"{delta:.1%} (>{refresh.ROW_COUNT_TOLERANCE:.0%}). Aborting.")
+
+
+def run_prices(download_path: Path, discovery: dict, refreshed_at: str,
+               baseline: Optional[int]) -> PriceRunResult:
+    """SP-B entrypoint, called from refresh.main() after the shared download."""
+    with gzip.open(download_path, "rt", encoding="utf-8", newline="") as f:
+        total, kept = filter_prices(csv.reader(f, delimiter="\t"))
+    if total == 0:
+        raise SystemExit("SP-B: bulk file produced 0 rows. Aborting.")
+    _validate_band(len(kept), baseline)
+    states = group_prices(kept)
+    sort_price_series(states)
+    missing, samples = mark_price_canonical(states)
+    if missing:
+        s = ", ".join(f"{f}/{c}" for f, c in samples)
+        print(f"SP-B prices: {missing} (state, crop) pairs lack a canonical "
+              f"marketing-year price. First {len(samples)}: {s}", file=sys.stderr)
+    paths = emit_all(states, discovery, refreshed_at)
+    shard_count = sum(len(st["crops"]) for st in states.values())
+    print(f"SP-B prices: kept={len(kept)} shards={shard_count}", file=sys.stderr)
+    return PriceRunResult(paths=paths, shard_count=shard_count, kept_count=len(kept))
