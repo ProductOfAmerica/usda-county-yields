@@ -155,6 +155,16 @@ class WeightedYieldTest(unittest.TestCase):
         w = derived.compute_weighted_yield(states)
         self.assertAlmostEqual(w[("19", "corn")]["state"]["2024"], 100.0, places=4)
 
+    def test_nonpositive_area_excluded(self):
+        # a (defensive) negative or zero area must not enter the weighted sum
+        states = self._two_counties()
+        com = states["19"]["counties"]["002"]["commodities"]["corn"]
+        area = next(s for s in com["series"] if s["statistic"] == "AREA HARVESTED")
+        area["values"]["2024"] = -5.0
+        w = derived.compute_weighted_yield(states)
+        # only county 001 (1000 bu / 10 ac) contributes -> 100.0
+        self.assertAlmostEqual(w[("19", "corn")]["state"]["2024"], 100.0, places=4)
+
 
 class YieldStatsTest(unittest.TestCase):
     def _series_states(self, values):

@@ -168,7 +168,7 @@ def compute_weighted_yield(states: dict) -> dict:
                     continue
                 for year, pv in prod["values"].items():
                     av = area["values"].get(year)
-                    if av is None or av == 0:
+                    if av is None or av <= 0:
                         continue
                     n = nat.setdefault((slug, year), [0.0, 0.0]); n[0] += pv; n[1] += av
                     b = bystate.setdefault((fips, slug, year), [0.0, 0.0]); b[0] += pv; b[1] += av
