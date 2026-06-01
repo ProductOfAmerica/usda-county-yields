@@ -749,7 +749,11 @@ def main(today: Optional[date] = None) -> int:
     # new family landing) would never materialize the absent artifacts.
     # Foundation's sentinel set is index + SP-A planting-windows; later phases
     # add their own family audits here when those emitters exist.
-    bootstrap_needed = not _index_path().exists() or sp_a_bootstrap_needed()
+    bootstrap_needed = (
+        not _index_path().exists()
+        or sp_a_bootstrap_needed()
+        or _prices_bootstrap_needed()
+    )
 
     if is_caught_up(last_known, today) and not bootstrap_needed:
         print(f"Already caught up (last_known={last_known} >= today={today}); nothing to do.")
@@ -830,6 +834,13 @@ def main(today: Optional[date] = None) -> int:
         download_path, discovery, refreshed_at
     )
     expected |= sp_a.paths
+    # SP-B: state price-received second pass. Same contract as SP-A: its paths
+    # join `expected` before the global prune so the price tree survives.
+    import prices  # lazy: avoids a circular import at module load
+    price_result = prices.run_prices(
+        download_path, discovery, refreshed_at, family_baseline(state, "prices")
+    )
+    expected |= price_result.paths
     deleted = prune_stale(expected)
     print(
         f"emit: index={int(idx_w)} meta={meta_w} leaves={leaf_w} "
@@ -842,12 +853,13 @@ def main(today: Optional[date] = None) -> int:
         "last_url": discovery["url"],
         "last_etag": discovery["etag"],
         "last_modified": discovery["last_modified"],
-        "last_filtered_row_count": {"leaf": len(kept_rows)},
+        "last_filtered_row_count": {"leaf": len(kept_rows), "prices": price_result.kept_count},
         "last_total_row_count": total_rows,
         "last_run_at": refreshed_at,
         "last_missing_canonical_count": missing_canonical,
         "last_missing_canonical_at": refreshed_at,
         "last_sp_a_shard_count": sp_a.shard_count,
+        "last_price_shard_count": price_result.shard_count,
     })
 
     ping_healthchecks()
