@@ -274,5 +274,46 @@ class RunDerivedTest(unittest.TestCase):
         self.assertEqual(res.kept_count, 0)
 
 
+class DerivedIntegrationTest(unittest.TestCase):
+    def test_two_state_nation_revenue_rank_weighted(self):
+        # IA + KS, corn, with price; verify cross-state nation rank, weighted
+        # yield, and revenue join all land in the emitted shards.
+        def cy(name, y, prod, ah, ap):
+            return _county(name, {"corn": _com("CORN", "corn", [
+                _series("YIELD", "BU / ACRE", {"2024": y}, canonical=True),
+                _series("PRODUCTION", "BU", {"2024": prod}, canonical=True),
+                _series("AREA HARVESTED", "ACRES", {"2024": ah}, canonical=True),
+                _series("AREA PLANTED", "ACRES", {"2024": ap}, canonical=True)])})
+        states = {
+            "19": {"state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
+                   "counties": {"001": cy("A", 200.0, 2000.0, 10.0, 11.0)}},
+            "20": {"state": {"fips": "20", "alpha": "KS", "name": "KANSAS"},
+                   "counties": {"010": cy("E", 100.0, 1000.0, 10.0, 10.0)}},
+        }
+        price_states = {
+            "19": {"state": states["19"]["state"], "crops": {"corn": {"commodity_desc": "CORN",
+                   "series": [{"class": "ALL CLASSES", "period": "MARKETING YEAR", "unit": "$ / BU",
+                               "canonical": True, "values": {"2024": 5.00}, "suppressed": {}}]}}},
+            "20": {"state": states["20"]["state"], "crops": {"corn": {"commodity_desc": "CORN",
+                   "series": [{"class": "ALL CLASSES", "period": "MARKETING YEAR", "unit": "$ / BU",
+                               "canonical": True, "values": {"2024": 5.00}, "suppressed": {}}]}}},
+        }
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                derived.run_derived(states, price_states, disc, "2026-05-30T00:00:00Z", baseline=None)
+                ia = json.loads((Path(td) / "derived" / "19" / "counties" / "001" / "corn.json").read_text())
+                ia_state = json.loads((Path(td) / "states" / "19" / "derived" / "state-corn.json").read_text())
+        # IA county A: yield 200 highest nationally -> rank_in_nation 1 of 2
+        self.assertEqual(ia["rank"]["2024"]["rank_in_nation"], 1)
+        self.assertEqual(ia["rank"]["2024"]["count_in_nation"], 2)
+        # revenue per harvested = 200*5 = 1000; per planted = 2000*5/11
+        self.assertAlmostEqual(ia["revenue"]["2024"]["revenue_per_harvested_acre"], 1000.0, places=4)
+        self.assertAlmostEqual(ia["revenue"]["2024"]["revenue_per_planted_acre"], 2000.0 * 5.0 / 11.0, places=4)
+        # IA state weighted yield = 2000/10 = 200; national = (2000+1000)/(10+10) = 150
+        self.assertAlmostEqual(ia_state["production_weighted_yield"]["state"]["2024"], 200.0, places=4)
+        self.assertAlmostEqual(ia_state["production_weighted_yield"]["national"]["2024"], 150.0, places=4)
+
+
 if __name__ == "__main__":
     unittest.main()
