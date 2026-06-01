@@ -82,5 +82,35 @@ class FilterPricesTest(unittest.TestCase):
             prices.filter_prices(csv.reader(text, delimiter="\t"))
 
 
+class GroupPricesTest(unittest.TestCase):
+    def test_marketing_year_and_monthly_series(self):
+        _, kept = _filter([
+            _row(YEAR="2024", VALUE="4.80"),
+            _row(YEAR="2023", VALUE="5.45"),
+            _row(FREQ_DESC="MONTHLY", REFERENCE_PERIOD_DESC="AUG", YEAR="2024", VALUE="5.20"),
+        ])
+        states = prices.group_prices(kept)
+        com = states["19"]["crops"]["corn"]
+        my = next(s for s in com["series"] if s["period"] == "MARKETING YEAR")
+        mo = next(s for s in com["series"] if s["period"] == "MONTHLY")
+        self.assertEqual(my["values"], {"2024": 4.80, "2023": 5.45})
+        self.assertEqual(mo["values"], {"2024-08": 5.20})
+
+    def test_wheat_classes_separate_series(self):
+        _, kept = _filter([
+            _row(COMMODITY_DESC="WHEAT", CLASS_DESC="ALL CLASSES", VALUE="6.10"),
+            _row(COMMODITY_DESC="WHEAT", CLASS_DESC="WINTER", VALUE="6.25"),
+        ])
+        states = prices.group_prices(kept)
+        classes = {s["class"] for s in states["19"]["crops"]["wheat"]["series"]}
+        self.assertEqual(classes, {"ALL CLASSES", "WINTER"})
+
+    def test_suppressed_price_routed(self):
+        _, kept = _filter([_row(VALUE="(D)")])
+        s = prices.group_prices(kept)["19"]["crops"]["corn"]["series"][0]
+        self.assertEqual(s["values"], {})
+        self.assertEqual(s["suppressed"], {"2024": "D"})
+
+
 if __name__ == "__main__":
     unittest.main()

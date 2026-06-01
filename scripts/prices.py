@@ -101,3 +101,42 @@ def filter_prices(reader: Iterable[list[str]]) -> tuple[int, list[dict]]:
         except IndexError:
             continue
     return total, kept
+
+
+def _slug(commodity: str) -> str:
+    return refresh.slugify(commodity)
+
+
+def group_prices(kept: list[dict]) -> dict:
+    """Nest kept rows: state_fips -> {state, crops: {slug: {commodity_desc,
+    series[]}}}. One series per (class, period); values keyed by YYYY (marketing
+    year) or YYYY-MM (monthly). Suppressed values land in a parallel suppressed
+    map. Duplicate (year[-month]) keys are last-write-wins (NASS revision in the
+    snapshot), matching refresh.group_by_state's values-dict semantics.
+    """
+    states: dict = {}
+    for r in kept:
+        fips = r["state_fips"]
+        slug = _slug(r["commodity"])
+        st = states.setdefault(fips, {
+            "state": {"fips": fips, "alpha": r["state_alpha"], "name": r["state_name"]},
+            "crops": {},
+        })
+        com = st["crops"].setdefault(slug, {"commodity_desc": r["commodity"], "series": []})
+        key = (r["class"], r["period"])
+        series = next(
+            (s for s in com["series"] if (s["class"], s["period"]) == key), None)
+        if series is None:
+            series = {"class": r["class"], "period": r["period"], "unit": PRICE_UNIT,
+                      "values": {}, "suppressed": {}}
+            com["series"].append(series)
+        if r["period"] == "MONTHLY":
+            vkey = f"{r['year']}-{MONTH_NUM[r['ref']]}"
+        else:
+            vkey = r["year"]
+        value, code, _raw = refresh.parse_value(r["value"])
+        if value is not None:
+            series["values"][vkey] = value
+        elif code is not None:
+            series["suppressed"][vkey] = code
+    return states
