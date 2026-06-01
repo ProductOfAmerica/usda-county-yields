@@ -369,3 +369,39 @@ def emit_all(states: dict, price_states: dict, discovery: dict, refreshed_at: st
     refresh.write_if_changed(ap, refresh._dump_json(audit))
     paths.add(ap)
     return paths
+
+
+def _validate_band(kept: int, baseline: Optional[int]) -> None:
+    """Per-family Gate 2: +/-10% band vs prior county-shard count. Bootstrap-
+    tolerant (None) and zero-tolerant (0), per spec 4.7."""
+    if baseline is None or baseline == 0:
+        return
+    delta = abs(kept - baseline) / baseline
+    if delta > refresh.ROW_COUNT_TOLERANCE:
+        raise SystemExit(
+            f"SP-C derived shard count {kept} differs from baseline {baseline} "
+            f"by {delta:.1%} (>{refresh.ROW_COUNT_TOLERANCE:.0%}). Aborting.")
+
+
+def run_derived(states: dict, price_states: dict, discovery: dict,
+                refreshed_at: str, baseline: Optional[int]) -> DerivedRunResult:
+    """SP-C entrypoint, called from refresh.main() after SP-B (in memory; no
+    re-parse). kept_count = per-county derived shards (the Gate 2 baseline);
+    shard_count = all emitted data shards (county + state, schemas/audit excluded)."""
+    county_count = sum(
+        1 for st in states.values()
+        for cty in st["counties"].values()
+        for com in cty["commodities"].values()
+        if _canonical(com, "YIELD") is not None
+    )
+    # Gate 2 BEFORE any write, matching prices.run_prices: a band abort must
+    # leave the audit sentinel unwritten and exit non-zero so the next run
+    # re-bootstraps (spec 4.7). Emitting first would publish the sentinel and
+    # defeat the self-heal.
+    _validate_band(county_count, baseline)
+    paths = emit_all(states, price_states, discovery, refreshed_at)
+    non_data = {_county_schema_path(), _state_schema_path(), _audit_path()}
+    shard_count = len(paths - non_data)   # real county+state shard count
+    print(f"SP-C derived: county_shards={county_count} data_shards={shard_count}",
+          file=sys.stderr)
+    return DerivedRunResult(paths=paths, shard_count=shard_count, kept_count=county_count)

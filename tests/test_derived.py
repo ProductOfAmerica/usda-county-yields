@@ -242,5 +242,37 @@ class EmitTest(unittest.TestCase):
         self.assertAlmostEqual(ks["production_weighted_yield"]["national"]["2024"], 200.0, places=4)
 
 
+class RunDerivedTest(unittest.TestCase):
+    def test_returns_counts_and_emits(self):
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                res = derived.run_derived(_states_one_county(), _price_states(),
+                                          disc, "2026-05-30T00:00:00Z", baseline=None)
+        self.assertEqual(res.kept_count, 1)        # one county+crop with canonical yield
+        self.assertGreaterEqual(res.shard_count, 1)
+
+    def test_band_abort_writes_nothing(self):
+        # A wildly-wrong county count must abort BEFORE emit, leaving the audit
+        # sentinel unwritten so the next run re-bootstraps (codex P1 #1).
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                with self.assertRaises(SystemExit):
+                    derived.run_derived(_states_one_county(), _price_states(),
+                                        disc, "2026-05-30T00:00:00Z", baseline=100)
+                self.assertFalse((Path(td) / "_audit" / "derived.json").exists())
+
+    def test_zero_shard_run_clears_sentinel(self):
+        # Empty states: zero shards, but run_derived must still write the audit
+        # (baseline None/0 is band-tolerant) so bootstrap clears.
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                res = derived.run_derived({}, {}, disc, "2026-05-30T00:00:00Z", baseline=None)
+                self.assertTrue((Path(td) / "_audit" / "derived.json").exists())
+        self.assertEqual(res.kept_count, 0)
+
+
 if __name__ == "__main__":
     unittest.main()
