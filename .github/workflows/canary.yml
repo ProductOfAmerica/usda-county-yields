@@ -38,7 +38,7 @@ jobs:
           from datetime import datetime, timezone
 
           d = json.load(open("/tmp/index.json"))
-          assert d.get("schema_version") == 2, f"unexpected schema_version: {d.get('schema_version')!r}"
+          assert d.get("schema_version") == 3, f"unexpected schema_version: {d.get('schema_version')!r}"
           ts = datetime.fromisoformat(d["refreshed_at"].replace("Z", "+00:00"))
           age_days = (datetime.now(timezone.utc) - ts).total_seconds() / 86400
           print(f"index.refreshed_at={d['refreshed_at']} (age {age_days:.1f}d)")
@@ -61,15 +61,19 @@ jobs:
           import sys
 
           d = json.load(open("/tmp/leaf.json"))
-          assert d["schema_version"] == 2
+          assert d["schema_version"] == 3
           assert d["state"]["fips"] == "19"
           assert d["county"]["code"] == "169"
           assert d["commodity"]["slug"] == "corn"
-          canonical = [s for s in d["series"] if s.get("canonical")]
-          if not canonical:
-              print("FAIL: no canonical series in Story corn leaf", file=sys.stderr)
+          # v3 leaves carry one canonical series per statistic; pick YIELD.
+          yield_canon = [s for s in d["series"]
+                         if s.get("canonical") and s.get("statistic") == "YIELD"]
+          if not yield_canon:
+              print("FAIL: no canonical YIELD series in Story corn leaf", file=sys.stderr)
               sys.exit(1)
-          print(f"canonical series count={len(canonical)} | unit={canonical[0]['unit']}")
+          unit = yield_canon[0]["unit"]
+          assert unit == "BU / ACRE", f"unexpected canonical yield unit: {unit!r}"
+          print(f"canonical YIELD unit={unit} | total series={len(d['series'])}")
           EOF
 
       - name: Spot-check planting-window shards (FIE-41 acceptance c)
