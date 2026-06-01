@@ -11,13 +11,13 @@ GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/in
 GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/{fips}/counties/{county_code}/{crop_slug}.json
 ```
 
-Pick the canonical series with one line: the producer pre-marks the `series[]` entry that matches `class="ALL CLASSES"` + `prodn_practice="ALL PRODUCTION PRACTICES"` + `unit="BU / ACRE"` with `"canonical": true`. Read `values[year]` off that series.
+Each leaf carries one series per statistic (yield, production, area harvested, area planted). The producer pre-marks the canonical series for each statistic with `"canonical": true`, so to read yield, pick the series that is both `canonical` and `statistic == "YIELD"`, then read `values[year]` off it. (A leaf has at most one canonical series per statistic; the yield one is the `class="ALL CLASSES"` + `prodn_practice="ALL PRODUCTION PRACTICES"` + `unit="BU / ACRE"` aggregate.)
 
 Example, "Story County, Iowa corn-grain yield 2024":
 
 ```
 GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/counties/169/corn.json
-→ series[s for s if s.canonical]
+→ series[s for s if s.canonical and s.statistic == "YIELD"]
 → values["2024"]   →   215.5
 ```
 
@@ -29,7 +29,7 @@ import json, urllib.request
 
 url = "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/counties/169/corn.json"
 leaf = json.load(urllib.request.urlopen(url))
-canonical = next(s for s in leaf["series"] if s.get("canonical"))
+canonical = next(s for s in leaf["series"] if s.get("canonical") and s["statistic"] == "YIELD")
 print(canonical["values"]["2024"])   # 215.5
 ```
 
@@ -37,14 +37,14 @@ print(canonical["values"]["2024"])   # 215.5
 // JavaScript (Node 18+ or any modern browser)
 const url = "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/counties/169/corn.json";
 const leaf = await fetch(url).then(r => r.json());
-const canonical = leaf.series.find(s => s.canonical);
+const canonical = leaf.series.find(s => s.canonical && s.statistic === "YIELD");
 console.log(canonical.values["2024"]);  // 215.5
 ```
 
 ```bash
 # curl + jq
 curl -s "https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/counties/169/corn.json" \
-  | jq '.series[] | select(.canonical) | .values["2024"]'
+  | jq '.series[] | select(.canonical and .statistic == "YIELD") | .values["2024"]'
 # 215.5
 ```
 
@@ -54,7 +54,7 @@ For a state-wide scan of one crop (e.g., all counties for corn in Iowa), use the
 
 ```
 GET https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/states/19/crops/corn.json
-→ counties[county_code].series[s for s if s.canonical].values[year]
+→ counties[county_code].series[s for s if s.canonical and s.statistic == "YIELD"].values[year]
 ```
 
 `refreshed_at`, source ETag, and `source.publication_date` live only in `data/index.json`. Leaves and rollups carry no timestamps so unchanged data does not cause weekly file rewrites.
@@ -87,7 +87,7 @@ data/
 
 ```json
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "product_name": "NASS county crop yields",
   "refreshed_at": "2026-04-30T07:13:37Z",
   "source": {
@@ -107,12 +107,13 @@ data/
 
 ```json
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "state":     { "fips": "19", "alpha": "IA", "name": "IOWA" },
   "county":    { "code": "169", "name": "STORY" },
   "commodity": { "slug": "corn", "desc": "CORN" },
   "series": [
     {
+      "statistic": "YIELD",
       "class": "ALL CLASSES",
       "prodn_practice": "ALL PRODUCTION PRACTICES",
       "util_practice": "GRAIN",
@@ -120,6 +121,7 @@ data/
       "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
       "canonical": true,
       "values":     { "2024": 215.5, "2023": 211.4 },
+      "cv":         { "2024": 1.8 },
       "suppressed": { "1980": "D" },
       "raw":        {}
     }
@@ -127,9 +129,11 @@ data/
 }
 ```
 
+Each `series` entry carries a `statistic` (`YIELD`, `PRODUCTION`, `AREA HARVESTED`, `AREA PLANTED`, or `AREA PLANTED, NET`) and a `cv` map (NASS coefficient of variation, the percent sampling reliability of each value, parallel to `values` and present only where NASS published it). Filter on `canonical && statistic == "YIELD"` to read yields, as in the examples above. The per-(state, crop) rollup (`data/states/{fips}/crops/{crop_slug}.json`) carries YIELD series only; production and area are available on the point leaves.
+
 - **Year keys are strings**, not numbers (JSON object key semantics).
 - `values` carries numeric yields. `suppressed` carries NASS suppression codes (`D`, `NA`, `S`, `X`, `Z` per the NASS Quick Stats glossary). `raw` carries any cell value that didn't parse as numeric or suppression code, with the original string preserved for forensic audit.
-- Multiple `series` entries per commodity capture variants like corn-grain (BU/ACRE) vs corn-silage (TONS/ACRE). The producer pre-marks the canonical entry with `"canonical": true`; consumers should prefer that flag instead of replicating the filter.
+- Multiple `series` entries per commodity capture both different statistics (yield vs production vs area) and variants within a statistic (corn-grain BU/ACRE vs corn-silage TONS/ACRE). The producer pre-marks one canonical entry per statistic with `"canonical": true`; consumers should filter on `canonical && statistic == "<STAT>"` rather than replicating the rule.
 - **Supported commodity slugs:** `corn`, `soybeans`, `wheat`. Note `soybeans` is plural.
 - `header_observed` is published once at `data/_audit/latest.json` (not per state). NASS adding a new column logs here without aborting the refresh; renaming a depended-on column does abort.
 - `county.code` is always populated and zfilled to 3 digits. The legacy NASS `ansi` field is dropped at the leaf level because it equals `code` for every populated row and is sometimes blank.
@@ -139,7 +143,7 @@ data/
 
 - **SURVEY** rows only (annual; CENSUS deferred until a consumer asks for it).
 - **CORN, SOYBEANS, WHEAT** only. Other commodities ship when consumer demos require them.
-- **County-level YIELD** only. State rollups, production, area-harvested, etc. are out of scope.
+- **County-level YIELD, PRODUCTION, and AREA** (harvested, planted, planted-net), each as its own series on the point leaf. State-level prices and precomputed derived joins are separate families (see the design spec). Other statistics remain out of scope.
 
 ## Refresh cadence
 

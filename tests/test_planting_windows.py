@@ -560,7 +560,7 @@ class MainIntegrationTest(unittest.TestCase):
                 "last_successful_date": "2026-05-17",
                 "last_etag": '"same"',
             }
-            refresh.discover = lambda last_known, today: disc
+            refresh.discover = lambda last_known, today, inclusive=False: disc
             refresh.download_with_retry = lambda url, dest: None
             refresh.stream_filter = lambda path: (["SOURCE_DESC"], 10, [{"x": 1}])
             refresh.validate = lambda total, kept, last: None

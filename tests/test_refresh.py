@@ -10,6 +10,7 @@ import json
 import sys
 import tempfile
 import unittest
+from unittest import mock
 from datetime import date
 from pathlib import Path
 
@@ -97,8 +98,8 @@ def fixture_rows() -> list[list[str]]:
         make_row(AGG_LEVEL_DESC="STATE", VALUE="198.0"),
         # 10. DROP: commodity not in allowlist
         make_row(COMMODITY_DESC="COTTON", VALUE="800"),
-        # 11. DROP: not YIELD statistic
-        make_row(STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="16500000"),
+        # 11. DROP: STOCKS is not an allowed statistic
+        make_row(STATISTICCAT_DESC="STOCKS", UNIT_DESC="BU", VALUE="16500000"),
         # 12. DROP: DOMAIN_DESC != TOTAL
         make_row(DOMAIN_DESC="ECONOMIC CLASS", DOMAINCAT_DESC="ECONOMIC CLASS: (X)"),
     ]
@@ -112,6 +113,39 @@ def fixture_csv_text() -> str:
     for row in fixture_rows():
         writer.writerow(row)
     return buf.getvalue()
+
+
+def _row(**overrides) -> dict:
+    """A single post-filter 'kept' row dict, shaped for group_by_state.
+
+    Defaults describe Iowa/Story corn YIELD 2024. Override any field. This is
+    the dict form (group_by_state consumes dicts); make_row() is the list form
+    (the filter consumes TSV rows).
+    """
+    base = {
+        "SOURCE_DESC": "SURVEY", "COMMODITY_DESC": "CORN", "CLASS_DESC": "ALL CLASSES",
+        "PRODN_PRACTICE_DESC": "ALL PRODUCTION PRACTICES", "UTIL_PRACTICE_DESC": "GRAIN",
+        "STATISTICCAT_DESC": "YIELD", "UNIT_DESC": "BU / ACRE",
+        "SHORT_DESC": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+        "DOMAIN_DESC": "TOTAL", "DOMAINCAT_DESC": "NOT SPECIFIED", "AGG_LEVEL_DESC": "COUNTY",
+        "STATE_FIPS_CODE": "19", "STATE_ALPHA": "IA", "STATE_NAME": "IOWA",
+        "COUNTY_CODE": "169", "COUNTY_ANSI": "169", "COUNTY_NAME": "STORY",
+        "YEAR": "2024", "FREQ_DESC": "ANNUAL", "REFERENCE_PERIOD_DESC": "YEAR",
+        "VALUE": "215.5", "CV_%": "1.8",
+    }
+    base.update(overrides)
+    return base
+
+
+def _filter(list_rows: list[list[str]]) -> tuple[list[str], int, list[dict]]:
+    """Run a list of make_row() lists through _parse_filter; returns (header, total, kept)."""
+    text = io.StringIO()
+    writer = csv.writer(text, delimiter="\t")
+    writer.writerow(HEADER)
+    for r in list_rows:
+        writer.writerow(r)
+    text.seek(0)
+    return refresh._parse_filter(csv.reader(text, delimiter="\t"))
 
 
 # ---------- unit tests ----------
@@ -260,6 +294,20 @@ class MissingRequiredColumnTest(unittest.TestCase):
         self.assertIn("SOURCE_DESC", str(ctx.exception))
 
 
+class RequiredCvColTest(unittest.TestCase):
+    def test_cv_pct_is_required(self):
+        self.assertIn("CV_%", refresh.REQUIRED_COLS)
+
+    def test_missing_cv_pct_aborts(self):
+        bad_header = [c for c in HEADER if c != "CV_%"]
+        text = io.StringIO()
+        text.write("\t".join(bad_header) + "\n")
+        text.seek(0)
+        with self.assertRaises(SystemExit) as ctx:
+            refresh._parse_filter(csv.reader(text, delimiter="\t"))
+        self.assertIn("CV_%", str(ctx.exception))
+
+
 class TolerantHeaderTest(unittest.TestCase):
     def test_extra_columns_tolerated(self):
         # Append a brand-new NASS column at the end; refresh should not abort
@@ -352,7 +400,7 @@ class IndexTest(EmitTestBase):
         self.assertEqual(idx["refreshed_at"], self.refreshed_at)
         self.assertEqual(idx["source"]["publication_date"], "2026-04-30")
         self.assertEqual(idx["source"]["etag"], '"abc123"')
-        self.assertEqual(idx["schema_version"], 2)
+        self.assertEqual(idx["schema_version"], 3)
 
 
 class StateMetaTest(EmitTestBase):
@@ -376,7 +424,7 @@ class PointLeafTest(EmitTestBase):
         self._emit_all()
         leaf_path = refresh._point_leaf_path("19", "169", "corn")
         leaf = json.loads(leaf_path.read_text(encoding="utf-8"))
-        self.assertEqual(leaf["schema_version"], 2)
+        self.assertEqual(leaf["schema_version"], 3)
         self.assertEqual(leaf["state"]["fips"], "19")
         self.assertEqual(leaf["county"], {"code": "169", "name": "STORY"})
         self.assertEqual(leaf["commodity"], {"slug": "corn", "desc": "CORN"})
@@ -426,11 +474,9 @@ class CanonicalTest(EmitTestBase):
         self.assertGreaterEqual(self.missing_count, 1)
 
     def test_canonical_rules_cover_all_commodities(self) -> None:
-        # Module-load assertion; here we make the contract explicit so a future
-        # commodity addition without a CANONICAL_RULES entry fails this test
-        # too (in case the assertion is moved or weakened).
-        missing = {c.lower() for c in refresh.COMMODITY_ALLOWLIST} - set(refresh.CANONICAL_RULES)
-        self.assertEqual(missing, set())
+        crops = {c.lower() for c in refresh.COMMODITY_ALLOWLIST}
+        rule_crops = {crop for (crop, _stat) in refresh.CANONICAL_RULES}
+        self.assertEqual(crops - rule_crops, set())
 
     def test_missing_canonical_warns_and_continues(self) -> None:
         # mark_canonical must return a non-zero count for the Kansas wheat
@@ -469,7 +515,7 @@ class CropRollupTest(EmitTestBase):
     def test_crop_rollup_includes_all_counties_for_that_crop(self) -> None:
         self._emit_all()
         rollup = json.loads(refresh._crop_rollup_path("19", "corn").read_text(encoding="utf-8"))
-        self.assertEqual(rollup["schema_version"], 2)
+        self.assertEqual(rollup["schema_version"], 3)
         self.assertEqual(rollup["state"]["fips"], "19")
         self.assertEqual(rollup["commodity"], {"slug": "corn", "desc": "CORN"})
         self.assertIn("169", rollup["counties"])
@@ -502,7 +548,7 @@ class AuditTest(EmitTestBase):
     def test_audit_carries_header_observed(self) -> None:
         self._emit_all()
         audit = json.loads(refresh._audit_path().read_text(encoding="utf-8"))
-        self.assertEqual(audit["schema_version"], 2)
+        self.assertEqual(audit["schema_version"], 3)
         self.assertEqual(audit["refreshed_at"], self.refreshed_at)
         self.assertEqual(audit["source_publication_date"], "2026-04-30")
         self.assertIn("FUTURE_NASS_COLUMN", audit["header_observed"])
@@ -619,8 +665,9 @@ class SlugCollisionTest(unittest.TestCase):
                 "COMMODITY_DESC": "FOO BAR",
                 "CLASS_DESC": "ALL CLASSES",
                 "PRODN_PRACTICE_DESC": "ALL PRODUCTION PRACTICES",
-                "UTIL_PRACTICE_DESC": "GRAIN", "UNIT_DESC": "BU / ACRE",
-                "SHORT_DESC": "FOO BAR - YIELD", "YEAR": "2024", "VALUE": "1.0",
+                "UTIL_PRACTICE_DESC": "GRAIN", "STATISTICCAT_DESC": "YIELD",
+                "UNIT_DESC": "BU / ACRE",
+                "SHORT_DESC": "FOO BAR - YIELD", "YEAR": "2024", "VALUE": "1.0", "CV_%": "",
             },
             {
                 "STATE_FIPS_CODE": "19", "STATE_ALPHA": "IA", "STATE_NAME": "IOWA",
@@ -628,8 +675,9 @@ class SlugCollisionTest(unittest.TestCase):
                 "COMMODITY_DESC": "FOO   BAR",   # different desc, same slug
                 "CLASS_DESC": "ALL CLASSES",
                 "PRODN_PRACTICE_DESC": "ALL PRODUCTION PRACTICES",
-                "UTIL_PRACTICE_DESC": "GRAIN", "UNIT_DESC": "BU / ACRE",
-                "SHORT_DESC": "FOO BAR - YIELD", "YEAR": "2024", "VALUE": "2.0",
+                "UTIL_PRACTICE_DESC": "GRAIN", "STATISTICCAT_DESC": "YIELD",
+                "UNIT_DESC": "BU / ACRE",
+                "SHORT_DESC": "FOO BAR - YIELD", "YEAR": "2024", "VALUE": "2.0", "CV_%": "",
             },
         ]
         self.assertEqual(refresh.slugify("FOO BAR"), refresh.slugify("FOO   BAR"))
@@ -701,7 +749,7 @@ class LeafShapeAssertTest(EmitTestBase):
 
     def test_leaf_shape_assert_rejects_extra_top_key(self) -> None:
         bad = {
-            "schema_version": 2,
+            "schema_version": 3,
             "state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
             "county": {"code": "169", "name": "STORY"},
             "commodity": {"slug": "corn", "desc": "CORN"},
@@ -713,7 +761,7 @@ class LeafShapeAssertTest(EmitTestBase):
 
     def test_leaf_shape_assert_rejects_missing_series_keys(self) -> None:
         bad = {
-            "schema_version": 2,
+            "schema_version": 3,
             "state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
             "county": {"code": "169", "name": "STORY"},
             "commodity": {"slug": "corn", "desc": "CORN"},
@@ -724,7 +772,7 @@ class LeafShapeAssertTest(EmitTestBase):
                     "util_practice": "GRAIN",
                     "unit": "BU / ACRE",
                     "short_desc": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
-                    # values + suppressed + raw all missing -- producer regression
+                    # statistic, values, cv, suppressed, raw all missing -- producer regression
                 },
             ],
         }
@@ -773,9 +821,303 @@ class MainCaughtUpTest(unittest.TestCase):
     def test_main_returns_zero_when_already_caught_up_today(self) -> None:
         # Before this fix, this same-day rerun returned 1 because discover()
         # produced an empty window and main() hit the "no fresh file" path.
-        result = refresh.main(today=date(2026, 5, 1))
+        # Mock the bootstrap sentinels so the test is hermetic: it exercises
+        # the caught-up-and-not-bootstrapping path regardless of whether the
+        # real data/ tree is present in the checkout. __file__ is a stand-in
+        # for an existing index path (bootstrap_needed must be False).
+        with mock.patch.object(refresh, "_index_path",
+                               return_value=Path(__file__)), \
+             mock.patch.object(refresh, "sp_a_bootstrap_needed",
+                               return_value=False):
+            result = refresh.main(today=date(2026, 5, 1))
         self.assertEqual(result, 0)
         self.assertEqual(self._ping_calls, 1)
+
+
+class FilterStatisticsTest(unittest.TestCase):
+    STATS = ["YIELD", "PRODUCTION", "AREA HARVESTED", "AREA PLANTED", "AREA PLANTED, NET"]
+
+    def test_keeps_five_statistics(self):
+        rows = [make_row(STATISTICCAT_DESC=s, UNIT_DESC="ACRES") for s in self.STATS]
+        _, total, kept = _filter(rows)
+        self.assertEqual(total, 5)
+        self.assertEqual(len(kept), 5)
+
+    def test_excludes_other_statistics(self):
+        rows = [make_row(STATISTICCAT_DESC="STOCKS"),
+                make_row(STATISTICCAT_DESC="PRICE RECEIVED")]
+        _, _, kept = _filter(rows)
+        self.assertEqual(len(kept), 0)
+
+
+class GroupStatisticCvTest(unittest.TestCase):
+    def test_statistic_on_series(self):
+        states = refresh.group_by_state([_row(
+            STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="1000",
+            SHORT_DESC="CORN, GRAIN - PRODUCTION, MEASURED IN BU")])
+        series = states["19"]["counties"]["169"]["commodities"]["corn"]["series"][0]
+        self.assertEqual(series["statistic"], "PRODUCTION")
+
+    def test_cv_parallel_to_values(self):
+        states = refresh.group_by_state([_row(VALUE="215.5", **{"CV_%": "1.8"})])
+        series = states["19"]["counties"]["169"]["commodities"]["corn"]["series"][0]
+        self.assertEqual(series["values"], {"2024": 215.5})
+        self.assertEqual(series["cv"], {"2024": 1.8})
+
+    def test_blank_cv_absent(self):
+        states = refresh.group_by_state([_row(VALUE="215.5", **{"CV_%": ""})])
+        series = states["19"]["counties"]["169"]["commodities"]["corn"]["series"][0]
+        self.assertEqual(series["cv"], {})
+
+    def test_same_statistic_different_unit_separate_series(self):
+        states = refresh.group_by_state([
+            _row(),
+            _row(UNIT_DESC="BU / NET PLANTED ACRE",
+                 SHORT_DESC="CORN, GRAIN - YIELD, MEASURED IN BU / NET PLANTED ACRE",
+                 VALUE="97.8"),
+        ])
+        com = states["19"]["counties"]["169"]["commodities"]["corn"]
+        self.assertEqual(len(com["series"]), 2)
+
+
+class LeafV3ShapeTest(unittest.TestCase):
+    def _leaf(self):
+        states = refresh.group_by_state([_row()])
+        refresh.sort_series(states)
+        refresh.mark_canonical(states)
+        com = states["19"]["counties"]["169"]["commodities"]["corn"]
+        return {
+            "schema_version": 3,
+            "state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
+            "county": {"code": "169", "name": "STORY"},
+            "commodity": {"slug": "corn", "desc": "CORN"},
+            "series": com["series"],
+        }
+
+    def test_v3_leaf_passes(self):
+        refresh._assert_leaf_shape(self._leaf())
+
+    def test_v2_leaf_rejected(self):
+        leaf = self._leaf()
+        leaf["schema_version"] = 2
+        with self.assertRaises(SystemExit):
+            refresh._assert_leaf_shape(leaf)
+
+    def test_series_missing_statistic_rejected(self):
+        leaf = self._leaf()
+        del leaf["series"][0]["statistic"]
+        with self.assertRaises(SystemExit):
+            refresh._assert_leaf_shape(leaf)
+
+
+class AllArtifactsV3Test(unittest.TestCase):
+    def _states(self):
+        states = refresh.group_by_state([_row()])
+        refresh.sort_series(states)
+        refresh.mark_canonical(states)
+        return states
+
+    def test_index_meta_audit_are_v3(self):
+        states = self._states()
+        discovery = {"url": "u", "last_modified": "m", "etag": '"e"',
+                     "date": "2026-05-30", "lag_days": 0}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                refresh.emit_index(states, discovery, "2026-05-30T00:00:00Z")
+                refresh.emit_state_meta(states)
+                refresh.emit_audit(["H"], "2026-05-30T00:00:00Z", "2026-05-30")
+                idx = json.loads((Path(td) / "index.json").read_text())
+                meta = json.loads((Path(td) / "states" / "19" / "meta.json").read_text())
+                audit = json.loads((Path(td) / "_audit" / "latest.json").read_text())
+        self.assertEqual(idx["schema_version"], 3)
+        self.assertEqual(meta["schema_version"], 3)
+        self.assertEqual(audit["schema_version"], 3)
+
+
+class CanonicalRulesTableTest(unittest.TestCase):
+    def test_every_crop_statistic_has_a_rule(self):
+        crops = {c.lower() for c in refresh.COMMODITY_ALLOWLIST}
+        for crop in crops:
+            for stat in refresh.STATISTIC_ALLOWLIST:
+                self.assertIn((crop, stat), refresh.CANONICAL_RULES,
+                              f"missing rule for {(crop, stat)}")
+
+    def test_corn_area_planted_is_all_utilization(self):
+        self.assertEqual(
+            refresh.CANONICAL_RULES[("corn", "AREA PLANTED")]["util_practice"],
+            "ALL UTILIZATION PRACTICES")
+
+    def test_corn_area_harvested_is_grain(self):
+        self.assertEqual(
+            refresh.CANONICAL_RULES[("corn", "AREA HARVESTED")]["util_practice"],
+            "GRAIN")
+
+
+class MarkCanonicalV3Test(unittest.TestCase):
+    def test_marks_one_per_statistic(self):
+        states = refresh.group_by_state([
+            _row(),
+            _row(STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="1000",
+                 SHORT_DESC="CORN, GRAIN - PRODUCTION, MEASURED IN BU"),
+        ])
+        refresh.sort_series(states)
+        refresh.mark_canonical(states)
+        series = states["19"]["counties"]["169"]["commodities"]["corn"]["series"]
+        canon = {s["statistic"] for s in series if s.get("canonical")}
+        self.assertEqual(canon, {"YIELD", "PRODUCTION"})
+
+    def test_duplicate_candidate_aborts(self):
+        states = refresh.group_by_state([
+            _row(),
+            _row(SHORT_DESC="CORN, GRAIN - YIELD, MEASURED IN BU / ACRE (DUP)"),
+        ])
+        refresh.sort_series(states)
+        with self.assertRaises(SystemExit):
+            refresh.mark_canonical(states)
+
+    def test_missing_yield_counted(self):
+        states = refresh.group_by_state([
+            _row(STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="1000",
+                 SHORT_DESC="CORN, GRAIN - PRODUCTION, MEASURED IN BU"),
+        ])
+        refresh.sort_series(states)
+        missing, _ = refresh.mark_canonical(states)
+        self.assertEqual(missing, 1)
+
+
+class BaselineMapTest(unittest.TestCase):
+    def test_legacy_int_baseline_treated_as_absent(self):
+        self.assertIsNone(refresh.leaf_baseline({"last_filtered_row_count": 1318932}))
+
+    def test_map_baseline_read(self):
+        self.assertEqual(
+            refresh.leaf_baseline({"last_filtered_row_count": {"leaf": 4300000}}),
+            4300000)
+
+    def test_absent_baseline_is_none(self):
+        self.assertIsNone(refresh.leaf_baseline({}))
+
+
+class RollupYieldOnlyTest(unittest.TestCase):
+    def _states(self):
+        states = refresh.group_by_state([
+            _row(),
+            _row(STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="1000",
+                 SHORT_DESC="CORN, GRAIN - PRODUCTION, MEASURED IN BU"),
+        ])
+        refresh.sort_series(states)
+        refresh.mark_canonical(states)
+        return states
+
+    def test_rollup_excludes_non_yield_series(self):
+        states = self._states()
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                refresh.emit_crop_rollups(states)
+                rollup = json.loads((Path(td) / "states" / "19" / "crops" / "corn.json").read_text())
+        stats = {s["statistic"] for s in rollup["counties"]["169"]["series"]}
+        self.assertEqual(stats, {"YIELD"})
+
+    def test_rollup_does_not_mutate_leaf_series(self):
+        states = self._states()
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                refresh.emit_crop_rollups(states)
+        leaf_series = states["19"]["counties"]["169"]["commodities"]["corn"]["series"]
+        self.assertEqual(len({s["statistic"] for s in leaf_series}), 2)
+
+
+class DiscoverInclusiveTest(unittest.TestCase):
+    def test_inclusive_includes_last_known(self):
+        with mock.patch.object(refresh, "head_request",
+                               return_value={"status": 200, "etag": '"e"',
+                                             "last_modified": "x", "content_length": 1}):
+            d = refresh.discover(date(2026, 5, 23), date(2026, 5, 23), inclusive=True)
+        self.assertIsNotNone(d)
+        self.assertEqual(d["date"], "2026-05-23")
+
+    def test_default_exclusive_skips_last_known(self):
+        with mock.patch.object(refresh, "head_request",
+                               return_value={"status": 200, "etag": '"e"',
+                                             "last_modified": "x", "content_length": 1}):
+            d = refresh.discover(date(2026, 5, 23), date(2026, 5, 23))
+        self.assertIsNone(d)
+
+
+class MainBootstrapReemitTest(unittest.TestCase):
+    def test_caught_up_but_missing_index_reaches_discover(self):
+        # Caught up (last_known == today) but index.json missing => must NOT
+        # early-return at is_caught_up; should proceed to discover with
+        # inclusive=True so it re-finds the already-published file.
+        calls = {}
+
+        def fake_discover(last_known, today, inclusive=False):
+            calls["inclusive"] = inclusive
+            return None  # abort after; we only assert we reached discover
+
+        with mock.patch.object(refresh, "load_state", return_value={
+                    "last_successful_date": "2026-05-23", "last_etag": '"x"'}), \
+             mock.patch.object(refresh, "_index_path",
+                               return_value=Path("/nonexistent/index.json")), \
+             mock.patch.object(refresh, "sp_a_bootstrap_needed", return_value=False), \
+             mock.patch.object(refresh, "discover", side_effect=fake_discover), \
+             mock.patch.object(refresh, "ping_healthchecks"):
+            rc = refresh.main(today=date(2026, 5, 23))
+        self.assertEqual(calls.get("inclusive"), True)
+        self.assertEqual(rc, 1)
+
+
+class LeafSchemaFileTest(unittest.TestCase):
+    def test_leaf_schema_exists_and_is_v3(self):
+        p = Path(refresh.DATA_DIR) / "_schema" / "leaf.json"
+        self.assertTrue(p.exists(), "data/_schema/leaf.json must exist")
+        schema = json.loads(p.read_text(encoding="utf-8"))
+        self.assertEqual(schema["properties"]["schema_version"].get("const"), 3)
+
+    def test_leaf_schema_series_requires_statistic_and_cv(self):
+        p = Path(refresh.DATA_DIR) / "_schema" / "leaf.json"
+        schema = json.loads(p.read_text(encoding="utf-8"))
+        required = set(schema["properties"]["series"]["items"]["required"])
+        self.assertTrue({"statistic", "cv"} <= required)
+
+
+class FoundationIntegrationTest(unittest.TestCase):
+    def test_multi_statistic_leaf_and_yield_only_rollup(self):
+        rows = [
+            _row(),  # corn YIELD GRAIN BU/ACRE
+            _row(STATISTICCAT_DESC="PRODUCTION", UNIT_DESC="BU", VALUE="1000000",
+                 SHORT_DESC="CORN, GRAIN - PRODUCTION, MEASURED IN BU"),
+            _row(STATISTICCAT_DESC="AREA HARVESTED", UNIT_DESC="ACRES", VALUE="5000",
+                 SHORT_DESC="CORN, GRAIN - ACRES HARVESTED"),
+            _row(STATISTICCAT_DESC="AREA PLANTED", UNIT_DESC="ACRES", VALUE="5100",
+                 UTIL_PRACTICE_DESC="ALL UTILIZATION PRACTICES",
+                 SHORT_DESC="CORN - ACRES PLANTED"),
+            # Silage AREA HARVESTED at the same class/prodn/unit but util=SILAGE
+            # must NOT be marked canonical for AREA HARVESTED.
+            _row(STATISTICCAT_DESC="AREA HARVESTED", UNIT_DESC="ACRES", VALUE="200",
+                 UTIL_PRACTICE_DESC="SILAGE", SHORT_DESC="CORN, SILAGE - ACRES HARVESTED"),
+        ]
+        states = refresh.group_by_state(rows)
+        refresh.sort_series(states)
+        missing, _ = refresh.mark_canonical(states)
+        self.assertEqual(missing, 0)
+
+        com = states["19"]["counties"]["169"]["commodities"]["corn"]
+        canon = {s["statistic"] for s in com["series"] if s.get("canonical")}
+        self.assertEqual(canon, {"YIELD", "PRODUCTION", "AREA HARVESTED", "AREA PLANTED"})
+        silage = [s for s in com["series"]
+                  if s["statistic"] == "AREA HARVESTED" and s["util_practice"] == "SILAGE"]
+        self.assertEqual(len(silage), 1)
+        self.assertFalse(silage[0].get("canonical"))
+
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                refresh.emit_point_leaves(states)
+                refresh.emit_crop_rollups(states)
+                leaf = json.loads((Path(td) / "states" / "19" / "counties" / "169" / "corn.json").read_text())
+                rollup = json.loads((Path(td) / "states" / "19" / "crops" / "corn.json").read_text())
+        self.assertEqual(leaf["schema_version"], 3)
+        self.assertEqual({s["statistic"] for s in rollup["counties"]["169"]["series"]}, {"YIELD"})
 
 
 if __name__ == "__main__":
