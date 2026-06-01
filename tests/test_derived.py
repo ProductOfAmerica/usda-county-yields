@@ -131,5 +131,56 @@ class RankTest(unittest.TestCase):
         self.assertEqual(r["count_in_state"], 1)
 
 
+class WeightedYieldTest(unittest.TestCase):
+    def _two_counties(self):
+        def cy(name, prod, area):
+            return _county(name, {"corn": _com("CORN", "corn", [
+                _series("PRODUCTION", "BU", {"2024": prod}, canonical=True),
+                _series("AREA HARVESTED", "ACRES", {"2024": area}, canonical=True)])})
+        return {"19": {"state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
+                       "counties": {"001": cy("A", 1000.0, 10.0),    # 100 bu/ac
+                                    "002": cy("B", 1000.0, 5.0)}}}    # 200 bu/ac
+
+    def test_state_weighted_yield(self):
+        w = derived.compute_weighted_yield(self._two_counties())
+        # (1000+1000)/(10+5) = 133.333...
+        self.assertAlmostEqual(w[("19", "corn")]["state"]["2024"], 2000.0 / 15.0, places=4)
+        self.assertAlmostEqual(w[("19", "corn")]["national"]["2024"], 2000.0 / 15.0, places=4)
+
+    def test_county_missing_one_side_excluded(self):
+        states = self._two_counties()
+        # county 002 loses area harvested -> excluded from both sums
+        com = states["19"]["counties"]["002"]["commodities"]["corn"]
+        com["series"] = [s for s in com["series"] if s["statistic"] != "AREA HARVESTED"]
+        w = derived.compute_weighted_yield(states)
+        self.assertAlmostEqual(w[("19", "corn")]["state"]["2024"], 100.0, places=4)
+
+
+class YieldStatsTest(unittest.TestCase):
+    def _series_states(self, values):
+        return {"19": {"state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
+                "counties": {"001": _county("A", {"corn": _com("CORN", "corn",
+                    [_series("YIELD", "BU / ACRE", values, canonical=True)])})}}}
+
+    def test_yoy_trailing_and_slope(self):
+        vals = {str(y): float(100 + (y - 2015) * 10) for y in range(2015, 2025)}  # 100..190
+        stats = derived.compute_yield_stats(self._series_states(vals))[("19", "001", "corn")]
+        self.assertAlmostEqual(stats["yoy_pct"]["2016"], 10.0, places=2)       # 110 vs 100
+        self.assertAlmostEqual(stats["slope_bu_per_year"], 10.0, places=4)     # perfect line
+        # trailing 5yr at 2024 = mean(150,160,170,180,190) = 170
+        self.assertAlmostEqual(stats["trailing_5yr_avg"]["2024"], 170.0, places=2)
+        # trailing 10yr at 2024 = mean(100..190) = 145
+        self.assertAlmostEqual(stats["trailing_10yr_avg"]["2024"], 145.0, places=2)
+
+    def test_thresholds_and_gaps(self):
+        # only 2 present in any 5yr window -> no 5yr avg; YoY skips the gap year;
+        # 2 distinct years still define a slope.
+        vals = {"2020": 100.0, "2024": 120.0}
+        stats = derived.compute_yield_stats(self._series_states(vals))[("19", "001", "corn")]
+        self.assertEqual(stats["trailing_5yr_avg"], {})
+        self.assertNotIn("2021", stats["yoy_pct"])
+        self.assertIn("slope_bu_per_year", stats)  # 2 distinct years -> slope defined
+
+
 if __name__ == "__main__":
     unittest.main()
