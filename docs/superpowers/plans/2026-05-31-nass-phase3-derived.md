@@ -679,7 +679,6 @@ git commit -m "feat(derived): production-weighted yield + trailing/YoY/trend yie
 ```python
 class EmitTest(unittest.TestCase):
     def test_emit_writes_both_families_and_audit(self):
-        from test_derived import _states_one_county, _price_states  # self refs
         disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
         with tempfile.TemporaryDirectory() as td:
             with mock.patch.object(refresh, "DATA_DIR", Path(td)):
@@ -708,6 +707,34 @@ class EmitTest(unittest.TestCase):
             p = Path(refresh.DATA_DIR) / "_schema" / name
             self.assertTrue(p.exists(), name)
             self.assertEqual(json.loads(p.read_text())["properties"]["schema_version"]["const"], 3)
+
+    def test_yield_only_state_still_emits_national(self):
+        # State 19 has production+area (contributes weighted yield); state 20
+        # has only yield (ranked, no prod/area). State 20's shard must still
+        # carry the national block (codex P1 #2 regression).
+        def cy_full(name, y, prod, ah):
+            return _county(name, {"corn": _com("CORN", "corn", [
+                _series("YIELD", "BU / ACRE", {"2024": y}, canonical=True),
+                _series("PRODUCTION", "BU", {"2024": prod}, canonical=True),
+                _series("AREA HARVESTED", "ACRES", {"2024": ah}, canonical=True)])})
+        def cy_yield(name, y):
+            return _county(name, {"corn": _com("CORN", "corn", [
+                _series("YIELD", "BU / ACRE", {"2024": y}, canonical=True)])})
+        states = {
+            "19": {"state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
+                   "counties": {"001": cy_full("A", 200.0, 2000.0, 10.0)}},
+            "20": {"state": {"fips": "20", "alpha": "KS", "name": "KANSAS"},
+                   "counties": {"010": cy_yield("E", 150.0)}},
+        }
+        disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
+        with tempfile.TemporaryDirectory() as td:
+            with mock.patch.object(refresh, "DATA_DIR", Path(td)):
+                derived.emit_all(states, {}, disc, "2026-05-30T00:00:00Z")
+                ks = json.loads((Path(td) / "states" / "20" / "derived" / "state-corn.json").read_text())
+        self.assertEqual(ks["production_weighted_yield"]["state"], {})
+        self.assertIn("2024", ks["production_weighted_yield"]["national"])
+        # national corn weighted yield = 2000/10 (IA only) = 200.0
+        self.assertAlmostEqual(ks["production_weighted_yield"]["national"]["2024"], 200.0, places=4)
 ```
 
 - [ ] **Step 3: run, expect fail.**
@@ -805,6 +832,10 @@ def emit_all(states: dict, price_states: dict, discovery: dict, refreshed_at: st
     # state family: one shard per (fips, slug) that has any weighted yield or
     # any ranked county
     state_keys = set(weighted) | {(f, s) for (f, _c, s) in ranks}
+    # National weighted yield is identical across states for a given slug; build
+    # a slug-keyed lookup so a state with ranked counties but no local
+    # production+area still emits the real national block (codex P1 #2).
+    national_by_slug = {slug: wy["national"] for (f, slug), wy in weighted.items()}
     for (fips, slug) in sorted(state_keys):
         st_meta = states[fips]["state"]
         # county scan: yield values + rank for every county of this (fips, slug)
@@ -821,7 +852,9 @@ def emit_all(states: dict, price_states: dict, discovery: dict, refreshed_at: st
                 "yield": yld["values"],
                 "rank": ranks.get((fips, code, slug), {}),
             }
-        wy = weighted.get((fips, slug), {"state": {}, "national": {}})
+        wy = weighted.get((fips, slug))
+        state_block = wy["state"] if wy else {}
+        national_block = national_by_slug.get(slug, {})
         desc = next((c["commodities"][slug]["commodity_desc"]
                      for c in states[fips]["counties"].values()
                      if slug in c["commodities"]), slug.upper())
@@ -829,7 +862,7 @@ def emit_all(states: dict, price_states: dict, discovery: dict, refreshed_at: st
             "schema_version": 3,
             "state": st_meta,
             "commodity": {"slug": slug, "desc": desc},
-            "production_weighted_yield": {"state": wy["state"], "national": wy["national"]},
+            "production_weighted_yield": {"state": state_block, "national": national_block},
             "counties": counties,
         }
         _assert_state_shape(shard)
@@ -869,7 +902,6 @@ git commit -m "feat(derived): schemas + shape asserts + emit_all (both families,
 ```python
 class RunDerivedTest(unittest.TestCase):
     def test_returns_counts_and_emits(self):
-        from test_derived import _states_one_county, _price_states
         disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
         with tempfile.TemporaryDirectory() as td:
             with mock.patch.object(refresh, "DATA_DIR", Path(td)):
@@ -879,7 +911,6 @@ class RunDerivedTest(unittest.TestCase):
         self.assertGreaterEqual(res.shard_count, 1)
 
     def test_band_abort(self):
-        from test_derived import _states_one_county, _price_states
         disc = {"url": "u", "etag": '"e"', "date": "2026-05-30"}
         with tempfile.TemporaryDirectory() as td:
             with mock.patch.object(refresh, "DATA_DIR", Path(td)):
@@ -908,20 +939,28 @@ def _validate_band(kept: int, baseline: Optional[int]) -> None:
 def run_derived(states: dict, price_states: dict, discovery: dict,
                 refreshed_at: str, baseline: Optional[int]) -> DerivedRunResult:
     """SP-C entrypoint, called from refresh.main() after SP-B (in memory; no
-    re-parse). kept_count = number of per-county derived shards."""
-    paths = emit_all(states, price_states, discovery, refreshed_at)
+    re-parse). kept_count = per-county derived shards (the Gate 2 baseline);
+    shard_count = all emitted data shards (county + state, schemas/audit excluded)."""
     county_count = sum(
-        1 for fips, st in states.items()
-        for code, cty in st["counties"].items()
-        for slug, com in cty["commodities"].items()
+        1 for st in states.values()
+        for cty in st["counties"].values()
+        for com in cty["commodities"].values()
         if _canonical(com, "YIELD") is not None
     )
+    # Gate 2 BEFORE any write, matching prices.run_prices: a band abort must
+    # leave the audit sentinel unwritten and exit non-zero so the next run
+    # re-bootstraps (spec 4.7). Emitting first would publish the sentinel and
+    # defeat the self-heal (codex P1 #1).
     _validate_band(county_count, baseline)
-    print(f"SP-C derived: county_shards={county_count} paths={len(paths)}", file=sys.stderr)
-    return DerivedRunResult(paths=paths, shard_count=len(paths), kept_count=county_count)
+    paths = emit_all(states, price_states, discovery, refreshed_at)
+    non_data = {_county_schema_path(), _state_schema_path(), _audit_path()}
+    shard_count = len(paths - non_data)   # real county+state shard count (codex P2 #4)
+    print(f"SP-C derived: county_shards={county_count} data_shards={shard_count}",
+          file=sys.stderr)
+    return DerivedRunResult(paths=paths, shard_count=shard_count, kept_count=county_count)
 ```
 
-Note: `_validate_band` runs after `emit_all` here for code simplicity; the audit is written regardless, so the zero-shard sentinel invariant holds. The band still aborts the run non-zero when tripped (consistent with prices, where a hard abort exits the workflow).
+Note: Gate 2 runs BEFORE `emit_all` (matching `prices.run_prices`), so a band abort writes nothing and exits non-zero, leaving `bootstrap_needed` true for the next run to self-heal (spec 4.7). `shard_count` counts only emitted data shards (`paths` minus the two schema paths and the audit path), so `last_derived_shard_count` means the same thing as `last_price_shard_count`.
 
 - [ ] **Step 4: run, expect pass.** `python -m unittest tests.test_derived -v`
 
@@ -1025,10 +1064,9 @@ In `tests/test_planting_windows.py`, `MainIntegrationTest.test_main_saves_explic
                 paths=set(), shard_count=0, kept_count=0,
             )
 ```
-- In the `finally` restore loop, add:
+- The `finally` block restores each field manually (it is NOT a loop). Add one line after `prices.run_prices = original["run_prices"]`:
 ```python
-                elif k == "run_derived":
-                    derived.run_derived = v
+            derived.run_derived = original["run_derived"]
 ```
 Also make `prices.run_prices` stub return a `price_states` so `run_derived` (if ever un-stubbed) gets a dict; keep it as `PriceRunResult(paths=set(), shard_count=0, kept_count=0)` (price_states defaults to `{}`), which is fine since `run_derived` is stubbed.
 
