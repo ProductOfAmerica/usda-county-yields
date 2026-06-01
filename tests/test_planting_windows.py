@@ -17,6 +17,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 import planting_windows as pw  # noqa: E402
+import prices  # noqa: E402
 import refresh  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -547,6 +548,7 @@ class MainIntegrationTest(unittest.TestCase):
             "ping_healthchecks": refresh.ping_healthchecks,
             "utc_now_iso": refresh.utc_now_iso,
             "run_planting_windows": pw.run_planting_windows,
+            "run_prices": prices.run_prices,
         }
         try:
             disc = {
@@ -581,6 +583,9 @@ class MainIntegrationTest(unittest.TestCase):
                 paths={refresh.DATA_DIR / "_schema" / "planting-window.json"},
                 shard_count=7,
             )
+            prices.run_prices = lambda path, d, ts, baseline: prices.PriceRunResult(
+                paths=set(), shard_count=0, kept_count=0,
+            )
 
             self.assertEqual(refresh.main(today=date(2026, 5, 18)), 0)
         finally:
@@ -603,6 +608,7 @@ class MainIntegrationTest(unittest.TestCase):
             refresh.ping_healthchecks = original["ping_healthchecks"]
             refresh.utc_now_iso = original["utc_now_iso"]
             pw.run_planting_windows = original["run_planting_windows"]
+            prices.run_prices = original["run_prices"]
 
         self.assertEqual(saved["last_sp_a_shard_count"], 7)
 

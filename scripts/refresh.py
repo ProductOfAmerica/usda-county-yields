@@ -439,6 +439,19 @@ def sp_a_bootstrap_needed() -> bool:
     return not _sp_a_audit_path().exists()
 
 
+def _prices_bootstrap_needed() -> bool:
+    """True when the SP-B price audit sentinel is absent."""
+    return not (DATA_DIR / "_audit" / "prices.json").exists()
+
+
+def family_baseline(state: dict, family: str) -> Optional[int]:
+    """Per-family Gate 2 baseline; None for absent or legacy-scalar shape."""
+    counts = state.get("last_filtered_row_count")
+    if isinstance(counts, dict):
+        return counts.get(family)
+    return None
+
+
 def _dump_json(payload: dict) -> str:
     return json.dumps(payload, indent=2, sort_keys=True) + "\n"
 
@@ -689,10 +702,7 @@ def leaf_baseline(state: dict) -> Optional[int]:
     the legacy scalar shape, since the v2->v3 row count changes ~3.3x and a
     legacy scalar is not a valid v3 leaf baseline.
     """
-    counts = state.get("last_filtered_row_count")
-    if isinstance(counts, dict):
-        return counts.get("leaf")
-    return None
+    return family_baseline(state, "leaf")
 
 
 # ---------- download ----------

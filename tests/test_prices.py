@@ -111,6 +111,24 @@ class GroupPricesTest(unittest.TestCase):
         self.assertEqual(s["values"], {})
         self.assertEqual(s["suppressed"], {"2024": "D"})
 
+    def test_numeric_then_suppressed_same_key_mutually_exclusive(self):
+        _, kept = _filter([
+            _row(YEAR="2024", VALUE="4.80"),
+            _row(YEAR="2024", VALUE="(D)"),
+        ])
+        s = prices.group_prices(kept)["19"]["crops"]["corn"]["series"][0]
+        self.assertEqual(s["values"], {})
+        self.assertEqual(s["suppressed"], {"2024": "D"})
+
+    def test_suppressed_then_numeric_same_key_mutually_exclusive(self):
+        _, kept = _filter([
+            _row(YEAR="2024", VALUE="(D)"),
+            _row(YEAR="2024", VALUE="4.80"),
+        ])
+        s = prices.group_prices(kept)["19"]["crops"]["corn"]["series"][0]
+        self.assertEqual(s["values"], {"2024": 4.80})
+        self.assertEqual(s["suppressed"], {})
+
 
 class CanonicalPriceTest(unittest.TestCase):
     def test_marks_all_classes_marketing_year(self):

@@ -137,8 +137,10 @@ def group_prices(kept: list[dict]) -> dict:
         value, code, _raw = refresh.parse_value(r["value"])
         if value is not None:
             series["values"][vkey] = value
+            series["suppressed"].pop(vkey, None)
         elif code is not None:
             series["suppressed"][vkey] = code
+            series["values"].pop(vkey, None)
     return states
 
 
