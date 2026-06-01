@@ -86,5 +86,50 @@ class RevenueTest(unittest.TestCase):
         self.assertNotIn("2023", rev[("19", "169", "corn")])
 
 
+class RankTest(unittest.TestCase):
+    def _multi(self):
+        # one state (19) with 4 counties, distinct + tied yields for 2024
+        def cy(name, y):
+            return _county(name, {"corn": _com("CORN", "corn",
+                          [_series("YIELD", "BU / ACRE", {"2024": y}, canonical=True)])})
+        return {"19": {"state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
+                       "counties": {"001": cy("A", 100.0), "002": cy("B", 90.0),
+                                    "003": cy("C", 90.0), "004": cy("D", 80.0)}}}
+
+    def test_competition_rank_and_percentile(self):
+        ranks = derived.compute_ranks(self._multi())
+        a = ranks[("19", "001", "corn")]["2024"]
+        b = ranks[("19", "002", "corn")]["2024"]
+        c = ranks[("19", "003", "corn")]["2024"]
+        d = ranks[("19", "004", "corn")]["2024"]
+        self.assertEqual((a["rank_in_state"], a["count_in_state"]), (1, 4))
+        self.assertEqual(b["rank_in_state"], 2)
+        self.assertEqual(c["rank_in_state"], 2)   # tie shares rank
+        self.assertEqual(d["rank_in_state"], 4)   # competition ranking skips 3
+        self.assertAlmostEqual(a["percentile_in_state"], 1.0, places=4)
+        self.assertAlmostEqual(d["percentile_in_state"], 0.0, places=4)
+
+    def test_nation_spans_all_states(self):
+        states = self._multi()
+        states["20"] = {"state": {"fips": "20", "alpha": "KS", "name": "KANSAS"},
+                        "counties": {"010": _county("E", {"corn": _com("CORN", "corn",
+                            [_series("YIELD", "BU / ACRE", {"2024": 300.0}, canonical=True)])})}}
+        ranks = derived.compute_ranks(states)
+        e = ranks[("20", "010", "corn")]["2024"]
+        self.assertEqual(e["rank_in_state"], 1)        # alone in its state
+        self.assertEqual(e["rank_in_nation"], 1)       # highest nationally
+        self.assertEqual(e["count_in_nation"], 5)
+        a = ranks[("19", "001", "corn")]["2024"]
+        self.assertEqual(a["rank_in_nation"], 2)
+
+    def test_single_county_percentile_is_one(self):
+        states = {"19": {"state": {"fips": "19", "alpha": "IA", "name": "IOWA"},
+                  "counties": {"001": _county("A", {"corn": _com("CORN", "corn",
+                      [_series("YIELD", "BU / ACRE", {"2024": 100.0}, canonical=True)])})}}}
+        r = derived.compute_ranks(states)[("19", "001", "corn")]["2024"]
+        self.assertAlmostEqual(r["percentile_in_state"], 1.0, places=4)
+        self.assertEqual(r["count_in_state"], 1)
+
+
 if __name__ == "__main__":
     unittest.main()

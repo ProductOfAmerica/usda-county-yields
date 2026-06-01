@@ -100,3 +100,49 @@ def compute_revenue(states: dict, price_states: dict) -> dict:
                 if recs:
                     out[(fips, code, slug)] = recs
     return out
+
+
+def _rank_one(value: float, all_values: list[float]) -> tuple[int, int, float]:
+    """Competition rank (1=highest, ties share), count, percentile.
+
+    rank = 1 + count strictly greater. percentile = (n - rank)/(n - 1), or 1.0
+    when n == 1.
+    """
+    n = len(all_values)
+    rank = 1 + sum(1 for v in all_values if v > value)
+    pct = 1.0 if n == 1 else round((n - rank) / (n - 1), 4)
+    return rank, n, pct
+
+
+def compute_ranks(states: dict) -> dict:
+    """{(fips, code, slug): {year: rank_record}} on canonical YIELD.
+
+    rank/percentile within-state and within-nation, per (crop, year).
+    """
+    # Gather canonical yield values: by (slug, year) -> nation list; and
+    # (fips, slug, year) -> state list; remember each county's own value.
+    nation: dict = {}                 # (slug, year) -> [values]
+    state_pool: dict = {}             # (fips, slug, year) -> [values]
+    own: dict = {}                    # (fips, code, slug) -> {year: value}
+    for fips, st in states.items():
+        for code, cty in st["counties"].items():
+            for slug, com in cty["commodities"].items():
+                yld = _canonical(com, "YIELD")
+                if yld is None:
+                    continue
+                for year, v in yld["values"].items():
+                    nation.setdefault((slug, year), []).append(v)
+                    state_pool.setdefault((fips, slug, year), []).append(v)
+                    own.setdefault((fips, code, slug), {})[year] = v
+    out: dict = {}
+    for (fips, code, slug), years in own.items():
+        recs: dict = {}
+        for year, v in years.items():
+            sr, sn, sp = _rank_one(v, state_pool[(fips, slug, year)])
+            nr, nn, npc = _rank_one(v, nation[(slug, year)])
+            recs[year] = {
+                "rank_in_state": sr, "count_in_state": sn, "percentile_in_state": sp,
+                "rank_in_nation": nr, "count_in_nation": nn, "percentile_in_nation": npc,
+            }
+        out[(fips, code, slug)] = recs
+    return out
