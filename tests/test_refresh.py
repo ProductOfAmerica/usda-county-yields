@@ -543,6 +543,20 @@ class PruneTest(EmitTestBase):
         # Active leaves must remain.
         self.assertTrue(refresh._point_leaf_path("19", "169", "corn").exists())
 
+    def test_leaf_schema_survives_prune_when_registered(self) -> None:
+        # Regression: the static data/_schema/leaf.json has no emitter, so if
+        # main() does not add it to `expected`, prune_stale deletes it on the
+        # first real refresh (this happened: the snapshot 2026-05-30 run removed
+        # it). Protect it the way the prices/derived/pw schemas are protected.
+        self._emit_all()
+        schema = refresh._leaf_schema_path()
+        schema.parent.mkdir(parents=True, exist_ok=True)
+        schema.write_text("{}", encoding="utf-8")
+        # main() registers the leaf schema path; emulate that registration here.
+        self.expected.add(schema)
+        refresh.prune_stale(self.expected)
+        self.assertTrue(schema.exists(), "leaf.json must survive prune when registered")
+
 
 class AuditTest(EmitTestBase):
     def test_audit_carries_header_observed(self) -> None:

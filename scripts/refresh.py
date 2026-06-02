@@ -426,6 +426,10 @@ def _index_path() -> Path:
     return DATA_DIR / "index.json"
 
 
+def _leaf_schema_path() -> Path:
+    return DATA_DIR / "_schema" / "leaf.json"
+
+
 def _audit_path() -> Path:
     return DATA_DIR / "_audit" / "latest.json"
 
@@ -832,6 +836,11 @@ def main(today: Optional[date] = None) -> int:
     validate_canonical_coverage(missing_canonical, total_pairs)
 
     expected: set[Path] = set()
+    # leaf.json is a static committed schema, never written by the refresh, but
+    # it must be protected from prune_stale or the first real refresh deletes it
+    # (the prices/derived/planting-window schemas are protected via their
+    # emitters' path sets; the leaf schema has no emitter, so protect it here).
+    expected.add(_leaf_schema_path())
     idx_path, idx_w = emit_index(states, discovery, refreshed_at)
     expected.add(idx_path)
     meta_paths, meta_w = emit_state_meta(states)
