@@ -12,11 +12,11 @@
   "method": "nass-crop-progress-percentile",
   "min_usable_years": 20,
   "product_name": "NASS state usual planting/harvesting windows",
-  "refreshed_at": "2026-06-08T11:01:50Z",
+  "refreshed_at": "2026-06-15T11:26:27Z",
   "source": {
-    "etag": "\"430664a7-6539081ddafeb\"",
-    "publication_date": "2026-06-06",
-    "url": "https://www.nass.usda.gov/datasets/qs.crops_20260606.txt.gz"
+    "etag": "\"430b03d1-6541d535134a0\"",
+    "publication_date": "2026-06-13",
+    "url": "https://www.nass.usda.gov/datasets/qs.crops_20260613.txt.gz"
   },
   "thresholds": [
     5,
@@ -49,7 +49,8 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "17/soybeans": [
       2003,
@@ -588,7 +589,6 @@
       2026
     ],
     "46/soybeans": [
-      2004,
       2006,
       2007,
       2008,
@@ -608,7 +608,8 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "55/soybeans": [
       2002,
@@ -632,7 +633,8 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ]
   }
 }
