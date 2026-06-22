@@ -154,7 +154,7 @@
     },
     "17/soybeans": {
       "harvest_usable": 33,
-      "plant_usable": 30,
+      "plant_usable": 31,
       "status": "PRESENT",
       "years": [
         2003,
@@ -177,7 +177,8 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ]
     },
     "17/winter-wheat": {
@@ -211,7 +212,7 @@
     },
     "18/corn": {
       "harvest_usable": 21,
-      "plant_usable": 31,
+      "plant_usable": 32,
       "status": "PRESENT",
       "years": [
         1983,
@@ -246,15 +247,15 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ]
     },
     "18/soybeans": {
       "harvest_usable": 33,
-      "plant_usable": 28,
+      "plant_usable": 29,
       "status": "PRESENT",
       "years": [
-        1993,
         1999,
         2001,
         2002,
@@ -277,7 +278,8 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ]
     },
     "18/winter-wheat": {
@@ -369,7 +371,7 @@
     },
     "20/corn": {
       "harvest_usable": 13,
-      "plant_usable": 36,
+      "plant_usable": 37,
       "reason": "insufficient usable years: harvest(13<20)",
       "status": "OMITTED"
     },
@@ -485,8 +487,8 @@
     },
     "24/soybeans": {
       "harvest_usable": 4,
-      "plant_usable": 9,
-      "reason": "insufficient usable years: plant(9<20), harvest(4<20)",
+      "plant_usable": 10,
+      "reason": "insufficient usable years: plant(10<20), harvest(4<20)",
       "status": "OMITTED"
     },
     "24/winter-wheat": {
@@ -503,13 +505,13 @@
     },
     "26/corn": {
       "harvest_usable": 8,
-      "plant_usable": 29,
+      "plant_usable": 30,
       "reason": "insufficient usable years: harvest(8<20)",
       "status": "OMITTED"
     },
     "26/soybeans": {
       "harvest_usable": 32,
-      "plant_usable": 34,
+      "plant_usable": 35,
       "status": "PRESENT",
       "years": [
         1996,
@@ -537,7 +539,8 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ]
     },
     "26/winter-wheat": {
@@ -779,8 +782,8 @@
     },
     "33/corn": {
       "harvest_usable": 7,
-      "plant_usable": 9,
-      "reason": "insufficient usable years: plant(9<20), harvest(7<20)",
+      "plant_usable": 10,
+      "reason": "insufficient usable years: plant(10<20), harvest(7<20)",
       "status": "OMITTED"
     },
     "34/corn": {
@@ -857,14 +860,13 @@
     },
     "38/soybeans": {
       "harvest_usable": 21,
-      "plant_usable": 25,
+      "plant_usable": 26,
       "status": "PRESENT",
       "years": [
         2001,
         2003,
         2004,
         2005,
-        2006,
         2007,
         2008,
         2009,
@@ -883,7 +885,8 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ]
     },
     "38/winter-wheat": {
@@ -894,13 +897,13 @@
     },
     "39/corn": {
       "harvest_usable": 10,
-      "plant_usable": 35,
+      "plant_usable": 36,
       "reason": "insufficient usable years: harvest(10<20)",
       "status": "OMITTED"
     },
     "39/soybeans": {
       "harvest_usable": 28,
-      "plant_usable": 28,
+      "plant_usable": 29,
       "status": "PRESENT",
       "years": [
         1996,
@@ -927,7 +930,8 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ]
     },
     "39/winter-wheat": {
@@ -962,8 +966,8 @@
     },
     "40/corn": {
       "harvest_usable": 3,
-      "plant_usable": 8,
-      "reason": "insufficient usable years: plant(8<20), harvest(3<20)",
+      "plant_usable": 9,
+      "reason": "insufficient usable years: plant(9<20), harvest(3<20)",
       "status": "OMITTED"
     },
     "40/soybeans": {
@@ -1214,8 +1218,8 @@
     },
     "54/corn": {
       "harvest_usable": 2,
-      "plant_usable": 12,
-      "reason": "insufficient usable years: plant(12<20), harvest(2<20)",
+      "plant_usable": 13,
+      "reason": "insufficient usable years: plant(13<20), harvest(2<20)",
       "status": "OMITTED"
     },
     "54/soybeans": {
@@ -1286,5 +1290,5 @@
     }
   },
   "product_name": "NASS planting-window coverage",
-  "refreshed_at": "2026-06-15T11:26:27Z"
+  "refreshed_at": "2026-06-22T11:18:49Z"
 }

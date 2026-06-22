@@ -12,11 +12,11 @@
   "method": "nass-crop-progress-percentile",
   "min_usable_years": 20,
   "product_name": "NASS state usual planting/harvesting windows",
-  "refreshed_at": "2026-06-15T11:26:27Z",
+  "refreshed_at": "2026-06-22T11:18:49Z",
   "source": {
-    "etag": "\"430b03d1-6541d535134a0\"",
-    "publication_date": "2026-06-13",
-    "url": "https://www.nass.usda.gov/datasets/qs.crops_20260613.txt.gz"
+    "etag": "\"43270bc8-654aa24738aad\"",
+    "publication_date": "2026-06-20",
+    "url": "https://www.nass.usda.gov/datasets/qs.crops_20260620.txt.gz"
   },
   "thresholds": [
     5,
@@ -73,7 +73,8 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "17/winter-wheat": [
       2004,
@@ -132,10 +133,10 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "18/soybeans": [
-      1993,
       1999,
       2001,
       2002,
@@ -158,7 +159,8 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "18/winter-wheat": [
       2005,
@@ -310,7 +312,8 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "26/winter-wheat": [
       2004,
@@ -457,7 +460,6 @@
       2003,
       2004,
       2005,
-      2006,
       2007,
       2008,
       2009,
@@ -476,7 +478,8 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "39/soybeans": [
       1996,
@@ -503,7 +506,8 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "39/winter-wheat": [
       2004,
