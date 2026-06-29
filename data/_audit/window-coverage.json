@@ -62,8 +62,8 @@
     },
     "09/corn": {
       "harvest_usable": 6,
-      "plant_usable": 9,
-      "reason": "insufficient usable years: plant(9<20), harvest(6<20)",
+      "plant_usable": 10,
+      "reason": "insufficient usable years: plant(10<20), harvest(6<20)",
       "status": "OMITTED"
     },
     "10/corn": {
@@ -92,8 +92,8 @@
     },
     "13/soybeans": {
       "harvest_usable": 2,
-      "plant_usable": 12,
-      "reason": "insufficient usable years: plant(12<20), harvest(2<20)",
+      "plant_usable": 13,
+      "reason": "insufficient usable years: plant(13<20), harvest(2<20)",
       "status": "OMITTED"
     },
     "13/winter-wheat": {
@@ -499,8 +499,8 @@
     },
     "25/corn": {
       "harvest_usable": 4,
-      "plant_usable": 7,
-      "reason": "insufficient usable years: plant(7<20), harvest(4<20)",
+      "plant_usable": 8,
+      "reason": "insufficient usable years: plant(8<20), harvest(4<20)",
       "status": "OMITTED"
     },
     "26/corn": {
@@ -682,8 +682,8 @@
     },
     "30/corn": {
       "harvest_usable": 0,
-      "plant_usable": 12,
-      "reason": "insufficient usable years: plant(12<20), harvest(0<20)",
+      "plant_usable": 13,
+      "reason": "insufficient usable years: plant(13<20), harvest(0<20)",
       "status": "OMITTED"
     },
     "30/soybeans": {
@@ -806,8 +806,8 @@
     },
     "35/corn": {
       "harvest_usable": 1,
-      "plant_usable": 11,
-      "reason": "insufficient usable years: plant(11<20), harvest(1<20)",
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20), harvest(1<20)",
       "status": "OMITTED"
     },
     "35/winter-wheat": {
@@ -842,8 +842,8 @@
     },
     "37/soybeans": {
       "harvest_usable": 0,
-      "plant_usable": 13,
-      "reason": "insufficient usable years: plant(13<20), harvest(0<20)",
+      "plant_usable": 14,
+      "reason": "insufficient usable years: plant(14<20), harvest(0<20)",
       "status": "OMITTED"
     },
     "37/winter-wheat": {
@@ -977,13 +977,12 @@
       "status": "OMITTED"
     },
     "40/winter-wheat": {
-      "harvest_usable": 25,
+      "harvest_usable": 26,
       "plant_usable": 24,
       "status": "PRESENT",
       "years": [
         1987,
         1989,
-        1992,
         1993,
         1995,
         1997,
@@ -1025,8 +1024,8 @@
     },
     "42/corn": {
       "harvest_usable": 2,
-      "plant_usable": 18,
-      "reason": "insufficient usable years: plant(18<20), harvest(2<20)",
+      "plant_usable": 19,
+      "reason": "insufficient usable years: plant(19<20), harvest(2<20)",
       "status": "OMITTED"
     },
     "42/soybeans": {
@@ -1182,8 +1181,8 @@
     },
     "50/corn": {
       "harvest_usable": 9,
-      "plant_usable": 11,
-      "reason": "insufficient usable years: plant(11<20), harvest(9<20)",
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20), harvest(9<20)",
       "status": "OMITTED"
     },
     "51/corn": {
@@ -1194,8 +1193,8 @@
     },
     "51/soybeans": {
       "harvest_usable": 0,
-      "plant_usable": 11,
-      "reason": "insufficient usable years: plant(11<20), harvest(0<20)",
+      "plant_usable": 12,
+      "reason": "insufficient usable years: plant(12<20), harvest(0<20)",
       "status": "OMITTED"
     },
     "51/winter-wheat": {
@@ -1290,5 +1289,5 @@
     }
   },
   "product_name": "NASS planting-window coverage",
-  "refreshed_at": "2026-06-22T11:18:49Z"
+  "refreshed_at": "2026-06-29T11:01:47Z"
 }

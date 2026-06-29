@@ -12,11 +12,11 @@
   "method": "nass-crop-progress-percentile",
   "min_usable_years": 20,
   "product_name": "NASS state usual planting/harvesting windows",
-  "refreshed_at": "2026-06-22T11:18:49Z",
+  "refreshed_at": "2026-06-29T11:01:47Z",
   "source": {
-    "etag": "\"43270bc8-654aa24738aad\"",
-    "publication_date": "2026-06-20",
-    "url": "https://www.nass.usda.gov/datasets/qs.crops_20260620.txt.gz"
+    "etag": "\"432bd01b-65536f71f4bb8\"",
+    "publication_date": "2026-06-27",
+    "url": "https://www.nass.usda.gov/datasets/qs.crops_20260627.txt.gz"
   },
   "thresholds": [
     5,
@@ -537,7 +537,6 @@
     "40/winter-wheat": [
       1987,
       1989,
-      1992,
       1993,
       1995,
       1997,
