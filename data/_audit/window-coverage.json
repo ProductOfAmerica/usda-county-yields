@@ -79,9 +79,9 @@
       "status": "OMITTED"
     },
     "10/winter-wheat": {
-      "harvest_usable": 5,
+      "harvest_usable": 6,
       "plant_usable": 7,
-      "reason": "insufficient usable years: plant(7<20), harvest(5<20)",
+      "reason": "insufficient usable years: plant(7<20), harvest(6<20)",
       "status": "OMITTED"
     },
     "13/corn": {
@@ -182,11 +182,10 @@
       ]
     },
     "17/winter-wheat": {
-      "harvest_usable": 34,
+      "harvest_usable": 35,
       "plant_usable": 38,
       "status": "PRESENT",
       "years": [
-        2004,
         2005,
         2006,
         2007,
@@ -283,7 +282,7 @@
       ]
     },
     "18/winter-wheat": {
-      "harvest_usable": 38,
+      "harvest_usable": 39,
       "plant_usable": 38,
       "status": "PRESENT",
       "years": [
@@ -307,7 +306,8 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ]
     },
     "19/corn": {
@@ -491,9 +491,9 @@
       "status": "OMITTED"
     },
     "24/winter-wheat": {
-      "harvest_usable": 3,
+      "harvest_usable": 4,
       "plant_usable": 6,
-      "reason": "insufficient usable years: plant(6<20), harvest(3<20)",
+      "reason": "insufficient usable years: plant(6<20), harvest(4<20)",
       "status": "OMITTED"
     },
     "25/corn": {
@@ -971,8 +971,8 @@
     },
     "40/soybeans": {
       "harvest_usable": 0,
-      "plant_usable": 10,
-      "reason": "insufficient usable years: plant(10<20), harvest(0<20)",
+      "plant_usable": 11,
+      "reason": "insufficient usable years: plant(11<20), harvest(0<20)",
       "status": "OMITTED"
     },
     "40/winter-wheat": {
@@ -1161,9 +1161,9 @@
       "status": "OMITTED"
     },
     "48/winter-wheat": {
-      "harvest_usable": 10,
+      "harvest_usable": 11,
       "plant_usable": 5,
-      "reason": "insufficient usable years: plant(5<20), harvest(10<20)",
+      "reason": "insufficient usable years: plant(5<20), harvest(11<20)",
       "status": "OMITTED"
     },
     "49/corn": {
@@ -1288,5 +1288,5 @@
     }
   },
   "product_name": "NASS planting-window coverage",
-  "refreshed_at": "2026-07-20T10:24:19Z"
+  "refreshed_at": "2026-07-27T10:34:48Z"
 }
